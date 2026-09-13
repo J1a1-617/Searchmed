@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41065506_tr.json",
+    "source_pmid": "41065506",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41065506_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:04:43",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "LRP1b loss predicts sensitivity to immunotherapy in patients with NSCLC: an analysis of the phase 3 Checkmate 026 randomized trial",
+    "author": "Andrew J Armstrong; Hilary Dietz; David Balli; William J Geese; Chunzhe Duan; Yu-Han Hung; Virginia Ip; Gerald Li; Ryon P Graf; Neal Ready",
+    "date": "2025-12-15"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

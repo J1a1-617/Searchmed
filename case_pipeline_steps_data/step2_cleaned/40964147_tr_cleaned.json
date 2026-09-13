@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40964147_tr.json",
+    "source_pmid": "40964147",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40964147_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:02:03",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Thymol and Carvacrol: Molecular Mechanisms, Therapeutic Potential, and Synergy With Conventional Therapies in Cancer Management",
+    "author": "Ahmad Mujtaba Noman; Muhammad Tauseef Sultan; Shehnshah Zafar; Muhammad Maaz; Aimen Mazhar; Muzzamal Hussain; Muhammad Imran; Ahmed Mujtaba; Muhammad Tajammal Hussain; Suliman A Alsagaby; Waleed Al Abdulmonem; Muhammad Asif Khan; Entessar Al Jbawi",
+    "date": "2025-09-15"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

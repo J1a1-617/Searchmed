@@ -1,0 +1,28 @@
+{
+  "text": "Title: Adenovirus pneumonia mimicking osimertinib‐induced pneumonitis in a patient with advanced NSCLC with EGFR mutation: A case report\nPMID: 10.1111/1759-7714.15250\nAuthors: Imai T, Yoshida T, Ohe Y\n\nAbstract\nDrug‐related pneumonitis (DRP) caused by epidermal growth factor receptor (EGFR)‐tyrosine kinase inhibitors (TKIs) is a fatal adverse event in patients with EGFR‐mutant non‐small cell lung cancer (NSCLC). The diagnosis of DRP is based on radiological findings, the temporal association of presentation with the initiation of a systemic therapeutic agent, and the exclusion of other likely causes. Here we report a case in which severe adenoviral pneumonia mimicking DRP occurred during treatment with osimertinib, and osimertinib was successfully resumed after recovery from adenoviral pneumonia.\nKeywords: adenovirus pneumonia, drug‐related pneumonitis, osimertinib\n\nCASE REPORT\nA 69‐year‐old woman with no history of smoking developed postoperative recurrence of lung adenocarcinoma harboring an EGFR exon 19 deletion mutation. At baseline, she developed multiple bone metastases. The patient received osimertinib 80 mg/day as the initial systemic therapy. Six weeks after treatment initiation, the patient complained of dyspnea. Despite the absence of fever, the patient was admitted for supplemental oxygen therapy due to an oxygen saturation level of 90% on room air. Chest CT revealed multiple ground‐glass opacities (GGOs) in both lungs (Figure 1a). Initially, osimertinib‐induced pneumonitis was suspected, and prednisolone 1 mg/kg (50 mg/day) was initiated. Simultanously, multiplex polymerase chain reaction (PCR: FilmArray RP2.1 bioMérieux) testing for the detection of several viruses including the severe acute respiratory syndrome coronavirus‐2 was performed. The next day, it revealed adenovirus infection. After the initiation of prednisolone therapy, pneumonia and oxygenation levels improved within 1 week. After recovery from adenoviral pneumonia, osimertinib (80 mg/day) was restarted (Figure 1b). Pneumonia did not recur after readministration of osimertinib, and the patient was treated with osimertinib for more than 2 years. The changes in C‐reactive protein (CRP) levels and lymphocyte counts from the first administration of osimertinib, through the episode of hospital admission and discharge for dyspnea, and up to the readministration of osimertinib are shown in Figure 2.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38379439_tr.json",
+    "source_pmid": "38379439",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38379439_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:35:57",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Adenovirus pneumonia mimicking osimertinib‐induced pneumonitis in a patient with advanced NSCLC with EGFR mutation: A case report",
+    "author": "Toru Imai; Tatsuya Yoshida; Yuichiro Ohe",
+    "date": "2024-02-21"
+  },
+  "rejection_reason": null
+}

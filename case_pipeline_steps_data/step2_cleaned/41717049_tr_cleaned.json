@@ -1,0 +1,28 @@
+{
+  "text": "Title: ALK inhibitor response in novel ZFPM2::ALK and TRIM24::ALK fusion-positive lung cancers\nPMID: 100934\nAuthors: Charles Hsu, Mohamed Yakoub, Michael Ofn, Juliana Eng, Alexander Drilon, Soo-Ryum Yang\n\nAbstract\nALK fusion-positive NSCLC is driven by a range of fusion partners, most often EML4::ALK. The clinical impact, oncogenicity, and resistance mechanisms of rare, noncanonical ALK fusions remain underexplored. We describe two previously unreported ALK fusion partners in NSCLC and explore the potential mechanisms of resistance in each case, including on-target and bypass mutations, as well as the use of next-generation sequencing (NGS) testing on cerebrospinal fluid (CSF) as a useful tool.\n\nCase Presentation\nWe report two patients with metastatic NSCLC harboring novel ZFPM2::ALK and TRIM24::ALK fusions. Both patients achieved marked partial responses to first-line alectinib, confirming the oncogenic and actionable nature of the fusions. The patient with ZFPM2::ALK fusion developed leptomeningeal disease after 27 months; CSF NGS revealed persistent fusion and newly acquired CDKN2A/B deletion. The patient with TRIM24::ALK fusion, following durable responses to alectinib and lorlatinib, relapsed with detection of on-target ALK kinase domain mutations (F1174V, I1171N) and MYC amplification on progression.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41717049_tr.json",
+    "source_pmid": "41717049",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41717049_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:31:47",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "ALK Inhibitor Response in Novel ZFPM2::ALK and TRIM24::ALK Fusion-Positive Lung Cancers: Case Report",
+    "author": "Charles Hsu; Mohamed Yakoub; Michael Offin; Juliana Eng; Alexander Drilon; Soo-Ryum Yang",
+    "date": "2025-11-21"
+  },
+  "rejection_reason": null
+}

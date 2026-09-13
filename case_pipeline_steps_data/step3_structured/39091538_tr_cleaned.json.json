@@ -1,0 +1,120 @@
+{
+  "provenance": {
+    "source_filename": "39091538_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 47,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2014-01",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "doxorubicin",
+          "cyclophosphamide"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "doxorubicin": null,
+          "cyclophosphamide": null
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2014-06",
+      "event_type": "diagnosis + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "partial hepatectomy"
+        ],
+        "type": "surgery",
+        "dosage": {}
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2014",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "resection",
+          "radiotherapy",
+          "mastectomy",
+          "TCH",
+          "tamoxifen"
+        ],
+        "type": "combined",
+        "dosage": {
+          "TCH": null,
+          "tamoxifen": null
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2016",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "left inferior lobectomy",
+          "pemetrexed",
+          "cisplatin"
+        ],
+        "type": "combined",
+        "dosage": {
+          "pemetrexed": null,
+          "cisplatin": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 24
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 24,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with Li-Fraumeni syndrome and EGFR-mutated lung adenocarcinoma",
+      "Good response to treatment with lobectomy and chemotherapy",
+      "Two years free of relapse post-treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

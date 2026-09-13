@@ -1,0 +1,143 @@
+{
+  "provenance": {
+    "source_filename": "39555453_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 60,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "cough",
+      "fatigue"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT1bN3M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "lungs",
+      "liver"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR 19 E746_A750del(1)"
+        ],
+        "sample": "tumor in the right lung"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "furmonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "furmonertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 27
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "BRAF V600E"
+        ],
+        "sample": "tumor liver tissue"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "dabrafenib",
+          "trametinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "dabrafenib": "150 mg twice daily",
+          "trametinib": "2 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR18-G719X"
+        ],
+        "sample": "peripheral blood"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": "250 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 20
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ALK-fusion"
+        ],
+        "sample": "progression lung tumor"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "Alectinib"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Acquired BRAF-mutation and ALK-fusion as mechanisms of resistance to EGFR-TKIs",
+      "Effective treatment with targeted therapies leading to improved patient outcomes"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

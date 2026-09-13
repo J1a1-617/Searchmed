@@ -1,0 +1,95 @@
+{
+  "provenance": {
+    "source_filename": "38711902_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 82,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "left-sided limb weakness"
+    ],
+    "diagnosis_date": "2022-02",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT3N0M1b",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-02",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS G12C",
+          "NF1 C4110 + 2T",
+          "STK11 P281Afs",
+          "AR Y572C"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "sotorasib",
+          "SBRT"
+        ],
+        "type": "targeted + radiation",
+        "dosage": {
+          "sotorasib": "960 mg q.d.",
+          "SBRT": "52.5 Gy/15 fpt q.o.d."
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "2022-07",
+      "event_type": "treatment assessment",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "PR",
+        "duration_months": 5
+      }
+    },
+    {
+      "time": "2023-03",
+      "event_type": "treatment assessment",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "SD",
+        "duration_months": 8
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "KRAS G12C mutation identified",
+      "Significant partial remission after 4 months of sotorasib",
+      "Stable disease for nearly 9 months follow-up with no adverse events"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

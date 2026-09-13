@@ -1,0 +1,92 @@
+{
+  "provenance": {
+    "source_filename": "38595815_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.95
+  },
+  "baseline_clinical_profile": {
+    "age": 65,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "chest pain",
+      "shoulder pain",
+      "back pain"
+    ],
+    "diagnosis_date": "2022-04",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC8TH",
+    "tnm_stage": "T4N3M0",
+    "overall_stage": "IIIC",
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": [
+      "right lung",
+      "mediastinal lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-04",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR-MACF1 fusion",
+          "EGFR amplification"
+        ],
+        "sample": "tissue"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2022-05",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "almonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "almonertinib": "110 mg/day"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 9
+      }
+    },
+    {
+      "time": "2023-01",
+      "event_type": "follow_up + imaging",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      },
+      "safety": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "severe lung infection and systemic multiple organ failure",
+    "last_follow_up": "2022-06"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient 1 showed partial response to almonertinib with significant tumor shrinkage.",
+      "Patient 2 experienced progression after initial treatment and died within 7 months."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

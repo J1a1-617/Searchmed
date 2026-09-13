@@ -1,0 +1,28 @@
+{
+  "text": "Title: Co-existence of BRAF V600E mutation, c-MET amplification and TPM4-ALK fusion in a colorectal cancer patient: a case report\nPMID: \nAuthors: \n\nAbstract\nColorectal cancer (CRC) with the Raf murine sarcoma viral oncogene homolog B (BRAF) V600E had a relatively poor prognosis. Anaplastic lymphoma kinase (ALK) fusion and the mesenchymal-to-epithelial transition factor (MET) amplification have been recognized as potentially important therapeutic targets in non-small cell lung cancer (NSCLC). However, both of them are of extremely lower frequencies (<2%) in metastatic CRC, and few studies have mentioned the real application of their inhibitors in CRC treatment.\n\nCase Description\nA 49-year-old Chinese male was diagnosed with ascending colon adenocarcinoma (cT3N+?M1) with liver metastases. The patient performed next-generation sequencing (NGS) using tissue and circulating tumor DNA (ctDNA), and the results showed a BRAF V600E mutation. He received an initial combination treatment with cetuximab, dabrafenib, and trametinib with a partial response (PR) assessment. We changed the therapy regimen on this patient several times because of the patient’s intolerance to the drugs or the inefficacy of the treatment. During this period, we detected the c-MET amplification and tropomyosin 4 (TPM4)-ALK fusion by NGS after triplet targeted therapy (tislelizumab, dabrafenib, and trametinib), thus he was finally treated with programmed cell death protein 1 (PD-1) inhibitor (tislelizumab), MET/ALK inhibitor (crizotinib) plus multikinase inhibitor (regorafenib). Imageological examinations showed that PR was achieved and ctDNA sequencing results indicated a significantly reduced BRAF mutation frequency, MET amplification and TPM4-ALK fusion were undetectable. NGS analysis of peripheral blood showed a recurrence of the MET acquired resistant amplification mutation over 2 months of ongoing treatment. but the patient was assessed as PR and still under treatment of crizotinib, tislelizumab and regorafenib within good physical condition. At the last follow-up on October 2021, the patient died of symptomatic treatment fail for obstructive jaundice. The patient finally achieved 11 months overall survival.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38711893_tr.json",
+    "source_pmid": "38711893",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38711893_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:42:05",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Partial response to crizotinib + regorafenib + PD-1 inhibitor in a metastatic BRAF V600EMT colon cancer patient with acquired C-MET amplification and TPM4-ALK fusion: a case report",
+    "author": "Yingying Huang; Shuai Zhang; Xueqing Hu; Xiangyang Wang; Yunbo Zhao; Zhongkang Li",
+    "date": "2024-04-01"
+  },
+  "rejection_reason": null
+}

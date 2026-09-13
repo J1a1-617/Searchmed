@@ -1,0 +1,107 @@
+{
+  "provenance": {
+    "source_filename": "34164277_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 62,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 40,
+    "presenting_symptoms": [
+      "bloody sputum"
+    ],
+    "diagnosis_date": "2020-XX",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "T2aN0M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-XX",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS p.Gly13Asp",
+          "TP53 p.Thr125Pro"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2020-XX",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pemetrexed",
+          "nedaplatin",
+          "pembrolizumab"
+        ],
+        "type": "immuno-chemotherapy",
+        "dosage": {
+          "pemetrexed": "500 mg/m2, d1",
+          "nedaplatin": "75 mg/m2, d1",
+          "pembrolizumab": "100 mg, d1"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      },
+      "safety": {
+        "adverse_events": [
+          "fatigue",
+          "gastrointestinal discomfort"
+        ]
+      }
+    },
+    {
+      "time": "2020-XX",
+      "event_type": "surgery + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "post-surgery",
+        "regimen": [
+          "platinum-based immuno-chemotherapy"
+        ],
+        "type": "immuno-chemotherapy",
+        "dosage": null
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 22
+      },
+      "safety": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 22,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2022-XX"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Complete response in brain oligometastatic lung adenocarcinoma after immuno-chemotherapy and surgical resection",
+      "KRAS and TP53 co-mutation with negative PD-L1 expression",
+      "Significant decrease in serum CEA levels"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

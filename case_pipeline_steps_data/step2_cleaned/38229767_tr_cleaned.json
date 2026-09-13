@@ -1,0 +1,28 @@
+{
+  "text": "Title: HIP1-ALK–rearranged lung cancer in a young adult with BRAF V600E mutation detected after ALK tyrosine kinase inhibitor therapy: a case report\nPMID: null\nAuthors: Aiko Ogimoto, Naoko Katsurada, Atsuhiko Yatani, Chihiro Mimura, Masatsugu Yamamoto, Motoko Tachihara\n\nAbstract\nHIP1-ALK is a relatively rare fusion pattern in ALK-rearranged NSCLC. Existing studies on the efficacy of ALK tyrosine kinase inhibitor (TKI) resistance mechanisms and treatment strategies in HIP1-ALK–rearranged lung cancer are limited. Here, we report the case of an 18-year-old man with HIP1-ALK–rearranged adenocarcinoma who developed BRAF V600E and V1180L mutations after ALK TKI therapy, in whom the administration of BRAF and MEK inhibitors was ineffective. Brigatinib was effective after chemotherapy with cytotoxic drugs. Development of effective treatments is desirable for rare variants of ALK-rearranged lung cancer after acquiring resistance to ALK TKIs.\n\nCase Presentation\nA 16-year-old man with no pertinent medical history who visited our hospital with the chief complaint of dyspnea was diagnosed with having advanced lung adenocarcinoma (cT3N0M1a stage IVA) with a mass in the right middle lobe of the lung, right pleural effusion, and pericardial effusion. Owing to the urgency of the condition, carboplatin plus nab-paclitaxel was initiated as first-line treatment before the results of oncogenic driver alterations were obtained. After one course of chemotherapy, the patient was identified as ALK positive by immunohistochemistry of formalin-fixed, paraffin-embedded tumor sections, and second-line treatment with alectinib was initiated. The best treatment response with alectinib was a partial response (according to the Response Evaluation Criteria in Solid Tumors guidelines version 1.1). After the increase in pericardial effusion after 14 months, third-line treatment with lorlatinib was initiated. The best treatment response to lorlatinib was stable disease. A further increase in pericardial effusion was observed after 5 months, necessitating pericardial drainage. Next-generation sequencing (NGS) using Oncomine Precision Assay on Ion Torrent Genexus System (Thermo Fisher Scientific, San Francisco, CA) of the pericardial effusion revealed HIP1-ALK fusion (H30; A20), BRAF V600E (variant allele fraction: 13.56%), and V1180L mutation for ALK (variant allele fraction: 11.92%). The initial diagnostic specimen analyzed using the Oncomine Dx Target Test (Thermo Fisher Scientific, San Francisco, CA) multi-CDx System revealed no ALK fusion gene, ALK mutation, or BRAF V600E. One month after the initiation of dabrafenib and trametinib as the fourth-line treatment, reaccumulation of pericardial effusion worsened, and enlargement of the mass in the right middle lobe was observed. Subsequently, carboplatin plus paclitaxel was started as the fifth-line treatment. With an increase in pericardial effusion after 6 weeks, carboplatin plus pemetrexed plus bevacizumab was started as the sixth-line treatment. The best treatment response was a stable disease. Abdominal distention and increased ascites were reported after 7 months. Cytologic examination of ascitic fluid revealed the presence of malignant cells. Brigatinib was started as the seventh-line treatment, resulting in improved abdominal distention within a week and a reduction in ascitic fluid, as observed on computed tomography after 2 months.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38229767_tr.json",
+    "source_pmid": "38229767",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38229767_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:34:57",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "HIP1-ALK–Rearranged Lung Cancer in a Young Adult With BRAF V600E Mutation Detected After ALK Tyrosine Kinase Inhibitor Therapy: A Case Report",
+    "author": "Aiko Ogimoto; Naoko Katsurada; Atsuhiko Yatani; Chihiro Mimura; Masatsugu Yamamoto; Motoko Tachihara",
+    "date": "2023-11-25"
+  },
+  "rejection_reason": null
+}

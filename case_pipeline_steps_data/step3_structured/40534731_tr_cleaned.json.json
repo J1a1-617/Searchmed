@@ -1,0 +1,212 @@
+{
+  "provenance": {
+    "source_filename": "40534731_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 54,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "worsening lower back pain"
+    ],
+    "diagnosis_date": "2022-09",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes",
+      "supraclavicular lymph nodes",
+      "L1–L3 vertebral bodies",
+      "R iliac bone"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-09",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR-KDD"
+        ],
+        "sample": "liquid biopsy"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2022-10",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "pembrolizumab"
+        ],
+        "type": "triplet chemotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "pemetrexed": null,
+          "pembrolizumab": null
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "severe nausea",
+          "vomiting",
+          "subacute rash",
+          "acute lower extremity peripheral neuropathy"
+        ],
+        "dose_adjustments": [
+          "cessation of pembrolizumab"
+        ]
+      }
+    },
+    {
+      "time": "2023-01",
+      "event_type": "treatment + progression",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "cisplatin",
+          "docetaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "cisplatin": null,
+          "docetaxel": null
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2023-04",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "durvalumab",
+          "tremelimumab"
+        ],
+        "type": "dual checkpoint inhibition",
+        "dosage": {
+          "durvalumab": null,
+          "tremelimumab": null
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "CVA of the left middle cerebral artery"
+        ],
+        "dose_adjustments": null
+      }
+    },
+    {
+      "time": "2023-11",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR-KDD"
+        ],
+        "sample": "liquid biopsy"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted therapy",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 5
+      }
+    },
+    {
+      "time": "2023-12",
+      "event_type": "treatment + safety",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted therapy",
+        "dosage": {
+          "osimertinib": "40 mg daily"
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "progressive nausea",
+          "emesis"
+        ],
+        "dose_adjustments": [
+          "temporarily withheld"
+        ]
+      }
+    },
+    {
+      "time": "2024-01",
+      "event_type": "treatment + progression",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted therapy",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 2
+      },
+      "safety": {
+        "adverse_events": [
+          "new elevated transaminases",
+          "symptomatic anemia"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 5,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "2024-03",
+    "treatment_discontinuation_reason": "hospice care"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Rare EGFR-KDD mutation identified via liquid biopsy",
+      "Significant clinical improvement with osimertinib",
+      "Complex treatment history with multiple therapies"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

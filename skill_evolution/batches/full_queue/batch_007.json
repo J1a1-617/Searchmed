@@ -1,0 +1,876 @@
+[
+  {
+    "instance_id": "case_07_node_3",
+    "case_id": "case_07",
+    "time_cutoff": "2022-04-22",
+    "node_description": "开始二线化疗方案：培美曲塞+卡铂+贝伐珠单抗",
+    "input": {
+      "disease_background": {
+        "diagnosis": "左肺腺癌T4N3M1 IV期",
+        "metastatic_sites": [
+          "脑",
+          "肺",
+          "纵隔淋巴结",
+          "脾"
+        ],
+        "molecular_profile": {
+          "primary_mutation": "KRAS G12C",
+          "resistance_mutations": [],
+          "bypass_alterations": [],
+          "co_mutations": [
+            "TP53"
+          ]
+        }
+      },
+      "prior_treatment_timeline": [
+        {
+          "regimen": "阿来替尼",
+          "start_date": "2021-10-16",
+          "end_date": "2022-03-21",
+          "best_response": "SD",
+          "reason_for_discontinuation": "肺部病灶增大＞20%，脾脏新发病灶，考虑进展"
+        }
+      ],
+      "current_status": {
+        "symptoms": [],
+        "imaging": "肺部病灶增大＞20%，脾脏新发病灶",
+        "csf": "脑脊液未见肿瘤细胞",
+        "performance_status": "ECOG 1"
+      },
+      "planned_treatment": {
+        "drugs": [
+          {
+            "name": "培美曲塞",
+            "dose": "900mg d1",
+            "route": "静滴"
+          },
+          {
+            "name": "卡铂",
+            "dose": "600mg d1",
+            "route": "静滴"
+          },
+          {
+            "name": "贝伐珠单抗",
+            "dose": "500mg d1",
+            "route": "静滴"
+          }
+        ],
+        "combination_strategy": "三药联合化疗"
+      }
+    },
+    "ground_truth": {
+      "overall_benefit": "有限获益或稳定",
+      "body_lesion_recist": "SD",
+      "cns_lm_recist": "NA",
+      "csf_trajectory": "未评估",
+      "symptom_trajectory": "部分改善",
+      "toxicity": {
+        "ctcae_grade": 2,
+        "max_grade": 2,
+        "event": "肝功能异常",
+        "has_toxicity_record": true,
+        "requires_dose_modification": false
+      },
+      "key_evidence_items": [
+        "治疗过程顺利，未见明显进展",
+        "肝功能异常，三胆升高"
+      ],
+      "pfs_months": null,
+      "os_months": null,
+      "os_censored": true,
+      "na_flags": {
+        "csf_trajectory": true,
+        "cns_lm_recist": true,
+        "body_lesion_recist": false,
+        "symptom_trajectory": false
+      }
+    },
+    "task_type": "antitumor",
+    "rag_stratum": "retrieval"
+  },
+  {
+    "instance_id": "case_08_node_3",
+    "case_id": "case_08",
+    "time_cutoff": "2025-09-15",
+    "node_description": "奥希替尼联合培美曲塞维持治疗",
+    "input": {
+      "disease_background": {
+        "diagnosis": "左肺腺癌术后复发转移，伴脑转移，EGFR L858R突变，PD-L1阴性",
+        "metastatic_sites": [
+          "脑"
+        ],
+        "molecular_profile": {
+          "primary_mutation": "EGFR L858R",
+          "resistance_mutations": [],
+          "bypass_alterations": [],
+          "co_mutations": [
+            "MDM2扩增",
+            "NF1 p.D1837N",
+            "GNA11 p.V223E"
+          ]
+        }
+      },
+      "prior_treatment_timeline": [
+        {
+          "regimen": "奥希替尼联合PC方案化疗",
+          "start_date": "2025-03-20",
+          "end_date": "2025-08",
+          "best_response": "SD",
+          "reason_for_discontinuation": "化疗完成，转维持治疗"
+        }
+      ],
+      "current_status": {
+        "symptoms": [
+          "颅内转移瘤"
+        ],
+        "imaging": "胸部CT及头部增强MRI大致同前",
+        "csf": "未评估",
+        "performance_status": "ECOG 0"
+      },
+      "planned_treatment": {
+        "drugs": [
+          {
+            "name": "奥希替尼",
+            "dose": "80mg",
+            "route": "口服"
+          },
+          {
+            "name": "培美曲塞",
+            "dose": "980mg",
+            "route": "静滴"
+          }
+        ],
+        "combination_strategy": "靶向治疗联合维持化疗"
+      }
+    },
+    "ground_truth": {
+      "overall_benefit": "有限获益或稳定",
+      "body_lesion_recist": "SD",
+      "cns_lm_recist": "SD",
+      "csf_trajectory": "未评估",
+      "symptom_trajectory": "无变化",
+      "toxicity": {
+        "ctcae_grade": 3,
+        "max_grade": 3,
+        "event": "骨髓抑制",
+        "has_toxicity_record": true,
+        "requires_dose_modification": false
+      },
+      "key_evidence_items": [
+        "2025-09-22 PLT 77；2025-09-26 WBC 2.08*109/L、NEUT 0.64*109/L",
+        "2025-10评效：胸部CT及头部增强MRI大致同前，评效SD"
+      ],
+      "pfs_months": null,
+      "os_months": 1.2,
+      "os_censored": true,
+      "na_flags": {
+        "csf_trajectory": true,
+        "cns_lm_recist": false,
+        "body_lesion_recist": false,
+        "symptom_trajectory": false
+      }
+    },
+    "task_type": "antitumor",
+    "rag_stratum": "retrieval"
+  },
+  {
+    "instance_id": "case_09_node_3",
+    "case_id": "case_09",
+    "time_cutoff": "2024-08-23",
+    "node_description": "停用化疗，免疫单药维持治疗",
+    "input": {
+      "disease_background": {
+        "diagnosis": "肺腺癌 T2N3M1 IV期，脑转移",
+        "metastatic_sites": [
+          "脑",
+          "淋巴结"
+        ],
+        "molecular_profile": {
+          "primary_mutation": "KRAS pG12V",
+          "resistance_mutations": [],
+          "bypass_alterations": [],
+          "co_mutations": [
+            "TP53",
+            "NF2",
+            "BARD1"
+          ]
+        }
+      },
+      "prior_treatment_timeline": [
+        {
+          "regimen": "卡瑞利珠单抗 200mg d1 + 培美曲塞 800mg d1",
+          "start_date": "2024-01-02",
+          "end_date": "2024-07-19",
+          "best_response": "PR",
+          "reason_for_discontinuation": "肾功能恶化"
+        }
+      ],
+      "current_status": {
+        "symptoms": [
+          "贫血改善",
+          "肾功能恶化"
+        ],
+        "imaging": "胸部病灶维持PR，颅内维持PR",
+        "csf": "未评估",
+        "performance_status": "ECOG 1"
+      },
+      "planned_treatment": {
+        "drugs": [
+          {
+            "name": "卡瑞利珠单抗",
+            "dose": "200mg",
+            "route": "静滴"
+          }
+        ],
+        "combination_strategy": "免疫单药维持治疗"
+      }
+    },
+    "ground_truth": {
+      "overall_benefit": "明显获益",
+      "body_lesion_recist": "PR",
+      "cns_lm_recist": "PR",
+      "csf_trajectory": "未评估",
+      "symptom_trajectory": "部分改善",
+      "toxicity": {
+        "ctcae_grade": 2,
+        "max_grade": 2,
+        "event": "免疫相关性甲减",
+        "has_toxicity_record": true,
+        "requires_dose_modification": false
+      },
+      "key_evidence_items": [
+        "2024-09-23复查肺部病灶维持PR，颅内维持PR",
+        "2025-06新发免疫相关性甲减，治疗后好转"
+      ],
+      "pfs_months": null,
+      "os_months": 11.0,
+      "os_censored": true,
+      "na_flags": {
+        "csf_trajectory": true,
+        "cns_lm_recist": false,
+        "body_lesion_recist": false,
+        "symptom_trajectory": false
+      }
+    },
+    "task_type": "antitumor",
+    "rag_stratum": "retrieval"
+  },
+  {
+    "instance_id": "case_10_node_3",
+    "case_id": "case_10",
+    "time_cutoff": "2023-12-01",
+    "node_description": "四线治疗从伏美替尼换为PC+贝伐单抗",
+    "input": {
+      "disease_background": {
+        "diagnosis": "右肺腺癌术后，脑转移，IV期",
+        "metastatic_sites": [
+          "脑",
+          "肺",
+          "锁骨上淋巴结"
+        ],
+        "molecular_profile": {
+          "primary_mutation": "EGFR L858R",
+          "resistance_mutations": [
+            "EGFR L718V"
+          ],
+          "bypass_alterations": [
+            "EGFR-LANCL2融合",
+            "EGFR扩增"
+          ],
+          "co_mutations": [
+            "TP53"
+          ]
+        }
+      },
+      "prior_treatment_timeline": [
+        {
+          "regimen": "伏美替尼 160mg QD",
+          "start_date": "2022-09",
+          "end_date": "2023-08",
+          "best_response": "PR",
+          "reason_for_discontinuation": "脑转移进展，停药"
+        }
+      ],
+      "current_status": {
+        "symptoms": [
+          "憋气",
+          "头痛"
+        ],
+        "imaging": "颅内PD，锁骨上淋巴结活检提示肺腺癌转移",
+        "csf": "未评估",
+        "performance_status": "ECOG 1"
+      },
+      "planned_treatment": {
+        "drugs": [
+          {
+            "name": "培美曲塞",
+            "dose": "700mg",
+            "route": "静滴"
+          },
+          {
+            "name": "卡铂",
+            "dose": "300mg",
+            "route": "静滴"
+          },
+          {
+            "name": "贝伐珠单抗",
+            "dose": "300mg",
+            "route": "静滴"
+          }
+        ],
+        "combination_strategy": "化疗联合抗血管治疗"
+      }
+    },
+    "ground_truth": {
+      "overall_benefit": "有限获益或稳定",
+      "body_lesion_recist": "SD",
+      "cns_lm_recist": "SD",
+      "csf_trajectory": "未评估",
+      "symptom_trajectory": "部分改善",
+      "toxicity": {
+        "ctcae_grade": 2,
+        "max_grade": 2,
+        "event": "恶心、呕吐",
+        "has_toxicity_record": true,
+        "requires_dose_modification": false
+      },
+      "key_evidence_items": [
+        "2024-07肺部PD，头部稳定"
+      ],
+      "pfs_months": 7,
+      "os_months": null,
+      "os_censored": true,
+      "na_flags": {
+        "csf_trajectory": true,
+        "cns_lm_recist": false,
+        "body_lesion_recist": false,
+        "symptom_trajectory": false
+      }
+    },
+    "task_type": "antitumor",
+    "rag_stratum": "retrieval"
+  },
+  {
+    "instance_id": "case_12_node_3",
+    "case_id": "case_12",
+    "time_cutoff": "2021-11-16",
+    "node_description": "鞘内注射培美曲塞40mg",
+    "input": {
+      "disease_background": {
+        "diagnosis": "左肺非小细胞癌 IV期",
+        "metastatic_sites": [
+          "脑",
+          "脑膜"
+        ],
+        "molecular_profile": {
+          "primary_mutation": "EML4-ALK融合",
+          "resistance_mutations": [],
+          "bypass_alterations": [],
+          "co_mutations": []
+        }
+      },
+      "prior_treatment_timeline": [
+        {
+          "regimen": "阿来替尼 600mg bid",
+          "start_date": "2019-12",
+          "end_date": "2021-11",
+          "best_response": "SD",
+          "reason_for_discontinuation": "脑膜转移进展"
+        },
+        {
+          "regimen": "γ刀治疗",
+          "start_date": "2021-07",
+          "end_date": "2021-08",
+          "best_response": "SD",
+          "reason_for_discontinuation": "颅内转移瘤稳定"
+        }
+      ],
+      "current_status": {
+        "symptoms": [
+          "头痛头晕",
+          "纳差",
+          "全身疼痛"
+        ],
+        "imaging": "颅内多发转移瘤增多，脑膜多发强化",
+        "csf": "脑脊液蛋白含量增高，细胞学提示少许上皮细胞",
+        "performance_status": "ECOG 1-2"
+      },
+      "planned_treatment": {
+        "drugs": [
+          {
+            "name": "培美曲塞",
+            "dose": "40mg",
+            "route": "鞘内注射"
+          }
+        ],
+        "combination_strategy": "局部治疗：鞘内注射"
+      }
+    },
+    "ground_truth": {
+      "overall_benefit": "进展或有害",
+      "body_lesion_recist": "NA",
+      "cns_lm_recist": "PD",
+      "csf_trajectory": "上升",
+      "symptom_trajectory": "加重",
+      "toxicity": {
+        "ctcae_grade": 2,
+        "max_grade": 2,
+        "event": "头痛加重",
+        "has_toxicity_record": true,
+        "requires_dose_modification": false
+      },
+      "key_evidence_items": [
+        "2021-12 MRI显示脑膜转移进展",
+        "患者头痛症状加重"
+      ],
+      "pfs_months": 1,
+      "os_months": null,
+      "os_censored": true,
+      "na_flags": {
+        "csf_trajectory": false,
+        "cns_lm_recist": false,
+        "body_lesion_recist": true,
+        "symptom_trajectory": false
+      },
+      "benefit_rebalance_reason": "2021-12 MRI显示脑膜转移进展，患者头痛症状加重，明确提示疾病进展，应调整为进展或有害。"
+    },
+    "task_type": "local_procedure",
+    "rag_stratum": "nonsystemic"
+  },
+  {
+    "instance_id": "case_13_node_2",
+    "case_id": "case_13",
+    "time_cutoff": "2022-07-25",
+    "node_description": "脑转移后首次伽马刀治疗",
+    "input": {
+      "disease_background": {
+        "diagnosis": "肺鳞癌 rT4N2M1 IV期",
+        "metastatic_sites": [
+          "脑"
+        ],
+        "molecular_profile": {
+          "primary_mutation": "NFE2L2、TP53、CEBPA、NF1、CDKN2A、DDR2、PDLD1、ATRX、CREBBP",
+          "resistance_mutations": [],
+          "bypass_alterations": [],
+          "co_mutations": [
+            "TP53"
+          ]
+        }
+      },
+      "prior_treatment_timeline": [
+        {
+          "regimen": "白蛋白紫杉醇 400mg d1 + 卡铂 300mg d1 + 替雷利珠单抗",
+          "start_date": "2022-02-12",
+          "end_date": "2022-03-04",
+          "best_response": "PR",
+          "reason_for_discontinuation": "手术"
+        },
+        {
+          "regimen": "白蛋白紫杉醇 300mg d1 + 卡铂 300mg d1 + 替雷利珠单抗",
+          "start_date": "2022-04",
+          "end_date": "2022-05-27",
+          "best_response": "NA",
+          "reason_for_discontinuation": "毒性（消化道反应）"
+        },
+        {
+          "regimen": "替雷利珠单抗免疫维持",
+          "start_date": "2022-06",
+          "end_date": "2022-08",
+          "best_response": "NA",
+          "reason_for_discontinuation": "脑转移"
+        }
+      ],
+      "current_status": {
+        "symptoms": [
+          "头晕",
+          "头痛",
+          "恶心",
+          "呕吐"
+        ],
+        "imaging": "右前额叶孤立性占位，周边剂量13Gy，中心剂量26Gy",
+        "csf": "未评估",
+        "performance_status": "ECOG 1"
+      },
+      "planned_treatment": {
+        "drugs": [
+          {
+            "name": "伽玛刀",
+            "dose": "中心剂量26Gy，周边剂量13Gy",
+            "route": "局部放疗"
+          },
+          {
+            "name": "甘露醇",
+            "dose": "NA",
+            "route": "静脉注射"
+          },
+          {
+            "name": "地塞米松",
+            "dose": "NA",
+            "route": "静脉注射"
+          }
+        ],
+        "combination_strategy": "伽马刀治疗联合脱水治疗缓解脑水肿"
+      }
+    },
+    "ground_truth": {
+      "overall_benefit": "有限获益或稳定",
+      "body_lesion_recist": "NA",
+      "cns_lm_recist": "PR",
+      "csf_trajectory": "未评估",
+      "symptom_trajectory": "部分改善",
+      "toxicity": {
+        "ctcae_grade": 2,
+        "max_grade": 2,
+        "event": "头晕、头痛",
+        "has_toxicity_record": true,
+        "requires_dose_modification": false
+      },
+      "key_evidence_items": [
+        "影像学提示脑转移病灶缩小",
+        "症状有所缓解"
+      ],
+      "pfs_months": 2,
+      "os_months": null,
+      "os_censored": true,
+      "na_flags": {
+        "csf_trajectory": true,
+        "cns_lm_recist": false,
+        "body_lesion_recist": true,
+        "symptom_trajectory": false
+      }
+    },
+    "task_type": "local_procedure",
+    "rag_stratum": "nonsystemic"
+  },
+  {
+    "instance_id": "case_14_node_3",
+    "case_id": "case_14",
+    "time_cutoff": "2022-02-01",
+    "node_description": "开始胸部、纵膈及锁骨上淋巴结局部放疗",
+    "input": {
+      "disease_background": {
+        "diagnosis": "右肺腺癌cT2N3M1,IV期",
+        "metastatic_sites": [
+          "肺",
+          "淋巴结",
+          "肾上腺"
+        ],
+        "molecular_profile": {
+          "primary_mutation": "EGFR G719S, S768I",
+          "resistance_mutations": [],
+          "bypass_alterations": [],
+          "co_mutations": [
+            "TP53"
+          ]
+        }
+      },
+      "prior_treatment_timeline": [
+        {
+          "regimen": "贝伐珠单抗+纳武利尤单抗",
+          "start_date": "2021-11-24",
+          "end_date": "2022-01-21",
+          "best_response": "SD",
+          "reason_for_discontinuation": "局部进展"
+        }
+      ],
+      "current_status": {
+        "symptoms": [],
+        "imaging": "右侧锁骨上淋巴结新发转移",
+        "csf": "未评估",
+        "performance_status": "ECOG 0-1"
+      },
+      "planned_treatment": {
+        "drugs": [
+          {
+            "name": "伽马刀",
+            "dose": "NA",
+            "route": "局部放疗"
+          },
+          {
+            "name": "贝伐珠单抗",
+            "dose": "300mg",
+            "route": "静脉注射"
+          },
+          {
+            "name": "纳武利尤单抗",
+            "dose": "140mg",
+            "route": "静脉注射"
+          }
+        ],
+        "combination_strategy": "局部放疗联合免疫治疗（贝伐珠单抗+纳武利尤单抗）"
+      }
+    },
+    "ground_truth": {
+      "overall_benefit": "有限获益或稳定",
+      "body_lesion_recist": "SD",
+      "cns_lm_recist": "NA",
+      "csf_trajectory": "未评估",
+      "symptom_trajectory": "无变化",
+      "toxicity": {
+        "ctcae_grade": 2,
+        "max_grade": 2,
+        "event": "放射性皮炎",
+        "has_toxicity_record": true,
+        "requires_dose_modification": false
+      },
+      "key_evidence_items": [
+        "2022-04复查提示肺部病灶稳定，锁骨上淋巴结无明显变化"
+      ],
+      "pfs_months": 3,
+      "os_months": null,
+      "os_censored": true,
+      "na_flags": {
+        "csf_trajectory": true,
+        "cns_lm_recist": true,
+        "body_lesion_recist": false,
+        "symptom_trajectory": false
+      }
+    },
+    "task_type": "antitumor",
+    "rag_stratum": "retrieval"
+  },
+  {
+    "instance_id": "case_15_node_3",
+    "case_id": "case_15",
+    "time_cutoff": "2025-10-14",
+    "node_description": "新增唑来膦酸4mg治疗骨转移",
+    "input": {
+      "disease_background": {
+        "diagnosis": "左肺腺癌cT4N3M1,IV期，脑转移，骨转移",
+        "metastatic_sites": [
+          "脑",
+          "骨"
+        ],
+        "molecular_profile": {
+          "primary_mutation": "EGFR 19del",
+          "resistance_mutations": [],
+          "bypass_alterations": [],
+          "co_mutations": [
+            "CTNNB1",
+            "GNAS"
+          ]
+        }
+      },
+      "prior_treatment_timeline": [
+        {
+          "regimen": "伏美替尼160mg qd",
+          "start_date": "2024-06-14",
+          "end_date": "2025-10-14",
+          "best_response": "PR",
+          "reason_for_discontinuation": "继续治疗"
+        },
+        {
+          "regimen": "贝伐珠单抗400mg",
+          "start_date": "2025-02-20",
+          "end_date": "2025-10-14",
+          "best_response": "SD",
+          "reason_for_discontinuation": "继续治疗"
+        }
+      ],
+      "current_status": {
+        "symptoms": [
+          "骨痛"
+        ],
+        "imaging": "脊椎、肋骨、骨盆多发骨质破坏及成骨改变",
+        "csf": "未评估",
+        "performance_status": "ECOG 1"
+      },
+      "planned_treatment": {
+        "drugs": [
+          {
+            "name": "唑来膦酸",
+            "dose": "4mg",
+            "route": "静滴"
+          }
+        ],
+        "combination_strategy": "联合治疗"
+      }
+    },
+    "ground_truth": {
+      "overall_benefit": "有限获益或稳定",
+      "body_lesion_recist": "SD",
+      "cns_lm_recist": "NA",
+      "csf_trajectory": "未评估",
+      "symptom_trajectory": "部分改善",
+      "toxicity": {
+        "ctcae_grade": 2,
+        "max_grade": 2,
+        "event": "骨痛轻度缓解，偶发疲乏",
+        "has_toxicity_record": true,
+        "requires_dose_modification": false
+      },
+      "key_evidence_items": [
+        "2026.1复查：骨转移病灶无明显进展，症状有所缓解"
+      ],
+      "pfs_months": null,
+      "os_months": 3.5,
+      "os_censored": true,
+      "na_flags": {
+        "csf_trajectory": true,
+        "cns_lm_recist": true,
+        "body_lesion_recist": false,
+        "symptom_trajectory": false
+      }
+    },
+    "task_type": "supportive",
+    "rag_stratum": "nonsystemic"
+  },
+  {
+    "instance_id": "case_16_node_3",
+    "case_id": "case_16",
+    "time_cutoff": "2025-11-01",
+    "node_description": "因血小板减少暂停贝伐珠单抗，继续奥希替尼单药治疗",
+    "input": {
+      "disease_background": {
+        "diagnosis": "肺腺癌术后II期→IV期，脑转移，EGFR L858R突变，PD-L1阴性",
+        "metastatic_sites": [
+          "脑"
+        ],
+        "molecular_profile": {
+          "primary_mutation": "EGFR L858R",
+          "resistance_mutations": [],
+          "bypass_alterations": [],
+          "co_mutations": [
+            "TP53"
+          ]
+        }
+      },
+      "prior_treatment_timeline": [
+        {
+          "regimen": "奥希替尼 80mg Qd + 贝伐珠单抗 400mg Q4w",
+          "start_date": "2025-05-30",
+          "end_date": "2025-11",
+          "best_response": "PR",
+          "reason_for_discontinuation": "毒性（血小板减少）"
+        }
+      ],
+      "current_status": {
+        "symptoms": [
+          "无明显症状"
+        ],
+        "imaging": "头MRI示左额顶叶病灶较前无明显变化",
+        "csf": "未评估",
+        "performance_status": "ECOG 1"
+      },
+      "planned_treatment": {
+        "drugs": [
+          {
+            "name": "奥希替尼",
+            "dose": "80mg",
+            "route": "口服"
+          }
+        ],
+        "combination_strategy": "单药靶向治疗"
+      }
+    },
+    "ground_truth": {
+      "overall_benefit": "有限获益或稳定",
+      "body_lesion_recist": "SD",
+      "cns_lm_recist": "SD",
+      "csf_trajectory": "未评估",
+      "symptom_trajectory": "无变化",
+      "toxicity": {
+        "ctcae_grade": 2,
+        "max_grade": 2,
+        "event": "血小板减少",
+        "has_toxicity_record": true,
+        "requires_dose_modification": true
+      },
+      "key_evidence_items": [
+        "2025-12头MRI较前无明显变化",
+        "血小板78"
+      ],
+      "pfs_months": null,
+      "os_months": null,
+      "os_censored": true,
+      "na_flags": {
+        "csf_trajectory": true,
+        "cns_lm_recist": false,
+        "body_lesion_recist": false,
+        "symptom_trajectory": false
+      }
+    },
+    "task_type": "antitumor",
+    "rag_stratum": "parametric"
+  },
+  {
+    "instance_id": "case_18_node_3",
+    "case_id": "case_18",
+    "time_cutoff": "2024-09-02",
+    "node_description": "伽马刀治疗+贝伐珠单抗联合治疗",
+    "input": {
+      "disease_background": {
+        "diagnosis": "右肺腺癌cT0N0M1, IV期，脑转移及颧骨转移",
+        "metastatic_sites": [
+          "脑",
+          "骨"
+        ],
+        "molecular_profile": {
+          "primary_mutation": "EGFR L858R",
+          "resistance_mutations": [],
+          "bypass_alterations": [],
+          "co_mutations": [
+            "TP53"
+          ]
+        }
+      },
+      "prior_treatment_timeline": [
+        {
+          "regimen": "埃克替尼 250mg tid",
+          "start_date": "2024-03",
+          "end_date": "2024-08",
+          "best_response": "PD",
+          "reason_for_discontinuation": "颅内病灶进展"
+        }
+      ],
+      "current_status": {
+        "symptoms": [
+          "癫痫发作",
+          "脑水肿"
+        ],
+        "imaging": "颅内病灶增大至1.1cm",
+        "csf": "未评估",
+        "performance_status": "ECOG 1"
+      },
+      "planned_treatment": {
+        "drugs": [
+          {
+            "name": "贝伐珠单抗",
+            "dose": "300mg",
+            "route": "静滴"
+          }
+        ],
+        "combination_strategy": "伽马刀联合贝伐珠单抗"
+      }
+    },
+    "ground_truth": {
+      "overall_benefit": "有限获益或稳定",
+      "body_lesion_recist": "NA",
+      "cns_lm_recist": "SD",
+      "csf_trajectory": "未评估",
+      "symptom_trajectory": "部分改善",
+      "toxicity": {
+        "ctcae_grade": 2,
+        "max_grade": 2,
+        "event": "脑水肿",
+        "has_toxicity_record": true,
+        "requires_dose_modification": false
+      },
+      "key_evidence_items": [
+        "2024.9.2行伽马刀治疗，中心剂量30GY，周围剂量18GY",
+        "2024.9.3予贝伐珠单抗300mg脱水"
+      ],
+      "pfs_months": null,
+      "os_months": null,
+      "os_censored": true,
+      "na_flags": {
+        "csf_trajectory": true,
+        "cns_lm_recist": false,
+        "body_lesion_recist": true,
+        "symptom_trajectory": false
+      }
+    },
+    "task_type": "local_procedure",
+    "rag_stratum": "nonsystemic"
+  }
+]

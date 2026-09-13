@@ -1,0 +1,224 @@
+{
+  "provenance": {
+    "source_filename": "34926253_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.95
+  },
+  "baseline_clinical_profile": {
+    "age": 49,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "neck swelling",
+      "upper limb edema",
+      "dyspnea",
+      "dysphagia"
+    ],
+    "diagnosis_date": "2013-06",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 7th",
+    "tnm_stage": "T4N3M1b",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "right lower lobe",
+      "supraclavicular lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2013-06",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion (ex19del)"
+        ],
+        "sample": "biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "erlotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "erlotinib": "150 mg daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2013-07",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "cisplatin",
+          "pemetrexed",
+          "bevacizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": null
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2014-05",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET overexpression (IHC 3+)",
+          "EGFR E746_A750del"
+        ],
+        "sample": "biopsy"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "crizotinib",
+          "gefitinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "crizotinib": "250 mg BID",
+          "gefitinib": "250 mg QOD"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 0.5
+      }
+    },
+    {
+      "time": "2015-03",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "radiotherapy"
+        ],
+        "type": "radiation",
+        "dosage": {
+          "radiotherapy": "DT40Gy/20F"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2015-05",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "carboplatin",
+          "paclitaxel",
+          "cetuximab"
+        ],
+        "type": "chemotherapy",
+        "dosage": null
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2015-11",
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR ex19del",
+          "MET amplification"
+        ],
+        "sample": "biopsy"
+      },
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "gefitinib",
+          "crizotinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "crizotinib": "250 mg BID",
+          "gefitinib": "250 mg QD"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 0.5
+      }
+    },
+    {
+      "time": "2016-02",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET Y1230H mutation",
+          "PD-L1 TPS 75%"
+        ],
+        "sample": "biopsy"
+      },
+      "treatment": {
+        "line": "salvage",
+        "regimen": [
+          "gefitinib",
+          "cabozantinib",
+          "pembrolizumab"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "gefitinib": "250 mg QOD",
+          "cabozantinib": "40 mg QD",
+          "pembrolizumab": "100 mg every two weeks"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 13
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "gefitinib",
+      "crizotinib",
+      "cabozantinib",
+      "pembrolizumab"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 54,
+    "survival_status": "dead",
+    "cause_of_death": "multiple organ dysfunction",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR exon 19 deletion (ex19del) mutation identified",
+      "Combination of gefitinib and crizotinib resulted in partial response",
+      "Acquired MET Y1230H mutation after progression",
+      "Sequential use of type I and II MET inhibitors may be effective"
+    ],
+    "ddi_relevance": "high",
+    "generalizability": "medium"
+  }
+}

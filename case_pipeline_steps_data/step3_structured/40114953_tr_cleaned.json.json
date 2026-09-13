@@ -1,0 +1,163 @@
+{
+  "provenance": {
+    "source_filename": "40114953_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 52,
+    "sex": "female",
+    "smoking_status": "former_smoker",
+    "pack_years": 10,
+    "presenting_symptoms": [
+      "hemoptysis"
+    ],
+    "diagnosis_date": "unknown",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT1bN2M0",
+    "overall_stage": "III",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "right subcarinal lymph node",
+      "right hilar lymph node"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "unknown",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion",
+          "CCNE1 amplification",
+          "LZTR1 mutation",
+          "PIK3CA mutation",
+          "RB1 mutation",
+          "TP53 mutation"
+        ],
+        "sample": "tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib",
+          "chemotherapy",
+          "radiation therapy"
+        ],
+        "type": "combination",
+        "dosage": {
+          "cisplatin": "30 mg weekly",
+          "etoposide": "50 mg weekly",
+          "radiation": "6000 cGy in 30 fractions"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "LZTR1 mutation",
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "liver lesion"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "osimertinib"
+        ],
+        "type": "systemic",
+        "dosage": {
+          "carboplatin": "AUC 5",
+          "pemetrexed": "500 mg/m2 every 3 weeks",
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + treatment",
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "carboplatin",
+          "paclitaxel",
+          "bevacizumab",
+          "atezolizumab"
+        ],
+        "type": "combination",
+        "dosage": {
+          "carboplatin": "AUC 5",
+          "paclitaxel": "175 mg/m2",
+          "bevacizumab": "15 mg/kg",
+          "atezolizumab": "1200 mg"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + treatment",
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "ramucirumab",
+          "docetaxel"
+        ],
+        "type": "combination",
+        "dosage": {
+          "ramucirumab": "10 mg/kg",
+          "docetaxel": "37.5 mg/m2 (reduced by 50%)"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "docetaxel",
+      "posaconazole"
+    ],
+    "mechanism": "drug-drug interaction",
+    "severity": "moderate",
+    "clinical_manifestation": "dose reduction of docetaxel",
+    "management": "reduced docetaxel dose by 50%",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "unknown"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Concurrent LZTR1 germline mutation identified",
+      "Rapid disease progression despite first-line TKI treatment",
+      "Significant treatment escalation required due to disease progression"
+    ],
+    "ddi_relevance": "high",
+    "generalizability": "medium"
+  }
+}

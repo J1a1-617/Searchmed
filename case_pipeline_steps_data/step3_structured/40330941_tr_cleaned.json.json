@@ -1,0 +1,88 @@
+{
+  "provenance": {
+    "source_filename": "40330941_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 62,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "vomiting",
+      "decreased appetite",
+      "irritability",
+      "restlessness"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM",
+    "tnm_stage": "T4N1M1a",
+    "overall_stage": "IVa",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": null
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET exon 14 skipping"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "savolitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "savolitinib": "600 mg per day"
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "acute hepatic failure",
+          "renal failure"
+        ],
+        "dose_adjustments": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": null,
+        "type": null,
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "acute hepatic and renal failure",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient developed acute hepatic and renal failure following treatment with savolitinib",
+      "Confirmed MET exon 14 skipping alterations",
+      "Patient succumbed to illness two days after hospital admission"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

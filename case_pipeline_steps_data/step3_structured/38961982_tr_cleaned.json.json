@@ -1,0 +1,219 @@
+{
+  "provenance": {
+    "source_filename": "38961982_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 45,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "recurrent cough"
+    ],
+    "diagnosis_date": "2019-03",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT3N3M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": [
+      "liver",
+      "lungs",
+      "hilum",
+      "mediastinal lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2019-03",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "ALK rearrangement"
+        ],
+        "sample": "bronchoscopy specimen"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2019-05",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": null,
+          "carboplatin": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2019-08",
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "ALK-EML4 fusion"
+        ],
+        "sample": "NGS"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "0.25 g twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 5
+      }
+    },
+    {
+      "time": "2020-03",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "alterations": [
+          "neuroendocrine tumor"
+        ],
+        "sample": "bronchoscopy biopsy"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "etoposide",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "etoposide": null,
+          "carboplatin": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2020-05",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ALK-EML4 fusion",
+          "TP53 mutations"
+        ],
+        "sample": "bronchoscopy tissues and blood"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "alectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "alectinib": "600 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 7.5
+      }
+    },
+    {
+      "time": "2020-12",
+      "event_type": "progression",
+      "molecular": null,
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "ceritinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "ceritinib": "450 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 5
+      }
+    },
+    {
+      "time": "2021-06",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "whole brain radiotherapy"
+        ],
+        "type": "radiotherapy",
+        "dosage": {
+          "radiotherapy": "30 Gy in 10 fractions"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2022-01",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "EML-ALK fusion",
+          "ALK p.G1269A",
+          "ALK p.L1196 M",
+          "TP53",
+          "ALK p.D1203 N",
+          "ALK p.L1122V"
+        ],
+        "sample": "NGS"
+      },
+      "treatment": {
+        "line": "7L",
+        "regimen": [
+          "lorlatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "lorlatinib": null
+        }
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 36,
+    "survival_status": "dead",
+    "cause_of_death": "tumor progression and interstitial pneumonia",
+    "last_follow_up": "2022-02"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with ALK-rearranged lung adenocarcinoma developed small cell lung cancer-like transformation",
+      "Next-generation ALK-TKIs may be appropriate after transformation",
+      "Complicated mutations detected after treatment failure"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

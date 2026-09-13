@@ -1,0 +1,86 @@
+{
+  "provenance": {
+    "source_filename": "39758795_tr_cleaned.json",
+    "source_pmid": "null",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 89,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "headache",
+      "anorexia",
+      "left facial numbness",
+      "pain",
+      "intraoral numbness"
+    ],
+    "diagnosis_date": "2018-01",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 7th",
+    "tnm_stage": "cT2aN0M0",
+    "overall_stage": "IB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2018",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2023-03",
+      "event_type": "progression + imaging + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 1 nail inflammation",
+          "thrombocytopenia"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 11,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2023-12"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR L858R mutation detected in lung adenocarcinoma",
+      "Osimertinib treatment led to regression of primary tumor and improvement in trigeminal neuropathy",
+      "Patient had no significant adverse effects from osimertinib"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "provenance": {
+    "source_filename": "38550295_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 52,
+    "sex": "female",
+    "smoking_status": "former_smoker",
+    "pack_years": 28,
+    "presenting_symptoms": [
+      "cough",
+      "night sweats"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "T3N3M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "right upper lobe",
+      "mediastinal lymph nodes",
+      "cervical lymph nodes",
+      "axillary lymph nodes",
+      "left lower lobe"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "KRASG12C"
+        ],
+        "sample": "lymph node biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "pembrolizumab"
+        ],
+        "type": "chemoimmunotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "pemetrexed": null,
+          "pembrolizumab": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "sotorasib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "sotorasib": "960 mg daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "docetaxel",
+          "ramucirumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "docetaxel": null,
+          "ramucirumab": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 14
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "sotorasib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "sotorasib": "480 mg daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "KRASG12C"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "adagrasib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "adagrasib": "600 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 9
+      },
+      "safety": {
+        "adverse_events": [
+          "hyperpigmentation",
+          "nausea",
+          "diarrhea"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "sotorasib",
+      "adagrasib"
+    ],
+    "mechanism": null,
+    "severity": "moderate",
+    "clinical_manifestation": "recurrent hepatotoxicity",
+    "management": "sotorasib was discontinued, adagrasib was started at a reduced dose",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Successful switch from sotorasib to adagrasib after hepatotoxicity",
+      "Adagrasib led to prolonged cancer response",
+      "Reported adverse effect of photoinduced skin hyperpigmentation"
+    ],
+    "ddi_relevance": "medium",
+    "generalizability": "low"
+  }
+}

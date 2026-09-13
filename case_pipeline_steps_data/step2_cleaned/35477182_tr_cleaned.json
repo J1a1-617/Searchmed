@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "35477182_tr.json",
+    "source_pmid": "35477182",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/35477182_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:16:36",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Germline Pathogenic Variants Impact Clinicopathology of Advanced Lung Cancer",
+    "author": "Semanti Mukherjee; Chaitanya Bandlamudi; Matthew D Hellmann; Yelena Kemel; Esther Drill; Hira Rizvi; Kaitlyn Tkachuk; Aliya Khurram; Michael F Walsh; Marjorie G Zauderer; Diana Mandelker; Sabine Topka; Ahmet Zehir; Preethi Srinivasan; Myvizhi Esai Selvan; Maria I Carlo; Karen A Cadoo; Alicia Latham; Jada G Hamilton; Ying L Liu; Steven M Lipkin; Sami Belhadj; Gareth L Bond; Zeynep H Gümüş; Robert J Klein; Marc Ladanyi; David B Solit; Mark E Robson; David R Jones; Mark G Kris; Joseph Vijai; Zsofia K Stadler; Christopher I Amos; Barry S Taylor; Michael F Berger; Charles M Rudin; Kenneth Offit",
+    "date": "2022-07-01"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

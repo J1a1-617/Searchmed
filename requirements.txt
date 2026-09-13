@@ -1,0 +1,4 @@
+numpy
+# Optional for local medical embedding model at /Users/jiayi/.cache/modelscope/hub/models/damo/nlp_corom_sentence-embedding_chinese-base-medical
+sentence-transformers
+openai>=1.0

@@ -1,0 +1,28 @@
+{
+  "text": "Title: Case of a 63-Year-Old Female Patient with Lung Adenocarcinoma Harboring the MET Y1003N Mutation Treated with Tepotinib\nPMID: \nAuthors: Yukihiro Umeda, Satomi Kimura, Junya Kimura, Yoshiaki Imamura, Tamotsu Ishizuka\n\nABSTRACT\nThe mesenchymal‐epithelial transition factor (MET) Y1003 mutation, like MET ex14 skipping, is an oncogenic driver mutation that suppresses MET degradation. Herein, we report the case of a 63‐year‐old female patient with lung adenocarcinoma harboring the MET Y1003N mutation, who was treated with tepotinib, a selective type 1b MET tyrosine kinase inhibitor. To the best of our knowledge, no such cases have been reported. The woman was referred to our hospital with the chief complaint of chest pain. After a detailed examination, she was diagnosed with stage IVB lung adenocarcinoma. Next‐generation sequencing revealed an MET Y1003N mutation in the tumor. Tepotinib was administered as the eighth‐line treatment, and the best overall response was a partial response that lasted for 8 months. In lung adenocarcinomas harboring the MET Y1003 mutation, selective type 1b MET tyrosine kinase inhibitors may be an important treatment option, even in heavily pretreated settings.\nKeywords: adenocarcinoma of lungs, MET Y1003, mutation, tepotinib, tyrosine kinase inhibitors\n\n2. Case Report\nA 63‐year‐old woman with no smoking history was referred to our hospital with a chief complaint of left‐sided chest pain for 2 months. A computed tomography of the trunk revealed a 36‐mm mass in the upper lobe of the left lung, left‐sided pleural effusion, and bone metastases in the lumbar vertebra and sacrum. Transbronchial lung biopsy confirmed adenocarcinoma (Figure 1), resulting in cT4N1M1c stage IVB lung adenocarcinoma diagnosis.\nFigure 2 shows the patient's treatment course. The patient received two cycles of cisplatin, pemetrexed, and pembrolizumab. After first‐line therapy, next‐generation sequencing on a pleural fluid cellblock using FoundationOne CDx (Foundation Medicine, Cambridge, MA) detected the MET Y1003N point mutation. As MET inhibitors are not approved for use against this mutation in Japan, the patient subsequently received treatment with nab‐paclitaxel, S‐1, and docetaxel/ramucirumab. After review and approval by our institution's drug safety department and after obtaining patient consent, capmatinib (400 mg twice daily) was initiated as fifth‐line therapy. However, on day 22 of treatment, the patient showed a grade 3 alanine transaminase (ALT) increase (188 U/L), Grade 2 aspartate transaminase (AST, 126 U/L) and total bilirubin increase (2.6 mg/dL), leukopenia (2000/μL), and thrombocytopenia (67 000/μL), and capmatinib was discontinued before efficacy confirmation. Chest radiography at the end of capmatinib treatment showed a decrease in left pleural effusion but no reduction in the mass in the left upper lung field. Before and after capmatinib treatment, the carcinoembryonic antigen level decreased from 5.9 to 5.5 ng/mL (< 5.0), whereas the sialyl Lewis‐x antigen level increased from 34.6 to 38.6 U/mL (< 38). Thereafter, nab‐paclitaxel and gemcitabine were sequentially administered. One year and 11 months after diagnosis, tepotinib (500 mg once daily) was started as eighth‐line treatment with patient consent and department approval. Tumors decreased in size after tepotinib initiation (−30.9%), with a partial response (PR) after 5 months of treatment (Figure 3). Tepotinib was discontinued after 8 months because of confirmed tumor recurrence. During tepotinib treatment, Grade 1 AST and ALT increases were observed as adverse events. After tepotinib discontinuation, the patient received vinorelbine, which did not yield a positive response, and chemotherapy was terminated. The patient died 3 years after treatment initiation.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39676462_tr.json",
+    "source_pmid": "39676462",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39676462_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:01:15",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Tepotinib for the Treatment of Lung Adenocarcinoma Harboring MET Y1003N Point Mutation: A Case Report",
+    "author": "Yukihiro Umeda; Satomi Kimura; Junya Kimura; Yoshiaki Imamura; Tamotsu Ishizuka",
+    "date": "2024-12-15"
+  },
+  "rejection_reason": null
+}

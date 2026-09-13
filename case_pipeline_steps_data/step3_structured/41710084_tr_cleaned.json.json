@@ -1,0 +1,112 @@
+{
+  "provenance": {
+    "source_filename": "41710084_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 36,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "cough",
+      "asthma"
+    ],
+    "diagnosis_date": "2023-08",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2023-08",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion",
+          "EGFR exon 20 T790M"
+        ],
+        "sample": "pleural effusion and BAL"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "furmonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "furmonertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 8
+      }
+    },
+    {
+      "time": "2024-06",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion",
+          "EGFR exon 20 T790M"
+        ],
+        "sample": "pleural effusion"
+      },
+      "treatment": {
+        "line": null,
+        "regimen": null,
+        "type": null,
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-08",
+      "event_type": "recurrence + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion",
+          "EGFR exon 20 T790M"
+        ],
+        "sample": "pleural effusion"
+      },
+      "treatment": {
+        "line": null,
+        "regimen": null,
+        "type": null,
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": "2024-02"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Coexistence of EGFR exon 19 deletion and T790M mutation in lung adenocarcinoma",
+      "Incidence of breast metastasis from primary lung cancer",
+      "Patient treated with furmonertinib with positive response initially"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

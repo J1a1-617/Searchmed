@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40809253_tr.json",
+    "source_pmid": "40809253",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40809253_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:57:50",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Combining recombinant human endostatin with third-generation EGFR-TKIs in advanced EGFR-sensitive mutant non-small cell lung cancer",
+    "author": "Jinhong Chen; Hongxiang Huang; Peiyuan Zhong; Zhihui Lu; Xinjing Ding; Sujuan Peng; Xie Zhu; Fen Wang; Ping Kong; Aaron C Tan; Tiantian Song; Fang Xiao; Li Chen",
+    "date": "2025-07-25"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

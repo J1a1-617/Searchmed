@@ -1,0 +1,183 @@
+{
+  "provenance": {
+    "source_filename": "37876974_tr_cleaned.json",
+    "source_pmid": "37876974",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 57,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2012",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "III A",
+    "overall_stage": "III",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2012",
+      "event_type": "diagnosis + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "cisplatin",
+          "pemetrexed"
+        ],
+        "type": "adjuvant",
+        "dosage": {
+          "cisplatin": "4 cycles",
+          "pemetrexed": "4 cycles"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2019",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": "initial tumor from 2012"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pembrolizumab",
+          "carboplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pembrolizumab": "q3 weeks for 6 months",
+          "carboplatin": "4 cycles",
+          "pemetrexed": "4 cycles"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2019-12",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ISOC1-RET fusion"
+        ],
+        "sample": "neck lymph node"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "selpercatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "selpercatinib": "160 mg q12h"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 24
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 2 diarrhea",
+          "bilateral leg edema"
+        ],
+        "management": [
+          "dietary changes",
+          "antidiarrheals",
+          "diuretics"
+        ]
+      }
+    },
+    {
+      "time": "2022",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET amplification"
+        ],
+        "sample": "left adrenal gland"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "capmatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "capmatinib": "400 mg q12h"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 3 pneumonitis"
+        ],
+        "management": [
+          "steroid use"
+        ]
+      }
+    },
+    {
+      "time": "2022",
+      "event_type": "treatment continuation",
+      "molecular": null,
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "capmatinib",
+          "selpercatinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "capmatinib": "half-dose",
+          "selpercatinib": "half-dose"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 8
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "selpercatinib",
+      "capmatinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 30,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2022"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Durable complete response to selpercatinib in ISOC1-RET fusion lung cancer",
+      "Resistance via MET amplification managed by combination therapy with capmatinib"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "provenance": {
+    "source_filename": "40556846_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 30,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "dry cough",
+      "pleuritic chest pain",
+      "shortness of breath",
+      "fatigue",
+      "night sweats",
+      "rigors",
+      "weight loss",
+      "blurry vision",
+      "left hip pain",
+      "excessive thirst",
+      "polyuria",
+      "galactorrhea",
+      "amenorrhea"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pituitary"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2024",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR mutation positive"
+        ],
+        "sample": "biopsy of sacral lesion"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 12
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR mutation positive lung adenocarcinoma mimicking tuberculosis",
+      "Pituitary metastasis leading to multiple endocrine dysfunctions",
+      "Successful treatment with osimertinib"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

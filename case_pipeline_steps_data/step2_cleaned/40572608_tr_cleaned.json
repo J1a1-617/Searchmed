@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40572608_tr.json",
+    "source_pmid": "40572608",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40572608_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:27:59",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "HER2 in Non-Small Cell Lung Cancer (NSCLC): Evolution of the Therapeutic Landscape and Emerging Drugs—A Long Way to the Top",
+    "author": "Pamela Trillo Aliaga; Gianluca Spitaleri; Ilaria Attili; Carla Corvaja; Elena Battaiotto; Panagiotis Agisilaos Angelopoulos; Ester Del Signore; Antonio Passaro; Filippo de Marinis",
+    "date": "2025-06-18"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

@@ -1,0 +1,68 @@
+{
+  "provenance": {
+    "source_filename": "41286946_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 78,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": null,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "poorly differentiated NSCLC",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2020",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "LRP1B mutation",
+          "TP53 mutation",
+          "TP63 amplification",
+          "SOX2 amplification",
+          "CDKN2A/B loss"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "thoracoscopic radical resection"
+        ],
+        "type": "surgery",
+        "dosage": {}
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 7
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 7,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Co-expression of TTF-1 and p40 in NSCLC is rare.",
+      "Histologically, the tumor exhibited both glandular and squamous features.",
+      "NGS identified multiple genetic alterations associated with LUSC."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

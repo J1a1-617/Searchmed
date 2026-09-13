@@ -1,0 +1,28 @@
+{
+  "text": "Title: Osimertinib resistance in a patient with metastatic non-small-cell lung cancer and response to almonertinib\nPMID: \nAuthors: \n\nAbstract\nOsimertinib shows strong clinical activity in first- and second-line treatment of nonsmall-cell lung cancer (NSCLC) patients with epidermal growth factor receptor (EGFR) mutations, especially EGFR T790M. However, when patients develop resistance, there is currently no definite postosimertinib treatment option. Herein, we report a patient with metastatic NSCLC who benefited from almonertinib after developing resistance to osimertinib.\n\nCase Presentation\nA 45-year-old Chinese woman was admitted to the Affiliated Hospital of Zunyi Medical University for comprehensive treatment of metastatic NSCLC. She underwent thoracoscopic right middle and lower lobectomy, partial left atrial resection, pericardiotomy, and lymph node dissection on November 21, 2017, with a confirmed histopathological diagnosis of stage ⅢC adenocarcinoma of the right middle lobe (pT4N3M0) ( Figures 1A,B ). Postoperative diagnosis showed no tumor involvement in the parenchyma of the right lower lobe but cancer infiltration in the left atrial wall and left parabronchial bronchi; metastasis was detected in some mediastinal lymph nodes. The patient was found to carry an EGFR exon 19 deletion mutation by analysis of tissue specimens using next-generation sequencing (NGS) (Figure 1C). She received icotinib (125 mg/d, tid) treatment (Figure 2A). Eight months after icotinib treatment, CT showed metastases in the liver. Previous studies have demonstrated that patients develop resistance after a median of 10 months of EGFR TKI treatment (Wu and Shih, 2018). Based on this situation, icotinib was discontinued. Chemotherapy was performed for 24 days, and computed tomography (CT) revealed thoracic spine metastasis, suggestive of prior treatment failure. She then began to receive icotinib combined with bevacizumab, which was switched to chemotherapy 6 months later due to severe bone marrow suppression. A CT scan at that time showed progressive disease (PD), and analysis of circulating tumor DNA (ctDNA) revealed the EGFR T790M mutation (Figure 2B, 1D). She received osimertinib (80 mg, orally once daily) for 8 months, and then bevacizumab was added due to the progression of bone metastases. Eight months later, she was again found to have PD. Analysis of ctDNA showed the occurrence of EGFR L718Q ( Figure 1E ) and PLEKHH2-ALK fusions in addition to EGFR T790M. Therefore, osimertinib combined with erlotinib (150 mg, orally once daily) was initiated. Two weeks later, treatment was switched to crizotinib (250 mg twice daily) due to adverse events. One month later, the patient experienced dizziness, headache, and apathy. CT showed metastases in the bilateral parietal and left cerebellar regions and enlargement of the metastases in the liver ( Figure 2B ). Crizotinib was discontinued. The patient could not tolerate brain radiotherapy and thus was given almonertinib (110 mg, orally once daily), and she showed a clinical response to almonertinib that lasted more than 2 months. Overall, her symptoms of dizziness, headache relieved, and mental state improved significantly at 1 week after almonertinib was initiated, and her Karnofsky score increased from 20 to 70. A CT scan two and a half months after almonertinib treatment initiation showed that both the liver and lung metastases were stable ( Figure 2B ). Four months after almonertinib therapy, she was discharged from the hospital, though almonertinib was discontinued because of serious electrolyte disorders and heart failure.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "34987382_tr.json",
+    "source_pmid": "34987382",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/34987382_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:49:54",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case Report: Response to Almonertinib in a Patient With Metastatic NSCLC Resistant to Osimertinib due to Acquired EGFR L718Q Mutation",
+    "author": "Gang Shen; Lei Shi; Xin Tian; Depei Huang; Hao Chen; Chan Gao; Xudong Shen; Hushan Zhang",
+    "date": "2021-12-20"
+  },
+  "rejection_reason": null
+}

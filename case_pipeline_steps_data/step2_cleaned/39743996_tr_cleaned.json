@@ -1,0 +1,28 @@
+{
+  "text": "Title: Case of a 63-Year-Old Woman with Synchronous Lung Adenocarcinoma and Clear Cell Renal Cell Carcinoma\nPMID: \nAuthors: \n\nAbstract\nLung cancer, including small cell lung cancer (SCLC) and non-small cell lung cancer (NSCLC), is the most prevalent cancer globally and remains the leading cause of cancer-related mortality. Epidermal growth factor receptor (EGFR) mutations, frequently observed in female NSCLC patients, have revolutionized treatment strategies with the advent of tyrosine kinase inhibitors (TKIs). These therapies significantly improve survival and are considered the standard of care for patients harboring EGFR mutations. However, most patients eventually develop resistance to EGFR-TKIs, leading to disease progression. Resistance mechanisms are classified as either EGFR-dependent or EGFR-independent, the latter involving bypass pathway activation, including dysregulation of downstream signaling cascades. EGFR-independent resistance often renders all EGFR-TKIs ineffective, necessitating further investigation into resistance mechanisms.\n\nCase summary\nWe report the case of a 63-year-old Chinese woman diagnosed with synchronous lung adenocarcinoma harboring an EGFR exon 21 far-loop insertion mutation and clear cell renal cell carcinoma (ccRCC). A multidisciplinary team recommended systemic therapy for the lung adenocarcinoma and clinical observation for ccRCC. First-line treatment with bevacizumab plus pemetrexed-carboplatin achieved a progression-free survival (PFS) of 7 months. Second-line treatment with sintilimab and nedaplatin resulted in a PFS of 4.9 months. Third-line therapy with sintilimab and anlotinib proved ineffective. In the fourth line, the patient received furmonertinib, a third-generation EGFR-TKI, based on the FAVOUR trial. This treatment achieved durable disease control with excellent tolerability, yielding a PFS of 27 months and ongoing clinical benefit.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39743996_tr.json",
+    "source_pmid": "39743996",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39743996_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:02:07",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "A good response to furmonertinib fourth-line treatment of an advanced lung adenocarcinoma patient with EGFR exon20in and PIK3CA mutation: a case report and literature review",
+    "author": "Kai Sun; Peng Wang",
+    "date": "2024-12-17"
+  },
+  "rejection_reason": null
+}

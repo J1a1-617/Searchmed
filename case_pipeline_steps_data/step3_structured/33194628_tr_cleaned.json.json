@@ -1,0 +1,174 @@
+{
+  "provenance": {
+    "source_filename": "33194628_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 71,
+    "sex": "male",
+    "smoking_status": "unknown",
+    "pack_years": null,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2015-08",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "T3N3M0",
+    "overall_stage": "IIIC",
+    "baseline_primary_site": "left upper lobe",
+    "metastatic_sites_at_baseline": [
+      "left supraclavicular lymph node"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2015-08",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "tumor tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "icotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "icotinib": "unknown"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2017-06",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "findings": [
+          "EGFR exon 19 deletion",
+          "EGFR T790M"
+        ],
+        "sample": "ctDNA"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "unknown"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 8
+      }
+    },
+    {
+      "time": "2018-03",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": "unknown"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "pemetrexed",
+          "cisplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": "500 mg/m2",
+          "cisplatin": "75 mg/m2"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2018-11",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET amplification"
+        ],
+        "sample": "pleural effusion"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "unknown"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2019-02",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "alterations": [],
+        "sample": "unknown"
+      },
+      "treatment": {
+        "line": "unknown",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "unknown"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "icotinib",
+      "osimertinib",
+      "crizotinib"
+    ],
+    "mechanism": "unknown",
+    "severity": "none",
+    "clinical_manifestation": "unknown",
+    "management": "unknown",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 54,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "2020-02"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Sequential treatment with icotinib, osimertinib, and crizotinib",
+      "Detectable EGFR mutations throughout treatment",
+      "Dynamic changes in MET amplification"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

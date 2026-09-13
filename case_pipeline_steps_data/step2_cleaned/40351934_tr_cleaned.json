@@ -1,0 +1,28 @@
+{
+  "text": "Title: EGFR-Mutated Lung Squamous Cell Carcinoma Responding to Chemotherapy Plus Pembrolizumab\nPMID: \nAuthors: \n\nAbstract\nEpidermal growth factor receptor (EGFR)-tyrosine kinase inhibitor (TKI) is the standard treatment for EGFR-mutated non-small cell lung cancer (NSCLC), although a small subset of patients does not respond to EGFR-TKI, especially in patients with a smoking history and squamous cell histology. Additionally, even given an initial good response, acquired resistance to EGFR-TKI is inevitable. More individualized treatment could be necessary in certain types of EGFR-mutated NSCLC. We herein report a case of EGFR-mutated metastatic lung squamous cell carcinoma with a high tumor proportion score (TPS) of programmed death ligand 1 (PD-L1), where chemotherapy plus pembrolizumab therapy had a durable efficacy. In this case, chemotherapy plus pembrolizumab therapy was administered, though EGFR-TKI is the standard first-line therapy of EGFR-mutated NSCLC. Three years after treatment initiation, no sign of recurrence was observed. This case suggests that a detailed evaluation of a patient's background is important in making an effective personalized therapeutic strategy.\n\nCase presentation\nA 65-year-old man with a current smoking history presented to our hospital with an abnormal finding on a chest X-ray that was detected during a regular medical check-up. He was asymptomatic and had no prior medical history. His Eastern Cooperative Oncology Group (ECOG) performance status was 0. No abnormality was revealed on physical examination. Chest computed tomography (CT) revealed a mass in the right middle lobe, mediastinal lymph node enlargement, and small nodules in bilateral lungs. Positron emission tomography (PET)-CT revealed increased uptake in the right middle lobe and mediastinum lymph node (Figure 1).\nBrain magnetic resonance imaging (MRI) showed no brain metastasis. We performed bronchoscopy from the primary lesion. Pathological analysis revealed no apparent keratinizing tendency along with thyroid transcription factor 1 (TTF-1) negative and p40 positive by immunohistochemistry (Figure 2).\nWith pathological findings, we diagnosed metastatic LSCC (cT3N2M1c: cStage IVB). The EGFR polymerase chain reaction (PCR) test revealed exon 19 deletion. The tumor proportion score (TPS) of PD-L1 was 95%. Though EGFR-TKI is the standard first line for EGFR-mutated NSCLC, the patient preferred to receive chemotherapy plus immunotherapy. We started to administer carboplatin plus nab-paclitaxel plus pembrolizumab. After four cycles of chemotherapy and immunotherapy, CT revealed shrinkage of the primary tumor and metastatic lesions, and no adverse event was observed. We then proceeded to pembrolizumab monotherapy. After switching to pembrolizumab monotherapy, primary tumor and metastatic lesions continued to shrink. All through two years after treatment initiation, a good response had been consistently observed without any adverse event. We completed the scheduled two-year treatment and moved to regular hospital visitation and serological and radiological observation. Three years after treatment initiation, PET/CT revealed no sign of recurrence (Figure 3).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40351934_tr.json",
+    "source_pmid": "40351934",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40351934_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:20:48",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Durable Response to Pembrolizumab With Chemotherapy in EGFR-Mutated Squamous Cell Lung Cancer: A Case Report",
+    "author": "Taira Ninomaru; Sho Yoshimura; Satoshi Mukaida; Kenjiro Matsuo; Yohei Kimura; Tokiko Nakai",
+    "date": "2025-04-09"
+  },
+  "rejection_reason": null
+}

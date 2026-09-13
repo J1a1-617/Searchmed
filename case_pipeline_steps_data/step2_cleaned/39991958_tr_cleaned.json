@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "39991958_tr.json",
+    "source_pmid": "39991958",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39991958_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:08:41",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Molecular and immunological features associated with long-term benefits in metastatic NSCLC patients undergoing immune checkpoint blockade",
+    "author": "Pedro Rocha; Rafael Bach; Laura Masfarré; Sharia Hernandez; Nil Navarro-Gorro; Adrià Rossell; Xavier Villanueva; Mario Giner; Ignacio Sanchéz; Miguel Galindo; Raúl Del Rey-Vergara; Albert Iñañez; Beatriz Sanchéz-Espiridion; Wei Lu; Ariadna Acedo-Terrades; Pau Berenguer-Molins; Albert Sánchez-Font; Roberto Chalela; Victor Curull; Álvaro Taus; Max Hardy-Werbin; Mark Sausen; Andrew Georgiadis; James White; Jennifer B Jackson; Laura Moliner; Sergi Clavé; Beatriz Bellosillo; Ana Rovira; Ignacio Wistuba; Luisa M Solis Soto; Júlia Perera-Bel; Edurne Arriola",
+    "date": "2025-02-24"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

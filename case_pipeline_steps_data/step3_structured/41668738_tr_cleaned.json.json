@@ -1,0 +1,228 @@
+{
+  "provenance": {
+    "source_filename": "41668738_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 57,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "cough",
+      "sputum",
+      "hemoptysis"
+    ],
+    "diagnosis_date": "2016-09",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 7th",
+    "tnm_stage": "pT2aN0M0",
+    "overall_stage": "IB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2016-09",
+      "event_type": "diagnosis + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "pemetrexed",
+          "cisplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": null,
+          "cisplatin": null
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "severe gastrointestinal toxicity"
+        ],
+        "dose_adjustments": []
+      }
+    },
+    {
+      "time": "2017-08",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "radiotherapy"
+        ],
+        "type": "radiotherapy",
+        "dosage": {
+          "radiotherapy": "40 Gy in 20 fractions"
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2017-12",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "icotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "icotinib": null
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2019-09",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "incadronate"
+        ],
+        "type": "supportive",
+        "dosage": {
+          "incadronate": "5 mg"
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2020-09",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "befotertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "befotertinib": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 31
+      },
+      "safety": null
+    },
+    {
+      "time": "2021-12",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "cisplatin",
+          "endostatin"
+        ],
+        "type": "combination",
+        "dosage": {
+          "cisplatin": "30 mg",
+          "endostatin": "45 mg"
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "gastrointestinal toxicity"
+        ],
+        "dose_adjustments": []
+      }
+    },
+    {
+      "time": "2023-08",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "anlotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "anlotinib": null
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2023-10",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ROS1 rearrangement (EZR exon 10–ROS1 exon 34)"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "moderate lower limb edema"
+        ],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "cisplatin",
+      "endostatin"
+    ],
+    "mechanism": null,
+    "severity": "mild",
+    "clinical_manifestation": "gastrointestinal toxicity",
+    "management": "prophylactic antiemetic therapy with palonosetron and metoclopramide",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2023-10",
+    "treatment_discontinuation_reason": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "ROS1 rearrangement as a mechanism of acquired resistance to EGFR-TKIs",
+      "Clinical characteristics and therapeutic strategies for ROS1 rearrangement",
+      "EGFR T790M mutation identified in the patient"
+    ],
+    "ddi_relevance": "medium",
+    "generalizability": "medium"
+  }
+}

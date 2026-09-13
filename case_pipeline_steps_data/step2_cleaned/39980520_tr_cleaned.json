@@ -1,0 +1,28 @@
+{
+  "text": "Title: Neoadjuvant therapy for lung adenocarcinoma with EGFR S768I/V774M and TP53 mutations: a case report\nPMID: \nAuthors: Huijuan Zhu, Hui Tang, Huizhen Peng, Ding Wei\n\nAbstract\nAdenocarcinoma of the lung is the most common subtype of non-small cell lung cancer, and epidermal growth factor receptor (EGFR) mutations are the most common driver genes in the development of cancer (NSCLC). Among them, mutations in exons 18–21 are the most frequent, especially the deletion of exons 19 and 21, where L858R mutations are the most common. Other mutations such as S768I, G719X, and 20ins are relatively rare. In the population of lung adenocarcinoma patients with EGFR mutations, some common mutations may occur, especially TP53.\n\nCase Presentation\nHere, this study presents a retrospective analysis of neoadjuvant therapy for lung adenocarcinoma and reviews relevant literature. The patient was diagnosed with T4N3M1a, stage IVa. After 1 month of chemotherapy with 860 mg of pemetrexed and 480 mg of carboplatin, and immunotherapy with 200 mg of sintilimab, good response to conventional chemotherapy, but a follow-up CT scan showed disease progression. Next-generation sequencing showed EGFR exon 20 missense mutation (p.S768I and p.V774M) combined with tumor protein p53 (TP53) (p.Y220C) missense mutation, with mutation abundance of 48.6%/49.7% and 49.2%, respectively. Subsequently, chemotherapy with paclitaxel albumin 400 mg and treatment with pembrolizumab 200 mg were administered, followed by targeted treatment with oral afatinib (PFS: 12 months). And then, brain metastasis occurred, and targeted treatment with osimertinib was used instead (PFS: 9 months). The therapeutic effect is significant, but due to severe side effects, the patient stopped taking the medication on their own. Five months later, the patient became seriously ill again and CEA levels increased. Targeted treatment with furmonertinib (PFS: 3 months) and sunvozertinib (PFS: 3 months) was used instead. Three months later, the blood CEA level briefly decreased and then continued to increase, indicating the patient’s critical condition.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39980520_tr.json",
+    "source_pmid": "39980520",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39980520_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:08:07",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Concurrent TP53 Mutations Facilitate Resistance Evolution in EGFR Exon 20 S768I Mutant Lung Adenocarcinoma: A Case Report and Review of the Literature",
+    "author": "Huijuan Zhu; Hui Tang; Huizhen Peng; Wei Ding",
+    "date": "2025-01-09"
+  },
+  "rejection_reason": null
+}

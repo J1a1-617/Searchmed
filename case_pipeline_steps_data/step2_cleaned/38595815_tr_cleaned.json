@@ -1,0 +1,28 @@
+{
+  "text": "Title: EGFR Fusion Mutations Combined with EGFR Amplification in Non-Small Cell Lung Cancer: A Case Report\nPMID: \nAuthors: \n\nAbstract\nGiven their good antitumor effects, epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors (TKIs) are standard first-line therapy for EGFR-sensitive mutations, including exon 19 deletions and exon 21 L858R mutations. EGFR fusion mutations and EGFR amplification are very rare in non-small cell lung cancer (NSCLC). We describe 2 patients with NSCLC harboring EGFR fusion mutations (EGFR-MACF1 and EGFR-GNAT3) combined with EGFR amplification. Both patients received EGFR-TKI treatment, and 1 of them showed an antitumor response.\nKeywords: EGFR fusion, EGFR amplification, rare mutations, lung adenocarcinoma, targeted therapy\n\nCase description\nPatient 1, a 65-year-old female, was admitted to the hospital due to chest pain and shoulder and back pain on April 27, 2022. A chest computed tomography (CT) scan showed a 2.4 cm mass in the upper lobe of the right lung, multiple right lung metastases, and mediastinal lymph node metastasis. CT-guided biopsy of the right lung lesion revealed that the mass was lung adenocarcinoma, and the patient was subsequently diagnosed with lung adenocarcinoma (T4N3M0 stage IIIC, AJCC8TH). On May 9, 2022, 86 cancer-related genes were detected in tissue samples by next-generation sequencing (NGS). The EGFR gene was fused with the MACF1 gene at the RNA level (mutation abundance: 17%), and EGFR was amplified (copy number: 24.15). The EGFR-MACF1 gene included EGFR exons 1–23 and MACF1 exons 59–93. After discussing the patient’s condition, the Lung Cancer Multidisciplinary Team (MDT) recommended treatment with almonertinib (110 mg/day) on May 11, 2022. After 1 month of treatment, a chest CT showed significant shrinkage of the mass in the patient’s right upper lobe. Afterward, the patient was re-examined every 3 months. Re-examination by chest CT on January 31, 2023, revealed that the tumor continued to respond to the EGFR-TKI. According to the RECIST guidelines, the patient was considered to have a partial response to almonertinib, and the patient’s progression-free survival (PFS) was >9 months.\n\nPatient 2, a 58-year-old male, experienced cough, sputum, chest tightness, and back pain on December 3, 2021. Chest CT and positron emission tomography (PET)-CT scans revealed masses in the right upper lobe and right hilum of the patient, with the larger mass measuring 3.2 cm, multiple intrapulmonary metastases, multiple lymph node metastases throughout the body (including the mediastinum, hilar, bilateral neck, bilateral clavicle region, left armpit, etc.) and multiple bone metastases (right 7th rib, left 9th rib, 9th thoracic vertebra, etc.). CT-guided biopsy of the right lung lesion revealed that the mass was lung adenocarcinoma, which was diagnosed as lung adenocarcinoma (T4N3M1c stage IVB, AJCC8TH). On December 23, 2021, 14 cancer-related genes were detected in tissue samples using NGS. EGFR gene fusion with the GNAT3 gene (mutation abundance: 76.3%) and EGFR amplification (copy number: 8.1). The EGFR-GNAT3 gene included EGFR exons 1–24 and GNAT3 exon 8. The patient initially underwent arterial chemoembolization (protocol: pemetrexed disodium and nedaplatin), which resulted in mass shrinkage. However, due to physical reasons specific to the patient, the drug was suspended for 2 months, after which the tumor progressed after 1 month of treatment with almonertinib (110 mg/day). On June 24, 2022, the patient died of severe lung infection and systemic multiple organ failure, with an overall survival (OS) <7 months.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38595815_tr.json",
+    "source_pmid": "38595815",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38595815_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:40:25",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case report: EGFR fusion mutation combined with EGFR amplification responds to EGFR-TKI therapy",
+    "author": "Zhulin Wang; Chunyao Huang; Wenbo Fan; Shaowu Sun; Kaiyuan Li; Xu Liu; Jiangtao Pu; Guoqing Zhang; Xiangnan Li",
+    "date": "2024-03-25"
+  },
+  "rejection_reason": null
+}

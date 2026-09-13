@@ -1,0 +1,156 @@
+{
+  "provenance": {
+    "source_filename": "39655272_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 57,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": "2018-12",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "T1cN1M0",
+    "overall_stage": "IIB",
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2018-12",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [],
+        "type": null,
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2021-03",
+      "event_type": "treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "plasma, pleural fluid, tumor tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "almonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "almonertinib": "110 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 20
+      }
+    },
+    {
+      "time": "2022-11",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R",
+          "EGFR L718Q",
+          "EGFR C797S",
+          "EGFR C797G",
+          "EGFR L792H",
+          "EGFR V802F",
+          "EGFR V689L"
+        ],
+        "sample": "plasma"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "afatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "afatinib": "40 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2023-01",
+      "event_type": "follow-up + molecular",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [],
+        "type": null,
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-07",
+      "event_type": "progression",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [],
+        "type": null,
+        "dosage": {}
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": null
+  },
+  "outcome_summary": {
+    "survival_months": 9,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with multiple acquired EGFR mutations resistant to almonertinib",
+      "Successful treatment with afatinib after resistance to almonertinib"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

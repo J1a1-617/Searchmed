@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "36775193_tr.json",
+    "source_pmid": "36775193",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/36775193_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:23:32",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Clinicopathologic and Genomic Factors Impacting Efficacy of First-Line Chemoimmunotherapy in Advanced NSCLC",
+    "author": "Joao V Alessi; Arielle Elkrief; Biagio Ricciuti; Xinan Wang; Alessio Cortellini; Victor R Vaz; Giuseppe Lamberti; Rosa L Frias; Deepti Venkatraman; Claudia A M Fulgenzi; Federica Pecci; Gonzalo Recondo; Alessandro Di Federico; Adriana Barrichello; Hyesun Park; Mizuki Nishino; Grace M Hambelton; Jacklynn V Egger; Marc Ladanyi; Subba Digumarthy; Bruce E Johnson; David C Christiani; Xihong Lin; Justin F Gainor; Jessica J Lin; David J Pinato; Adam J Schoenfeld; Mark M Awad",
+    "date": "2023-02-10"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

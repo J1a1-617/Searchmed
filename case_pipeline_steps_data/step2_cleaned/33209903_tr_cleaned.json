@@ -1,0 +1,28 @@
+{
+  "text": "Title: ctDNA Analysis Facilitates the Diagnosis of Synchronous Urothelial Carcinoma and Lung Adenocarcinoma\nPMID: \nAuthors: \n\nAbstract\nThe diagnosis and treatment for multiple primary cancers have been a great challenge in clinical practice. Circulating tumor DNA (ctDNA) is tumor-derived fragmented DNA that circulates in the blood. Herein we report a case that ctDNA facilitated the diagnosis of synchronous urothelial carcinoma (UC) and lung adenocarcinoma. A 58-year-old male patient was diagnosed with UC initially. Computed tomography (CT) revealed multiple metastases without the brain after surgery and adjuvant chemotherapy. However, the patient had a progressively worsened headache symbol during system therapy. We explored the genome variations using next-generation sequencing (NGS). HRAS and TP53 mutations were detected from UC surgical tissue and postoperative ctDNA. Unexpectedly, the epidermal growth factor receptor (EGFR) exon 19 deletion (19del) mutation, which is common in non-small cell lung cancer (NSCLC), was also identified in ctDNA. Pathological analysis of a neck lymph node confirmed adenocarcinoma derived from the lung. Meanwhile, EGFR 19del was detected in neck lymph node biopsy. The ctDNA contained both UC and lung adenocarcinoma-derived mutations. Thus, the diagnosis was modified into synchronous UC and lung adenocarcinoma. Interestingly, the lung adenocarcinoma-derived lesions responded well to osimertinib (80mg, once daily), while the UC did not. His headache rapidly subsided and disappeared. This case demonstrates that ctDNA analysis may better capture the molecular heterogeneity harbored by multiple primary tumors in a patient and can facilitate the diagnosis and therapy of patients with simultaneous cancers.\n\nCase presentation\nThis study was approved by the institutional ethics review board of the Army Medical Center of the PLA. All procedures performed in this study involving human participants were in accordance with the Declaration of Helsinki (as revised in 2013). The patient provided written informed consent for specimen collection, genetic testing, and use of this information for research purposes.\nA 58-year-old male patient with 30-year smoking history came to our hospital complaining of headache in August 2018. The patient underwent right laparoscopic radical nephrectomy and gemcitabine adjuvant chemotherapy for high-grade UC of the renal pelvis in July 2018 (Figure 1A). Contrast-enhanced chest-abdomen-pelvis computed tomography (CT) revealed that liver, bone, lung, and lymph node metastasis. Magnetic resonance imaging (MRI) results were normal (Figure S1). Subsequently, two cycles of nab-paclitaxel and one cycle of nivolumab were administered. However, his headache progressively worsened while the MRI was still normal. Meanwhile, we performed genetic analysis of ctDNA and renal surgical lesions using NGS. There were six mutations in the tissue, including HRAS p.G12D and TP53 p.E224K, and these mutations were also found in ctDNA. Unexpectedly, another eight mutations were identified in ctDNA, including EGFR exon 19 deletion (19del) and amplification (Table 1). EGFR 19del mutation generally occurs in NSCLC and is sensitive to EGFR-TKIs (10). Suspecting a primary NSCLC, we performed a biopsy of the neck lymph node. The pathological characteristics suggested adenocarcinoma derived from the lung (Figure 1B). NGS for biopsies revealed eight mutations including EGFR 19del and amplification. Diagnosis changed to synchronous UC and lung adenocarcinoma, with multiple metastases. The patient subsequently received osimertinib (80 mg, once daily) in September 2018. His headache rapidly subsided after 3 days and disappeared after 7 days. Carcinoembryonic antigen (CEA) levels continued to decreased. Contrast-enhanced chest-abdomen-pelvis CT results in October 2018 revealed that lung lesions and mediastinal lymph nodes had reduced, with all pericardial effusion being clearly absorbed. Liver, right abdomen, pelvic, and retroperitoneal lymph node metastasis and the number of bone metastases had increased (Figure 2), but mutations from lung adenocarcinoma had disappeared in ctDNA; however, the mutation from UC was still present and had increased significantly in frequency (Table 1). Unfortunately, the patient died 2 months later from massive bleeding in the digestive tract due to extremely low platelets and pancytopenia caused by extensive bone metastasis.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "33209903_tr.json",
+    "source_pmid": "33209903",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/33209903_tr.json",
+    "cleaning_timestamp": "2026-06-03T00:43:59",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "ctDNA facilitated the diagnosis of a patient with synchronous urothelial carcinoma and non-small cell lung cancer: case report",
+    "author": "Chengyuan Qian; Nan Dai; Mingfang Xu; Hao Luo; Yan Feng; Min Zhang; Rongrong Chen; Dong Wang",
+    "date": "2018-12-04"
+  },
+  "rejection_reason": null
+}

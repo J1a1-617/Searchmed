@@ -1,0 +1,106 @@
+{
+  "provenance": {
+    "source_filename": "41626155_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 65,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 30,
+    "presenting_symptoms": [
+      "cough with sputum",
+      "chest discomfort"
+    ],
+    "diagnosis_date": "2025-04",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": "I",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2025-04",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR G719C",
+          "EGFR S768I"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "furmonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "furmonertinib": "160 mg QD"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2025-05",
+      "event_type": "treatment + follow_up",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "furmonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "furmonertinib": "160 mg QD"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2025-07",
+      "event_type": "surgery + pathology",
+      "molecular": null,
+      "treatment": {
+        "line": "surgery",
+        "regimen": [
+          "thoracoscopic left lower lobectomy"
+        ],
+        "type": "surgical",
+        "dosage": null
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR G719C and S768I mutations identified",
+      "Complete remission achieved with furmonertinib",
+      "Patient unfit for surgery due to cardiac conditions"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

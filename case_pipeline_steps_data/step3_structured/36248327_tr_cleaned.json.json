@@ -1,0 +1,148 @@
+{
+  "provenance": {
+    "source_filename": "36248327_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 82,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 60,
+    "presenting_symptoms": [],
+    "diagnosis_date": "unknown",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "not specified",
+    "tnm_stage": "T1bN0M0",
+    "overall_stage": "I",
+    "baseline_primary_site": "right upper lobe",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "unknown",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "MET amplification",
+          "MYC amplification"
+        ],
+        "sample": "lung tumor biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "capmatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "capmatinib": "400 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 1.5
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [],
+        "sample": "tumor re-biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "paclitaxel",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "paclitaxel": "unknown",
+          "carboplatin": "unknown"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [],
+        "sample": "tumor re-biopsy"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "irinotecan",
+          "cisplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "irinotecan": "unknown",
+          "cisplatin": "unknown"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [],
+        "sample": "unknown"
+      },
+      "treatment": {
+        "line": "unknown",
+        "regimen": [
+          "stereotactic radiosurgery"
+        ],
+        "type": "radiation",
+        "dosage": {
+          "unknown": "unknown"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "capmatinib",
+      "ICX-101"
+    ],
+    "mechanism": "unknown",
+    "severity": "unknown",
+    "clinical_manifestation": "primary resistance to capmatinib",
+    "management": "consideration of MYC inhibitor",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 6,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "unknown"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Primary resistance to capmatinib due to concurrent MYC amplification",
+      "MET amplification confirmed by FISH",
+      "No response to second and third-line therapies",
+      "Potential sensitivity to ICX-101, a MYC inhibitor"
+    ],
+    "ddi_relevance": "medium",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "provenance": {
+    "source_filename": "41283176_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 53,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "cough",
+      "bloody sputum",
+      "shortness of breath"
+    ],
+    "diagnosis_date": "2014-06",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "T1N3M1a",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "lymph nodes",
+      "right lung parenchyma",
+      "left lung"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2014-06",
+      "event_type": "diagnosis + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "surgical resection"
+        ],
+        "type": "surgery",
+        "dosage": {}
+      },
+      "response": null
+    },
+    {
+      "time": "2015-06",
+      "event_type": "recurrence + imaging",
+      "molecular": null,
+      "treatment": null,
+      "response": null
+    },
+    {
+      "time": "2023-06",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "KRAS G12C"
+        ],
+        "sample": "biopsy"
+      },
+      "treatment": {
+        "line": "posterior line",
+        "regimen": [
+          "KRAS G12C inhibitors (GEC-255)"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "GEC-255": "1000 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      },
+      "safety": {
+        "adverse_events": [
+          "nausea",
+          "diarrhea",
+          "constipation"
+        ],
+        "dose_adjustments": []
+      }
+    },
+    {
+      "time": "2024-11",
+      "event_type": "progression + imaging",
+      "molecular": null,
+      "treatment": {
+        "line": "radiotherapy",
+        "regimen": [
+          "radiotherapy of left diaphragmatic angle LN"
+        ],
+        "type": "radiotherapy",
+        "dosage": {}
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "GEC-255",
+      "ondansetron"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 17,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2025-02"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with KRAS G12C mutation treated with KRAS G12C inhibitors",
+      "Partial remission observed after therapy",
+      "Adverse reactions managed with supportive care"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

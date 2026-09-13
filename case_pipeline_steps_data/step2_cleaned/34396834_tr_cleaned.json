@@ -1,0 +1,28 @@
+{
+  "text": "Title: Targeted therapy in patients with epidermal growth factor receptor (EGFR)-mutated non-small cell lung cancer (NSCLC) often fails because of drug resistance. Here, we report a 57-year-old male patient with stage IV small cell lung cancer (SCLC) transformation during targeted therapy. Chest computerized tomography (CT), hematoxylin and eosin histological examination, immunohistochemistry, allele refractory mutation system‐based quantitative polymerase chain reaction analysis of EGFR point mutations, and next-generation sequencing were performed for diagnosis and therapeutic efficacy evaluation. A combination of chest CT, histological examination, and immunohistochemistry confirmed the initial NSCLC diagnosis. Next-generation sequencing detected only EGFR exon 19 deletion (ex19del) before treatment and later identified EGFR exon20p.T790M point mutation, EGFR amplification, myc proto-oncogene (MYC) amplification, retinoblastoma 1 (RB1) mutation, and tumor protein 53 (TP53) mutation. Histology and immunohistochemistry revealed transformation from NSCLC to SCLC during treatment, which eventually returned to NSCLC. Drug resistance to targeted therapy for patients with NSCLC frequently occurs because of EGFR exon20p.T790M point mutation, TP53 mutation, RB1 mutation, and MYC amplification. These mutations are also the major determining factors of NSCLC outcomes. Therefore, next-generation sequencing should be performed to confirm drug efficacy during targeted therapy for NSCLC.\n\nCase presentation\nA 57-year-old man with a >20-year smoking history was admitted to our hospital on 9 June 2018 because of a cough for 3 months. A computerized tomography (CT) scan of his chest revealed a mass in the right middle lung, right pleural effusion, and multiple distant metastases of both lungs. Smear analysis of the right pleural effusion and paraffin sections of the tumor mass demonstrated a few positive thyroid transcription factor 1 (TTF1) and cytokeratin 7 (CK7) cancer cells. Hematoxylin and eosin (HE) staining of the tumor combined with immunohistochemistry (IHC) confirmed the presence of lung adenocarcinoma and tumor protein 53 (TP53) mutation. Allele refractory mutation system‐based quantitative polymerase chain reaction analysis of cancer cells in tumor tissues removed during surgery showed EGFR exon 19 deletion (ex19del). The patient was administered gefitinib for more than 1 year, and his mass dramatically diminished. However, he presented with chest tightness for 2 months and was admitted to our hospital on 16 September 2019. Enhanced CT showed that the cancer cells were extensively involved in the superior vena cava, lymph nodes on the clavicle of the lower neck, and right pleura. We performed a puncture cannula to drain the pleural effusion, diuresis, albumin supplementation, and antibiotic treatment. His symptoms improved. Furthermore, we performed next-generation sequencing (NGS) of peripheral blood samples using HiSeq 4000 NGS platforms (Illumina, Geneseeq, Nanjing, China). In addition to EGFR ex19del, myc proto-oncogene (MYC) gene amplification, retinoblastoma 1 (RB1) mutation, and TP53 gene mutation were found. HE staining of a mass from the right lung showed SCLC. IHC biomarkers indicated positive TP53 mutations. These results confirmed SCLC transformation from NSCLC. After two-cycle etoposide plus carboplatin treatment, his symptoms improved. However, enhanced CT showed growth of the preexisting lung mass. Therefore, the regimen was changed to an irinotecan + nedaplatin protocol plus icotinib for four cycles. A CT scan showed that the previous mass was significantly decreased. Smear and IHC analysis of a puncture biopsy showed CK7 (+++), TTF1 (++), synaptophysin (−), and CD56 (−). These cells were identified as lung adenocarcinoma. On 5 June 2020, we performed NGS of peripheral blood samples as described above. The results showed multiple gene mutations, including EGFR ex19del, EGFR exon20p.T790M (C-to-T base pair change at the second nucleotide of codon 790 in EGFR exon 20), EGFR amplification, MYC gene amplification, RB1 mutation, and TP53 gene mutation. While waiting for the NGS results, the patient showed salivation and unresponsive symptoms. Brain magnetic resonance imaging showed multiple nodular foci of various sizes on 13 June 2020. The patient did not want to continue treatment and was discharged.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "34396834_tr.json",
+    "source_pmid": "34396834",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/34396834_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:11:01",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Transformation of non-small cell lung cancer into small cell lung cancer in a patient with advanced lung cancer: a case report",
+    "author": "Zhengyuan Yang; Yingcheng Lin; Hongbiao Wang",
+    "date": "2021-08-16"
+  },
+  "rejection_reason": null
+}

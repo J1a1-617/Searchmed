@@ -1,0 +1,94 @@
+{
+  "provenance": {
+    "source_filename": "31564914_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 75,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "cough",
+      "dyspnea",
+      "intermittent chest pain"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "pulmonary sarcomatoid carcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IV",
+    "overall_stage": "IV",
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": [
+      "right hilum",
+      "multiple lesions in right pleura"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET exon 14 skipping mutation (NM_000245:c.3028+3A>G)"
+        ],
+        "variant_allele_frequency": "73.9%",
+        "sample": "lung biopsy specimen"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "savolitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "savolitinib": "600 mg orally once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 9
+      },
+      "safety": {
+        "adverse_events": [],
+        "dose_adjustments": []
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + molecular",
+      "molecular": {
+        "findings": [
+          "FGFR1 amplification",
+          "EGFR amplification",
+          "KRAS amplification"
+        ],
+        "sample": "tumor biopsy sample"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 9,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with pulmonary sarcomatoid carcinoma harboring MET exon 14 mutation",
+      "Rapid and durable partial response to savolitinib",
+      "No ≥grade 3 adverse events during treatment",
+      "Decrease in allele frequency of MET mutation with tumor size reduction"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

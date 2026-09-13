@@ -1,0 +1,144 @@
+{
+  "provenance": {
+    "source_filename": "39960762_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 55,
+    "sex": "female",
+    "smoking_status": "nonsmoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "cough",
+      "shortness of breath"
+    ],
+    "diagnosis_date": "2023-04",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "CT4N3M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": [
+      "pleura",
+      "pericardium",
+      "brain",
+      "bones"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-04",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion (p.E746-750delELREA)"
+        ],
+        "sample": "lung tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "almonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "almonertinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2024-03",
+      "event_type": "progression + rebiopsy + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion (p.E746-750delELREA)",
+          "EGFR p.C797S",
+          "TP53 mutation"
+        ],
+        "sample": "lung tissue"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "icotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "icotinib": "250 mg TID"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2024-08",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR p.T790M",
+          "TP53 mutation"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "icotinib",
+          "bevacizumab"
+        ],
+        "type": "combination_targeted",
+        "ddi_pair": "bevacizumab + icotinib",
+        "drug_to_target": {
+          "bevacizumab": null,
+          "icotinib": [
+            "EGFR"
+          ]
+        },
+        "dosage": {
+          "bevacizumab": "500 mg",
+          "icotinib": "250 mg TID"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 2
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "icotinib",
+      "bevacizumab"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient developed C797S resistance during almonertinib therapy.",
+      "EGFR exon 20 T790M mutation emerged during treatment.",
+      "Combination therapy with icotinib and bevacizumab was initiated."
+    ],
+    "ddi_relevance": "medium",
+    "generalizability": "low"
+  }
+}

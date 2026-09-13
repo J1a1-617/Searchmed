@@ -1,0 +1,147 @@
+{
+  "provenance": {
+    "source_filename": "37223679_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 65,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "cough"
+    ],
+    "diagnosis_date": "2017-04",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "pT2aN0M0",
+    "overall_stage": "Ib",
+    "baseline_primary_site": "left lung upper lobe",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2017-04",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "germline ERCC2 frameshift mutation c.1849dup (p. A617Gfs*32)"
+        ],
+        "sample": "blood"
+      },
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": null,
+          "carboplatin": null
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2020-07",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R",
+          "splicing mutation in intron 6 of RET gene (c.1263 + 2T>C)"
+        ],
+        "sample": "hydrothorax"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg qd"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 17
+      }
+    },
+    {
+      "time": "2021-12",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R",
+          "EGFR L718Q",
+          "BRAF V600E",
+          "TP53 R273H",
+          "RET c.1263 + 2T>C",
+          "germline ERCC2 frameshift mutation c.1849dup (p. A617Gfs*32)"
+        ],
+        "sample": "hydrothorax"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "bevacizumab",
+          "osimertinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "bevacizumab": null,
+          "osimertinib": null
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2022-05",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "BRAF V600E"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "dabrafenib",
+          "trametinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "dabrafenib": "150 mg bid",
+          "trametinib": "2 mg qd"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 2
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Germline ERCC2 frameshift mutation associated with lung adenocarcinoma",
+      "Family history of cancer in relatives",
+      "Initial response to osimertinib followed by progression",
+      "Combination treatment with dabrafenib and trametinib achieved stable disease"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

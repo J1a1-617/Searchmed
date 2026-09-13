@@ -1,0 +1,187 @@
+{
+  "provenance": {
+    "source_filename": "36237272_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 70,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "LUAD",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IV",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR 19del"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": 6
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR T790M"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": 11
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET amplification",
+          "EGFR 19del"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "osimertinib",
+          "cabozantinib",
+          "capmatinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "cabozantinib": null,
+          "capmatinib": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 10
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR S784Y",
+          "EGFR L799Q",
+          "EGFR C797S",
+          "EGFR T790M",
+          "EGFR 19del"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "pemetrexed",
+          "bevacizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": null,
+          "bevacizumab": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "brigatinib",
+          "cetuximab"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "brigatinib": null,
+          "cetuximab": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 18
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "cabozantinib",
+      "capmatinib",
+      "pemetrexed",
+      "bevacizumab",
+      "brigatinib",
+      "cetuximab"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 51,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Resistance mechanisms to osimertinib includes EGFR C797S mutation and MET amplification.",
+      "Combination therapy resulted in long-term PFS.",
+      "Emergence of novel mutations during treatment."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: SMARCA4-deficient non-small-cell lung cancer with a MET14 skipping mutation: A case report\nPMID: \nAuthors: Hongfei Zhao, Qingming Shi, Chi Zhang, Dongmei Chen, Wei Ye\n\nABSTRACT\nSMARCA4-deficient non-small-cell lung cancer (SD-NSCLC) is a rare and highly aggressive epithelial tumor that originates in the lungs. SD-NSCLCs are more prevalent among male smokers, lacks mutations of the mesenchymal-epithelial transition g (MET) gene, and does not have an established treatment plan. Herein, we present a unique case of an SD-NSCLC, an adenocarcinoma with a MET14 skipping mutation, in the left upper lung lobe which was classified as cT4N3M1a stage IVa. Next-generation sequencing revealed a D1010H skip mutation in exon 14 of MET, and immunohistochemistry indicated a programmed death ligand 1 expression level of 90%. Owing to financial constraints and concerns regarding chemotherapy, the patient declined MET inhibitor-targeted therapy and chemotherapy. Instead, the patient received sintilimab and anlotinib. Following two treatment cycles, a notable reduction in the lesions in the left upper lobe and a significant decrease in lung metastases were observed, and the patient has attained a progression free survival of >2 years. This case represents the initial documentation of SD-NSCLC featuring MET14 skipping mutations and its effective management with programmed death protein 1 inhibitors, in conjunction with anti-angiogenic agents. We believe that the combination of sintilimab and anlotinib can be a viable therapeutic approach for the treatment of SD-NSCLCs.\n\nCASE PRESENTATION\nA 53-year-old male patient presented to Anhui Chest Hospital in July 2022 with persistent dull pain in the left chest. He had a medical history of chronic non-atrophic gastritis, but no history of smoking or alcohol consumption, and no known familial predisposition for cancer. Upon admission, the patient underwent a chest computed tomography (CT) examination, revealing a sizable mass measuring about 6.2 cm × 5.4 cm within the upper lobe of the left lung (Fig. 1A). Both lungs displayed multiple nodules with well-defined margins, each reaching a maximum diameter of approximately 1.0 cm. Additionally, left pleural effusion was observed along with enlarged lymph nodes in the left hilum, supraclavicular area, and mediastinum. One day post-admission, closed drainage of the left thoracic cavity was performed, and cytological analysis of the pleural fluid revealed atypical cells. Subsequently, a left lung needle biopsy was performed two days later, with pathological confirmation of SMARCA4-deficient lung adenocarcinoma (Fig. 2A). The immunohistochemical profile revealed the following markers: CK (+), CK7 (+), TTF-1 (+), napsin A (partially +), Ki-67 (approximately 50%), Brg-1 (−) (Fig. 2B), P40 (−), and VIM (−). PD-L1 assessment revealed a tumor proportion score of 90%. Subsequent cranial magnetic resonance imaging, whole-body bone scans, and abdominal and pelvic CT scans revealed no signs of metastases. Molecular profiling of the lung biopsy tumor tissue using a comprehensive next-generation sequencing (NGS) panel conducted 5 days later revealed a D1010H mutation in exon 14 of MET, with a prevalence of 21.6%. Additionally, the analysis identified a frameshift mutation in BRCA1, a missense mutation in MSH6, and a non-frameshift mutation in CDK12. No tumor microsatellite instability or mutations in ALK, ROS1, EGFR, KRAS, RET, STK11, or TP53 genes were detected. The conclusive diagnosis was an SD-NSCLC with a MET14 skipping mutation, at stage IVa, and with 90% PD-L1 expression.\nOwing to financial constraints and concerns regarding chemotherapy, the patient declined MET inhibitor-targeted therapy and chemotherapy. Instead, the patient received sintilimab (200 mg, day 1) and anlotinib (12 mg, day 1–14). Following two treatment cycles, a chest CT scan showed a notable reduction in the lesion in the left upper lung (Fig. 1B). During the 22nd treatment cycle, follow-up chest CT (Fig. 1C) demonstrated that the primary lesion had achieved its maximum depth of response. Subsequent monitoring of the 32nd treatment cycle via chest CT (Fig. 1D) indicated sustained control of the primary lesion. As of the current date, the patient has surpassed 2 years of progression-free survival. The patient exhibited favorable tolerance to combination therapy. During the first month, the patient presented with mild pruritus and a rash. After eight months, the patient developed hypertension, which was managed with irbesartan, and unstable angina pectoris for which coronary artery angioplasty was performed. After 16 months, the patient developed subclinical hypothyroidism, which was treated with levothyroxine.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41550197_tr.json",
+    "source_pmid": "41550197",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41550197_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:22:48",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Successful treatment with sintilimab plus anlotinib for SMARCA4-deficient non-small cell lung cancer withMET exon 14 skipping: a case report",
+    "author": "Hongfei Zhao; Chi Zhang; Dongmei Chen; Wei Ye; Qingming Shi",
+    "date": "2022-11-07"
+  },
+  "rejection_reason": null
+}

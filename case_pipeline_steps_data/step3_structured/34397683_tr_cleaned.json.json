@@ -1,0 +1,179 @@
+{
+  "provenance": {
+    "source_filename": "34397683_tr_cleaned.json",
+    "source_pmid": "10026375",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.95
+  },
+  "baseline_clinical_profile": {
+    "age": 53,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "productive cough"
+    ],
+    "diagnosis_date": "2017-06",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 7th",
+    "tnm_stage": "cT4N2M0",
+    "overall_stage": "IIIB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "left hilar lymph nodes",
+      "mediastinal lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2017-06",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 21 L858R"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "cisplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "cisplatin": "75 mg/m2, day 1",
+          "pemetrexed": "500 mg/m2, day 1"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2017-11",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": "250 mg daily"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2018-04",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "findings": [
+          "no T790 M mutation"
+        ],
+        "sample": "liquid biopsy"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "afatinib"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": null
+    },
+    {
+      "time": "2018-06",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "cisplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "cisplatin": "75 mg/m2, day 1",
+          "pemetrexed": "500 mg/m2, day 1"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2018-10",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R",
+          "EGFR T790 M in blood",
+          "Met amplification in tumor"
+        ],
+        "sample": "tumor and blood specimens"
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "osimertinib",
+          "crizotinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily",
+          "crizotinib": "250 mg BID"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2019-01",
+      "event_type": "progression",
+      "molecular": null,
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "radiofrequency ablation",
+          "zoledronic acid"
+        ],
+        "type": "palliative",
+        "dosage": null
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "crizotinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 24,
+    "survival_status": "dead",
+    "cause_of_death": "multisystem organ failure",
+    "last_follow_up": "2019-06"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Dramatic tumor shrinkage with osimertinib and crizotinib combination",
+      "Progression-free survival of two months after combination therapy",
+      "Patient developed multiple resistance mutations over the course of treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

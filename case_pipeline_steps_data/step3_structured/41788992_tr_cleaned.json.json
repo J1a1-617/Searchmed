@@ -1,0 +1,84 @@
+{
+  "provenance": {
+    "source_filename": "41788992_tr_cleaned.json",
+    "source_pmid": "DOI",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 68,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IIIB",
+    "overall_stage": "IIIB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "thoracic lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS G12V",
+          "EGFR exon 21 V831H"
+        ],
+        "sample": "lymph node biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "almonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "almonertinib": "110 mg daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 0.67
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment + progression",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "rifampicin",
+          "isoniazid"
+        ],
+        "type": "antituberculosis",
+        "dosage": null
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 1,
+    "survival_status": "dead",
+    "cause_of_death": "brain metastases",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Germ-line EGFR V831H mutation identified",
+      "Primary resistance to almonertinib observed",
+      "New brain metastases developed within one month"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pmid": "41815740",
+  "source_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case report/literature_pipeline/output/full_texts/41815740.html",
+  "extraction_method": "trafilatura",
+  "title": "Checking your browser",
+  "author": null,
+  "date": "2026-04-05",
+  "url": "",
+  "hostname": "google.com",
+  "description": "",
+  "categories": "",
+  "tags": "",
+  "text": "Checking your browser before accessing pmc.ncbi.nlm.nih.gov ...\nClick\nhere if you are not automatically redirected after 5 seconds.",
+  "text_length": 131,
+  "fingerprint": "4f880cc5bd794329",
+  "license": null
+}

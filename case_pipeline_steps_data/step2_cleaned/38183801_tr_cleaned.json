@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "38183801_tr.json",
+    "source_pmid": "38183801",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38183801_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:34:17",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Vaccine antibodies against a synthetic epidermal growth factor variant enhance the antitumor effects of inhibitors targeting the MAPK/ERK and PI3K/Akt pathways",
+    "author": "Silvia García-Roman; Mónica Garzón-Ibáñez; Jordi Bertrán-Alamillo; Núria Jordana-Ariza; Ana Giménez-Capitán; Beatriz García-Peláez; Marta Vives-Usano; Jordi Codony-Servat; Erik d'Hondt; Rafael Rosell; Miguel Ángel Molina-Vila",
+    "date": "2024-01-06"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

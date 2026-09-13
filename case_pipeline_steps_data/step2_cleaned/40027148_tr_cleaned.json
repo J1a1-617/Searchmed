@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40027148_tr.json",
+    "source_pmid": "40027148",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40027148_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:10:55",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "NGS detection of gene rearrangements and METexon14 mutations in liquid biopsy of advanced NSCLC patients: A study of two Italian centers",
+    "author": "Michela Verzè; Andrea Boscolo Bragadin; Roberta Minari; Giulia Pasello; Fabiana Perrone; Daniela Scattolin; Paola Bordi; Monica Pluchino; Alessandro Leonetti; Giulia Mazzaschi; Francesco Bonatti; Letizia Gnetti; Lorena Bottarelli; Elisabetta Zulato; Giorgia Nardo; Chiara Dalle Fratte; Alessia Padovan; Laura Bonanno; Marcello Tiseo; Stefano Indraccolo",
+    "date": "2024-02-10"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

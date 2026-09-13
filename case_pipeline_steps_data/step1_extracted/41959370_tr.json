@@ -1,0 +1,17 @@
+{
+  "pmid": "41959370",
+  "source_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case report/literature_pipeline/output/full_texts/41959370.html",
+  "extraction_method": "trafilatura",
+  "title": "A multi-omics approach to identify the impact of miR-411ed on NSCLC TKI resistance",
+  "author": "Daniel Del Valle Morales; Giulia Romano; Michela Saviana; Patrick Nana-Sinkam; Giovanni Nigita; Mario Acunzo",
+  "date": "2026-04-03",
+  "url": "",
+  "hostname": "ncbi.nlm.nih.gov",
+  "description": "",
+  "categories": "",
+  "tags": "",
+  "text": "Abstract\nTyrosine Kinase inhibitors (TKIs) are widely used as effective chemotherapeutic agents for treating patients with EGFR-mutated NSCLC. Unfortunately, after treatment, patients eventually develop resistance to TKI therapy. The most common resistance mechanism for the TKI Osimertinib is the overexpression of the MET Proto-Oncogene, Receptor Tyrosine Kinase (MET). We previously demonstrated that miR-411-5p A-to-I edited at position 5 (miR-411ed) can directly target MET in A549 and H1299 cells. MiR-411ed in combination with Osimertinib reduced cell proliferation in two TKI resistant EGFR-mutated cell lines: HCC827R and PC9R. MiR-411ed did not downregulate MET expression in HCC827R, suggesting an alternative mechanism for TKI response. In this study, we aim to identify the mechanism of miR-411ed TKI response using a multi-omics approach of RNAseq and protein mass spectrometry. In our cellular model, we identified miR-411ed affected genes independent of MET activity, resulting in 211 genes (RNAseq) and 36 proteins (proteomics). Pathway analysis identified an increase in interferon signaling for RNAseq and combined omics, and a decrease in ERK/MAPK signaling in proteomics. Using the IsoTar target prediction tool, we identified STAT3 as a key regulator and confirmed STAT3 protein downregulation upon transfection with miR-411ed. We further investigated the effect of miR-411ed in vivo, observing a reduction in tumor size with miR-411ed in combination with Osimertinib but not with miR-411ed or Osimertinib treatment alone, confirming the effectiveness of miR-411ed in TKI response.\nFull Text\nThe Full Text of this preprint is available as a PDF (1.6 MB). The Web version will be available soon.",
+  "text_length": 1716,
+  "fingerprint": "3f551dce5b2b93c2",
+  "license": null
+}

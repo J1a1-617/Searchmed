@@ -1,0 +1,111 @@
+{
+  "provenance": {
+    "source_filename": "41426315_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 61,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "paroxysmal cough",
+      "left lung mass"
+    ],
+    "diagnosis_date": "2022-09",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "cTNM",
+    "tnm_stage": "cT4N2M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral lungs",
+      "left interlobar pleura",
+      "mediastinal lymph nodes",
+      "left hilar lymph nodes",
+      "skeleton"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-09",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "ERBB2 p.Y772_A775dup",
+          "EGFR p.T1029M",
+          "EGFR p.R962H",
+          "EGFR p.A10V",
+          "TP53 p.I505S",
+          "U2AF1 p.S34F",
+          "KEAP1 p.L81Q",
+          "SMAD4 p.H262Q",
+          "KIT p.K807N",
+          "KIT p.I808L"
+        ],
+        "sample": "tumor tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pyrotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "pyrotinib": "400 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2022-10",
+      "event_type": "follow_up + assessment",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "PR",
+        "duration_months": 7
+      }
+    },
+    {
+      "time": "2025-04",
+      "event_type": "follow_up",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "SD",
+        "duration_months": 31
+      },
+      "safety": {
+        "adverse_events": [
+          "diarrhea"
+        ],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 31,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2025-04"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with HER2 exon 20 insertion and concurrent EGFR mutations",
+      "Partial response to first-line pyrotinib monotherapy",
+      "Maintained stable disease for over 31 months",
+      "Mild intermittent diarrhea managed with loperamide"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

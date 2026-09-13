@@ -1,0 +1,105 @@
+{
+  "provenance": {
+    "source_filename": "36411743_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 31,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IVB",
+    "overall_stage": "IV",
+    "baseline_primary_site": null,
+    "metastatic_sites_at_baseline": null
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "NF1 p.G127Ter"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 15
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment + progression + molecular",
+      "molecular": {
+        "alterations": [
+          "BRAF V600E"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "lorlatinib",
+          "dabrafenib",
+          "trametinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "lorlatinib": null,
+          "dabrafenib": null,
+          "trametinib": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "lorlatinib",
+      "dabrafenib",
+      "trametinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Emergence of NF1 p.G127Ter mutation as a potential crizotinib resistance mechanism",
+      "Achieved PFS of 7 months with lorlatinib",
+      "Acquisition of NRAS p.Q61R and NTRK amplification may confer resistance to combinatorial targeted therapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

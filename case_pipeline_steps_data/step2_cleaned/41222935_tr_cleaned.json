@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41222935_tr.json",
+    "source_pmid": "41222935",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41222935_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:10:30",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Trastuzumab Deruxtecan for ERBB2-Mutant Metastatic Non–Small Cell Lung Cancer With or Without Brain Metastases: A Secondary Analysis of Randomized Clinical Trials",
+    "author": "Pasi A Jänne; David Planchard; Koichi Goto; Egbert F Smit; Adrianus Johannes de Langen; Yasushi Goto; Kiichiro Ninomiya; Toshio Kubo; Maurice Pérol; Enriqueta Felip; Hidetoshi Hayashi; Kazuhiko Nakagawa; Junichi Shimizu; Misako Nagasaka; Kaline Pereira; Ayumi Taguchi; Ahmed Ali; Maha Karnoub; Rie Yonemochi; David Leung; Bob T Li",
+    "date": "2025-11-12"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

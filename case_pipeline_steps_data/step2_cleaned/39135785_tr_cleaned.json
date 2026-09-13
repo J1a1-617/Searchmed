@@ -1,0 +1,28 @@
+{
+  "text": "Title: A case of acquired EML4-ALK fusion after sequential treatment with erlotinib and osimertinib in a patient with lung adenocarcinoma\nPMID: \nAuthors: \n\nAbstract\nBackground\nDespite significant benefits from targeted therapy in patients with driver mutations, inevitable drug resistance usually occurred in non-small cell lung cancer, highlighting the necessity for sequential treatments to prolong overall survival. Unfortunately, durable drug response has not been reported in posterior-line therapy of cases with acquired EML4-ALK fusion after resistance to osimertinib, urging the need of referable decision-making in clinical management.\nCase presentation\nWe present a case of a 71-year-old Chinese female, never smoker, diagnosed with invasive adenocarcinoma in the left inferior lobe of her lung, with metastases in regional lymph nodes. She received erlotinib treatment after the detection of coexistent EGFR L858R/G719S and BRAF V600E via next-generation sequencing of resected tumor tissue. Routine imaging revealed disease progression approximately 14 months after starting erlotinib treatment, followed by the detection of EGFR L858R through non-invasive liquid biopsy. Subsequently, osimertinib was administered, showing clinical activities for nearly 19 months until the emergence of an EML4-ALK fusion. Given the EML4-ALK fusion, a relatively rare resistance mechanism to osimertinib, she received third-line ensartinib treatment. One month later, alleviated tumor lesions plus normal serum marker levels demonstrated the effectiveness of ensartinib in overcoming resistance to osimertinib. Of note, the clinical response to ensartinib persisted for more than 14 months, superior to the previously reported efficacy of aletinib and crizotinib in osimertinib-failure cases. As of the last follow-up in July 2022, the patient showed no signs of recurrence and maintained a good life quality.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39135785_tr.json",
+    "source_pmid": "39135785",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39135785_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:52:36",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case report: Durable response of ensartinib targeting EML4-ALK fusion in osimertinib-resistant non-small cell lung cancer",
+    "author": "Yongkuan Guo; Ran Zhang; Yiran Meng; Li Wang; Liuqing Zheng; Jian You",
+    "date": "2024-07-29"
+  },
+  "rejection_reason": null
+}

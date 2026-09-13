@@ -1,0 +1,28 @@
+{
+  "text": "Title: Neoadjuvant ensartinib in a patient with ALK-positive non-small cell lung cancer: a case report\nPMID: \nAuthors: \n\nAbstract\nAnaplastic lymphoma kinase (ALK) fusion mutations exhibit exceptional sensitivity to tyrosine kinase inhibitors (TKIs) in patients with advanced non-small cell lung cancer (NSCLC). Ensartinib, a second-generation ALK-TKI, represents a promising therapeutic option for ALK mutation-associated NSCLC; however, its clinical application in perioperative therapy remains to be elucidated.\n\nCase description\nWe report the case of a 45-year-old female diagnosed with stage IIIA (cT2N2M0, AJCC eighth edition) adenocarcinoma of the right lung harboring an EML4-ALK fusion (E6:A20) and a TP53 mutation. Following 3-month neoadjuvant therapy with ensartinib, surgical conversion from R(un) to R0 resection was achieved, accompanied by histopathological assessment and confirmation of a major pathological response (MPR) (<10% viable tumor cells) and negative postoperative molecular residual disease (MRD) surveillance. Despite effective neoadjuvant targeted therapy and the absence of significant adverse events, the patient experienced drug-refractory grade 3 cutaneous toxicity (CTCAE v5.0) 4 weeks after surgery and was subsequently found to have a T12 vertebral metastasis on 3-month surveillance imaging. After multidisciplinary evaluation and considering the patient’s refusal to undergo local therapies, treatment was switched to lorlatinib. The patient subsequently experienced complete resolution of skin toxicity, sustained disease control, and a significantly improved quality of life.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41050402_tr.json",
+    "source_pmid": "41050402",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41050402_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:04:04",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Severe skin toxicity and early progression following neoadjuvant ensartinib and surgery in anaplastic lymphoma kinase-positive locally advanced lung cancer: a case report",
+    "author": "Hongming Wang; Shiyan Li; Zhijun Wu; Wei Xu; Nuoni Wang; Zemin Xiao",
+    "date": "2025-09-18"
+  },
+  "rejection_reason": null
+}

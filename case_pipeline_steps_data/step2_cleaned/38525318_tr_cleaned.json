@@ -1,0 +1,28 @@
+{
+  "text": "Title: Adenocarcinoma harboring EGFR-RAD51 fusion treated with osimertinib: a case report\nPMID: 100652\nAuthors: Sunny Y. Lai, Noah H. Richardson, Mya Tran, Nasser H. Hanna, Misty D. Shields\n\nAbstract\nEGFR mutations are among the most common driver mutations in lung adenocarcinoma. Rare alterations, such as the EGFR-RAD51 fusion, respond to treatment with EGFR tyrosine kinase inhibitors but can be missed by limited genomic sequencing panels. Here, we report a case of metastatic lung adenocarcinoma in a never-smoker patient who initially did not have a targetable alteration identified on two different sequencing panels. The initial response to combination chemoimmunotherapy was short-lived. A rare EGFR-RAD51 fusion was then identified using a more in-depth sequencing panel. The patient experienced a dramatic and durable response to osimertinib. This case highlights the rarity of EGFR-RAD51 fusions, the efficacy of EGFR tyrosine kinase inhibitors, and the importance of a thorough search for targetable alterations in never-smokers with lung adenocarcinoma.\n\nCase Presentation\nA 45-year-old man with no history of smoking presented with progressive back pain, chest discomfort, diplopia, and right eye ptosis. Imaging revealed a right cavernous sinus mass, innumerable bilateral pulmonary nodules, multifocal lymphadenopathy, and diffuse skeletal lesions. Left axillary lymph node biopsy revealed primary adenocarcinoma of the lung. The tumor proportion score for programmed death-ligand 1 (PD-L1) was less than 1%. Next-generation sequencing (NGS) performed on tissue using the Quest Diagnostics lung cancer panel did not detect any targetable alterations. Liquid biopsy using the Guardant360 CDx (Guardant, Redwood City, CA) revealed a KIT E69A variant of uncertain significance (Fig. 1).\nHe received one cycle of carboplatin and pemetrexed while awaiting NGS results, then was initiated on combination chemoimmunotherapy with carboplatin, pemetrexed, nivolumab, and ipilimumab once testing did not identify a targetable alteration. His condition progressively deteriorated—he began requiring supplemental oxygen, lost 10 kg, and had marked functional decline. Imaging before the third cycle of treatment revealed progressive disease with enlarging pulmonary infiltrates and new sites of bony metastases (Fig. 2).\nRepeat NGS was performed using the FoundationOne Liquid CDx (Foundation Medicine, Boston, MA) and revealed an EGFR-RAD51 gene fusion with an allele frequency of 0.38%. He was switched from chemoimmunotherapy to osimertinib 80 mg daily. Within 1 month, he experienced dramatic symptom improvement. At 3 months, he returned to work and regained weight to baseline. Visual symptoms and cancer-related pain had resolved. Imaging revealed improvement in pulmonary nodularity, lymphadenopathy, and sclerosis of bony metastases. At 9 months, asymptomatic intracranial metastases were identified with stable systemic disease. He underwent gamma knife radiosurgery. Repeat FoundationOne Liquid CDx did not reveal acquired resistance mechanisms. EGFR-RAD51 fusion was undetectable. No treatment-related adverse events, including pneumonitis, have occurred. At the last follow-up, approximately 1 year after initiation of osimertinib, imaging continued to reveal partial response and he remains on therapy to date.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38525318_tr.json",
+    "source_pmid": "38525318",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38525318_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:38:51",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Adenocarcinoma Harboring EGFR-RAD51 Fusion Treated With Osimertinib: A Case Report",
+    "author": "Sunny Y Lai; Noah H Richardson; Mya Tran; Nasser H Hanna; Misty D Shields",
+    "date": "2024-02-19"
+  },
+  "rejection_reason": null
+}

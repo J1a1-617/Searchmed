@@ -1,0 +1,117 @@
+{
+  "provenance": {
+    "source_filename": "40082212_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 65,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": 20,
+    "presenting_symptoms": [
+      "sputum production"
+    ],
+    "diagnosis_date": "2023-04",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "CT2aN3M1b",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "chest wall",
+      "lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-04",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR-19 del",
+          "BRAF V600E"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "Osimertinib",
+          "Trametinib",
+          "Dabrafenib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "Osimertinib": "80 mg daily",
+          "Trametinib": "2 mg daily",
+          "Dabrafenib": "250 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      },
+      "safety": {
+        "adverse_events": [
+          "low fever",
+          "intermittent diarrhea",
+          "grade I-II liver function abnormality"
+        ],
+        "dose_adjustments": [
+          "Dabrafenib reduced to 75 mg daily"
+        ]
+      }
+    },
+    {
+      "time": "2023-06",
+      "event_type": "follow_up + progression_assessment",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2024-06",
+      "event_type": "follow_up",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "unknown",
+        "duration_months": 13
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "Osimertinib",
+      "Trametinib",
+      "Dabrafenib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2024-06"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Co-occurring EGFR and BRAF mutations in lung adenocarcinoma",
+      "Sustained response to combination therapy of Osimertinib, Trametinib, and Dabrafenib",
+      "Management of adverse events with dose adjustment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "provenance": {
+    "source_filename": "39777351_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 66,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": 40,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "mixed poorly differentiated non-small cell lung cancer with neuroendocrine features",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT2bN0M0",
+    "overall_stage": "IIB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "YYYY",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS G12C",
+          "partial BRG-1 deficiency"
+        ],
+        "sample": "lung tumor tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "surgical resection"
+        ],
+        "type": "surgery",
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "YYYY",
+      "event_type": "adjuvant treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "PD-L1 TPS=5%",
+          "PD-L1 CPS=20%"
+        ],
+        "sample": "lung tumor tissue"
+      },
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "etoposide",
+          "cisplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "etoposide": null,
+          "cisplatin": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "YYYY",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "carrelizumab",
+          "paclitaxel",
+          "carboplatin"
+        ],
+        "type": "immunotherapy + chemotherapy",
+        "dosage": {
+          "carrelizumab": null,
+          "paclitaxel": null,
+          "carboplatin": null
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "Grade 1 fatigue",
+          "nausea",
+          "immune-mediated adrenocortical insufficiency"
+        ],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Partial BRG-1 deficiency in mixed lung cancer",
+      "KRAS G12C mutation identified",
+      "Aggressive treatment approach with surgery, chemotherapy, and immunotherapy",
+      "Rapid progression to brain metastasis despite treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

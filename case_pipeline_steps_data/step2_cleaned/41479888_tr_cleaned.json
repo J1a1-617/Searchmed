@@ -1,0 +1,28 @@
+{
+  "text": "Title: Osimertinib-induced severe lymphocytopenia and its consequences\nPMID: [未提供]\nAuthors: [未提供]\n\nAbstract\nOsimertinib-induced severe lymphocytopenia can create a profound immunodeficiency state, facilitating opportunistic infections and progressive fibrotic lung disease. A 75-year-old female with EGFR-mutant NSCLC developed respiratory failure with diffuse ground-glass opacities and profound lymphocytopenia (ALC 0.48×109/L). Overreliance on BAL-NGS detection of Mycobacterium avium complex delayed diagnosis of cytomegalovirus pneumonia. Guideline-discordant erlotinib rechallenge accelerated lymphocyte depletion, culminating in high-grade CMV viremia with CD4+ lymphocytopenia (0.16×109/L) and irreversible pulmonary fibrosis despite ganciclovir-induced virologic clearance. This case demonstrates an immune-fibrotic axis wherein TKI-induced lymphocytopenia enables CMV pneumonitis and fibrotic remodeling. Lymphocytopenia in this setting mandates urgent viral exclusion before attributing injury to drug toxicity and precludes TKI rechallenge during active infection or severe immunosuppression. BAL-NGS requires rigorous clinicoradiologic correlation.\n\n2. Case presentation\n2.1. Initial presentation and diagnostic dilemma\nA 75-year-old non-smoking female with stage IV EGFR exon 19 deletion NSCLC lung adenocarcinoma (baseline imaging [11 September 2023]: Figure 1A) presented on 28 December 2023 with acute fever, debilitating dyspnea at rest (mMRC grade 4), dry cough, and anorexia 12 days after osimertinib discontinuation (80 mg/day for 1 month). Physical examination revealed tachypnea (28 breaths per minute), tachycardia (110 beats per minute), and coarse crackles on auscultation bilaterally. Thoracic Computed Tomography (CT) revealed new diffuse bilateral ground-glass opacities (GGOs) with smooth interlobular septal thickening (Figure 1B), accompanied by profound lymphocytopenia (absolute lymphocyte count [ALC] 0.48 × 109/L [baseline 1.87 × 109/L]) and elevated C-reactive protein (47.81 mg/L). Despite a clinical triad suggestive of infection, the initial diagnosis favored drug-induced ILD, delaying virologic assessment.\n\n2.2. Diagnostic misdirection and management missteps\nAlthough BAL-NGS identified MAC DNA (12,853 copies/mL; 5 January 2024), the BAL cellular profile (neutrophilia 32%) and the absence of cavitation on imaging were inconsistent with typical MAC infection. Subsequent management preceded viral exclusion: viral PCR was not urgently performed despite severe lymphocytopenia (ALC <0.5×109/L), and erlotinib was rechallenged (7 January 2024) before infection exclusion, inducing rapid lymphocyte depletion (ALC decline 2.13→1.28×109/L; 39.9% reduction; see Figure 2). Follow-up CT (12 January 2024) showed progressive crazy-paving patterns and increased GGO density, indicating advancing alveolar damage (Figure 1C). This was interpreted as stabilization, reinforcing the MAC diagnosis and leading to discharge (16 January 2024) on antimycobacterials.\n\n2.3. Clinical deterioration and definitive diagnosis\nAcute re-admission occurred on 18 February 2024 (10 days post-erlotinib cessation) with fever, dry cough, hypotension (96/52 mmHg), and hypoxemia (SpO2 88% on room air) requiring urgent oxygen therapy due to incapacitating dyspnea. CT showed peri-bronchovascular consolidations with early reticulation and cord-like shadows (Figure 1D). BAL-PCR confirmed high-level CMV viremia (20,000 copies/mL) and profound CD4+ lymphocytopenia (0.16×109/L), following a non-diagnostic lung biopsy that had revealed only non-specific interstitial inflammation. This severe immunosuppression likely resulted from the synergistic interplay of erlotinib-induced lymphotoxicity, uncontrolled CMV dissemination, and prolonged corticosteroid exposure (Figure 2). Serologic tests for viral hepatitis, EBV, HIV, Leishmania, Cryptococcus, and bunyaviruses were negative. Full-dose ganciclovir (5 mg/kg IV q12h) initiated on 21 February 2024 achieved virologic clearance (<500 copies/mL) by day 7 and complete symptom resolution by day 21.\n\n2.4. Treatment response and irreversible sequelae\nDespite discharge on 8 March 2024, follow-up CT (1 May 2024) confirmed irreversible fibrotic remodeling with traction bronchiectasis and reticulation (Figure 1E), resulting in permanent respiratory impairment (FVC 48%, DLCO 42%) and functional disability, requiring long-term supplemental oxygen (2–4 L/min) for minimal activities of daily living. The stability of these fibrotic changes on a subsequent CT (12 March 2025) confirmed their irreversible nature. A comprehensive chronology is summarized in Table 1.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41479888_tr.json",
+    "source_pmid": "41479888",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41479888_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:20:36",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Lymphocyte dynamics as the central mediator in osimertinib-induced CD4+ T-cell depletion, fulminant cytomegalovirus pneumonitis, and progressive pulmonary fibrosis: a case report",
+    "author": "Liya Zhu; Dan Liu; Jie Peng; Jinzhi Lu",
+    "date": "2025-12-17"
+  },
+  "rejection_reason": null
+}

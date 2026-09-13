@@ -1,0 +1,86 @@
+{
+  "provenance": {
+    "source_filename": "37456237_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 75,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 100,
+    "presenting_symptoms": [
+      "productive cough"
+    ],
+    "diagnosis_date": "2020-07",
+    "cancer_type": "NSCLC",
+    "histology": "pulmonary sarcomatoid carcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT4N3M1b",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "right lower lobe of the lung",
+    "metastatic_sites_at_baseline": [
+      "left adrenal gland"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-07",
+      "event_type": "diagnosis + molecular + imaging",
+      "molecular": {
+        "alterations": [
+          "KRAS P.L19F",
+          "NFE2L2 P.E82G",
+          "TP53 P.S183"
+        ],
+        "sample": "NGS testing",
+        "tmb": "30.91 muts/Mb",
+        "pd_l1_tps": "60%"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "anlotinib",
+          "sintilimab"
+        ],
+        "type": "combination_immunotherapy",
+        "dosage": {
+          "anlotinib": "12 mg QD (day 1 to 14)",
+          "sintilimab": "200 mg q3w"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 9
+      }
+    },
+    {
+      "time": "2023-03",
+      "event_type": "follow_up + imaging",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "PR",
+        "duration_months": 9
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 9,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2023-03"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with pulmonary sarcomatoid carcinoma treated with combination of anlotinib and sintilimab",
+      "Significant reduction in tumor size after treatment",
+      "No notable discomfort and stable ECOG score"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "provenance": {
+    "source_filename": "38606154_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 71,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "swallowing obstruction",
+      "heartburn",
+      "regurgitation of gastric acid"
+    ],
+    "diagnosis_date": "2015-10",
+    "cancer_type": "NSCLC + esophageal squamous cell carcinoma",
+    "histology": "lung adenocarcinoma + squamous cell carcinoma",
+    "tnm_stage_system": "TNM 7th",
+    "tnm_stage": "cT1aN0M0 + T2-3N0M0",
+    "overall_stage": "IA + II",
+    "baseline_primary_site": "lung + esophagus",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2015-10",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "icotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "icotinib": "125 mg three times per day"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 60
+      }
+    },
+    {
+      "time": "2020-12",
+      "event_type": "progression + imaging",
+      "molecular": null,
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2021-01",
+      "event_type": "hospitalization + imaging + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pleural puncture and drainage"
+        ],
+        "type": "supportive",
+        "dosage": null
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "shortness of breath",
+          "pleural effusion"
+        ],
+        "dose_adjustments": null
+      }
+    },
+    {
+      "time": "2021-04",
+      "event_type": "hospitalization + event",
+      "molecular": null,
+      "treatment": null,
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "lower limb fracture"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 67,
+    "survival_status": "dead",
+    "cause_of_death": "cachexia",
+    "last_follow_up": "2021-05"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient had double primary malignant tumors: lung adenocarcinoma and esophageal squamous cell carcinoma.",
+      "EGFR L858R mutation identified in lung adenocarcinoma.",
+      "Successful treatment with icotinib for five years.",
+      "Progression-free survival of 62 months before detection of new lesions."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

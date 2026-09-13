@@ -1,0 +1,28 @@
+{
+  "text": "Title: Capmatinib-induced liver injury in a patient with metastatic non-small cell lung cancer\nPMID: \nAuthors: Mina Aiad, Harsh J. Bhalala, Halle Bagshaw, Sophia Starner, Debasmita Saha\n\nAbstract\nCapmatinib, a selective mesenchymal-epithelial transition (MET)-kinase inhibitor, is approved for treating metastatic non-small cell lung cancer (NSCLC) with MET exon 14 (METex14) skipping mutation. Although a known side effect, not much data is available on the management of capmatinib-induced liver injury. Here, we present a case of a 60-year-old male with MET exon mutated NSCLC who developed grade 4 liver injury after capmatinib initiation, which did not respond to drug discontinuation and eventually responded to N-acetyl cysteine (NAC) and ursodeoxycholic acid (ursodiol) therapy. This case demonstrates that NAC plus ursodiol can be an effective treatment strategy in such patients.\n\nCase presentation\nA 60-year-old male with type 2 diabetes and limited tobacco history but no other toxic exposure was initially admitted to the hospital with left thigh pain. Workup demonstrated a metastatic lesion in the left femoral shaft, with marked cortical thinning and right iliac chain lymphadenopathy suggesting metastatic disease. Imaging of the chest and abdomen showed a large right hilar mass, concerning for primary bronchogenic malignancy, as well as a right adrenal nodule suspicious for metastatic disease. He underwent left femur prophylactic intramedullary nail insertion, and a bone biopsy confirmed metastatic carcinoma with squamous cell and adenocarcinoma patterns.\nThe patient completed six cycles of carboplatin, paclitaxel, and atezolizumab, followed by 10 cycles of maintenance atezolizumab monotherapy without immune-mediated toxicity. A follow-up positron emission tomography-computed tomography (PET-CT) showed a response, but a new left adrenal mass was suspicious of metastasis (Figure 1).\nThe previous left femur tissue specimen was sent for molecular testing, which showed a PDL-1 (22c3) tumor proportion score of 50%, high tumor mutation burden (11 mutation/megabase), and METex14 skipping mutation, suggesting the benefit of using MET inhibitors, e.g., capmatinib or tepotinib. The treatment was then switched to the c-Met inhibitor oral capmatinib 400 mg twice daily. The patient initially tolerated the capmatinib, and a repeated CT scan showed decreased left adrenal mass size after two months (Figure 2).\nHowever, starting week 4, there was a gradual rise in the ALT and AST. At week 8 of capmatinib, the patient had CTCAE grade 4 hepatic toxicity as evident by both AST and ALT greater than 20 times the upper limits of normal. Capmatinib was held for two weeks, but still with significantly elevated transaminases, worsening alkaline phosphatase, and bilirubin levels (Table 1). The hyperbilirubinemia was predominantly conjugated bilirubin, i.e., 11.87 mg/dL. The patient presented to the hospital with nausea, jaundice, and pruritus over the past three weeks.\nThe right-upper-quadrant ultrasound and MRI with MRCP were unremarkable. Laboratory testing ruled out an elevated ammonia or acetaminophen level. Testing for hepatitis B or C, herpes simplex virus 1 or 2, and cytomegalovirus was all negative. Based on the clinical scenario and the lack of any other potential causes, a diagnosis of capmatinib-induced liver toxicity was established, and a liver biopsy was deferred.\nWe identified two published case reports with similar severe liver toxicity secondary to capmatinib, who were treated with hepatoprotective and anticholestatic drugs with good response [4].\nOur patient was treated with intravenous NAC and ursodeoxycholic acid (Ursodiol). NAC was given at 150 mg/kg over one hour, followed immediately by 50 mg/kg over four hours, then 100 mg/kg administered over 16 hours, and ursodiol 4 mg/kg divided into two doses daily for 30 days. Systemic steroids were not used.\nThere was a significant response to the NAC and ursodiol, with AST, ALT, ALP, and T. Bilirubin gradually trending down to near-normal values over eight weeks (Table 2). In parallel, the patient's nausea, itching, and jaundice improved and mostly resolved within three days of starting the treatment.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39968425_tr.json",
+    "source_pmid": "39968425",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39968425_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:07:48",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Severe Hepatotoxicity From Capmatinib: A Case Report and Therapeutic Approach",
+    "author": "Mina Aiad; Harsh J Bhalala; Halle Bagshaw; Sophia Starner; Debasmita Saha",
+    "date": "2025-01-19"
+  },
+  "rejection_reason": null
+}

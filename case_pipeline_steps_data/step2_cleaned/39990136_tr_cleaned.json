@@ -1,0 +1,28 @@
+{
+  "text": "Title: Personalized therapy in a patient with EGFR-mutated NSCLC developing sequential CCDC6-RET fusion and BRAF V600E mutation as bypass resistance mechanisms\nPMID: \nAuthors: Arianna Marinello, Claudia Parisi, Damien Vasseur, David Combarel, Juliette Bihoreau, Pernelle Lavaud, Rémy Ezzedine, Lodovica Zullo, Luc Friboulet, Gerard Zalcman, Antoine Italiano, Benjamin Besse, Mihaela Aldea\n\nAbstract\nIn this case report, we describe a case of sequential acquired CCDC6-RET fusion and BRAF V600E mutation observed in a patient with EGFR-mutated NSCLC treated with osimertinib and with combined selpercatinib and osimertinib. The discovery of genomic resistance mechanisms was facilitated by serial liquid and tissue biopsies and molecular tumor board discussion. After the identification of CCDC6-RET fusion, the patient received a combination of selpercatinib and osimertinib with prolonged benefit and manageable toxicity. When a novel BRAF V600E mutation was detected at progression, the molecular tumor board suggested the administration of triple therapy, adding trametinib (anti-MEK). Nevertheless, treatment was discontinued for toxicity, highlighting the challenges of using multiple drug combinations to address complex resistance.\n\nCase Report\nA 69-year-old woman with no history of smoking, environmental exposure to carcinogens, or significant comorbidities, was diagnosed with advanced lung adenocarcinoma (cT4N3M1c) in 2019. Immunohistochemistry reported TTF1 positivity, P40, ALK, and ROS1 negativity, with 20% PD-L1 expression. Next-generation sequencing conducted on the diagnostic biopsy using an in-house DNA-based panel, revealed an EGFR exon 19 deletion (p.Glu746_Thr751delinsIleAla), leading to the initiation of first-line treatment with osimertinib. The patient achieved a partial response (40% tumor reduction by Response Evaluation Criteria in Solid Tumors criteria). After 30 months, she developed disease progression in the lymph nodes, liver, lungs, and bones. A liquid biopsy (in-house DNA-based panel) revealed the persistent EGFR mutation with a 19.7% variant allele frequency. Subsequent chemotherapy with carboplatin and pemetrexed, combined with ongoing osimertinib, was ineffective, as indicated by disease progression at the first radiological evaluation and an increased variant allele frequency of 83.4%, suggesting EGFR amplification. Third-line therapy with paclitaxel and bevacizumab, in combination with osimertinib, was initiated. Nevertheless, progression occurred after two months. A biopsy of a progressing liver lesion excluded SCLC transformation, but next-generation sequencing analysis using an in-house DNA-based panel confirmed EGFR amplification and identified a CCDC6-RET fusion. The patient was then treated with cabozantinib, osimertinib, and gemcitabine, but the regimen was poorly tolerated due to grade 3 diarrhea and was discontinued two months after progression. A liquid biopsy using the FoundationOne panel confirmed the presence of EGFR exon 19 deletion (82.1%), EGFR amplification, and CCDC6-RET fusion (6.7%), among other gene amplifications, suggesting an aneuploid genotype (Fig. 1). The molecular tumor board recommended a combination of osimertinib 80 mg/day and selpercatinib (RET inhibitor) 80 mg/day. Despite initial adverse effects, including grade 3 neutropenia, grade 2 edema, and grade 2 hypertension, the patient’s condition improved significantly, with the Eastern Cooperative Oncology Group performance status improving from 3 to 1, and improved liver function and radiological response assessed at the first evaluation (Fig. 2). Combined therapy maintained disease control for 10 months before liver progression occurred. A novel FoundationOne liquid biopsy detected a new BRAF V600E mutation (2.3%), along with the persistent CCDC6-RET fusion (1.4%) and EGFR alterations. The patient’s treatment was adjusted to include osimertinib 80 mg/day, selpercatinib 80 mg/day, and trametinib 0.5 mg/day, a MEK inhibitor. Nevertheless, the patient’s condition deteriorated with an Eastern Cooperative Oncology Group performance status of 2, grade 2 lower limb edema, grade 2 diarrhea, and visual impairment, leading to the discontinuation of targeted therapies and the initiation of chemotherapy with carboplatin and pemetrexed. Unfortunately, chemotherapy was poorly tolerated, and the disease progressed within 2 months. The patient transitioned to palliative care and passed away 5 years after the initial diagnosis. Written informed consent for correlative studies was provided.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39990136_tr.json",
+    "source_pmid": "39990136",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39990136_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:08:37",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Personalized Therapy in a Patient With EGFR-Mutated NSCLC Developing Sequential CCDC6-RET Fusion and BRAF V600E Mutation as Bypass Resistance Mechanisms",
+    "author": "Arianna Marinello; Claudia Parisi; Damien Vasseur; David Combarel; Juliette Bihoreau; Pernelle Lavaud; Rémy Ezzedine; Lodovica Zullo; Luc Friboulet; Gerard Zalcman; Antoine Italiano; Benjamin Besse; Mihaela Aldea",
+    "date": "2024-11-22"
+  },
+  "rejection_reason": null
+}

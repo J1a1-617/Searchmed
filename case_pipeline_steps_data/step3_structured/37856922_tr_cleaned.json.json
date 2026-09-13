@@ -1,0 +1,182 @@
+{
+  "provenance": {
+    "source_filename": "37856922_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 47,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "dyspnea",
+      "dry cough"
+    ],
+    "diagnosis_date": "2015-12",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "not specified",
+    "tnm_stage": "IIIB",
+    "overall_stage": "IIIB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "4R lymph node"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2015-12",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR L747_A750delinsP",
+          "MET amplification"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "erlotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "erlotinib": "not specified"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2016",
+      "event_type": "surgery + treatment",
+      "molecular": {},
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "cisplatin",
+          "pemetrexed",
+          "radiation"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "cisplatin": "not specified",
+          "pemetrexed": "not specified"
+        }
+      },
+      "response": {
+        "best": "not specified",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2017-12",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "findings": [],
+        "sample": "pleural fluid"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "not specified"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 13
+      }
+    },
+    {
+      "time": "2018",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET amplification"
+        ],
+        "sample": "NGS"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "not specified"
+        }
+      },
+      "response": {
+        "best": "not specified",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "diarrhea",
+          "fatigue"
+        ],
+        "dose_adjustments": [
+          "transitioned to capmantinib"
+        ]
+      }
+    },
+    {
+      "time": "2019",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [],
+        "sample": "not specified"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "amivantamab"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "amivantamab": "not specified"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 14
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "crizotinib",
+      "capmantinib"
+    ],
+    "mechanism": "not specified",
+    "severity": "not specified",
+    "clinical_manifestation": "not specified",
+    "management": "not specified",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 14,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with concurrent EGFR and MET mutations",
+      "Durable response to amivantamab after multiple lines of therapy",
+      "Need for NGS testing to identify resistance mechanisms"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41604006_tr.json",
+    "source_pmid": "41604006",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41604006_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:26:50",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "A multi-algorithm machine learning framework identifies FGD5, LRRC36, C8B, and MYOC as novel diagnostic biomarkers in lung adenocarcinoma",
+    "author": "Xumin Wu; Xujie Wu; Qifan Chen",
+    "date": "2026-01-28"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

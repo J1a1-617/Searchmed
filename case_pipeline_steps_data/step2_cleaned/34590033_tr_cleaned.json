@@ -1,0 +1,28 @@
+{
+  "text": "Title: Response to the Combination of Osimertinib, Dabrafenib, and Trametinib in Leptomeningitis From EGFR-Mutant NSCLC With Acquired BRAF V600E Mutation: A Case Report\nPMID: null\nAuthors: Orion Valet, Aurélie Swalduz, Maxime Boussageon, Adrien Buisson, Virginie Avrillon, Bénédicte Mastroianni, Maurice Perol\n\nAbstract\nMolecular sequencing after highly potent targeted gene inhibitors have suggested resistant tumors can display substantial heterogeneity. Among these various mechanisms of resistance, secondary mutations on targetable oncogenes have been identified. BRAF V600E, as a bypass mechanism on disease progression while receiving osimertinib therapy, has been reported in 3% of EGFR-mutated patients. Few case reports described the efficacy of the association of osimertinib and dabrafenib plus trametinib. Here, we report, for the first time, a case of a patient treated with this association, with a prolonged response on leptomeningeal metastasis. We also provide a comprehensive overview of the available literature on the efficacy and tolerance of this association.\n\nCase Presentation\nA 67-year-old never-smoker man presented vertebral pain caused by a multisite metastatic lung adenocarcinoma (bone, liver, lymph nodes, and brain), harboring an EGFR exon 19 deletions (p.E746_A750del) with asymptomatic infratentorial brain metastases without clinical and radiologic signs of meningitis. Molecular results and panels performed at each time point are described in the Appendix (Supplementary data). He received erlotinib at 150 mg/day with a good initial response (Fig. 1A). After 26 months, he experienced vision alterations with metamorphopsia, which was found to be choroid metastases without any sign of leptomeningeal disease on brain magnetic resonance imaging (MRI). Bronchial and liquid biopsies identified an EGFR p.T790M mutation and the initial EGFR exon 19 deletion with no BRAF mutation, and the patient was subsequently treated with osimertinib leading to an almost complete response. After 3 years of osimertinib, he experienced progressive disease, and next-generation sequencing performed on a lymph node core needle biopsy revealed an EGFR exon 19 deletion, the loss of T790M mutation, and the appearance of the BRAF V600E mutation with a high allelic fraction (21%). Chemotherapy with carboplatin and pemetrexed was initiated with a partial response; but 6 months later during maintenance therapy with pemetrexed, he experienced neurologic symptoms including confusion, walking disability, vomiting, neck stiffness, and diplopia, and a brain MRI confirmed the existence of carcinomatous meningitis. On the basis of the previous detection of the BRAF V600E mutation, after obtaining patient informed consent, a combination of O+D+T at full dose was initiated. An early and dramatic response was observed with complete regression of all clinical neurologic manifestations and the disappearance of signs of meningitis on the first brain MRI at 3 months (Fig. 1B), allowing the patient to regain full autonomy. No subsequent extracranial progression was observed, and response is still ongoing after 12 months of treatment. However, several treatment-related toxicities occurred (Fig. 2). First, grade 2 pyrexia was observed at day 5 after treatment initiation; dabrafenib was discontinued with prompt fever improvement, then reintroduced in a reduced dose at 100 mg twice a day. Recurrence of pyrexia after 4 months led to another temporary reduction in the dose of dabrafenib to 75 mg for 1 week, before reescalation to 100 mg twice a day. Grade 2 thrombocytopenia was also observed, leading to the discontinuation of the three TKIs for 2 weeks with gradual reintroduction. The platelet count then remained stable between 80 g/liter and 100 g/liter without hemorrhagic symptoms. Finally, grade 1 interstitial pneumonitis was detected on a computed tomography scan after 3 months of treatment. Considering the clinical improvement of neurologic symptoms, the combination was not discontinued and prednisolone at a dose of 40 mg/day was introduced. A follow-up computed tomography scan did not reveal any improvement or worsening of the pneumonitis and the patient still receives prednisolone at the dose of 20 mg/day without respiratory symptoms.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "34590033_tr.json",
+    "source_pmid": "34590033",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/34590033_tr.json",
+    "cleaning_timestamp": "2026-06-07T13:50:17",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Response to the Combination of Osimertinib, Dabrafenib, and Trametinib in Leptomeningitis From EGFR-Mutant NSCLC With Acquired BRAF V600E Mutation: A Case Report",
+    "author": "Orion Valet; Aurélie Swalduz; Maxime Boussageon; Adrien Buisson; Virginie Avrillon; Bénédicte Mastroïanni; Maurice Pérol",
+    "date": "2021-05-20"
+  },
+  "rejection_reason": null
+}

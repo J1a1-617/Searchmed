@@ -1,0 +1,28 @@
+{
+  "text": "Title: Sequential High-Dose Third-Generation EGFR-TKIs in a Patient with EGFR Exon 20 Insertion-Mutant Non-Small Cell Lung Cancer\nPMID: [未提供]\nAuthors: [未提供]\n\nAbstract\nEpidermal growth factor receptor (EGFR) exon 20 insertion (ex20ins)-mutant non-small cell lung cancer (NSCLC) is characterized by limited sensitivity to standard-dose EGFR tyrosine kinase inhibitors (EGFR-TKIs) and historically poor clinical outcomes. Although agents such as amivantamab and other targeted therapies have expanded treatment options, access barriers and marked variant-specific heterogeneity remain major challenges. Emerging evidence suggests that dose-escalated third-generation EGFR-TKIs may provide clinical benefit in selected ex20ins subtypes, yet real-world data are scarce.\n\nCase presentation\nWe describe a 56-year-old never-smoking female with metastatic lung adenocarcinoma harboring an EGFR A767_V769dup exon 20 insertion and co-mutations in TP53, SETD2, SMAD4, and ETV6, with low PD-L1 expression. In the setting of limited access to amivantamab at diagnosis and preliminary evidence supporting intensified EGFR inhibition in certain “near-loop” ex20ins variants, the patient received off-label high-dose osimertinib 160 mg once daily as first-line therapy. She achieved a durable partial response with manageable Grade 1 skin and nail toxicities and no dose reductions. Following disease progression, and after multidisciplinary discussion and informed consent, she was switched to off-label furmonertinib 240 mg once daily, resulting in additional disease control. Sequential high-dose osimertinib followed by high-dose furmonertinib yielded an overall survival of approximately 37 months.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41585239_tr.json",
+    "source_pmid": "41585239",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41585239_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:25:18",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Prolonged survival in EGFR exon 20 insertion mutant lung adenocarcinoma: case report of sequential osimertinib and furmonertinib with research trend analysis",
+    "author": "Yishan Lu; Ruiguo Zhao; Ning Wang; Jingjing Zhao; Nana Huang; Abdullah Al-danakh; Haijing Liu; Ping Gao",
+    "date": "2026-01-09"
+  },
+  "rejection_reason": null
+}

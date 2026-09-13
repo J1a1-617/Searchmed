@@ -1,0 +1,180 @@
+{
+  "provenance": {
+    "source_filename": "41246301_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 58,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "cough",
+      "decline in appetite",
+      "mild weight loss"
+    ],
+    "diagnosis_date": "2022-09",
+    "cancer_type": "gastric cancer",
+    "histology": "gastric adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT4aN3M1",
+    "overall_stage": "IV",
+    "baseline_primary_site": "stomach",
+    "metastatic_sites_at_baseline": [
+      "L3 vertebra",
+      "perigastric lymph nodes",
+      "hilar lymph nodes",
+      "mesenteric lymph nodes",
+      "retroperitoneal lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-09",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "DCTN1-ALK fusion"
+        ],
+        "sample": "gastric biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "capecitabine",
+          "oxaliplatin",
+          "sintilimab"
+        ],
+        "type": "chemotherapy + immunotherapy",
+        "dosage": {
+          "capecitabine": null,
+          "oxaliplatin": null,
+          "sintilimab": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-01",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": null,
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "albumin-bound paclitaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "albumin-bound paclitaxel": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-04",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "DCTN1-ALK fusion",
+          "ATM p.E1724*",
+          "CDK6 amplification"
+        ],
+        "sample": "gastric biopsy"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "alectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "alectinib": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-05",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "strontium-89"
+        ],
+        "type": "palliative",
+        "dosage": {
+          "strontium-89": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-01",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "findings": [
+          "KRAS amplification"
+        ],
+        "sample": "ctDNA"
+      },
+      "treatment": null,
+      "response": null
+    },
+    {
+      "time": "2024-02",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "palliative radiotherapy"
+        ],
+        "type": "radiotherapy",
+        "dosage": null
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": null,
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "uncontrollable gastrointestinal hemorrhage",
+    "last_follow_up": "2024-01"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "First case of gastric adenocarcinoma with DCTN1-ALK fusion",
+      "Successful treatment with alectinib after failure of first- and second-line therapies",
+      "Progression-free survival of 11.5 months on alectinib"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

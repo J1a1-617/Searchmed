@@ -1,0 +1,28 @@
+{
+  "text": "Title: Treatment Journey of a Patient with a Rare CD47-MET Fusion in Non-Small Cell Lung Cancer\nPMID: \nAuthors: Glaucia Alves de Souza, Debora Maciel Santana Dornellas, Paulo Vidal Campregher, Carlos Henrique Andrade Teixeira, Gustavo Schvartsman\n\nAbstract\nComprehensive genomic profiling is highly recommended for treatment decision in nonsquamous, non-small cell lung cancer (NSCLC). However, rare genomic alterations are still being unveiled, with scarce data to guide therapy. Herein, we describe the treatment journey of a 56-year-old, never-smoker Caucasian woman with a metastatic NSCLC harboring a CD47-MET fusion, initially classified as a variant of unknown significance. She had undergone 3 lines of therapy over the course of 3 years, including chemotherapy, immunotherapy, and anti-angiogenic therapy. After reanalysis of her next-generation sequencing data in our service, the fusion was reclassified as likely oncogenic. The patient was started with fourth-line capmatinib, with a good tolerance so far and a complete metabolic response in the active sites of disease, currently ongoing for 18 months. In conclusion, we highlight the sensitivity of a novel MET fusion to capmatinib and emphasize the need for comprehensive panels in NSCLC and molecular tumor board discussions with specialized centers when rare findings arise.\nKeywords: MET receptor tyrosine kinase, non-small cell lung cancer, capmatinib, next-generation sequencing, case report\n\nThis case report highlights the sensitivity of a novel MET fusion to capmatinib and emphasizes the need for comprehensive panels in non-small cell lung cancer and molecular tumor board discussions with specialized centers when rare findings arise.\n\nPatient story\nIn September 2019, a 56-year-old, never-smoker female patient was diagnosed with a lung adenocarcinoma arising in the lower lobe of the left lung, with liver and abdominal lymph node metastases. No brain lesions were found. Immunohistochemistry for PD-L1 showed a tumor proportion score of 30%. After DNA and RNA extraction from FFPE tumor tissue, the samples were sequenced using Trusight Tumor 170 (Illumina) in an outside facility. This assay detects single nucleotide variations, small indels, and copy number variations through DNA analysis and gene fusions with RNA sequencing. The following variants, classified at the time as variants of unknown significance (VUS), were detected by DNA/RNA sequencing: MET-CD47 fusion, FGF3 (NM_005247.2) c.133C>A p.(Arg45Ser); MAP2K2 (NM_030662.3) c.814G>A p.(Ala272Thr); PDGFRA (NM_006206.5) c.1673G>A p.(Arg558His); RET (NM_020975.4) c.3217_3218dupAG p.(Ser1073ArgfsTer37); and ROS1 (NM_002944.2) c.6985C>G p.(Pro2329Ala).\nBased on these findings, a nontargeted treatment approach was taken, between 2019 and 2022, during which the patient received first line with carboplatin, pemetrexed, and pembrolizumab, second line with docetaxel and ramucirumab, and a third line with carboplatin and gemcitabine, eventually with disease progression in all sites of disease.\nAt that moment, the patient sought a second opinion at our hospital. The RNA sequencing data were reprocessed in our center using an in-house bioinformatics pipeline in association with the use of the gene fusion callers manta (Illumina) and arriba. We detected a gene fusion between CD47 (exon 5) and MET (exon 15). Based on software reconstruction of the protein after DNA/RNA sequencing, the fusion breakpoint was intronic and the MET kinase domain was intact, leading the bioinformatics analyst to classify it as likely oncogenic, rather than a variant of unknown significance. Shortly afterward, a case report of a patient harboring the same fusion demonstrating a clinical response to the kinase inhibitor crizotinib corroborated that interpretation, which aided the process to obtain insurance approval for a MET inhibitor to the patient.\nAfter discussion of risks and benefits, the patient agreed to start capmatinib, opted due to its more potent activity against the MET tyrosine kinase domain and better safety profile when compared to crizotinib. She has been on therapy for 18 months, with no significant adverse events. A restaging PET-CT revealed a complete metabolic response in all sites of active disease, a response which is currently ongoing.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38832711_tr.json",
+    "source_pmid": "38832711",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38832711_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:43:55",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Complete response to capmatinib in a patient with metastatic lung adenocarcinoma harboring CD47-MET fusion: a case report",
+    "author": "Glaucia Alves de Souza; Debora Maciel Santana Dornellas; Paulo Vidal Campregher; Carlos Henrique Andrade Teixeira; Gustavo Schvartsman",
+    "date": "2024-06-04"
+  },
+  "rejection_reason": null
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: Efficacy of Crizotinib in a Patient with CD47-MET Rearranged Non-Small Cell Lung Cancer\nPMID: \nAuthors: \n\nAbstract\nBackground\nMET fusion is a rare type of structure rearrangement, reported only in 0.26% of non-small cell lung cancer (NSCLC). Some uncommon genomic variants, including MET fusions, have been detected with advanced detection technology. Therapeutic option for MET-rearranged NSCLC remains largely uncovered.\nCase Description\nHerein, we described a 72-year-old male patient with a 10-year history of smoking who presented to our hospital with coughing, blood-tinged sputum, chest distress, and anhelation. He was diagnosed with stage IV lung adenocarcinoma harboring a CD47 (EX7)-MET (EX15) fusion, detected by next-generation sequencing (NGS). After one month of crizotinib treatment, the patient showed partial re-expansion of the collapsed right lower lobe, shrinkages of lymph node lesions, and reduced right pleural effusion. The patient achieved partial response (PR) to first-line treatment of crizotinib with a progression-free survival (PFS) of 8 months. Cabozantinib was subsequently administrated, and a short-term PR of fewer than three months was observed. The patient retained CD47-MET fusion and acquired MET D1228E at cabozantinib progression.\n\nCase presentation\nIn April 2019, a 72-year-old male with a 10-year history of smoking presented to our hospital with coughing and blood-tinged sputum accompanied with chest distress and anhelation for 2 weeks. Physical examinations reported no abnormal symptoms except for diminished breath sounds. Imaging results were shown in Figure 1. Chest computed tomography (CT) scan revealed multiple scattered nodules on both lungs, atelectasis of right lower lobe, a mass near the hilum of lung, multiple enlarged lymph nodes on right lung hilum and mediastinum, and right pleural effusion (Figure 1A). No brain metastases were observed. CT-guided percutaneous biopsy was performed for histopathological examination, which indicated stage IV lung adenocarcinoma. Immunohistochemistry results showed positive expression of PD-L1, and the tumor proportion score (TPS) was 5%. The biopsied tissue was sent for next-generation sequencing (NGS) using a 520-gene panel (Burning Rock Biotech, Guangzhou, China) and a CD47 (EX7)-MET (EX15) rearrangement (Figure 2) was identified with an allele frequency (AF) of 9.75%. No other mutation was detected. The results also revealed a tumor mutational burden (TMB) of 2.4 mutations/Mb and a microsatellite stable status (MSS). Subsequently, crizotinib (250 mg/b.i.d. orally) was administrated starting from May 2019. After 1 month of treatment, the patient showed partial re-expansion of the collapsed right lower lobe, shrinkages of lymph node lesions, and reduction in right pleural effusion (Figure 1B). After 5 months of treatment, the patient remained as partial response (PR) (Figure 1C) with minimal side effects and eventually achieved a progression-free survival (PFS) of 8 months.\nAfter progression on crizotinib, the patient was switched to cabozantinib in Feb 2020 with an initial dosage of 100 mg for 3 weeks, followed by a reduced dosage of 62.5 mg. A repeated chest CT performed in another hospital due to the COVID 19 pandemic in April 2020 (data was not available) revealed a significant shrinkage of the tumor lesion. Disease progressed in May 2020, and the patient was subsequently treated with a combination of pemetrexed and bevacizumab. A re-biopsy of the pulmonary lesion at cabozantinib progression was sent for NGS using a 168-gene panel (Burning Rock Biotech, Guangzhou, China), and results showed that the patients retained CD47-MET fusion (AF: 5.71%) and acquired a MET D1228E mutation (AF: 5.94%). No other mutation was identified. After two cycles of pemetrexed and bevacizumab treatment, the patient achieved a stable disease (data was not available). All procedures performed in this study were in accordance with the ethical standards of the institutional and/or national research committee(s) and with the Helsinki Declaration (as revised in 2013). Written informed consent was obtained from the patient for publication of this case report and accompanying images. A copy of the written consent is available for review by the editorial office of this journal.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "36093550_tr.json",
+    "source_pmid": "36093550",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/36093550_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:19:20",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Durable response to crizotinib in an advanced lung adenocarcinoma patient harboring rare CD47-MET fusion: a case report",
+    "author": "Junfang Liu; Lijun Shen; Yunyao Qian; Yunpeng Liu; Minhong Su; Li Yi",
+    "date": "2017-10-01"
+  },
+  "rejection_reason": null
+}

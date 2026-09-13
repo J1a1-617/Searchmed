@@ -1,0 +1,83 @@
+{
+  "provenance": {
+    "source_filename": "41292704_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 70,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "chest pain"
+    ],
+    "diagnosis_date": "2023-12",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT3N2M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral lung",
+      "bone"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-12",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR Del19",
+          "MET exon 14 skipping"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "Osimertinib",
+          "Gumarontinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "Osimertinib": "80 mg daily",
+          "Gumarontinib": "300 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      },
+      "safety": {
+        "adverse_events": [
+          "first-degree rash",
+          "Grade 2 pneumonia"
+        ],
+        "dose_adjustments": [
+          "temporary withholding of anticancer therapy"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "cerebral infarction",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Co-occurrence of EGFR Del19 and MET exon 14 skipping mutation in lung adenocarcinoma",
+      "Partial response achieved with Osimertinib and Gumarontinib combination therapy",
+      "Significant reduction in tumor size and lymph nodes after treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

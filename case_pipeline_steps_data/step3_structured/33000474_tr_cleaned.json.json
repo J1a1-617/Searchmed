@@ -1,0 +1,150 @@
+{
+  "provenance": {
+    "source_filename": "33000474_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 30,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "cough",
+      "left shoulder blade pain"
+    ],
+    "diagnosis_date": "2016-10",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IIIC (T3N3M0)",
+    "overall_stage": "III",
+    "baseline_primary_site": "left lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral hilar lymphadenopathy",
+      "multiple lymph node metastases"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2016-10",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "CD74-ROS1 fusion"
+        ],
+        "sample": "left lung tumor"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2016-10",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "cisplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "cisplatin": null,
+          "pemetrexed": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2017-02",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 10
+      }
+    },
+    {
+      "time": "2018-03",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "MET D1228N mutation"
+        ],
+        "sample": "left lung lesion"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "cabozantinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "cabozantinib": "60 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2018-07",
+      "event_type": "progression",
+      "molecular": {
+        "alterations": [
+          "MET amplification",
+          "LYN amplification",
+          "PPP2R1AA A136T mutation"
+        ],
+        "sample": "subcutaneous nodule"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "crizotinib",
+      "cabozantinib"
+    ],
+    "mechanism": "Resistance due to MET D1228N mutation affecting crizotinib binding",
+    "severity": "moderate",
+    "clinical_manifestation": "Progression of disease after crizotinib treatment",
+    "management": "Switch to cabozantinib after crizotinib failure",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 21,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Acquired MET D1228N mutation led to crizotinib resistance",
+      "Short-term clinical benefit from cabozantinib after crizotinib failure",
+      "Importance of next-generation sequencing in treatment decision making"
+    ],
+    "ddi_relevance": "high",
+    "generalizability": "medium"
+  }
+}

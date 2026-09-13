@@ -1,0 +1,28 @@
+{
+  "text": "Title: Combined large cell neuroendocrine carcinoma with adenocarcinoma and squamous cell carcinoma: A case report\nPMID: \nAuthors: Zirui Zhu, Hengliang Xu, You Liu, Haoyong Ning, Yanmin Xia, Leilei Shen\n\nAbstract\nCombined large cell neuroendocrine carcinoma (C-LCNEC) has a poor prognosis and there is no consensus about the treatment regimen for both LCNEC and C-LCNEC patients.\n\nCase presentation\nThe patient was a 47-year-old female who received surgical resection. The postoperative histology and staging of the tumor suggested C-LCNEC with adenocarcinoma and squamous cell carcinoma and T2aN0M0 stage IB. Next-generation sequencing test showed KIF5B/RET fusion mutation without EGFR, ALK, RB1, and TP53 alterations. Adjuvant chemotherapy with 4-cycle docetaxel plus carboplatin was given and brain metastasis occurred after 10 months.\n\nThe patient was a 47-year-old woman found abnormality of carcinoembryonic antigen (CEA) 14.18 ug/L without positive gastrointestinal endoscope findings in October 2020. Chest plain computed tomography (CT) was conducted until 3 months later with double-check high CEA (17.18ug/L), and the CT revealed a 26.7 mm plus 24.1 mm solid nodule in the right upper lobe. She had no smoking history and family history of lung cancer. The patient received CT examination on June 7th 2021 after anti-infective therapy, which showed a 36.7 mm plus 34.1 mm mass with irregular shape, lobalation, spiculation, pleural indentation, and vessel convergence (Fig. 1). Enhanced contrast CT elucidated that station 4R lymph node was slightly enlarged with 10 mm short axis (Fig. 2). The CEA was 26.96 ug/L, squamous cell carcinoma antigen was 1.98 ng/mL, CYFRA 21 − 1 was 3.12 ng/mL, and pro-gastric releasing peptide was 65 ng/L. Following positron emission tomography-computed tomography (PET-CT) suggested that the 40 mm*39mm*34mm mass was highly suspected of lung cancer with standard uptake value (SUV) 14.6 (Fig. 3). And the swollen mediastinal lymph node 3 A and 4R had a high uptake (SUV max = 4.5) (Fig. 3). Brain magnetic resonance imaging (MRI) and bone scan had negative results. The CT guided pulmonary biopsy was performed and the pathology suggested poor cell differentiated lung adenocarcinoma with neuroendocrinization. The patient received right upper lobectomy with systemic lymph node dissection. Postoperative pathological analysis confirmed the diagnosis of combined LCNEC, ADC, and SCC. Grossly, the tumor was solid, gray-white, with a moderate hardness texture and vague boundaries. The size was 40 mm*35mm*25mmwithout visceral pleural invasion. The lymph nodes including station 2, 3, 4, 7, 10, and 11 were all negative. Histology showed that the tumor consisted of 40% acinar adenocarcinoma (Fig. 4A), 10% mucinous adenocarcinoma, 40% LCNEC (Fig. 4B), and 10% poor cell differentiated SCC (Fig. 4C). The immunohistochemical profile revealed that ADC cells were positive for napsin-A and thyroid transcription factor 1(TTF-1) (Fig. 5A), LCNEC cells was positive for synaptophysin (Fig. 5B), and SCC cells was positive for p63 and p40 (Fig. 5C). The patient was diagnosed with pathological T2aN0M0 stage IB, and next-generation sequencing (NGS) test showed that KIF5B/RET fusion mutation was observed in the entire paraffin section with LCNEC, SCC, and ADC components. Meanwile, EGFR, ALK, ROS1, KRAS, BRAF-V600E, ERBB2, MET, NTRK, RB1and TP53 alterations were not detected. Four cycles (21 days per cycle) of docetaxel (100 mg) plus carboplatin (500 mg) were conducted without obvious grade>3 adverse events. No relapse or metastatic signs were observed after 4 cycles in October 2021. Regular follow-up was requested until on May 9th 2022 the brain MRI found that multiple abnormal signals in the right frontal lobe (Fig. 6A), which were considered as metastatic tumors. Bone scan and CT of chest and abdominal revealed no positive findings and tumor biomarkers including CEA, squamous cell carcinoma antigen (SCC), and neuron specific enolase (NSE) were normal. The patient had a recurrence and was staged as advanced. The patient received brain radiotherapy (40 Gy/10F) through HyperArc without targeted therapy or chemotherapy and multiple small metastases in the brain has decreased than before on October 27th (Fig. 6B), which was evaluated as stable disease.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "37653509_tr.json",
+    "source_pmid": "37653509",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/37653509_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:31:21",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Combined large cell neuroendocrine carcinoma, lung adenocarcinoma, and squamous cell carcinoma: a case report and review of the literature",
+    "author": "Zirui Zhu; You Liu; Hengliang Xu; Haoyong Ning; Yanmin Xia; Leilei Shen",
+    "date": "2023-08-31"
+  },
+  "rejection_reason": null
+}

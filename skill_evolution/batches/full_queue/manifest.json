@@ -1,0 +1,148 @@
+{
+  "source_count": 106,
+  "excluded_count": 20,
+  "queued_count": 86,
+  "batch_size": 10,
+  "batches": [
+    {
+      "batch_index": 3,
+      "path": "skill_evolution/batches/full_queue/batch_003.json",
+      "instance_ids": [
+        "case_01_node_2",
+        "case_02_node_2",
+        "case_03_node_2",
+        "case_04_node_1",
+        "case_05_node_2",
+        "case_06_node_2",
+        "case_07_node_2",
+        "case_08_node_2",
+        "case_09_node_1",
+        "case_10_node_1"
+      ]
+    },
+    {
+      "batch_index": 4,
+      "path": "skill_evolution/batches/full_queue/batch_004.json",
+      "instance_ids": [
+        "case_11_node_2",
+        "case_12_node_2",
+        "case_13_node_1",
+        "case_14_node_2",
+        "case_15_node_2",
+        "case_16_node_2",
+        "case_18_node_2",
+        "case_19_node_1",
+        "case_20_node_2",
+        "case_21_node_1"
+      ]
+    },
+    {
+      "batch_index": 5,
+      "path": "skill_evolution/batches/full_queue/batch_005.json",
+      "instance_ids": [
+        "case_22_node_1",
+        "case_23_node_1",
+        "case_24_node_1",
+        "case_25_node_1",
+        "case_26_node_1",
+        "case_27_node_1",
+        "case_28_node_1",
+        "case_29_node_1",
+        "case_30_node_1",
+        "case_31_node_1"
+      ]
+    },
+    {
+      "batch_index": 6,
+      "path": "skill_evolution/batches/full_queue/batch_006.json",
+      "instance_ids": [
+        "case_32_node_1",
+        "case_33_node_1",
+        "case_34_node_1",
+        "case_35_node_1",
+        "case_36_node_1",
+        "case_37_node_1",
+        "case_01_node_3",
+        "case_02_node_3",
+        "case_03_node_3",
+        "case_04_node_3"
+      ]
+    },
+    {
+      "batch_index": 7,
+      "path": "skill_evolution/batches/full_queue/batch_007.json",
+      "instance_ids": [
+        "case_07_node_3",
+        "case_08_node_3",
+        "case_09_node_3",
+        "case_10_node_3",
+        "case_12_node_3",
+        "case_13_node_2",
+        "case_14_node_3",
+        "case_15_node_3",
+        "case_16_node_3",
+        "case_18_node_3"
+      ]
+    },
+    {
+      "batch_index": 8,
+      "path": "skill_evolution/batches/full_queue/batch_008.json",
+      "instance_ids": [
+        "case_19_node_3",
+        "case_20_node_3",
+        "case_21_node_2",
+        "case_22_node_2",
+        "case_23_node_2",
+        "case_24_node_2",
+        "case_25_node_2",
+        "case_26_node_3",
+        "case_27_node_2",
+        "case_28_node_2"
+      ]
+    },
+    {
+      "batch_index": 9,
+      "path": "skill_evolution/batches/full_queue/batch_009.json",
+      "instance_ids": [
+        "case_29_node_2",
+        "case_30_node_2",
+        "case_31_node_2",
+        "case_32_node_2",
+        "case_33_node_2",
+        "case_34_node_2",
+        "case_35_node_2",
+        "case_36_node_2",
+        "case_37_node_2",
+        "case_19_node_4"
+      ]
+    },
+    {
+      "batch_index": 10,
+      "path": "skill_evolution/batches/full_queue/batch_010.json",
+      "instance_ids": [
+        "case_21_node_3",
+        "case_23_node_3",
+        "case_24_node_3",
+        "case_25_node_3",
+        "case_28_node_3",
+        "case_29_node_3",
+        "case_30_node_3",
+        "case_31_node_3",
+        "case_32_node_3",
+        "case_33_node_3"
+      ]
+    },
+    {
+      "batch_index": 11,
+      "path": "skill_evolution/batches/full_queue/batch_011.json",
+      "instance_ids": [
+        "case_34_node_3",
+        "case_36_node_3",
+        "case_24_node_4",
+        "case_30_node_4",
+        "case_33_node_4",
+        "case_30_node_5"
+      ]
+    }
+  ]
+}

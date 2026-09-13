@@ -1,0 +1,28 @@
+{
+  "text": "Title: Sequential Treatment with Three MET Tyrosine Kinase Inhibitors in a Patient with METex14-Positive Non-Small Cell Lung Cancer\nPMID: \nAuthors: \n\nABSTRACT\nBackground\nNonsmall cell lung cancer (NSCLC) with mesenchymal‐epithelial transition exon 14 skipping mutation (METex14) represents a distinct molecular subtype with limited therapeutic options. Selective MET tyrosine kinase inhibitors (MET‐TKIs) such as tepotinib, capmatinib, and gumarontinib have improved outcomes, but toxicities frequently limit their use. Previous case reports have described sequential rechallenge with two MET‐TKIs and, in rare cases, with three agents including an investigational drug. To our knowledge, this is the first reported case worldwide of sequential treatment with all three MET‐TKIs currently approved in Japan—tepotinib, capmatinib, and gumarontinib.\nCase\nWe report a 72‐year‐old man with METex14‐positive NSCLC who underwent surgery and adjuvant chemotherapy, later developing pleural dissemination. Tepotinib was discontinued after 2 months due to Grade 3 interstitial lung disease (ILD). Following chemotherapy and immune checkpoint inhibitors, capmatinib was introduced but stopped within 10 days for fever, mucositis, and possible ILD. Gumarontinib was subsequently initiated, but treatment was interrupted on Day 36 due to Grade 2 hepatotoxicity before resumption at a reduced dose.\n\n2. Case Presentation\nIn March 2022, a 72‐year‐old Japanese man was diagnosed and treated at the Japanese Red Cross Ise Hospital (Mie, Japan). He had a history of atrial fibrillation and hypertension, both diagnosed over 5 years prior and well‐controlled with medication. The patient underwent a right upper lobectomy with systematic mediastinal and hilar lymph node dissection, including stations 2R, 4R, 10R, 11R, and 12R, for stage IIA (pT2aN0M0) lung adenocarcinoma (Figure 1A).\nPostoperative molecular profiling in April 2022 revealed a MET exon 14 skipping mutation, with EGFR, ALK, and ROS1 mutations negative. The PD‐L1 tumor proportion score was 10%. The patient received oral tegafur‐uracil (UFT) as adjuvant chemotherapy, planned for 2 years. In January 2024, routine imaging revealed pleural dissemination (Figure 1B). UFT was discontinued, and tepotinib (500 mg/day) was initiated. Two months after starting tepotinib, in March 2024, the patient developed fatigue and dyspnea. Chest CT showed diffuse ground‐glass opacities in the left lung (Figure 2A), and he was diagnosed with Grade 3 ILD. Bronchoscopy with bronchoalveolar lavage fluid was not performed because the patient's respiratory condition required urgent initiation of corticosteroid therapy. The diagnosis was therefore made based on clinical presentation and radiological findings.\nTreatment was initiated with steroid pulse therapy (methylprednisolone 1000 mg/day for 3 days), followed by oral prednisolone (5 mg/day) and tacrolimus (0.5 mg/day). Resolution of CT findings and symptom improvement confirmed treatment efficacy. After ILD recovery in May 2024, confirmed by imaging and clinical improvement, the patient underwent two cycles of carboplatin plus pemetrexed, followed by two cycles of pembrolizumab in combination, and then four cycles of pembrolizumab monotherapy. However, in October 2024, increased pleural effusion and dyspnea were noted, and disease progression was assessed. In November 2024, capmatinib was started, but discontinued on Day 10 due to high‐grade fever (39°C), oral ulcers, and new ground‐glass opacities (Figure 2B), raising suspicion of Grade 1 possible ILD. This was followed by six cycles of docetaxel (DTX) and ramucirumab (Ram) between December 2024 and April 2025, which resulted in temporary disease control. Subsequently, due to recurrent pleural effusion, gumarontinib (300 mg/day) was initiated in May 2025. On Day 36 of gumarontinib treatment (June 2025), the patient experienced fatigue, and laboratory tests revealed Grade 2 hepatotoxicity (AST 92 IU/L, ALT 92 IU/L), leading to temporary discontinuation. Although right pleural effusion was present, no evidence of ILD was observed on CT (Figure 2C). After recovery of liver function, treatment was resumed at a reduced dose of 150 mg/day. No hepatic dysfunction was observed on testing 2 weeks after resumption. After an additional 57 days of treatment, in August 2025, gumarontinib was discontinued due to renal dysfunction and edema. Subsequently, the patient was maintained on carboplatin plus pemetrexed and bevacizumab, which is ongoing at the time of this report. The clinical course is outlined in Table 1 for clarity. The severity of events was graded according to the Common Terminology Criteria for Adverse Events (CTCAE), version 5.0.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41542718_tr.json",
+    "source_pmid": "41542718",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41542718_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:22:33",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Challenges and Limitations of Sequential MET ‐ TKI Therapy in METex14 ‐ Positive NSCLC With a Focus on Non‐ ILD Toxicities: A Case Report",
+    "author": "Akina Nigi; Toshikazu Kumasa; Keisuke Iwamoto; Hidetoshi Itani; Shigeto Kondou; Junji Uraki",
+    "date": "2026-01-16"
+  },
+  "rejection_reason": null
+}

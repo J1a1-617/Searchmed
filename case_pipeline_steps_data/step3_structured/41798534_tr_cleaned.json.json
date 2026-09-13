@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "source_filename": "41798534_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 40,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "right-sided chest pain",
+      "dry cough",
+      "breathlessness",
+      "weight loss",
+      "loss of appetite"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 9th",
+    "tnm_stage": "cT0N0M1a",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "pleura",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2023-07",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ROS1 positive"
+        ],
+        "sample": "pleural biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "not specified"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 6,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "ROS1 positivity in lung adenocarcinoma",
+      "Successful treatment with crizotinib",
+      "Significant clinical response with symptom improvement"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

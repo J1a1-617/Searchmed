@@ -1,0 +1,28 @@
+{
+  "text": "Title: 合并EGFR和ROS-1基因突变的非小细胞肺癌病例报告\nPMID: \nAuthors: \n\nAbstract\n肺癌是当前世界上最常见的恶性肿瘤之一，其治疗已进入靶向治疗时代。表皮生长因子受体（epidermal growth factor receptor, EGFR）突变是非小细胞肺癌（non-small cell lung cancer, NSCLC）的常见基因突变类型，而c-ros原癌基因1受体酪氨酸激酶（c-ros oncogene 1 receptor tyrosine kinase, ROS-1）融合突变是NSCLC的罕见突变位点，目前关于合并EGFR和ROS-1基因突变共存的病例报道少见。本研究报道了1例合并EGFR和ROS-1基因突变共存的NSCLC病例，旨在为临床工作提供相关的治疗策略。\n\nKeywords: 肺肿瘤, EGFR, ROS-1, 共突变, 病例报道\n\n1 病例资料\n患者男，56岁，因“咳嗽、咳痰2月”于2021年2月21日就诊于云南省某三甲医院，行计算机断层扫描（computed tomography, CT）检查提示右肺上叶多发实变，完善CT引导下右肺上叶实变区穿刺，组织病理类型为肺腺癌（图1）。后转诊至昆明医科大学第三附属医院。2021年4月28日完善CT提示：右肺多发实变、双肺多发粟粒结节，性质恶性可能；纵隔及左锁骨上多发肿大淋巴结，转移可能；肝多发低密度结节；右肾上腺区域结节；双侧基底节区低密度结节，性质倾向良性；余影像检查未见异常（图2）。予行肺癌相关敏感基因检测。诊断：右肺上叶腺癌并纵隔、左锁骨上多发淋巴结转移，双肺转移，cT4N2M1 IV期。等待基因检测结果期间，于2021年5月1日行培美曲塞+卡铂化疗1个周期，出现II级消化道反应，予止吐、止泻、保护消化道等对症处理后缓解。2021年5月6日行基因检测，检测方法为突变扩增阻滞系统（amplification refractory mutation system, ARMS），结果示：EGFR外显子21 L858R点突变、ROS-1融合突变（融合位点：外显子32；融合伴侣位点：CD74外显子6）。EGFR基因突变丰度较低，于2021年5月25日开始予患者埃克替尼125 mg tid联合克唑替尼250 mg bid靶向治疗。\n治疗后定期复查CT（图2），2021年8月31日（治疗14周）评估疗效：病情稳定（stable disease, SD），后定期复查CT，至2023年9月19日（治疗121周）疗效评估均为SD，期间出现轻度消化道反应。直至2023年12月27日（治疗135周），患者CT提示病情有缓慢进展趋势，根据实体瘤疗效评估标准1.1（Response Evaluation Criteria in Solid Tumors 1.1, RECIST 1.1），评价疗效为病情进展（progressive disease, PD），期间出现轻度消化道反应。2024年3月22日（治疗147周），患者CT提示PD，PFS达35个月。\n患者病情缓慢进展，建议行二次活检及基因检测评估是否存在如EGFR T790M、ROS-1继发突变等耐药机制，因双肺多发转移灶取材阳性率不高且合并有一定风险，患者拒绝二次取材；且因基因检测为自费且全基因的二代测序（next-generation sequencing, NGS）不能报销，患者仅同意行血液学的T790M检测，遂采血液行基因检测[检测方法：滴液式数字聚合酶链式反应（polymerase chain reaction, PCR）法]，结果提示：未检测到EGFR外显子20 T790M突变。经多学科会诊后，治疗以全身药物治疗为主，双肺多发转移灶无明显临床症状，局部治疗（手术、放疗、射频等）不获益。结合患者病情缓慢进展，肿瘤负荷低，症状不明显，于2024年4月12日至9月25日予卡铂（400 mg d1 q3w）化疗7个周期，期间出现中度肝功能损伤及III度骨髓抑制。追问病史，患者于治疗期间自行口服中药治疗（具体成分不详），且换用贝伐珠单抗期间肝功能改善不明显，故考虑患者肝功能损伤与中药有关。治疗期间评估疗效，均为SD；治疗7个周期后因骨髓抑制明显，而于2024年10月22日行贝伐珠单抗方案（贝伐珠单抗500 mg d1 q3w）单药维持治疗1次，出现中度肝功能损伤、轻度消化道反应，后复查疗效评估SD。2025年3月3日患者CT提示病情缓慢进展，于2025年3月12日行“贝伐珠单抗+培美曲塞+卡铂”联合化疗（贝伐珠单抗500 mg d1，培美曲塞800 mg d1，卡铂400 mg d2 q3w），期间出现轻度消化道反应，予止吐、止泻、保护消化道等对症处理后缓解。",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40640100_tr.json",
+    "source_pmid": "40640100",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40640100_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:29:33",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "A Case Report of Coexistence of EGFR and ROS-1 Gene Mutations in Non-small Cell Lung Cancer",
+    "author": "Juan ZHAO; Jiaofeng YU; Ye FU; Yan ZHAO; Mingli ZHAO",
+    "date": "2025-06-30"
+  },
+  "rejection_reason": null
+}

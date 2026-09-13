@@ -1,0 +1,190 @@
+{
+  "provenance": {
+    "source_filename": "39430483_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 45,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "lung adenocarcinoma",
+    "histology": null,
+    "tnm_stage_system": null,
+    "tnm_stage": "IV",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK V3",
+          "TP53"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "ensartinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "ensartinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment + radiation",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "radiation therapy"
+        ],
+        "type": "radiation",
+        "dosage": null
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment + chemotherapy",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "ensartinib",
+          "chemotherapy"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "ensartinib": null,
+          "chemotherapy": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "acute kidney injury"
+        ],
+        "dose_adjustments": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment + radiation",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "thoracic radiation"
+        ],
+        "type": "radiation",
+        "dosage": null
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK V3",
+          "TP53"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "lorlatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "lorlatinib": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment + progression",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK V3",
+          "TP53"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "pembrolizumab"
+        ],
+        "type": "immunotherapy",
+        "dosage": {
+          "pembrolizumab": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "ensartinib",
+      "chemotherapy"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Co-occurring EML4-ALK V3 and TP53 mutations",
+      "Small intestinal metastasis from lung adenocarcinoma",
+      "Distinct responses to ALK-TKIs and combination therapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

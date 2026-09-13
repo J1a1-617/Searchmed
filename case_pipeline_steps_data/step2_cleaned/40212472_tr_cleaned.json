@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40212472_tr.json",
+    "source_pmid": "40212472",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40212472_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:53:25",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Real-world prognostic factors for first-line EGFR-TKI efficacy in advanced NSCLC patients harboring EGFR 21 L858R mutation",
+    "author": "Yan’e Liu; Lu Chen; Xin Zhu; Hua Zhang; Baoshan Cao",
+    "date": "2025-02-19"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

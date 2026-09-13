@@ -1,0 +1,146 @@
+{
+  "provenance": {
+    "source_filename": "39247747_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 52,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "chest tightness",
+      "shortness of breath",
+      "chest pain",
+      "dizziness",
+      "headache",
+      "skin petechiae",
+      "ecchymosis",
+      "poor appetite",
+      "weight loss"
+    ],
+    "diagnosis_date": "2019-09",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT4N2bM1c",
+    "overall_stage": "IV",
+    "baseline_primary_site": "left lung",
+    "metastatic_sites_at_baseline": [
+      "pelvic",
+      "bone"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2019-09",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS G12C"
+        ],
+        "abundance": "32.3%",
+        "sample": "circulating tumor DNA"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2019-10",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pemetrexed",
+          "cisplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": null,
+          "cisplatin": null
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2022-02-09",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "maintenance",
+        "regimen": [
+          "Tegio"
+        ],
+        "type": "oral chemotherapy",
+        "dosage": {
+          "Tegio": null
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2022-03",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "subsequent",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin",
+          "bevacizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": null,
+          "carboplatin": null,
+          "bevacizumab": null
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2023-03-15",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "targeted",
+        "regimen": [
+          "sotorasib"
+        ],
+        "type": "targeted therapy",
+        "dosage": {
+          "sotorasib": "240 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2023-07"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "KRAS G12C mutation identified in advanced lung adenocarcinoma",
+      "Significant improvement in clinical symptoms after sotorasib treatment",
+      "No notable side effects during sotorasib treatment",
+      "Improvement in quality of life score and KPS score"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

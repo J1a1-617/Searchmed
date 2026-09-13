@@ -1,0 +1,92 @@
+{
+  "provenance": {
+    "source_filename": "41458605_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 64,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "right-sided hemiplegia",
+      "reduced muscle strength",
+      "impaired ambulation",
+      "headache",
+      "projectile vomiting",
+      "fatigue"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral mediastinum",
+      "left hilar region",
+      "bilateral supraclavicular lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "KRAS G12C"
+        ],
+        "sample": "right supraclavicular lymph node"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "PD-1 antibody"
+        ],
+        "type": "immunotherapy",
+        "dosage": {
+          "PD-1 antibody": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 24
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment + radiation",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "brain radiotherapy"
+        ],
+        "type": "radiotherapy",
+        "dosage": null
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Extracranial abscopal effect observed following brain radiotherapy",
+      "Significant improvement in neurological symptoms",
+      "Confirmed metastatic lung adenocarcinoma with PD-L1 TPS ≥50%",
+      "KRAS G12C mutation identified"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

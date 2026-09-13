@@ -1,0 +1,70 @@
+{
+  "provenance": {
+    "source_filename": "40656425_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 74,
+    "sex": "female",
+    "smoking_status": "former_smoker",
+    "pack_years": 17,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "lung adenocarcinoma",
+    "histology": "metastatic lung adenocarcinoma to pancreas",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pancreas"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion (E746_A750del)",
+          "absence of KRAS mutation"
+        ],
+        "sample": "pancreatic FNA specimen"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib",
+          "carboplatin",
+          "pemetrexed"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "osimertinib": null,
+          "carboplatin": null,
+          "pemetrexed": null
+        }
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Absence of KRAS mutation in pancreatic adenocarcinoma raises suspicion for metastatic disease from lung",
+      "TTF-1 positivity in pancreatic specimen confirming lung adenocarcinoma",
+      "Molecular profiling critical in distinguishing primary vs metastatic lesions"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

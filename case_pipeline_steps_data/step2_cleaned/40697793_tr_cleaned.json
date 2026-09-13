@@ -1,0 +1,28 @@
+{
+  "text": "Title: BRAF Fusion as Resistance Mechanism to Osimertinib in EGFR-Mutated NSCLC: A Case Report and Review of Literature\nPMID: \nAuthors: Marianna Peroni, Alessandro Leonetti, Roberta Minari, Michela Verzè, Letizia Gnetti, Lorena Bottarelli, Cinzia Azzoni, Marco Galaverni, Nicola Simoni, Gabriele Missale, Elisabetta Biasini, Marcello Tiseo\n\nAbstract\nDespite the efficacy of osimertinib in the first-line treatment of advanced EGFR-mutated NSCLC, the development of resistance is nearly inevitable. BRAF mutations and fusions are reported in 1% to 3% of patients with EGFR-mutated NSCLC receiving osimertinib and represent potential targetable alterations. In this case report, we discuss the rationale for EGFR-MEK co-inhibition in a patient with EGFR-mutated NSCLC treated with osimertinib that developed a CTNNA1-BRAF fusion at progression. In addition, we provide a brief overview of the current evidence of BRAF fusions as an acquired resistance mechanism to osimertinib and potential treatment strategies.\nKeywords: EGFR mutation, Osimertinib, Resistance, BRAF fusion, Case report\n\nCase Presentation\nA 46-year-old ECOG PS 0 never-smoker female was diagnosed with advanced lung cancer with secondary lesions in the liver, mediastinal lymph nodes, bone, and brain, as assessed by total-body computed tomography and brain magnetic resonance imaging. The patient underwent computed-tomography-guided lung biopsy and received a diagnosis of lung adenocarcinoma (LUAD) with EGFR exon 19 deletion (ex19del, c.2235_2252delinsAAT p.E746_T751>I, variant allele frequency [VAF] 33.51%) by next-generation sequencing (NGS) (Fig. 1A). As per local clinical practice, the patient received frontline osimertinib obtaining early radiologic response and clinical benefit (Fig. 1B), followed by brain progression amenable to radiotherapy and further hepatic progression after 14 months from the start of treatment. A liver biopsy was performed to highlight potential resistance mechanisms (Fig. 1C) and NGS revealed retention of EGFR ex19del (VAF 29.5%), the appearance of CTNNA1-BRAF fusion, and TP53 mutation (VAF 20.4%). Off-label platinum-pemetrexed chemotherapy with osimertinib was delivered for four cycles followed by 12 pemetrexed maintenance cycles, achieving a partial response. After a further hepatic progression, as the only disease active site, the patient underwent left hepatic lobectomy with confirmation of LUAD, and NGS detected EGFR ex19del (VAF 20.4%), CTNNA1-BRAF fusion and TP53 mutation (VAF 14.6%) with contextual appearance of EGFR amplification. Pemetrexed and osimertinib treatment was continued for an additional 10 cycles until hepatic progression was not amenable to local treatment (Fig. 1D). At this time point, a new liver biopsy revealed localization of LUAD; because of the paucity of material, only an RNA fusion study on 55 genes was conducted and confirmed retention of CTNNA1-BRAF fusion. Given the persistence of CTNNA1-BRAF fusion, the patient started off-label osimertinib (80 mg once daily) and trametinib (1 mg once daily) combination and obtained a partial response to the liver at first evaluation with 18F-Fluorodeoxyglucose positron emission tomography and stable disease at brain magnetic resonance imaging after 3 months (Fig. 1E). The treatment was overall well tolerated, with grade 1 peripheral edema. After 6 months from the beginning of the combination therapy, the patient experienced hepatic and brain progression (Fig. 1F). A liquid biopsy was performed and NGS analysis revealed the emergence of MET amplification (copy number variation score: 1.39) while retaining EGFR ex19del (VAF 20.4%). Therefore, the patient underwent whole brain radiotherapy, and off-label amivantamab treatment was started. The patient passed away after 3 cycles of amivantamab because of hepatic and peritoneal progression.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40697793_tr.json",
+    "source_pmid": "40697793",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40697793_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:55:31",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "BRAF Fusion as Resistance Mechanism to Osimertinib in EGFR-Mutated NSCLC: A Case Report and Review of Literature",
+    "author": "Marianna Peroni; Alessandro Leonetti; Roberta Minari; Michela Verzè; Letizia Gnetti; Lorena Bottarelli; Cinzia Azzoni; Marco Galaverni; Nicola Simoni; Gabriele Missale; Elisabetta Biasini; Marcello Tiseo",
+    "date": "2025-06-19"
+  },
+  "rejection_reason": null
+}

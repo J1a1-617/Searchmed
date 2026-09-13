@@ -1,0 +1,28 @@
+{
+  "text": "Title: Transformation of RET-rearranged lung adenocarcinoma to small cell lung cancer after selpercatinib treatment\nPMID: \nAuthors: \n\nAbstract\nSmall cell transformation was one mechanism by which EGFR-mutation NSCLC acquired resistance after tyrosine kinase inhibitors (TKIs) treatment. A few reports of small cell transformation occurred in other oncogene-driven lung cancers. We found the first case of transformation of a RET-rearranged lung adenocarcinoma to SCLC after selpercatinib, a novel highly selective RET TKIs. Whole-exome sequencing (WES) was used to explore alteration in gene expression in tumor tissue at initial diagnosis and after transformation into small cell carcinoma. We found that transformed into SCLC tumor tissue had inactivation of RB1 and TP53, with RET fusion was still present. In addition, the APOBEC family of cytidine deaminases appeared amplification. Although RET rearrangement still existed, using another RET TKIs was ineffective, and etoposide plus platinum might be an effective rescue treatment.\n\nCase presentation\nA 30-year-old Chinese woman who had never smoked was presented in December 2019 with a left neck mass. A biopsy revealed the histological characteristics of lung adenocarcinoma, immunohistochemical stains results showed:TTF-1(+), CK(+), CK7(+), TG(-), P53(+, mutation), RB1(-) and Ki-67(30%) (Fig. 1A&B). But the patient was not treated immediately because she was pregnant. In April 2020, genetic testing results showed that KIF5B-RET fusion. She agreed to participate in the LIBRETTO-001 study, and signed an informed consent form. She underwent radiographic examinations (craniocerebral and neck enhanced MRI and enhanced CT of the chest and abdomen) at baseline, shown in Fig. 2A. She was consistent with stage IVB (T2bN2M1c) by the American Joint Committee on Cancer eighth edition (AJCC 8th).\nShe started taking selpercatinib 160 mg twice a day from April 30th, 2020. After 4 months of treatment, the left lung lobe, mediastinal lymph nodes, and right iliac crest lesions were significantly receded, and the disease was assessed as partial remission (PR) (Fig. 2B). She experienced significant reduction in right hip pain. In terms of safety, there was no grade 3 or higher adverse events occurred (Common Terminology Criteria for Adverse Events (CTCAE) version 5.0). After 10 days of oral administration, she developed a grade 2 rash, which was reduced to grade 1 after symptomatic treatment. At the fifth month of oral administration, grade 2 liver function impairment appeared, which disappeared after liver conservation therapy. She had a small amount of pelvic effusion, which was assessed as a grade 1 adverse event. Unfortunately, 26 months after treatment, the patient’s right hip pain worsened again. CT showed significant enlargement of the right iliac metastases, although there was no progression of other target lesions (Fig. 2C). At this point, the disease was assessed as oligoprogression. Local radiotherapy for oligoprogression lesions was performed with a total dose of 56 Gy with fractionation dose of 2 Gy per time. Oral selpercatinib was administered without interruption.\nAt the 33rd month of follow-up, the patient had mediastinal lymph node recurrent and multiple liver metastases (Fig. 2D). Progression disease (PD) was assessed with reference to Recist 1.1. We performed a liver metastatic biopsy, and the biopsy pathology revealed small cell carcinoma. HE staining and immunohistochemical staining were shown in Fig. 3, HE staining showed that the cancer cells were small, the nuclei were dense and round or oval (Fig. 3A), IHC showed NapsinA(-), RB1(-), P53(+, mutation), CD56(+), Syn(+), CgA(+), Ki-67(80%) (Fig. 3B). As a supplementary demonstration, the cervical lymph node tissue biopsied at the time of initial diagnosis was stained with neuroendocrine markers, but they were all negative (Fig. 1C), confirming that the small cell carcinoma was newly emerged.\nAfter end of treatment (EOT) follow up, the patient was enrolled in a new Phase I study in March 14th 2023 with HS-10365, a novel RET TKIs, 160 mg orally twice a day. Reexamination after 1 month assessed that the disease continued to progress. At the end of April, the patient received chemotherapy with the etoposide/carboplatin (EC) regimen and had received 6 cycles of chemotherapy. The sixth cycle of chemotherapy was on August 10th, 2023, and the patient failed chemotherapy in August 31st due to new brain metastases.\nWith the permission of this patient, we applied whole-exome sequencing (WES) for tissues at initial diagnosis and after transformation into small cell lung cancer.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38057798_tr.json",
+    "source_pmid": "38057798",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38057798_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:33:14",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Whole-exome sequencing explored mechanism of selpercatinib resistance in RET-rearranged lung adenocarcinoma transformation into small-cell lung cancer: a case report",
+    "author": "Yan Peng; Zhu Zheng; Wang Zewen; Liu Yanan; Zhang Mingyan; Sun Meili",
+    "date": "2023-12-06"
+  },
+  "rejection_reason": null
+}

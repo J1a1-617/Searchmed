@@ -1,0 +1,131 @@
+{
+  "provenance": {
+    "source_filename": "35626421_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 68,
+    "sex": "female",
+    "smoking_status": "former_smoker",
+    "pack_years": 30,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2014-11",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM",
+    "tnm_stage": "T3N3M1",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "aortopulmonary window",
+      "subcarinal lymph nodes",
+      "paratracheal lymph nodes",
+      "left iliac crest",
+      "left femoral head",
+      "left scapula"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2014-11",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR deletion in exon 19"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "dacomitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "dacomitinib": "45 mg/day"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 22.2
+      }
+    },
+    {
+      "time": "2016-10",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR-T790M mutation"
+        ],
+        "sample": "liquid biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg/day"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 9.6
+      }
+    },
+    {
+      "time": "2018-03",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "TP53 deletion",
+          "RB1 mutation"
+        ],
+        "sample": "hepatic metastasis"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "cisplatin",
+          "etoposide"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "cisplatin": "",
+          "etoposide": ""
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [],
+    "mechanism": "",
+    "severity": "",
+    "clinical_manifestation": "",
+    "management": "",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 40,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "2018-03"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with metastatic NSCLC harboring EGFR mutation and resistance mechanisms",
+      "Histologic transformation to small-cell lung cancer (SCLC)",
+      "Identification of biallelic inactivation of TP53 and RB1 as resistance mechanisms"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

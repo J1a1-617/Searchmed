@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40088581_tr.json",
+    "source_pmid": "40088581",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40088581_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:14:31",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Efficacy of EGFR tyrosine kinase inhibitors in patients with non–small cell lung cancer with EGFR exon 19 insertions: clinical-genomic, preclinical analysis through LC-SCRUM-Asia (multi-institutional genomic screening registry)",
+    "author": "Yuji Uehara; Hiroki Izumi; Ikei S Kobayashi; Shingo Matsumoto; Yukio Hosomi; Takae Okuno; Jun Sugisaka; Naoto Takase; Kageaki Taima; Shinichi Sasaki; Shuhei Teranishi; Shingo Miyamoto; Masahide Mori; Chiho Nakashima; Shuichi Asano; Hajime Oi; Tetsuya Sakai; Yuji Shibata; Hibiki Udagawa; Eri Sugiyama; Kaname Nosaki; Shigeki Umemura; Yoshitaka Zenke; Kiyotaka Yoh; Sadakatsu Ikeda; Daniel B Costa; Susumu S Kobayashi; Koichi Goto",
+    "date": "2025-03-05"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

@@ -1,0 +1,152 @@
+{
+  "provenance": {
+    "source_filename": "39962851_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.8
+  },
+  "baseline_clinical_profile": {
+    "age": 71,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "cough",
+      "dyspnea"
+    ],
+    "diagnosis_date": "2023-01",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM",
+    "tnm_stage": "T3N3M1a",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral lung",
+      "lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-01",
+      "event_type": "diagnosis",
+      "molecular": null,
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2023-02",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK rearrangement",
+          "TP53 c.853G>A p.E285K"
+        ],
+        "sample": "lymph node biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "lorlatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "lorlatinib": "100 mg qd"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-09",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "crizotinib",
+          "lorlatinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "crizotinib": "250 mg bid",
+          "lorlatinib": "50 mg qd"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-02",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg qd"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-06",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": "800 mg",
+          "carboplatin": "500 mg"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "crizotinib",
+      "lorlatinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "respiratory failure due to lung infection",
+    "last_follow_up": "2024-09"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient had EML4-ALK fusion with MET amplification.",
+      "Initial treatment with lorlatinib followed by crizotinib.",
+      "Disease progression despite combination therapy."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

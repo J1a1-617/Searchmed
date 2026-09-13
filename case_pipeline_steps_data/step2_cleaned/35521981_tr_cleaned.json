@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "35521981_tr.json",
+    "source_pmid": "35521981",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/35521981_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:16:48",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Relationship between tumor mutational burden, gene mutation status, and clinical characteristics in 340 cases of lung adenocarcinoma",
+    "author": "Kai Ma; Fengxiang Huang; Yin Wang; Yan Kang; Qilong Wang; Jiaqi Tang; Panfeng Sun; Jiaojiao Lou; Ruiping Qiao; Jiming Si; Jian Cao; Lijun Miao",
+    "date": "2022-05-06"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

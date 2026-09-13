@@ -1,0 +1,28 @@
+{
+  "text": "Title: Severe Megaloblastic Anemia Induced by Erlotinib in a Patient with Advanced Lung Adenocarcinoma\nPMID: \nAuthors: Xin Yan, Jingxian Kong\n\nAbstract\nErlotinib is a first-generation, tyrosine kinase inhibitor of the epidermal growth factor receptor (EGFR-TKI) used for the treatment patients with NSCLC. Erlotinib is considered as a safe and effective treatment option, with generally good tolerance. Diarrhea and rash are the most common side effects, and more rare side effects appear in long-term real-world applications. Severe erlotinib related megaloblastic anemia is rare and remains unreported. This is the first case report of severe megaloblastic anemia in a patient with advanced lung adenocarcinoma with an EGFR L858R mutation treated with erlotinib. In this report, the clinical manifestations, diagnosis and treatment of erlotinib related severe megaloblastic anemia are described, and the possible pathogenesis and related treatment options are discussed.\n\nCase presentation\nHerein, we present a 57- year-old non-smoking female diagnosed with metastatic lung adenocarcinoma harboring an EGFR L858R mutation, who had received erlotinib as the first-line therapy. After 44 weeks of treatment, the patient developed severe anemia. Anemia was manifested as megaloblastic anemia with elevated mean corpuscular volume and mean corpuscular hemoglobin. The total vitamin B12 level was below the detection limit of 50.00 pg /mL. Bone marrow smear suggested megaloblastic anemia. Her hematologic parameters were markedly recovered following the withdrawal of erlotinib and vitamin B12 supplement. As a result, the patient was diagnosed with erlotinib-associated megaloblastic anemia.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38448889_tr.json",
+    "source_pmid": "38448889",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38448889_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:37:15",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Severe megaloblastic anemia in a patient with advanced lung adenocarcinoma during treatment with erlotinib: a case report and literature review",
+    "author": "Xin Yan; Jingxian Kong; Jiacheng Wang; Caixia Wang; Hongchang Shen",
+    "date": "2024-03-06"
+  },
+  "rejection_reason": null
+}

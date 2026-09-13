@@ -1,0 +1,28 @@
+{
+  "text": "Title: Non‐small‐cell lung cancer with ERBB2 mutation in non‐tyrosine kinase domain benefits from pyrotinib: A case report\nPMID: 10.1111/1759-7714.13889\nAuthors: Ni J, Si X‐y, Zhang L\n\nAbstract\nTyrosine kinase domain (TKD) mutation and particularly exon 20 insertion mutations of erb‐b2 receptor tyrosine kinase 2 (ERBB2/HER2) have been extensively reported in non‐small cell lung cancer (NSCLC). Nevertheless, the clinical significance of non‐TKD mutations remains unknown. To date, no clinical trials have revealed that tyrosine kinase inhibitors are effective in NSCLC patients with non‐TKD ERBB2 mutations. Here we report a patient with advanced lung adenocarcinoma harboring non‐TKD mutation of ERBB2, S335C, without other actionable alterations benefited from pyrotinib. After first‐line treatment of pyrotinib monotherapy, a pan‐HER inhibitor, the patient achieved a durable partial response with good tolerance. This case powerfully illustrates that pyrotinib might be a promising first‐line treatment strategy for NSCLC patients with non‐TKD mutation of ERBB2.\nKeywords: ERBB2, non‐small cell lung cancer, nontyrosine kinase domain mutation, pyrotinib, targeted therapy\n\nCase presentation\nA 50‐year‐old male (non‐smoker) presented with developed irritable cough and a right lower lobe mass in November 2019. Chest‐abdomen contrast enhancement computed tomography (CT) demonstrated right lower lobe mass (2.8 × 2.8 cm), right supraclavicular lymph node enlargement, mediastinal and right hilar lymph node enlargement, left adrenal nodules, and soft tissue nodules under the anterior abdominal wall (Figure 1). Pathology of lung biopsy revealed poorly differentiated adenocarcinoma. The biopsy of the left supraclavicular lymph node was similar to the lung adenocarcinoma, confirming metastatic disease (cT1cN3M1c, stage IVb). Subsequently, NGS of the lung mass revealed an ERBB2 S335C mutation (Figure 1). Based on the oncogenic driver mutation and drug accessibility, treatment of pyrotinib 400 mg daily was started from December 2019. In March 2020, images showed partial response with 70% tumor shrinkage in the lung and metastasis lymph nodes that was ongoing (last follow‐up 2 December 2020) (Figure 2). Fortunately, the patient endured grade 1 diarrhea without other adverse events during treatment.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "33655632_tr.json",
+    "source_pmid": "33655632",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/33655632_tr.json",
+    "cleaning_timestamp": "2026-06-03T00:44:49",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Non‐small‐cell lung cancer with ERBB2 mutation in non‐tyrosine kinase domain benefits from pyrotinib: A case report",
+    "author": "Jun Ni; Xiao‐yan Si; Li Zhang",
+    "date": "2021-03-02"
+  },
+  "rejection_reason": null
+}

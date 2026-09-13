@@ -1,0 +1,101 @@
+{
+  "provenance": {
+    "source_filename": "37152007_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 77,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "cough",
+      "chest tightness"
+    ],
+    "diagnosis_date": "2021-08",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "CTNM",
+    "tnm_stage": "CT2N2M1a",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "left pleura"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2021-08",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "LDLR-ROS1 fusion"
+        ],
+        "sample": "pleural effusion"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 15
+      }
+    },
+    {
+      "time": "2021-10",
+      "event_type": "follow_up",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2022-01",
+      "event_type": "follow_up",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2022-12",
+      "event_type": "follow_up",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 15,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2022-12"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Novel LDLR-ROS1 fusion variant identified",
+      "Patient benefited from crizotinib therapy",
+      "Achieved partial response with no significant toxic symptoms"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: A rare case of synchronous multiple primary lung cancer with different drug resistance mechanisms\nPMID: null\nAuthors: null\n\nAbstract\nNon-small-cell lung cancer (NSCLC) is the most common cancer in the world. In recent years, the incidence of synchronous multiple primary lung cancer (SMPLC) has gradually increased. Surgery is the preferred method to treat these patients. The management of SMPLC patients who cannot tolerate surgical treatment is controversial. We report a rare case in which a 70-year-old Chinese woman with no history of smoking had three primary lung adenocarcinoma lesions. Two lesions had epidermal growth factor receptor (EGFR) exon 19 deletion mutations, and one lesion had the L858R mutation. After first-generation EGFR–tyrosine kinase inhibitor (TKI) treatment, the three lesions all showed a good response until disease progression. After the corresponding drug treatments were given based on the different drug resistance mechanisms, good responsiveness was shown in each lessions. This case suggests that in the treatment of SMPLC, it is necessary to learn the molecular-biological information of each lesion due to the differences thereof, and a targeted treatment regimen should be developed on this basis.\n\nCase presentation\nA 70-year-old female with no history of smoking sought treatment in our hospital on May 27, 2018 due to cough for 2 months. Her chest enhanced CT showed one subsolid node in each of the left upper lobe, right middle lobe, and right lower lobe ( Figures 1A1, B1, C1 ). Due to her advanced age, her family members refused surgical treatment. Therefore, CT-guided biopsy was performed on all three nodules to clarify their pathological properties. In addition, targeted capture-based next-generation sequencing (NGS) of the punctured tissues was performed. The upper lobe of the left lung had adenocarcinoma (lepidic growth) with EGFR exon 19 deletion mutation (L1). The middle lobe of right lung had adenocarcinoma (acinar growth) with EGFR exon 19 deletion mutation (L2). The lower lobe of the right lung had adenocarcinoma (solid) accompanied by point mutation of EGFR exon 21, L858R (L3). The patient started oral icotinib 125 mg Q8H treatment on June 15, 2018, and the three cancer lesions all showed persistent good responses ( Figures 1A1-4, B1-4, C1-4 ) until September 22, 2021, when re-examination by chest CT showed that all three lesions had grown and progressed ( Figures 1A5, B5, C5 ).\nTo clarify the drug resistance mechanism of the EGFR-TKI in this patient, the left upper lobe lesion (L1) was punctured again, and peripheral venous blood of the patient was collected for NGS detection. Rebiopsy of the L1 tumor showed adenocarcinoma, And the L1 tumor tissue and peripheral venous blood tests all suggested EGFR exon 20 T790M mutation. Based on this result, the drug was changed to osimertinib orally at 80 mg qd on September 29, 2021. A CT reexamination on January 12, 2022 showed that the left upper lobe (L1) and the right middle lobe (L2) lesions had responded well to osimertinib, and the efficacy was evaluated as a partial response ( Figures 1A5-6, B5-6 ). The efficacy in the right lower lobe lesion (L3) was evaluated as progressive disease ( Figures 1C5-6 ). To investigate why L3 did not respond to osimertinib, the right lower lobe cancer lesion was punctured, and NGS detection was performed. Rebiosy of L3 tumor showed adenocarcinoma and the results of NGS suggested MET amplification. After multidisciplinary team discussion, the patient was given osimertinib combined with savolitinib. Chest CT reexamination on April 20, 2022 showed that the lesion in the right lower lobe was also well controlled, with an efficacy evaluated as partial response. Two other lesions also showed sustained responses ( Figures 1A6-7, B6-7, C6-7 ). The location, pathology, and ongoing NGS-testing results of the three pulmonary lesions were showed in Figure 2 .",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "36249035_tr.json",
+    "source_pmid": "36249035",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/36249035_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:21:10",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case report: Different mechanisms of drug resistance in a synchronous multiple primary lung cancer patient after EGFR-TKI treatment",
+    "author": "Shaonan Xie; Qingyi Liu",
+    "date": "2022-09-29"
+  },
+  "rejection_reason": null
+}

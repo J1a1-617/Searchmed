@@ -1,0 +1,121 @@
+{
+  "provenance": {
+    "source_filename": "39854762_tr_cleaned.json",
+    "source_pmid": "32145678",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 37,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "cervical lymphadenopathy"
+    ],
+    "diagnosis_date": "2023-03",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "T4N3M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "right lower lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral neck",
+      "hilum mediastinum",
+      "axilla",
+      "abdominal cavity",
+      "retroperitoneal regions"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-03",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "MYH9–ROS1 fusion",
+          "TP53 mutation"
+        ],
+        "sample": "lymph node biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg BID"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2023-08",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "alterations": [
+          "MYH9–ROS1 fusion",
+          "TP53 mutation"
+        ],
+        "sample": "new lymph node biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "lorlatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "lorlatinib": "100 mg QD"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2023-08",
+      "event_type": "progression + chemotherapy",
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": null,
+          "carboplatin": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 10,
+    "survival_status": "dead",
+    "cause_of_death": "tumor progression and leukemoid reaction",
+    "last_follow_up": "2023-12"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Rare dual MYH9–ROS1 fusion variants identified",
+      "Partial response to crizotinib followed by progression",
+      "Switch to lorlatinib resulted in brief partial response",
+      "Short-term effectiveness of chemotherapy observed"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

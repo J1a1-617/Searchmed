@@ -1,0 +1,28 @@
+{
+  "text": "Title: Case of Lung Adenocarcinoma with MET Intergenic Fusion Responding to Crizotinib\nPMID: \nAuthors: \n\nAbstract\nBackground\nThe c-mesenchymal–epithelial transition factor (C-MET) is an oncogene encoding a tyrosine kinase receptor that plays an important role in tumor growth and metastasis. The National Comprehensive Cancer Network (NCCN) guidelines have approved carbatinib/crizotinib for advanced non-small cell lung cancer (NSCLC) patients with MET exon 14 skipping.\nMethods\nIn June 2020, the Department of Respiratory and Critical Care Medicine of Peking University People’s Hospital admitted a 72-year-old male patient with lung adenocarcinoma (LADC) with a history of interstitial lung disease secondary to antineutrophil cytoplasmic antibody-associated vasculitis. Genetic examination by next-generation sequencing showed an intergenic fusion of MET, and crizotinib was administered on August 14, 2020. Follow-up showed that tumor volume was significantly reduced. However, crizotinib was discontinued in November 2020 because of the patient’s worsening interstitial lung disease, and CT scans showed continued partial response (PR) for 5 months. In April 2021, right lower lobe mass progressed, and disease progression was considered.\n\nCase Description\nThe patient was a 72-year-old male smoker with advanced NSCLC. He had a history of interstitial lung disease (ILD) secondary to antineutrophil cytoplasmic antibody-associated vasculitis and no other major medical problems. The patient presented in June 2020 with a 4-month history of dyspnea. Chest CT scans revealed a right lower lobe mass (long-axis diameter was 3.7 cm) and bilateral enlarged mediastinal/hilar lymph nodes. In July 2020, he underwent CT-guided lung biopsy and was pathologically diagnosed with poorly differentiated LADC. The enhanced MRI of the brain, bone scan, and contrast-enhanced CT showed no extrapulmonary metastases. Therefore, the patient was diagnosed with stage IIIB LADC (pT1N3M0) according to the eighth edition of TNM staging. Genetic examination by next-generation sequencing further showed an intergenic fusion of MET. The patient lost his surgery opportunity due to local advanced stage and history of ILD. Therefore, on August 14, 2020, he received crizotinib (250 mg twice a day). Routine CT scans performed after 1 and 3 months of therapy showed partial response (PR) of the lung tumor and lymph metastases. In November 2020, the patient’s ILD worsened. The laboratory data revealed negative myeloperoxidase (MPO) antibodies with a titer of 0.00 (normal value: <20 AU/ml) and negative proteinase 3 (PR3) antibodies with a titer of 5.53 (normal value: <20 IU/ml); thus, crizotinib was not ruled out as a cause of ILD exacerbation. Therefore, crizotinib was discontinued, and the patient did not receive any antitumor therapy. In February 2021, CT scans showed continued PR after 5 months after crizotinib therapy was discontinued. However, the right lower lobe mass progressed in April 2021, and disease progression was considered.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "34778041_tr.json",
+    "source_pmid": "34778041",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/34778041_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:48:58",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "A Novel c-Mesenchymal-Epithelial Transition Factor Intergenic Fusion Response to Crizotinib in a Chinese Patient With Lung Adenocarcinoma: A Case Report",
+    "author": "Hongge Liang; Dexun Zhou; Lin Dai; Moqin Zhang; Zhancheng Gao; Xinlin Mu",
+    "date": "2021-10-28"
+  },
+  "rejection_reason": null
+}

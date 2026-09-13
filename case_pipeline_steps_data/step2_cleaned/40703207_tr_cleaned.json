@@ -1,0 +1,28 @@
+{
+  "text": "Title: Transformation of EGFR-positive Lung Adenocarcinoma to EGFR-negative Squamous Cell Carcinoma Following Acquired Resistance\nPMID: \nAuthors: \n\nAbstract\nLung adenocarcinoma (ADC) harboring epidermal growth factor receptor (EGFR) mutations rarely transforms into squamous cell carcinoma (SCC) following resistance to targeted therapy. Here, we present a case of EGFR-positive ADC that transformed into EGFR-negative SCC after developing resistance to EGFR tyrosine kinase inhibitors (TKIs). The patient experienced progressive disease after one cycle of chemotherapy and subsequently underwent five courses of tislelizumab combined with chemotherapy. Although the primary tumor showed a partial response to this combined regimen, intracranial metastases continued to progress, ultimately leading to the patient’s death. Notably, the patient survived for 8 months after SCC transformation with immuno-chemotherapy, a significantly longer duration than the previously reported median survival of 3.5 months. This case underscores the occurrence of genomic instability, histological transformation, and dissociated response (DR) following treatment with EGFR-TKIs in EGFR-positive lung ADC. We hypothesize that these phenomena may be driven by tumor heterogeneity and the dynamic variability within the tumor microenvironment (TME).\n\nCase Presentation\nIn November 2016, a 60-year-old male was admitted to the hospital presenting with cough and sputum production. The patient had no history of tobacco use and no family history of cancer. Chest X-ray revealed a space-occupying lesion in the left lung. A diagnosis of ADC was confirmed through transbronchial needle aspiration combined with biopsy and immunohistochemistry (IHC) of the primary tumor (Figure 1). Next-generation sequencing (NGS) of the tumor tissue revealed an EGFR exon 19 deletion (19del) mutation. Imaging data, including CT scans, demonstrated metastases from the left upper mediastinal tumor to the bilateral lungs, left pleura, S4 segment of the liver, and the T5 and T11 vertebrae. Cranial MRI detected metastases in the left frontal lobe.\nThe patient began first-line treatment with gefitinib in January 2017. In March 2019, hematological genetic testing showed no detectable mutations. The disease remained stable until May 2020, when CT scans revealed tumor progression (Figures 2A–D). In response to this progression, a repeat NGS testing confirmed the presence of the EGFR T790M mutation. The patient was then switched to osimertinib as second-line therapy. In January 2021, a mass approximately 60×40 mm was detected beneath the left clavicle, and CT scans revealed significant enlargement of the left upper lobe tumor (Figure 2E), along with an increase in the lesion in the left temporal lobe compared to previous scans. Biopsy and IHC of the left clavicular mass found metastatic poorly differentiated SCC, but no EGFR driver mutations appeared through the NGS of the tumor tissue.\nReferring to the NCCN guidelines, the patient was treated with carboplatin and docetaxel. However, after one cycle of treatment, the left upper lobe tumor grew from 102×98 mm to 144×115 mm. In February 2021, the patient began receiving tislelizumab coupled with carboplatin and docetaxel. CT scans conducted in April and June 2021 showed a partial response in the pulmonary and left clavicular tumors (Figure 2F and G), but the brain metastases continued to progress (Figure 3). Following multidisciplinary team consultation, the patient underwent palliative whole-brain radiation therapy delivering 30Gy in 10 fractions. Metastatic lesions exceeding 1cm diameter received simultaneous integrated boost (SIB) to 40Gy/10 fractions, while subcentimeter metastases received SIB to 35Gy/10 fractions. The patient underwent a total of five courses of tislelizumab combined with carboplatin and docetaxel. However, this regimen was poorly tolerated due to the patient’s deteriorating physical condition, leading to its discontinuation. The patient was then provided with optimal supportive care for the next three months and died in August 2021, with an OS of 8 months after SCC transformation. Ethics approval for this study was obtained from the First Affiliated Hospital of Guangzhou University of Chinese Medicine (NO: 2023–016). Institutional approval is required for the publication of case details and has been obtained. Written informed consent was obtained from the patient’s wife for publication of this case report and accompanying images due to the patient’s passing.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40703207_tr.json",
+    "source_pmid": "40703207",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40703207_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:55:49",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "A Rare Histologic Transformation from EGFR-Positive Lung Adenocarcinoma to EGFR-Negative Squamous Cell Carcinoma After EGFR-TKIs Resistance: A Case Report",
+    "author": "Mengli Qiu; Peiwen Guo; Jieheng Lin; Sisi Wang; Wenping Wang; Jianying Yang; Zhongming Huang; Yang Cao",
+    "date": "2025-07-18"
+  },
+  "rejection_reason": null
+}

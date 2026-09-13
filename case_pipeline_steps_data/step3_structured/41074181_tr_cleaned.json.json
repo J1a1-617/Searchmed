@@ -1,0 +1,143 @@
+{
+  "provenance": {
+    "source_filename": "41074181_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 56,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "cough",
+      "thoracalgia"
+    ],
+    "diagnosis_date": "2023-11",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT4N2M1a",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pulmonary",
+      "pleural",
+      "nodal"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-11",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19del"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2024-02",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19del",
+          "BRAF V600E"
+        ],
+        "sample": "biopsy of progressing lesion"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib",
+          "dabrafenib",
+          "trametinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily",
+          "dabrafenib": "150 mg twice daily",
+          "trametinib": "2 mg daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 4
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 1 rash"
+        ],
+        "dose_adjustments": []
+      }
+    },
+    {
+      "time": "2024-06",
+      "event_type": "surgery + outcome",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "local consolidation surgery"
+        ],
+        "type": "surgery",
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "dabrafenib",
+      "trametinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 11,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2025-05"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Acquired BRAF V600E mutation in EGFR-mutant lung adenocarcinoma",
+      "Efficacy of triple therapy with osimertinib, dabrafenib, and trametinib",
+      "Major pathological response post-surgery with minimal residual disease"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

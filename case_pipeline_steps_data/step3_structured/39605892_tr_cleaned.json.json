@@ -1,0 +1,220 @@
+{
+  "provenance": {
+    "source_filename": "39605892_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 51,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2021-08",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "T3N2M0",
+    "overall_stage": "III",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2021-08",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": "left lower lobe mass"
+      },
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "brigatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "brigatinib": "90 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2021-10",
+      "event_type": "surgery",
+      "molecular": null,
+      "treatment": {
+        "line": "post-surgery",
+        "regimen": [
+          "brigatinib"
+        ],
+        "type": "adjuvant",
+        "dosage": {
+          "brigatinib": "90 mg daily"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2021-02",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK fusion"
+        ],
+        "sample": "right lower lobe mass"
+      },
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "brigatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "brigatinib": "90 mg daily (initially 180 mg)"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 7
+      }
+    },
+    {
+      "time": "2021-04",
+      "event_type": "surgery",
+      "molecular": null,
+      "treatment": {
+        "line": "post-surgery",
+        "regimen": [
+          "brigatinib"
+        ],
+        "type": "adjuvant",
+        "dosage": {
+          "brigatinib": "90 mg daily"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2020-01",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R",
+          "EGFR L861Q"
+        ],
+        "sample": "right upper lobe mass"
+      },
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "null"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 12
+      }
+    },
+    {
+      "time": "2020-08",
+      "event_type": "surgery",
+      "molecular": null,
+      "treatment": {
+        "line": "post-surgery",
+        "regimen": [
+          "none"
+        ],
+        "type": "none",
+        "dosage": null
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2021-09",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "left lower lung mass"
+      },
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 12
+      }
+    },
+    {
+      "time": "2022-02",
+      "event_type": "surgery",
+      "molecular": null,
+      "treatment": {
+        "line": "post-surgery",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "adjuvant",
+        "dosage": {
+          "osimertinib": "null"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "brigatinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": "50% dosage reduction due to side effects",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 27,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2023-10"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Clinical efficacy of targeted therapy in resectable stage III NSCLC",
+      "Significant tumor shrinkage observed with brigatinib and osimertinib",
+      "Pathological responses achieved post-surgery"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

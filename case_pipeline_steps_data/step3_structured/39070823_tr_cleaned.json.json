@@ -1,0 +1,72 @@
+{
+  "provenance": {
+    "source_filename": "39070823_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 76,
+    "sex": "male",
+    "smoking_status": "heavy_smoker",
+    "pack_years": 360,
+    "presenting_symptoms": [
+      "right chest pain",
+      "weight loss"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "hepatocellular adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT4N2M1c",
+    "overall_stage": "IV B",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes",
+      "occipital bone",
+      "right second rib",
+      "left adrenal gland"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS A146T"
+        ],
+        "sample": "tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "immune checkpoint inhibitors"
+        ],
+        "type": "immunotherapy",
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": 3
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 3,
+    "survival_status": "dead",
+    "cause_of_death": "progressive disease",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient diagnosed with hepatocellular adenocarcinoma of the lung",
+      "KRAS A146T mutation identified",
+      "Patient refused chemotherapy and received only one course of ICIs treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

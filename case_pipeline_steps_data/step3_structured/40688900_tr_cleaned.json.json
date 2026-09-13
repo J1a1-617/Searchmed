@@ -1,0 +1,112 @@
+{
+  "provenance": {
+    "source_filename": "40688900_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 64,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 30,
+    "presenting_symptoms": [
+      "right gluteal pain",
+      "swelling"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "left gluteus medius",
+      "brain",
+      "bilateral pulmonary nodules",
+      "mediastinal lymph nodes",
+      "hilar lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": "gluteal mass"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "paclitaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": "AUC 5",
+          "paclitaxel": "175 mg/m² every three weeks"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "docetaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "docetaxel": null
+        }
+      },
+      "response": null
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "whole-brain radiotherapy"
+        ],
+        "type": "radiotherapy",
+        "dosage": null
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Skeletal muscle metastases can be the initial manifestation of NSCLC.",
+      "Histopathological analysis confirmed poorly differentiated adenocarcinoma with positive CK7 and TTF-1.",
+      "Molecular testing was negative for ALK, ROS1, RET, MET, and EGFR mutations.",
+      "First-line chemotherapy with carboplatin and paclitaxel achieved stable disease."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

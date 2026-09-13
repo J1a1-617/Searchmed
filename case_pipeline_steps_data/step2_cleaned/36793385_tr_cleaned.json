@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "36793385_tr.json",
+    "source_pmid": "36793385",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/36793385_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:23:55",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Associations of Tissue Tumor Mutational Burden and Mutational Status With Clinical Outcomes With Pembrolizumab Plus Chemotherapy Versus Chemotherapy For Metastatic NSCLC",
+    "author": "Marina C Garassino; Shirish Gadgeel; Silvia Novello; Balazs Halmos; Enriqueta Felip; Giovanna Speranza; Rina Hui; Edward B Garon; Hidehito Horinouchi; Shunichi Sugawara; Delvys Rodriguez-Abreu; Martin Reck; Razvan Cristescu; Deepti Aurora-Garg; Andrey Loboda; Jared Lunceford; Julie Kobie; Mark Ayers; Bilal Piperdi; M Catherine Pietanza; Luis Paz-Ares",
+    "date": "2022-11-08"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

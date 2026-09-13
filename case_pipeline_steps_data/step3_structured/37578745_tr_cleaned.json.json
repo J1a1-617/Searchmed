@@ -1,0 +1,153 @@
+{
+  "provenance": {
+    "source_filename": "37578745_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 66,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "lung nodules",
+      "enlarged lymph nodes",
+      "pleural effusion"
+    ],
+    "diagnosis_date": "2019-01",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "malignant pleural effusion"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2019-01",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 21 deletion"
+        ],
+        "sample": "lymph node biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "EGFR-TKIs"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2019-01",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "cisplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "cisplatin": null,
+          "pemetrexed": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2019-01",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-06",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "osimertinib",
+          "dabrafenib",
+          "trametinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "osimertinib": null,
+          "dabrafenib": null,
+          "trametinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 12
+      },
+      "safety": {
+        "adverse_events": [
+          "fever",
+          "mild rashes",
+          "fatigue",
+          "nausea"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "dabrafenib",
+      "trametinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2023-06"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Combination therapy of osimertinib, dabrafenib, and trametinib effective in overcoming osimertinib resistance.",
+      "Patient maintained partial remission for over a year.",
+      "Manageable adverse events associated with the treatment."
+    ],
+    "ddi_relevance": "low",
+    "generalizability": "medium"
+  }
+}

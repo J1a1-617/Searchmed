@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41152910_tr.json",
+    "source_pmid": "41152910",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41152910_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:08:30",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "IFITM3-MET interaction drives osimertinib resistance through AKT pathway activation in EGFR-mutant non–small cell lung cancer",
+    "author": "Ritsu Ibusuki; Eiji Iwama; Atsushi Shimauchi; Hiromu Kawano; Shun Mizusaki; Satoshi Nakamura; Yui Miyazaki; Yu Inutsuka; Mikiko Hashisako; Taishi Harada; Yuko Tsuchiya-Kawano; Hirono Tsutsumi; Takayuki Nakanishi; Noriaki Nakagaki; Yuichiro Koga; Shinichi Kimura; Shun Mashimoto; Daisuke Shibahara; Kohei Otsubo; Yasuto Yoneshima; Kentaro Tanaka; Yoshinao Oda; Isamu Okamoto",
+    "date": "2025-10-28"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

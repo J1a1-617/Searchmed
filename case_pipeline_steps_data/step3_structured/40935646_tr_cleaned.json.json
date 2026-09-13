@@ -1,0 +1,139 @@
+{
+  "provenance": {
+    "source_filename": "40935646_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 70,
+    "sex": "male",
+    "smoking_status": "current_smoker",
+    "pack_years": 40,
+    "presenting_symptoms": [
+      "weight loss",
+      "loss of appetite"
+    ],
+    "diagnosis_date": "2023-10",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IV",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "brain",
+      "bone",
+      "liver",
+      "kidney"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-10",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS p.G12C",
+          "CDKN2 deletion"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2023-10-18",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pemetrexed",
+          "bevacizumab",
+          "sintilimab"
+        ],
+        "type": "combination",
+        "dosage": {
+          "pemetrexed": "0.6 g every 3 weeks",
+          "bevacizumab": "300 mg every 3 weeks",
+          "sintilimab": "200 mg every 3 weeks"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "2024-02-28",
+      "event_type": "treatment + progression",
+      "molecular": null,
+      "treatment": {
+        "line": "maintenance",
+        "regimen": [
+          "sintilimab"
+        ],
+        "type": "immunotherapy",
+        "dosage": {
+          "sintilimab": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 11
+      }
+    },
+    {
+      "time": "2025-02-08",
+      "event_type": "progression + rebiopsy + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS p.G12R",
+          "CCNE1 amplification",
+          "TP53 mutation",
+          "RB1 mutation"
+        ],
+        "sample": "metastatic site"
+      },
+      "treatment": {
+        "line": "chemotherapy",
+        "regimen": [
+          "etoposide"
+        ],
+        "type": "chemotherapy",
+        "dosage": null
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2025-03-16",
+      "event_type": "death",
+      "molecular": null,
+      "treatment": null,
+      "response": null,
+      "safety": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 17,
+    "survival_status": "dead",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "KRAS mutation in lung adenocarcinoma",
+      "SCLC transformation after ICI therapy",
+      "Importance of monitoring NSE and performing biopsies"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: Clinical Response to Crizotinib in a Patient with Advanced Poorly Differentiated Non-Small Cell Lung Carcinoma Harboring Concurrent MET Fusions\nPMID: \nAuthors: \n\nAbstract\nBACKGROUND\nDue to the rarity of mesenchymal-epithelial transition factor (MET) fusions, the clinical efficacy of crizotinib has only been described in a few patients with MET fusions involving various fusion partners. Herein, we report the clinical response to crizotinib of a patient with advanced poorly differentiated non-small cell carcinoma (NSCLC) having concurrent MET fusions.\n\nCASE SUMMARY\nA 46-year-old woman was diagnosed with poorly differentiated NSCLC (T4N3M1). With no classic driver mutations, she was treated with two cycles of gemcitabine and cisplatin without clinical benefit. Targeted sequencing revealed the detection of two concurrent MET fusions, KIF5B-MET and novel MET-CDR2. Crizotinib was initiated at a dose of 250 mg twice daily. Within 4 wk of crizotinib therapy, repeat computed chromatography revealed a dramatic reduction in primary and metastatic lesions, assessed as partial response. She continued to benefit from crizotinib for 3 mo until disease progression and died within 1 mo despite receiving nivolumab therapy.\n\nCASE PRESENTATION\nChief complaints\nIn November 2018, a 46-year-old female never-smoker presented in our clinic with a complaint of persistent dry cough.\n\nHistory of present illness\nThe cough had been lasted for over a week.\n\nHistory of past illness\nPast medical history was not remarkable for this patient.\n\nLaboratory examinations\nHistopathological analysis of tissue biopsy samples collected from the right lung revealed poorly differentiated NSCLC (Figure 1) with the immunohistochemistry results of AE1/AE3 (+), SMACA4 BRG1 (+), CK18 (+), INI-1 (+), CD56 (-), chromogranin A (-), synaptophysin (-), CK7 (-), ERG (-), GATA3 (-), CD34 (-), CDX2 (-), P40 (-), SALL4 (-), TTF-1 (-), Desmin (-), and S-100 (-). In addition, PD-L1 expression analysis revealed a tumor proportion score of 80%. Molecular analysis of the biopsies detected no driver alterations in EGFR, ALK, or ROS1.\n\nImaging examinations\nComputed tomography (CT) and magnetic resonance imaging revealed a tumor in the lower lobe of the right lung, right hilar and mediastinal lymph node involvement, and multi-organ metastasis including the left pleura, liver, pericardium, and bone.\n\nFINAL DIAGNOSIS\nThe final diagnosis of the patient was NSCLC stage IV (T4N3M1).\n\nTREATMENT\nBased on the findings presented above, the patient was then treated with two cycles of gemcitabine (1.0 g/m2 on days 1 and 8) plus cisplatin (75 mg/m2 on day 1) with no clinical benefit.\n\nOUTCOME AND FOLLOW-UP\nIn January 2019, an abdominal CT scan revealed the enlargement of the lung primary and liver metastases. To explore potentially actionable mutations, tumor biopsy samples were submitted for capture-based targeted sequencing using a panel with 520 cancer-related genes (OncoScreen Plus, Burning Rock, China). As shown in Figure 2, the analysis revealed the detection of two concurrent MET fusions with respective partner genes KIF5B (K24:M15) and CDR2 (M15:C3). No other classic lung cancer driver mutations were detected apart from TP53 C277X. Due to economic and insurance conditions and out of concern over evidence suggesting reduced efficacy of immunotherapy in non-small cell lung cancer patients carrying oncogenic driver alterations, crizotinib (250 mg, p.o. bid) was started as the second line treatment in February 2019. After 4 wk of therapy, review of chest CT revealed a dramatic reduction of the lesions in the left and right lobes of the lungs with no new lesions, which was evaluated as partial response with Response Evaluation Criteria in Solid Tumors v.1.1 (RECIST 1.1). At approximately 3 mo from the start of targeted therapy, the patient continued to benefit from crizotinib without side effects. However, the disease progressed afterwards in May, 2019 as per RECIST 1.1. Specifically, compared with the previous evaluation, new lesions emerged mostly in the right lung, accompanied by growth of the previously reduced tumor.\n\nAfter crizotinib failure, we chose nivolumab (a human IgG4 PD-1 antibody) as a salvage therapy because of the high PD-L1 expression. However, the patient did not benefit from nivolumab and her condition was declining significantly. She was hospitalized for worsening respiratory function and died shortly thereafter with an overall survival (OS) of 7 mo from diagnosis.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "35434049_tr.json",
+    "source_pmid": "35434049",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/35434049_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:15:58",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Effective response to crizotinib of concurrent KIF5B-MET and MET-CDR2-rearranged non-small cell lung cancer: A case report",
+    "author": "Lian-Fang Liu; Jia-Ying Deng; Analyn Lizaso; Jing Lin; Si Sun",
+    "date": "2022-03-16"
+  },
+  "rejection_reason": null
+}

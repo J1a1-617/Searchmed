@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40161734_tr.json",
+    "source_pmid": "40161734",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40161734_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:52:11",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Deciphering lung adenocarcinoma evolution and the role of LINE-1 retrotransposition",
+    "author": "Tongwu Zhang; Wei Zhao; Christopher Wirth; Marcos Díaz-Gay; Jinhu Yin; Monia Cecati; Francesca Marchegiani; Phuc H Hoang; Charles Leduc; Marina K Baine; William D Travis; Lynette M Sholl; Philippe Joubert; Jian Sang; John P McElderry; Alyssa Klein; Azhar Khandekar; Caleb Hartman; Jennifer Rosenbaum; Frank J Colón-Matos; Mona Miraftab; Monjoy Saha; Olivia W Lee; Kristine M Jones; Neil E Caporaso; Maria Pik Wong; Kin Chung Leung; Chao Agnes Hsiung; Chih-Yi Chen; Eric S Edell; Jacobo Martínez Santamaría; Matthew B Schabath; Sai S Yendamuri; Marta Manczuk; Jolanta Lissowska; Beata Świątkowska; Anush Mukeria; Oxana Shangina; David Zaridze; Ivana Holcatova; Dana Mates; Sasa Milosavljevic; Milan Savic; Yohan Bossé; Bonnie E Gould Rothberg; David C Christiani; Valerie Gaborieau; Paul Brennan; Geoffrey Liu; Paul Hofman; Robert Homer; Soo-Ryum Yang; Angela C Pesatori; Dario Consonni; Lixing Yang; Bin Zhu; Jianxin Shi; Kevin Brown; Nathaniel Rothman; Stephen J Chanock; Ludmil B Alexandrov; Jiyeon Choi; Maurizio Cardelli; Qing Lan; Martin A Nowak; David C Wedge; Maria Teresa Landi",
+    "date": "2025-03-16"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

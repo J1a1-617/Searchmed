@@ -1,0 +1,28 @@
+{
+  "text": "Title: Case of a Patient with Idiopathic Pulmonary Fibrosis and METex14 Skipping-Positive Lung Adenocarcinoma\nPMID: \nAuthors: Takunori Ogawa, Yoshiki Kato, Akira Matsukida, Ryosuke Nagaoka, Kotoba Esaki, Kimiya Sato, Akihiko Kawana, Yoshifumi Kimizuka\n\nABSTRACT\nThe mesenchymal‐epithelial transition exon 14 (METex14) skipping mutation is a driver of non‐small cell lung cancer (NSCLC). MET tyrosine kinase inhibitors (TKIs), such as tepotinib, are effective against METex14 skipping‐positive NSCLC but carry a risk of acute exacerbation of interstitial lung disease (AE‐ILD) in patients with idiopathic pulmonary fibrosis (IPF). Here, we present a case of a 54‐year‐old man with IPF and METex14 skipping‐positive lung adenocarcinoma. Following first‐line platinum‐based chemotherapy, disease control was not achieved for either lung cancer or IPF. Therefore, the patient underwent second‐line treatment with tepotinib and the antifibrotic agent nintedanib. This combination effectively controlled both lung cancer and IPF, resulting in a partial response without AE‐ILD. Our case suggests that nintedanib treatment may offer a safe and effective option for progressive IPF during MET‐TKI therapy, presenting a novel therapeutic approach for patients with lung cancer complicated by IPF.\n\nHere, we report the case of a patient with idiopathic pulmonary fibrosis (IPF) who was diagnosed with METex14 skipping‐positive lung adenocarcinoma. Through the strategic combination of nintedanib and tepotinib, we successfully managed the patient's treatment without the occurrence of acute exacerbation of IPF.\n\n2. Case Report\nA 54‐year‐old Japanese man with a 25‐pack‐year smoking history and no prior history of respiratory disease presented with a three‐month history of persistent cough. Computed tomography (CT) revealed a usual interstitial pneumonia (UIP) pattern, characterised by basal and peripheral reticular opacities, honeycombing, and traction bronchiolectasis (Figure 1A). CT also showed consolidations in the right lower lobe, raising suspicion of bacterial pneumonia. Despite antibiotic treatment, the consolidations did not improve. Video‐assisted thoracoscopic surgery (VATS) was performed to evaluate the pulmonary lesions in the right lower lobe. Pathological findings from VATS showed a UIP pattern with honeycomb changes and fibroblast foci (Figure 2A,B), consistent with IPF, based on imaging and clinical history. However, the cause of the multiple consolidations remained unclear. As the consolidations progressed (Figure 1B), a CT‐guided biopsy was performed on the right lower lobe lesion. Biopsy revealed invasive mucinous adenocarcinoma (Figure 2C). The consolidations in both lungs were interpreted as manifestations of this adenocarcinoma, resulting in a diagnosis of stage IVA lung adenocarcinoma with bilateral pulmonary metastases. Molecular biomarker testing using next‐generation sequencing identified a METex14 skipping mutation, and programmed death ligand expression was negative. Pulmonary function testing showed restrictive ventilatory impairment. Serial CT imaging demonstrated gradual progression of IPF (Figure 1B). Therefore, MET‐TKI was considered inappropriate as first‐line chemotherapy due to high AE‐ILD risk. The patient was initially treated with carboplatin, pemetrexed, and bevacizumab. After four cycles of chemotherapy, CT revealed progression of both invasive mucinous adenocarcinoma and reticular opacities associated with IPF (Figure 1C), along with further decline in lung function and increased serum Krebs von den Lungen‐6 (KL‐6) levels (Figure 1E). Given the risk of AE‐ILD but aiming for long‐term survival, tepotinib, a MET‐TKI targeting the METex14 skipping mutation, was selected as second‐line therapy. Nintedanib (150 mg twice daily) was started to prevent worsening of restrictive ventilatory impairment and AE‐ILD, followed by tepotinib (250 mg/day) 1 week later. After initiating the combination, CT scan showed a significant reduction in bilateral pulmonary infiltrates consistent with lung adenocarcinoma (Figure 1D). Pulmonary function tests showed no decline in FVC after nintedanib administration, accompanied by a reduction in serum KL‐6 levels (Figure 1E). No adverse events were observed with the tepotinib‐nintedanib combination, except for mild diarrhoea. At 9 months, the patient maintained a partial response without AE‐ILD and continued the same treatment.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40556834_tr.json",
+    "source_pmid": "40556834",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40556834_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:27:14",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Successful Tepotinib Treatment in MET Exon 14 Skipping Mutation‐Positive Lung Adenocarcinoma With Idiopathic Pulmonary Fibrosis Through Nintedanib Combination",
+    "author": "Yoshiki Kato; Takunori Ogawa; Kimiya Sato; Akira Matsukida; Akihiko Kawana; Ryosuke Nagaoka; Kotoba Esaki; Yoshifumi Kimizuka",
+    "date": "2025-06-23"
+  },
+  "rejection_reason": null
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: Acquired Resistance Mechanisms in Non-Small Cell Lung Cancer Patients with EGFR Mutations\nPMID: \nAuthors: \n\nAbstract\nNon-small cell lung cancer (NSCLC) is one of the most common malignancies in the world. EGFR tyrosine inhibitors are the preferred first-line treatment for patients with epidermal growth factor-cell receptor mutant (EGFR mutant) advanced NSCLC. Unfortunately, drug resistance inevitably occurs leading to disease progression. Activation of the ALK and BRAF bypass signaling pathways is a rare cause of acquired drug resistance for EGFR-TKIs.We report two NSCLC-patients with EGFR- mutations, in exon 19, and exon 18, correspondingly, who were treated with EGFR-TKIs. The first case shows acquired BRAF-mutation, and the second case demonstrates acquired ALK-fusion. The overall survival of patients was significantly prolonged by drug-match therapies. As it is well-known that ALK-fusion and BRAF-mutations are described forms of acquired resistance. These two case reports contribute to the previous reports that ALK-fusion and BRAF-mutation are potential underlying mechanisms of EGFR-TKI resistance.\n\nCase 1\nA 60-year-old male smoker presented with complaints of cough and fatigue. A chest CT scan revealed multiple nodules in both lungs, with the largest measuring approximately 1.1x0.8cm, suggesting the presence of lung cancer with multiple pulmonary metastases. Additionally, multiple liver metastases were observed, with the largest measuring about 2.1x1.3cm. The patient was diagnosed with stage cT1bN3M1c IVB based on biopsy from the tumor in the right lung. Real-Time PCR indicated the presence of EGFR 19 E746_A750del(1) deletion mutation. As the first-line treatment, the patient received furmonertinib (80 mg once daily) for 27 months. A follow-up chest CT scan revealed an enlargement of the right lung nodule to approximately 2.6x2.1cm. Subsequently, the patient underwent 4 cycles of chemotherapy with pemetrexed combined with cisplatin. One month later, the chest CT scan showed the development of massive pleural effusion on the left side and enlarged liver lesions, measuring about 5.5x4.6cm. PCR genetic testing of tumor liver tissue revealed a mutation in V600E in exon 15 of the BRAF gene. The patient was then treated with dabrafenib (150 mg twice daily) and trametinib (2 mg once daily), and a follow-up CT scan after eight weeks showed improvement in the left pleural effusion and liver metastasis. So far, the patient responses well to targeted drugs and remains healthy with no signs of recurrence.\n\nCase 2\nA 77-year-old female non-smoking patient presented with a cough. Imaging examination revealed the presence of nodules (1.7x1.5 cm in size) in the left lower lobe, along with multiple brain metastases. Genetic testing revealed a mutation in EGFR18-G719X. The patient was initially treated with gefitinib (250 mg once daily) with good tolerance and treatment for 20 months. NGS analysis of peripheral blood showed no mutations. Subsequently, the treatment was changed to icotinib, but a re-evaluation after 4 months demonstrated progression of the lung and brain metastases. Then the patient was treated with 6 cycles of Pemetrexed and Bevacizumab. The following MRI of the brain revealed enlarging lesions with extensive adjacent edema. Rebiopsy from progression lung tumor investigated by illumina NGS showed the presence of ALK-fusion, leading to the initiation of treatment with Alectinib. After eight weeks, reexamination showed a reduction in the size of lung lesions and disappearance of brain lesions. So far, the patient remains stable with no signs of recurrence.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39555453_tr.json",
+    "source_pmid": "39555453",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39555453_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:59:28",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Therapeutic strategies to overcome ALK-fusion and BRAF-mutation as acquired resistance mechanism in EGFR-mutated non-small cell lung cancer: two case reports",
+    "author": "Yuan Zeng; Qiang Zeng; Bin Yang; Yang Hu",
+    "date": "2024-11-01"
+  },
+  "rejection_reason": null
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: Transformation of Lung Adenocarcinoma to Small Cell Lung Cancer After Treatment with Osimertinib\nPMID: [PubMed ID]\nAuthors: [作者列表]\n\nAbstract\nEpidermal growth factor receptor (EGFR)-tyrosine kinase inhibitors (TKIs) effectively treat EGFR-mutant lung adenocarcinoma, demonstrating initial efficacy but eventually leading to acquired resistance. Small cell transformation is a rare resistance mechanism to EGFR-TKIs in lung adenocarcinoma, which can complicate clinical diagnosis and treatment. We present a patient with lung adenocarcinoma who underwent a prior pneumonectomy and adjuvant chemotherapy and was treated with osimertinib after the recurrence of lung cancer. Small cell transformation occurred approximately 20 months after starting osimertinib treatment. After this transformation, the patient underwent lung radiotherapy and cisplatin–etoposide chemotherapy, which stabilized the disease. Following the confirmation of small cell lung cancer (SCLC) via thyroid puncture, treatments with irinotecan, irinotecan plus atezolizumab, thyroid radiotherapy, adrenal radiotherapy, and head radiotherapy were sequentially administered, yet the disease continued to progress. The patient succumbed to the disease in May 2023 because of progression and organ failure, with an overall survival of 52.7 months, including 16 months post small cell transformation. This case highlights the possibility of osimertinib causing lung adenocarcinoma to transform into SCLC and underscores rebiopsies’ importance in identifying resistance mechanisms to EGFR-TKIs. Increased levels of neuron-specific enolase and pro-gastrin releasing peptide can signal early transformation into SCLC.\n\nCase presentation\nIn May 2020, a 44-year-old female nonsmoker with lung adenocarcinoma presented to our hospital complaining of chest tightness and shortness of breath. The patient underwent a curative operation in January 2019. The pathological findings were as follows: moderately differentiated adenocarcinoma (stage IB, pT2 Visc PI N0M0) with an EGFR exon 19del mutation. An adjuvant chemotherapy regimen of nedaplatin (75 mg/m² on day 1) combined with pemetrexed (500 mg/m² on day 1) was conducted for four cycles after the surgery. The chemotherapy course was uneventful, showing no progression of lung cancer markers or computed tomography findings (Fig. 1) (Fig. 2a and b). Clinical features and treatment details are summarized in Tables 1 and 2, respectively.\n\nIn September 2022, a biopsy of a newly identified thyroid nodule was conducted, revealing neuroendocrine carcinoma of the thyroid gland (small cell type) (Fig. 2e and f), suggestive of pulmonary origin. The patient received one cycle of irinotecan (100 mg/day) chemotherapy, followed by five cycles of combination therapy with irinotecan (100 mg/day) and atezolizumab (1.2 g/day), which failed to achieve significant remission. Hepatic metastases developed during treatment (Fig. 1). Concurrently, owing to ongoing enlargement of the thyroid and adrenal glands, thyroid radiotherapy (50 Gy/25 fractions) and adrenal radiotherapy (40 Gy/20 fraction) were administered on 1 February 2023. Upon developing multiple brain metastases, the patient underwent cranial radiotherapy (30 Gy/10 fractions, only completed 2 fractions). The patient succumbed to the disease on 11 May 2023, with an overall survival (OS) of 52.7 months, attributable to disease progression and organ failure.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39792045_tr.json",
+    "source_pmid": "39792045",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39792045_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:03:18",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Transformation of lung adenocarcinoma to small cell lung cancer following osimertinib treatment: a case report and literature review",
+    "author": "Linwu Kuang; Peng Wang; Lin Zhou; Yangkai Li",
+    "date": "2025-01-08"
+  },
+  "rejection_reason": null
+}

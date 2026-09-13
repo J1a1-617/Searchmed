@@ -1,0 +1,223 @@
+{
+  "provenance": {
+    "source_filename": "39123181_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 73,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "intermittent cough",
+      "dry cough without phlegm",
+      "chest tightness",
+      "chest pain",
+      "difficulty breathing",
+      "low-grade fever",
+      "night sweats",
+      "hoarseness",
+      "palpitations"
+    ],
+    "diagnosis_date": "2023-04-18",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2023-04",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "MET exon 14 skipping"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "savolitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "savolitinib": "400 mg per day"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-05-17",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "savolitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "savolitinib": "300 mg per day"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-05-29",
+      "event_type": "progression + laboratory",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "savolitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "savolitinib": "400 mg per day"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-05-30",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "hepatoprotective drugs"
+        ],
+        "type": "supportive",
+        "dosage": {
+          "magnesium isoglycyrrhizinate": "150 mg daily",
+          "S-adenosylmethionine": "1 g daily",
+          "glutathione": "1.8 g daily"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-06-15",
+      "event_type": "treatment + laboratory",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "savolitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "savolitinib": "200 mg per day"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-06-22",
+      "event_type": "progression + laboratory",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "hepatoprotective drugs"
+        ],
+        "type": "supportive",
+        "dosage": {
+          "magnesium isoglycyrrhizinate": "150 mg daily",
+          "S-adenosylmethionine": "1 g daily",
+          "glutathione": "1.8 g daily",
+          "polyene phosphatidylcholine": "456 mg three times daily"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-06-29",
+      "event_type": "treatment + laboratory",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "savolitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "savolitinib": "100 mg per day"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2023-09-26",
+      "event_type": "follow_up",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-10-17",
+      "event_type": "follow_up",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "savolitinib"
+    ],
+    "mechanism": null,
+    "severity": "moderate",
+    "clinical_manifestation": "liver injury",
+    "management": "discontinuation of savolitinib and administration of hepatoprotective drugs",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2023-10-17"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Drug-induced liver injury associated with savolitinib in a patient with advanced NSCLC.",
+      "Savolitinib showed a significant effect on tumor shrinkage despite liver injury."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

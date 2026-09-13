@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40957338_tr.json",
+    "source_pmid": "40957338",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40957338_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:01:20",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Clinical factors and molecular co-alterations impact outcomes in patients receiving first-line osimertinib for EGFR-mutated non-small cell lung cancer",
+    "author": "Fangdi Sun; Mandeep K Banwait; Surbhi Singhal; Amanda Herrmann; Zofia Piotrowska; Karen Yun; Lyudmila Bazhenova; Ayman T Ullah; Emily W Guo; Heather A Wakelee; Joel W Neal; Millie S Das; Kavitha J Ramchandran; Mohana Roy; Maximilian Diehn; Nathaniel J Myall",
+    "date": "2025-09-07"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

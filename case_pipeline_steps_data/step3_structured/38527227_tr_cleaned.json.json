@@ -1,0 +1,92 @@
+{
+  "provenance": {
+    "source_filename": "38527227_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 55,
+    "sex": "female",
+    "smoking_status": "smoker",
+    "pack_years": 35,
+    "presenting_symptoms": [
+      "acute severe leg pain",
+      "back pain"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS exon 2 p.G12D"
+        ],
+        "sample": "primary and metastatic tumor specimens"
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [],
+        "type": null,
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment + adverse_event",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "right hip arthroplasty"
+        ],
+        "type": "surgical",
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "gastric perforation",
+          "oxygen desaturation",
+          "asystole"
+        ],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "massive peritonitis from gastric perforation",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "KRAS exon 2 p.G12D mutation identified",
+      "Extensive DNA copy number alterations in primary and metastatic tumors",
+      "Patient experienced rapid decline post-surgery leading to death"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

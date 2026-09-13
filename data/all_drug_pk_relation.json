@@ -1,0 +1,2992 @@
+[
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "KRAZATI",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Adagrasib is primarily metabolized by CYP3A4; strong CYP3A4 inducers (e.g., rifampin) significantly decrease adagrasib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "KRAZATI",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "itraconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Adagrasib is primarily metabolized by CYP3A4; strong CYP3A4 inhibitors (e.g., itraconazole) significantly increase adagrasib exposure before steady state."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "inhibitor",
+    "drug_name": "KRAZATI",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "midazolam",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Adagrasib is a strong CYP3A4 inhibitor; increases exposure of CYP3A4 substrates such as midazolam."
+  },
+  {
+    "enzyme_transporter": "CYP2C9",
+    "role": "inhibitor",
+    "drug_name": "KRAZATI",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "warfarin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Adagrasib is a moderate CYP2C9 inhibitor; increases exposure of CYP2C9 substrates such as warfarin."
+  },
+  {
+    "enzyme_transporter": "CYP2D6",
+    "role": "inhibitor",
+    "drug_name": "KRAZATI",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "dextromethorphan",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Adagrasib is a moderate CYP2D6 inhibitor; increases exposure of CYP2D6 substrates such as dextromethorphan."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "KRAZATI",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "digoxin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Adagrasib is a moderate P-gp inhibitor; increases exposure of P-gp substrates such as digoxin."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "substrate",
+    "drug_name": "KRAZATI",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Adagrasib may be a substrate of BCRP."
+  },
+  {
+    "enzyme_transporter": "MATE-1/MATE-2K",
+    "role": "inhibitor",
+    "drug_name": "KRAZATI",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Adagrasib may inhibit MATE-1 and MATE-2K transporters."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "KADCYLA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "ketoconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "DM1, the cytotoxic component of KADCYLA, is mainly metabolized by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "KADCYLA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "itraconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "DM1, the cytotoxic component of KADCYLA, is mainly metabolized by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "KADCYLA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "clarithromycin",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "DM1, the cytotoxic component of KADCYLA, is mainly metabolized by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "KADCYLA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "atazanavir",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "DM1, the cytotoxic component of KADCYLA, is mainly metabolized by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "KADCYLA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "indinavir",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "DM1, the cytotoxic component of KADCYLA, is mainly metabolized by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "KADCYLA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "nefazodone",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "DM1, the cytotoxic component of KADCYLA, is mainly metabolized by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "KADCYLA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "nelfinavir",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "DM1, the cytotoxic component of KADCYLA, is mainly metabolized by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "KADCYLA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "ritonavir",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "DM1, the cytotoxic component of KADCYLA, is mainly metabolized by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "KADCYLA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "saquinavir",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "DM1, the cytotoxic component of KADCYLA, is mainly metabolized by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "KADCYLA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "telithromycin",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "DM1, the cytotoxic component of KADCYLA, is mainly metabolized by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "KADCYLA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "voriconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "DM1, the cytotoxic component of KADCYLA, is mainly metabolized by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A5",
+    "role": "substrate",
+    "drug_name": "KADCYLA",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DM1 is metabolized to a lesser extent by CYP3A5."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "KADCYLA",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DM1 is a substrate of P-glycoprotein (P-gp) in vitro."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "GILOTRIF",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "ritonavir",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Afatinib exposure increases when co-administered with P-gp inhibitors such as ritonavir."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "GILOTRIF",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampicin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Afatinib exposure decreases when co-administered with P-gp inducers such as rifampicin."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "GILOTRIF",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Afatinib is a weak inhibitor of P-gp based on in vitro data."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "substrate",
+    "drug_name": "GILOTRIF",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Afatinib is a substrate of BCRP based on in vitro data."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "inhibitor",
+    "drug_name": "GILOTRIF",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Afatinib is a weak inhibitor of BCRP based on in vitro data."
+  },
+  {
+    "enzyme_transporter": "CYP450",
+    "role": "inhibitor",
+    "drug_name": "GILOTRIF",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Afatinib is not an inhibitor of CYP450 enzymes."
+  },
+  {
+    "enzyme_transporter": "CYP450",
+    "role": "inducer",
+    "drug_name": "GILOTRIF",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Afatinib is not an inducer of CYP450 enzymes."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "ALECENSA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib is metabolized by CYP3A4 to its major active metabolite M4. M4 is subsequently metabolized by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "ALECENSA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "posaconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "No clinically meaningful effect on alectinib exposure when co-administered with strong CYP3A inhibitor posaconazole."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "ALECENSA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "No clinically meaningful effect on alectinib exposure when co-administered with strong CYP3A inducer rifampin."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "inhibitor",
+    "drug_name": "ALECENSA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": "midazolam",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "No clinically meaningful effect on midazolam (sensitive CYP3A substrate) exposure when co-administered with alectinib."
+  },
+  {
+    "enzyme_transporter": "CYP2C8",
+    "role": "inhibitor",
+    "drug_name": "ALECENSA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": "repaglinide",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "No clinically meaningful effect on repaglinide (sensitive CYP2C8 substrate) exposure when co-administered with alectinib."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "ALECENSA",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib is not a substrate of P-gp."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "M4",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "M4 is a substrate of P-gp."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "ALECENSA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib and M4 inhibit P-gp in vitro."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "substrate",
+    "drug_name": "ALECENSA",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib and M4 are not substrates of BCRP."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "inhibitor",
+    "drug_name": "ALECENSA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib and M4 inhibit BCRP in vitro."
+  },
+  {
+    "enzyme_transporter": "OATP1B1",
+    "role": "substrate",
+    "drug_name": "ALECENSA",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib and M4 are not substrates of OATP1B1."
+  },
+  {
+    "enzyme_transporter": "OATP1B3",
+    "role": "substrate",
+    "drug_name": "ALECENSA",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib and M4 are not substrates of OATP1B3."
+  },
+  {
+    "enzyme_transporter": "OATP1B1",
+    "role": "inhibitor",
+    "drug_name": "ALECENSA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib did not inhibit OATP1B1 in vitro."
+  },
+  {
+    "enzyme_transporter": "OATP1B3",
+    "role": "inhibitor",
+    "drug_name": "ALECENSA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib did not inhibit OATP1B3 in vitro."
+  },
+  {
+    "enzyme_transporter": "OAT1",
+    "role": "inhibitor",
+    "drug_name": "ALECENSA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib did not inhibit OAT1 in vitro."
+  },
+  {
+    "enzyme_transporter": "OAT3",
+    "role": "inhibitor",
+    "drug_name": "ALECENSA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib did not inhibit OAT3 in vitro."
+  },
+  {
+    "enzyme_transporter": "OCT2",
+    "role": "inhibitor",
+    "drug_name": "ALECENSA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib did not inhibit OCT2 in vitro."
+  },
+  {
+    "enzyme_transporter": "CYP1A2",
+    "role": "inhibitor",
+    "drug_name": "ALECENSA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib and M4 do not inhibit CYP1A2 in vitro."
+  },
+  {
+    "enzyme_transporter": "CYP2B6",
+    "role": "inhibitor",
+    "drug_name": "ALECENSA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib and M4 do not inhibit CYP2B6 in vitro."
+  },
+  {
+    "enzyme_transporter": "CYP2C9",
+    "role": "inhibitor",
+    "drug_name": "ALECENSA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib and M4 do not inhibit CYP2C9 in vitro."
+  },
+  {
+    "enzyme_transporter": "CYP2C19",
+    "role": "inhibitor",
+    "drug_name": "ALECENSA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib and M4 do not inhibit CYP2C19 in vitro."
+  },
+  {
+    "enzyme_transporter": "CYP2D6",
+    "role": "inhibitor",
+    "drug_name": "ALECENSA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Alectinib and M4 do not inhibit CYP2D6 in vitro."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "ALUNBRIG",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "itraconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Coadministration with strong CYP3A inhibitors increases brigatinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "ALUNBRIG",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Coadministration with strong CYP3A inducers decreases brigatinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "ALUNBRIG",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Brigatinib is primarily metabolized by CYP3A4 and CYP2C8."
+  },
+  {
+    "enzyme_transporter": "CYP2C8",
+    "role": "substrate",
+    "drug_name": "ALUNBRIG",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "gemfibrozil",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Coadministration with strong CYP2C8 inhibitors decreases brigatinib Cmax and AUC, but effect is not clinically meaningful."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inducer",
+    "drug_name": "ALUNBRIG",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": "midazolam",
+    "pk_interaction_type": "induces",
+    "adme_desc": "Brigatinib is a weak inducer of CYP3A, decreasing exposure of CYP3A substrates."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inducer",
+    "drug_name": "ALUNBRIG",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Brigatinib induces CYP3A via PXR activation."
+  },
+  {
+    "enzyme_transporter": "CYP2C",
+    "role": "inducer",
+    "drug_name": "ALUNBRIG",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Brigatinib may induce CYP2C enzymes via PXR activation."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "ALUNBRIG",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Brigatinib is a substrate of P-gp; inhibitors unlikely to increase exposure due to high solubility and permeability."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "substrate",
+    "drug_name": "ALUNBRIG",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Brigatinib is a substrate of BCRP; inhibitors unlikely to increase exposure."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "ALUNBRIG",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Brigatinib inhibits P-gp in vitro and may increase concentrations of P-gp substrates."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "inhibitor",
+    "drug_name": "ALUNBRIG",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Brigatinib inhibits BCRP in vitro and may increase concentrations of BCRP substrates."
+  },
+  {
+    "enzyme_transporter": "OCT1",
+    "role": "inhibitor",
+    "drug_name": "ALUNBRIG",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Brigatinib inhibits OCT1 in vitro."
+  },
+  {
+    "enzyme_transporter": "MATE1",
+    "role": "inhibitor",
+    "drug_name": "ALUNBRIG",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Brigatinib inhibits MATE1 in vitro."
+  },
+  {
+    "enzyme_transporter": "MATE2K",
+    "role": "inhibitor",
+    "drug_name": "ALUNBRIG",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Brigatinib inhibits MATE2K in vitro."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "TABRECTA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "itraconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Capmatinib is primarily metabolized by CYP3A4; strong CYP3A inhibitors increase capmatinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "TABRECTA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampicin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Capmatinib is primarily metabolized by CYP3A4; strong CYP3A inducers decrease capmatinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "TABRECTA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "efavirenz",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Capmatinib is primarily metabolized by CYP3A4; moderate CYP3A inducers decrease capmatinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "TABRECTA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rabeprazole",
+    "pk_interaction_type": "null",
+    "adme_desc": "Capmatinib exposure is decreased by proton pump inhibitors."
+  },
+  {
+    "enzyme_transporter": "CYP1A2",
+    "role": "inhibitor",
+    "drug_name": "TABRECTA",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "caffeine",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Capmatinib increases exposure of CYP1A2 substrates."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "inhibitor",
+    "drug_name": "TABRECTA",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": "midazolam",
+    "pk_interaction_type": "null",
+    "adme_desc": "Capmatinib has no clinically meaningful effect on CYP3A4 substrates."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "TABRECTA",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "digoxin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Capmatinib increases exposure of P-gp substrates."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "inhibitor",
+    "drug_name": "TABRECTA",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "rosuvastatin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Capmatinib increases exposure of BCRP substrates."
+  },
+  {
+    "enzyme_transporter": "MATE1",
+    "role": "inhibitor",
+    "drug_name": "TABRECTA",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": "null",
+    "adme_desc": "Capmatinib reversibly inhibits MATE1."
+  },
+  {
+    "enzyme_transporter": "MATE2K",
+    "role": "inhibitor",
+    "drug_name": "TABRECTA",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": "null",
+    "adme_desc": "Capmatinib reversibly inhibits MATE2K."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "TABRECTA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": "null",
+    "adme_desc": "Capmatinib is a substrate of P-gp."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "XALKORI",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "ketoconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Crizotinib is predominantly metabolized by CYP3A; strong CYP3A inhibitors increase crizotinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "XALKORI",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "itraconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Crizotinib is predominantly metabolized by CYP3A; strong CYP3A inhibitors increase crizotinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "XALKORI",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Crizotinib is predominantly metabolized by CYP3A; strong CYP3A inducers decrease crizotinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inhibitor",
+    "drug_name": "XALKORI",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "midazolam",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Crizotinib increases plasma concentrations of CYP3A substrates."
+  },
+  {
+    "enzyme_transporter": "CYP2B6",
+    "role": "inhibitor",
+    "drug_name": "XALKORI",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Crizotinib inhibits CYP2B6 in vitro."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "XALKORI",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Crizotinib is a substrate for P-glycoprotein (P-gp) in vitro."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "XALKORI",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Crizotinib inhibits P-gp in vitro."
+  },
+  {
+    "enzyme_transporter": "OCT1",
+    "role": "inhibitor",
+    "drug_name": "XALKORI",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Crizotinib inhibits organic cation transporter (OCT) 1 in vitro."
+  },
+  {
+    "enzyme_transporter": "OCT2",
+    "role": "inhibitor",
+    "drug_name": "XALKORI",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Crizotinib inhibits organic cation transporter (OCT) 2 in vitro."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "TAFINLAR",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "ketoconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Dabrafenib is primarily metabolized by CYP3A4; strong inhibitors increase dabrafenib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP2C8",
+    "role": "substrate",
+    "drug_name": "TAFINLAR",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "gemfibrozil",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Dabrafenib is primarily metabolized by CYP2C8; strong inhibitors increase dabrafenib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "TAFINLAR",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Dabrafenib exposure is decreased by strong CYP3A4 inducers."
+  },
+  {
+    "enzyme_transporter": "CYP2C8",
+    "role": "substrate",
+    "drug_name": "TAFINLAR",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Dabrafenib exposure is decreased by moderate CYP2C8 inducers."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "inducer",
+    "drug_name": "TAFINLAR",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "midazolam",
+    "pk_interaction_type": "induces",
+    "adme_desc": "Dabrafenib induces CYP3A4, decreasing exposure of CYP3A4 substrates."
+  },
+  {
+    "enzyme_transporter": "CYP2C9",
+    "role": "inducer",
+    "drug_name": "TAFINLAR",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "S-warfarin",
+    "pk_interaction_type": "induces",
+    "adme_desc": "Dabrafenib induces CYP2C9, decreasing exposure of CYP2C9 substrates."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "inducer",
+    "drug_name": "TAFINLAR",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "R-warfarin",
+    "pk_interaction_type": "induces",
+    "adme_desc": "Dabrafenib induces CYP3A4, decreasing exposure of CYP3A4 substrates."
+  },
+  {
+    "enzyme_transporter": "CYP1A2",
+    "role": "inducer",
+    "drug_name": "TAFINLAR",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "R-warfarin",
+    "pk_interaction_type": "induces",
+    "adme_desc": "Dabrafenib induces CYP1A2, decreasing exposure of CYP1A2 substrates."
+  },
+  {
+    "enzyme_transporter": "CYP2B6",
+    "role": "inducer",
+    "drug_name": "TAFINLAR",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Dabrafenib is an inducer of CYP2B6 via PXR and CAR activation."
+  },
+  {
+    "enzyme_transporter": "CYP2C19",
+    "role": "inducer",
+    "drug_name": "TAFINLAR",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Dabrafenib may induce CYP2C19 via PXR and CAR activation."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "TAFINLAR",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Dabrafenib and its metabolites are substrates of P-glycoprotein."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "substrate",
+    "drug_name": "TAFINLAR",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Dabrafenib and its metabolites are substrates of BCRP."
+  },
+  {
+    "enzyme_transporter": "OAT1",
+    "role": "inhibitor",
+    "drug_name": "TAFINLAR",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Dabrafenib and its metabolites are inhibitors of OAT1 in vitro."
+  },
+  {
+    "enzyme_transporter": "OAT3",
+    "role": "inhibitor",
+    "drug_name": "TAFINLAR",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Dabrafenib and its metabolites are inhibitors of OAT3 in vitro."
+  },
+  {
+    "enzyme_transporter": "OCT2",
+    "role": "inhibitor",
+    "drug_name": "TAFINLAR",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Dabrafenib and desmethyl-dabrafenib are inhibitors of OCT2 in vitro."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "inhibitor",
+    "drug_name": "TAFINLAR",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Dabrafenib and desmethyl-dabrafenib are inhibitors of BCRP in vitro."
+  },
+  {
+    "enzyme_transporter": "OATP1B1",
+    "role": "inhibitor",
+    "drug_name": "TAFINLAR",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "rosuvastatin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Dabrafenib increases rosuvastatin Cmax by inhibiting OATP1B1."
+  },
+  {
+    "enzyme_transporter": "OATP1B3",
+    "role": "inhibitor",
+    "drug_name": "TAFINLAR",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "rosuvastatin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Dabrafenib increases rosuvastatin Cmax by inhibiting OATP1B3."
+  },
+  {
+    "enzyme_transporter": "CYP2D6",
+    "role": "substrate",
+    "drug_name": "VIZIMPRO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "paroxetine",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "CYP2D6 is the major isozyme involved in the formation of O-desmethyl dacomitinib."
+  },
+  {
+    "enzyme_transporter": "CYP2D6",
+    "role": "inhibitor",
+    "drug_name": "VIZIMPRO",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "dextromethorphan",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "VIZIMPRO increases exposure of CYP2D6 substrates."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "VIZIMPRO",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "CYP3A4 contributes to the formation of minor oxidative metabolites."
+  },
+  {
+    "enzyme_transporter": "UGT1A1",
+    "role": "inhibitor",
+    "drug_name": "VIZIMPRO",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "VIZIMPRO inhibits UGT1A1."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "VIZIMPRO",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "VIZIMPRO is a substrate for P-glycoprotein."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "substrate",
+    "drug_name": "VIZIMPRO",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "VIZIMPRO is a substrate for BCRP."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "VIZIMPRO",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "VIZIMPRO inhibits P-gp."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "inhibitor",
+    "drug_name": "VIZIMPRO",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "VIZIMPRO inhibits BCRP."
+  },
+  {
+    "enzyme_transporter": "OCT1",
+    "role": "inhibitor",
+    "drug_name": "VIZIMPRO",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "VIZIMPRO inhibits OCT1."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "ENSACOVE",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE (ensartinib) is predominantly metabolized by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "ENSACOVE",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE (ensartinib) is a P-gp substrate."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "inducer",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not induce CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP1A2",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit CYP1A2."
+  },
+  {
+    "enzyme_transporter": "CYP2B6",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit CYP2B6."
+  },
+  {
+    "enzyme_transporter": "CYP2C8",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit CYP2C8."
+  },
+  {
+    "enzyme_transporter": "CYP2C9",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit CYP2C9."
+  },
+  {
+    "enzyme_transporter": "CYP2C19",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit CYP2C19."
+  },
+  {
+    "enzyme_transporter": "CYP2D6",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit CYP2D6."
+  },
+  {
+    "enzyme_transporter": "CYP1A2",
+    "role": "inducer",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not induce CYP1A2."
+  },
+  {
+    "enzyme_transporter": "CYP2B6",
+    "role": "inducer",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not induce CYP2B6."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit P-gp."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "substrate",
+    "drug_name": "ENSACOVE",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE is not a substrate of BCRP."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit BCRP."
+  },
+  {
+    "enzyme_transporter": "OATP1B1",
+    "role": "substrate",
+    "drug_name": "ENSACOVE",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE is not a substrate of OATP1B1."
+  },
+  {
+    "enzyme_transporter": "OATP1B1",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit OATP1B1."
+  },
+  {
+    "enzyme_transporter": "OATP1B3",
+    "role": "substrate",
+    "drug_name": "ENSACOVE",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE is not a substrate of OATP1B3."
+  },
+  {
+    "enzyme_transporter": "OATP1B3",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit OATP1B3."
+  },
+  {
+    "enzyme_transporter": "OAT1",
+    "role": "substrate",
+    "drug_name": "ENSACOVE",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE is not a substrate of OAT1."
+  },
+  {
+    "enzyme_transporter": "OAT1",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit OAT1."
+  },
+  {
+    "enzyme_transporter": "OAT3",
+    "role": "substrate",
+    "drug_name": "ENSACOVE",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE is not a substrate of OAT3."
+  },
+  {
+    "enzyme_transporter": "OAT3",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit OAT3."
+  },
+  {
+    "enzyme_transporter": "OCT1",
+    "role": "substrate",
+    "drug_name": "ENSACOVE",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE is not a substrate of OCT1."
+  },
+  {
+    "enzyme_transporter": "OCT1",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit OCT1."
+  },
+  {
+    "enzyme_transporter": "OCT2",
+    "role": "substrate",
+    "drug_name": "ENSACOVE",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE is not a substrate of OCT2."
+  },
+  {
+    "enzyme_transporter": "OCT2",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit OCT2."
+  },
+  {
+    "enzyme_transporter": "OCT3",
+    "role": "inhibitor",
+    "drug_name": "ENSACOVE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ENSACOVE does not inhibit OCT3."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "ROZLYTREK",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Entrectinib is primarily metabolized by CYP3A4 (~76%)."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inhibitor",
+    "drug_name": "ROZLYTREK",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "midazolam",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Coadministration of ROZLYTREK increased midazolam AUC by 50%."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inhibitor",
+    "drug_name": "ROZLYTREK",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "ROZLYTREK is a moderate inhibitor of CYP3A."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inhibitor",
+    "drug_name": "itraconazole",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "ROZLYTREK",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Coadministration with itraconazole (strong CYP3A inhibitor) increased entrectinib AUC 6-fold and Cmax 1.7-fold."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inhibitor",
+    "drug_name": null,
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "ROZLYTREK",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Coadministration with a moderate CYP3A inhibitor is predicted to increase entrectinib AUC 3-fold and Cmax 2.9-fold."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inducer",
+    "drug_name": "rifampin",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "ROZLYTREK",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Coadministration with rifampin (strong CYP3A inducer) reduced entrectinib AUC by 77% and Cmax by 56%."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inducer",
+    "drug_name": null,
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "ROZLYTREK",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Coadministration with a moderate CYP3A inducer is predicted to reduce entrectinib AUC by 56% and Cmax by 43%."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "ROZLYTREK",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": "digoxin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Coadministration of ROZLYTREK increased digoxin Cmax by 28% and AUC by 18%."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "M5",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "M5 is a substrate of P-gp."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "substrate",
+    "drug_name": "M5",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "M5 is a substrate of BCRP."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "erlotinib",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "ketoconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Erlotinib is primarily metabolized by CYP3A4; strong CYP3A4 inhibitors increase erlotinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "erlotinib",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "ciprofloxacin",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Combined CYP3A4 and CYP1A2 inhibitors increase erlotinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "erlotinib",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "CYP3A4 inducers decrease erlotinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP1A2",
+    "role": "substrate",
+    "drug_name": "erlotinib",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "teriflunomide",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Moderate CYP1A2 inducers decrease erlotinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP1A2",
+    "role": "substrate",
+    "drug_name": "erlotinib",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "phenytoin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Moderate CYP1A2 inducers decrease erlotinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP1A2",
+    "role": "substrate",
+    "drug_name": "erlotinib",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Moderate CYP1A2 inducers decrease erlotinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP1A2",
+    "role": "substrate",
+    "drug_name": "erlotinib",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "cigarette smoking",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Cigarette smoking (CYP1A2 inducer) increases erlotinib clearance and decreases exposure."
+  },
+  {
+    "enzyme_transporter": null,
+    "role": null,
+    "drug_name": "erlotinib",
+    "modifier": null,
+    "sensitivity": null,
+    "related_pk_drug": "omeprazole",
+    "pk_interaction_type": null,
+    "adme_desc": "Proton pump inhibitors increase gastric pH and decrease erlotinib exposure."
+  },
+  {
+    "enzyme_transporter": null,
+    "role": null,
+    "drug_name": "erlotinib",
+    "modifier": null,
+    "sensitivity": null,
+    "related_pk_drug": "ranitidine",
+    "pk_interaction_type": null,
+    "adme_desc": "H-2 receptor antagonists increase gastric pH and decrease erlotinib exposure."
+  },
+  {
+    "enzyme_transporter": null,
+    "role": null,
+    "drug_name": "erlotinib",
+    "modifier": null,
+    "sensitivity": null,
+    "related_pk_drug": "warfarin",
+    "pk_interaction_type": null,
+    "adme_desc": "Erlotinib increases INR and bleeding risk when co-administered with coumarin-derived anticoagulants."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "Gefitinib",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "Rifampicin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Gefitinib is metabolized primarily by CYP3A4; strong CYP3A4 inducers increase metabolism and decrease plasma concentrations."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "Gefitinib",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "Itraconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Gefitinib is metabolized primarily by CYP3A4; strong CYP3A4 inhibitors decrease metabolism and increase plasma concentrations."
+  },
+  {
+    "enzyme_transporter": "CYP2D6",
+    "role": "substrate",
+    "drug_name": "Gefitinib",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "Metoprolol",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Gefitinib inhibits CYP2D6 activity, increasing exposure to CYP2D6 substrates such as metoprolol."
+  },
+  {
+    "enzyme_transporter": "CYP2D6",
+    "role": "substrate",
+    "drug_name": "Gefitinib",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Gefitinib is metabolized by CYP2D6 to O-desmethyl gefitinib; poor metabolizers have increased gefitinib exposure."
+  },
+  {
+    "enzyme_transporter": "P-glycoprotein (P-gp)",
+    "role": "substrate",
+    "drug_name": "Gefitinib",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Gefitinib is a substrate for P-gp, but P-gp is saturated at higher concentrations and unlikely to influence absorption."
+  },
+  {
+    "enzyme_transporter": null,
+    "role": null,
+    "drug_name": "Gefitinib",
+    "modifier": null,
+    "sensitivity": null,
+    "related_pk_drug": "Proton pump inhibitors",
+    "pk_interaction_type": null,
+    "adme_desc": "Drugs elevating gastric pH (e.g., proton pump inhibitors) may reduce gefitinib plasma concentrations."
+  },
+  {
+    "enzyme_transporter": null,
+    "role": null,
+    "drug_name": "Gefitinib",
+    "modifier": null,
+    "sensitivity": null,
+    "related_pk_drug": "Warfarin",
+    "pk_interaction_type": null,
+    "adme_desc": "Gefitinib may increase INR and risk of hemorrhage in patients taking warfarin."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "LAZCLUZE",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Lazertinib is primarily metabolized by CYP3A4; strong inducers like rifampin significantly decrease lazertinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "LAZCLUZE",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "efavirenz",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Lazertinib exposure is decreased by moderate CYP3A4 inducers such as efavirenz."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "LAZCLUZE",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "itraconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Lazertinib exposure is increased by strong CYP3A4 inhibitors such as itraconazole."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "inhibitor",
+    "drug_name": "LAZCLUZE",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": "midazolam",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Lazertinib is a weak CYP3A4 inhibitor and increases exposure of CYP3A4 substrates such as midazolam."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "inhibitor",
+    "drug_name": "LAZCLUZE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": "rosuvastatin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Lazertinib inhibits BCRP and increases exposure of BCRP substrates such as rosuvastatin."
+  },
+  {
+    "enzyme_transporter": "UGT1A1",
+    "role": "inhibitor",
+    "drug_name": "LAZCLUZE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": "raltegravir",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Lazertinib inhibits UGT1A1 in vitro but does not significantly affect raltegravir pharmacokinetics."
+  },
+  {
+    "enzyme_transporter": "OCT1",
+    "role": "inhibitor",
+    "drug_name": "LAZCLUZE",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": "metformin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Lazertinib inhibits OCT1 in vitro but does not significantly affect metformin pharmacokinetics."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "LORBRENA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Lorlatinib is primarily metabolized by CYP3A; strong CYP3A inducers such as rifampin significantly decrease lorlatinib plasma concentrations."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "LORBRENA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "modafinil",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Moderate CYP3A inducers such as modafinil decrease lorlatinib plasma concentrations."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "LORBRENA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "itraconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Strong CYP3A inhibitors such as itraconazole increase lorlatinib plasma concentrations."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "LORBRENA",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "fluconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Fluconazole is predicted to increase lorlatinib plasma concentrations."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inducer",
+    "drug_name": "LORBRENA",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "midazolam",
+    "pk_interaction_type": "induces",
+    "adme_desc": "LORBRENA is a moderate CYP3A inducer and decreases plasma concentrations of CYP3A substrates such as midazolam."
+  },
+  {
+    "enzyme_transporter": "CYP2B6",
+    "role": "inducer",
+    "drug_name": "LORBRENA",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "bupropion",
+    "pk_interaction_type": "induces",
+    "adme_desc": "LORBRENA induces CYP2B6 and decreases plasma concentrations of CYP2B6 substrates such as bupropion."
+  },
+  {
+    "enzyme_transporter": "CYP2C9",
+    "role": "inducer",
+    "drug_name": "LORBRENA",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "tolbutamide",
+    "pk_interaction_type": "induces",
+    "adme_desc": "LORBRENA induces CYP2C9 and decreases plasma concentrations of CYP2C9 substrates such as tolbutamide."
+  },
+  {
+    "enzyme_transporter": "UGT1A",
+    "role": "inducer",
+    "drug_name": "LORBRENA",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "acetaminophen",
+    "pk_interaction_type": "induces",
+    "adme_desc": "LORBRENA induces UGT1A and decreases plasma concentrations of UGT1A substrates such as acetaminophen."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inducer",
+    "drug_name": "LORBRENA",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "fexofenadine",
+    "pk_interaction_type": "induces",
+    "adme_desc": "LORBRENA is a moderate P-gp inducer and decreases plasma concentrations of P-gp substrates such as fexofenadine."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "LORBRENA",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Lorlatinib is an inhibitor of P-gp and activates PXR, with the net effect in vivo being induction."
+  },
+  {
+    "enzyme_transporter": "OCT1",
+    "role": "inhibitor",
+    "drug_name": "LORBRENA",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Lorlatinib inhibits OCT1."
+  },
+  {
+    "enzyme_transporter": "OAT3",
+    "role": "inhibitor",
+    "drug_name": "LORBRENA",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Lorlatinib inhibits OAT3."
+  },
+  {
+    "enzyme_transporter": "MATE1",
+    "role": "inhibitor",
+    "drug_name": "LORBRENA",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Lorlatinib inhibits MATE1."
+  },
+  {
+    "enzyme_transporter": "BCRP (intestinal)",
+    "role": "inhibitor",
+    "drug_name": "LORBRENA",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Lorlatinib inhibits intestinal BCRP."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "TAGRISSO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Osimertinib is primarily metabolized by CYP3A4; strong CYP3A4 inducers significantly decrease osimertinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "TAGRISSO",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": "itraconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Strong CYP3A4 inhibitors have no clinically significant effect on osimertinib exposure."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "TAGRISSO",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Osimertinib is a substrate of P-glycoprotein."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "substrate",
+    "drug_name": "TAGRISSO",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Osimertinib is a substrate of BCRP."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "inhibitor",
+    "drug_name": "TAGRISSO",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "rosuvastatin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Osimertinib inhibits BCRP, increasing exposure of BCRP substrates."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "TAGRISSO",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "fexofenadine",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Osimertinib inhibits P-gp, increasing exposure of P-gp substrates."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "inhibitor",
+    "drug_name": "TAGRISSO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": "simvastatin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Osimertinib does not significantly inhibit CYP3A4; no effect on simvastatin exposure."
+  },
+  {
+    "enzyme_transporter": "CYP1A2",
+    "role": "inducer",
+    "drug_name": "TAGRISSO",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Osimertinib induces CYP1A2 enzymes in vitro."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "GAVRETO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Primarily metabolized by CYP3A4; exposure increased by CYP3A inhibitors and decreased by CYP3A inducers."
+  },
+  {
+    "enzyme_transporter": "CYP2D6",
+    "role": "substrate",
+    "drug_name": "GAVRETO",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Metabolized to a lesser extent by CYP2D6."
+  },
+  {
+    "enzyme_transporter": "CYP1A2",
+    "role": "substrate",
+    "drug_name": "GAVRETO",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Metabolized to a lesser extent by CYP1A2."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "GAVRETO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Substrate of P-gp; exposure increased by P-gp inhibitors."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "substrate",
+    "drug_name": "GAVRETO",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Substrate of BCRP."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inhibitor",
+    "drug_name": "GAVRETO",
+    "modifier": "time-dependent",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Time-dependent inhibitor of CYP3A."
+  },
+  {
+    "enzyme_transporter": "CYP2C8",
+    "role": "inhibitor",
+    "drug_name": "GAVRETO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Inhibitor of CYP2C8."
+  },
+  {
+    "enzyme_transporter": "CYP2C9",
+    "role": "inhibitor",
+    "drug_name": "GAVRETO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Inhibitor of CYP2C9."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inducer",
+    "drug_name": "GAVRETO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Inducer of CYP3A."
+  },
+  {
+    "enzyme_transporter": "CYP2C8",
+    "role": "inducer",
+    "drug_name": "GAVRETO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Inducer of CYP2C8."
+  },
+  {
+    "enzyme_transporter": "CYP2C9",
+    "role": "inducer",
+    "drug_name": "GAVRETO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Inducer of CYP2C9."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "GAVRETO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Inhibitor of P-gp."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "inhibitor",
+    "drug_name": "GAVRETO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Inhibitor of BCRP."
+  },
+  {
+    "enzyme_transporter": "OATP1B1",
+    "role": "inhibitor",
+    "drug_name": "GAVRETO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Inhibitor of OATP1B1."
+  },
+  {
+    "enzyme_transporter": "OATP1B3",
+    "role": "inhibitor",
+    "drug_name": "GAVRETO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Inhibitor of OATP1B3."
+  },
+  {
+    "enzyme_transporter": "OAT1",
+    "role": "inhibitor",
+    "drug_name": "GAVRETO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Inhibitor of OAT1."
+  },
+  {
+    "enzyme_transporter": "MATE1",
+    "role": "inhibitor",
+    "drug_name": "GAVRETO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Inhibitor of MATE1."
+  },
+  {
+    "enzyme_transporter": "MATE2-K",
+    "role": "inhibitor",
+    "drug_name": "GAVRETO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Inhibitor of MATE2-K."
+  },
+  {
+    "enzyme_transporter": "BSEP",
+    "role": "inhibitor",
+    "drug_name": "GAVRETO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Inhibitor of BSEP."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "GAVRETO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "itraconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Coadministration with itraconazole (strong CYP3A and P-gp inhibitor) increases pralsetinib exposure (Cmax 1.8-fold, AUC 3.5-fold)."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "GAVRETO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "voriconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Coadministration with voriconazole (strong CYP3A inhibitor) increases pralsetinib exposure (Cmax 1.2-fold, AUC 2.2-fold)."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "GAVRETO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "verapamil",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Coadministration with verapamil (combined P-gp and moderate CYP3A inhibitor) increases pralsetinib exposure (Cmax 1.6-fold, AUC 2.1-fold)."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "GAVRETO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "fluconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Coadministration with fluconazole (moderate CYP3A inhibitor) increases pralsetinib exposure (Cmax 1.2-fold, AUC 1.7-fold)."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "GAVRETO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "cyclosporine",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Coadministration with cyclosporine (P-gp inhibitor) increases pralsetinib exposure (Cmax 1.5-fold, AUC 1.8-fold)."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "GAVRETO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Coadministration with rifampin (strong CYP3A inducer) decreases pralsetinib exposure (Cmax by 30%, AUC by 68%)."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "GAVRETO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "efavirenz",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Coadministration with efavirenz (moderate CYP3A inducer) is predicted to decrease pralsetinib exposure (Cmax by 18%, AUC by 45%)."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "RETEVMO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Selpercatinib is metabolized predominantly by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "RETEVMO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "itraconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Coadministration with strong CYP3A inhibitors increases selpercatinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "RETEVMO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "diltiazem",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Coadministration with moderate CYP3A inhibitors increases selpercatinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "RETEVMO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "fluconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Coadministration with moderate CYP3A inhibitors increases selpercatinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "RETEVMO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "verapamil",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "Coadministration with moderate CYP3A inhibitors increases selpercatinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "RETEVMO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Coadministration with strong CYP3A inducers decreases selpercatinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "RETEVMO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "bosentan",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Coadministration with moderate CYP3A inducers decreases selpercatinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "RETEVMO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "efavirenz",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Coadministration with moderate CYP3A inducers decreases selpercatinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "substrate",
+    "drug_name": "RETEVMO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "modafinil",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Coadministration with weak CYP3A inducers decreases selpercatinib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP2C8",
+    "role": "inhibitor",
+    "drug_name": "RETEVMO",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "repaglinide",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "RETEVMO increases exposure of CYP2C8 substrates."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inhibitor",
+    "drug_name": "RETEVMO",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": "midazolam",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "RETEVMO increases exposure of CYP3A substrates."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "RETEVMO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": "dabigatran",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "RETEVMO increases exposure of P-gp substrates."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "inhibitor",
+    "drug_name": "RETEVMO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": "rosuvastatin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "RETEVMO increases exposure of BCRP substrates."
+  },
+  {
+    "enzyme_transporter": "MATE1",
+    "role": "inhibitor",
+    "drug_name": "RETEVMO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Selpercatinib inhibits MATE1 in vitro."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "RETEVMO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Selpercatinib is a substrate for P-gp."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "substrate",
+    "drug_name": "RETEVMO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Selpercatinib is a substrate for BCRP."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "LUMAKRAS",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "rifampin",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "Sotorasib is metabolized by CYP3A4; strong CYP3A4 inducers decrease sotorasib exposure."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "inducer",
+    "drug_name": "LUMAKRAS",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "midazolam",
+    "pk_interaction_type": "induces",
+    "adme_desc": "Sotorasib induces CYP3A4, decreasing exposure of CYP3A4 substrates."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "LUMAKRAS",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "digoxin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Sotorasib inhibits P-gp, increasing exposure of P-gp substrates."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "inhibitor",
+    "drug_name": "LUMAKRAS",
+    "modifier": "strong",
+    "sensitivity": null,
+    "related_pk_drug": "rosuvastatin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "Sotorasib inhibits BCRP, increasing exposure of BCRP substrates."
+  },
+  {
+    "enzyme_transporter": "CYP2C8",
+    "role": "inducer",
+    "drug_name": "LUMAKRAS",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Sotorasib may induce CYP2C8 in vitro."
+  },
+  {
+    "enzyme_transporter": "CYP2C9",
+    "role": "inducer",
+    "drug_name": "LUMAKRAS",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Sotorasib may induce CYP2C9 in vitro."
+  },
+  {
+    "enzyme_transporter": "CYP2B6",
+    "role": "inducer",
+    "drug_name": "LUMAKRAS",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Sotorasib may induce CYP2B6 in vitro."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "TEPMETKO",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": "dabigatran etexilate",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "TEPMETKO inhibits P-gp, increasing exposure of P-gp substrates such as dabigatran etexilate."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "TEPMETKO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "itraconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "TEPMETKO is a P-gp substrate; coadministration with strong P-gp inhibitors like itraconazole does not significantly affect tepotinib pharmacokinetics."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "TEPMETKO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "itraconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "TEPMETKO is primarily metabolized by CYP3A4; strong CYP3A inhibitors like itraconazole do not significantly affect tepotinib pharmacokinetics."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "TEPMETKO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "carbamazepine",
+    "pk_interaction_type": "is_induced_by",
+    "adme_desc": "TEPMETKO is primarily metabolized by CYP3A4; strong CYP3A inducers like carbamazepine do not significantly affect tepotinib pharmacokinetics."
+  },
+  {
+    "enzyme_transporter": "CYP2C8",
+    "role": "substrate",
+    "drug_name": "TEPMETKO",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "TEPMETKO is a substrate of CYP2C8."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "inhibitor",
+    "drug_name": "TEPMETKO",
+    "modifier": "moderate",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "TEPMETKO may inhibit intestinal BCRP at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "MATE2",
+    "role": "inhibitor",
+    "drug_name": "TEPMETKO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": "metformin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "TEPMETKO does not cause clinically relevant inhibition of MATE2 substrates such as metformin."
+  },
+  {
+    "enzyme_transporter": "OCT2",
+    "role": "inhibitor",
+    "drug_name": "TEPMETKO",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": "metformin",
+    "pk_interaction_type": "inhibits",
+    "adme_desc": "TEPMETKO does not cause clinically relevant inhibition of OCT2 substrates such as metformin."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "MEKINIST",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not a substrate of CYP3A4."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib had no clinically relevant effect on the AUC and Cmax of a sensitive CYP3A4 substrate."
+  },
+  {
+    "enzyme_transporter": "CYP2C8",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is an inhibitor of CYP2C8 in vitro."
+  },
+  {
+    "enzyme_transporter": "CYP1A2",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of CYP1A2 at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "CYP2A6",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of CYP2A6 at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "CYP2B6",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of CYP2B6 at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "CYP2C9",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of CYP2C9 at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "CYP2C19",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of CYP2C19 at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "CYP2D6",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of CYP2D6 at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "MEKINIST",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is a substrate of P-glycoprotein (P-gp)."
+  },
+  {
+    "enzyme_transporter": "BSEP",
+    "role": "substrate",
+    "drug_name": "MEKINIST",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is a substrate of BSEP."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "substrate",
+    "drug_name": "MEKINIST",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not a substrate of BCRP."
+  },
+  {
+    "enzyme_transporter": "OATP1B1",
+    "role": "substrate",
+    "drug_name": "MEKINIST",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not a substrate of OATP1B1."
+  },
+  {
+    "enzyme_transporter": "OATP1B3",
+    "role": "substrate",
+    "drug_name": "MEKINIST",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not a substrate of OATP1B3."
+  },
+  {
+    "enzyme_transporter": "OATP2B1",
+    "role": "substrate",
+    "drug_name": "MEKINIST",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not a substrate of OATP2B1."
+  },
+  {
+    "enzyme_transporter": "OCT1",
+    "role": "substrate",
+    "drug_name": "MEKINIST",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not a substrate of OCT1."
+  },
+  {
+    "enzyme_transporter": "MRP2",
+    "role": "substrate",
+    "drug_name": "MEKINIST",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not a substrate of MRP2."
+  },
+  {
+    "enzyme_transporter": "MATE1",
+    "role": "substrate",
+    "drug_name": "MEKINIST",
+    "modifier": null,
+    "sensitivity": "none",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not a substrate of MATE1."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of P-gp at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of BCRP at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "OATP1B1",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of OATP1B1 at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "OATP1B3",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of OATP1B3 at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "OAT1",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of OAT1 at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "OAT3",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of OAT3 at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "OCT2",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of OCT2 at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "BSEP",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of BSEP at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "MRP2",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of MRP2 at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "MATE1",
+    "role": "inhibitor",
+    "drug_name": "MEKINIST",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "Trametinib is not an inhibitor of MATE1 at clinically relevant concentrations."
+  },
+  {
+    "enzyme_transporter": "CYP3A4",
+    "role": "substrate",
+    "drug_name": "ENHERTU",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "itraconazole",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "DXd is primarily metabolized by CYP3A4."
+  },
+  {
+    "enzyme_transporter": "OATP1B1",
+    "role": "substrate",
+    "drug_name": "ENHERTU",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "ritonavir",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "DXd is a substrate of OATP1B1."
+  },
+  {
+    "enzyme_transporter": "OATP1B3",
+    "role": "substrate",
+    "drug_name": "ENHERTU",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": "ritonavir",
+    "pk_interaction_type": "is_inhibited_by",
+    "adme_desc": "DXd is a substrate of OATP1B3."
+  },
+  {
+    "enzyme_transporter": "MATE2-K",
+    "role": "substrate",
+    "drug_name": "ENHERTU",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd is a substrate of MATE2-K."
+  },
+  {
+    "enzyme_transporter": "P-gp",
+    "role": "substrate",
+    "drug_name": "ENHERTU",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd is a substrate of P-gp."
+  },
+  {
+    "enzyme_transporter": "MRP1",
+    "role": "substrate",
+    "drug_name": "ENHERTU",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd is a substrate of MRP1."
+  },
+  {
+    "enzyme_transporter": "BCRP",
+    "role": "substrate",
+    "drug_name": "ENHERTU",
+    "modifier": null,
+    "sensitivity": "sensitive",
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd is a substrate of BCRP."
+  },
+  {
+    "enzyme_transporter": "CYP1A2",
+    "role": "inhibitor",
+    "drug_name": "ENHERTU",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd does not inhibit CYP1A2."
+  },
+  {
+    "enzyme_transporter": "CYP2B6",
+    "role": "inhibitor",
+    "drug_name": "ENHERTU",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd does not inhibit CYP2B6."
+  },
+  {
+    "enzyme_transporter": "CYP2C8",
+    "role": "inhibitor",
+    "drug_name": "ENHERTU",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd does not inhibit CYP2C8."
+  },
+  {
+    "enzyme_transporter": "CYP2C9",
+    "role": "inhibitor",
+    "drug_name": "ENHERTU",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd does not inhibit CYP2C9."
+  },
+  {
+    "enzyme_transporter": "CYP2C19",
+    "role": "inhibitor",
+    "drug_name": "ENHERTU",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd does not inhibit CYP2C19."
+  },
+  {
+    "enzyme_transporter": "CYP2D6",
+    "role": "inhibitor",
+    "drug_name": "ENHERTU",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd does not inhibit CYP2D6."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inhibitor",
+    "drug_name": "ENHERTU",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd does not inhibit CYP3A."
+  },
+  {
+    "enzyme_transporter": "CYP1A2",
+    "role": "inducer",
+    "drug_name": "ENHERTU",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd does not induce CYP1A2."
+  },
+  {
+    "enzyme_transporter": "CYP2B6",
+    "role": "inducer",
+    "drug_name": "ENHERTU",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd does not induce CYP2B6."
+  },
+  {
+    "enzyme_transporter": "CYP3A",
+    "role": "inducer",
+    "drug_name": "ENHERTU",
+    "modifier": "none",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd does not induce CYP3A."
+  },
+  {
+    "enzyme_transporter": "OAT1",
+    "role": "inhibitor",
+    "drug_name": "ENHERTU",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd has a low potential to inhibit OAT1."
+  },
+  {
+    "enzyme_transporter": "OATP1B1",
+    "role": "inhibitor",
+    "drug_name": "ENHERTU",
+    "modifier": "weak",
+    "sensitivity": null,
+    "related_pk_drug": null,
+    "pk_interaction_type": null,
+    "adme_desc": "DXd has a low potential to inhibit OATP1B1."
+  }
+]

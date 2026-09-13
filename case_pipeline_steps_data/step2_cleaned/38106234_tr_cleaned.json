@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "38106234_tr.json",
+    "source_pmid": "38106234",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38106234_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:33:35",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "SOS1 inhibition enhances the efficacy of and delays resistance to G12C inhibitors in lung adenocarcinoma",
+    "author": "Brianna R Daley; Nancy E Sealover; Erin Sheffels; Jacob M Hughes; Daniel Gerlach; Marco H Hofmann; Kaja Kostyrko; Barbara Mair; Amanda Linke; Zaria Beckley; Andrew Frank; Clifton Dalgard; Robert L Kortum",
+    "date": "2023-12-15"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

@@ -1,0 +1,100 @@
+{
+  "provenance": {
+    "source_filename": "39497876_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 69,
+    "sex": "female",
+    "smoking_status": "former_smoker",
+    "pack_years": 30,
+    "presenting_symptoms": [
+      "chronic stable dyspnea on exertion",
+      "residual chest pain"
+    ],
+    "diagnosis_date": "2022-01",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "pTNM",
+    "tnm_stage": "pT1aN0M0",
+    "overall_stage": "I",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2022-01",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR G719A",
+          "EGFR L833_V834delinsFL"
+        ],
+        "sample": "tumor DNA"
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [],
+        "type": null,
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2022",
+      "event_type": "surgery",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "right upper lobectomy"
+        ],
+        "type": "surgical",
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024",
+      "event_type": "surgery",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "video-assisted thoracoscopic wedge resection"
+        ],
+        "type": "surgical",
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2022-04"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Presence of co-occurring EGFR mutations G719A and L833_V834delinsFL",
+      "Identification of a metachronous lung primary adenocarcinoma",
+      "Surgical resection of tumor without establishing TKI sensitivity"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "provenance": {
+    "source_filename": "35871685_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.8
+  },
+  "baseline_clinical_profile": {
+    "age": 65,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "sarcomatoid",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET exon 14 skipping mutation"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "pembrolizumab"
+        ],
+        "type": "combination",
+        "dosage": {
+          "carboplatin": null,
+          "pemetrexed": null,
+          "pembrolizumab": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "discontinuation + treatment + response",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "pembrolizumab"
+        ],
+        "type": "combination",
+        "dosage": {
+          "carboplatin": null,
+          "pemetrexed": null,
+          "pembrolizumab": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 8
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "carboplatin",
+      "pemetrexed",
+      "pembrolizumab"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Pseudoprogression observed with immune checkpoint inhibitor therapy",
+      "Initial radiographic worsening followed by improvement",
+      "Combination chemotherapy with carboplatin-pemetrexed plus pembrolizumab effective"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

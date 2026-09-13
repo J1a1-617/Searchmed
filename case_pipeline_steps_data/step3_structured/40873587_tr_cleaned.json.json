@@ -1,0 +1,209 @@
+{
+  "provenance": {
+    "source_filename": "40873587_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": null,
+    "sex": null,
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": null,
+    "metastatic_sites_at_baseline": null
+  },
+  "timeline_events": [
+    {
+      "time": "2019-07",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "HER2 exon 17 V659E"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "tislelizumab",
+          "pemetrexed",
+          "carboplatin",
+          "bevacizumab"
+        ],
+        "type": "combination",
+        "dosage": {
+          "tislelizumab": "200 mg, day 1",
+          "pemetrexed": "750 mg, day 1",
+          "carboplatin": "400 mg, day 1",
+          "bevacizumab": "600 mg, day 1"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2020-11",
+      "event_type": "treatment + maintenance",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "tislelizumab",
+          "bevacizumab"
+        ],
+        "type": "maintenance",
+        "dosage": {
+          "tislelizumab": "200 mg, day 1",
+          "bevacizumab": "400 mg, day 1"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2021-05",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "tislelizumab",
+          "bevacizumab",
+          "albumin-bound paclitaxel",
+          "carboplatin"
+        ],
+        "type": "combination",
+        "dosage": {
+          "albumin-bound paclitaxel": "400 mg, day 1",
+          "carboplatin": "400 mg, day 1"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2021-09",
+      "event_type": "progression + maintenance",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "tislelizumab",
+          "bevacizumab",
+          "vinorelbine"
+        ],
+        "type": "maintenance",
+        "dosage": {
+          "vinorelbine": "40 mg, days 1, 3, and 5 every week"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-03",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "bevacizumab",
+          "vinorelbine"
+        ],
+        "type": "combination",
+        "dosage": {
+          "bevacizumab": "300 mg, day 1",
+          "vinorelbine": "40 mg, days 1, 3, and 5 every week"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-06",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "HER2 mutation (exon 17 V659E)"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "T-DXd"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "T-DXd": "5.4 mg/kg once every 3 weeks"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-06",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "T-DXd"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "T-DXd": "5.4 mg/kg once every 3 weeks"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "T-DXd"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": "2024-09"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patients with HER2 non-exon 19/20 mutations demonstrated partial response to T-DXd treatment.",
+      "PFS reached 13 months for one patient with HER2 exon 17 V659E mutation."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "complete_prediction_degraded_retrieval",
+  "instance_id": "case_14_node_1",
+  "skill": "clinical-evidence-applicability",
+  "skill_runtime_injected": true,
+  "run_status": "degraded",
+  "final_prediction_source": "llm",
+  "failed_stages": [
+    "function:submit_reranking",
+    "function:submit_evidence_review",
+    "function:submit_safety_reflection"
+  ],
+  "ground_truth_binary": "不获益",
+  "prediction_binary": "不获益",
+  "m1_accuracy": 1.0,
+  "prediction": "无明显获益",
+  "baseline_prediction": "有限获益或稳定",
+  "baseline_binary": "获益",
+  "skill_changed_binary_decision": true,
+  "note": "真实 GPU 链路；检索和部分审查阶段 degraded，但最终 Generate 为 LLM 输出，不是 fallback。"
+}

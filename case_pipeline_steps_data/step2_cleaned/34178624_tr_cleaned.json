@@ -1,0 +1,28 @@
+{
+  "text": "Title: Prolonged Tumor Response to Immunotherapy in a Non-Smoking BRAF V600E Non-Small Cell Lung Cancer Patient\nPMID: \nAuthors: \n\nAbstract\nImmune checkpoint inhibitor (ICPi) has become a major treatment in advanced non-small cell lung cancer (NSCLC) and demonstrated a clinical benefit for NSCLC patients with high programmed death ligand-1 (PD-L1) expression without EGFR/ALK/ROS1 drivers; however, the benefit in BRAF V600E NSCLC is so far unknown. Here, we report a case of prolonged tumor response to the combination of immunotherapy with chemotherapy in a non-smoking BRAF V600E NSCLC patient.\n\nCase Presentation\nA 62-year-old female non-smoker experienced a month-lasting fatigue, and PET/CT demonstrated an enlarged lung nodule on right lower lobe, bilateral supraclavicular and mediastinal lymphadenectases and multiple bony metastases confirming stage IV-T1bN3M1c ( Figure 1A ). Endobronchial ultrasound-guided transbronchial biopsy on subcarinal lymph node on 2018/03/28 revealed poorly differentiated lung adenocarcinoma with co-expressing tumors of BRAF V600E and PD-L1 ≥50% ( Figure 1B ). The concomitant liquid biopsy using NGS confirmed BRAF V600E mutation ( Supplementary Table 1 ).\n\nThe patient enrolled in the trial IMpower132 (NCT02657434) and randomly assigned into the combination group was given atezolizumab/cisplatin/pemetrexed every three weeks during four-induction cycle period before atezolizumab/pemetrexed maintenance. The first cycle of atezolizumab (1,200 mg)/cisplatin/pemetrexed in the induction period was commenced on 2018/04/18. The patient experienced pyrexia (40°C) and grade III gastrointestinal toxicity, leading to a 25% dose reduction of chemotherapy from the second cycle, but without dose interruption or reduction of atezolizumab per protocol. A partial response (PR) of 57.3% including 60% of primary lung and 56.0% of metastatic lymph nodes was observed on first CT-scan evaluation after two cycles of atezolizumab in combination with cisplatin/pemetrexed treatment ( Figure 2 ), and a continued PR was achieved for the following 14 cycles of atezolizumab/pemetrexed maintenance. Patient received atezolizumab maintenance from the 19th cycle on 2019/05/09 considering grade II AST and ALT elevation. Unfortunately, disease progressed with the new pericardial effusion on 2019/12/17 after eighth cycles of atezolizumab maintenance, with a total of 20-months PFS of first-line treatment ( Figure 2 ). The patient was treated with second-line treatment of BRAFi Vemurafenib (960 mg bid po) on 2019/12/20 and disease showed stable disease (SD) after two cycles. Unfortunately, the disease continued to progress with the new left supraclavicular lymphadenectasis but still with the controllable primary lung after 5.5 months. NGS showed the blood-based tumor mutation burden (bTMB) was decreased from 9.63/Mb at diagnosis to 3.50/Mb at post-ICPi-progression and bounced off to 10.51/Mb at post-BRAFi-progression ( Figure 3A and Supplementary Table 1 ). The variant allele fraction (VAF) of mutation clusters in liquid biopsy was dropped at post-ICPi-progression compared with pre-ICPi; conversely, it drastically increased (excluding cluster 4) and new mutations occurred at post-BRAFi-progression compared with pre-/post-ICPi ( Figure 3B ).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "34178624_tr.json",
+    "source_pmid": "34178624",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/34178624_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:09:57",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Durable Response to the Combination of Atezolizumab With Platinum-Based Chemotherapy in an Untreated Non-Smoking Lung Adenocarcinoma Patient With BRAF V600E Mutation: A Case Report",
+    "author": "Xiaomin Niu; Yingjia Sun; David Planchard; Luting Chiu; Jian Bai; Xinghao Ai; Shun Lu",
+    "date": "2021-06-10"
+  },
+  "rejection_reason": null
+}

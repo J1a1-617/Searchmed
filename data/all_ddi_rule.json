@@ -1,0 +1,821 @@
+[
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Concomitant use of KRAZATI (adagrasib, a CYP3A4 substrate) with strong CYP3A4 inducers significantly decreases adagrasib exposure and may reduce efficacy."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Concomitant use of KRAZATI (adagrasib, a CYP3A4 substrate) with strong CYP3A4 inhibitors increases adagrasib exposure before steady state, increasing risk of adverse reactions."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "uncertain",
+    "notes": "No clinically significant differences in adagrasib pharmacokinetics at steady state when used with strong CYP3A4 inhibitors."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "KRAZATI (adagrasib, a strong CYP3A4 inhibitor) increases exposure of sensitive CYP3A4 substrates, increasing risk of adverse reactions."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP2C9",
+    "ddi_likelihood": "yes",
+    "notes": "KRAZATI (adagrasib, a moderate CYP2C9 inhibitor) increases exposure of sensitive CYP2C9 substrates, increasing risk of adverse reactions."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP2D6",
+    "ddi_likelihood": "yes",
+    "notes": "KRAZATI (adagrasib, a moderate CYP2D6 inhibitor) increases exposure of sensitive CYP2D6 substrates, increasing risk of adverse reactions."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "yes",
+    "notes": "KRAZATI (adagrasib, a moderate P-gp inhibitor) increases exposure of P-gp substrates, increasing risk of adverse reactions."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "BCRP",
+    "ddi_likelihood": "uncertain",
+    "notes": "Adagrasib may be a substrate of BCRP; clinical significance unknown."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "MATE-1/MATE-2K",
+    "ddi_likelihood": "uncertain",
+    "notes": "Adagrasib may inhibit MATE-1/MATE-2K; clinical significance unknown."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Concomitant use of strong CYP3A4 inhibitors with KADCYLA should be avoided due to increased DM1 exposure and toxicity."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "yes",
+    "notes": "Co-administration of P-gp inhibitors increases afatinib exposure; dose reduction of GILOTRIF may be required."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "yes",
+    "notes": "Co-administration of P-gp inducers decreases afatinib exposure; dose increase of GILOTRIF may be required."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "uncertain",
+    "notes": "No clinically meaningful effect on alectinib exposure when co-administered with strong CYP3A inhibitor (e.g., posaconazole)."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "uncertain",
+    "notes": "No clinically meaningful effect on alectinib exposure when co-administered with strong CYP3A inducer (e.g., rifampin)."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "uncertain",
+    "notes": "No clinically meaningful effect on midazolam (sensitive CYP3A substrate) exposure when co-administered with alectinib."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP2C8",
+    "ddi_likelihood": "uncertain",
+    "notes": "No clinically meaningful effect on repaglinide (sensitive CYP2C8 substrate) exposure when co-administered with alectinib."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of ALUNBRIG with strong or moderate CYP3A inhibitors increases brigatinib exposure and risk of adverse reactions."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of ALUNBRIG with strong or moderate CYP3A inducers decreases brigatinib exposure and may reduce efficacy."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP2C8",
+    "ddi_likelihood": "uncertain",
+    "notes": "Coadministration with strong CYP2C8 inhibitors decreases brigatinib Cmax and AUC, but effect is not clinically meaningful."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "uncertain",
+    "notes": "P-gp inhibitors are unlikely to increase brigatinib exposure due to high solubility and permeability."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "BCRP",
+    "ddi_likelihood": "uncertain",
+    "notes": "BCRP inhibitors are unlikely to increase brigatinib exposure."
+  },
+  {
+    "role1": "inducer",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "Brigatinib is a weak inducer of CYP3A and may decrease exposure of CYP3A substrates."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "uncertain",
+    "notes": "Brigatinib inhibits P-gp in vitro and may increase concentrations of P-gp substrates."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "BCRP",
+    "ddi_likelihood": "uncertain",
+    "notes": "Brigatinib inhibits BCRP in vitro and may increase concentrations of BCRP substrates."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "OCT1",
+    "ddi_likelihood": "uncertain",
+    "notes": "Brigatinib inhibits OCT1 in vitro."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "MATE1",
+    "ddi_likelihood": "uncertain",
+    "notes": "Brigatinib inhibits MATE1 in vitro."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "MATE2K",
+    "ddi_likelihood": "uncertain",
+    "notes": "Brigatinib inhibits MATE2K in vitro."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of TABRECTA with strong CYP3A inhibitors increases capmatinib exposure and risk of adverse reactions."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of TABRECTA with strong or moderate CYP3A inducers decreases capmatinib exposure and may reduce anti-tumor activity."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP1A2",
+    "ddi_likelihood": "yes",
+    "notes": "TABRECTA increases exposure of CYP1A2 substrates; dose adjustment may be needed if minimal concentration changes cause serious adverse reactions."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "yes",
+    "notes": "TABRECTA increases exposure of P-gp substrates; dose adjustment may be needed if minimal concentration changes cause serious adverse reactions."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "BCRP",
+    "ddi_likelihood": "yes",
+    "notes": "TABRECTA increases exposure of BCRP substrates; dose adjustment may be needed if minimal concentration changes cause serious adverse reactions."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "MATE1",
+    "ddi_likelihood": "yes",
+    "notes": "TABRECTA may increase exposure of MATE1 substrates; dose adjustment may be needed if minimal concentration changes cause serious adverse reactions."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "MATE2K",
+    "ddi_likelihood": "yes",
+    "notes": "TABRECTA may increase exposure of MATE2K substrates; dose adjustment may be needed if minimal concentration changes cause serious adverse reactions."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "Concomitant use of XALKORI with strong CYP3A inhibitors increases crizotinib plasma concentrations and risk of adverse reactions."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "Concomitant use of XALKORI with strong CYP3A inducers decreases crizotinib plasma concentrations and may reduce efficacy."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "Concomitant use of XALKORI with CYP3A substrates increases plasma concentrations of the substrates and risk of adverse reactions."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Strong CYP3A4 inhibitors increase dabrafenib exposure; avoid coadministration or monitor for adverse reactions."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP2C8",
+    "ddi_likelihood": "yes",
+    "notes": "Strong CYP2C8 inhibitors increase dabrafenib exposure; avoid coadministration or monitor for adverse reactions."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Strong CYP3A4 inducers decrease dabrafenib exposure; may reduce efficacy."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP2C8",
+    "ddi_likelihood": "yes",
+    "notes": "Moderate CYP2C8 inducers decrease dabrafenib exposure; may reduce efficacy."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP2C9",
+    "ddi_likelihood": "yes",
+    "notes": "Dabrafenib induces CYP2C9, decreasing exposure of CYP2C9 substrates such as S-warfarin."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Dabrafenib induces CYP3A4, decreasing exposure of CYP3A4 substrates such as midazolam and R-warfarin."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP2B6",
+    "ddi_likelihood": "yes",
+    "notes": "Dabrafenib induces CYP2B6, may decrease exposure of CYP2B6 substrates."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP2C19",
+    "ddi_likelihood": "uncertain",
+    "notes": "Dabrafenib may induce CYP2C19, possibly decreasing exposure of CYP2C19 substrates."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP1A2",
+    "ddi_likelihood": "yes",
+    "notes": "Dabrafenib induces CYP1A2, decreasing exposure of CYP1A2 substrates such as R-warfarin."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "OATP1B1",
+    "ddi_likelihood": "yes",
+    "notes": "Dabrafenib inhibits OATP1B1, increasing Cmax of substrates such as rosuvastatin."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "OATP1B3",
+    "ddi_likelihood": "yes",
+    "notes": "Dabrafenib inhibits OATP1B3, increasing Cmax of substrates such as rosuvastatin."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP2D6",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of VIZIMPRO (inhibitor) with CYP2D6 substrates increases substrate exposure and risk of toxicity."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "UGT1A1",
+    "ddi_likelihood": "uncertain",
+    "notes": "VIZIMPRO inhibits UGT1A1; clinical significance not established."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "uncertain",
+    "notes": "VIZIMPRO inhibits P-gp; clinical significance not established."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "BCRP",
+    "ddi_likelihood": "uncertain",
+    "notes": "VIZIMPRO inhibits BCRP; clinical significance not established."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "OCT1",
+    "ddi_likelihood": "uncertain",
+    "notes": "VIZIMPRO inhibits OCT1; clinical significance not established."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Concomitant use of ENSACOVE (CYP3A4 substrate) with strong or moderate CYP3A inhibitors may increase ENSACOVE exposure; avoid combination."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Concomitant use of ENSACOVE (CYP3A4 substrate) with strong or moderate CYP3A inducers may decrease ENSACOVE exposure; avoid combination."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "yes",
+    "notes": "Concomitant use of ENSACOVE (P-gp substrate) with P-gp inhibitors may increase ENSACOVE exposure; avoid combination."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of ROZLYTREK (entrectinib, a CYP3A substrate) with moderate or strong CYP3A inhibitors increases entrectinib plasma concentrations, increasing risk of adverse reactions."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of ROZLYTREK (entrectinib, a CYP3A substrate) with moderate or strong CYP3A inducers decreases entrectinib plasma concentrations, potentially reducing efficacy."
+  },
+  {
+    "role1": "substrate",
+    "role2": "substrate",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "uncertain",
+    "notes": "M5 (entrectinib metabolite) is a P-gp substrate; potential for interaction with other P-gp substrates or inhibitors."
+  },
+  {
+    "role1": "substrate",
+    "role2": "substrate",
+    "enzyme_transporter": "BCRP",
+    "ddi_likelihood": "uncertain",
+    "notes": "M5 (entrectinib metabolite) is a BCRP substrate; potential for interaction with other BCRP substrates or inhibitors."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "ROZLYTREK is a moderate CYP3A inhibitor and increases exposure of CYP3A substrates such as midazolam."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "yes",
+    "notes": "ROZLYTREK inhibits P-gp and increases exposure of P-gp substrates such as digoxin."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Strong CYP3A4 inhibitors increase erlotinib exposure and risk of toxicity."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP1A2",
+    "ddi_likelihood": "yes",
+    "notes": "Combined CYP3A4 and CYP1A2 inhibitors increase erlotinib exposure."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "CYP3A4 inducers decrease erlotinib exposure."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP1A2",
+    "ddi_likelihood": "yes",
+    "notes": "Moderate CYP1A2 inducers and cigarette smoking decrease erlotinib exposure."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Strong CYP3A4 inducers (e.g., rifampicin) significantly decrease gefitinib exposure by increasing its metabolism."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Strong CYP3A4 inhibitors (e.g., itraconazole) significantly increase gefitinib exposure by decreasing its metabolism."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP2D6",
+    "ddi_likelihood": "uncertain",
+    "notes": "CYP2D6 inhibitors may increase gefitinib exposure; clinical impact is possible but not fully evaluated."
+  },
+  {
+    "role1": "substrate",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP2D6",
+    "ddi_likelihood": "yes",
+    "notes": "Gefitinib inhibits CYP2D6, increasing exposure to CYP2D6 substrates such as metoprolol."
+  },
+  {
+    "role1": "substrate",
+    "role2": null,
+    "enzyme_transporter": null,
+    "ddi_likelihood": "yes",
+    "notes": "Drugs elevating gastric pH (e.g., proton pump inhibitors, H2 antagonists, antacids) reduce gefitinib plasma concentrations."
+  },
+  {
+    "role1": "substrate",
+    "role2": null,
+    "enzyme_transporter": null,
+    "ddi_likelihood": "yes",
+    "notes": "Gefitinib may increase INR and risk of hemorrhage in patients taking warfarin."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Concomitant use of LAZCLUZE with strong or moderate CYP3A4 inducers (e.g., rifampin, efavirenz) significantly decreases lazertinib exposure and may reduce efficacy."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Concomitant use of LAZCLUZE with strong CYP3A4 inhibitors (e.g., itraconazole) increases lazertinib exposure."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "LAZCLUZE is a weak CYP3A4 inhibitor and increases exposure of CYP3A4 substrates (e.g., midazolam); monitor for adverse reactions."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "BCRP",
+    "ddi_likelihood": "yes",
+    "notes": "LAZCLUZE inhibits BCRP and increases exposure of BCRP substrates (e.g., rosuvastatin); monitor for adverse reactions."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "Concomitant use of LORBRENA with strong or moderate CYP3A inducers (e.g., rifampin, modafinil) significantly decreases lorlatinib plasma concentrations and may reduce efficacy."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "Concomitant use of LORBRENA with strong CYP3A inhibitors (e.g., itraconazole, fluconazole) increases lorlatinib plasma concentrations and may increase adverse reactions."
+  },
+  {
+    "role1": "inducer",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "LORBRENA as a moderate CYP3A inducer decreases plasma concentrations of CYP3A substrates (e.g., midazolam), which may reduce efficacy of these substrates."
+  },
+  {
+    "role1": "inducer",
+    "role2": "substrate",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "yes",
+    "notes": "LORBRENA as a moderate P-gp inducer decreases plasma concentrations of P-gp substrates (e.g., fexofenadine), which may reduce efficacy of these substrates."
+  },
+  {
+    "role1": "inducer",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP2B6",
+    "ddi_likelihood": "yes",
+    "notes": "LORBRENA induces CYP2B6 and decreases plasma concentrations of CYP2B6 substrates (e.g., bupropion)."
+  },
+  {
+    "role1": "inducer",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP2C9",
+    "ddi_likelihood": "yes",
+    "notes": "LORBRENA induces CYP2C9 and decreases plasma concentrations of CYP2C9 substrates (e.g., tolbutamide)."
+  },
+  {
+    "role1": "inducer",
+    "role2": "substrate",
+    "enzyme_transporter": "UGT1A",
+    "ddi_likelihood": "yes",
+    "notes": "LORBRENA induces UGT1A and decreases plasma concentrations of UGT1A substrates (e.g., acetaminophen)."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Co-administration of TAGRISSO with strong CYP3A4 inducers (e.g., rifampin) significantly reduces osimertinib exposure and may reduce efficacy."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "uncertain",
+    "notes": "Co-administration of TAGRISSO with strong CYP3A4 inhibitors (e.g., itraconazole) has no clinically significant effect on osimertinib exposure."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "BCRP",
+    "ddi_likelihood": "yes",
+    "notes": "TAGRISSO increases exposure of BCRP substrates (e.g., rosuvastatin); monitor for toxicity."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "yes",
+    "notes": "TAGRISSO increases exposure of P-gp substrates (e.g., fexofenadine); monitor for toxicity."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "uncertain",
+    "notes": "No clinically significant effect of P-gp inhibitors on TAGRISSO exposure reported."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "BCRP",
+    "ddi_likelihood": "uncertain",
+    "notes": "No clinically significant effect of BCRP inhibitors on TAGRISSO exposure reported."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP1A2",
+    "ddi_likelihood": "uncertain",
+    "notes": "Osimertinib induces CYP1A2 in vitro; clinical significance unknown."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of GAVRETO with strong or moderate CYP3A inhibitors increases pralsetinib exposure and risk of adverse reactions; dose reduction is recommended."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of GAVRETO with P-gp inhibitors increases pralsetinib exposure; dose reduction is recommended."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of GAVRETO with strong or moderate CYP3A inducers decreases pralsetinib exposure and may reduce efficacy; dose increase is recommended."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of RETEVMO (CYP3A substrate) with strong or moderate CYP3A inhibitors increases selpercatinib exposure and risk of adverse reactions."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of RETEVMO (CYP3A substrate) with strong or moderate CYP3A inducers decreases selpercatinib exposure and may reduce efficacy."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP2C8",
+    "ddi_likelihood": "yes",
+    "notes": "RETEVMO is a moderate CYP2C8 inhibitor and increases exposure of CYP2C8 substrates."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "CYP3A",
+    "ddi_likelihood": "yes",
+    "notes": "RETEVMO is a weak CYP3A inhibitor and increases exposure of CYP3A substrates."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "yes",
+    "notes": "RETEVMO inhibits P-gp and increases exposure of P-gp substrates."
+  },
+  {
+    "role1": "inhibitor",
+    "role2": "substrate",
+    "enzyme_transporter": "BCRP",
+    "ddi_likelihood": "yes",
+    "notes": "RETEVMO inhibits BCRP and increases exposure of BCRP substrates."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of LUMAKRAS with strong CYP3A4 inducers (e.g., rifampin) decreases sotorasib exposure, potentially reducing efficacy."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "LUMAKRAS induces CYP3A4, decreasing exposure of CYP3A4 substrates, which may reduce their efficacy."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "yes",
+    "notes": "LUMAKRAS inhibits P-gp, increasing exposure of P-gp substrates, which may increase toxicity."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "BCRP",
+    "ddi_likelihood": "yes",
+    "notes": "LUMAKRAS inhibits BCRP, increasing exposure of BCRP substrates, which may increase risk of adverse reactions."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP2C8",
+    "ddi_likelihood": "uncertain",
+    "notes": "Sotorasib may induce CYP2C8 in vitro; clinical significance unknown."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP2C9",
+    "ddi_likelihood": "uncertain",
+    "notes": "Sotorasib may induce CYP2C9 in vitro; clinical significance unknown."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "CYP2B6",
+    "ddi_likelihood": "uncertain",
+    "notes": "Sotorasib may induce CYP2B6 in vitro; clinical significance unknown."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of TEPMETKO (P-gp inhibitor) with P-gp substrates increases substrate exposure and risk of toxicity; avoid or adjust substrate dose."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "BCRP",
+    "ddi_likelihood": "uncertain",
+    "notes": "TEPMETKO may inhibit intestinal BCRP; clinical significance is not established."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "uncertain",
+    "notes": "Inhibition of P-gp is unlikely to result in a clinically important increase in trametinib concentrations due to high passive permeability and bioavailability."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "P-gp",
+    "ddi_likelihood": "uncertain",
+    "notes": "No data provided on P-gp induction effect on trametinib."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "BSEP",
+    "ddi_likelihood": "uncertain",
+    "notes": "No data provided on BSEP inhibition effect on trametinib."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inducer",
+    "enzyme_transporter": "BSEP",
+    "ddi_likelihood": "uncertain",
+    "notes": "No data provided on BSEP induction effect on trametinib."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP2C8",
+    "ddi_likelihood": "uncertain",
+    "notes": "Trametinib is a weak inhibitor of CYP2C8 in vitro; clinical significance unknown."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "no",
+    "notes": "Coadministration with a sensitive CYP3A4 substrate had no clinically relevant effect."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "CYP3A4",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of ENHERTU (DXd) with strong CYP3A inhibitors (e.g., itraconazole) increases DXd exposure, but the impact is not clinically meaningful."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "OATP1B1",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of ENHERTU (DXd) with OATP1B1 inhibitors (e.g., ritonavir) increases DXd exposure, but the impact is not clinically meaningful."
+  },
+  {
+    "role1": "substrate",
+    "role2": "inhibitor",
+    "enzyme_transporter": "OATP1B3",
+    "ddi_likelihood": "yes",
+    "notes": "Coadministration of ENHERTU (DXd) with OATP1B3 inhibitors (e.g., ritonavir) increases DXd exposure, but the impact is not clinically meaningful."
+  }
+]

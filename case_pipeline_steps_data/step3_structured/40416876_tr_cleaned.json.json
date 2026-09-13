@@ -1,0 +1,70 @@
+{
+  "provenance": {
+    "source_filename": "40416876_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 54,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "persistent dry cough"
+    ],
+    "diagnosis_date": "2023-07",
+    "cancer_type": "NSCLC",
+    "histology": "SMARCA4-deficient lung adenocarcinoma",
+    "tnm_stage_system": "cTNM",
+    "tnm_stage": "cT4N0M1a",
+    "overall_stage": "IV",
+    "baseline_primary_site": "left lung",
+    "metastatic_sites_at_baseline": [
+      "pleura"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-07",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK fusion"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "ensartinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "ensartinib": "225 mg orally, once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "SMARCA4-deficient NSCLC associated with aggressive tumors",
+      "EML4-ALK fusion detected in the tumor",
+      "Significant partial response to ensartinib after 3 months of treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

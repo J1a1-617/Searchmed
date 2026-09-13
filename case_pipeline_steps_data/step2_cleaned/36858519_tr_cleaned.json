@@ -1,0 +1,28 @@
+{
+  "text": "Title: KRAS Wild-Type Non-Small-Cell Lung Cancer with Concurrent STK11 and KEAP1 Mutations: A Case Report\nPMID: \nAuthors: \n\nAbstract\nWe herein report a patient with KRAS wild-type non-small-cell lung cancer (NSCLC) with concurrent STK11 and KEAP1 mutations. A 53-year-old man visited a local doctor with a complaint of left shoulder swelling and pain. He was diagnosed with NSCLC cT4N0M1c stage IVB. A comprehensive genome profile test revealed mutations in STK11 and KEAP1 but no KRAS mutations. The patient was refractory to radiotherapy, immunotherapy, and chemotherapy. Thus, STK11 and KEAP1 mutations can be considered resistance mutations that confer resistance to various anticancer therapies in KRAS wild-type NSCLC.\n\nCase Report\nA 53-year-old man visited his local doctor with a complaint of left shoulder swelling and pain from the left shoulder to the left wrist joint since October 2020. Computed tomography (CT) revealed a mass in the right upper lobe of the lung and a large mass in the left scapula (Fig. 1A, C). A CT-guided needle biopsy was performed on the left scapular mass, and anaplastic non-small-cell carcinoma cells were detected (Fig. 2). A pathological evaluation revealed that the cells were negative for thyroid transcription factor-1 and p40. A blood test showed a high neutrophil/lymphocyte ratio (NLR) that was thought to have been caused by the STK11 mutation (5). Furthermore, multiple tumor markers were screened, including beta-human chorionic gonadotropin, but no trend implicating a specific histological subtype was observed (Table 1). Later, the patient was diagnosed with NSCLC cT4N0M1c stage IVB without any driver gene mutations showing 2% programmed death ligand-1 (PD-L1) expression. As the left scapular mass grew rapidly, accompanied by worsening pain, the patient was subjected to palliative irradiation (25 Gy/10 fr) starting in January 2021 prior to chemotherapy. However, both the left scapular mass and the right upper lobe lung mass grew eventually (Fig. 1B, D), with no improvement in his pain and a worsening of his general condition.\nIn February 2021, carboplatin+nab-paclitaxel+pembrolizumab therapy was administered at a low dose [carboplatin area under the curve (AUC) 4.5 on day 1; nab-paclitaxel 100 mg/m2, on day 1, 8, and 15; and pembrolizumab 200 mg/body, on day 1 and every 4 weeks] because his performance status was 2 based on the Eastern Cooperative Oncology Group scale. In addition, the CGP test (FoundationOneⓇ CDx Cancer Genome Profile Test), which is used in cancer genome medicine, was performed at the beginning of the treatment and identified STK11 and KEAP1 mutations, whereas KRAS was not detected (Table 2). Despite two treatment courses, however, his tumor grew, and his pain worsened. After a discussion with the patient, we decided to provide supportive care, and he died in April 2021.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "36858519_tr.json",
+    "source_pmid": "36858519",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/36858519_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:25:45",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Concurrent Mutations in STK11 and KEAP1 Cause Treatment Resistance in KRAS Wild-type Non-small-cell Lung Cancer",
+    "author": "Masahiko Sumii; Masashi Namba; Kentaro Tokumo; Masami Yamauchi; Wataru Okamoto; Noboru Hattori; Kazuhiko Sugiyama",
+    "date": "2023-03-01"
+  },
+  "rejection_reason": null
+}

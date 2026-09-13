@@ -1,0 +1,28 @@
+{
+  "text": "Title: Case of Lung Adenocarcinoma with Ground-Glass Metastases, MSI-H, and EGFR-Sensitive Mutation\nPMID: \nAuthors: \n\nAbstract\nGround-glass nodules (GGNs) are generally considered an early stage of lung cancer. The imaging characteristics and curative efficacy of multiple GGNs as metastases remain unclear. Microsatellite instability-high (MSI-H) is a biomarker for immunotherapy. The therapeutic effect and prognosis for patients with MSI-H and Epidermal Growth Factor Receptor (EGFR)-sensitive mutation stays uncertain. Here, we report a case of a lung adenocarcinoma patient presenting with ground-glass metastases, MSI-H, and EGFR-sensitive mutation and provide clinical data on the efficacy and prognosis. We describe the predictive significance of carcinoembryonic antigen (CEA) for disease progression when there is inconsistency between treatment effectiveness and CEA changes.\n\nCase presentation\nA 68-year-old female patient presented with a dry cough and chest tightness, without accompanying coughing up phlegm or hemoptysis. The patient is a farmer with a medical history of hypertension and diabetes, and the patient has never smoked. The patient’s sister suffers from cervical cancer. Enhanced CT scans revealed a primary lesion in the lower lingular segment of the left upper lobe (1.5 cm x 1.4 cm, Figure 1D ), diffuse ground-glass nodules(GGNs) as multiple pulmonary metastases in both lungs ( Figures 1A–C ), multiple enlarged lymph nodes in the mediastinum and left hilum, and left-sided pleural effusion, leading to a diagnostic thoracocentesis.\nThe pleural fluid pathology confirmed adenocarcinoma, originating from the lung, as confirmed by immunohistochemistry: CK7 (+++), CK20 (-), WT-1 (mesothelial+), D2-40 (mesothelial+), Desmin (mesothelial+), EMA (+++), CEA (+), TTF-1 (++), PAX8 (-), Gata3 (-), CDX2 (-), and MSH2 (+without nuclear expression loss), MSH6 (+without nuclear expression loss), MLH1 (+without nuclear expression loss), and PMS2 (+without nuclear expression loss). A 1021 panel NGS of the pleural sample showed MSI-H, EGFR EX21 p.L858R (44.4%), EGFR EX7 p.A289V (42.5%), EGFR amplification (copy number 4.4), Tumor Protein 53 (TP53) EX5 p.A159D (59.9%), along with amplifications of RAC1, GNAS, MCL1, PMS2, IKZF1, SDHA, AURKA, PDCD1LG2, CD274, SDHB, and ERCC4.\nAccording to the CSCO guidelines, we recommended that the patient be treated with a third-generation EGFR TKI. However, due to financial constraints, the patient opted for Icotinib, a first-generation EGFR TKI, as the first line treatment (5). Then the patient was treated with Icotinib 125mg Tid. Evaluations after 2 and 4 months both showed a partial response (PR), with a significant decrease in the diffuse GGNs ( Figures 2A–C ) and a reduction in the primary lesion ( Figure 2D ) and lymph node metastatic lesions. However, despite the improvement in the patient’s symptoms, the patient’s CEA levels continued to rise, from a baseline of 9.4 ng/ml to 17.3 ng/ml, without any evidence of a secondary primary tumor on CT and symptom.\nAfter 6 months, disease progression (PD) was noted with an increase in volume of the primary lesion, new pleural effusion, and CEA rising to 148.5 ng/ml. Then the patient received two cycles of treatment combining Icotinib 125mg Tid po with bevacizumab 400mg (7.5 mg/kg) ivgtt. However, PD was noted with recurrence of multiple GGNs in both lungs ( Figures 3A–D ), multiple new cancerous emboli, new para-aortic lymph node metastases, new metastases in bones, and CEA rising to 290.7 ng/ml. The patient developed a cough with dark red sputum and right hip pain. Another thoracocentesis was performed, and a 9-gene panel by qPCR confirmed EGFR EX21 p.L858R and EGFR EX20 p.T790M mutations. The patient was treated with osimertinib 80mg Qd. We plan to initiate immunotherapy after the patient develops resistance to osimertinib. However, the patient refused to return for follow-up examinations and discontinued osimertinib on her own after 4 months of treatment. Six months after stopping osimertinib, the patient passed away, resulting in an overall survival (OS) of 18 months.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39530096_tr.json",
+    "source_pmid": "39530096",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39530096_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:58:59",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case report: MSI-H, EGFR mutation, and ground-glass nodules as diffuse pulmonary hematogenous metastases",
+    "author": "Liuer He; Lin Li",
+    "date": "2024-10-28"
+  },
+  "rejection_reason": null
+}

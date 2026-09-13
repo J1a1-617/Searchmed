@@ -1,0 +1,28 @@
+{
+  "text": "Title: Successful Treatment with Tepotinib in a Patient with Non-Small Cell Lung Cancer Harboring MET Exon 14 Skipping\nPMID: null\nAuthors: YO, AS, EH, SY, SI, ET, HK, TB, SK, TO\n\nAbstract\nPatients with non-small cell lung cancer (NSCLC) are often positive for oncogenic driver mutations, such as EGFR, ALK, BRAF, RET and MET exon 14 skipping mutations (METex14 skipping). Recently, METex14 skipping has become a functional biomarker for NSCLC with the approval of MET kinase inhibitors. Tepotinib is an oral MET kinase inhibitor. Its overall response rate is 46%, and the median duration of the response is 11.1 months. In Japan, companion diagnostics for tepotinib are limited with the ArcherMET and AmoyDx test, but not with Oncomine Dx target test. The present study reports the case of a 60-year-old male patient with lung adenocarcinoma harboring METex14 skipping, which was positive on Oncomine DxTT, but not on ArcherMET. In his sample used for Oncomine DxTT, the read count of MET(13)-MET(15) products was only 46. He was treated with various chemotherapeutic agents, but developed cardiac tamponade due to the progression of the disease of mediastinal lymph node metastases. Tepotinib was administered following pericardial drainage, resulting in an immediate response in all lesions. The majority of the discordant samples between Oncomine DxTT and ArcherMET had read counts <800, and the patient described herein had only 46. Therefore, the results of the present study indicate that the use of tepotinib should be considered even in patients whose METex14 skipping results were negative with ArcherMET, yet positive on Oncomine DxTT, particularly relatively with low lead counts.\n\nCase report\nA 60-year-old male with a 38-pack-year history of smoking was referred to the authors' hospital, Kanagawa Cardiovascular and Respiratory Center (Yokohama, Japan) due to cough and abnormal chest shadows. He underwent left upper lobectomy for the resection of lung adenocarcinoma stage IIB (pT1bN1M0). The largest diameter of the tumor was 15 mm, and its histological subtype was solid, as illustrated in Fig. 1. The left lobar lymph node (#12) was pathologically positive, whereas the other lymph nodes were free of cancer cells. He received two cycles of adjuvant chemotherapy consisting of cisplatin and vinorelbine. At 6 months after surgery, the mediastinal lymph node (#4) was enlarged. Post-operative recurrence was confirmed using endobronchial ultrasound-guided transbronchial needle aspiration. Whereas other oncogenic driver mutations such as epidermal growth factor receptor gene (EGFR) mutation was negative, METex14 skipping was positive on Oncomine DxTT. However, it was negative on ArcherMET, although the same residual RNA sample was used. In this sample used for Oncomine DxTT, the read count of MET(13)-MET(15) products were only 46. The patient then received four lines of anticancer drug therapy serially for 2 years: first, cisplatin pemetrexed and pembrolizumab; second, TS-1; third, pembrolizumab; fourth, pemetrexed. However, the tumor grew along with pericardial effusion, causing cardiac tamponade, which required immediate drainage. Under the circumstances of limited treatment options, he was admitted to the authors' hospital in June 2022 and tepotinib was administered at a dose of 500 mg once daily under careful observation. After 4 weeks, a chest computed tomography scan confirmed a partial response by shrinking of the enlarged lymph nodes (Fig. 2) according to RECIST (7). After 2 months, the patient developed grade 2 peripheral edema as a treatment-related adverse effect, and the dose was reduced to 250 mg and administration was continued. The response still continued 7 months following the initiation of tepotinib treatment.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "37228358_tr.json",
+    "source_pmid": "37228358",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/37228358_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:28:18",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Successful tepotinib treatment of adenocarcinoma with MET exon 14 skipping and discordant results between Oncomine Dx target test and ArcherMET: A case report",
+    "author": "Yoko Onodera; Akimasa Sekine; Eri Hagiwara; Sho Yamada; Satoshi Ikeda; Erina Tabata; Hideya Kitamura; Tomohisa Baba; Shigeru Komatsu; Koji Okudela; Takashi Ogura",
+    "date": "2023-05-09"
+  },
+  "rejection_reason": null
+}

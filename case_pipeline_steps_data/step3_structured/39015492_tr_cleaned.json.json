@@ -1,0 +1,183 @@
+{
+  "provenance": {
+    "source_filename": "39015492_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 67,
+    "sex": "unknown",
+    "smoking_status": "unknown",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "right sided facial numbness",
+      "numbness in right arm",
+      "chest distress",
+      "intermittent cough",
+      "expectoration"
+    ],
+    "diagnosis_date": "2022-01",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": "IVa",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral pulmonary nodules",
+      "pleural",
+      "mediastinal lymph node",
+      "supraclavicular region",
+      "thoracic vertebral body"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-04",
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "METex14 skipping",
+          "BRAF V600E"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "tepotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "tepotinib": "450 mg daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 19
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 2 edema"
+        ],
+        "dose_adjustments": null
+      }
+    },
+    {
+      "time": "2022-03",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "METex14 skipping"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "tepotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "tepotinib": "450 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 9
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 2 edema"
+        ],
+        "dose_adjustments": null
+      }
+    },
+    {
+      "time": "2022-04",
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "METex14 skipping"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "tepotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "tepotinib": "450 mg daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 8
+      },
+      "safety": {
+        "adverse_events": [
+          "mild limb edema"
+        ],
+        "dose_adjustments": null
+      }
+    },
+    {
+      "time": "2023-08",
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "METex14 skipping"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "tepotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "tepotinib": "450 mg daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 4
+      },
+      "safety": {
+        "adverse_events": null,
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "tepotinib",
+      "savolitinib"
+    ],
+    "mechanism": "unknown",
+    "severity": "mild",
+    "clinical_manifestation": "hepatotoxicity with elevated ALT",
+    "management": "discontinued savolitinib due to hepatotoxicity, switched to tepotinib",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 19,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2023-11"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Tepotinib shows robust and durable clinical activity in patients with METex14 skipping NSCLC",
+      "Well tolerated with mild adverse events",
+      "First report on effectiveness of tepotinib in patient with both METex14 skipping and BRAF V600E mutations"
+    ],
+    "ddi_relevance": "medium",
+    "generalizability": "medium"
+  }
+}

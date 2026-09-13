@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41209621_tr.json",
+    "source_pmid": "41209621",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41209621_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:09:58",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Rationale and design for a phase IIIb trial of first-line tremelimumab plus durvalumab versus pembrolizumab, in combination with chemotherapy, in patients with non-squamous metastatic non-small-cell lung cancer and mutations or co-mutations in STK11, KEAP1, or KRAS: the TRITON study",
+    "author": "Ferdinandos Skoulidis; Hossein Borghaei; Edward B Garon; Ticiana A Leal; Jacob Kaufman; Stephen V Liu; Eric Nadler; Sandip Pravin Patel; Solange Peters; Biagio Ricciuti; Ashish Gautam; Ugochinyere Emeribe; Luisa Luciani-Silverman; John V Heymach",
+    "date": "2025-11-06"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

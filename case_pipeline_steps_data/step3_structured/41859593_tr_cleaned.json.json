@@ -1,0 +1,73 @@
+{
+  "provenance": {
+    "source_filename": "41859593_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 49,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "dry cough"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "brain",
+      "spine",
+      "iliac bone"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": "sternal lytic lesion"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "pemetrexed": null
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Rare pseudo-cystic radiological presentation of metastatic lung adenocarcinoma",
+      "Poorly differentiated lung adenocarcinoma diagnosed via biopsy",
+      "No mutations detected in EGFR, KRAS, BRAF, HER2, or MET"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

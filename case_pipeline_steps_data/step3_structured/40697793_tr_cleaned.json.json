@@ -1,0 +1,190 @@
+{
+  "provenance": {
+    "source_filename": "40697793_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 46,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "liver",
+      "mediastinal lymph nodes",
+      "bone",
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "YYYY",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion (ex19del)"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "14 months",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "CTNNA1-BRAF fusion",
+          "TP53 mutation"
+        ],
+        "sample": "liver biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "platinum-pemetrexed chemotherapy",
+          "osimertinib"
+        ],
+        "type": "chemotherapy + targeted",
+        "dosage": {
+          "pemetrexed": null,
+          "osimertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "10 cycles",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "CTNNA1-BRAF fusion",
+          "TP53 mutation",
+          "EGFR amplification"
+        ],
+        "sample": "liver biopsy"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "pemetrexed",
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "pemetrexed": null,
+          "osimertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "3 months",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "CTNNA1-BRAF fusion",
+          "MET amplification"
+        ],
+        "sample": "liquid biopsy"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "osimertinib",
+          "trametinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "osimertinib": "80 mg once daily",
+          "trametinib": "1 mg once daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "peripheral edema"
+        ],
+        "dose_adjustments": null
+      }
+    },
+    {
+      "time": "3 cycles",
+      "event_type": "treatment + progression",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "amivantamab"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "amivantamab": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "trametinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "hepatic and peritoneal progression",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "CTNNA1-BRAF fusion as a resistance mechanism to osimertinib",
+      "EGFR-MEK co-inhibition strategy proposed"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

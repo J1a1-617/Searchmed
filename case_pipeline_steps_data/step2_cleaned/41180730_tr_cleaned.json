@@ -1,0 +1,28 @@
+{
+  "text": "Title: Efficacy of Enhertu in a Patient with Metastatic Lung Cancer and Recurrent Brain Metastasis\nPMID: \nAuthors: Swetha Kannan, SH Tirmazy, Dina Hamza\n\nAbstract\nBackground:\nMetastatic lung cancer with recurrent brain metastasis presents significant treatment challenges. Enhertu (trastuzumab deruxtecan), a targeted therapy for HER2-positive cancers, has shown promise in treating solid tumors, including nonsmall cell lung cancer (NSCLC) with brain metastases. This case report examines the efficacy of Enhertu in a patient with metastatic lung cancer and recurrent brain metastasis.\nCase presentation:\nA 39-year-old woman diagnosed with Stage IV adenocarcinoma of the left lung, negative for EGFR, ALK, and ROS-1, but with an ERBB2 mutation, experienced neurological symptoms leading to a diagnosis of brain metastasis in 2019. After multiple lines of therapy, including surgery, irradiation, chemotherapy, and targeted treatments, she presented with recurrent brain metastasis in January 2024. Following progression despite previous treatments, she was started on Enhertu in February 2024.\nIntervention:\nThe patient was treated with Enhertu, and after six cycles, radiologic evaluation via PET and MRI scans in June 2024 demonstrated significant reduction in the size of cerebral and cerebellar metastases, with no new lesions or abnormal meningeal enhancement. Additionally, there was notable regression in the size and metabolic activity of lung lesions and previously hypermetabolic nodes.\nResults:\nEnhertu led to a partial response, with regression of most metastatic sites, including brain and lung metastases, and no evidence of new hypermetabolic lesions. The treatment was well tolerated with minimal adverse effects.\n\nCase report\nA 39-year-old woman was diagnosed with Stage IV adenocarcinoma of the left lung, which tested negative for EGFR, ALK, and ROS-1 mutations, while showing a 2% expression of PD-L1 and an ERBB2 mutation. Her medical journey began in April 2019 when she experienced neurological symptoms that led to the discovery of a left frontal lobe mass. A craniotomy performed in May 2019 identified the mass as adenocarcinoma, potentially originating from the lung. This diagnosis was confirmed with a subsequent craniotomy in June 2019. The patient underwent a left upper lobe trisegmentectomy in July 2019, followed by whole-brain radiation in August 2019. In September 2019, she began four cycles of cisplatin and navelbine. Disease recurrence in August 2021 led to treatment with pembrolizumab, carboplatin, and pemetrexed, which continued until December 2021. Maintenance therapy with pembrolizumab and alimta followed until May 2022. From May 2022 to March 2023, she received ramucirumab and docetaxel, but developed ototoxicity after a cycle of carboplatin and gemcitabine in March 2023. She then switched to gemcitabine and herceptin in April 2023. PET scans from July and November 2023 showed mixed responses, with some lesions stable and others still active. In December 2023, she experienced new symptoms, and an MRI in January 2024 revealed recurrent brain metastases. Palliative radiotherapy for the neck and left supraclavicular lesion was recommended, with further treatment to be based on future PET scan results.\n\nShe underwent palliative radiotherapy to the neck but did not receive brain radiation due to reaching the maximum dose. In February 2024, she began treatment with Enhertu. After six cycles of Enhertu, a PET scan and MRI in June 2024 showed significant shrinkage of multiple cerebral and cerebellar metastatic deposits, with no new meningeal enhancement and stable background lesions. Postoperative changes included left frontal encephalomalacia, diffuse cerebral atrophy, and unchanged periventricular high T2/FLAIR signal intensity. The updated PET scan revealed notable regression in the size and metabolic activity of hypermetabolic nodes in the left supraclavicular, mediastinal, and hilar regions, as well as lung nodules. There were no new FDG-avid lesions, and most metastatic bone lesions showed metabolic resolution, with mild activity remaining in the right iliac bone and left femur shaft. There was heterogeneous FDG uptake in the liver and pelvic areas, with reduced focal FDG avidity in the right uterine adnexa. Overall, a good partial response was observed, with regression of most metastatic sites and no evidence of new hypermetabolic lesions.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41180730_tr.json",
+    "source_pmid": "41180730",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41180730_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:09:10",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Enhertu as an effective treatment for metastatic lung cancer with brain metastasis recurrence: a case report",
+    "author": "Wania Mohammad Akram; Swetha Kannan; SH Tirmazy; Dina Hamza",
+    "date": "2025-09-17"
+  },
+  "rejection_reason": null
+}

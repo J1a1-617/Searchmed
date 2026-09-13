@@ -1,0 +1,28 @@
+{
+  "text": "Title: Small cell lung cancer transformation after EGFR-TKIs treatment in lung adenocarcinoma: A case report and literatures review\nPMID: \nAuthors: Xiaoli Chen, Dongmei Li, Kun Miao, Tao Shou, Wenjing Zhang\n\nAbstract: Epidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs) are commonly used in the treatment of advanced non-small cell lung cancer. However, patients will inevitably develop resistance to EGFR-TKIs in the long-term treatment process. In this paper, we report a case of small cell lung cancer transformation after EGFR-TKIs treatment in lung adenocarcinoma. We summarize the characteristics of this case and the treatment after transformation, and emphasized the repeat biopsy and dynamic monitoring its genetic mutation was necessary.\n\nCase presentation: A 75-years-old man with no smoking history was admitted to our hospital with repeated cough and expectoration for 1 month and chest enhancement computed tomography (CT) showed paracbronchial soft tissue mass in the lower lobe of the left lung, which was considered to be central lung cancer. Lung biopsy pathology showed adenocarcinoma of the left lung (cT3N3M1 IVA) on July 2020 (Fig. 1A). He achieved 1 cycle of chemotherapy with pemetrexed plus bevacizumab, without platinum regimen due to the Eastern Cooperative Oncology Group performance status (ECOG PS) 2. Two weeks later, the result of next generation sequence (NGS) with biopsy tissue showed that the patient harboring an EGFR L858 mutation. He obtained a clinically significant response for about 8 months through the treatment of gefitinib.\nAfter progression, the second NGS test showed that EGFR L858R T790M mutation and PIK3CA E545K mutation. Oxitinib was then administrated. However, he presented abdomen pain only 2 months later and CEA (254.38 ng/mL) was lower than before, while neuro-specific enolase (NSE) (27.32 ng/mL) was higher than before, pathological bronchoscopy of the left lung revealed small cell neuroendocrine carcinoma (Fig. 1B), with EGFR L858R mutation, RICTOR copy number increased and PD-L1 < 1% on July 2021. The patient received 2 cycles chemotherapy of etoposide plus netaplatin, and got partial response. CEA (209.57 ng/mL) and NSE (15.25 ng/mL) were both lower than before. However, he refused to continuous chemotherapy due to the side effects. The patient was then treated with Icotinib and Anlotinib.\nAfter 5 months, the disease progressed extensively with bone, liver and multiple lymph node metastases. Whole blood NGS test in January 20, 2022 showed EGFR L858R and T790M mutation, PIK3CA e545K mutation, and the copy number of ERBB2 increased. CEA (1142.66 ng/mL) was 5-times higher than that before and NSE (32.59 ng/mL) was 1-time higher than that before (Fig. 2). According to the genetic test results, the patient was treated with oxitinib. Unfortunately, the patient passed away due to severe infection and hepatic failure on January 23, 2022 on the third day after taking the drug (Fig. 3).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "36705363_tr.json",
+    "source_pmid": "36705363",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/36705363_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:50:57",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Small cell lung cancer transformation after EGFR-TKIs treatment in lung adenocarcinoma: A case report and literatures review",
+    "author": "Xiaoli Chen; Dongmei Li; Kun Miao; Tao Shou; Wenjing Zhang",
+    "date": "2023-01-27"
+  },
+  "rejection_reason": null
+}

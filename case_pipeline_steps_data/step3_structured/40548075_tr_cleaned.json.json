@@ -1,0 +1,196 @@
+{
+  "provenance": {
+    "source_filename": "40548075_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.8
+  },
+  "baseline_clinical_profile": {
+    "age": 57,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "loss of voice",
+      "cough"
+    ],
+    "diagnosis_date": "2022-05",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes",
+      "right supraclavicular node",
+      "left lung lower lobe",
+      "right humerus",
+      "D4 vertebra",
+      "left scapular spine"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-05",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "ROS1-CCDC6 gene fusion"
+        ],
+        "sample": "liquid biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "Crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "Crizotinib": "250 mg"
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2022-06",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "Paclitaxel",
+          "Carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "Paclitaxel": "300 mg",
+          "Carboplatin": "450 mg"
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2022-07",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "Crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "Crizotinib": "250 mg"
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2022-09",
+      "event_type": "response evaluation + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "Crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "Crizotinib": "250 mg"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      },
+      "safety": null
+    },
+    {
+      "time": "2023-01",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 21, p.L858R mutation"
+        ],
+        "lost": [
+          "ROS1 fusion"
+        ],
+        "sample": "liquid biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "Crizotinib",
+          "Gefitinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "Crizotinib": "250 mg",
+          "Gefitinib": "250 mg"
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2023-08",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "TP53 exon 7, p.R248Q mutation",
+          "EGFR exon 21, p.L858R mutation"
+        ],
+        "sample": "liquid biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "Crizotinib",
+          "Gefitinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "Crizotinib": "250 mg",
+          "Gefitinib": "250 mg"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 6
+      },
+      "safety": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "Crizotinib",
+      "Gefitinib"
+    ],
+    "mechanism": null,
+    "severity": "moderate",
+    "clinical_manifestation": "persistent arrhythmias",
+    "management": "paused targeted therapy",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 26,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "2024-08"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Identification of ROS1-CCDC6 gene fusion via liquid biopsy",
+      "Successful treatment response with Crizotinib and Gefitinib",
+      "Complete metabolic resolution of disease after targeted therapy",
+      "Emergence of TP53 mutation during treatment"
+    ],
+    "ddi_relevance": "high",
+    "generalizability": "medium"
+  }
+}

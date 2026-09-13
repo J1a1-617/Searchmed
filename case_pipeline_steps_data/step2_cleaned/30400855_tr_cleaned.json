@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "30400855_tr.json",
+    "source_pmid": "30400855",
+    "original_file": "output/pre out/30400855_tr.json",
+    "cleaning_timestamp": "2026-05-08T19:56:29",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Checking your browser",
+    "author": null,
+    "date": "2026-04-05"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

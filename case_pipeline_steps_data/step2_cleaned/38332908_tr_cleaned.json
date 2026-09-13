@@ -1,0 +1,28 @@
+{
+  "text": "Title: Pulmonary enteric adenocarcinoma with an EGFR-activating mutation and high microsatellite instability: A case report\nPMID: null\nAuthors: MY, PY, ZH, JD\n\nAbstract\nPulmonary enteric adenocarcinoma (PEAC) is a rare histological subtype of non-small-cell lung cancer (NSCLC) with a predominant (>50%) enteric differentiation component. The frequency of high microsatellite instability (MSI-H) is very low in lung cancer. EGFR tyrosine kinase inhibitors and immunotherapy are standard treatment for NSCLC patients, but their effectiveness in lung adenocarcinoma with pulmonary enteric differentiation is unknown.\n\nCase presentation\nThis report describes a 66-year-old man who was initially diagnosed with metastatic lung adenocarcinoma with EGFR mutation based on pleural fluid. A lung biopsy was obtained after 17 months of first-line icotinib treatment. Histological analysis of biopsy samples and endoscopic examination resulted in a diagnosis of adenocarcinoma with enteric differentiation. Next-generation sequencing of 1,021 genes showed EGFR E19del, T790M, and MSI-H, while immunohistochemical assay showed proficient expression of mismatch repair (MMR) proteins. Consequently, the patient was treated with osimertinib and had a progression-free survival (PFS) of 3 months. His treatment was changed to chemotherapy with/without bevacizumab for 6.5 months. Then, the patient was treated with one cycle of camrelizumab monotherapy and camrelizumab plus chemotherapy, respectively. The tumor continued to grow, and the patient suffered pneumonia, pulmonary fungal infections, and increased hemoptysis. He received gefitinib and everolimus and died 2 months later and had an overall survival of 30 months.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38332908_tr.json",
+    "source_pmid": "38332908",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38332908_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:35:13",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case report: Target and immunotherapy of a lung adenocarcinoma with enteric differentiation, EGFR mutation, and high microsatellite instability",
+    "author": "Meiling Yang; Pengli Yu; Zhiyi He; Jingmin Deng",
+    "date": "2024-01-25"
+  },
+  "rejection_reason": null
+}

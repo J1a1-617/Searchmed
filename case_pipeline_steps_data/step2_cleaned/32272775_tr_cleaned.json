@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "32272775_tr.json",
+    "source_pmid": "32272775",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/32272775_tr.json",
+    "cleaning_timestamp": "2026-06-03T00:42:32",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Concomitant TP53 Mutation Confers Worse Prognosis in EGFR-Mutated Non-Small Cell Lung Cancer Patients Treated with TKIs",
+    "author": "Matteo Canale; Elisabetta Petracci; Angelo Delmonte; Giuseppe Bronte; Elisa Chiadini; Vienna Ludovini; Alessandra Dubini; Maximilian Papi; Sara Baglivo; Nicoletta De Luigi; Alberto Verlicchi; Rita Chiari; Lorenza Landi; Giulio Metro; Marco Angelo Burgio; Lucio Crinò; Paola Ulivi",
+    "date": "2020-04-07"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

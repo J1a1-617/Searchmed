@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "26695526_tr.json",
+    "source_pmid": "26695526",
+    "original_file": "output/pre out/26695526_tr.json",
+    "cleaning_timestamp": "2026-05-08T19:55:29",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "The Role of Race in Oncogenic Driver Prevalence and Outcomes in Lung Adenocarcinoma: Results from the Lung Cancer Mutation Consortium (LCMC)",
+    "author": "Conor E Steuer; Madhusmita Behera; Lynne Berry; Sungjin Kim; Michael Rossi; Gabriel Sica; Taofeek K Owonikoko; Bruce E Johnson; Mark G Kris; Paul A Bunn; Fadlo R Khuri; Edward B Garon; Suresh S Ramalingam",
+    "date": "2015-12-22"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

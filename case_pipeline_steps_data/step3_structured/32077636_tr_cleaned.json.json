@@ -1,0 +1,127 @@
+{
+  "provenance": {
+    "source_filename": "32077636_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 68,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "productive cough",
+      "hemoptysis"
+    ],
+    "diagnosis_date": "2018-10",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IV",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "fifth lumbar vertebra"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2018-10",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS p.G12C",
+          "TP53 p.R267P",
+          "BRAF p.G596D"
+        ],
+        "sample": "primary lesion"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2018-11",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pembrolizumab"
+        ],
+        "type": "immunotherapy",
+        "dosage": {
+          "pembrolizumab": "200 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": "2018-12",
+      "event_type": "surgery",
+      "molecular": null,
+      "treatment": {
+        "line": "surgery",
+        "regimen": [
+          "thoracoscopic wedge resection",
+          "mediastinal lymph node dissection"
+        ],
+        "type": "surgical",
+        "dosage": null
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": "2019-01",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "pembrolizumab",
+          "radiotherapy"
+        ],
+        "type": "combination",
+        "dosage": {
+          "pembrolizumab": "200 mg daily"
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "tachypnea",
+          "loss of consciousness",
+          "grade 3 elevated transaminase"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 12,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2019-10"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Pathologic complete response after preoperative pembrolizumab",
+      "High PD-L1 expression (70%)",
+      "Presence of KRAS and TP53 mutations without EGFR/ALK alterations",
+      "High infiltration of CD8-positive cells and M1 macrophages"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

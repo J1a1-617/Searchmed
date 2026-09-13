@@ -1,0 +1,96 @@
+{
+  "provenance": {
+    "source_filename": "41717049_tr_cleaned.json",
+    "source_pmid": "100934",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": null,
+    "sex": null,
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": null,
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": null,
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ZFPM2::ALK",
+          "TRIM24::ALK"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "alectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "alectinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "27 months",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "findings": [
+          "persistent fusion",
+          "CDKN2A/B deletion"
+        ],
+        "sample": "CSF"
+      },
+      "treatment": {
+        "line": null,
+        "regimen": null,
+        "type": null,
+        "dosage": {}
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "alectinib",
+      "lorlatinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Novel ZFPM2::ALK and TRIM24::ALK fusions in NSCLC",
+      "Marked partial responses to first-line alectinib",
+      "Leptomeningeal disease and persistent fusion detected via CSF NGS",
+      "On-target ALK mutations and MYC amplification on progression"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

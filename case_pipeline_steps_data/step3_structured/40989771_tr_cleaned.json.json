@@ -1,0 +1,180 @@
+{
+  "provenance": {
+    "source_filename": "40989771_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 67,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "cough"
+    ],
+    "diagnosis_date": "2022-02",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT4N3M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral lungs",
+      "lymph nodes",
+      "bone"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-02",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 20 insertion (c.2315_2316ins3; p.P772delinsPH)"
+        ],
+        "mutation_abundance": "22.4%",
+        "pd_l1_expression": "80%"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2022-03",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "tislelizumab",
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "immunotherapy + chemotherapy",
+        "dosage": {
+          "tislelizumab": "200 mg every 3 weeks",
+          "pemetrexed": "500 mg/m² every 3 weeks",
+          "carboplatin": "AUC 5 every 3 weeks"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      },
+      "safety": {
+        "adverse_events": [
+          "leukopenia (grade 1)"
+        ],
+        "management": [
+          "managed with pegylated recombinant human granulocyte colony-stimulating factor"
+        ]
+      }
+    },
+    {
+      "time": "2022-07",
+      "event_type": "maintenance treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "maintenance",
+        "regimen": [
+          "tislelizumab",
+          "pemetrexed"
+        ],
+        "type": "maintenance therapy",
+        "dosage": {
+          "tislelizumab": "200 mg every 3 weeks",
+          "pemetrexed": "500 mg/m² every 3 weeks"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 7
+      },
+      "safety": {
+        "adverse_events": [
+          "leukopenia (grade 1)",
+          "fatigue (grade 1)",
+          "diarrhea (grade 1)"
+        ],
+        "management": [
+          "managed symptomatically"
+        ]
+      }
+    },
+    {
+      "time": "2023-02",
+      "event_type": "treatment transition",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pemetrexed"
+        ],
+        "type": "monotherapy",
+        "dosage": {
+          "pemetrexed": "500 mg/m² every 3 weeks"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 10
+      },
+      "safety": {
+        "adverse_events": [
+          "fatigue",
+          "diarrhea"
+        ],
+        "management": [
+          "resolved after discontinuation of tislelizumab"
+        ]
+      }
+    },
+    {
+      "time": "2023-12",
+      "event_type": "treatment switch",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "sunvozertinib"
+        ],
+        "type": "targeted therapy",
+        "dosage": {
+          "sunvozertinib": "300 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      },
+      "safety": {
+        "adverse_events": [
+          "diarrhea (grade 1)",
+          "paronychia (grade 1)"
+        ],
+        "management": [
+          "improved with symptomatic management"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 34,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2023-12"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with EGFR exon 20 insertion mutation",
+      "Intolerance to first-line immunotherapy and chemotherapy",
+      "Successful transition to sunvozertinib with tumor shrinkage"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

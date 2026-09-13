@@ -1,0 +1,162 @@
+{
+  "provenance": {
+    "source_filename": "38332908_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 66,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "pulmonary enteric adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": null
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR E19del",
+          "T790M",
+          "MSI-H"
+        ],
+        "sample": "pleural fluid"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "icotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "icotinib": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": 17
+      }
+    },
+    {
+      "time": null,
+      "event_type": "biopsy + diagnosis",
+      "molecular": {
+        "alterations": null,
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": 3
+      }
+    },
+    {
+      "time": null,
+      "event_type": "chemotherapy",
+      "molecular": {
+        "alterations": null,
+        "sample": null
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "chemotherapy with/without bevacizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": null
+      },
+      "response": {
+        "best": null,
+        "duration_months": 6.5
+      }
+    },
+    {
+      "time": null,
+      "event_type": "immunotherapy + chemotherapy",
+      "molecular": {
+        "alterations": null,
+        "sample": null
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "camrelizumab monotherapy",
+          "camrelizumab plus chemotherapy"
+        ],
+        "type": "immunotherapy + chemotherapy",
+        "dosage": null
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": null,
+        "sample": null
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "gefitinib",
+          "everolimus"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": {
+        "best": null,
+        "duration_months": 2
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "gefitinib",
+      "everolimus"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 30,
+    "survival_status": "dead",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient diagnosed with pulmonary enteric adenocarcinoma with EGFR mutation.",
+      "High microsatellite instability (MSI-H) detected.",
+      "Treatment included targeted therapies and chemotherapy."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "provenance": {
+    "source_filename": "41362706_tr_cleaned.json",
+    "source_pmid": "100818",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 43,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2021-09",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "controlateral lung"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2021-09",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "HER2 exon 20 insertion p.(Y772_A775dup)",
+          "TP53 mutation p.(R248W)"
+        ],
+        "sample": "tumor tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "chemoimmunotherapy"
+        ],
+        "type": "combination",
+        "dosage": {}
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2023-04",
+      "event_type": "treatment + safety",
+      "molecular": {},
+      "treatment": {
+        "line": "maintenance",
+        "regimen": [],
+        "type": "maintenance",
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "mild renal toxicity"
+        ],
+        "dose_adjustments": []
+      }
+    },
+    {
+      "time": "2023-11",
+      "event_type": "surgery",
+      "molecular": {},
+      "treatment": {
+        "line": "surgery",
+        "regimen": [
+          "right lower lobectomy with radical lymphadenectomy"
+        ],
+        "type": "surgical",
+        "dosage": {}
+      },
+      "response": {
+        "best": "pCR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with advanced HER2 mutant NSCLC achieved complete pathologic response to chemoimmunotherapy",
+      "Molecular alterations include HER2 exon 20 insertion and TP53 mutation",
+      "Mild renal toxicity prompted treatment reconsideration"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

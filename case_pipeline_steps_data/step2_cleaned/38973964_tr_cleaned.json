@@ -1,0 +1,28 @@
+{
+  "text": "Title: Neoadjuvant targeted therapy with osimertinib in a patient with locally advanced non-small cell lung cancer\nPMID: \nAuthors: \n\nAbstract\nWith the advent of targeted therapies, the survival rates of patients with locally advanced lung cancer have significantly improved. However, there is limited research on the efficacy of neoadjuvant targeted therapy in resectable advanced non-small cell lung cancer (NSCLC) patients with positive driver genes. This article reports a case of stage IIIA NSCLC with an epidermal growth factor receptor (EGFR) 19del mutation that successfully underwent radical lung cancer surgery following neoadjuvant targeted therapy. By observing the perioperative treatment outcomes and side effects in this patient, we aimed to provide insights and summarize experiences for treating similar cases in the future.\n\nCase Description\nWe report a case of a 54-year-old female diagnosed preoperatively with stage IIIA adenocarcinoma of the left upper lung (cT1cN2M0). The patient’s course was complicated by acute sick sinus syndrome and was cured by implanting a permanent pacemaker. After multidisciplinary discussion, it was decided to administer neoadjuvant targeted therapy with osimertinib. Following 6 weeks of treatment, the tumor assessment showed partial response (PR), making the patient eligible for surgery. The patient underwent single-port thoracoscopic left upper lobectomy + mediastinal lymphadenectomy. Intraoperatively, the left hilar lymph nodes were found to be tightly adherent to the apical-anterior branch of the left upper pulmonary artery. The main trunk of the left pulmonary artery was temporarily occluded with a vascular clamp to safely dissect the left upper pulmonary artery. The procedure was completed without conversion to open thoracotomy, achieving an R0 resection. Postoperative pathology confirmed stage IIIA (ypT1bN2M0), and the patient continued adjuvant therapy with osimertinib.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38973964_tr.json",
+    "source_pmid": "38973964",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38973964_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:47:52",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Radical resection in a patient with stage IIIA non-small cell lung cancer with the EGFR exon 19 deletion mutation after neoadjuvant targeted therapy with osimertinib: a case report",
+    "author": "Hao Chen; Jiarong Zhang; Atsushi Osoegawa; Lorenzo Calvetti; Palma Fedele; Chun Chen; Bin Zheng",
+    "date": "2024-06-27"
+  },
+  "rejection_reason": null
+}

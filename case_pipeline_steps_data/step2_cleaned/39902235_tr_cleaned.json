@@ -1,0 +1,28 @@
+{
+  "text": "Title: Solitary fibular metastasis from lung adenocarcinoma: a case report\nPMID: \nAuthors: \n\nAbstract\nSolitary fibular metastasis from lung adenocarcinoma is exceedingly rare, with only five documented cases. This report presents a 40-year-old non-smoking Asian male who initially presented with painful swelling in the right knee. Imaging revealed bony destruction of the right fibular head, and further investigations with chest CT, PET/C, pathologic biopsy and genetic testing identified a primary lung adenocarcinoma with EGFR exon 19 deletion mutation. The patient was treated with Osimertinib, resulting in significant tumor reduction. This was followed by thoracoscopic lobectomy and systematic lymph node dissection, and local radiotherapy for the fibular metastasis. The patient experienced complete pain relief and showed no recurrence or metastasis over a 26-month follow-up. This case highlights the diagnostic challenge posed by atypical presentations of metastasis and underscores the importance of comprehensive evaluation, adherence to treatment guidelines, and a multidisciplinary approach in managing oncological patients. The successful outcome in this young patient emphasizes the effectiveness of personalized treatment strategies in optimizing patient prognosis, offering valuable insights for similar clinical scenarios.\n\nCase report\nA 40-year-old Asian male, non-smoker, presented to our hospital on February 6th, 2022, with a one-week history of painful swelling and discomfort in the lateral right knee. The patient reported a right proximal calf trauma occurring over three months ago. Physical examination revealed painful claudication of the right lower limb and tenderness over the right fibular head. X-ray of the right knee joint revealed a rounded expansive bony destruction of the right fibular head ( Figure 1A ), CT scan ( Figure 1B ), and MRI ( Figure 1C ) of the right knee joint depicted bony destruction of the right fibular head accompanied by a posterior soft tissue mass, suggestive of a neoplastic lesion.\nTo ascertain the potential primary site of the neoplasm, chest CT was performed, suggesting an irregular mass, measuring (28mm×26mm×23mm) in the posterior apical segment of the left upper lobe of the lung, suggestive of peripheral lung cancer ( Figure 2A ), and PET/CT suggested a peripheral lung cancer in the apical segment of the right upper lobe of the lung (SUVmax11.3) and metastatic tumor in the right fibular head (SUVmax20.5), no significant abnormal metabolic signs were observed in the brain parenchyma.\nPathologic biopsy and immunohistochemistry of the right lung nodule and right fibular head mass suggested primary adenocarcinoma of the left lung and metastatic adenocarcinoma of the right fibula, possibly originating from the lung ( Figures 2B, C ). This was diagnosed as Stage IVB (cT1cN1M1b). Genetic testing using second-generation sequencing revealed an EGFR exon 19 deletion mutation in tissue biopsy from the right lung mass.\nOn April 1st, 2022, the patient initiated Osimertinib therapy at a daily dosage of 80mg. Chest CT on June 12th, 2022, revealed a reduction in size of the lung nodule, measuring (18mmX13mmX9mm) ( Figure 3A ), the metabolic activity of the lung cancer (SUVmax2.4) and the lesion at the right fibular head (SUVmax2.6) exhibited significant reduction on PET/CT imaging compared to the previous examination.\nOn June 15th, 2022, a thoracoscopic lobectomy with systematic lymph node dissection was performed on the upper lobe of the left lung. the postoperative diagnosis confirmed Stage IVB (ypT2aN0cM1b). The pathological result reveals pathological tumour regression grade 2 (TRG2, rare residual cancer). On July 26th, 2022, the patient underwent local radiotherapy for fibular metastasis. Follow-up examinations post-radiotherapy, including X-ray and MRI, indicated a decrease in the size of the lesion, measuring (15mm×17mm) ( Figures 3B, C ), with the patient experiencing complete pain relief. The RECIST evaluation indicates a Partial Response (PR). The patient has continued Osimertinib treatment following surgery and radiotherapy, with no progression observed to date. Subsequent monitoring, conducted over a period of approximately 34 months, in accordance with NCCN guidelines, revealed no recurrence or metastasis. The patient has generally adhered to medical advice, returning for regular follow-up visits approximately every 3 months.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39902235_tr.json",
+    "source_pmid": "39902235",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39902235_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:05:15",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Solitary fibular metastasis from lung adenocarcinoma with gene mutation: a case report",
+    "author": "Jiechen Chen; Ahmad Alkhatatbeh; Yinbing Lin; Xiaolin Lu; Bin Chen; Hongjiang Chen; Xiaohui Lu; Hansheng Wu; Jun Hu",
+    "date": "2025-01-20"
+  },
+  "rejection_reason": null
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: Transformation from adenocarcinoma to squamous cell lung carcinoma with MET amplification after lorlatinib resistance: A case report\nPMID: 33207094\nAuthors: Ueda S, Shukuya T, Hayashi T, et al.\n\nAbstract\nTo date, several studies have described the mechanism of resistance to first‐ or second‐generation anaplastic lymphoma kinase (ALK) inhibitors. Secondary ALK mutations, ALK gene amplification, and other bypass signal activations (i.e., KRAS mutation, EGFR mutation, amplification of KIT, and increased autophosphorylation of EGFR) are known as resistance mechanisms. However, little has been previously reported on acquired resistance mechanisms to lorlatinib. Here, we report a case of a patient with ALK‐positive lung adenocarcinoma that acquired resistance to lorlatinib during treatment for brain metastasis and showed histological transformation to squamous cell carcinoma with MET amplification. We also review the previous literature on the resistance mechanism to ALK inhibitors.\n\nCASE REPORT\nA 58‐year‐old female non‐smoker was diagnosed with clinical T1aN3M0 stage IIIB adenocarcinoma in 2011 (Figure 1(a), (b)). She subseqeuently received concurrent chemoradiotherapy (cisplatin plus vinorelbine with thoracic radiotherapy of 60 Gy in 30 fractions). Computed tomography (CT) showed a good partial response after three cycles of this regimen. However, grade 1 radiation pneumonitis was identified on CT, and further consolidation chemotherapy was eventually discontinued. Her lung cancer lesion and radiation pneumonitis were monitored with CT without any treatment. Four months later, radiation pneumonitis had improved on CT, but progressive disease was identified. She received 13 cycles of pemetrexed, five cycles of docetaxel, and six cycles of gemcitabine. Multiple brain metastases were identified on magnetic resonance imaging (MRI), and the lesions were treated with Gamma knife radiosurgery. Additionally, the test for ALK rearrangement, approved in Japan in 2012, was performed and her lung cancer specimen was found to have ALK rearrangement with fluorescence in situ hybridization (FISH); she subsequently received crizotinib as fifth‐line therapy for 21 months. Due to recurrence of thoracic lesions and brain metastases, she was treated with alectinib for 27 months, ceritinib for three months, three cycles of pemetrexed plus bevacizumab, and seven more courses of Gamma knife treatment. However, owing to the recurrence of brain metastases (Figure 2(a)), she received lorlatinib as ninth‐line treatment. Four months after initiation of lorlatinib, the brain metastases were under control (Figure 2(b)). During lorlatinib treatment, dose reduction and temporary drug discontinuation were required because of grade 3 edema and grade 2 peripheral sensory neuropathy. Six months after initiation of lorlatinib, she presented at our hospital with hemiparesis. Brain MRI showed an enlargement of the metastatic lesion in the right temporal lobe with severe parenchymal edema (Figure 2(c)). In order to relieve the patient's symptoms, we removed the tumor and the hemiparesis improved. A summary of the treatment course is shown in Figure 3.\nHistopathological review showed the cancer cells in the metastatic brain specimen had changed from adenocarcinoma to squamous cell lung carcinoma (Figure 1(c), (d)). Next‐generation sequencing (NGS) of 46 oncogenes was performed with Oncomine Dx Target Test (ThermoFisher Scientific), and it showed no secondary mutations of ALK or other driver oncogenes. Amplification of MET was evaluated with FISH in the samples at the time of diagnosis and after lorlatinib resistance (Figure 4(a), (b)). MET amplification was observed in some cells in the sample at the time of diagnosis, but MET amplification obviously increased in the sample after lorlatinib resistance.\nLorlatinib was resumed after brain tumor resection and continued until CNS progression was confirmed on brain MRI.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "33475256_tr.json",
+    "source_pmid": "33475256",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/33475256_tr.json",
+    "cleaning_timestamp": "2026-06-03T00:44:10",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Transformation from adenocarcinoma to squamous cell lung carcinoma with MET amplification after lorlatinib resistance: A case report",
+    "author": "Shoko Ueda; Takehito Shukuya; Takuo Hayashi; Mario Suzuki; Akihide Kondo; Yuta Arai; Tomohito Takeshige; Hironori Ninomiya; Kazuhisa Takahashi",
+    "date": "2021-01-21"
+  },
+  "rejection_reason": null
+}

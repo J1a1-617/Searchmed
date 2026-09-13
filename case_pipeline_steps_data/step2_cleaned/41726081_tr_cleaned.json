@@ -1,0 +1,28 @@
+{
+  "text": "Title: Sustained Complete Response to Brigatinib in a Young Patient With ALK‐Positive NSCLC Harboring I1171N Mutation Post‐Alectinib Resistance\nPMID: 7372418\nAuthors: Akhil Kapoor, Ajay Kumar Singh, Mahesh Chaudhary, Anuj Gupta, Bipinesh Sansar, Bal Krishna Mishra, Shashikant Patne, Arvind Suresh\n\nAbstract\nALK‐rearranged non–small cell lung cancer (NSCLC) represents a paradigm of precision oncology, but acquired resistance to second‐generation ALK tyrosine kinase inhibitors (TKIs) such as alectinib remains inevitable. We report a young, nonsmoker male with ALK‐positive metastatic NSCLC who achieved a sustained complete response (CR) to brigatinib following alectinib resistance mediated by the ALK I1171N mutation. After 22 months of response to alectinib, disease progression prompted repeat molecular profiling, which identified the I1171N alteration. Brigatinib was initiated, and a complete radiologic response was documented within 3 months and has been sustained for over 12 months, including durable intracranial disease control. Sustained CR in I1171N‐mediated alectinib resistance is rare and highlights the critical role of repeat molecular testing to guide ALK TKI sequencing.\n\n2. Case Presentation\nA 26‐year‐old nonsmoker male presented in late 2021 with cough and chest discomfort. Imaging demonstrated a left lung mass, mediastinal lymphadenopathy, and a single subcentimeter asymptomatic cerebral metastasis. Given the lesion size and risk of radionecrosis, upfront radiotherapy was deferred.\n\n3. Baseline Molecular Testing\nA plasma‐based liquid biopsy assessing EGFR, ALK, ROS1, and other alterations was negative. The patient received four cycles of ABCP (atezolizumab, bevacizumab, carboplatin, and paclitaxel), but follow‐up imaging showed progressive pulmonary disease.\n\n4. Tissue NGS Assessment\nA tissue rebiopsy followed by next‐generation sequencing (Illumina platform, mean target coverage > 350×; hybrid capture panel covering major oncogenic drivers) revealed an EML4–ALK fusion (Variant 3). The negative liquid biopsy was attributed to low tumor DNA shedding, a recognized limitation of plasma assays.\n\n5. First‐Line Targeted Therapy\nAlectinib was initiated in March 2022. Figure 1 summarizes the case timeline, molecular evolution, and treatment transitions. A partial radiologic response occurred within 3 months, with a 42% reduction in target lesion size (Figure 2). Disease control was maintained for 22 months, as evidenced by serial scans (Figure 3).\n\n6. Progression and Repeat Molecular Testing\nIn January 2024, imaging revealed progressive liver, nodal, and osseous lesions, while the brain remained stable. Repeat NGS (same platform and coverage) demonstrated the persistence of ALK fusion along with a newly acquired ALK I1171N mutation (VAF 24%). Brain MRI confirmed no intracranial progression. SRS/WBRT was not indicated.\n\n7. Brigatinib Therapy and Treatment Response\nBrigatinib was initiated in February 2024 (90 mg lead‐in ×7 days → 180 mg daily). Treatment was well tolerated, with only Grade 1 CPK elevation. Follow‐up PET‐CT at 12 weeks showed a complete metabolic response with an approximately 90% reduction in overall tumor size, including near‐complete resolution of hepatic, nodal, and osseous lesions. Serial imaging in August 2024 and March 2025 confirmed a sustained complete response, with persistent metabolic inactivity and stable intracranial disease.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41726081_tr.json",
+    "source_pmid": "41726081",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41726081_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:32:04",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Sustained Complete Response to Brigatinib in a Young Patient With ALK‐Positive NSCLC Harboring I1171N Mutation Post‐Alectinib Resistance",
+    "author": "Akhil Kapoor; Ajay Kumar Singh; Mahesh Chaudhary; Anuj Gupta; Bipinesh Sansar; Bal Krishna Mishra; Shashikant Patne; Arvind Suresh",
+    "date": "2026-02-19"
+  },
+  "rejection_reason": null
+}

@@ -1,0 +1,114 @@
+{
+  "provenance": {
+    "source_filename": "41050402_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 45,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT2N2M0",
+    "overall_stage": "III",
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK fusion (E6:A20)",
+          "TP53 mutation"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "ensartinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "ensartinib": null
+        }
+      },
+      "response": {
+        "best": "MPR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": null,
+      "event_type": "surgery + assessment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [],
+        "type": null,
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "subsequent",
+        "regimen": [
+          "lorlatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "lorlatinib": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 3 cutaneous toxicity"
+        ],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "ALK-positive lung adenocarcinoma responsive to ensartinib",
+      "Major pathological response achieved after neoadjuvant therapy",
+      "Postoperative drug-refractory grade 3 cutaneous toxicity",
+      "Switch to lorlatinib resulted in resolution of toxicity and sustained disease control"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

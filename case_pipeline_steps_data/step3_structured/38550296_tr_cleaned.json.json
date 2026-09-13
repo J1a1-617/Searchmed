@@ -1,0 +1,198 @@
+{
+  "provenance": {
+    "source_filename": "38550296_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 70,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "dyspnea",
+      "bone pain"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pleura",
+      "bone"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "MET exon 14 skipping mutation"
+        ],
+        "sample": "pleural fluid"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pembrolizumab"
+        ],
+        "type": "immunotherapy",
+        "dosage": {
+          "pembrolizumab": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "pemetrexed": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET exon 14 skipping mutation"
+        ],
+        "emergent": [
+          "CCDC6 exon 1-RET exon 12 fusion"
+        ],
+        "sample": "right middle lobe lesion"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "capmatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "capmatinib": "400 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "gemcitabine",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "gemcitabine": null,
+          "carboplatin": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 5
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "selpercatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "selpercatinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "tepotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "tepotinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "30 months",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "8L",
+        "regimen": [
+          "cabozantinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "cabozantinib": "40 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4.5
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 4.5,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient had MET exon 14 skipping mutation and emergent RET fusion",
+      "Cabozantinib showed rapid clinical and radiologic benefit",
+      "Patient had multiple lines of therapy with progression"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

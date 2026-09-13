@@ -1,0 +1,140 @@
+{
+  "provenance": {
+    "source_filename": "36800249_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 69,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "dyspnea",
+      "cough"
+    ],
+    "diagnosis_date": "2021-05",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "T2bN2M0 IIIA",
+    "overall_stage": "III",
+    "baseline_primary_site": "right middle lobe",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2021-05",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion",
+          "TP53 mutation"
+        ],
+        "abundance": {
+          "EGFR": "33.5",
+          "TP53": "14"
+        },
+        "sample": "lung biopsy"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2021-05",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2021-06",
+      "event_type": "adverse_event + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "levofloxacin",
+          "trimetazidine",
+          "vitamin C"
+        ],
+        "type": "supportive",
+        "dosage": null
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "myocardial damage",
+          "pulmonary hypertension",
+          "pulmonary edema"
+        ]
+      }
+    },
+    {
+      "time": "2021-06",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "aumolertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "aumolertinib": "110 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": "2021-10",
+      "event_type": "surgery + outcome",
+      "molecular": null,
+      "treatment": {
+        "line": "surgery",
+        "regimen": [
+          "thoracoscopic radical resection"
+        ],
+        "type": "surgical",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2021-10"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Successful neoadjuvant therapy with aumolertinib after osimertinib-induced myocardial damage",
+      "EGFR exon 19 deletion combined with TP53 mutation",
+      "Marked improvement in symptoms and lung lesions after aumolertinib treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41053251_tr.json",
+    "source_pmid": "41053251",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41053251_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:04:12",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Prognostic and predictive implications of tumor suppressor gene alterations in non-small cell lung cancer",
+    "author": "Marco Sposito; Lorenzo Belluomini; Riccardo Nocini; Jessica Insolda; Ilaria Mariangela Scaglione; Jessica Menis; Michele Simbolo; Antonio Lugini; Federica Buzzacchino; Francesco Verderame; Francesca Spinnato; Giuseppe Aprile; Lorenzo Calvetti; Mario Occhipinti; Daniele Marinelli; Antonello Veccia; Fiorella Lombardo; Hector José Soto Parra; Francesco Ferraù; Clementina Savastano; Camilla Porta; Lorenzo Pradelli; Emilia Sicari; Silvia Castellani; Umberto Malapelle; Francesco Passiglia; Emilio Bria; Sara Pilotto; Michele Milella",
+    "date": "2025-10-06"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

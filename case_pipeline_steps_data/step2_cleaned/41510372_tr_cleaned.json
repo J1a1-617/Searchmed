@@ -1,0 +1,28 @@
+{
+  "text": "Title: Diagnostic Challenges in Distinguishing Drug-Induced Toxicity from Systemic Amyloidosis in a Patient with Lung Adenocarcinoma\nPMID: \nAuthors: \n\nAbstract\nBackground\nTargeted therapies such as epidermal growth factor receptor (EGFR)-tyrosine kinase inhibitors (TKIs) have transformed the treatment of EGFR-mutant lung adenocarcinoma. However, distinguishing TKI-related adverse effects from coexisting systemic diseases can be challenging, especially when symptoms mimic known drug toxicities. Amyloidosis, a rare but serious condition characterized by abnormal protein deposition, may present with cardiac and renal dysfunction-features that overlap with reported toxicities of EGFR-TKIs. Early recognition and differentiation between drug-induced toxicity and systemic diseases like amyloidosis are crucial for accurate diagnosis and timely intervention.\n\nCase Description\nA 67-year-old East Asian female with EGFR-mutant lung adenocarcinoma was treated with the first-generation EGFR-TKI gefitinib for five years following recurrence after surgery. She was subsequently switched to osimertinib, a third-generation EGFR-TKI, after identification of the T790M resistance mutation. Fifteen months after initiating osimertinib, she developed generalized edema, nephrotic-range proteinuria, and cardiac dysfunction. Initial assessments suggested drug-induced toxicity. Osimertinib was discontinued for several weeks, leading to a reduction in proteinuria without evidence of lung cancer progression. Given these findings, the treatment was cautiously switched to lazertinib. However, renal function deteriorated again shortly thereafter, necessitating the discontinuation of lazertinib as well. Kidney biopsy subsequently revealed amyloidosis with lambda light chain predominance, ultimately requiring hemodialysis. This case highlights the complexity of distinguishing drug-induced toxicity from unrelated but coexisting systemic diseases. While osimertinib-related cardiotoxicity is well recognized, the delayed onset of symptoms and lack of improvement with drug cessation suggested an alternative etiology. Biopsy-proven amyloidosis emphasized the need for thorough evaluation when clinical findings are atypical. Also, whole genome sequencing (WGS) could be helpful to distinguish drug toxicity from disease-related pathology.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41510372_tr.json",
+    "source_pmid": "41510372",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41510372_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:21:42",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Diagnostic challenge of systemic amyloidosis mimicking EGFR-TKI toxicity in lung adenocarcinoma: a case report",
+    "author": "So-yun Kim; Hyeong Seok Kang; Joo-Eun Lee; Hyun-Yi Kim; Min-Kyung Yeo; Chaeuk Chung",
+    "date": "2025-12-29"
+  },
+  "rejection_reason": null
+}

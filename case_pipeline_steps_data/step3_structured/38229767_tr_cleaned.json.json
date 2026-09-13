@@ -1,0 +1,196 @@
+{
+  "provenance": {
+    "source_filename": "38229767_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 16,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "dyspnea"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT3N0M1a",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "right pleural effusion",
+      "pericardial effusion"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "nab-paclitaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "nab-paclitaxel": null
+        }
+      },
+      "response": null
+    },
+    {
+      "time": null,
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ALK positive"
+        ],
+        "sample": "formalin-fixed, paraffin-embedded tumor sections"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "alectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "alectinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "lorlatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "lorlatinib": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "HIP1-ALK fusion",
+          "BRAF V600E",
+          "V1180L"
+        ],
+        "sample": "pericardial effusion"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "dabrafenib",
+          "trametinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "dabrafenib": null,
+          "trametinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "carboplatin",
+          "paclitaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "paclitaxel": null
+        }
+      },
+      "response": null
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "bevacizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "pemetrexed": null,
+          "bevacizumab": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "7L",
+        "regimen": [
+          "brigatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "brigatinib": null
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "HIP1-ALK rearrangement in lung adenocarcinoma",
+      "BRAF V600E and V1180L mutations acquired after ALK TKI therapy",
+      "Brigatinib effective after cytotoxic chemotherapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

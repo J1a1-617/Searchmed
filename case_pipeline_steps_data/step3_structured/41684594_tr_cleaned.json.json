@@ -1,0 +1,122 @@
+{
+  "provenance": {
+    "source_filename": "41684594_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 51,
+    "sex": "male",
+    "smoking_status": "current_smoker",
+    "pack_years": 30,
+    "presenting_symptoms": [
+      "chest pain",
+      "productive cough",
+      "hemoptysis"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "SMARCA4-deficient lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT2bN2M1",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "CTNND2-ALK",
+          "EML4-ALK",
+          "TP53 p.R273L"
+        ],
+        "sample": "FFPE tumor tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "whole-brain radiotherapy"
+        ],
+        "type": "chemotherapy + radiotherapy",
+        "dosage": {
+          "carboplatin": "AUC 5",
+          "pemetrexed": "500 mg/m²",
+          "radiotherapy": "30 Gy/10 fractions"
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": null,
+      "event_type": "treatment + molecular",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "ceritinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "ceritinib": "750 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      },
+      "safety": {
+        "adverse_events": [],
+        "dose_adjustments": []
+      }
+    },
+    {
+      "time": null,
+      "event_type": "follow-up",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "ceritinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "ceritinib": "750 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 9
+      },
+      "safety": {
+        "adverse_events": [],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 24,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Novel CTNND2-ALK/EML4-ALK double-fusion identified in SMARCA4-deficient NSCLC",
+      "Efficacy of ceritinib demonstrated in the treatment of advanced disease",
+      "Significant reduction in tumor size and complete remission of brain metastasis"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

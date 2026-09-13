@@ -1,0 +1,4620 @@
+[
+  {
+    "mutation": "A871G",
+    "drugs": [
+      "erlotinib"
+    ]
+  },
+  {
+    "mutation": "AKT1 E17K",
+    "drugs": [
+      "anlotinib",
+      "carboplatin",
+      "etoposide",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "AKT2",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "ALK",
+    "drugs": [
+      "nedaplatin",
+      "paclitaxel"
+    ]
+  },
+  {
+    "mutation": "ALK (-)",
+    "drugs": [
+      "cisplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "ALK F1174L",
+    "drugs": [
+      "almonertinib"
+    ]
+  },
+  {
+    "mutation": "ALK I1171N",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "ALK I1171N mutation (VAF 24%)",
+    "drugs": [
+      "brigatinib"
+    ]
+  },
+  {
+    "mutation": "ALK I1171T",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "ALK L1196M",
+    "drugs": [
+      "ensartinib"
+    ]
+  },
+  {
+    "mutation": "ALK expression detected",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "ALK fusion",
+    "drugs": [
+      "alectinib",
+      "bevacizumab",
+      "cisplatin",
+      "liposomal paclitaxel",
+      "pembrolizumab"
+    ]
+  },
+  {
+    "mutation": "ALK inversion",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "ALK p.D1203 N",
+    "drugs": [
+      "lorlatinib"
+    ]
+  },
+  {
+    "mutation": "ALK p.G1269A",
+    "drugs": [
+      "lorlatinib"
+    ]
+  },
+  {
+    "mutation": "ALK p.L1122V",
+    "drugs": [
+      "lorlatinib"
+    ]
+  },
+  {
+    "mutation": "ALK p.L1196 M",
+    "drugs": [
+      "lorlatinib"
+    ]
+  },
+  {
+    "mutation": "ALK positive",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "ALK rearrangement",
+    "drugs": [
+      "Nedaplatin",
+      "TGRX-326",
+      "alectinib",
+      "cisplatin",
+      "crizotinib",
+      "pemetrexed",
+      "radiotherapy",
+      "thoracic radiotherapy",
+      "vinorelbine"
+    ]
+  },
+  {
+    "mutation": "ALK-ARHGAP10 rearrangement",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "ALK-EML4 fusion",
+    "drugs": [
+      "alectinib",
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "ALK-EML4 rearrangement",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "ALK-RNF144A fusion",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "ALK-fusion",
+    "drugs": [
+      "Alectinib"
+    ]
+  },
+  {
+    "mutation": "ALK-negative",
+    "drugs": [
+      "radiotherapy"
+    ]
+  },
+  {
+    "mutation": "ALK:p.L1196M",
+    "drugs": [
+      "brigatinib"
+    ]
+  },
+  {
+    "mutation": "ALK:p.V1180L",
+    "drugs": [
+      "ceritinib"
+    ]
+  },
+  {
+    "mutation": "ALK–EML4/KIF5B fusion (V3a/b)",
+    "drugs": [
+      "cisplatin",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "APC c.1495C>T p.(R499*)",
+    "drugs": [
+      "radiotherapy"
+    ]
+  },
+  {
+    "mutation": "APC c.3859del p.I1287*",
+    "drugs": [
+      "surgical resection"
+    ]
+  },
+  {
+    "mutation": "AR Y572C",
+    "drugs": [
+      "SBRT",
+      "sotorasib"
+    ]
+  },
+  {
+    "mutation": "ARL1-MET fusion",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "ATM I2888T",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "ATM mutations",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "ATM p.E1724*",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "ATRX",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "BCL2L2 amplification",
+    "drugs": [
+      "VP16",
+      "carboplatin",
+      "radiotherapy"
+    ]
+  },
+  {
+    "mutation": "BRAF (non-V600E)",
+    "drugs": [
+      "nedaplatin",
+      "paclitaxel",
+      "tislelizumab"
+    ]
+  },
+  {
+    "mutation": "BRAF A598_T599insV mutation",
+    "drugs": [
+      "BRAF inhibitors",
+      "MEK inhibitors"
+    ]
+  },
+  {
+    "mutation": "BRAF G466A",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "BRAF L597Q",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "BRAF V600E",
+    "drugs": [
+      "Dabrafenib",
+      "Osimertinib",
+      "Trametinib",
+      "alectinib",
+      "aumolertinib",
+      "bevacizumab",
+      "carboplatin",
+      "cetuximab",
+      "dabrafenib",
+      "erlotinib",
+      "lorlatinib",
+      "osimertinib",
+      "pemetrexed",
+      "tepotinib",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "BRAF V600E mutation",
+    "drugs": [
+      "osimertinib",
+      "selpercatinib",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "BRAF amplification",
+    "drugs": [
+      "docetaxel",
+      "osimertinib",
+      "surgical resection"
+    ]
+  },
+  {
+    "mutation": "BRAFV600E",
+    "drugs": [
+      "dabrafenib",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "BRAFV600E 14.79%",
+    "drugs": [
+      "dabrafenib",
+      "lorlatinib"
+    ]
+  },
+  {
+    "mutation": "BRCA mutation",
+    "drugs": [
+      "bevacizumab",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "BRCA2 mutation",
+    "drugs": [
+      "carboplatin",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "BRIP1 S1162*",
+    "drugs": [
+      "dabrafenib",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "BTN2A1-BRAF fusion",
+    "drugs": [
+      "duvalizumab"
+    ]
+  },
+  {
+    "mutation": "BUBIB-ALK rearrangement",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "C-MET amplification",
+    "drugs": [
+      "cabozantinib",
+      "crizotinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "CCDC6-RET fusion",
+    "drugs": [
+      "bevacizumab",
+      "cabozantinib",
+      "gemcitabine",
+      "osimertinib",
+      "paclitaxel",
+      "pralsetinib",
+      "selpercatinib",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "CCDC6-RET fusion (CCDC6 exon 1-RET exon 12)",
+    "drugs": [
+      "osimertinib",
+      "selpercatinib"
+    ]
+  },
+  {
+    "mutation": "CCDC6::RET",
+    "drugs": [
+      "everolimus",
+      "vandetinib"
+    ]
+  },
+  {
+    "mutation": "CCNE1 amplification",
+    "drugs": [
+      "bevacizumab",
+      "chemotherapy",
+      "etoposide",
+      "osimertinib",
+      "radiation therapy"
+    ]
+  },
+  {
+    "mutation": "CD47-MET fusion",
+    "drugs": [
+      "albumin paclitaxel",
+      "bevacizumab",
+      "cabozantinib",
+      "capmatinib",
+      "carboplatin",
+      "chemotherapy",
+      "pembrolizumab",
+      "pemetrexed",
+      "savolitinib"
+    ]
+  },
+  {
+    "mutation": "CD47-MET rearrangement",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "CD74:exon6 ~ ROS1: exon 35 fusion",
+    "drugs": [
+      "entrectinib"
+    ]
+  },
+  {
+    "mutation": "CDK12 amplification",
+    "drugs": [
+      "afatinib",
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "CDK4 amplification",
+    "drugs": [
+      "afatinib",
+      "osimertinib",
+      "palbociclib",
+      "savolitinib"
+    ]
+  },
+  {
+    "mutation": "CDK6 amplification",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "CDK6 c.112C>G (p.R38G)",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "CDKN2A copy number loss",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "CDKN2A deletion",
+    "drugs": [
+      "carboplatin",
+      "etoposide",
+      "toripalimab"
+    ]
+  },
+  {
+    "mutation": "CDKN2A exon 2 p.His83Tyr",
+    "drugs": [
+      "abemaciclib",
+      "anlotinib"
+    ]
+  },
+  {
+    "mutation": "CDKN2A/B loss",
+    "drugs": [
+      "alectinib",
+      "thoracoscopic radical resection"
+    ]
+  },
+  {
+    "mutation": "CHEK1",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "CTNNA1-BRAF fusion",
+    "drugs": [
+      "osimertinib",
+      "pemetrexed",
+      "platinum-pemetrexed chemotherapy",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "CTNND2-ALK",
+    "drugs": [
+      "carboplatin",
+      "pemetrexed",
+      "whole-brain radiotherapy"
+    ]
+  },
+  {
+    "mutation": "CUL3",
+    "drugs": [
+      "gefitinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "DCTN1-ALK fusion",
+    "drugs": [
+      "alectinib",
+      "capecitabine",
+      "oxaliplatin",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "DNMT1",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "E701fs",
+    "drugs": [
+      "carboplatin",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "E709G",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "EGFR",
+    "drugs": [
+      "cisplatin",
+      "paclitaxel"
+    ]
+  },
+  {
+    "mutation": "EGFR (+)",
+    "drugs": [
+      "cisplatin",
+      "etoposide"
+    ]
+  },
+  {
+    "mutation": "EGFR (-)",
+    "drugs": [
+      "cisplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR 1744V",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR 19 E746_A750del(1)",
+    "drugs": [
+      "furmonertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR 19 deletion",
+    "drugs": [
+      "anlotinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR 19 exon deletion",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR 19-Del",
+    "drugs": [
+      "icotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR 19-exon deletion mutation",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR 19Del",
+    "drugs": [
+      "ametinib",
+      "bevacizumab",
+      "icotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR 19Del L747-A755delinsSKD",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR 19del",
+    "drugs": [
+      "adebrelimab",
+      "alectinib",
+      "aumolertinib",
+      "bevacizumab",
+      "cabozantinib",
+      "capmatinib",
+      "cisplatin",
+      "crizotinib",
+      "etoposide",
+      "gefitinib",
+      "larotrectinib",
+      "osimertinib",
+      "pemetrexed",
+      "pralsetinib"
+    ]
+  },
+  {
+    "mutation": "EGFR 19del (p.Leu747_Thr751del)",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR 19ins",
+    "drugs": [
+      "cisplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR A763_Y764insFQEA",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR A767_V769dup",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR A871E",
+    "drugs": [
+      "EGFR TKIs",
+      "chemotherapy",
+      "immunotherapy",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR C797G",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "EGFR C797S",
+    "drugs": [
+      "afatinib",
+      "bevacizumab",
+      "cabozantinib",
+      "gefitinib",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR DEL",
+    "drugs": [
+      "EGFR-TKI",
+      "chemotherapy"
+    ]
+  },
+  {
+    "mutation": "EGFR Del19",
+    "drugs": [
+      "BPI-9016",
+      "Gumarontinib",
+      "Osimertinib",
+      "c-MET inhibitor",
+      "cisplatin",
+      "crizotinib",
+      "gefitinib",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR E19 mutation",
+    "drugs": [
+      "carboplatin",
+      "crizotinib",
+      "gefitinib",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR E19del",
+    "drugs": [
+      "carboplatin",
+      "icotinib",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR E709K",
+    "drugs": [
+      "left ophthalmectomy"
+    ]
+  },
+  {
+    "mutation": "EGFR E746_750 deletion",
+    "drugs": [
+      "afatinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR E746_A750del",
+    "drugs": [
+      "cabozantinib",
+      "carboplatin",
+      "crizotinib",
+      "gefitinib",
+      "osimertinib",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR EX20 p.T790M",
+    "drugs": [
+      "Osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR EX21 p.L858R",
+    "drugs": [
+      "Icotinib",
+      "Osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR EX7 p.A289V",
+    "drugs": [
+      "Icotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR Ex.19 deletion (p.E746_A750del)",
+    "drugs": [
+      "cisplatin",
+      "etoposide",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR Ex19del",
+    "drugs": [
+      "carboplatin",
+      "glumetinib",
+      "osimertinib",
+      "paclitaxel",
+      "selpercatinib",
+      "sunvozertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR Ex21 L858R",
+    "drugs": [
+      "bevacizumab",
+      "carboplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR Exon 19del",
+    "drugs": [
+      "anlotinib",
+      "carboplatin",
+      "etoposide",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR G719A",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "EGFR G719C",
+    "drugs": [
+      "afatinib",
+      "carboplatin",
+      "furmonertinib",
+      "pemetrexed",
+      "savolitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR G719C in exon 18",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "EGFR G719S",
+    "drugs": [
+      "erlotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR G719X",
+    "drugs": [
+      "SRT",
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "EGFR G796C",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR Glu 757-Ala 750 deletion",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR L718Q",
+    "drugs": [
+      "afatinib",
+      "bevacizumab",
+      "dacomitinib",
+      "osimertinib",
+      "osimertinib + erlotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR L718V",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "EGFR L747P",
+    "drugs": [
+      "afatinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR L747_A750delinsP",
+    "drugs": [
+      "erlotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR L792H",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "EGFR L799Q",
+    "drugs": [
+      "bevacizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR L833V",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR L858 mutation",
+    "drugs": [
+      "bevacizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR L858M",
+    "drugs": [
+      "afatinib",
+      "anlotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR L858R",
+    "drugs": [
+      "EGFR TKIs",
+      "Furmonertinib",
+      "Osimertinib",
+      "S-1",
+      "SBRT",
+      "Savolitinib",
+      "Tarceva",
+      "afatinib",
+      "almonertinib",
+      "anlotinib",
+      "aumolertinib",
+      "bevacizumab",
+      "carboplatin",
+      "chemotherapy",
+      "cisplatin",
+      "crizotinib",
+      "dabrafenib",
+      "erlotinib",
+      "etoposide",
+      "gefitinib",
+      "icotinib",
+      "immunotherapy",
+      "left ophthalmectomy",
+      "lymph node dissection",
+      "methotrexate",
+      "nab-paclitaxel",
+      "nedaplatin",
+      "osimertinib",
+      "oxitinib",
+      "pemetrexed",
+      "pyrotinib",
+      "radiation",
+      "ramucirumab",
+      "right upper lobectomy",
+      "ruthenium small-beam radiation",
+      "savolitinib",
+      "serplulimab",
+      "stereotactic irradiation",
+      "stereotactic radiation",
+      "tepotinib",
+      "trametinib",
+      "whole brain radiation",
+      "zoledronate"
+    ]
+  },
+  {
+    "mutation": "EGFR L858R (MAF 0.59%)",
+    "drugs": [
+      "ipilimumab",
+      "nivolumab"
+    ]
+  },
+  {
+    "mutation": "EGFR L858R T790M mutation",
+    "drugs": [
+      "oxitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR L858R mutation",
+    "drugs": [
+      "etoposide",
+      "netaplatin"
+    ]
+  },
+  {
+    "mutation": "EGFR L858R/T790M",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR L861Q",
+    "drugs": [
+      "SRT",
+      "afatinib",
+      "anlotinib",
+      "carboplatin",
+      "crizotinib",
+      "docetaxel",
+      "furmonertinib",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR L861R",
+    "drugs": [
+      "afatinib",
+      "anlotinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR R776H",
+    "drugs": [
+      "almonertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR S768I",
+    "drugs": [
+      "afatinib",
+      "carboplatin",
+      "furmonertinib",
+      "paclitaxel albumin",
+      "pembrolizumab",
+      "pemetrexed",
+      "savolitinib",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "EGFR S784Y",
+    "drugs": [
+      "bevacizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR T263P",
+    "drugs": [
+      "lobaplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR T790 M in blood",
+    "drugs": [
+      "crizotinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR T790M",
+    "drugs": [
+      "SBRT",
+      "ametinib",
+      "aumolertinib",
+      "bevacizumab",
+      "carboplatin",
+      "chemotherapy",
+      "cisplatin",
+      "osimertinib",
+      "osimertinib + erlotinib",
+      "paclitaxel",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR T790M mutation",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR V689L",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "EGFR V774M",
+    "drugs": [
+      "carboplatin",
+      "paclitaxel albumin",
+      "pembrolizumab",
+      "pemetrexed",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "EGFR V786M",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR V802F",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "EGFR alterations",
+    "drugs": [
+      "osimertinib",
+      "selpercatinib",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "EGFR amplification",
+    "drugs": [
+      "Icotinib",
+      "afatinib",
+      "anlotinib",
+      "aumolertinib",
+      "bevacizumab",
+      "cabozantinib",
+      "gefitinib",
+      "gemcitabine",
+      "larotrectinib",
+      "osimertinib",
+      "paclitaxel",
+      "pemetrexed",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "EGFR amplified",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR c.2154_2155delinsTT (p.G719C)",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR c.2236_2250del (p.E746_A750del)",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR c.2240T>C (p.L747S)",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR c.2573T>G p.(L858R)",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR cis-C797S",
+    "drugs": [
+      "ametinib",
+      "bevacizumab"
+    ]
+  },
+  {
+    "mutation": "EGFR copy number amplification",
+    "drugs": [
+      "icotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR del19",
+    "drugs": [
+      "VP16",
+      "carboplatin",
+      "radiotherapy"
+    ]
+  },
+  {
+    "mutation": "EGFR deletion in exon 19",
+    "drugs": [
+      "dacomitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR ex19del",
+    "drugs": [
+      "afatinib",
+      "crizotinib",
+      "erlotinib",
+      "gefitinib",
+      "zoledronic acid"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 18 deletion-insertion",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 18 p.E709K",
+    "drugs": [
+      "ameritinib",
+      "bevacizumab",
+      "cisplatin",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 18–25 duplication",
+    "drugs": [
+      "afatinib",
+      "zoledronic acid"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 (E746_A750del)",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 deletion",
+    "drugs": [
+      "Erlotinib",
+      "Gefitinib",
+      "Osimertinib",
+      "afatinib",
+      "alectinib",
+      "almonertinib",
+      "apixaban",
+      "bevacizumab",
+      "carboplatin",
+      "chemotherapy",
+      "cisplatin",
+      "crizotinib",
+      "denosumab",
+      "docetaxel",
+      "erlotinib",
+      "furmonertinib",
+      "gefitinib",
+      "icotinib",
+      "irinotecan",
+      "nab-paclitaxel",
+      "osimertinib",
+      "palliative radiotherapy",
+      "pembrolizumab",
+      "pemetrexed",
+      "radiation therapy",
+      "tepotinib",
+      "third-generation EGFR-TKI",
+      "wedge resection"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 deletion (19del)",
+    "drugs": [
+      "furmonertinib",
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 deletion (E746_A750del)",
+    "drugs": [
+      "carboplatin",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 deletion (Ex19del)",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 deletion (L747-A750>P)",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 deletion (c.2236_2250del)",
+    "drugs": [
+      "carboplatin",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 deletion (ex19del)",
+    "drugs": [
+      "carboplatin",
+      "erlotinib",
+      "etoposide",
+      "gefitinib",
+      "icotinib",
+      "irinotecan",
+      "nedaplatin",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 deletion (p. E746_T751del)",
+    "drugs": [
+      "whole brain radiation therapy"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 deletion (p.E746-750delELREA)",
+    "drugs": [
+      "almonertinib",
+      "icotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 deletion (p.E746_A750del)",
+    "drugs": [
+      "entrectinib",
+      "erlotinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 deletion (p.Glu746_Ala750del)",
+    "drugs": [
+      "carboplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 deletion (p.Glu746_Thr751delinsIleAla)",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 deletion detected in resected tumor",
+    "drugs": [
+      "robot-assisted right upper lobectomy"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 deletion-insertion mutation (c.2237_2255delinsT; p.E746_S752delinsV)",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 insertion",
+    "drugs": [
+      "carboplatin",
+      "osimertinib",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 mutation",
+    "drugs": [
+      "icotinib",
+      "nedaplatin",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 mutation (p.E746_S752delinsV)",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 p.E746_A750del",
+    "drugs": [
+      "Osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 p.E746_S752delinsV",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19 p.Glu746_Ala750 deletion",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19-del mutation",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 19del",
+    "drugs": [
+      "dabrafenib",
+      "nedaplatin",
+      "osimertinib",
+      "pemetrexed",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 20 C797S",
+    "drugs": [
+      "Cabozantinib",
+      "Osimertinib",
+      "brigatinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 20 T790M",
+    "drugs": [
+      "ensartinib",
+      "furmonertinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 20 p.C797S",
+    "drugs": [
+      "platinum doublet chemotherapy"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 21 L858R",
+    "drugs": [
+      "Cabozantinib",
+      "Furmonertinib",
+      "Osimertinib",
+      "Osimertinib (double dose)",
+      "Savolitinib",
+      "bevacizumab",
+      "cisplatin",
+      "ensartinib",
+      "gefitinib",
+      "icotinib",
+      "lazertinib",
+      "osimertinib",
+      "pemetrexed",
+      "right upper lobectomy",
+      "systematic lymph node dissection"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 21 T854A",
+    "drugs": [
+      "Cabozantinib",
+      "Osimertinib",
+      "Osimertinib (double dose)"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 21 V831H",
+    "drugs": [
+      "almonertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 21 V834L",
+    "drugs": [
+      "Cabozantinib",
+      "Osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 21 deletion",
+    "drugs": [
+      "EGFR-TKIs"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 21 far-loop insertion",
+    "drugs": [
+      "bevacizumab",
+      "pemetrexed-carboplatin"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 21 mutation",
+    "drugs": [
+      "certolizumab",
+      "osimertinib",
+      "savolitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 21 mutation (L858R)",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 21 mutation (c.2573 T>G, p.Leu858Arg 10.5%)",
+    "drugs": [
+      "lobaplatin",
+      "pemetrexed",
+      "tislelizumab"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 21 p.L858R",
+    "drugs": [
+      "ameritinib",
+      "bevacizumab",
+      "cisplatin",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR exon 21, p.L858R mutation",
+    "drugs": [
+      "Crizotinib",
+      "Gefitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon18 G719X",
+    "drugs": [
+      "icotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon20 S768I T790M",
+    "drugs": [
+      "icotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon20 T790M negative",
+    "drugs": [
+      "bevacizumab",
+      "carboplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EGFR exon20 p.A763V",
+    "drugs": [
+      "Osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR exon20p.T790M",
+    "drugs": [
+      "icotinib",
+      "irinotecan",
+      "nedaplatin"
+    ]
+  },
+  {
+    "mutation": "EGFR exon21 L816Q L858R",
+    "drugs": [
+      "icotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR gene 21 exon L858R",
+    "drugs": [
+      "Ectinib"
+    ]
+  },
+  {
+    "mutation": "EGFR gene copy number gain",
+    "drugs": [
+      "Repotrectinib"
+    ]
+  },
+  {
+    "mutation": "EGFR mutation",
+    "drugs": [
+      "chemotherapy",
+      "erlotinib",
+      "furmonertinib",
+      "gefitinib",
+      "icotinib",
+      "osimertinib",
+      "pirfenidone"
+    ]
+  },
+  {
+    "mutation": "EGFR mutation positive",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR mutations",
+    "drugs": [
+      "Osimertinib",
+      "crizotinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR p.A10V",
+    "drugs": [
+      "pyrotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR p.C797S",
+    "drugs": [
+      "icotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR p.E709A",
+    "drugs": [
+      "cisplatin",
+      "irinotecan hydrochloride"
+    ]
+  },
+  {
+    "mutation": "EGFR p.G719C",
+    "drugs": [
+      "Afatinib",
+      "Albumin-bound paclitaxel",
+      "Cisplatin",
+      "Sintilimab"
+    ]
+  },
+  {
+    "mutation": "EGFR p.G719S",
+    "drugs": [
+      "albumin-paclitaxel",
+      "carboplatin",
+      "tislelizumab"
+    ]
+  },
+  {
+    "mutation": "EGFR p.G719X (c.2155G>T, p.Gly719Cys)",
+    "drugs": [
+      "befotertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR p.H835L",
+    "drugs": [
+      "furmonertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR p.L746_A750del",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "EGFR p.L833V",
+    "drugs": [
+      "furmonertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR p.L858R",
+    "drugs": [
+      "Almonertinib",
+      "Carboplatin",
+      "Pemetrexed",
+      "Sintilimab",
+      "cisplatin",
+      "firmonertinib",
+      "irinotecan hydrochloride",
+      "nab-paclitaxel",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR p.R962H",
+    "drugs": [
+      "pyrotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR p.S768I",
+    "drugs": [
+      "IPHC",
+      "Osimertinib",
+      "albumin-paclitaxel",
+      "carboplatin",
+      "cisplatin",
+      "tislelizumab"
+    ]
+  },
+  {
+    "mutation": "EGFR p.S768I (c.2303G>T, p.Ser768Ile)",
+    "drugs": [
+      "befotertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR p.S768_D770dup",
+    "drugs": [
+      "albumin-bound paclitaxel",
+      "cisplatin"
+    ]
+  },
+  {
+    "mutation": "EGFR p.T1029M",
+    "drugs": [
+      "pyrotinib"
+    ]
+  },
+  {
+    "mutation": "EGFR p.T790M",
+    "drugs": [
+      "Almonertinib",
+      "Carboplatin",
+      "Pemetrexed",
+      "Sintilimab",
+      "bevacizumab",
+      "cisplatin",
+      "firmonertinib",
+      "icotinib",
+      "nab-paclitaxel",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR p.Thr751_Thr759delinsAsn",
+    "drugs": [
+      "Osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR p.V774M",
+    "drugs": [
+      "bevacizumab",
+      "furmonertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR positive",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR wild-type",
+    "drugs": [
+      "Nedaplatin",
+      "pemetrexed",
+      "radiotherapy"
+    ]
+  },
+  {
+    "mutation": "EGFR-19 del",
+    "drugs": [
+      "Dabrafenib",
+      "Osimertinib",
+      "Trametinib"
+    ]
+  },
+  {
+    "mutation": "EGFR-KDD",
+    "drugs": [
+      "afatinib",
+      "crizotinib",
+      "furmonertinib",
+      "osimertinib",
+      "palbociclib"
+    ]
+  },
+  {
+    "mutation": "EGFR-RAD51 fusion",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR-T790M mutation",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR18-G719X",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "EGFR19 mutation",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR19ins",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "EGFR20ins (p.p772_H773insPHP)",
+    "drugs": [
+      "furmonertinib"
+    ]
+  },
+  {
+    "mutation": "EGFR21 L858R",
+    "drugs": [
+      "cisplatin",
+      "docetaxel",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "EML-ALK fusion",
+    "drugs": [
+      "lorlatinib"
+    ]
+  },
+  {
+    "mutation": "EML4-ALK",
+    "drugs": [
+      "bevacizumab",
+      "carboplatin",
+      "cisplatin",
+      "crizotinib",
+      "pemetrexed",
+      "whole-brain radiotherapy"
+    ]
+  },
+  {
+    "mutation": "EML4-ALK (E13A20)",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "EML4-ALK (E6:A20)",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "EML4-ALK V3",
+    "drugs": [
+      "ensartinib",
+      "lorlatinib",
+      "pembrolizumab"
+    ]
+  },
+  {
+    "mutation": "EML4-ALK fusion",
+    "drugs": [
+      "alectinib",
+      "almonertinib",
+      "brigatinib",
+      "cisplatin",
+      "crizotinib",
+      "ensartinib",
+      "immunotherapy",
+      "lorlatinib",
+      "pemetrexed",
+      "platinum-based chemotherapy",
+      "依托泊苷",
+      "卡铂",
+      "斯鲁利单抗",
+      "阿来替尼"
+    ]
+  },
+  {
+    "mutation": "EML4-ALK fusion (E6:A20)",
+    "drugs": [
+      "ensartinib"
+    ]
+  },
+  {
+    "mutation": "EML4-ALK fusion (v3)",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "EML4-ALK fusion (variant 1)",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "EML4-ALK fusion 14.47%",
+    "drugs": [
+      "dabrafenib",
+      "lorlatinib"
+    ]
+  },
+  {
+    "mutation": "EML4-ALK fusion gene mutation",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "EML4-ALK fusion variant 1",
+    "drugs": [
+      "brigatinib"
+    ]
+  },
+  {
+    "mutation": "EML4-ALK rearrangement",
+    "drugs": [
+      "brigatinib",
+      "cisplatin",
+      "crizotinib",
+      "ensartinib",
+      "lorlatinib",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "EML4-ALK translocation variant 1",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "EML4-ALK+",
+    "drugs": [
+      "chemotherapy"
+    ]
+  },
+  {
+    "mutation": "EML4-NTRK3 fusion",
+    "drugs": [
+      "carboplatin",
+      "paclitaxel"
+    ]
+  },
+  {
+    "mutation": "EML4::ALK fusion",
+    "drugs": [
+      "alectinib",
+      "osimertinib",
+      "temozolomide"
+    ]
+  },
+  {
+    "mutation": "EML4–ALK fusion (Variant 3)",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "EML4–ALK variant 2 (E20:A20)",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "EPCAM gene point mutation",
+    "drugs": [
+      "alectinib",
+      "temozolomide"
+    ]
+  },
+  {
+    "mutation": "ERBB2 (EXON20.p.Y772-A775dup)",
+    "drugs": [
+      "bevacizumab",
+      "carboplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "ERBB2 (Y772_A775dup)",
+    "drugs": [
+      "surgery"
+    ]
+  },
+  {
+    "mutation": "ERBB2 IHC 3+",
+    "drugs": [
+      "carboplatin",
+      "gemcitabine"
+    ]
+  },
+  {
+    "mutation": "ERBB2 S335C",
+    "drugs": [
+      "pyrotinib"
+    ]
+  },
+  {
+    "mutation": "ERBB2 amplification",
+    "drugs": [
+      "afatinib",
+      "carboplatin",
+      "crizotinib",
+      "gemcitabine",
+      "trastuzumab"
+    ]
+  },
+  {
+    "mutation": "ERBB2 exon 19 c.2262_2264delinsTCC, p.(L755P)",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "ERBB2 exon 19 p.L755P",
+    "drugs": [
+      "bevacizumab",
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "ERBB2 exon 20 insertion (A775_G776 insSVMA)",
+    "drugs": [
+      "trastuzumab",
+      "vinorelbine"
+    ]
+  },
+  {
+    "mutation": "ERBB2 exon20 p.Y772_A775 dup",
+    "drugs": [
+      "cisplatin",
+      "pemetrexed",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "ERBB2 increased copy number",
+    "drugs": [
+      "oxitinib"
+    ]
+  },
+  {
+    "mutation": "ERBB2 insertion",
+    "drugs": [
+      "carboplatin",
+      "paclitaxel"
+    ]
+  },
+  {
+    "mutation": "ERBB2 mutation",
+    "drugs": [
+      "chemotherapy"
+    ]
+  },
+  {
+    "mutation": "ERBB2 p.K762R",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "ERBB2 p.Y772_A775dup",
+    "drugs": [
+      "furmonertinib",
+      "pyrotinib"
+    ]
+  },
+  {
+    "mutation": "ETV6",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "ETV6-NTRK3 fusion",
+    "drugs": [
+      "entrectinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "FBXW7 mutation",
+    "drugs": [
+      "alectinib",
+      "cabozantinib",
+      "everolimus",
+      "lorlatinib"
+    ]
+  },
+  {
+    "mutation": "FGF3 c.133C>A p.(Arg45Ser)",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "FGFR1 copy number amplification",
+    "drugs": [
+      "sotorasib"
+    ]
+  },
+  {
+    "mutation": "FGFR1 mutation",
+    "drugs": [
+      "certolizumab",
+      "osimertinib",
+      "savolitinib"
+    ]
+  },
+  {
+    "mutation": "FGFR3",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "FGFR3 amplification",
+    "drugs": [
+      "carboplatin",
+      "paclitaxel",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "FGFR3-TACC3 fusion",
+    "drugs": [
+      "alectinib",
+      "osimertinib",
+      "pralsetinib"
+    ]
+  },
+  {
+    "mutation": "FLT1",
+    "drugs": [
+      "nedaplatin",
+      "paclitaxel",
+      "tislelizumab"
+    ]
+  },
+  {
+    "mutation": "G1269A",
+    "drugs": [
+      "ensartinib"
+    ]
+  },
+  {
+    "mutation": "G719A",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "H835L",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "HER2 G776delins VC",
+    "drugs": [
+      "cisplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "HER2 V659E",
+    "drugs": [
+      "carboplatin",
+      "durvalumab",
+      "pemetrexed",
+      "trastuzumab deruxtecan",
+      "tremelimumab"
+    ]
+  },
+  {
+    "mutation": "HER2 amplification",
+    "drugs": [
+      "almonertinib",
+      "bevacizumab",
+      "pembrolizumab",
+      "pyrotinib"
+    ]
+  },
+  {
+    "mutation": "HER2 exon 17 V659E",
+    "drugs": [
+      "bevacizumab",
+      "carboplatin",
+      "pemetrexed",
+      "tislelizumab"
+    ]
+  },
+  {
+    "mutation": "HER2 exon 20",
+    "drugs": [
+      "trastuzumab deruxtecan"
+    ]
+  },
+  {
+    "mutation": "HER2 exon 20 (A775_G776insYVMA)",
+    "drugs": [
+      "fam-trastuzumab-deruxtecan",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "HER2 exon 20 insertion p.(Y772_A775dup)",
+    "drugs": [
+      "chemoimmunotherapy"
+    ]
+  },
+  {
+    "mutation": "HER2 exon 21 insertion L869R",
+    "drugs": [
+      "furmonertinib"
+    ]
+  },
+  {
+    "mutation": "HER2 exon 21 insertion T8962A",
+    "drugs": [
+      "furmonertinib"
+    ]
+  },
+  {
+    "mutation": "HER2 exon20 insertion (ERBB2 Y772_A775dup)",
+    "drugs": [
+      "bevacizumab",
+      "pembrolizumab"
+    ]
+  },
+  {
+    "mutation": "HER2 mutation (exon 17 V659E)",
+    "drugs": [
+      "T-DXd"
+    ]
+  },
+  {
+    "mutation": "HER3 mutation",
+    "drugs": [
+      "crizotinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "HIP1-ALK fusion",
+    "drugs": [
+      "alectinib",
+      "dabrafenib",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "HLA-DQB2::MET fusion",
+    "drugs": [
+      "PD-1 inhibitor",
+      "monoclonal antibody"
+    ]
+  },
+  {
+    "mutation": "HMCN1",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "HRAS p.G12D",
+    "drugs": [
+      "gemcitabine"
+    ]
+  },
+  {
+    "mutation": "IGR (downstream MAN1A1) ROS1:exon34 fusion",
+    "drugs": [
+      "entrectinib"
+    ]
+  },
+  {
+    "mutation": "ISOC1-RET fusion",
+    "drugs": [
+      "selpercatinib"
+    ]
+  },
+  {
+    "mutation": "JAK2 p.V617F",
+    "drugs": [
+      "enteric-coated aspirin",
+      "hydroxyurea"
+    ]
+  },
+  {
+    "mutation": "KEAP1",
+    "drugs": [
+      "carboplatin",
+      "nab-paclitaxel",
+      "pembrolizumab"
+    ]
+  },
+  {
+    "mutation": "KEAP1 p.E244K",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "KEAP1 p.L81Q",
+    "drugs": [
+      "pyrotinib"
+    ]
+  },
+  {
+    "mutation": "KIAA1549-BRAF fusion",
+    "drugs": [
+      "dabrafenib",
+      "docetaxel",
+      "ramucirumab",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "KIF5B-MET fusion",
+    "drugs": [
+      "capmatinib",
+      "telisotuzumab vedotin"
+    ]
+  },
+  {
+    "mutation": "KIF5B-MET gene fusion",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "KIF5B-RET fusion",
+    "drugs": [
+      "cisplatin",
+      "pembrolizumab",
+      "pemetrexed",
+      "radiation therapy",
+      "selpercatinib"
+    ]
+  },
+  {
+    "mutation": "KIF5B/RET fusion",
+    "drugs": [
+      "carboplatin",
+      "docetaxel"
+    ]
+  },
+  {
+    "mutation": "KIT E69A variant",
+    "drugs": [
+      "carboplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "KIT amplification",
+    "drugs": [
+      "afatinib",
+      "anlotinib",
+      "aumolertinib"
+    ]
+  },
+  {
+    "mutation": "KIT p.I808L",
+    "drugs": [
+      "pyrotinib"
+    ]
+  },
+  {
+    "mutation": "KIT p.K807N",
+    "drugs": [
+      "pyrotinib"
+    ]
+  },
+  {
+    "mutation": "KRAS",
+    "drugs": [
+      "carboplatin",
+      "gemcitabine",
+      "paclitaxel",
+      "pembrolizumab"
+    ]
+  },
+  {
+    "mutation": "KRAS A146T",
+    "drugs": [
+      "immune checkpoint inhibitors"
+    ]
+  },
+  {
+    "mutation": "KRAS G12A",
+    "drugs": [
+      "nedaplatin",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "KRAS G12C",
+    "drugs": [
+      "KRAS G12C inhibitors (GEC-255)",
+      "PD-1 antibody",
+      "SBRT",
+      "alectinib",
+      "carboplatin",
+      "nedaplatin",
+      "paclitaxel",
+      "pembrolizumab",
+      "pemetrexed",
+      "sotorasib",
+      "surgical resection",
+      "tislelizumab",
+      "toripalimab"
+    ]
+  },
+  {
+    "mutation": "KRAS G12C (MAF 5.5%)",
+    "drugs": [
+      "ipilimumab",
+      "nivolumab"
+    ]
+  },
+  {
+    "mutation": "KRAS G12C mutation",
+    "drugs": [
+      "adagrasib",
+      "carboplatin",
+      "immunotherapy",
+      "paclitaxel",
+      "pelvic radiation",
+      "platinum-based chemotherapy"
+    ]
+  },
+  {
+    "mutation": "KRAS G12D",
+    "drugs": [
+      "nivolumab"
+    ]
+  },
+  {
+    "mutation": "KRAS G12V",
+    "drugs": [
+      "almonertinib",
+      "bevacizumab",
+      "carboplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "KRAS G13D",
+    "drugs": [
+      "cisplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "KRAS P.L19F",
+    "drugs": [
+      "anlotinib",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "KRAS c.35G > T (p.G12V)",
+    "drugs": [
+      "bevacizumab",
+      "capecitabine"
+    ]
+  },
+  {
+    "mutation": "KRAS c.35G>C",
+    "drugs": [
+      "carboplatin",
+      "paclitaxel"
+    ]
+  },
+  {
+    "mutation": "KRAS c.35G>T p.G12V",
+    "drugs": [
+      "surgical resection"
+    ]
+  },
+  {
+    "mutation": "KRAS mutation",
+    "drugs": [
+      "Tislelizumab",
+      "anlotinib",
+      "camrelizumab",
+      "cisplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "KRAS p.G12C",
+    "drugs": [
+      "cisplatin",
+      "pemetrexed",
+      "recombinant human endostatin"
+    ]
+  },
+  {
+    "mutation": "KRAS p.G12R",
+    "drugs": [
+      "etoposide"
+    ]
+  },
+  {
+    "mutation": "KRAS p.G12S/D",
+    "drugs": [
+      "surgery"
+    ]
+  },
+  {
+    "mutation": "KRAS p.G13C",
+    "drugs": [
+      "Endostar",
+      "camrelizumab",
+      "carboplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "KRAS variant",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "KRAS(p.G12D)",
+    "drugs": [
+      "radioactive iodine 125 seed implantation"
+    ]
+  },
+  {
+    "mutation": "KRASG12C",
+    "drugs": [
+      "adagrasib",
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "L702fs",
+    "drugs": [
+      "carboplatin",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "L833F",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "L858R increased amount",
+    "drugs": [
+      "radiotherapy"
+    ]
+  },
+  {
+    "mutation": "L861Q",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "LDLR-ROS1 fusion",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "LMNA-NTRK1 fusion",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "LRP1B mutation",
+    "drugs": [
+      "thoracoscopic radical resection"
+    ]
+  },
+  {
+    "mutation": "LZTR1 mutation",
+    "drugs": [
+      "carboplatin",
+      "chemotherapy",
+      "osimertinib",
+      "pemetrexed",
+      "radiation therapy"
+    ]
+  },
+  {
+    "mutation": "MAP2K2 c.814G>A p.(Ala272Thr)",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "MDM2",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "MDM2 amplification",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "MEK1 exon 3 mutation (c.335T>C, p.lle112Thr 40.3%)",
+    "drugs": [
+      "lobaplatin",
+      "pemetrexed",
+      "tislelizumab"
+    ]
+  },
+  {
+    "mutation": "MET",
+    "drugs": [
+      "tepotinib"
+    ]
+  },
+  {
+    "mutation": "MET D1010H mutation",
+    "drugs": [
+      "anlotinib",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "MET D1228E mutation",
+    "drugs": [
+      "bevacizumab",
+      "cabozantinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "MET D1228N",
+    "drugs": [
+      "cabozantinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "MET D1228N mutation",
+    "drugs": [
+      "cabozantinib"
+    ]
+  },
+  {
+    "mutation": "MET Y1003N",
+    "drugs": [
+      "capmatinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "MET Y1230H mutation",
+    "drugs": [
+      "cabozantinib",
+      "gefitinib",
+      "pembrolizumab"
+    ]
+  },
+  {
+    "mutation": "MET acquired resistant amplification mutation",
+    "drugs": [
+      "crizotinib",
+      "regorafenib",
+      "tislelizumab"
+    ]
+  },
+  {
+    "mutation": "MET amplification",
+    "drugs": [
+      "Savolitinib",
+      "abemaciclib",
+      "afatinib",
+      "anlotinib",
+      "bevacizumab",
+      "cabozantinib",
+      "capmatinib",
+      "carboplatin",
+      "certolizumab",
+      "crizotinib",
+      "docetaxel",
+      "erlotinib",
+      "furmonertinib",
+      "gefitinib",
+      "icotinib",
+      "left adrenalectomy",
+      "lorlatinib",
+      "osimertinib",
+      "pembrolizumab",
+      "pemetrexed",
+      "ramucirumab",
+      "savolitinib",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "MET ex14 skipping",
+    "drugs": [
+      "surgery"
+    ]
+  },
+  {
+    "mutation": "MET exon 14 skip mutation",
+    "drugs": [
+      "alectinib",
+      "capmatinib"
+    ]
+  },
+  {
+    "mutation": "MET exon 14 skipping",
+    "drugs": [
+      "Capmatinib",
+      "Gumarontinib",
+      "Osimertinib",
+      "crizotinib",
+      "enteric-coated aspirin",
+      "hydroxyurea",
+      "pembrolizumab",
+      "savolitinib",
+      "tepotinib"
+    ]
+  },
+  {
+    "mutation": "MET exon 14 skipping mutation",
+    "drugs": [
+      "MET-inhibitory investigational drug",
+      "anlotinib",
+      "capmatinib",
+      "carboplatin",
+      "crizotinib",
+      "denosumab",
+      "pembrolizumab",
+      "pemetrexed",
+      "tegafur-uracil",
+      "tepotinib"
+    ]
+  },
+  {
+    "mutation": "MET exon 14 skipping mutation (NM_000245:c.3028+3A>G)",
+    "drugs": [
+      "savolitinib"
+    ]
+  },
+  {
+    "mutation": "MET exon 14c.2942-17_2942-6del12",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "MET exon15–20 duplication",
+    "drugs": [
+      "crizotinib",
+      "furmonertinib"
+    ]
+  },
+  {
+    "mutation": "MET fusion",
+    "drugs": [
+      "Capmatinib",
+      "Osimertinib"
+    ]
+  },
+  {
+    "mutation": "MET fusions (KIF5B-MET, MET-CDR2)",
+    "drugs": [
+      "cisplatin",
+      "crizotinib",
+      "gemcitabine"
+    ]
+  },
+  {
+    "mutation": "MET intron 13 mutation (c.2942-31_2942-1del)",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "MET overexpression",
+    "drugs": [
+      "bevacizumab",
+      "osimertinib",
+      "tepotinib"
+    ]
+  },
+  {
+    "mutation": "MET overexpression (IHC 3+)",
+    "drugs": [
+      "crizotinib",
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "MET p.D1228H mutation",
+    "drugs": [
+      "albumin paclitaxel",
+      "bevacizumab",
+      "carboplatin"
+    ]
+  },
+  {
+    "mutation": "MET polysomy",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "MET-CD47 fusion",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "METex14 mutation",
+    "drugs": [
+      "docetaxel"
+    ]
+  },
+  {
+    "mutation": "METex14 mutation (R1022L, c.3065G > T; p.(Arg1022Leu))",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "METex14 skipping",
+    "drugs": [
+      "tepotinib"
+    ]
+  },
+  {
+    "mutation": "METex14 skipping mutation",
+    "drugs": [
+      "atezolizumab",
+      "bevacizumab",
+      "capmatinib",
+      "carboplatin",
+      "carboplatin/cisplatin",
+      "paclitaxel",
+      "pemetrexed",
+      "savolitinib"
+    ]
+  },
+  {
+    "mutation": "METex14 splice region mutation (c.3028G>T)",
+    "drugs": [
+      "tepotinib",
+      "vebreltinib"
+    ]
+  },
+  {
+    "mutation": "METex14del",
+    "drugs": [
+      "tepotinib"
+    ]
+  },
+  {
+    "mutation": "MSI-H",
+    "drugs": [
+      "Icotinib",
+      "icotinib"
+    ]
+  },
+  {
+    "mutation": "MSS",
+    "drugs": [
+      "duvalizumab"
+    ]
+  },
+  {
+    "mutation": "MTOR mutation",
+    "drugs": [
+      "bevacizumab",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "MYC amplification",
+    "drugs": [
+      "capmatinib",
+      "carboplatin",
+      "cisplatin",
+      "etoposide",
+      "icotinib",
+      "irinotecan",
+      "irinotecan hydrochloride",
+      "nedaplatin",
+      "toripalimab"
+    ]
+  },
+  {
+    "mutation": "MYC copy number amplification",
+    "drugs": [
+      "sotorasib"
+    ]
+  },
+  {
+    "mutation": "MYC gene amplification",
+    "drugs": [
+      "bevacizumab",
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "MYH9–ROS1 fusion",
+    "drugs": [
+      "crizotinib",
+      "lorlatinib"
+    ]
+  },
+  {
+    "mutation": "Met amplification in tumor",
+    "drugs": [
+      "crizotinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "NCOA4–RET fusion",
+    "drugs": [
+      "osimertinib",
+      "selpercatinib"
+    ]
+  },
+  {
+    "mutation": "NF1 C4110 + 2T",
+    "drugs": [
+      "SBRT",
+      "sotorasib"
+    ]
+  },
+  {
+    "mutation": "NF1 p.G127Ter",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "NFE2L2 P.E82G",
+    "drugs": [
+      "anlotinib",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "NFKBIA amplification",
+    "drugs": [
+      "VP16",
+      "carboplatin",
+      "radiotherapy"
+    ]
+  },
+  {
+    "mutation": "NTRK2 fusion",
+    "drugs": [
+      "certolizumab",
+      "furmonertinib",
+      "osimertinib",
+      "savolitinib"
+    ]
+  },
+  {
+    "mutation": "PD-1 <1%",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "PD-L1 (+, tumor proportion score = 80%)",
+    "drugs": [
+      "anlotinib"
+    ]
+  },
+  {
+    "mutation": "PD-L1 5%",
+    "drugs": [
+      "immunotherapy",
+      "platinum-based chemotherapy"
+    ]
+  },
+  {
+    "mutation": "PD-L1 < 1%",
+    "drugs": [
+      "etoposide",
+      "netaplatin"
+    ]
+  },
+  {
+    "mutation": "PD-L1 CPS=20%",
+    "drugs": [
+      "cisplatin",
+      "etoposide"
+    ]
+  },
+  {
+    "mutation": "PD-L1 TPS 60%",
+    "drugs": [
+      "pembrolizumab"
+    ]
+  },
+  {
+    "mutation": "PD-L1 TPS 75%",
+    "drugs": [
+      "cabozantinib",
+      "gefitinib",
+      "pembrolizumab"
+    ]
+  },
+  {
+    "mutation": "PD-L1 TPS 80%",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "PD-L1 TPS <1%",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "PD-L1 TPS=5%",
+    "drugs": [
+      "cisplatin",
+      "etoposide"
+    ]
+  },
+  {
+    "mutation": "PD-L1 high expression",
+    "drugs": [
+      "afatinib",
+      "anlotinib"
+    ]
+  },
+  {
+    "mutation": "PD-L1 positivity (50%)",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "PDGFRA amplification",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "PDGFRA c.1673G>A p.(Arg558His)",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "PDGFRA mutation",
+    "drugs": [
+      "telisotuzumab vedotin"
+    ]
+  },
+  {
+    "mutation": "PDL-1 (22c3) tumor proportion score 50%",
+    "drugs": [
+      "atezolizumab",
+      "carboplatin",
+      "paclitaxel"
+    ]
+  },
+  {
+    "mutation": "PIK3CA",
+    "drugs": [
+      "nedaplatin",
+      "paclitaxel",
+      "tislelizumab"
+    ]
+  },
+  {
+    "mutation": "PIK3CA E542K",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "PIK3CA E545K mutation",
+    "drugs": [
+      "oxitinib"
+    ]
+  },
+  {
+    "mutation": "PIK3CA E726K",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab"
+    ]
+  },
+  {
+    "mutation": "PIK3CA H1047L",
+    "drugs": [
+      "tepotinib"
+    ]
+  },
+  {
+    "mutation": "PIK3CA H1047R",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "PIK3CA V344M",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "PIK3CA e545K mutation",
+    "drugs": [
+      "oxitinib"
+    ]
+  },
+  {
+    "mutation": "PIK3CA mutation",
+    "drugs": [
+      "Afatinib",
+      "anlotinib",
+      "carboplatin",
+      "chemotherapy",
+      "osimertinib",
+      "paclitaxel",
+      "pelvic radiation",
+      "radiation therapy"
+    ]
+  },
+  {
+    "mutation": "PIK3CA p.E542K",
+    "drugs": [
+      "Repotrectinib"
+    ]
+  },
+  {
+    "mutation": "PIK3CA p.E545K",
+    "drugs": [
+      "Albumin-bound paclitaxel",
+      "Cisplatin",
+      "Sintilimab",
+      "cisplatin",
+      "irinotecan hydrochloride",
+      "surgery"
+    ]
+  },
+  {
+    "mutation": "PLEKHA7-ALK (P3:A20)",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "PLEKHH2-ALK fusions",
+    "drugs": [
+      "osimertinib + erlotinib"
+    ]
+  },
+  {
+    "mutation": "PMS2 missense mutation",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "PTEN",
+    "drugs": [
+      "nedaplatin",
+      "paclitaxel"
+    ]
+  },
+  {
+    "mutation": "PTEN G165fs",
+    "drugs": [
+      "sotorasib"
+    ]
+  },
+  {
+    "mutation": "PTEN deletion",
+    "drugs": [
+      "anlotinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "PTEN mutation",
+    "drugs": [
+      "carboplatin",
+      "cisplatin",
+      "crizotinib",
+      "etoposide",
+      "osimertinib",
+      "serplulimab"
+    ]
+  },
+  {
+    "mutation": "RARA",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "RB R552",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "RB1 F755V",
+    "drugs": [
+      "cisplatin",
+      "irinotecan",
+      "paclitaxel"
+    ]
+  },
+  {
+    "mutation": "RB1 K844S",
+    "drugs": [
+      "erlotinib"
+    ]
+  },
+  {
+    "mutation": "RB1 P370fs",
+    "drugs": [
+      "anlotinib",
+      "carboplatin",
+      "etoposide",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "RB1 c.1332 + 2T>C",
+    "drugs": [
+      "carboplatin",
+      "pemetrexed",
+      "sotorasib",
+      "toripalimab"
+    ]
+  },
+  {
+    "mutation": "RB1 c.365-1G>A",
+    "drugs": [
+      "cisplatin",
+      "irinotecan hydrochloride"
+    ]
+  },
+  {
+    "mutation": "RB1 copy number loss",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "RB1 deletion",
+    "drugs": [
+      "anlotinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "RB1 mutation",
+    "drugs": [
+      "afatinib",
+      "amivantamab",
+      "anlotinib",
+      "carboplatin",
+      "chemotherapy",
+      "cisplatin",
+      "crizotinib",
+      "etoposide",
+      "icotinib",
+      "irinotecan",
+      "nedaplatin",
+      "osimertinib",
+      "patritumab-deruxtecan",
+      "radiation therapy",
+      "依托泊苷",
+      "卡铂",
+      "斯鲁利单抗",
+      "阿来替尼"
+    ]
+  },
+  {
+    "mutation": "RB1 splice variant",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "RB1 truncating mutation",
+    "drugs": [
+      "adebrelimab",
+      "anlotinib",
+      "aumolertinib",
+      "cisplatin",
+      "etoposide",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "RBM10 mutations",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "RET c.1263 + 2T>C",
+    "drugs": [
+      "bevacizumab",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "RET c.3217_3218dupAG p.(Ser1073ArgfsTer37)",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "RET fusion",
+    "drugs": [
+      "carboplatin",
+      "pemetrexed",
+      "pralsetinib"
+    ]
+  },
+  {
+    "mutation": "RET fusions",
+    "drugs": [
+      "cabozantinib",
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "RET p.R820H mutation",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "RET rearrangement",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "RET(exon16,exon19)",
+    "drugs": [
+      "nedaplatin",
+      "paclitaxel"
+    ]
+  },
+  {
+    "mutation": "RICTOR amplification",
+    "drugs": [
+      "telisotuzumab vedotin"
+    ]
+  },
+  {
+    "mutation": "RICTOR copy number increased",
+    "drugs": [
+      "etoposide",
+      "netaplatin"
+    ]
+  },
+  {
+    "mutation": "ROS-1 fusion",
+    "drugs": [
+      "carboplatin",
+      "crizotinib",
+      "erlotinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "ROS-1 rearrangement",
+    "drugs": [
+      "entrectinib"
+    ]
+  },
+  {
+    "mutation": "ROS1",
+    "drugs": [
+      "carboplatin",
+      "crizotinib",
+      "nedaplatin",
+      "paclitaxel",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "ROS1 (-)",
+    "drugs": [
+      "cisplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "ROS1 c.6985C>G p.(Pro2329Ala)",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "ROS1 fusion",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "ROS1 fusion (SLC34A2)",
+    "drugs": [
+      "almonertinib",
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "ROS1 gene fusion",
+    "drugs": [
+      "Repotrectinib"
+    ]
+  },
+  {
+    "mutation": "ROS1 gene fusion (TPM3 exon 7 fused to ROS1 exon 35)",
+    "drugs": [
+      "Cisplatin",
+      "Paclitaxel",
+      "Tislelizumab"
+    ]
+  },
+  {
+    "mutation": "ROS1 gene fusion (TPM3-ROS1)",
+    "drugs": [
+      "Crizotinib"
+    ]
+  },
+  {
+    "mutation": "ROS1 positive",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "ROS1 rearrangement",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "ROS1 rearrangement (EZR exon 10–ROS1 exon 34)",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "ROS1-CCDC6 gene fusion",
+    "drugs": [
+      "Crizotinib"
+    ]
+  },
+  {
+    "mutation": "S768I",
+    "drugs": [
+      "cisplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "SETD2",
+    "drugs": [
+      "gefitinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "SKAP2::BRAF",
+    "drugs": [
+      "selpercatinib",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "SLC34A2-ROS1 fusion",
+    "drugs": [
+      "entrectinib"
+    ]
+  },
+  {
+    "mutation": "SMAD4",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "SMAD4 R361H (MAF 6.2%)",
+    "drugs": [
+      "ipilimumab",
+      "nivolumab"
+    ]
+  },
+  {
+    "mutation": "SMAD4 p.H262Q",
+    "drugs": [
+      "pyrotinib"
+    ]
+  },
+  {
+    "mutation": "SMARCA4 p.R1189Q",
+    "drugs": [
+      "Repotrectinib"
+    ]
+  },
+  {
+    "mutation": "SOX2 A267T",
+    "drugs": [
+      "anlotinib",
+      "carboplatin",
+      "etoposide",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "SOX2 amplification",
+    "drugs": [
+      "thoracoscopic radical resection"
+    ]
+  },
+  {
+    "mutation": "STK11",
+    "drugs": [
+      "carboplatin",
+      "nab-paclitaxel",
+      "nedaplatin",
+      "paclitaxel",
+      "pembrolizumab"
+    ]
+  },
+  {
+    "mutation": "STK11 P281Afs",
+    "drugs": [
+      "SBRT",
+      "sotorasib"
+    ]
+  },
+  {
+    "mutation": "STK11 c.169G>T",
+    "drugs": [
+      "carboplatin",
+      "paclitaxel"
+    ]
+  },
+  {
+    "mutation": "STK11 p.S216F",
+    "drugs": [
+      "carboplatin",
+      "pemetrexed",
+      "sotorasib",
+      "toripalimab"
+    ]
+  },
+  {
+    "mutation": "STK11 variant",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "STRN-ALK frequency increased",
+    "drugs": [
+      "alectinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "STRN-ALK fusion",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "T790M",
+    "drugs": [
+      "afatinib",
+      "carboplatin",
+      "erlotinib",
+      "icotinib",
+      "osimertinib",
+      "oxitinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "T790M mutation",
+    "drugs": [
+      "Osimertinib",
+      "crizotinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "T790M mutation absent",
+    "drugs": [
+      "robot-assisted right upper lobectomy"
+    ]
+  },
+  {
+    "mutation": "T790M negative",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "T790M resistance mutation",
+    "drugs": [
+      "gefitinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "T790M-negative",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "TBX3",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "TERT c.-124C",
+    "drugs": [
+      "PD-1 inhibitor",
+      "anlotinib"
+    ]
+  },
+  {
+    "mutation": "TERT mutation",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "TMB = 13.52 mutations/Mb",
+    "drugs": [
+      "pembrolizumab"
+    ]
+  },
+  {
+    "mutation": "TMB = 14.46 mutations/Mb",
+    "drugs": [
+      "anlotinib",
+      "pembrolizumab"
+    ]
+  },
+  {
+    "mutation": "TP53",
+    "drugs": [
+      "Endostar",
+      "aumolertinib",
+      "camrelizumab",
+      "carboplatin",
+      "dabrafenib",
+      "ensartinib",
+      "gefitinib",
+      "gemcitabine",
+      "lorlatinib",
+      "osimertinib",
+      "paclitaxel",
+      "pembrolizumab",
+      "pemetrexed",
+      "trametinib",
+      "trastuzumab deruxtecan"
+    ]
+  },
+  {
+    "mutation": "TP53 (EXON5.c.404G-Tp.C135F)",
+    "drugs": [
+      "bevacizumab",
+      "carboplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "TP53 (p.lys120fs)",
+    "drugs": [
+      "gefitinib"
+    ]
+  },
+  {
+    "mutation": "TP53 C135F",
+    "drugs": [
+      "bevacizumab",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "TP53 C176G",
+    "drugs": [
+      "ensartinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "TP53 C275F",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "TP53 C277X",
+    "drugs": [
+      "cisplatin",
+      "gemcitabine"
+    ]
+  },
+  {
+    "mutation": "TP53 D281E",
+    "drugs": [
+      "dabrafenib",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "TP53 D281F indel",
+    "drugs": [
+      "furmonertinib"
+    ]
+  },
+  {
+    "mutation": "TP53 EX5 p.A159D",
+    "drugs": [
+      "Icotinib"
+    ]
+  },
+  {
+    "mutation": "TP53 F341Y",
+    "drugs": [
+      "RATLH/BSO"
+    ]
+  },
+  {
+    "mutation": "TP53 H179R",
+    "drugs": [
+      "cabozantinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "TP53 IVS9 c.993 + 2T",
+    "drugs": [
+      "cisplatin",
+      "pemetrexed",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "TP53 K320*",
+    "drugs": [
+      "afatinib",
+      "carboplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "TP53 L194F",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "TP53 L194R",
+    "drugs": [
+      "SBRT"
+    ]
+  },
+  {
+    "mutation": "TP53 M246L",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "TP53 P.S183",
+    "drugs": [
+      "anlotinib",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "TP53 R181C (MAF 6.9%)",
+    "drugs": [
+      "ipilimumab",
+      "nivolumab"
+    ]
+  },
+  {
+    "mutation": "TP53 R248Q",
+    "drugs": [
+      "anlotinib",
+      "carboplatin",
+      "etoposide",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "TP53 R248W",
+    "drugs": [
+      "bevacizumab",
+      "erlotinib",
+      "trastuzumab"
+    ]
+  },
+  {
+    "mutation": "TP53 R273H",
+    "drugs": [
+      "bevacizumab",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "TP53 R273L",
+    "drugs": [
+      "carboplatin",
+      "pembrolizumab"
+    ]
+  },
+  {
+    "mutation": "TP53 R273S",
+    "drugs": [
+      "sotorasib"
+    ]
+  },
+  {
+    "mutation": "TP53 Splice Site SNV",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "TP53 V272M",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "TP53 V73RfsX76",
+    "drugs": [
+      "cisplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "TP53 Y220C",
+    "drugs": [
+      "afatinib",
+      "anlotinib",
+      "bevacizumab",
+      "carboplatin",
+      "crizotinib",
+      "docetaxel",
+      "furmonertinib",
+      "osimertinib",
+      "paclitaxel albumin",
+      "pembrolizumab",
+      "pemetrexed",
+      "sintilimab",
+      "trastuzumab"
+    ]
+  },
+  {
+    "mutation": "TP53 Y220H",
+    "drugs": [
+      "cisplatin",
+      "irinotecan",
+      "paclitaxel"
+    ]
+  },
+  {
+    "mutation": "TP53 c.228del (p.P77Qfs*46)",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "TP53 c.396G>T p.K132N",
+    "drugs": [
+      "surgical resection"
+    ]
+  },
+  {
+    "mutation": "TP53 c.438G>A p.(W146*)",
+    "drugs": [
+      "radiotherapy"
+    ]
+  },
+  {
+    "mutation": "TP53 c.673-1G>T",
+    "drugs": [
+      "enteric-coated aspirin",
+      "hydroxyurea"
+    ]
+  },
+  {
+    "mutation": "TP53 c.808T>C (p.F270L)",
+    "drugs": [
+      "mediastinal lymph node dissection",
+      "thoracoscopic segmentectomy"
+    ]
+  },
+  {
+    "mutation": "TP53 c.853G>A p.E285K",
+    "drugs": [
+      "lorlatinib"
+    ]
+  },
+  {
+    "mutation": "TP53 co-mutation",
+    "drugs": [
+      "brigatinib",
+      "osimertinib",
+      "selpercatinib"
+    ]
+  },
+  {
+    "mutation": "TP53 deletion",
+    "drugs": [
+      "cisplatin",
+      "etoposide"
+    ]
+  },
+  {
+    "mutation": "TP53 exon 4 c.313G",
+    "drugs": [
+      "Anlotinib",
+      "Penpulimab"
+    ]
+  },
+  {
+    "mutation": "TP53 exon 5 missense mutation (c.527G>T; p.(C176F))",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "TP53 exon 7 p.I232S",
+    "drugs": [
+      "platinum doublet chemotherapy"
+    ]
+  },
+  {
+    "mutation": "TP53 exon 7, p.R248Q mutation",
+    "drugs": [
+      "Crizotinib",
+      "Gefitinib"
+    ]
+  },
+  {
+    "mutation": "TP53 exon c.688_764 deletion",
+    "drugs": [
+      "crizotinib",
+      "furmonertinib"
+    ]
+  },
+  {
+    "mutation": "TP53 loss of heterozygosity",
+    "drugs": [
+      "cisplatin",
+      "etoposide",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "TP53 missense mutation",
+    "drugs": [
+      "adebrelimab",
+      "anlotinib",
+      "aumolertinib",
+      "cisplatin",
+      "etoposide",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "TP53 mutation",
+    "drugs": [
+      "Carboplatin",
+      "Pemetrexed",
+      "VP16",
+      "afatinib",
+      "alectinib",
+      "amivantamab",
+      "anlotinib",
+      "bevacizumab",
+      "brigatinib",
+      "camrelizumab",
+      "carboplatin",
+      "chemotherapy",
+      "crizotinib",
+      "ensartinib",
+      "entrectinib",
+      "etoposide",
+      "firmonertinib",
+      "gefitinib",
+      "glumetinib",
+      "icotinib",
+      "immunotherapy",
+      "irinotecan",
+      "lorlatinib",
+      "nedaplatin",
+      "osimertinib",
+      "patritumab-deruxtecan",
+      "pembrolizumab",
+      "pemetrexed",
+      "platinum-based chemotherapy",
+      "platinum-pemetrexed chemotherapy",
+      "radiation therapy",
+      "radiotherapy",
+      "savolitinib",
+      "sunvozertinib",
+      "thoracoscopic radical resection",
+      "toripalimab",
+      "依托泊苷",
+      "卡铂",
+      "斯鲁利单抗",
+      "阿来替尼"
+    ]
+  },
+  {
+    "mutation": "TP53 mutation (p.Pro152Alafs*14)",
+    "drugs": [
+      "carboplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "TP53 mutation p.(R248W)",
+    "drugs": [
+      "chemoimmunotherapy"
+    ]
+  },
+  {
+    "mutation": "TP53 mutations",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "TP53 mutations c.1024C>T (p.R342*)",
+    "drugs": [
+      "entrectinib"
+    ]
+  },
+  {
+    "mutation": "TP53 mutations c.686_687del (p.C229Yfs*10)",
+    "drugs": [
+      "entrectinib"
+    ]
+  },
+  {
+    "mutation": "TP53 p.A159D",
+    "drugs": [
+      "cisplatin",
+      "irinotecan hydrochloride"
+    ]
+  },
+  {
+    "mutation": "TP53 p.E224K",
+    "drugs": [
+      "gemcitabine"
+    ]
+  },
+  {
+    "mutation": "TP53 p.I505S",
+    "drugs": [
+      "pyrotinib"
+    ]
+  },
+  {
+    "mutation": "TP53 p.K132R",
+    "drugs": [
+      "bevacizumab",
+      "carboplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "TP53 p.Q192 mutation",
+    "drugs": [
+      "furmonertinib"
+    ]
+  },
+  {
+    "mutation": "TP53 p.Q331*",
+    "drugs": [
+      "Albumin-bound paclitaxel",
+      "Cisplatin",
+      "Sintilimab"
+    ]
+  },
+  {
+    "mutation": "TP53 p.R248W",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "TP53 p.R273C",
+    "drugs": [
+      "cisplatin",
+      "pemetrexed",
+      "recombinant human endostatin"
+    ]
+  },
+  {
+    "mutation": "TP53 p.R273L",
+    "drugs": [
+      "carboplatin",
+      "pemetrexed",
+      "whole-brain radiotherapy"
+    ]
+  },
+  {
+    "mutation": "TP53 p.R280I",
+    "drugs": [
+      "carboplatin",
+      "pemetrexed",
+      "sotorasib",
+      "toripalimab"
+    ]
+  },
+  {
+    "mutation": "TP53 p.R342",
+    "drugs": [
+      "PD-1 inhibitor",
+      "anlotinib"
+    ]
+  },
+  {
+    "mutation": "TP53 p.S183*",
+    "drugs": [
+      "albumin-paclitaxel",
+      "carboplatin",
+      "tislelizumab"
+    ]
+  },
+  {
+    "mutation": "TP53 p.T140 frame shift",
+    "drugs": [
+      "afatinib"
+    ]
+  },
+  {
+    "mutation": "TP63 amplification",
+    "drugs": [
+      "thoracoscopic radical resection"
+    ]
+  },
+  {
+    "mutation": "TPM3-ROS1 fusion",
+    "drugs": [
+      "Lorlatinib"
+    ]
+  },
+  {
+    "mutation": "TPM4-ALK fusion",
+    "drugs": [
+      "dabrafenib",
+      "tislelizumab",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "TPR-NTRK1 fusion",
+    "drugs": [
+      "larotrectinib"
+    ]
+  },
+  {
+    "mutation": "TRIM24::ALK",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "TSC2",
+    "drugs": [
+      "nedaplatin",
+      "paclitaxel"
+    ]
+  },
+  {
+    "mutation": "U2AF1 p.S34F",
+    "drugs": [
+      "pyrotinib"
+    ]
+  },
+  {
+    "mutation": "V1180L",
+    "drugs": [
+      "dabrafenib",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "V769L",
+    "drugs": [
+      "cisplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "ZFPM2::ALK",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "absence of KRAS mutation",
+    "drugs": [
+      "carboplatin",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "c-MET amplification",
+    "drugs": [
+      "BPI-9016",
+      "Furmonertinib",
+      "Savolitinib",
+      "dabrafenib",
+      "osimertinib",
+      "tislelizumab",
+      "trametinib"
+    ]
+  },
+  {
+    "mutation": "c-MET protein overexpression",
+    "drugs": [
+      "Osimertinib"
+    ]
+  },
+  {
+    "mutation": "c.3082+3A>T in MET",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "compound ALK:p.L1196M/p.G1202R",
+    "drugs": [
+      "carboplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "de novo T790M",
+    "drugs": [
+      "osimertinib",
+      "tepotinib"
+    ]
+  },
+  {
+    "mutation": "fanconi anemia complementation group G A153G",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "frameshift mutation in BRCA1",
+    "drugs": [
+      "anlotinib",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "germline ERCC2 frameshift mutation c.1849dup (p. A617Gfs*32)",
+    "drugs": [
+      "bevacizumab",
+      "carboplatin",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "high PD-L1 expression (TPS = 90%)",
+    "drugs": [
+      "cisplatin",
+      "osimertinib",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "high PD-L1 expression (TPS = 95%)",
+    "drugs": [
+      "lobaplatin",
+      "pemetrexed",
+      "tislelizumab"
+    ]
+  },
+  {
+    "mutation": "high tumor mutation burden (11 mutation/megabase)",
+    "drugs": [
+      "atezolizumab",
+      "carboplatin",
+      "paclitaxel"
+    ]
+  },
+  {
+    "mutation": "higher CEA",
+    "drugs": [
+      "anlotinib",
+      "docetaxel",
+      "irinotecan",
+      "pabolizumab"
+    ]
+  },
+  {
+    "mutation": "increased L858R amount",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "inositol polyphosphate-4-phosphatase B E735K",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "loss of T790M",
+    "drugs": [
+      "carboplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "low TMB",
+    "drugs": [
+      "duvalizumab"
+    ]
+  },
+  {
+    "mutation": "low tumor mutational burden of 3.91 mut/Mb",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "low-level MET amplification",
+    "drugs": [
+      "crizotinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "malignant adenocarcinoma cells",
+    "drugs": [
+      "bevacizumab",
+      "furmonertinib"
+    ]
+  },
+  {
+    "mutation": "missense mutation in MSH6",
+    "drugs": [
+      "anlotinib",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "mitogen-activated protein kinase kinase kinase 1 T949 duplication",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "mutS homolog 6 R1076C",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "mutant TP53 (p.E68*, VAF 11.21%)",
+    "drugs": [
+      "albumin-bound paclitaxel",
+      "carboplatin",
+      "nivolumab"
+    ]
+  },
+  {
+    "mutation": "negative ctDNA",
+    "drugs": [
+      "gefitinib",
+      "savolitinib"
+    ]
+  },
+  {
+    "mutation": "negative for EGFR, ALK, ROS1",
+    "drugs": [
+      "atezolizumab",
+      "bevacizumab",
+      "carboplatin",
+      "paclitaxel"
+    ]
+  },
+  {
+    "mutation": "neuroendocrine tumor",
+    "drugs": [
+      "carboplatin",
+      "etoposide"
+    ]
+  },
+  {
+    "mutation": "new pleural effusion",
+    "drugs": [
+      "Bevacizumab",
+      "Icotinib"
+    ]
+  },
+  {
+    "mutation": "no EGFR 19Del",
+    "drugs": [
+      "pemetrexed",
+      "recombinant human endostatin",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "no T790M",
+    "drugs": [
+      "pemetrexed",
+      "recombinant human endostatin",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "no cis-C797S mutations",
+    "drugs": [
+      "pemetrexed",
+      "recombinant human endostatin",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "non-frameshift mutation in CDK12",
+    "drugs": [
+      "anlotinib",
+      "sintilimab"
+    ]
+  },
+  {
+    "mutation": "p.C797S",
+    "drugs": [
+      "bevacizumab",
+      "cisplatin",
+      "gefitinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "p.G2032R mutation",
+    "drugs": [
+      "Crizotinib",
+      "Lorlatinib",
+      "Repotrectinib"
+    ]
+  },
+  {
+    "mutation": "p.L1196M/p.D1203N",
+    "drugs": [
+      "carboplatin",
+      "pemetrexed"
+    ]
+  },
+  {
+    "mutation": "p.L747-A755delinsSKD",
+    "drugs": [
+      "bevacizumab",
+      "cisplatin",
+      "gefitinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "p.S768I",
+    "drugs": [
+      "Furmonertinib",
+      "Savolitinib"
+    ]
+  },
+  {
+    "mutation": "p.T790M",
+    "drugs": [
+      "bevacizumab",
+      "cisplatin",
+      "gefitinib",
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "partial BRG-1 deficiency",
+    "drugs": [
+      "surgical resection"
+    ]
+  },
+  {
+    "mutation": "poorly differentiated SCC",
+    "drugs": [
+      "anlotinib",
+      "vormetinib"
+    ]
+  },
+  {
+    "mutation": "signal transducer and activator of transcription 3 E616V",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "splicing mutation in intron 6 of RET gene (c.1263 + 2T>C)",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "stable microsatellite status",
+    "drugs": [
+      "anlotinib",
+      "pembrolizumab"
+    ]
+  },
+  {
+    "mutation": "unknown T790M",
+    "drugs": [
+      "osimertinib"
+    ]
+  },
+  {
+    "mutation": "wild type EGFR",
+    "drugs": [
+      "alectinib"
+    ]
+  },
+  {
+    "mutation": "wild-type EGFR",
+    "drugs": [
+      "albumin-bound paclitaxel",
+      "carboplatin",
+      "concurrent chemoradiotherapy",
+      "durvalumab",
+      "nivolumab"
+    ]
+  },
+  {
+    "mutation": "wild-type RB1",
+    "drugs": [
+      "crizotinib"
+    ]
+  },
+  {
+    "mutation": "wild-type STK11",
+    "drugs": [
+      "albumin-bound paclitaxel",
+      "carboplatin",
+      "nivolumab"
+    ]
+  },
+  {
+    "mutation": "wild-type TP53",
+    "drugs": [
+      "crizotinib"
+    ]
+  }
+]

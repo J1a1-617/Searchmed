@@ -1,0 +1,144 @@
+{
+  "provenance": {
+    "source_filename": "41878697_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 62,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 40,
+    "presenting_symptoms": [
+      "progressive dyspnea"
+    ],
+    "diagnosis_date": "2022-03",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT4N3M1a",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes",
+      "pleura"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-03",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R",
+          "RBM10 mutations",
+          "PDGFRA amplification",
+          "KIT amplification"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "afatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "afatinib": "40 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 14
+      },
+      "safety": {
+        "adverse_events": [
+          "mild diarrhea",
+          "acneiform dermatitis",
+          "stomatitis"
+        ],
+        "dose_adjustments": []
+      }
+    },
+    {
+      "time": "2023-05",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "findings": [
+          "EGFR L858R"
+        ],
+        "sample": "right lower lobe"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": null,
+          "carboplatin": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2023-06",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "findings": [
+          "EGFR L858R",
+          "MET amplification"
+        ],
+        "sample": "right lower lobe rebiopsy"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "paclitaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "paclitaxel": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 0.5
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "afatinib",
+      "pemetrexed",
+      "carboplatin"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 7,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "2023-06"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Rapid progression associated with acquired MET amplification in EGFR-mutant lung adenocarcinoma",
+      "Partial response to afatinib followed by rapid deterioration",
+      "First report of MET amplification contributing to rapid disease progression"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

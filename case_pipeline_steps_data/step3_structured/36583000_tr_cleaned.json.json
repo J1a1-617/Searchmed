@@ -1,0 +1,103 @@
+{
+  "provenance": {
+    "source_filename": "36583000_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 75,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "chronic cough",
+      "fatigue"
+    ],
+    "diagnosis_date": "2020-04",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "9th thoracic vertebrae",
+      "right 9th rib"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-04",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR p.L858R"
+        ],
+        "sample": "tumor mass"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + rebiopsy + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR p.L858R",
+          "EGFR p.E709A",
+          "PIK3CA p.E545K",
+          "RB1 c.365-1G>A",
+          "TP53 p.A159D",
+          "MYC amplification"
+        ],
+        "sample": "re-biopsy tumor tissue"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "cisplatin",
+          "irinotecan hydrochloride"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "cisplatin": null,
+          "irinotecan_hydrochloride": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 4,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Transformation from lung adenocarcinoma to small cell lung cancer after osimertinib treatment",
+      "Acquired resistance to EGFR-TKIs due to transformation",
+      "Presence of multiple mutations including TP53 and RB1"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

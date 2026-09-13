@@ -1,0 +1,102 @@
+{
+  "provenance": {
+    "source_filename": "38525318_tr_cleaned.json",
+    "source_pmid": "100652",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 45,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "progressive back pain",
+      "chest discomfort",
+      "diplopia",
+      "right eye ptosis"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral pulmonary nodules",
+      "cavernous sinus mass",
+      "multifocal lymphadenopathy",
+      "skeletal lesions"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "KIT E69A variant"
+        ],
+        "sample": "liquid biopsy with Guardant360 CDx"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "pemetrexed": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR-RAD51 fusion"
+        ],
+        "sample": "repeat NGS with FoundationOne Liquid CDx"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 9
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 12,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Identification of rare EGFR-RAD51 fusion in metastatic lung adenocarcinoma",
+      "Dramatic and durable response to osimertinib",
+      "Importance of thorough genomic sequencing in never-smokers"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

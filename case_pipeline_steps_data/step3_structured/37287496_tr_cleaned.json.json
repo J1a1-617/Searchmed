@@ -1,0 +1,195 @@
+{
+  "provenance": {
+    "source_filename": "37287496_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 64,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "dyspnea"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IV",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "right hilar lymph node",
+      "bilateral supraclavicular lymph nodes",
+      "pleural effusion"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "pemetrexed": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "docetaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "docetaxel": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "nivolumab"
+        ],
+        "type": "immunotherapy",
+        "dosage": {
+          "nivolumab": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 25
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "S-1"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "S-1": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "SLC34A2-ROS1 fusion"
+        ],
+        "sample": "biopsy"
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "entrectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "entrectinib": "600 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "MET polysomy"
+        ],
+        "sample": "biopsy"
+      },
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "entrectinib",
+      "crizotinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Crizotinib is effective after resistance to entrectinib in ROS1-rearranged NSCLC",
+      "MET polysomy was identified as a contributing factor to treatment resistance"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

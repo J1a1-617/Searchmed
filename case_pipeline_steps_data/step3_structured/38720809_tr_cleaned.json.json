@@ -1,0 +1,205 @@
+{
+  "provenance": {
+    "source_filename": "38720809_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 47,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "mild discomfort in right chest and back"
+    ],
+    "diagnosis_date": "2016-12",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "pT2N2M0",
+    "overall_stage": "III",
+    "baseline_primary_site": "right middle lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2016-12",
+      "event_type": "diagnosis + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "surgery",
+          "adjuvant chemotherapy"
+        ],
+        "type": "surgery + chemotherapy",
+        "dosage": {
+          "Pemetrexed": "500 mg/m2",
+          "Cisplatin": "75 mg/m2"
+        }
+      },
+      "response": {
+        "best": "PFS 46 months",
+        "duration_months": 46
+      }
+    },
+    {
+      "time": "2020-11",
+      "event_type": "recurrence + treatment",
+      "molecular": {
+        "alterations": [
+          "ALK rearrangement",
+          "EGFR wild-type"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pemetrexed",
+          "Nedaplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "Pemetrexed": "500 mg/m2",
+          "Nedaplatin": "80-100 mg/m2"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2021-03",
+      "event_type": "treatment + radiotherapy",
+      "molecular": {
+        "alterations": [
+          "ALK rearrangement"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "radiotherapy",
+          "crizotinib"
+        ],
+        "type": "radiotherapy + targeted",
+        "dosage": {
+          "crizotinib": "250 mg twice daily",
+          "radiotherapy": "39 Gy in 13 fractions"
+        }
+      },
+      "response": {
+        "best": "PFS 15 months",
+        "duration_months": 15
+      }
+    },
+    {
+      "time": "2022-06",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "ALK rearrangement"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "TGRX-326"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "TGRX-326": "60 mg once daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 11
+      }
+    },
+    {
+      "time": "2023-05",
+      "event_type": "transformation + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "etoposide",
+          "carboplatin",
+          "sintilimab"
+        ],
+        "type": "chemotherapy + immunotherapy",
+        "dosage": {
+          "etoposide": "100 mg/m2",
+          "carboplatin": "AUC 5 mg/ml/min",
+          "sintilimab": "200 mg"
+        }
+      },
+      "response": {
+        "best": "PFS 3 months",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2023-09",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "albumin-bound paclitaxel",
+          "anlotinib"
+        ],
+        "type": "combination",
+        "dosage": {
+          "albumin-bound paclitaxel": "260 mg/m2",
+          "anlotinib": "8 mg daily"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "albumin-bound paclitaxel",
+      "anlotinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2023-10"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "ALK-rearranged EGFR wild-type lung adenocarcinoma transformed into small cell lung cancer",
+      "Patient experienced significant disease progression after transformation",
+      "Combination therapy initiated for SCLC"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "provenance": {
+    "source_filename": "39529833_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 49,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "irritating dry cough",
+      "chest tightness"
+    ],
+    "diagnosis_date": "2020-12",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT4N2M1",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral lung",
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-12",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "HER2 exon 21 insertion T8962A",
+          "HER2 exon 21 insertion L869R"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2021-03",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "bevacizumab",
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "bevacizumab": "400 mg, day 1",
+          "pemetrexed": "800 mg, day 1",
+          "carboplatin": "400 mg, day 1"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2021-07",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "bevacizumab",
+          "abraxane",
+          "nedaplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "bevacizumab": "400 mg, day 1",
+          "abraxane": "400 mg, day 1",
+          "nedaplatin": "100 mg, day 1"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2022-04",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "gemcitabine",
+          "anlotinib",
+          "carrelizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "gemcitabine": "1.4 g on day 1 and 8",
+          "anlotinib": "8 mg, twice a day, day 1-14",
+          "carrelizumab": "200 mg, day 1"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2022-08",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "bevacizumab",
+          "abraxane",
+          "cisplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "bevacizumab": "600 mg, day 1",
+          "abraxane": "400 mg, day 1",
+          "cisplatin": "30 mg, once a day, day 1-4"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2022-09",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "HER2 exon 21 insertion T8962A",
+          "HER2 exon 21 insertion L869R"
+        ],
+        "sample": "circulating tumor DNA"
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "furmonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "furmonertinib": "80 mg, once a day"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 11
+      }
+    },
+    {
+      "time": "2023-08",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "pyrrotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "pyrrotinib": "400 mg, once a day"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2023-10",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "7L",
+        "regimen": [
+          "furmonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "furmonertinib": "80 mg, once a day"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "furmonertinib",
+      "pyrrotinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 36,
+    "survival_status": "dead",
+    "cause_of_death": "hypoproteinemia combined with severe pneumonia",
+    "last_follow_up": "2023-12"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with HER2 exon 21 insertion mutations responsive to furmonertinib",
+      "Advanced-stage lung adenocarcinoma with multiple metastases",
+      "Progression-free survival of 11 months with furmonertinib"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

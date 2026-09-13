@@ -1,0 +1,126 @@
+{
+  "provenance": {
+    "source_filename": "39896189_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 60,
+    "sex": "unknown",
+    "smoking_status": "former_smoker",
+    "pack_years": 40,
+    "presenting_symptoms": [
+      "cough",
+      "breathlessness"
+    ],
+    "diagnosis_date": "2023-04",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT2aN3M1b",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral hilar lymph nodes",
+      "mediastinal lymph nodes",
+      "left hepatic lobe"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-04",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "ERBB2 exon20 p.Y772_A775 dup",
+          "TP53 IVS9 c.993 + 2T"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "sintilimab",
+          "pemetrexed",
+          "cisplatin"
+        ],
+        "type": "immunotherapy + chemotherapy",
+        "dosage": {
+          "sintilimab": "reduced dose due to poor pulmonary function",
+          "pemetrexed": "reduced dose",
+          "cisplatin": "reduced dose"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2023-11",
+      "event_type": "progression + treatment",
+      "molecular": {},
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "DS-8201"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "DS-8201": "270 mg every 3 weeks"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "2024-02",
+      "event_type": "adverse_event + treatment",
+      "molecular": {},
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "prednisone"
+        ],
+        "type": "supportive",
+        "dosage": {
+          "prednisone": "dose unspecified"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "transient fever",
+          "severe anorexia",
+          "fatigue",
+          "shoulder pain"
+        ],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with HER2 mutation-positive NSCLC",
+      "Initial resistance to immunotherapy",
+      "Positive response to DS-8201 after disease progression",
+      "Delayed immune-related adverse events after ICI therapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

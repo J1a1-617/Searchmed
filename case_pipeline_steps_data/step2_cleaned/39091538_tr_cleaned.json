@@ -1,0 +1,28 @@
+{
+  "text": "Title: EGFR-Mutated Lung Adenocarcinoma in a Patient with Li-Fraumeni Syndrome\nPMID: \nAuthors: \n\nAbstract\nLi-Fraumeni syndrome (LFS) is a rare hereditary disorder caused by mutations in the tumor protein p53 (TP53). It causes a predisposition for the development of multiple malignancies, primarily including breast cancers, sarcomas, and central nervous system tumors. There are a few cases reported in the literature of patients with LFS presenting with an epidermal growth factor receptor (EGFR) mutated lung cancer. Still, it has been suggested that there may be an association between the TP53 pathogenic variant and lung cancer with EGFR mutation in somatic cells.\n\nCase presentation\nA 47-year-old non-smoker woman with a confirmed diagnosis of LFS by a hereditary genetic panel that identified a variant of the TP53 gene c.771_782+13del in a heterozygous state. She has a significant family history that revealed a high occurrence of neoplasms at a young age. Her mother was diagnosed with leukemia at age 36 years, her maternal grandmother with breast cancer at age 47 years, and other relatives on her mother’s side were also affected: her female cousin with sarcoma in her adolescence and breast cancer at 26 years, her uncle with sarcoma at 60 years, and her male cousin with sarcoma at age 51 years. With her personal and family history, the patient meets the classical clinical criteria of LFS. Nevertheless, the patient had no family history of lung cancer.\nHer extensive pathological background began in when she was 28 years, with human epidermal growth factor 2 positive (HER2+) bilateral breast cancer treated with bilateral mastectomy, and AC chemotherapy (doxorubicin, hydrochloride and cyclophosphamide). Herceptin adjuvant (HERA) protocol was available at our hospital, but she refused this treatment. At the age of 38 years, a perivascular epithelioid cell tumor (pecoma) in her liver was detected, for which she underwent a partial hepatectomy in January 2014. Five months later, two more malignancies were detected: a grade three pleomorphic spindle cell sarcoma in her right thigh and a grade three infiltrating ductal carcinoma (IDC) in the right breast. She was treated with resection of the sarcoma with adjuvant radiotherapy and mastectomy of the right breast, TCH regimen (docetaxel, carboplatin, and trastuzumab) for 1 year and tamoxifen for 5 years. The involvement of radiotherapy for the sarcoma was decided through a multidisciplinary team due to its size, depth, and grade.\nAt the age of 44 years, she presented three recurrent pleomorphic sarcoma lesions of the right thigh that were subsequently resected. A full body computed tomography scan performed as a follow-up surveillance of the sarcomas detected a 1.4 cm nodule in the lung’s lingula when she was 46 years. She was not undergoing Toronto protocol screening due to lack of resources in the institution. The patient denied the presence of any symptomology. There were no evident abnormalities in the physical examination. A biopsy was performed, which led to the diagnosis of lung adenocarcinoma. Further genetic testing detected a deletion of EGFR exon 19. She was treated with a left inferior lobectomy, followed by pemetrexed and cisplatin. Mutation analysis in peripheral lymphocytes was also performed, and EGFR mutations were not detected. The patient had a good response to treatment and is currently free of relapse 2 years after treatment.\nAll procedures performed in this study were in accordance with the ethical standards of the institutional and/or national research committee(s) and with the Helsinki Declaration (as revised in 2013). Written informed consent was obtained from the patient for the publication of this case report and accompanying image. A copy of the written consent is available for review by the editorial office of this journal.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39091538_tr.json",
+    "source_pmid": "39091538",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39091538_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:51:30",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "EGFR-mutated lung cancer as a secondary neoplasm in a patient with Li-Fraumeni syndrome: case report",
+    "author": "Daniela Cristina Cortés Valenzuela; Pablo Andrés Vega Medina; Francisco José Palma García; Omar Castillo-Fernandez",
+    "date": "2024-06-14"
+  },
+  "rejection_reason": null
+}

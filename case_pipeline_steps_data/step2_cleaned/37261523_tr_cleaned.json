@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "37261523_tr.json",
+    "source_pmid": "37261523",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/37261523_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:28:22",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "To be, or not to be: the dilemma of immunotherapy for non-small cell lung cancer harboring various driver mutations",
+    "author": "Ruoxue Cai; Hongyu Zhu; Ying Liu; Huanhuan Sha; Weiwei Peng; Rong Yin; Guoren Zhou; Ying Fang",
+    "date": "2023-06-01"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "01_similar_case",
+    "query": "EGFR L858R突变晚期NSCLC患者使用奥希替尼后进展，检索分子背景和治疗经过相似的病例。",
+    "status": "completed",
+    "returncode": 0,
+    "elapsed_seconds": 157.61,
+    "workflow_file": "e2e_workflows/01_similar_case_workflow.txt",
+    "stderr_file": "e2e_workflows/01_similar_case_stderr.txt",
+    "fallback_count": 4
+  },
+  {
+    "id": "02_resistance_mechanism",
+    "query": "奥希替尼治疗EGFR突变NSCLC后出现获得性耐药，可能有哪些靶内、旁路和组织学转化机制？",
+    "status": "completed",
+    "returncode": 0,
+    "elapsed_seconds": 146.8,
+    "workflow_file": "e2e_workflows/02_resistance_mechanism_workflow.txt",
+    "stderr_file": "e2e_workflows/02_resistance_mechanism_stderr.txt",
+    "fallback_count": 3
+  },
+  {
+    "id": "03_mutation_drug",
+    "query": "携带EGFR C797S突变的NSCLC病例中，后续使用过哪些药物或联合方案，疗效如何？",
+    "status": "completed",
+    "returncode": 0,
+    "elapsed_seconds": 128.01,
+    "workflow_file": "e2e_workflows/03_mutation_drug_workflow.txt",
+    "stderr_file": "e2e_workflows/03_mutation_drug_stderr.txt",
+    "fallback_count": 3
+  },
+  {
+    "id": "04_treatment_evidence",
+    "query": "MET扩增导致奥希替尼耐药后，病例库中是否有EGFR抑制剂联合MET抑制剂的治疗证据？",
+    "status": "completed",
+    "returncode": 0,
+    "elapsed_seconds": 135.46,
+    "workflow_file": "e2e_workflows/04_treatment_evidence_workflow.txt",
+    "stderr_file": "e2e_workflows/04_treatment_evidence_stderr.txt",
+    "fallback_count": 3
+  },
+  {
+    "id": "05_ddi",
+    "query": "奥希替尼与强CYP3A4诱导剂或可能延长QT间期的药物合用时，有哪些相互作用和安全风险证据？",
+    "status": "completed",
+    "returncode": 0,
+    "elapsed_seconds": 168.6,
+    "workflow_file": "e2e_workflows/05_ddi_workflow.txt",
+    "stderr_file": "e2e_workflows/05_ddi_stderr.txt",
+    "fallback_count": 4
+  },
+  {
+    "id": "06_severe_toxicity",
+    "query": "检索奥希替尼相关间质性肺病、严重肺炎或致死性肺毒性的病例，并总结发生时间和处理结果。",
+    "status": "completed",
+    "returncode": 0,
+    "elapsed_seconds": 127.44,
+    "workflow_file": "e2e_workflows/06_severe_toxicity_workflow.txt",
+    "stderr_file": "e2e_workflows/06_severe_toxicity_stderr.txt",
+    "fallback_count": 3
+  },
+  {
+    "id": "07_brain_metastasis",
+    "query": "EGFR突变NSCLC合并脑转移患者接受第三代EGFR-TKI后，病例中的颅内疗效和进展模式如何？",
+    "status": "completed",
+    "returncode": 0,
+    "elapsed_seconds": 132.89,
+    "workflow_file": "e2e_workflows/07_brain_metastasis_workflow.txt",
+    "stderr_file": "e2e_workflows/07_brain_metastasis_stderr.txt",
+    "fallback_count": 3
+  },
+  {
+    "id": "08_histologic_transformation",
+    "query": "EGFR突变肺腺癌在靶向治疗后发生小细胞肺癌转化的病例有哪些共同特征和治疗结局？",
+    "status": "completed",
+    "returncode": 0,
+    "elapsed_seconds": 138.61,
+    "workflow_file": "e2e_workflows/08_histologic_transformation_workflow.txt",
+    "stderr_file": "e2e_workflows/08_histologic_transformation_stderr.txt",
+    "fallback_count": 3
+  },
+  {
+    "id": "09_rare_mutation",
+    "query": "EGFR exon 20 insertion突变NSCLC有哪些相似病例，使用过哪些靶向药物并取得什么疗效？",
+    "status": "completed",
+    "returncode": 0,
+    "elapsed_seconds": 236.1,
+    "workflow_file": "e2e_workflows/09_rare_mutation_workflow.txt",
+    "stderr_file": "e2e_workflows/09_rare_mutation_stderr.txt",
+    "fallback_count": 7
+  },
+  {
+    "id": "10_counter_evidence",
+    "query": "检索EGFR突变NSCLC使用奥希替尼无效、快速进展或因严重毒性停药的反证病例。",
+    "status": "completed",
+    "returncode": 0,
+    "elapsed_seconds": 132.84,
+    "workflow_file": "e2e_workflows/10_counter_evidence_workflow.txt",
+    "stderr_file": "e2e_workflows/10_counter_evidence_stderr.txt",
+    "fallback_count": 4
+  }
+]

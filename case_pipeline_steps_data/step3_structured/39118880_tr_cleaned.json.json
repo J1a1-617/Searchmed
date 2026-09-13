@@ -1,0 +1,156 @@
+{
+  "provenance": {
+    "source_filename": "39118880_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 77,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "shortness of breath",
+      "pain",
+      "vertigo"
+    ],
+    "diagnosis_date": "unknown",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "UICC",
+    "tnm_stage": "IV",
+    "overall_stage": "IV",
+    "baseline_primary_site": "left lung",
+    "metastatic_sites_at_baseline": [
+      "CNS"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "unknown",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "METex14 [p.D1028N]",
+          "CDK4 amplification",
+          "MDM2 amplification",
+          "PIK3CA mutation"
+        ],
+        "sample": "lung primary tumor",
+        "vaf": "48%"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "unknown",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "paclitaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": "AUC 6 mg/d",
+          "paclitaxel": "200 mg/m2"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": "unknown",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      },
+      "safety": {
+        "adverse_events": [
+          "elevated liver enzymes"
+        ]
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "capmatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "capmatinib": "400 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 5
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 2 peripheral edema"
+        ],
+        "dose_adjustments": [
+          "capmatinib reduced to 200 mg twice daily"
+        ]
+      }
+    },
+    {
+      "time": "2022-09",
+      "event_type": "outcome",
+      "molecular": null,
+      "treatment": null,
+      "response": null,
+      "safety": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "crizotinib",
+      "capmatinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 66,
+    "survival_status": "dead",
+    "cause_of_death": null,
+    "last_follow_up": "2022-09"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient experienced CNS relapse post complete surgical resection and remission.",
+      "Profound intracranial response to capmatinib in crizotinib-resistant brain lesion.",
+      "Molecular analysis revealed METex14 D1028N and PIK3CA bypass mutations."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "provenance": {
+    "source_filename": "39233826_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 81,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": 68,
+    "presenting_symptoms": [
+      "persistent shortness of breath",
+      "productive cough"
+    ],
+    "diagnosis_date": "2020-10",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pleura",
+      "lymph nodes",
+      "bones"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-10",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR c.2154_2155delinsTT (p.G719C)",
+          "EGFR c.2240T>C (p.L747S)",
+          "TP53 c.228del (p.P77Qfs*46)",
+          "CDK6 c.112C>G (p.R38G)"
+        ],
+        "sample": "pleural fluid and plasma"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2020-12",
+      "event_type": "progression + imaging",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2022-02",
+      "event_type": "imaging",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "SD",
+        "duration_months": 16
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with lung adenocarcinoma carrying rare EGFR mutations",
+      "Persistent partial response to osimertinib for 16 months",
+      "Identification of additional mutations (TP53 and CDK6)"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: Adverse Events of Osimertinib in a Patient with EGFR-Mutant Lung Cancer\nPMID: \nAuthors: \n\nAbstract\nPostoperative osimertinib for EGFR mutant non-small cell lung cancer has become the standard of care. However, its adverse events in clinical practice remain unclear. We report a case of interstitial lung disease and pulmonary embolism occurring simultaneously as adverse events during adjuvant osimertinib treatment.\n\nCase presentation\nA 74-year-old woman, diagnosed with left lower lobe lung adenocarcinoma harboring an EGFR mutation, underwent a left lower lobectomy with lymph node dissection. During adjuvant osimertinib therapy, the patient developed respiratory distress with hypoxia, leading to the diagnosis of interstitial lung disease. Despite immediate steroid therapy, respiratory distress persisted, the patient developed leg edema. She was diagnosed with deep vein thrombosis and pulmonary embolism via contrast-enhanced computed tomography scan. Following treatment with steroid and anticoagulation, her clinical symptoms improved rapidly, and she showed no recurrence of interstitial lung disease, pulmonary embolism, or lung cancer over the following nine months.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40610986_tr.json",
+    "source_pmid": "40610986",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40610986_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:28:32",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Co-occurrence of interstitial lung disease and pulmonary embolism as adverse events of adjuvant osimertinib treatment for EGFR mutant non-small cell lung cancer: a case report",
+    "author": "Kenta Manabe; Kazuhiko Shien; Shinichi Furukawa; Tomoya Seno; Kousei Ishimura; Shin Tanaka; Ken Suzawa; Mikio Okazaki; Seiichiro Sugimoto; Shinichi Toyooka",
+    "date": "2025-07-03"
+  },
+  "rejection_reason": null
+}

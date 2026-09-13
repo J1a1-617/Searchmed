@@ -1,0 +1,69 @@
+{
+  "provenance": {
+    "source_filename": "41367635_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.8
+  },
+  "baseline_clinical_profile": {
+    "age": 57,
+    "sex": "male",
+    "smoking_status": "current_smoker",
+    "pack_years": 30,
+    "presenting_symptoms": [
+      "recurrent cough",
+      "sputum",
+      "chest tightness"
+    ],
+    "diagnosis_date": "2023-11",
+    "cancer_type": "lung adenocarcinoma",
+    "histology": "high-grade fetal adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "pT1N0M0",
+    "overall_stage": "I",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2023-11",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "TP53 c.808T>C (p.F270L)"
+        ],
+        "sample": "tumor tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "thoracoscopic segmentectomy",
+          "mediastinal lymph node dissection"
+        ],
+        "type": "surgical",
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Identification of a TP53 missense mutation in a patient with high-grade fetal adenocarcinoma of the lung",
+      "Low PD-L1 expression in tumor cells with a higher expression in immune cells",
+      "H-FLAC is an infrequent subtype of lung adenocarcinoma"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: ALK Internal Deletions in Lung Adenocarcinoma: A Case Report\nPMID: \nAuthors: \n\nAbstract\nAnaplastic lymphoma kinase (ALK) rearrangements are well-recognized driver oncogenes in patients with non-small cell lung cancer (NSCLC). ALK internal deletions account for only 0.01% of ALK genomic aberrations in NSCLC cases. Due to this rarity, the therapeutic efficacy of ALK inhibitors in cases harboring ALK internal deletions remains unclear. Herein, we report a case of lung adenocarcinoma harboring ALK deletions of exons 6–20 that responded to alectinib and lorlatinib treatment.\n\nCase presentation\nA 42-year-old woman without a history of smoking presented with cough and dyspnea. The patient had no remarkable medical or family history. The patient’s Eastern Cooperative Oncology Group performance status score was 1. Chest computed tomography (CT) and positron emission tomography (PET) revealed a primary lesion in the left upper lobe, bilateral carcinomatous lymphangitis, and pleural effusions, pericardial effusions, subcutaneous metastasis above the sternum, and multiple bone metastases (Figure 1A-1E). The patient’s clinical stage was IVB (according to the 8th edition of the American Joint Committee on Cancer, cT4N3M1c). The histopathological diagnosis of lung adenocarcinoma was confirmed via biopsy of the subcutaneous metastasis (Figures 1B,1D,2A). No genetic mutations were detected by multiplex reverse transcription-polymerase chain reaction (mRT-PCR)-based assays (Amoy Dx Pan Lung Cancer PCR Panel; Amoy Diagnostics Co. Ltd., Xiamen, China). The programmed death ligand 1 (PD-L1) (22C3, Dako/Agilent, Tokyo, Japan) tumor proportion score was 95%. Baseline laboratory test results revealed white blood cell count, 10,100/µL; lymphocyte count, 1,100/µL; platelet count, 413,000/µL; and carcinoembryonic antigen (CEA) level, 40.9 ng/mL. The neutrophil-to-lymphocyte ratio (NLR) and platelet-to-lymphocyte ratio (PLR) were 10.1 and 375.0, respectively.\n\nThe patient received two courses of pembrolizumab and four cycles of carboplatin plus nanoparticle albumin-bound paclitaxel. The best responses were progressive disease and stable disease. Prior to second-line therapy, skin biopsy specimens were subjected to comprehensive genomic profiling (CGP) (FoundationOne CDx, Foundation Medicine, Cambridge, MA, USA). Although no typical ALK fusion mutations were found, ALK deletions of exons 6–20 were detected. Microsatellite instability was absent; the tumor mutational burden was low (1 muts/Mb). Highly sensitive ALK-immunohistochemistry (IHC) using the intercalated antibody-enhanced polymer (iAEP) method showed ALK positivity (Figure 2B). The CGP also revealed mutS homolog 6 R1076C mutation (with preserved mismatch repair protein expression confirmed by IHC) and several variants of unknown significance, including fanconi anemia complementation group G A153G, inositol polyphosphate-4-phosphatase B E735K, signal transducer and activator of transcription 3 E616V, and mitogen-activated protein kinase kinase kinase 1 T949 duplication.\n\nAlectinib treatment (300 mg twice daily; approved dosage in Japan) was initiated based on ALK IHC positivity. The patient’s dyspnea promptly improved; a partial response was confirmed radiographically at 2 weeks (Figure 3A-3D), with disease control maintained for nine months. Subsequent disease progression was indicated by increased CEA levels (from 29.7 to 112.8 ng/mL) and new brain metastases on contrast-enhanced magnetic resonance imaging. Lorlatinib (100 mg, once daily) was administered as a second-line ALK inhibitor. This led to a rapid decrease in CEA levels (42.2 ng/mL, the following month) and regression of the brain metastases. No disease progression was observed after three months of lorlatinib therapy. Figure 4 illustrates the timeline of chemotherapy administration in this case.\n\nAll procedures performed in this study were in accordance with the ethical standards of the institutional and/or national research committee(s). This study was conducted in accordance with the Declaration of Helsinki and its subsequent amendments. Written informed consent was obtained from the patient for publication of this case report and accompanying images. A copy of the written consent is available for review by the editorial office of this journal.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41234576_tr.json",
+    "source_pmid": "41234576",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41234576_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:11:04",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Lung adenocarcinoma with ALK deletion of exons 6–20 with response to sequential ALK inhibitors: a case report",
+    "author": "Kazuki Jinno; Tatsuya Imabayashi; Toshiyuki Tanaka; Kohei Yamamoto; Shunya Tanaka; Sayaka Uda; Tatsuya Yuba; Chieko Takumi",
+    "date": "2025-10-23"
+  },
+  "rejection_reason": null
+}

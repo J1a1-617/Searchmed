@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "37189151_tr.json",
+    "source_pmid": "37189151",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/37189151_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:27:47",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "A novel Chr1-miR-200 driven whole transcriptome signature shapes tumor immune microenvironment and predicts relapse in early-stage lung adenocarcinoma",
+    "author": "Simon Garinet; Audrey Didelot; Laetitia Marisa; Guillaume Beinse; Marine Sroussi; Françoise Le Pimpec-Barthes; Elizabeth Fabre; Laure Gibault; Pierre Laurent-Puig; Sophie Mouillet-Richard; Antoine Legras; Hélène Blons",
+    "date": "2023-05-15"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

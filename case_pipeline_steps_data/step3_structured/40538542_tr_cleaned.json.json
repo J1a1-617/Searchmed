@@ -1,0 +1,127 @@
+{
+  "provenance": {
+    "source_filename": "40538542_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 80,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "persistent cough"
+    ],
+    "diagnosis_date": "2024-10",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT2aNxM1c",
+    "overall_stage": null,
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": [
+      "intracranial metastasis"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2024-10",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-11",
+      "event_type": "adverse_event + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "diarrhea",
+          "dyspnea",
+          "respiratory failure",
+          "bilateral spontaneous pneumothorax"
+        ],
+        "dose_adjustments": null
+      }
+    },
+    {
+      "time": "2024-12",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "mechanical ventilation",
+          "sulprostone",
+          "methylprednisolone"
+        ],
+        "type": "supportive",
+        "dosage": {
+          "methylprednisolone": "500 mg/day for 3 days, then 2 mg/kg/day"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": null,
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": null
+  },
+  "outcome_summary": {
+    "survival_months": 2,
+    "survival_status": "dead",
+    "cause_of_death": "respiratory failure",
+    "last_follow_up": "2024-12",
+    "treatment_discontinuation_reason": "progressive respiratory condition"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Osimertinib-induced interstitial lung disease in an elderly patient",
+      "Acute respiratory symptoms requiring mechanical ventilation",
+      "Importance of monitoring respiratory symptoms in patients receiving EGFR-TKIs"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

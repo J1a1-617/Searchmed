@@ -1,0 +1,28 @@
+{
+  "text": "Title: Clinical Experience with Rare EGFR Mutations S768I and V769L in Non-Small Cell Lung Cancer\nPMID: \nAuthors: \n\nAbstract\nThe development of epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors (TKIs) dramatically altered the treatment for non-small cell lung cancer (NSCLC). The implementation of comprehensive genomic profiling for NSCLC facilitates to identify more uncommon genetic alterations in EGFR. S768I and V769L are two rare mutations in exon 20 of EGFR. However, the clinical reactivity of afatinib to the S768I/V769L compound mutation remains controversial, and there are no reports on whether osimertinib is effective against S768I/V769L. This case study aims to describe a clinical experience with these mutations, detailing the therapeutic strategy adopted and its outcomes, alongside a literature review to understand the broader implications for treatment.\n\nCase presentation\nA 47-year-old man was referred to the Affilated Cancer Hospital of Zhengzhou University due to dry cough for more than 2 months and was diagnosed with Stage IIIB (T1cN3M0) lung adenocarcinoma. Mutation analysis of 26 lung cancer-related genes was performed using pathological tissue sample by targeted next-generation sequencing. A compound mutation of S768I and V769L in epidermal growth factor receptor exon 20 were observed. After multi-disciplinary treatment, the patient received concurrent chemoradiotherapy with pemetrexed and cisplatin, and achieved partial response. This patient did not receive durvalumab immunoconsolidation therapy for economic reasons. He developed disease progression 6 months after the end of radiotherapy. The patient was treated with afatinib at 40 mg daily by oral administration from January 2023. At the 1-month response assessment, the primary tumor in the right lung shrank and remained stable for 13 months. Magnetic resonance imaging revealed multiple nodules with brain metastases. We performed NGS testing of peripheral blood, and no mutation was found. Considering the superior intracranial efficacy of osimertinib, we tried high dose osimertinib for the patient. He achieved partial response after 15 days, and there were no intolerable adverse reactions. Three months later, the intracranial metastasis progressed, and headache appeared. The patient was switched to whole brain radiotherapy. The intracranial metastases remained stable after radiotherapy. The patient died 3 months later due to the progression of intracranial metastasis. overall survival was 26 months, slightly poorer than anticipated for patients with single driver gene mutations.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41660509_tr.json",
+    "source_pmid": "41660509",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41660509_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:28:49",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case Report: A patient harboring rare EGFR S768I/V769L compound mutation benefited from afatinib and osimertinib",
+    "author": "Qingli Cui; Jiuzhou Zhao; Yichen Ma; Yanhui Hu; Dongyang Ma; Huaimin Liu",
+    "date": "2026-01-23"
+  },
+  "rejection_reason": null
+}

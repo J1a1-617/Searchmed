@@ -1,0 +1,28 @@
+{
+  "text": "Title: A Novel EGFR Germline Mutation in Lung Adenocarcinoma: Case Report and Literature Review\nPMID: [DOI]\nAuthors: [作者列表]\n\nAbstract\nGerm-line EGFR mutations are rare, and their clinical significance, particularly regarding response to tyrosine kinase inhibitors (TKIs), remains poorly defined. The EGFR V831H (also known as R831H) mutation is an exceptionally rare variant with constitutive activity, and data on its therapeutic sensitivity are scarce.\n\nCase presentation\nA 68-year-old man was diagnosed with stage IIIB lung adenocarcinoma and concurrent latent tuberculosis infection (LTBI). Next-generation sequencing of a lymph node biopsy revealed co-occurring somatic KRAS G12V and an EGFR exon 21 V831H mutation, which was subsequently identified as a germ-line variant. The patient initiated antituberculosis therapy (rifampicin and isoniazid) followed by the third-generation EGFR-TKI almonertinib (110 mg/day).\n\nResults\nThe disease demonstrated primary resistance to almonertinib, with radiological progression in thoracic lymph nodes observed within 20 days of treatment initiation. The patient died one month later with evidence of new brain metastases.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41788992_tr.json",
+    "source_pmid": "41788992",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41788992_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:33:53",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Germ-line exon 21 EGFR V831H mutation in advanced NSCLC resistance to almonertinib: a case report",
+    "author": "Daxia Cai; Jian Lou; Yanyan Zhu; Yonghui Wang",
+    "date": "2026-02-18"
+  },
+  "rejection_reason": null
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: Bronchiolar adenoma: a case report\nPMID: \nAuthors: \n\nAbstract\nBronchiolar adenoma (BA) is a benign lung tumor characterized by nodular proliferation of bilayered bronchiolar-type epithelium with a continuous basal cell layer. The genetic characteristics of BA are not well understood. However, mutations commonly associated with lung adenocarcinoma, such as BRAF V600E, epidermal growth factor receptor (EGFR) mutations, and ALK rearrangements, have recently been identified in this context.\n\nCase report\nThis report describes a case of BA in a 43-year-old male who presented with a mixed ground-glass opacity (mGGO) detected during a routine physical examination. The patient had excellent cardiopulmonary function and no other medical conditions. After evaluation, local surgical resection was performed. Intraoperative frozen section pathology initially suggested adenocarcinoma. However, postoperative immunohistochemical examination confirmed the diagnosis of BA. Next-generation sequencing (NGS) further revealed an EGFR exon 19 deletion mutation.\n\nA 43-year-old male presented with a mixed ground-glass nodule detected during a routine physical examination. Chest computed tomography (CT) revealed a posterior basal segment nodule measuring approximately 9.7 × 1.1 millimeters in the right lung. No significant enlargement of mediastinal or hilar lymph nodes was observed. The patient’s vital signs were within normal limits. Echocardiography, abdominal ultrasonography, and pulmonary function tests all yielded normal results. Laboratory tests, including complete blood counts, serum lung cancer tumor markers and biochemical markers, were within the reference ranges. The patient did not exhibit any clinical symptoms such as cough or fever. The patient had no smoking history or family history of lung cancer. Following the diagnosis of mGGO, the patient experienced severe anxiety. After completing preoperative evaluations, the patient underwent wedge resection of the lower lobe of the right lung via video-assisted thoracoscopic surgery (VATS). Intraoperative frozen section pathology initially suggested adenocarcinoma. However, histological examination after surgery revealed that the tumor tissue displayed papillary growth, forming a double-layered cellular structure consisting of basal and luminal cell layers. Hematoxylin-eosin (HE) staining showed the luminal cell layer was composed of ciliated columnar cells and mucus cells. Immunohistochemical (IHC) staining showed positive expression of P63, CK5/6 and focal weak positivity of thyroid transcription factor-1 (TTF-1) in basal cells. NapsinA, Synaptophysin, CD56, and chromogranin A were negative. Based on the strong positivity for P63, P40 and CK5/6 in the basal cell layer, which confirms the preservation of a continuous basal cell architecture, and the presence of ciliated columnar cells and mucus cells in the luminal cell layer, a diagnosis of proximal-type BA was established. Molecular pathology analysis using next-generation sequencing (NGS), a high-throughput DNA sequencing technology, revealed the presence of an exon 19 deletion mutation in the epidermal growth factor receptor (EGFR), Furthermore, no additional mutations were detected in genes such as ROS1 or ALK gene rearrangements. Two years after surgery, the patient remains free of disease recurrence.\n\nThe samples were tested in duplicate by the Department of Pathology, Second Hospital of Lanzhou University (Lanzhou, China), and Burning Rock Dx Company. The latter results were confirmed by a Clinical Laboratory Improvement Amendments (CLIA)-certified laboratory in the United States.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40270599_tr.json",
+    "source_pmid": "40270599",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40270599_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:17:45",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Bronchiolar adenoma with EGFR exon 19 deletion mutation: a case report and literature review",
+    "author": "Shaobo Zhang; Xiaohui Liu; Xiaoxia Zhang; Peng Zhang; Haiming Feng; Peng Jiang",
+    "date": "2025-04-09"
+  },
+  "rejection_reason": null
+}

@@ -1,0 +1,137 @@
+{
+  "provenance": {
+    "source_filename": "39108772_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 64,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "persistent right-sided chest pain",
+      "weight loss"
+    ],
+    "diagnosis_date": "2021-06",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pulmonary metastasis",
+      "thoracic nodal metastasis",
+      "lytic right rib lesion",
+      "multiple osteolytic bony metastases"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2021-06",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 mutation"
+        ],
+        "sample": "fine needle aspiration biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2022-08",
+      "event_type": "progression + rebiopsy + treatment",
+      "molecular": {
+        "findings": null,
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "Taxol",
+          "carboplatin",
+          "atezolizumab",
+          "Avastin"
+        ],
+        "type": "combination",
+        "dosage": {
+          "Taxol": null,
+          "carboplatin": null,
+          "atezolizumab": null,
+          "Avastin": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2023-06",
+      "event_type": "treatment + palliative care",
+      "molecular": {
+        "findings": null,
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": null,
+        "type": null,
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": null,
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "Taxol",
+      "carboplatin",
+      "atezolizumab",
+      "Avastin"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient had an EGFR exon 19 mutation",
+      "Initial response to osimertinib but bone lesions remained unresponsive",
+      "Subsequent treatment with a combination therapy led to temporary disease reduction",
+      "Shifted focus to palliative care due to persistent disease progression"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

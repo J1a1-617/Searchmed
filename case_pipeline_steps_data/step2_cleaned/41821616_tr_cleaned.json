@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41821616_tr.json",
+    "source_pmid": "41821616",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41821616_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:35:03",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Natural products as kinase inhibitors in lung cancer: molecular mechanisms, therapeutic potential, and clinical trials",
+    "author": "Adil Farooq Wali; Sirajunisa Talath; Rasha Babiker; Mohamed El-Tanani; Imran Rashid Rangraze; Walaa Ibraheem; Yusra Al Aldhaheri; Shakta Mani Satyam; Yahia El-Tanani",
+    "date": "2026-02-25"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

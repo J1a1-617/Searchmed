@@ -1,0 +1,65 @@
+{
+  "provenance": {
+    "source_filename": "35875466_tr_cleaned.json",
+    "source_pmid": "100368",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 40,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "II",
+    "overall_stage": "II",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 p.Glu746_Ala750 deletion"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": null
+        }
+      },
+      "response": null,
+      "safety": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with Li-Fraumeni syndrome due to germline TP53 mutation",
+      "Family history of multiple cancers including lung, breast, and prostate",
+      "EGFR exon 19 deletion identified in lung adenocarcinoma",
+      "Adjuvant osimertinib initiated post-surgery"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

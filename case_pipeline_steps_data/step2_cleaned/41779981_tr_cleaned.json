@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41779981_tr.json",
+    "source_pmid": "41779981",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41779981_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:33:45",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Izalontamab Brengitecan in Locally Advanced or Metastatic Non–Small Cell Lung Cancer With Actionable Genomic Alterations Outside of Classical EGFR Mutations: A Phase Ib Study",
+    "author": "Huaqiang Zhou; Hongyun Zhao; Xue Hou; Yongsheng Wang; Zhiyong He; Yongsheng Li; Yuxiang Ma; Yuanyuan Zhao; Yan Huang; Likun Chen; Sa Xiao; Hai Zhu; Yi Zhu; Wenfeng Fang; Li Zhang; Yunpeng Yang",
+    "date": "2026-03-04"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

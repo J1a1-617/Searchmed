@@ -1,0 +1,17 @@
+{
+  "pmid": "41959066",
+  "source_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case report/literature_pipeline/output/full_texts/41959066.html",
+  "extraction_method": "trafilatura",
+  "title": "Targeting Distinct Cell Cycle Nodes Overcomes KRAS/RAS Inhibitor Resistance",
+  "author": "Vishnu Kumarasamy; Jianxin Wang; Edwin Yau; Ethan V Abel; Agnieszka K Witkiewicz; Erik S Knudsen",
+  "date": "2026-03-12",
+  "url": "",
+  "hostname": "ncbi.nlm.nih.gov",
+  "description": "",
+  "categories": "",
+  "tags": "",
+  "text": "Abstract\nActivating mutations in KRAS drive pancreatic ductal adenocarcinoma (PDAC) and non-small cell lung cancer (NSCLC). Although mutant-selective KRAS inhibitors and pan-RAS inhibitors provide clinical benefits, the development of resistance limits durable response. Transcriptomic and proteomic analyses reveal that, despite effective suppression of mutant KRAS signaling, resistant cells sustain cell cycle progression. Distinct orthogonal mitogenic pathways are engaged in a context-dependent manner to bypass KRAS inhibition. While these pathways can be broadly inhibited using the pan-RAS-ON inhibitor RMC-6236, cells remained capable of developing acquired resistance where cell proliferation is uncoupled from RAS signaling. Combinatorial drug screens and genome-wide CRISPR-Cas9 screens reveal that perturbing cell cycle nodes via targeting cyclin dependent kinases CDK4/6 and CDK2 could restore sensitivity to KRAS/RAS inhibitors. Co-targeting CDK4/6 induces G1 arrest and suppresses E2F-regulated proteins across all resistant models. In contrast, co-targeting CDK2 exerts a broader effect by impairing DNA replication, inducing G2 arrest, preventing mitotic entry, and yielding a more durable cytostatic response that delays cellular outgrowth after drug withdrawal. Finally, concurrent inhibition of KRAS with either CDK4/6 or CDK2 yields durable tumor control in vivo in xenografts derived from acquired resistant models. In conclusion, our findings identify sustained cell cycle activity as a defining feature of resistance to KRAS-directed therapies and establish cell cycle co-targeting as an effective strategy to overcome KRAS/RAS inhibitor resistance.\nFull Text Availability\nThe license terms selected by the author(s) for this preprint version do not permit archiving in PMC. The full text is available from the preprint server.",
+  "text_length": 1852,
+  "fingerprint": "264991a91f8c355a",
+  "license": null
+}

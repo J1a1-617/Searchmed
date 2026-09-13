@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "35331964_tr.json",
+    "source_pmid": "35331964",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/35331964_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:15:24",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Concurrent TP53 mutations facilitate resistance evolution in EGFR mutant lung adenocarcinoma",
+    "author": "Natalie I Vokes; Emily Chambers; Tom Nguyen; Alexis Coolidge; Christine A Lydon; Xiuning Le; Lynette Sholl; John V Heymach; Mizuki Nishino; Eliezer M Van Allen; Pasi A Jänne",
+    "date": "2022-03-21"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

@@ -1,0 +1,109 @@
+{
+  "provenance": {
+    "source_filename": "39296080_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.8
+  },
+  "baseline_clinical_profile": {
+    "age": 45,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "pT2bN2M0",
+    "overall_stage": "IIIa",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "YYYY-MM",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "right lower lobe mass"
+      },
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg/day"
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "YYYY-MM",
+      "event_type": "diagnosis + treatment",
+      "molecular": {
+        "findings": [
+          "BCR-ABL fusion gene positive"
+        ],
+        "sample": "bone marrow"
+      },
+      "treatment": {
+        "line": "CML",
+        "regimen": [
+          "flumatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "flumatinib": "400 mg/day"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 1
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 1 diarrhea",
+          "grade 1 oral ulcers",
+          "grade 1 abnormal liver function"
+        ],
+        "dose_adjustments": [
+          "flumatinib increased to 600 mg/day"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "flumatinib"
+    ],
+    "mechanism": null,
+    "severity": "moderate",
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 12,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient developed CML after osimertinib treatment for NSCLC",
+      "Osimertinib and flumatinib used simultaneously with manageable side effects"
+    ],
+    "ddi_relevance": "medium",
+    "generalizability": "low"
+  }
+}

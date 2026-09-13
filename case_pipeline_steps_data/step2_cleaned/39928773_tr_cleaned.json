@@ -1,0 +1,28 @@
+{
+  "text": "Title: TTF-1 and p40 co-expressing non-small cell lung cancer with ERBB2 and TP53 gene mutations: A case report and review of the literature\nPMID: 32000000\nAuthors: Sun J, Shi H, Sun B, Wei T, Su J, Liu H, Wang D, Li X\n\nAbstract\nRationale:\nNon-small cell lung cancer (NSCLC) that co-expresses thyroid transcription factor-1 (TTF-1) and p40 represents a distinct subtype of lung cancer. This case report details a 53-year-old male patient with NSCLC exhibiting co-expression of TTF-1 and p40, highlighting the need for further investigation into this unique presentation of NSCLC.\nPatient concerns:\nA 53-year-old male, nonsmoker, presented to our hospital in November 2023 with complaints of cough, expectoration, chest pain, and dyspnea.\nDiagnoses:\nComputed tomography scans revealed perihilar lesions in the upper lobe of the right lung with distal obstructive pneumonia, invasion into adjacent mediastinal structures, multiple pulmonary metastases, possible mediastinal and right hilar lymph node metastases, pleural effusion, and a slightly thickened pleura in the right lung, along with multiple metastatic lesions in the liver. Immunohistochemical analysis showed positive staining for CK (AE1/AE3), TTF-1, and p40, while CK56, CD68, CD45 (LCA), D2-40, and Ki-67 (50%+) were negative, leading to the diagnosis of lung adenocarcinoma. Second-generation sequencing identified mutations in ERBB2 (EXON20.p.Y772-A775dup) and TP53 (EXON5.c.404G-Tp.C135F).\nInterventions:\nThe patient underwent 6 cycles of chemotherapy with a regimen consisting of bevacizumab, pemetrexed, and carboplatin.\nOutcomes:\nPosttreatment evaluations on December 28, 2023, and February 25, 2024, indicated stable disease. The patient is currently on a maintenance chemotherapy regimen of bevacizumab and pemetrexed, and his condition is stable.\nLessons:\nThe co-expression of TTF-1 and p40 in NSCLC may define a novel subtype of lung cancer. Further research is imperative to elucidate its characteristics, molecular mechanisms, and to establish its morphological features and therapeutic strategies.\n\nCase description\nA 53-year-old male patient without a smoking history visited our hospital due to cough and expectoration accompanied by chest pain and dyspnea in November 2023. Physical examination upon admission showed bilateral thoracic symmetry, disappearance of respiratory sounds in the lower lobe of the right lung and minimal scattered wheezes in the right and left lungs. However, palpable superficial lymph nodes or swelling was not observed. Plain and contrast-enhanced chest and upper abdominal computed tomography scans revealed perihilar lesions in the upper lobe of the right lung with distal obstructive pneumonia, invasion into the adjacent structures of the mediastinum, multiple metastases in the right and left lungs, possible lymph node metastasis in the mediastinum and right hilar lung, pleural effusion and a slightly thickened pleura in the right lung and multiple metastatic lesions in the liver. Whole-body bone imaging revealed abnormal increases in the radioactivity of the skull, sternum, cervical, thoracic, lumbar and sacral vertebral bodies, multiple ribs on both sides, scapula, pelvis and lower limbs, which indicated extensive bone metastasis. Thoracic puncture and drainage were performed for dyspnea. According to the results of exfoliative cytology of drainage fluid and immunohistochemistry [CK (AE1/AE3) (+), CK56 (−), CD68 (−), CD45 (LCA) (−), TTF-1 (+), p40 (+), D2-40 (−), and ki-67 (50%+)], adenocarcinoma of lung origin was considered. Second-generation sequencing showed ERBB2 (EXON20.p.Y772-A775dup) and TP53 (EXON5.c.404G-Tp.C135F) mutations. The patient received 6 cycles of chemotherapy regimen comprising bevacizumab + pemetrexed + carboplatin. On December 28, 2023, and February 25, 2024, the patient was assessed to evaluate treatment efficacy, and he then achieved stable disease (SD). At present, the patient is receiving a maintenance chemotherapy regimen comprising bevacizumab + pemetrexed and is in good condition.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39928773_tr.json",
+    "source_pmid": "39928773",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39928773_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:06:26",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "TTF-1 and p40 co-expressing non-small cell lung cancer with ERBB2 and TP53 gene mutations: A case report and review of the literature",
+    "author": "Jiachun Sun; Haolin Shi; Bo Sun; Tingting Wei; Jingxiang Su; Hongyan Liu; Dengkui Wang; Xinyang Li",
+    "date": "2025-02-07"
+  },
+  "rejection_reason": null
+}

@@ -1,0 +1,110 @@
+{
+  "skill": "clinical-evidence-applicability",
+  "case_count": 10,
+  "all_no_direct_cases_capped_at_two": true,
+  "cases": [
+    {
+      "instance_id": "smoke_case_01_node_1",
+      "direct_findings_before": 0,
+      "analog_findings_before": 1,
+      "forwarded_after_skill": 1,
+      "direct_evidence_preserved": true,
+      "forwarded_ids": [
+        "claim_01"
+      ]
+    },
+    {
+      "instance_id": "smoke_case_02_node_1",
+      "direct_findings_before": 1,
+      "analog_findings_before": 0,
+      "forwarded_after_skill": 1,
+      "direct_evidence_preserved": true,
+      "forwarded_ids": [
+        "claim_01"
+      ]
+    },
+    {
+      "instance_id": "smoke_case_03_node_1",
+      "direct_findings_before": 2,
+      "analog_findings_before": 0,
+      "forwarded_after_skill": 2,
+      "direct_evidence_preserved": true,
+      "forwarded_ids": [
+        "claim_01",
+        "claim_01"
+      ]
+    },
+    {
+      "instance_id": "smoke_case_04_node_2",
+      "direct_findings_before": 0,
+      "analog_findings_before": 6,
+      "forwarded_after_skill": 2,
+      "direct_evidence_preserved": true,
+      "forwarded_ids": [
+        "claim_01",
+        "claim_02"
+      ]
+    },
+    {
+      "instance_id": "smoke_case_05_node_1",
+      "direct_findings_before": 0,
+      "analog_findings_before": 6,
+      "forwarded_after_skill": 2,
+      "direct_evidence_preserved": true,
+      "forwarded_ids": [
+        "claim_01",
+        "claim_02"
+      ]
+    },
+    {
+      "instance_id": "smoke_case_09_node_2",
+      "direct_findings_before": 0,
+      "analog_findings_before": 0,
+      "forwarded_after_skill": 0,
+      "direct_evidence_preserved": true,
+      "forwarded_ids": []
+    },
+    {
+      "instance_id": "smoke_case_10_node_2",
+      "direct_findings_before": 0,
+      "analog_findings_before": 10,
+      "forwarded_after_skill": 2,
+      "direct_evidence_preserved": true,
+      "forwarded_ids": [
+        "claim_01",
+        "claim_02"
+      ]
+    },
+    {
+      "instance_id": "smoke_case_13_node_3",
+      "direct_findings_before": 0,
+      "analog_findings_before": 6,
+      "forwarded_after_skill": 1,
+      "direct_evidence_preserved": true,
+      "forwarded_ids": [
+        "claim_05"
+      ]
+    },
+    {
+      "instance_id": "smoke_case_19_node_2",
+      "direct_findings_before": 0,
+      "analog_findings_before": 8,
+      "forwarded_after_skill": 1,
+      "direct_evidence_preserved": true,
+      "forwarded_ids": [
+        "claim_04"
+      ]
+    },
+    {
+      "instance_id": "smoke_case_26_node_2",
+      "direct_findings_before": 0,
+      "analog_findings_before": 3,
+      "forwarded_after_skill": 2,
+      "direct_evidence_preserved": true,
+      "forwarded_ids": [
+        "claim_09",
+        "claim_03"
+      ]
+    }
+  ]
+}

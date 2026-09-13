@@ -1,0 +1,28 @@
+{
+  "text": "Title: Transformation from NSCLC to SCLC: A Case Report of Acquired Resistance to EGFR-TKI\nPMID: \nAuthors: \n\nAbstract\nEpidermal growth factor receptor-tyrosine kinase inhibitors (EGFR-TKIs) have demonstrated significant survival benefits for advanced non-small cell lung cancer (NSCLC) patients with sensitive EGFR mutations. However, patients with EGFR-TKI treatment often develop acquired resistance subsequently. Transformation from NSCLC to small cell lung cancer (SCLC) is a rare EGFR-TKI resistance mechanism for patients with sensitive EGFR mutations. Herein, we report a NSCLC patient with EGFR exon 19 deletion treated with EGFR-TKI. During treatment, the pathological type of tumor showed transformation from NSCLC to combined SCLC and then to pure SCLC after acquiring EGFR-TKI resistance. Genomic analysis revealed that the EGFR exon 19 deletion, TP53 Y220H mutation, and retinoblastomal transcriptional corepressor 1 (RB1) F755V mutation existed persistently. Immunohistochemical results showed the loss of EGFR and RB1 expression in SCLC. The patient received multi-line chemotherapy with platinum agents and experienced a briefly effective window, but died of aggressive tumor progression. We profiled the transformation from NSCLC to SCLC of this case and pointed out the importance of repeat biopsy in response to EGFR-TKI resistance. Our results showed a novel RB1 F755V mutation which may be associated with RB1 loss. This report summarized the clinical characteristics, mechanisms, and predictors of SCLC transformation, and discussed the treatment after transformation.\n\nCase presentation\nIn June 2015, a 44-year-old man was diagnosed with intrapulmonary metastatic lung adenocarcinoma with EGFR exon 19 deletion (Table 1). He achieved a clinically significant response for 10 months through the use of icotinib (Figure 1). After further progression, repeat biopsy showed the transformation from adenocarcinoma to combined SCLC. Immunohistochemical (IHC) results showed positive EGFR expression in the adenocarcinoma but negative in SCLC (Figure 2A,2B), and the positive RB1 expression in both adenocarcinoma and SCLC (Figure 2C,2D). In July 2016, pathological biopsy showed the pure SCLC, with EGFR exon 19 deletion, TP53 Y220H, and RB1 F755V mutations (Table 1). The IHC results showed the decreased EGFR expression and negative RB1 expression in SCLC (Figure 2E,2F). From July to December 2016, the patient received combined radioactive particle implantation and 6 cycles of chemotherapy of irinotecan plus cisplatin, and achieved complete response for 8 months. Until March 2017, computed tomography (CT) showed increasing metastatic lung lesions, but biopsy did not detect tumor cells. In July 2017, the patient exhibited enlarged intrapulmonary metastatic lesions and 2 cycles of paclitaxel plus cisplatin were administered. In October 2017, the disease had rapidly progressed. The patient stopped taking icotinib and underwent 4 cycles of paclitaxel plus cisplatin. After 3 months, CT revealed progression of the lung lesions and new hepatic metastases. The pathological biopsy showed SCLC with EGFR, TP53 Y220H, and RB1 F755V mutations (Table 1). The patient received apatinib treatment, but stopped after 10 days owing to hemoptysis. After 2 cycles of gemcitabine plus cisplatin, the patient developed multiple intracranial metastases. Unfortunately, the patient died of aggressive cancer progression on 10 May 2018. During treatment, the serum tumor levels of neuron-specific enolase (NSE) and carcinoembryonic antigen (CEA) were elevated (Figure 3).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "35282065_tr.json",
+    "source_pmid": "35282065",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/35282065_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:15:20",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Characterization of non-small cell lung cancer transforming to small cell lung cancer and its response to EGFR-TKI: a case report",
+    "author": "Guotao Fang; Weiwei Liu; Yanhong Shang; Ran Huo; Xiaoliang Shi; Yanan Wang; Jinghua Li",
+    "date": "2011-04-01"
+  },
+  "rejection_reason": null
+}

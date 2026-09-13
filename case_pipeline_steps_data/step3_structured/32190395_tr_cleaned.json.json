@@ -1,0 +1,160 @@
+{
+  "provenance": {
+    "source_filename": "32190395_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 62,
+    "sex": "male",
+    "smoking_status": "nonsmoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "productive cough"
+    ],
+    "diagnosis_date": "2016-10",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM",
+    "tnm_stage": "cT4N2M1a",
+    "overall_stage": "IV",
+    "baseline_primary_site": "right upper lobe",
+    "metastatic_sites_at_baseline": [
+      "malignant pleural effusion"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2016-10",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR wild-type",
+          "ALK-negative"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "radiotherapy"
+        ],
+        "type": "radiation",
+        "dosage": {
+          "radiotherapy": "6400 cGy/30 FX"
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2017-02",
+      "event_type": "treatment",
+      "molecular": {
+        "alterations": [
+          "ERBB2 amplification"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "trastuzumab"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "trastuzumab": "initial monotherapy followed by concurrent with docetaxel"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "2017-06",
+      "event_type": "imaging",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "CR",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": "2017-10",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "TP53 Y220C",
+          "TP53 R248W"
+        ],
+        "sample": "ctDNA"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "bevacizumab",
+          "trastuzumab"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "bevacizumab": null,
+          "trastuzumab": null
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2018-02",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "atezolizumab"
+        ],
+        "type": "immunotherapy",
+        "dosage": null
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "pneumonia",
+          "septic shock"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "trastuzumab",
+      "docetaxel"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 4,
+    "survival_status": "dead",
+    "cause_of_death": "pneumonia and septic shock",
+    "last_follow_up": "2018-02",
+    "treatment_discontinuation_reason": "progressive disease"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "ERBB2 amplification identified through comprehensive genomic profiling",
+      "Excellent response to trastuzumab-based therapy",
+      "Development of brain metastasis after initial treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "provenance": {
+    "source_filename": "40740944_tr_cleaned.json",
+    "source_pmid": "40740944",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.92
+  },
+  "baseline_clinical_profile": {
+    "age": 64,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 30,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2023-04",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "TxN0M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "prostate",
+      "bone"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-04",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "prostate lesion"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-08",
+      "event_type": "response + monitoring",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "CR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-06",
+      "event_type": "monitoring",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2025-03",
+      "event_type": "monitoring",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2025-06"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Prostatic metastasis from lung adenocarcinoma with EGFR L858R mutation",
+      "Patient responded well to osimertinib therapy",
+      "Significant improvement in serum CEA levels"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "provenance": {
+    "source_filename": "40948846_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 65,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "cough with white sputum"
+    ],
+    "diagnosis_date": "2015-10",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 7th",
+    "tnm_stage": "T4N2M0",
+    "overall_stage": "IIIB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2015-10",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": null,
+      "response": null
+    },
+    {
+      "time": "2015-12",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": "250 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2016-08",
+      "event_type": "progression + imaging",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "radiotherapy",
+          "gefitinib"
+        ],
+        "type": "radiotherapy + targeted",
+        "dosage": {
+          "gefitinib": "250 mg daily",
+          "radiotherapy": "45 Gy in 15 fractions and 50 Gy in 10 fractions"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 8
+      }
+    },
+    {
+      "time": "2016-11",
+      "event_type": "surgery + molecular",
+      "molecular": {
+        "alterations": [
+          "MET amplification"
+        ],
+        "sample": "adrenal gland specimen"
+      },
+      "treatment": {
+        "line": "surgery",
+        "regimen": [
+          "left adrenalectomy"
+        ],
+        "type": "surgery",
+        "dosage": null
+      },
+      "response": null
+    },
+    {
+      "time": "2017-02",
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "MET amplification",
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "biopsy specimen"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pemetrexed",
+          "gefitinib"
+        ],
+        "type": "chemotherapy + targeted",
+        "dosage": {
+          "pemetrexed": null,
+          "gefitinib": "250 mg daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2017-03",
+      "event_type": "clinical_trial + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "savolitinib",
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "savolitinib": "600 mg daily",
+          "gefitinib": "250 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 60
+      }
+    },
+    {
+      "time": "2022-04",
+      "event_type": "safety + treatment adjustment",
+      "molecular": {
+        "alterations": [
+          "negative ctDNA"
+        ],
+        "sample": "plasma"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "savolitinib",
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "savolitinib": "400 mg daily",
+          "gefitinib": "250 mg daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-09",
+      "event_type": "follow-up",
+      "molecular": {
+        "alterations": [
+          "negative ctDNA"
+        ],
+        "sample": "plasma"
+      },
+      "treatment": null,
+      "response": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "savolitinib",
+      "gefitinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 96,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2025-01"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Co-occurrence of MET amplification and EGFR exon 19 deletion mutation",
+      "Effective combination treatment of savolitinib and gefitinib",
+      "Long-term PFS of over 8 years",
+      "Grade 4 peripheral edema managed with dose adjustment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

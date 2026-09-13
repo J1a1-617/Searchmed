@@ -1,0 +1,124 @@
+{
+  "provenance": {
+    "source_filename": "36093550_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 72,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": 10,
+    "presenting_symptoms": [
+      "cough",
+      "blood-tinged sputum",
+      "chest distress",
+      "anhelation"
+    ],
+    "diagnosis_date": "2019-04",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IV",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "lymph nodes",
+      "pleural effusion"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2019-04",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "CD47-MET rearrangement"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg b.i.d."
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 8
+      }
+    },
+    {
+      "time": "2020-02",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "CD47-MET fusion",
+          "MET D1228E mutation"
+        ],
+        "sample": "re-biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "cabozantinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "cabozantinib": "100 mg for 3 weeks, then 62.5 mg"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2020-05",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "CD47-MET fusion",
+          "MET D1228E mutation"
+        ],
+        "sample": "re-biopsy"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "pemetrexed",
+          "bevacizumab"
+        ],
+        "type": "combination",
+        "dosage": null
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with CD47-MET rearranged lung adenocarcinoma",
+      "Initial response to crizotinib with PFS of 8 months",
+      "Acquired MET D1228E mutation during cabozantinib treatment",
+      "Short-term response to cabozantinib followed by combination therapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

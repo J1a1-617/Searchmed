@@ -1,0 +1,92 @@
+{
+  "provenance": {
+    "source_filename": "40351934_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 65,
+    "sex": "male",
+    "smoking_status": "current_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung squamous cell carcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT3N2M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph node",
+      "bilateral lungs"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "primary lesion"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "nab-paclitaxel",
+          "pembrolizumab"
+        ],
+        "type": "combination",
+        "dosage": {
+          "carboplatin": null,
+          "nab-paclitaxel": null,
+          "pembrolizumab": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 24
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment continuation",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pembrolizumab"
+        ],
+        "type": "monotherapy",
+        "dosage": {
+          "pembrolizumab": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 12
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 36,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR-mutated lung squamous cell carcinoma with high PD-L1 TPS of 95%",
+      "Chemotherapy plus pembrolizumab demonstrated durable efficacy",
+      "Good response observed consistently over two years without adverse events"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

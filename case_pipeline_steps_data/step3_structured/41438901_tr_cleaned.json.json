@@ -1,0 +1,109 @@
+{
+  "provenance": {
+    "source_filename": "41438901_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 80,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "chronic obstructive pulmonary disease"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "T2aN0M0",
+    "overall_stage": "IB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "null",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 insertion"
+        ],
+        "sample": "surgical specimens"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "pembrolizumab"
+        ],
+        "type": "chemotherapy + immunotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "pemetrexed": null,
+          "pembrolizumab": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "null",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 insertion"
+        ],
+        "sample": "LCCP results"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      },
+      "safety": {
+        "adverse_events": [
+          "aspiration pneumonia"
+        ],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Detection of rare EGFR exon 19 insertion using LCCP",
+      "Initial response to osimertinib treatment",
+      "Patient experienced aspiration pneumonia requiring hospitalization"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

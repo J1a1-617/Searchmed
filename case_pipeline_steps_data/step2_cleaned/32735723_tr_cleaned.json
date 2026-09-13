@@ -1,0 +1,28 @@
+{
+  "text": "Title: MET amplification results in heterogeneous responses to osimertinib in EGFR‐mutant lung cancer treated with erlotinib\nPMID: 10.1111/cas.14593\nAuthors: Nishiyama A, Takeuchi S, Adachi Y, et al.\n\nAbstract\nThe third‐generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR‐TKI) osimertinib is approved for untreated, or previously EGFR‐TKI–treated T790M‐positive EGFR‐mutated non‐small cell lung carcinoma (NSCLC). We investigated the heterogeneity of responses to osimertinib and its underlying mechanisms. A patient with EGFR‐L858R–mutated NSCLC was treated with erlotinib. Following treatment, he developed brain and multiple bone metastases and was eventually diagnosed with NSCLC with EGFR‐T790M mutation. The responses of various tumor specimens to osimertinib were heterogeneous. We investigated EGFR‐T790M and MET amplification using PCR and FISH in autopsy specimens of the cervical spine, lumbar spine, and brain. We established the KNZ osimertinib‐resistant (KNZ_OR) tumor cell line with MET amplification using a cervical spine lesion that was intrinsically resistant to osimertinib. We evaluated the effects of MET knockdown and MET inhibitor on KNZ_OR cell sensitivity to osimertinib in vitro and in vivo. Osimertinib‐resistant lesions (cervical spine and brain) showed EGFR‐L858R and MET amplification, but not EGFR‐T790M, whereas osimertinib‐sensitive lesions (lumbar spine) showed EGFR‐L858R and ‐T790, but not MET amplification. Osimertinib decreased the association of amplified MET with L858R‐mutated EGFR but increased that with human epidermal growth factor receptor 3 in KNZ_OR cells. MET knockdown or MET inhibitor sensitized KNZ_OR cells to osimertinib in vitro, indicating that MET amplification induced osimertinib resistance. Combination with osimertinib plus crizotinib induced tumor shrinkage in the KNZ_OR xenograft model. Hence, MET amplification might induce heterogeneous responses to osimertinib in EGFR‐mutated NSCLC. Further investigations on mutated EGFR and amplified MET might lead to the development of effective therapies.\n\nCase report\nA 55‐year‐old man who had been a light smoker (one pack a year) underwent right lower lobectomy for both diagnosis and treatment. He was diagnosed with T2aN2M0 (stage IIIA) lung adenocarcinoma and a primary tumor with an EGFR exon 21 L858R mutation. He underwent four courses of adjuvant chemotherapy with cisplatin plus pemetrexed. Metastases recurred in the mediastinal lymph nodes, lung, bone, and brain 6 months after completing adjuvant chemotherapy. He was then administered erlotinib (150 mg/d) and underwent whole brain irradiation for multiple brain metastases. However, 7 months after erlotinib administration, the brain and bone lesions worsened. Two brain metastatic lesions were treated using a γ knife. As the EGFR‐T790M mutation was detected in his plasma using a COBAS EGFR Mutation Test® (Roche Molecular Systems Inc), the patient was started on osimertinib (80 mg/d). However, a neck pain developed 1 month after osimertinib administration, and CT findings revealed worsening metastases at the seventh cervical vertebra (C7) and exacerbation of brain metastases with brain edema (Figure 1A). Hence, we applied posterior decompression and C7 fusion to improve neck pain and quality of life. We obtained part of the resected tumor and established the KNZ_OR cell line as described below. However, subsequent treatments were ineffective and the patient died.\n\nIntertumor heterogeneity of EGFR‐T790M detection and MET amplification\nMolecular tests of the resistant tumor at C7, performed at LC‐SCRUM, showed MET amplification and EGFR‐L858R but not EGFR‐T790M or EGFR‐C797S detection (Figure 1B). We also assessed the status of EGFR mutation and MET amplification in the surgically resected primary lung tumor and brain, cervical, and lumbar spine specimens with metastatic lesions acquired from the patient at autopsy. The primary lung tumor had only an EGFR‐L858R mutation. The brain and cervical spine tumors that were intrinsically resistant to osimertinib showed the EGFR‐L858R mutation and MET amplification but not the EGFR‐T790M mutation (Figure 1C, Figure S1). The lumbar spine, which was clinically stable during osimertinib therapy, displayed EGFR‐L858R and EGFR‐T790M mutations but not MET amplification. These results indicated the intertumor heterogeneity of the EGFR‐T790M mutation and MET amplification and a correlation between MET amplification and intrinsic resistance to osimertinib.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "32735723_tr.json",
+    "source_pmid": "32735723",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/32735723_tr.json",
+    "cleaning_timestamp": "2026-06-03T00:43:12",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "MET amplification results in heterogeneous responses to osimertinib in EGFR‐mutant lung cancer treated with erlotinib",
+    "author": "Akihiro Nishiyama; Shinji Takeuchi; Yuta Adachi; Sakiko Otani; Azusa Tanimoto; Motoko Sasaki; Shingo Matsumoto; Koichi Goto; Seiji Yano",
+    "date": "2020-09-01"
+  },
+  "rejection_reason": null
+}

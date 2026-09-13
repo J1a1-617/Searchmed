@@ -1,0 +1,28 @@
+{
+  "text": "Title: Fetal lung adenocarcinoma with KRAS mutation: a case report\nPMID: \nAuthors: \n\nAbstract\nFetal lung adenocarcinoma (FLAC) is a rare malignant tumor with a relatively good prognosis, and the probability of mutation with KRAS is very low. We report a middle-aged female patient with FLAC with KRAS mutation. The primary lesion was implanted with radioactive iodine 125 particles, and the lesion was smaller than before. However, the metastatic lesions progressed rapidly. After chemotherapy with pemetrexed disodium and cisplatin combined with bevacizumab to prevent angiogenesis, the primary lesions continued to shrink, and the metastatic lesions were significantly smaller than before. The patient has been followed up for 5 months and is generally in good condition. We report a case of H-FLAC with KRAS mutation, and its development and prognosis seem to be significantly abnormal from that of ordinary H-FLAC. It also provides a possible effective treatment for unresectable H-FLAC, but further research is needed.\n\n2. Case report\nFemale, 53 years old, has no smoking history. In May 2020, under general anesthesia, she underwent radical resection of hilar cholangiocarcinoma + cholecystectomy + hilar cholangioplasty. During the operation, she was frozen, suggesting adenocarcinoma. After the operation, she was clinically diagnosed as \"differentiated bile duct mucinous adenocarcinoma in hilar bile duct\". I came to the hospital in February 2023 because of \"cough for 1+ month\"; Chest CT: \"patch shadow of the outer basal segment of the lower lobe of the right lung\", considering infection; Serum tumor marker carcinoembryonic antigen was significantly increased by 55.16ng/ml, cytokeratin 19 fragment was slightly increased by 7.89ng/ml, and neuron-specific enolase, squamous cell carcinoma antigen and alpha-fetoprotein were normal. CT-guided lung biopsy was performed, and the punctured tissue was sent for pathological examination. Microscopic examination showed that the tumor cells were partially columnar, the nucleus was moderately atypical, and there were glycogen vacuoles in the cytoplasm of the cells under and above the nucleus, and pathological mitosis and necrosis of the focus were seen (Fig. 1); Immunohistochemistry: PCK (+), CK7 (+), TTF-1 (−), Napsina (−), CK20 (−), CDX-2 (−), P40 (−), HMB-45 (−), S-100 (−), β. Pathological diagnosis of \"high-grade fetal adenocarcinoma\" (Fig. 1) showed that KRAS(p.G12D) was positive, with an abundance of 14.83 %, and there were no gene mutations in EGFR, ALK, ROS1, MET, RET and BRAF. The stage of thoracic surgery consultation was late, and there was no surgical indication. On February 23, 2023, CT-guided radioactive iodine 125 seed implantation was performed. After reexamination, the patients' primary lesions were smaller and CEA was lower than before (Table 1), but the metastatic lesions in the lung were significantly increased (Figure 2). Therefore, on April 15th, 2023, May 13th, 2023 and June 15th, 2023, chemotherapy with pemetrexed disodium and cisplatin combined with bevacizumab was given to prevent angiogenesis. The primary lesion continues to shrink, the metastatic lesion also significantly shrinks, and CEA continues to decline. The patient has been followed up for 5 months, and the patient is generally in good condition.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39070297_tr.json",
+    "source_pmid": "39070297",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39070297_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:50:49",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "A case report of high-grade fetal lung adenocarcinoma with KRAS mutation",
+    "author": "Wang Jiaqi; Zhao Shicai; Yu Bin; Wenyong Yang",
+    "date": "2024-06-07"
+  },
+  "rejection_reason": null
+}

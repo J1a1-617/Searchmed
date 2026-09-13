@@ -1,0 +1,107 @@
+{
+  "provenance": {
+    "source_filename": "35173719_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 54,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2018-08",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT2N0M0",
+    "overall_stage": "IB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2018-08",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R (MAF 0.59%)",
+          "TP53 R181C (MAF 6.9%)",
+          "KRAS G12C (MAF 5.5%)",
+          "SMAD4 R361H (MAF 6.2%)"
+        ],
+        "sample": "baseline tumor"
+      },
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "nivolumab",
+          "ipilimumab"
+        ],
+        "type": "immunotherapy",
+        "dosage": {
+          "nivolumab": "3 mg/kg (days 1, 15, 29)",
+          "ipilimumab": "1 mg/kg (day 1)"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2019-04",
+      "event_type": "surgery + treatment",
+      "molecular": {},
+      "treatment": {
+        "line": "post-surgery",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": "null",
+          "carboplatin": "null"
+        }
+      },
+      "response": {},
+      "safety": {
+        "adverse_events": [
+          "persistent radiating and dull pain in the left posterior chest"
+        ]
+      }
+    },
+    {
+      "time": "2019-12",
+      "event_type": "progression + treatment",
+      "molecular": {},
+      "treatment": {
+        "line": "local treatment",
+        "regimen": [],
+        "type": "other",
+        "dosage": {}
+      },
+      "response": {},
+      "safety": {}
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient exhibited sarcoid-like reactions in lymph nodes and tertiary lymphoid structures after immunotherapy.",
+      "50% residual tumor cells were found post-treatment.",
+      "Driver mutations identified included TP53 R181C, KRAS G12C, and SMAD4 R361H."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: Novel therapies for clinical stage IIIA lung cancer are changing the outcomes in advanced clinical stage lung cancer.\nPMID: null\nAuthors: null\n\nAbstract\nNovel therapies for clinical stage IIIA lung cancer are changing the outcomes in advanced clinical stage lung cancer. A 77-year-old female patient diagnosed with clinical T4 or stage IIIA right lower lobe adenocarcinoma with a KRAS mutation. She received neoadjuvant chemoimmunotherapy for an 8 cm tumor, which showed a moderate response on imaging. The patient underwent robotic-assisted thoracoscopic right lower lobe lobectomy and mediastinal lymph node dissection. The final pathology showed a complete response. Novel induction chemoimmunotherapy provides an opportunity to completely eradicate cancer and provides surgical therapy for patients with advanced lung cancer.\nKeywords: induction chemoimmunotherapy, kras mutation, lung cancer, pathologic complete response, pathologic complete response (pcr), robotic lobectomy, stage iiia, t4 lung cancer\n\nCase presentation\nA 77-year-old female patient with a smoking history of 17 pack-years who had quit smoking seven years ago presented with an 8 cm lung mass. She was first noted to have a small right lower lobe 2 cm ground glass opacity when undergoing evaluation for interstitial lung disease four years prior to presentation. The patient was recommended a pulmonologist for biopsy, but was lost to follow-up until she presented to the emergency department with worsening of persistent dry cough with intermittent hemoptysis after recovering from COVID-19 infection.\nA chest computed tomography (CT) scan showed an 8 cm mass in the right lower lobe (Figure 1A). The patient underwent transbronchial biopsy, which was positive for invasive adenocarcinoma with KRAS mutation p.G12V, with no programmed death-ligand 1 (PDL1) tumor cell staining and <1% staining of tumor-associated inflammatory cells. Subsequent nodal staging with endobronchial ultrasound-guided biopsy of stations 4 L, 7, and 11R was negative for metastasis. The patient underwent positron emission tomography(PET)/CT (Figure 1B) and brain magnetic resonance imaging (MRI), which did not show any signs of metastatic disease. The patient was clinically diagnosed with T4N0M0 or stage IIIA lung cancer.\nThe patient was discussed at the thoracic tumor board. Since the patient did not have driver mutations such as epidermal growth factor receptor (EGFR), anaplastic lymphoma kinase (ALK), or ROS proto-oncogene 1, receptor tyrosine kinase (ROS1), and she had a good performance status, she was recommended to undergo induction chemoimmunotherapy followed by surgery. The patient completed three cycles of neoadjuvant chemotherapy with cisplatin, pemetrexed, and nivolumab, with stable disease on re-imaging with PET/CT (Figures 1C, 1D). The patient had good pulmonary function and adequate cardiovascular reserve to undergo surgery; however, she needed to recover from induction therapy. The patient was enrolled in a pre-habilitation program where she established care with a physical therapist and nutritionist prior to surgery.\nThe patient underwent robotic-assisted thoracoscopic right lower lobe lobectomy with mediastinal lymph node dissection. Upon gaining access to the thoracic cavity, dense adhesions were observed between the tumor and chest wall (Figure 2A). A biopsy of the area showed no signs of malignancy. The tumor in the right lower lobe also adhered to the right upper lobe (Figure 2B), rendering hilar dissection challenging. En bloc resection of the right upper lobe wedge, along with the mass, was performed to ensure satisfactory margins. Robotic visualization and instrument articulation of the pulmonary vein, right lower lobe bronchus, and superior segmental and basilar pulmonary arteries were sequentially divided using a robotic stapler (Figure 2C). Dissection was aided by an endoleader to guide the stapler across the bronchovascular structures. Finally, the fissure was divided to complete the lobectomy (Figure 2D, Video 1).\nThe patient recovered well from the surgery, her chest tube was removed, and she was discharged on postoperative day 2. She was discharged on a multimodal pain control regimen (acetaminophen 1 g every eight hours (q8H), gabapentin 300 mg q8H, methocarbamol 500 mg q8H, and tramadol, as needed). The patient progressed as expected during her two- and six-week follow-up visits. Pathological examination of the specimen revealed a pathological complete response. Follow-up surveillance imaging performed 12 months later showed no evidence of disease recurrence.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41098283_tr.json",
+    "source_pmid": "41098283",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41098283_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:06:55",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Robotic-Assisted Lobectomy Following Induction Chemoimmunotherapy Achieves Complete Pathologic Response in Stage IIIA Lung Adenocarcinoma: A Case Report",
+    "author": "Kendall Howard; Ray Chihara; Warren C Naselsky; Min P Kim",
+    "date": "2025-09-14"
+  },
+  "rejection_reason": null
+}

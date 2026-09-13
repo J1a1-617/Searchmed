@@ -1,0 +1,28 @@
+{
+  "text": "Title: Case Report of a Patient with Non-Small-Cell Lung Cancer Harboring Rare EGFR Mutations\nPMID: \nAuthors: \n\nAbstract\nLung cancer, a leading cause of cancer mortality, often involves epidermal growth factor receptor (EGFR) mutations, common in 17% of Caucasian and 40% of Asian non-small-cell lung cancer (NSCLC) patients. While the exon 19 deletion and L858R mutation are prevalent, rare variants like L833V/H835L are less understood. This case reports a 75-year-old female with NSCLC harboring L833V/H835L mutations. Initial imaging showed a right upper lobe mass and nodularity in the left upper lobe. Biopsy confirmed adenocarcinoma, and genomic analysis identified EGFR L833V/H835L mutations. Based on these findings, the patient was treated with osimertinib 160 mg daily, reduced to 80 mg due to side effects. After 3 months, positron emission tomography (PET) scans revealed significant tumor reduction, and brain metastasis remained stable. This case demonstrates the efficacy of osimertinib for rare EGFR mutations, aligning with literature suggesting its potential for managing such variants. Although large-scale trials are impractical due to the rarity of these mutations, this report adds valuable evidence supporting osimertinib’s use, highlighting the need for comprehensive genomic profiling in NSCLC.\n\nCase Presentation\nA 75-year-old white female presented to the clinic with 6 weeks of nonproductive cough, unresponsive to supportive management. Chest X-ray in 7/2023 showed a mass-like area in the medial aspect of the right upper lobe with some nodularity in the left upper lobe (Figure 1). Follow-up computed tomography (CT) scan of the chest with intravenous (IV) contrast showed a right lower lobe mass measuring 1.7 cm × 4.1 cm occluding the right upper lobe bronchus with right hilar adenopathy (Figure 2). Positron emission tomography (PET) scan confirmed hypermetabolic activity within the right upper lobe, consistent with an underlying mass. There were areas of hypermetabolic activity in the left lung as well. EBUS/bronchoscopy with biopsy of the left upper and right upper lobes was consistent with non-small-cell carcinoma, adenocarcinoma (Figure 3). Genomic findings: EGFR, L833V, H835L, CDK4 amplification, and MDM2 amplification. The tumor cells stained positive for cytokeratin 7 and TTF-1 (Figure 4). Magnetic resonance imaging (MRI) brain with and without contrast revealed metastasis to the right parietal lobe (Figure 5). Radiation oncology recommended systemic treatment for the lung and brain lesions, as the brain lesion would likely respond well to systemic therapy. The patient was started on an EGFR inhibitor, osimertinib 160 mg daily until diarrhea and rash became an issue, at which time the dose was decreased to 80 mg daily for 1 week. Repeat PET scan after 3 months of therapy showed a positive response to therapy. The right upper lobe lesion had decreased in size and the right hilar lymphadenopathy had resolved completely. Repeat chest X-ray in 5/2024 also showed improvement of the right upper lobe lesion (Figure 6). Repeat brain MRIs × 2 showed no change in the size of the brain lesion. Ultimately, the patient was diagnosed with adenocarcinoma of the lung with metastasis to the contralateral lung and brain-T2bN1M1b-Stage IVc-PDL-1 50% and EGFR L833V H835L mutation. The EGFR L833V H835L mutation incidence is very rare in lung cancer; however, despite that, the patient exhibited a good treatment response to the EGFR inhibitor, osimertinib.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39604248_tr.json",
+    "source_pmid": "39604248",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39604248_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:00:02",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Clinical Response to Osimertinib in a Non-Small-Cell Lung Cancer Patient With EGFR L833V/H835L Mutations: A Case Report",
+    "author": "Jowan Al-Nusair; Reesha Bodiwala; Kemnasom Nwanwene; Mahmoud Abdallah; Mohamed Alshal; Toni Pacioles",
+    "date": "2024-11-27"
+  },
+  "rejection_reason": null
+}

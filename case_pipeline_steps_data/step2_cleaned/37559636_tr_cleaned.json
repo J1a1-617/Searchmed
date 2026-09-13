@@ -1,0 +1,28 @@
+{
+  "text": "Title: Aumolertinib for the Treatment of Leptomeningeal Metastases in a Patient with EGFR and TP53 Mutations\nPMID: \nAuthors: \n\nAbstract\nAumolertinib (HS-10296), a 3rd-generation epidermal growth factor receptor (EGFR) tyrosine kinase inhibitor (TKI), has been shown to have efficacy in treating tumors harboring EGFR sensitive mutations: EGFR in-frame deletions or insertions within exon 19 deletion (19Del) and the exon 21 L858R mutation and EGFR T790M resistance mutation. Research has shown that tumor protein p53 (TP53) mutations and leptomeningeal metastases (LM) are associated with reduced responsiveness and a poor prognosis in patients with advanced non-small cell lung cancer (NSCLC) who have received targeted therapy with EGFR-TKIs. The TP53 mutation is a common concomitant mutation of EGFR amplification in solid tumors. First-line aumolertinib treatment is effective in EGFR concurrent mutated NSCLC, however, the efficacy and survival outcomes in these patients with leptomeningeal metastasis remain unknown.\n\nCase presentation\nWe retrospectively examined the data of a lung adenocarcinoma patient, 51 years old, male, multi-mutations of EGFR and TP53, who received 1st-line treatment with a 1st-generation TKI followed by 2nd-line treatment with aumolertinib. Before the 1st-line treatment, the patient underwent a lung biopsy to examine the 520 genes of all cancers using illumia high-throughput sequencing. The sequencing results showed that the patient had the EGFR 19del (p.Leu747_Thr751del)/TP53 (p.lys120fs)/EGFR amplified multiple mutation with a low tumor mutational burden. The patient was treated with gefitinib and achieved progression-free survival (PFS) for 10 months until secondary malignancy of the lymph nodes. The first-generation TKI combined with chemotherapy was applied and then the patient was diagnosed with leptomeningeal metastases. Subsequently, the patient was treated with aumolertinib for 12 months without disease progression. The efficacy evaluation was partial response (PR) with grade 2 rash. Adenocarcinoma cells were found in the cerebrospinal fluid (CSF). CSF-derived circulating tumor deoxyribonucleic acid was detected using the target area probe capture and 2nd-generation high-throughput sequencing technology. The CSF gene detection showed the EGFR p. L747_T751 del, TP53 p. K120fs and EGFR amplification mutations.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "37559636_tr.json",
+    "source_pmid": "37559636",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/37559636_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:30:35",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Aumolertinib in NSCLC with leptomeningeal involvement, harbouring concurrent EGFR exon 19 deletion and TP53 comutation: a case report",
+    "author": "Zhiquan Qin; Hang Zhang; Peiyuan Yan; Lili Yu; Chaojin Hong; Lorenzo Calvetti; Antonio Passaro; Antonio Araujo; Yun Chen",
+    "date": "2023-07-24"
+  },
+  "rejection_reason": null
+}

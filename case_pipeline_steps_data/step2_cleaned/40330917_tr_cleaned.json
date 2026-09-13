@@ -1,0 +1,28 @@
+{
+  "text": "Title: Resistance to Tyrosine Kinase Inhibitors in a Patient with EGFR Mutation-Positive Advanced Lung Adenocarcinoma\nPMID: \nAuthors: \n\nAbstract\nLung adenocarcinoma, a type of non-small cell lung cancer (NSCLC), is the most common type of lung cancer among non-smokers. Lung adenocarcinoma in exon 19 deletion (E19del) mutation-positive cases respond well to treatment with tyrosine kinase inhibitors (TKIs). Our case demonstrates the development of resistance to first- and third-generation TKIs in a 48-year-old woman with epidermal growth factor receptor (EGFR) mutation-positive advanced NSCLC.\n\nCase presentation\nA 48-year-old woman of average build came to the clinic with several complaints. She had been experiencing shortness of breath, a dry cough, headaches, low back pain, and fever for the past 3 months. It was discovered that she had metastatic adenocarcinoma of the lung. She had never smoked and had no family history of cancer. She had not been exposed to any occupational carcinogens. Additionally, she mentioned having trouble sleeping, a decreased appetite, and a significant weight loss of 14 kilograms during this time. The patient had been diabetic for the past 2 years, but her condition was managed with oral antidiabetic medication. She had a previous back surgery over 15 years ago. According to the patient, 3 years ago she sought medical help for worsening shortness of breath, a dry cough, and chest pain that did not improve with over-the-counter medication. A chest X-ray revealed a 2.9 cm mass with irregular margins in the right middle lobe of the lung, along with pleural effusion. The effusion was drained, and further tests including imaging, histopathology, and immunohistochemistry confirmed that she had stage IV adenocarcinoma of the lung with metastasis to the mediastinal lymph nodes. The computed tomography (CT) scans (Figures 1,2) revealed an infiltrating mass in the right lung, as well as pulmonary metastatic nodules, lymphangitis carcinomatosis, pleural metastasis, and metastasis to the liver, right adrenal gland, skeletal system, bilateral axillary lymph nodes, and upper abdominal lymph nodes. A comparison with a previous CT report from 6 months ago showed that the disease had progressed.\n\nThe patient underwent two cycles of chemotherapy with carboplatin and pemetrexed, which significantly improved her symptoms. She then started targeted chemotherapy with osimertinib, as per the evidence supporting the use of osimertinib in EGFR-mutant NSCLC. Prior to initiating the treatment with osimertinib, molecular analysis indicated a positive EGFR E19del mutation, a positive T790M mutation, and a negative TP53 mutation. In addition to undergoing cancer treatment, she had been prescribed tramadol, an opioid agonist, to manage breakthrough generalized body pain that she experienced while being treated for lung adenocarcinoma. Her symptoms were satisfactorily controlled with osimertinib for 2 years; however, she began experiencing recurring chest discomfort, dyspnea, insomnia, and bone pain. A whole-body CT scan revealed metastasis to the paraaortic lymph nodes and lumbar spine. After conducting resistance testing, it was found that the T790M mutation had disappeared while other mutations remained unchanged. Based on literature supporting the use of erlotinib in such cases, the decision was made to change her chemotherapy regimen from osimertinib to erlotinib, which she had been taking for 6 months and resulted in significant improvement in her respiratory symptoms. However, despite taking the medication regularly, the patient gradually developed morning headaches and her insomnia worsened. A repeat magnetic resonance imaging (MRI) revealed metastasis of the tumor to the frontal and occipital lobes of her brain, showing that erlotinib had lost its efficacy against the newly mutated cancer cells. Additionally, she developed red papules and pustules on her face, back, and abdomen, which are among the commonly experienced adverse events associated with erlotinib treatment. Consequently, the patient was admitted to the hospital for symptomatic care and to receive radiotherapy for brain metastasis.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40330917_tr.json",
+    "source_pmid": "40330917",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40330917_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:19:36",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Failure of the tyrosine kinase inhibitors osimertinib and erlotinib to manage a patient with EGFR-mutant lung adenocarcinoma: a case report",
+    "author": "Malik W Z Khan; Muhammad Ahmad; Salma Qudrat; Long Tu; Salman Khan; Ekrem Yetiskul; Samra Iftikhar",
+    "date": "2025-04-11"
+  },
+  "rejection_reason": null
+}

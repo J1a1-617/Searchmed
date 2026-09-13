@@ -1,0 +1,93 @@
+{
+  "provenance": {
+    "source_filename": "40855618_tr_cleaned.json",
+    "source_pmid": "10.1002/cnr2.70319",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.95
+  },
+  "baseline_clinical_profile": {
+    "age": 70,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "weight loss",
+      "dry cough"
+    ],
+    "diagnosis_date": "2023-08",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "cTNM",
+    "tnm_stage": "cT1bN1M0 (stage IIB) for right lung, cT1bN0M0 (stage IA2) for left lung",
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-08",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR G719C in exon 18",
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "right lung tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "afatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "afatinib": "not specified"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 12
+      }
+    },
+    {
+      "time": "2024-05",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": "not specified",
+          "carboplatin": "not specified"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 3
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 20,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2025-05"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Bilateral synchronous primary NSCLC with different EGFR mutations",
+      "Successful treatment with afatinib leading to stable disease for 1 year",
+      "Patient opted for minimally invasive surgery due to concerns about complications"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

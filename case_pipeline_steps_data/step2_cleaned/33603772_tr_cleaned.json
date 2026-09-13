@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "33603772_tr.json",
+    "source_pmid": "33603772",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/33603772_tr.json",
+    "cleaning_timestamp": "2026-06-03T00:44:18",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Prevalence of the Brazilian TP53 Founder c.1010G>A (p.Arg337His) in Lung Adenocarcinoma: Is Genotyping Warranted in All Brazilian Patients?",
+    "author": "Igor Araujo Vieira; Tiago Finger Andreis; Bruna Vieira Fernandes; Maria Isabel Achatz; Gabriel S Macedo; Daniel Schramek; Patricia Ashton-Prolla",
+    "date": "2021-02-02"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

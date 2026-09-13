@@ -1,0 +1,85 @@
+{
+  "provenance": {
+    "source_filename": "38690167_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.8
+  },
+  "baseline_clinical_profile": {
+    "age": null,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": null,
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": null,
+    "metastatic_sites_at_baseline": null
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "KIF5B-MET gene fusion"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + molecular",
+      "molecular": {
+        "findings": [
+          "MET Y1230H"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": null,
+        "type": null,
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Partial response to first-line crizotinib treatment",
+      "Acquired resistance due to secondary MET mutation (MET Y1230H)"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

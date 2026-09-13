@@ -1,0 +1,75 @@
+{
+  "provenance": {
+    "source_filename": "41438978_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 75,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "cough",
+      "productive sputum",
+      "intermittent hemoptysis"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma with sarcomatoid differentiation",
+    "tnm_stage_system": null,
+    "tnm_stage": "pT2aN0M0",
+    "overall_stage": "IB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2023-XX",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "TP53 c.673-1G>T",
+          "JAK2 p.V617F",
+          "MET exon 14 skipping"
+        ],
+        "sample": "resected tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "hydroxyurea",
+          "enteric-coated aspirin"
+        ],
+        "type": "supportive",
+        "dosage": {
+          "hydroxyurea": null,
+          "enteric-coated aspirin": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "6 months postoperatively"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Rare case of lung adenocarcinoma with sarcomatoid differentiation",
+      "Concurrent mutations in TP53, JAK2, and MET",
+      "Significant thrombocytosis observed",
+      "Postoperative reduction of platelet count and normalization of tumor markers"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

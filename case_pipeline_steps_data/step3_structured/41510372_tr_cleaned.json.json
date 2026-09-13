@@ -1,0 +1,121 @@
+{
+  "provenance": {
+    "source_filename": "41510372_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 67,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "generalized edema",
+      "nephrotic-range proteinuria",
+      "cardiac dysfunction"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "lung adenocarcinoma",
+    "histology": "EGFR-mutant lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": null
+  },
+  "timeline_events": [
+    {
+      "time": "YYYY",
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR mutation",
+          "T790M resistance mutation"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": null
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "YYYY",
+      "event_type": "progression + treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "T790M resistance mutation"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": null
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "YYYY",
+      "event_type": "adverse_event + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": null
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "YYYY",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "lazertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "lazertinib": null
+        }
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Complexity of distinguishing drug-induced toxicity from systemic diseases",
+      "Amyloidosis revealed by kidney biopsy after treatment with osimertinib",
+      "Need for thorough evaluation when clinical findings are atypical"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

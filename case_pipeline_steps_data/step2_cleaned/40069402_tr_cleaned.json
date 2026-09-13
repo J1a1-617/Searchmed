@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40069402_tr.json",
+    "source_pmid": "40069402",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40069402_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:13:14",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "A phase II trial of mTORC1/2 inhibition in STK11 deficient non small cell lung cancer",
+    "author": "Gary Middleton; Helen L Robbins; Peter Fletcher; Joshua Savage; Manita Mehmi; Yvonne Summers; Alastair Greystoke; Nicola Steele; Sanjay Popat; Pooja Jain; James Spicer; Judith Cave; Paul Shaw; David Gilligan; Danielle Power; Dean Fennell; Maya Bajracharya; David J McBride; Uma Maheswari; Alexander M Frankell; Charles Swanton; Andrew D Beggs; Lucinda Billingham",
+    "date": "2025-03-11"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

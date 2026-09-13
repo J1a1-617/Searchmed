@@ -1,0 +1,221 @@
+{
+  "provenance": {
+    "source_filename": "29411527_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.95
+  },
+  "baseline_clinical_profile": {
+    "age": 63,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "lung",
+      "intracranial",
+      "liver"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2013-11",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR Del19"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 23
+      }
+    },
+    {
+      "time": "2015-10",
+      "event_type": "progression + rebiopsy + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR Del19",
+          "EGFR T790M"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pemetrexed",
+          "cisplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": null,
+          "cisplatin": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "2016-02",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR Del19",
+          "c-MET amplification"
+        ],
+        "lost": [
+          "EGFR T790M"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2016-06",
+      "event_type": "progression + molecular + clinical_trial",
+      "molecular": {
+        "alterations": [
+          "EGFR Del19",
+          "c-MET amplification"
+        ],
+        "lost": [
+          "EGFR T790M",
+          "EGFR C797S"
+        ],
+        "sample": "supraclavicular lymph node biopsy"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "BPI-9016"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "BPI-9016": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2016-09",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR Del19"
+        ],
+        "lost": [
+          "c-MET amplification"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2016-11",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR Del19"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "c-MET inhibitor",
+          "gefitinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "c-MET inhibitor": null,
+          "gefitinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "c-MET inhibitor",
+      "gefitinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 37,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "2016-12",
+    "treatment_discontinuation_reason": "progressive disease"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR Del19 mutation was the primary driver mutation",
+      "Emergence of EGFR T790M mutation following gefitinib treatment",
+      "Loss of EGFR T790M and emergence of c-MET amplification post-progression on chemotherapy",
+      "Rapid progression on osimertinib despite intracranial tumor shrinkage",
+      "Limited duration of benefit from c-MET targeted therapy"
+    ],
+    "ddi_relevance": "low",
+    "generalizability": "low",
+    "clinical_implication": "Highlights the complexity of resistance mechanisms and the need for combination strategies post-osimertinib progression"
+  }
+}

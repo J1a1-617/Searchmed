@@ -1,0 +1,28 @@
+{
+  "text": "Title: SCLC Transformation During Adjuvant Osimertinib Treatment in a Patient with EGFR-Mutated Lung Adenocarcinoma\nPMID: \nAuthors: \n\nAbstract\nBased on improvements in recurrence-free and overall survival, osimertinib is now widely used as an adjuvant treatment in stage II–IIIA non-small cell lung cancer (NSCLC) presenting with a common epithelial growth factor receptor (EGFR) mutation. Histological transformation is a well-known resistance mechanism to osimertinib in EGFR-mutated metastatic NSCLC, but we currently have insufficient data on recurrence mechanisms in the adjuvant context. We present here the case of a patient treated with adjuvant osimertinib and presenting a small cell lung cancer (SCLC) transformation as a recurrence.\n\nCase presentation\nA 54-year-old man, never-smoker and with no previous medical history, underwent surgery in May 2020 for a persisting nodular condensation in the right upper lobe, discovered during a severe acute respiratory syndrome coronavirus 2 (SARS-Cov-2) infection. The positron emission tomography (PET) scanner and brain magnetic resonance imaging (MRI) showed no other lesions at baseline. The surgery was a right superior lobectomy with a lymph node resection. The pathologist reported a TTF1+ 3.1 cm adenocarcinoma with a papillary and focally micro-papillary architecture and with several other infra-centimetric adenocarcinoma in the same lobe. There were also two foci of in situ adenocarcinoma, infiltration of the visceral pleura, and hilar and peripheral nodal metastasis, hence classifying it as pT3N1M0 [stage IIIA, tumor-node-metastasis (TNM) 8th edition]. Programmed death-ligand 1 (PD-L1) was not expressed and Rb loss was noted. Next-generation sequencing (NGS) molecular analysis revealed an EGFR exon 19 deletion (p.Glu746_Ala750del) and a TP53 mutation (p.Pro152Alafs*14). Based on these results, the patient received 4 cycles of adjuvant chemotherapy with carboplatin and pemetrexed before starting osimertinib 80 mg daily in August 2020.\nIn September 2023, 3 years after the initiation of osimertinib, a computed tomography (CT) scan showed the apparition of a 7 cm right pleura-parietal mass with osteolysis of the ninth rib (Figure 1). The PET scanner also showed hypermetabolic pleural micronodules on the same side. The patient underwent biopsy of the pleura-parietal mass, which revealed a small cell carcinoma (TTF1+, CD56+, synaptophysin+, Ki67 95%). NGS analysis on liquid biopsy showed the persistence of the del19 in EGFR (variant allele frequency, 46.9%) and the mutation in TP53 (VAF 39.5%), with amplifications in BCL2L2 and NFKBIA. Osimertinib was pursued and the patient was started on a carboplatin and VP16 regimen with concomitant radiotherapy. He progressed quickly after 4 cycles. He then received 2 cycles of carboplatin, adriamycin and vinblastine and presented with pleural progression. He is now being treated by lurbinectedin.\nAll procedures performed in this study were in accordance with the ethical standards of the institutional and/or national research committee(s) and with the Helsinki Declaration (as revised in 2013). Written informed consent was obtained from the patient for publication of this case report and accompanying images. A copy of the written consent is available for review by the editorial office of this journal.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39958211_tr.json",
+    "source_pmid": "39958211",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39958211_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:06:53",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Recurrence as a small cell lung cancer transformation in a resected stage IIIA EGFR-mutated non-small cell lung cancer treated with adjuvant osimertinib: a case report",
+    "author": "Julie Lasvergnas; Isabelle Monnet; Jean-Bernard Auliac; Gaelle Rousseau-Bussac; Christos Chouaid; Jean-Baptiste Assié",
+    "date": "2025-01-16"
+  },
+  "rejection_reason": null
+}

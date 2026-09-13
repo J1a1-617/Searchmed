@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "37017806_tr.json",
+    "source_pmid": "37017806",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/37017806_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:27:17",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Genomic Landscape of Primary Resistance to Osimertinib Among Hispanic Patients with EGFR-Mutant Non-Small Cell Lung Cancer (NSCLC): Results of an Observational Longitudinal Cohort Study",
+    "author": "Diego F Chamorro; Andrés F Cardona; July Rodríguez; Alejandro Ruiz-Patiño; Oscar Arrieta; Darwin A Moreno-Pérez; Leonardo Rojas; Zyanya Lucia Zatarain-Barrón; Dora V Ardila; Lucia Viola; Gonzalo Recondo; Juan B Blaquier; Claudio Martín; Luis Raez; Suraj Samtani; Camila Ordóñez-Reyes; Juan Esteban Garcia-Robledo; Luis Corrales; Carolina Sotelo; Luisa Ricaurte; Mauricio Cuello; Sergio Mejía; Elvira Jaller; Carlos Vargas; Hernán Carranza; Jorge Otero; Pilar Archila; Maritza Bermudez; Tatiana Gamez; Alessandro Russo; Umberto Malapelle; Diego de Miguel Perez; Vladmir C Cordeiro de Lima; Helano Freitas; Erick Saldahna; Christian Rolfo; Rafael Rosell; CLICaP",
+    "date": "2023-04-05"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

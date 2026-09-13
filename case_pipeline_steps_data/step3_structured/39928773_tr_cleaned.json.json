@@ -1,0 +1,124 @@
+{
+  "provenance": {
+    "source_filename": "39928773_tr_cleaned.json",
+    "source_pmid": "32000000",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 53,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "cough",
+      "expectoration",
+      "chest pain",
+      "dyspnea"
+    ],
+    "diagnosis_date": "2023-11",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": [
+      "liver",
+      "bone",
+      "bilateral lung",
+      "mediastinal lymph nodes",
+      "right hilar lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-11",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "ERBB2 (EXON20.p.Y772-A775dup)",
+          "TP53 (EXON5.c.404G-Tp.C135F)"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "bevacizumab",
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "bevacizumab": null,
+          "pemetrexed": null,
+          "carboplatin": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-12",
+      "event_type": "treatment evaluation",
+      "molecular": null,
+      "treatment": {
+        "line": "maintenance",
+        "regimen": [
+          "bevacizumab",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "bevacizumab": null,
+          "pemetrexed": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-02",
+      "event_type": "treatment evaluation",
+      "molecular": null,
+      "treatment": {
+        "line": "maintenance",
+        "regimen": [
+          "bevacizumab",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "bevacizumab": null,
+          "pemetrexed": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2024-02"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Co-expression of TTF-1 and p40 in NSCLC",
+      "Presence of ERBB2 and TP53 mutations",
+      "Patient achieved stable disease after treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "provenance": {
+    "source_filename": "35498386_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 38,
+    "sex": "female",
+    "smoking_status": "former_smoker",
+    "pack_years": 1.5,
+    "presenting_symptoms": [
+      "abnormal shadow in left lung field"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "lung adenocarcinoma",
+    "histology": "lung adenocarcinoma with SCLC component",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT2aN0M0",
+    "overall_stage": "IVa",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pleura"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR Ex.19 deletion (p.E746_A750del)",
+          "TP53 loss of heterozygosity"
+        ],
+        "sample": "lung adenocarcinoma specimen"
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "osimertinib",
+          "etoposide",
+          "cisplatin"
+        ],
+        "type": "targeted + chemotherapy",
+        "dosage": {
+          "osimertinib": "80 mg daily",
+          "etoposide": "100 mg/m2",
+          "cisplatin": "80 mg/m2"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": 24
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 24,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "De novo SCLC transformation observed in EGFR-mutated lung adenocarcinoma",
+      "TP53 loss of heterozygosity identified as a possible mechanism for SCLC transformation"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

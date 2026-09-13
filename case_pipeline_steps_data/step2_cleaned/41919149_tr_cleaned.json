@@ -1,0 +1,28 @@
+{
+  "text": "Title: KRAS G13C/TP53 Co-Mutation in Non-Small Cell Lung Cancer: A Case Report\nPMID: \nAuthors: \n\nAbstract\nKRAS mutations are frequent oncogenic drivers in non-small cell lung cancer (NSCLC). Although targeted therapies have revolutionized treatment for the G12C subtype, the G13C variant lacks approved specific agents and correlates with a poor prognosis. We report a 59-year-old male with locally advanced (stage IIIA) lung adenocarcinoma harboring concurrent KRAS G13C and TP53 mutations. Surgery was contraindicated due to poor pulmonary function. The patient received first-line and maintenance therapy comprising carboplatin/pemetrexed, camrelizumab, and Endostar/bevacizumab. This regimen was well-tolerated and yielded a progression-free survival (PFS) exceeding 55 months. Of note, following regional lymph node progression, re-challenge with the original combination restored disease stability. Our findings suggest that the combination of chemotherapy, immunotherapy, and anti-angiogenic agents may represent a viable therapeutic strategy for patients with KRAS G13C/TP53 co-mutated NSCLC. This case report suggests a potentially promising therapeutic strategy to improve long-term survival in this difficult-to-treat patient population.\n\n2. Case presentation\nOn January 4, 2021, a 59-year-old male was admitted with a 2-month history of persistent dry cough and hemoptysis. A non-contrast chest CT on December 30, 2020, revealed right hilar enlargement, right middle lobe consolidation with bronchial obstruction, and a right lower lobe nodule (Figure 1A), leading to a preliminary diagnosis of a right lung mass.\nThe patient reported significant weight loss; review of systems was otherwise negative. Medical history was notable for pulmonary tuberculosis and former smoking (40 pack-years; quit 5 years prior), with unremarkable personal and family histories. Laboratory workup on admission demonstrated elevated high-sensitivity C-reactive protein (7.86 mg/L), microcytic hypochromic anemia (Hb 84 g/L), thrombocytosis (PLT 430 × 109/L), and increased tumor markers (CEA 5.32 ng/mL; CYFRA 21-1 6.24 ng/mL). Staging scans (cranial and abdominal CT) showed no evidence of distant metastasis. Bronchoscopy identified a neoplasm obstructing the right middle lobe bronchus (Figure 2), which was biopsy-confirmed as lung adenocarcinoma (Figure 3), resulting in a diagnosis of stage IIIA NSCLC (cT4N0M0).\nAlthough thoracic surgery was initially recommended by the multidisciplinary team, it was deemed contraindicated due to the patient’s poor pulmonary reserve. Genetic profiling identified KRAS p.G13C (VAF: 20.89%) and TP53 (VAF: 12.1%) mutations. The patient underwent 6 cycles of induction therapy with carboplatin, pemetrexed, camrelizumab, and Endostar. A follow-up chest CT on May 21, 2021, demonstrated tumor regression (Figures 1B,C). Subsequently, the patient received maintenance therapy: 22 cycles of camrelizumab combined with endostar or pemetrexed (July 2021–March 2023), followed by 14 cycles of camrelizumab plus bevacizumab (March 2023–December 2024). This regimen achieved sustained disease stability for 47 months prior to treatment cessation.\nIn June 2025, disease progression manifested as left cervical lymphadenopathy, which was confirmed by contrast-enhanced CT (Figures 4A–C). A salvage regimen was initiated comprising carboplatin (200 mg, day 1), paclitaxel (200 mg, day 2), camrelizumab (200 mg, day 3), and bevacizumab (400 mg, day 3). By August 19, 2025, a follow-up non-contrast neck CT indicated stable disease in the involved lymph nodes (Figure 4D). The complete treatment timeline is illustrated in Figure 5. The regimen was well-tolerated; observed adverse events were mild and transient (involving hematologic, hepatic/renal, and thyroid profiles) and resolved with symptomatic management.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41919149_tr.json",
+    "source_pmid": "41919149",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41919149_tr.json",
+    "cleaning_timestamp": "2026-06-07T13:51:38",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Long-term survival in a patient with non-small cell lung cancer harboring KRAS G13C and TP53 co-mutations: case report and literature review",
+    "author": "Ran Chen; Ziqi Ma; Mengyan Yuan; Kang Qian; Hongbin Zhu",
+    "date": "2026-03-16"
+  },
+  "rejection_reason": null
+}

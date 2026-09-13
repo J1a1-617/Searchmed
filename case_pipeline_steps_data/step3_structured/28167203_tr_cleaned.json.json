@@ -1,0 +1,129 @@
+{
+  "provenance": {
+    "source_filename": "28167203_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": null,
+  "timeline_events": [
+    {
+      "time": "2011",
+      "event_type": "diagnosis + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "cisplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": null
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "carboplatin",
+          "gemcitabine",
+          "bevacizumab"
+        ],
+        "type": "chemotherapy + targeted",
+        "dosage": null
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ERBB2 exon 20 insertion (A775_G776 insSVMA)"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "vinorelbine",
+          "trastuzumab"
+        ],
+        "type": "chemotherapy + targeted",
+        "dosage": null
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "docetaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": null
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": null
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2.5
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + hospice",
+      "molecular": null,
+      "treatment": null,
+      "response": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "ERBB2 exon 20 insertion mutations as oncogenic drivers in lung adenocarcinoma",
+      "Targeted therapies showed clinical benefit in some cases",
+      "Resistance mechanisms include PIK3CA mutation and ERBB2 amplification"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

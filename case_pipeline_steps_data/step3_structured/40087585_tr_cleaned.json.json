@@ -1,0 +1,134 @@
+{
+  "provenance": {
+    "source_filename": "40087585_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 57,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IV",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "brain",
+      "lung",
+      "mediastinal lymph nodes",
+      "pleura"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R",
+          "EGFR A871E"
+        ],
+        "sample": "primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "chemotherapy",
+          "immunotherapy",
+          "EGFR TKIs"
+        ],
+        "type": "combination",
+        "dosage": {}
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 72
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {},
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "not specified"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R",
+          "EGFR A871E"
+        ],
+        "sample": "primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "not specified"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 15
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {},
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "chemotherapy",
+          "immunotherapy"
+        ],
+        "type": "combination",
+        "dosage": {}
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 18,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Familial occurrence of EGFR mutations in lung adenocarcinoma",
+      "Mother and son both had EGFR L858R and A871E mutations",
+      "Diverse treatment responses observed in both patients"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

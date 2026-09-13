@@ -1,0 +1,28 @@
+{
+  "text": "Title: Efficacy of anlotinib combined with pembrolizumab in a patient with advanced pulmonary sarcomatoid carcinoma\nPMID: \nAuthors: YW, LY, YD, GY, MX, QL, CZ, DY, YY\n\nAbstract\nPulmonary sarcomatoid carcinoma (PSC) is an uncommon variant of non-small cell lung cancer (NSCLC), known for its unfavorable prognosis. Previous studies have elucidated that PSC generally exhibits a significant expression of programmed death-ligand 1 (PD-L1), an elevated tumor mutation burden, and marked vascular invasion. These factors imply the possible effectiveness of treatments like immunotherapy and anti-angiogenic therapy. The subject of this case was a 65-year-old male diagnosed with advanced PSC, characterized by high PD-L1 expression and devoid of known driver gene mutations. Owing to the restrictions imposed by the COVID-19 pandemic, the patient initially underwent home-based treatment with anlotinib, which led to symptomatic improvement after a single treatment cycle. Subsequent hospitalization allowed for the administration of anlotinib plus Pembrolizumab, resulting in a partial response. Radiotherapy was necessitated due to local disease progression. But after 15 cycles of treatment with Pembrolizumab, hyperprogression was observed. The patient’s overall survival spanned 14 months, with no evident adverse reactions to the medications. Genomic analysis revealed potential associations between treatment efficacy and mutations in the TP53, NF1, and MET genes. This case underscores the effectiveness and safety of a first-line treatment regimen combining pan-target anti-angiogenic therapy (anlotinib) with anti-tumor immunotherapy.\n\nCase presentation\nA 65-year-old man came to our clinic in April 2020 with complaints of chest pain, persistent coughing for more than 2 months, a progressive right limb weakness for 2 weeks followed by right paralysis for 3 days. Positron emission tomography-computed tomography (PET-CT) revealed a large soft tissue mass in the upper lobe of the right lung, enlarged right pulmonary hilar lymph nodes, and a nodule at the left frontal lobe. Brain magnetic resonance imaging (MRI) indicated left anterior central gyrus metastasis. Thus, a clinical diagnosis of stage IV lung cancer (cT4N1M1) was made.\nDue to the restrictions imposed by the COVID-19 pandemic, the patient could not undergo definitive pathological diagnosis. Then he was prescribed anlotinib to be taken at home: 12 mg daily for two consecutive weeks followed by a one-week break. Subsequently, notable symptom improvement was observed, with a significant reduction in the size of the lung mass as evident on the CT scan.\nThree weeks later, as the pandemic situation improved in Wuhan, the patient returned to the hospital for biopsies of the right lung lesion. The pathological diagnosis was PSC. Immunohistochemistry results were as follows: EMA (focal+), Ki67 (+, 60%), S-100(−), CK5/6 (−), CD56 (scattered+), Syn (−), P40 (−), napsin A (−), TTF-1 (−), and PD-L1 (+, tumor proportion score = 80%). Next-generation sequencing (NGS) of the tissue sample showed a TMB of 14.46 mutations/Mb, stable microsatellite status, and absence of key driver gene mutations (EGFR, ALK, BRAF, MET, etc.). From then on, the patient underwent anlotinib (12mg ×14d/3 weeks) combined with pembrolizumab (200 mg/3 weeks) for systemic therapy and received radiotherapy for brain metastasis (64 Gy/8 Gy/8 fractions). Regular bi-monthly CT scans of the chest and abdomen showed cavitation necrosis of the tumor expansion and cavity wall thinning.\nIn October, local progression was noted in his adrenal glands, which were treated with radiotherapy (60Gy/2Gy/30 fractions). NGS of peripheral blood sample indicated a TMB of 13.52 mutations/Mb, stable microsatellite status, and an absence of driver gene mutations. After eleven anlotinib cycles and nine pembrolizumab cycles, a January 2021 PET-CT scan indicated systemic progression. The patient complained of apparent chest pain near the right axillary and then received palliative radiotherapy for the lesions in right lung and chest wall, followed by the treatment of pembrolizumab solely. However, a deterioration in physical status and systemic tumor hyperprogression was noted after 15 pembrolizumab cycles. Regrettably, the patient passed away in late June 2021, achieving an overall survival (OS) of 14 months.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "37920159_tr.json",
+    "source_pmid": "37920159",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/37920159_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:32:46",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Anlotinib combined with pembrolizumab as first-line treatment for advanced pulmonary sarcomatoid carcinoma: a case report and literature review",
+    "author": "Yingmei Wen; Yi Dong; Lina Yi; Guifang Yang; Mengxia Xiao; Qingqing Li; Chen Zhao; Dafu Ye; Yi Yao",
+    "date": "2023-10-18"
+  },
+  "rejection_reason": null
+}

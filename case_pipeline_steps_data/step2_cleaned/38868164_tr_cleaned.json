@@ -1,0 +1,28 @@
+{
+  "text": "Title: Case report of a patient with multifocal lung adenocarcinoma and a rare germline mutation\nPMID: \nAuthors: \n\nAbstract\nThe advancement of molecular pathology techniques has led to the discovery of rare EGFR mutations for targeted therapy in lung cancer. Additionally, a substantial body of evidence indicates a connection between the development of lung cancer and genetic variations in the EGFR gene. Here, we present a case report of a patient with multifocal lung adenocarcinoma who possessed a rare germline mutation, EGFR R776H. An investigation into the family history of the patient exposed the notable incidence of lung adenocarcinoma, indicating a plausible genetic vulnerability to the ailment. To be specific, the patient's older brother and sister both suffered from lung cancer, which underlines the hereditary predisposition. Furthermore, it should be noted that the patient's daughter has inherited the germline mutation and also presented with multiple lung ground-glass nodules, emphasizing the clinical importance of this genetic variation. Following the lobectomy, the patient received treatment with almonertinib, a third-generation EGFR tyrosine kinase inhibitor (TKI), and at the latest follow-up, the patient has achieved partial remission. This case highlights the significance of taking into account germline possibilities when multiple lesions carry the same mutation. It stresses the importance of acquiring a comprehensive family history and performing genetic testing on leukocytes. Moreover, for the infrequent EGFR R776H mutation, third generation EGFR-TKIs may be a viable option.\n\n2. Case presentation\nA 59-year-old man with a smoking history of over 30 years was found to have multiple nodules in both lungs on physical examination in November 2018. After two years, the patient came to our hospital for further diagnosis and treatment. A CT scan in July 2021 identified a shadow of a nodule measuring approximately 1.5cm × 1.5cm in the upper lobe of the right lung, along with multiple ground glass nodules in both lungs. PET-CT imaging revealed two mixed opacities in the right lung, one measuring approximately 1.8cm × 1.7cm with a standardised uptake value (SUV) of 4.3, and another measuring approximately 2.2cm × 1.8cm with a SUV of 1.1. Additionally, a mixed ground glass nodule in the upper lobe of the left lung was identified, measuring 2.9cm × 2.0cm with a SUV of 1.2 (Fig. 1). Subsequently, thoracoscopic right upper and middle lobectomy plus lymph node resection was performed in our hospital. Postoperative pathology revealed multifocal invasive adenocarcinoma in the upper and middle lobe of the right lung (three lesions, lesion 1: 2cm × 1.5cm; lesion 2: 1.9cm × 1.4cm; lesion 3: 0.9cm × 0.5cm). Genomic profiling of the tumour tissue using NGS revealed the mutations present in the three lesions as shown in Table 1; confirmation of the EGFR R776H germline mutation was obtained through blood sampling.\nThe patient then received almonertinib for targeted therapy in October 2021. CT scans in April 2023 revealed a reduction in the upper left lung nodule. As of this writing, the patient has not shown tumour progression. Investigation on his family history showed that one of his older brother and one of sister died of lung cancer. Moreover, their offspring were also confirmed to have multiple lung nodules by CT. Through Sanger sequencing of the patient's son and daughter, we found that his daughter carried the EGFR R776H mutation, while his son did not.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38868164_tr.json",
+    "source_pmid": "38868164",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38868164_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:45:09",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Identification of EGFR R776H germline mutations in a patient with multifocal lung adenocarcinoma: A case report and literature review",
+    "author": "Tianli Wang; Qin Zheng; Cong Deng; Xiang Li; Jia Huang; Jun Fan; Bo Huang; Jiwei Zhang; Xiaona Chang; Xiu Nie",
+    "date": "2024-05-27"
+  },
+  "rejection_reason": null
+}

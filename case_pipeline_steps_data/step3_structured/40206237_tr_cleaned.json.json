@@ -1,0 +1,121 @@
+{
+  "provenance": {
+    "source_filename": "40206237_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 54,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": 30,
+    "presenting_symptoms": [
+      "worsening cough"
+    ],
+    "diagnosis_date": "2023-04",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "cTNM",
+    "tnm_stage": "cT1cN2M0",
+    "overall_stage": "IIIA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "right hilum",
+      "mediastinum"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-04",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR G719X"
+        ],
+        "maf": "3.8%",
+        "sample": "lung lesion biopsy"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2023-05",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin",
+          "dacomitinib"
+        ],
+        "type": "chemotherapy + targeted",
+        "dosage": {
+          "pemetrexed": "0.9 g d1",
+          "carboplatin": "600 mg d1",
+          "dacomitinib": "30 mg"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": "2023-07",
+      "event_type": "surgery",
+      "molecular": null,
+      "treatment": {
+        "line": "surgery",
+        "regimen": [
+          "video-assisted thoracic surgery",
+          "right upper lobectomy"
+        ],
+        "type": "surgical",
+        "dosage": null
+      },
+      "response": {
+        "best": "pathological downstaging",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": "2024-09",
+      "event_type": "follow-up + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "dacomitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "dacomitinib": "30 mg daily"
+        }
+      },
+      "response": null,
+      "safety": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 17,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2024-09"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with stage IIIA lung adenocarcinoma with EGFR G719X mutation benefited from neoadjuvant targeted therapy",
+      "Pathological downstaging achieved after neoadjuvant treatment",
+      "No lymph node metastases observed post-treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

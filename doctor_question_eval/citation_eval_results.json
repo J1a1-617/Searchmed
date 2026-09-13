@@ -1,0 +1,827 @@
+{
+  "config": {
+    "dataset": "doctor_question_eval/doctor_questions_citation_eval.json",
+    "index_root": "indexes",
+    "top_k": 10,
+    "n_questions": 15
+  },
+  "summary": {
+    "n_questions": 15,
+    "chunk_hit_rate": 0.7333,
+    "doc_hit_rate": 0.8,
+    "pmid_hit_rate": 0.8,
+    "mean_chunk_recall": 0.7333,
+    "mean_doc_recall": 0.8,
+    "mean_pmid_recall": 0.8,
+    "mean_precision_at_fetch": 0.26,
+    "mrr_chunk": 0.4356,
+    "mean_anchor_integrity": 0.9333
+  },
+  "by_capability": {
+    "mutation_drug_matching": {
+      "n_questions": 2,
+      "chunk_hit_rate": 0.5,
+      "doc_hit_rate": 0.5,
+      "pmid_hit_rate": 0.5,
+      "mean_chunk_recall": 0.5,
+      "mean_doc_recall": 0.5,
+      "mean_pmid_recall": 0.5,
+      "mean_precision_at_fetch": 0.0833,
+      "mrr_chunk": 0.5,
+      "mean_anchor_integrity": 1.0
+    },
+    "line_of_therapy_reasoning": {
+      "n_questions": 1,
+      "chunk_hit_rate": 1.0,
+      "doc_hit_rate": 1.0,
+      "pmid_hit_rate": 1.0,
+      "mean_chunk_recall": 1.0,
+      "mean_doc_recall": 1.0,
+      "mean_pmid_recall": 1.0,
+      "mean_precision_at_fetch": 0.1667,
+      "mrr_chunk": 0.3333,
+      "mean_anchor_integrity": 1.0
+    },
+    "similar_case_retrieval": {
+      "n_questions": 1,
+      "chunk_hit_rate": 1.0,
+      "doc_hit_rate": 1.0,
+      "pmid_hit_rate": 1.0,
+      "mean_chunk_recall": 1.0,
+      "mean_doc_recall": 1.0,
+      "mean_pmid_recall": 1.0,
+      "mean_precision_at_fetch": 0.3333,
+      "mrr_chunk": 1.0,
+      "mean_anchor_integrity": 1.0
+    },
+    "cns_response_evidence": {
+      "n_questions": 1,
+      "chunk_hit_rate": 0.0,
+      "doc_hit_rate": 0.0,
+      "pmid_hit_rate": 0.0,
+      "mean_chunk_recall": 0.0,
+      "mean_doc_recall": 0.0,
+      "mean_pmid_recall": 0.0,
+      "mean_precision_at_fetch": 0.0,
+      "mrr_chunk": 0.0,
+      "mean_anchor_integrity": 0.0
+    },
+    "longitudinal_outcome": {
+      "n_questions": 1,
+      "chunk_hit_rate": 1.0,
+      "doc_hit_rate": 1.0,
+      "pmid_hit_rate": 1.0,
+      "mean_chunk_recall": 1.0,
+      "mean_doc_recall": 1.0,
+      "mean_pmid_recall": 1.0,
+      "mean_precision_at_fetch": 1.0,
+      "mrr_chunk": 1.0,
+      "mean_anchor_integrity": 1.0
+    },
+    "resistance_mechanism_drug_response": {
+      "n_questions": 1,
+      "chunk_hit_rate": 1.0,
+      "doc_hit_rate": 1.0,
+      "pmid_hit_rate": 1.0,
+      "mean_chunk_recall": 1.0,
+      "mean_doc_recall": 1.0,
+      "mean_pmid_recall": 1.0,
+      "mean_precision_at_fetch": 0.1667,
+      "mrr_chunk": 0.5,
+      "mean_anchor_integrity": 1.0
+    },
+    "combination_regimen_outcome": {
+      "n_questions": 1,
+      "chunk_hit_rate": 1.0,
+      "doc_hit_rate": 1.0,
+      "pmid_hit_rate": 1.0,
+      "mean_chunk_recall": 1.0,
+      "mean_doc_recall": 1.0,
+      "mean_pmid_recall": 1.0,
+      "mean_precision_at_fetch": 0.2,
+      "mrr_chunk": 0.2,
+      "mean_anchor_integrity": 1.0
+    },
+    "combination_strategy": {
+      "n_questions": 1,
+      "chunk_hit_rate": 0.0,
+      "doc_hit_rate": 1.0,
+      "pmid_hit_rate": 1.0,
+      "mean_chunk_recall": 0.0,
+      "mean_doc_recall": 1.0,
+      "mean_pmid_recall": 1.0,
+      "mean_precision_at_fetch": 0.0,
+      "mrr_chunk": 0.0,
+      "mean_anchor_integrity": 1.0
+    },
+    "negative_outcome_detection": {
+      "n_questions": 1,
+      "chunk_hit_rate": 1.0,
+      "doc_hit_rate": 1.0,
+      "pmid_hit_rate": 1.0,
+      "mean_chunk_recall": 1.0,
+      "mean_doc_recall": 1.0,
+      "mean_pmid_recall": 1.0,
+      "mean_precision_at_fetch": 0.2,
+      "mrr_chunk": 0.3333,
+      "mean_anchor_integrity": 1.0
+    },
+    "treatment_switch_outcome": {
+      "n_questions": 1,
+      "chunk_hit_rate": 0.0,
+      "doc_hit_rate": 0.0,
+      "pmid_hit_rate": 0.0,
+      "mean_chunk_recall": 0.0,
+      "mean_doc_recall": 0.0,
+      "mean_pmid_recall": 0.0,
+      "mean_precision_at_fetch": 0.0,
+      "mrr_chunk": 0.0,
+      "mean_anchor_integrity": 1.0
+    },
+    "mutation_specific_drug_effect": {
+      "n_questions": 1,
+      "chunk_hit_rate": 1.0,
+      "doc_hit_rate": 1.0,
+      "pmid_hit_rate": 1.0,
+      "mean_chunk_recall": 1.0,
+      "mean_doc_recall": 1.0,
+      "mean_pmid_recall": 1.0,
+      "mean_precision_at_fetch": 0.25,
+      "mrr_chunk": 0.3333,
+      "mean_anchor_integrity": 1.0
+    },
+    "rare_mutation_regimen": {
+      "n_questions": 1,
+      "chunk_hit_rate": 1.0,
+      "doc_hit_rate": 1.0,
+      "pmid_hit_rate": 1.0,
+      "mean_chunk_recall": 1.0,
+      "mean_doc_recall": 1.0,
+      "mean_pmid_recall": 1.0,
+      "mean_precision_at_fetch": 0.25,
+      "mrr_chunk": 0.3333,
+      "mean_anchor_integrity": 1.0
+    },
+    "progression_evidence": {
+      "n_questions": 1,
+      "chunk_hit_rate": 1.0,
+      "doc_hit_rate": 1.0,
+      "pmid_hit_rate": 1.0,
+      "mean_chunk_recall": 1.0,
+      "mean_doc_recall": 1.0,
+      "mean_pmid_recall": 1.0,
+      "mean_precision_at_fetch": 1.0,
+      "mrr_chunk": 1.0,
+      "mean_anchor_integrity": 1.0
+    },
+    "supportive_combination": {
+      "n_questions": 1,
+      "chunk_hit_rate": 1.0,
+      "doc_hit_rate": 1.0,
+      "pmid_hit_rate": 1.0,
+      "mean_chunk_recall": 1.0,
+      "mean_doc_recall": 1.0,
+      "mean_pmid_recall": 1.0,
+      "mean_precision_at_fetch": 0.1667,
+      "mrr_chunk": 0.5,
+      "mean_anchor_integrity": 1.0
+    }
+  },
+  "per_question": [
+    {
+      "question_id": "dq-001",
+      "capability": "mutation_drug_matching",
+      "doctor_question": "EGFR exon 19 deletion 的 NSCLC 病例里，erlotinib 作为二线有没有出现过 PR？请给出可溯源证据。",
+      "query_type": "mutation_drug",
+      "selected_tools": [
+        "structured_search",
+        "bm25_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "24316558#chunk-000007"
+      ],
+      "gold_doc_ids": [
+        "24316558"
+      ],
+      "retrieved_chunk_ids": [
+        "24316558#chunk-000007",
+        "32308434#chunk-000007",
+        "33976623#chunk-000007",
+        "34590033#chunk-000007",
+        "34926253#chunk-000010",
+        "35282065#chunk-000006"
+      ],
+      "retrieved_doc_ids": [
+        "24316558",
+        "32308434",
+        "33976623",
+        "34590033",
+        "34926253",
+        "35282065"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "pmid_hit": true,
+      "chunk_recall": 1.0,
+      "doc_recall": 1.0,
+      "pmid_recall": 1.0,
+      "precision_at_fetch": 0.1667,
+      "first_match_rank": 1,
+      "anchor_integrity": 1.0,
+      "matched_chunk_ids": [
+        "24316558#chunk-000007"
+      ],
+      "matched_doc_ids": [
+        "24316558"
+      ]
+    },
+    {
+      "question_id": "dq-002",
+      "capability": "line_of_therapy_reasoning",
+      "doctor_question": "同一病例里 erlotinib 再挑战（后线）是否仍有 PR 证据？请返回对应引用。",
+      "query_type": "similar_case",
+      "selected_tools": [
+        "structured_search",
+        "dense_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "24316558#chunk-000011"
+      ],
+      "gold_doc_ids": [
+        "24316558"
+      ],
+      "retrieved_chunk_ids": [
+        "24316558#chunk-000007",
+        "24316558#chunk-000009",
+        "24316558#chunk-000011",
+        "34178662#chunk-000011",
+        "34178662#chunk-000013",
+        "34590033#chunk-000007"
+      ],
+      "retrieved_doc_ids": [
+        "24316558",
+        "34178662",
+        "34590033"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "pmid_hit": true,
+      "chunk_recall": 1.0,
+      "doc_recall": 1.0,
+      "pmid_recall": 1.0,
+      "precision_at_fetch": 0.1667,
+      "first_match_rank": 3,
+      "anchor_integrity": 1.0,
+      "matched_chunk_ids": [
+        "24316558#chunk-000011"
+      ],
+      "matched_doc_ids": [
+        "24316558"
+      ]
+    },
+    {
+      "question_id": "dq-003",
+      "capability": "similar_case_retrieval",
+      "doctor_question": "ALK 融合肺腺癌使用 crizotinib 一线治疗，有没有 CR/PR 的相似病例证据？",
+      "query_type": "similar_case",
+      "selected_tools": [
+        "structured_search",
+        "dense_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "24279718#chunk-000005"
+      ],
+      "gold_doc_ids": [
+        "24279718"
+      ],
+      "retrieved_chunk_ids": [
+        "24279718#chunk-000005",
+        "24707260#chunk-000011",
+        "29997966#chunk-000016"
+      ],
+      "retrieved_doc_ids": [
+        "24279718",
+        "24707260",
+        "29997966"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "pmid_hit": true,
+      "chunk_recall": 1.0,
+      "doc_recall": 1.0,
+      "pmid_recall": 1.0,
+      "precision_at_fetch": 0.3333,
+      "first_match_rank": 1,
+      "anchor_integrity": 1.0,
+      "matched_chunk_ids": [
+        "24279718#chunk-000005"
+      ],
+      "matched_doc_ids": [
+        "24279718"
+      ]
+    },
+    {
+      "question_id": "dq-004",
+      "capability": "cns_response_evidence",
+      "doctor_question": "ALK 阳性且有中枢病灶进展的病例里，alectinib 有没有 PR 的证据？",
+      "query_type": "similar_case",
+      "selected_tools": [
+        "structured_search",
+        "dense_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "27785052#chunk-000009"
+      ],
+      "gold_doc_ids": [
+        "27785052"
+      ],
+      "retrieved_chunk_ids": [],
+      "retrieved_doc_ids": [],
+      "chunk_hit": false,
+      "doc_hit": false,
+      "pmid_hit": false,
+      "chunk_recall": 0.0,
+      "doc_recall": 0.0,
+      "pmid_recall": 0.0,
+      "precision_at_fetch": 0.0,
+      "first_match_rank": null,
+      "anchor_integrity": 0.0,
+      "matched_chunk_ids": [],
+      "matched_doc_ids": []
+    },
+    {
+      "question_id": "dq-005",
+      "capability": "mutation_drug_matching",
+      "doctor_question": "EGFR L858R 的 NSCLC，gefitinib 一线有没有 PR 证据？",
+      "query_type": "similar_case",
+      "selected_tools": [
+        "structured_search",
+        "dense_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "24707260#chunk-000008"
+      ],
+      "gold_doc_ids": [
+        "24707260"
+      ],
+      "retrieved_chunk_ids": [
+        "29411527#chunk-000005",
+        "35462930#chunk-000008"
+      ],
+      "retrieved_doc_ids": [
+        "29411527",
+        "35462930"
+      ],
+      "chunk_hit": false,
+      "doc_hit": false,
+      "pmid_hit": false,
+      "chunk_recall": 0.0,
+      "doc_recall": 0.0,
+      "pmid_recall": 0.0,
+      "precision_at_fetch": 0.0,
+      "first_match_rank": null,
+      "anchor_integrity": 1.0,
+      "matched_chunk_ids": [],
+      "matched_doc_ids": []
+    },
+    {
+      "question_id": "dq-006",
+      "capability": "longitudinal_outcome",
+      "doctor_question": "同一个 EGFR L858R 病例里，gefitinib 后线治疗是否也出现过 PR/CR？",
+      "query_type": "similar_case",
+      "selected_tools": [
+        "structured_search",
+        "dense_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "24707260#chunk-000011"
+      ],
+      "gold_doc_ids": [
+        "24707260"
+      ],
+      "retrieved_chunk_ids": [
+        "24707260#chunk-000011"
+      ],
+      "retrieved_doc_ids": [
+        "24707260"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "pmid_hit": true,
+      "chunk_recall": 1.0,
+      "doc_recall": 1.0,
+      "pmid_recall": 1.0,
+      "precision_at_fetch": 1.0,
+      "first_match_rank": 1,
+      "anchor_integrity": 1.0,
+      "matched_chunk_ids": [
+        "24707260#chunk-000011"
+      ],
+      "matched_doc_ids": [
+        "24707260"
+      ]
+    },
+    {
+      "question_id": "dq-007",
+      "capability": "resistance_mechanism_drug_response",
+      "doctor_question": "EGFR Del19 合并 T790M 和 c-MET 扩增时，osimertinib 的疗效有没有 PD 的证据？",
+      "query_type": "similar_case",
+      "selected_tools": [
+        "structured_search",
+        "dense_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "29411527#chunk-000007"
+      ],
+      "gold_doc_ids": [
+        "29411527"
+      ],
+      "retrieved_chunk_ids": [
+        "29411527#chunk-000006",
+        "29411527#chunk-000007",
+        "29411527#chunk-000008",
+        "29411527#chunk-000009",
+        "29411527#chunk-000010",
+        "34987382#chunk-000008"
+      ],
+      "retrieved_doc_ids": [
+        "29411527",
+        "34987382"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "pmid_hit": true,
+      "chunk_recall": 1.0,
+      "doc_recall": 1.0,
+      "pmid_recall": 1.0,
+      "precision_at_fetch": 0.1667,
+      "first_match_rank": 2,
+      "anchor_integrity": 1.0,
+      "matched_chunk_ids": [
+        "29411527#chunk-000007"
+      ],
+      "matched_doc_ids": [
+        "29411527"
+      ]
+    },
+    {
+      "question_id": "dq-008",
+      "capability": "combination_regimen_outcome",
+      "doctor_question": "在 EGFR Del19 背景下，c-MET inhibitor + gefitinib 的后线结局是否出现 PD？",
+      "query_type": "similar_case",
+      "selected_tools": [
+        "structured_search",
+        "dense_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "29411527#chunk-000010"
+      ],
+      "gold_doc_ids": [
+        "29411527"
+      ],
+      "retrieved_chunk_ids": [
+        "29411527#chunk-000005",
+        "29411527#chunk-000007",
+        "29411527#chunk-000008",
+        "29411527#chunk-000009",
+        "29411527#chunk-000010"
+      ],
+      "retrieved_doc_ids": [
+        "29411527"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "pmid_hit": true,
+      "chunk_recall": 1.0,
+      "doc_recall": 1.0,
+      "pmid_recall": 1.0,
+      "precision_at_fetch": 0.2,
+      "first_match_rank": 5,
+      "anchor_integrity": 1.0,
+      "matched_chunk_ids": [
+        "29411527#chunk-000010"
+      ],
+      "matched_doc_ids": [
+        "29411527"
+      ]
+    },
+    {
+      "question_id": "dq-009",
+      "capability": "combination_strategy",
+      "doctor_question": "EGFR Ex21 L858R 且 BIM 缺失背景下，crizotinib + gefitinib 是否有 PR 的病例证据？",
+      "query_type": "similar_case",
+      "selected_tools": [
+        "structured_search",
+        "dense_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "30422759#chunk-000012"
+      ],
+      "gold_doc_ids": [
+        "30422759"
+      ],
+      "retrieved_chunk_ids": [
+        "30422759#chunk-000002",
+        "30422759#chunk-000007",
+        "30422759#chunk-000009",
+        "30422759#chunk-000011",
+        "32308434#chunk-000008",
+        "34397683#chunk-000014",
+        "34926253#chunk-000012",
+        "34926253#chunk-000015"
+      ],
+      "retrieved_doc_ids": [
+        "30422759",
+        "32308434",
+        "34397683",
+        "34926253"
+      ],
+      "chunk_hit": false,
+      "doc_hit": true,
+      "pmid_hit": true,
+      "chunk_recall": 0.0,
+      "doc_recall": 1.0,
+      "pmid_recall": 1.0,
+      "precision_at_fetch": 0.0,
+      "first_match_rank": null,
+      "anchor_integrity": 1.0,
+      "matched_chunk_ids": [],
+      "matched_doc_ids": [
+        "30422759"
+      ]
+    },
+    {
+      "question_id": "dq-010",
+      "capability": "negative_outcome_detection",
+      "doctor_question": "MET exon 14 skipping 的 NSCLC 用 pembrolizumab 时，有没有直接进展（PD）的证据？",
+      "query_type": "mutation_drug",
+      "selected_tools": [
+        "structured_search",
+        "bm25_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "30600919#chunk-000005"
+      ],
+      "gold_doc_ids": [
+        "30600919"
+      ],
+      "retrieved_chunk_ids": [
+        "30600919#chunk-000001",
+        "30600919#chunk-000002",
+        "30600919#chunk-000005",
+        "33854337#chunk-000008",
+        "35871685#chunk-000003"
+      ],
+      "retrieved_doc_ids": [
+        "30600919",
+        "33854337",
+        "35871685"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "pmid_hit": true,
+      "chunk_recall": 1.0,
+      "doc_recall": 1.0,
+      "pmid_recall": 1.0,
+      "precision_at_fetch": 0.2,
+      "first_match_rank": 3,
+      "anchor_integrity": 1.0,
+      "matched_chunk_ids": [
+        "30600919#chunk-000005"
+      ],
+      "matched_doc_ids": [
+        "30600919"
+      ]
+    },
+    {
+      "question_id": "dq-011",
+      "capability": "treatment_switch_outcome",
+      "doctor_question": "在 MET exon 14 skipping 病例中，改为 carboplatin + pemetrexed 后是否有 PR 的证据？",
+      "query_type": "mutation_drug",
+      "selected_tools": [
+        "structured_search",
+        "bm25_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "30600919#chunk-000006"
+      ],
+      "gold_doc_ids": [
+        "30600919"
+      ],
+      "retrieved_chunk_ids": [
+        "30744539#chunk-000002",
+        "30744539#chunk-000003",
+        "35871685#chunk-000003"
+      ],
+      "retrieved_doc_ids": [
+        "30744539",
+        "35871685"
+      ],
+      "chunk_hit": false,
+      "doc_hit": false,
+      "pmid_hit": false,
+      "chunk_recall": 0.0,
+      "doc_recall": 0.0,
+      "pmid_recall": 0.0,
+      "precision_at_fetch": 0.0,
+      "first_match_rank": null,
+      "anchor_integrity": 1.0,
+      "matched_chunk_ids": [],
+      "matched_doc_ids": []
+    },
+    {
+      "question_id": "dq-012",
+      "capability": "mutation_specific_drug_effect",
+      "doctor_question": "MET exon 14 c.2942-17_2942-6del12 这个亚型里，crizotinib 是否观察到 PR？",
+      "query_type": "mutation_drug",
+      "selected_tools": [
+        "structured_search",
+        "bm25_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "30744539#chunk-000009"
+      ],
+      "gold_doc_ids": [
+        "30744539"
+      ],
+      "retrieved_chunk_ids": [
+        "30744539#chunk-000001",
+        "30744539#chunk-000004",
+        "30744539#chunk-000009",
+        "30744539#chunk-000010"
+      ],
+      "retrieved_doc_ids": [
+        "30744539"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "pmid_hit": true,
+      "chunk_recall": 1.0,
+      "doc_recall": 1.0,
+      "pmid_recall": 1.0,
+      "precision_at_fetch": 0.25,
+      "first_match_rank": 3,
+      "anchor_integrity": 1.0,
+      "matched_chunk_ids": [
+        "30744539#chunk-000009"
+      ],
+      "matched_doc_ids": [
+        "30744539"
+      ]
+    },
+    {
+      "question_id": "dq-013",
+      "capability": "rare_mutation_regimen",
+      "doctor_question": "ERBB2 exon 20 insertion 病例里，vinorelbine + trastuzumab 是否仅达到 SD？请给引用。",
+      "query_type": "mutation_drug",
+      "selected_tools": [
+        "structured_search",
+        "bm25_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "28167203#chunk-000011"
+      ],
+      "gold_doc_ids": [
+        "28167203"
+      ],
+      "retrieved_chunk_ids": [
+        "28167203#chunk-000003",
+        "28167203#chunk-000005",
+        "28167203#chunk-000011",
+        "35237515#chunk-000007"
+      ],
+      "retrieved_doc_ids": [
+        "28167203",
+        "35237515"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "pmid_hit": true,
+      "chunk_recall": 1.0,
+      "doc_recall": 1.0,
+      "pmid_recall": 1.0,
+      "precision_at_fetch": 0.25,
+      "first_match_rank": 3,
+      "anchor_integrity": 1.0,
+      "matched_chunk_ids": [
+        "28167203#chunk-000011"
+      ],
+      "matched_doc_ids": [
+        "28167203"
+      ]
+    },
+    {
+      "question_id": "dq-014",
+      "capability": "progression_evidence",
+      "doctor_question": "同一 ERBB2 相关病例里，docetaxel 是否出现过 PD？",
+      "query_type": "similar_case",
+      "selected_tools": [
+        "structured_search",
+        "dense_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "28167203#chunk-000012"
+      ],
+      "gold_doc_ids": [
+        "28167203"
+      ],
+      "retrieved_chunk_ids": [
+        "28167203#chunk-000012"
+      ],
+      "retrieved_doc_ids": [
+        "28167203"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "pmid_hit": true,
+      "chunk_recall": 1.0,
+      "doc_recall": 1.0,
+      "pmid_recall": 1.0,
+      "precision_at_fetch": 1.0,
+      "first_match_rank": 1,
+      "anchor_integrity": 1.0,
+      "matched_chunk_ids": [
+        "28167203#chunk-000012"
+      ],
+      "matched_doc_ids": [
+        "28167203"
+      ]
+    },
+    {
+      "question_id": "dq-015",
+      "capability": "supportive_combination",
+      "doctor_question": "EGFR ex19del 背景下，zoledronic acid + gefitinib 的初始治疗是否有 PR 证据？",
+      "query_type": "similar_case",
+      "selected_tools": [
+        "structured_search",
+        "dense_search",
+        "hybrid_search",
+        "fetch_evidence"
+      ],
+      "gold_chunk_ids": [
+        "31039766#chunk-000010"
+      ],
+      "gold_doc_ids": [
+        "31039766"
+      ],
+      "retrieved_chunk_ids": [
+        "31039766#chunk-000003",
+        "31039766#chunk-000010",
+        "33663128#chunk-000009",
+        "34396834#chunk-000007",
+        "34397683#chunk-000015",
+        "34926253#chunk-000015"
+      ],
+      "retrieved_doc_ids": [
+        "31039766",
+        "33663128",
+        "34396834",
+        "34397683",
+        "34926253"
+      ],
+      "chunk_hit": true,
+      "doc_hit": true,
+      "pmid_hit": true,
+      "chunk_recall": 1.0,
+      "doc_recall": 1.0,
+      "pmid_recall": 1.0,
+      "precision_at_fetch": 0.1667,
+      "first_match_rank": 2,
+      "anchor_integrity": 1.0,
+      "matched_chunk_ids": [
+        "31039766#chunk-000010"
+      ],
+      "matched_doc_ids": [
+        "31039766"
+      ]
+    }
+  ]
+}

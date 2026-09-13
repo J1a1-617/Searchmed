@@ -1,0 +1,28 @@
+{
+  "text": "Title: Pseudoprogression in a Patient with Advanced Sarcomatoid Non-Small Cell Lung Cancer Treated with Combination Chemotherapy and Immune Checkpoint Inhibitor\nPMID: \nAuthors: \n\nAbstract\nPseudoprogression, the initial apparent worsening of cancer prior to eventual improvement, is a documented feature of immune checkpoint inhibitor administration and presents a challenge to clinicians distinguishing true progression from pseudoprogression. This phenomenon does not typically occur with traditional cytotoxic chemotherapy. We present a case in which a patient treated with combination carboplatin-pemetrexed plus pembrolizumab experienced transient radiographic worsening of disease with subsequent regression.\n\nCase presentation\nA 65-year-old never-smoking white male with advanced sarcomatoid non-small cell lung cancer (NSCLC) harboring a MET exon 14 skipping mutation and with PD-L1 tumor proportion score of 80% was initiated on combination chemotherapy plus immune checkpoint inhibitor (ICI) therapy after progression on a MET inhibitor. After two cycles of carboplatin-pemetrexed plus pembrolizumab, repeat imaging suggested disease progression. Following discontinuation of the carboplatin-pemetrexed plus pembrolizumab regimen, the patient reported improved symptoms and energy levels, which were attributed to the waning of treatment-associated toxicities. On the day prior to initiation of the next planned line of therapy, repeat imaging was performed to provide a baseline for treatment efficacy. Imaging revealed improvement compared to the prior imaging. Chemotherapy with carboplatin-pemetrexed plus pembrolizumab was resumed, with response ongoing 8 months later.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "35871685_tr.json",
+    "source_pmid": "35871685",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/35871685_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:18:13",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Pseudoprogression in advanced non-small cell lung cancer treated with combination chemoimmunotherapy: a case report",
+    "author": "Amrit S Gonugunta; Mitchell S von Itzstein; David E Gerber",
+    "date": "2022-07-25"
+  },
+  "rejection_reason": null
+}

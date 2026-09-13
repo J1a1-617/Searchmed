@@ -1,0 +1,74 @@
+{
+  "provenance": {
+    "source_filename": "40597070_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 68,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "cognitive decline",
+      "aphasia",
+      "irritability",
+      "seizures"
+    ],
+    "diagnosis_date": "2015-01",
+    "cancer_type": "lung adenocarcinoma",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "leptomeninges"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2015-01",
+      "event_type": "diagnosis + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Leptomeningeal metastasis resembling Sturge-Weber syndrome",
+      "Histopathological confirmation of leptomeningeal metastasis",
+      "EGFR L858R mutation identified in genetic analysis",
+      "Significant improvement in language function after osimertinib therapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

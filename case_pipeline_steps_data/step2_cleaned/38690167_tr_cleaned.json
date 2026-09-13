@@ -1,0 +1,28 @@
+{
+  "text": "Title: Clinical Progression of a Patient with Non-Small Cell Lung Cancer Harboring KIF5B-MET Gene Fusion\nPMID: \nAuthors: \n\nAbstract\nThe c-met proto-oncogene (MET) serves as a significant primary oncogenic driver in non-small cell lung cancer (NSCLC) and has the potential to fuse with other genes, such as KIF5B, although it occurs infrequently. Only a limited number of reported cases have examined the clinical efficacy of crizotinib in patients with KIF5B-MET gene fusion, with no known data regarding acquired resistance to crizotinib and its potential mechanisms. In this report, we present the clinical progression of a female patient diagnosed with NSCLC and harboring a KIF5B-MET gene fusion.\n\nCase description\nThe patient initially exhibited partial response to first-line crizotinib treatment, albeit for a short duration and with limited efficacy. Subsequent disease progression revealed the emergence of a secondary MET mutation, specifically MET Y1230H, leading to acquired resistance to crizotinib.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38690167_tr.json",
+    "source_pmid": "38690167",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38690167_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:41:20",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case report: Acquired resistance to crizotinib from a MET Y1230H mutation in a patient with non-small cell lung cancer and KIF5B-MET fusion",
+    "author": "Su-Su Dong; Wen Dong; Ya-Fen Tan; Qiang Xiao; Tian-Li Wang",
+    "date": "2024-04-16"
+  },
+  "rejection_reason": null
+}

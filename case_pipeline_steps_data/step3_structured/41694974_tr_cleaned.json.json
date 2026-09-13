@@ -1,0 +1,113 @@
+{
+  "provenance": {
+    "source_filename": "41694974_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 61,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2024-07",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IVB",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pleura",
+      "liver",
+      "bone"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2024-07",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion-insertion mutation (c.2237_2255delinsT; p.E746_S752delinsV)",
+          "TP53 exon 5 missense mutation (c.527G>T; p.(C176F))"
+        ],
+        "sample": "bronchoscopic biopsy specimens"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 8
+      }
+    },
+    {
+      "time": "2024-03",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "CCDC6-RET fusion (CCDC6 exon 1-RET exon 12)"
+        ],
+        "sample": "liver biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib",
+          "selpercatinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "osimertinib": "80 mg once daily",
+          "selpercatinib": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "suspected cholangitis"
+        ],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "selpercatinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Acquired CCDC6-RET fusion identified at disease progression",
+      "Heterogeneous response to osimertinib with sustained control of primary lung lesion",
+      "Rapid clinical deterioration despite molecularly targeted strategy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

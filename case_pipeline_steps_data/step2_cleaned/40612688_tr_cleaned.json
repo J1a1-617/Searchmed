@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40612688_tr.json",
+    "source_pmid": "40612688",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40612688_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:28:39",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Genomic and Transcriptomic Profiles in Smokers and Never-Smokers Lung Squamous Cell Carcinoma Patients",
+    "author": "Matteo Canale; Alessandra Virga; Davide Angeli; Eugenio Fonzi; Letizia Gnetti; Alessandra Dubini; Gianluca Tedaldi; Milena Urbini; Giovanni Bocchialini; Elisabetta Petracci; Alberto Verlicchi; Paola Cravero; Fabrizio Citarella; Chiara Bennati; Kalliopi Andrikou; Angelo Delmonte; Lucio Crinò; Paolo Carbognani; Paola Ulivi; Luca Ampollini",
+    "date": "2025-06-28"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: A rare case of lung adenocarcinoma harboring METex14del as acquired resistance to osimertinib\nPMID: \nAuthors: \n\nAbstract\nOsimertinib is a standard therapy for the treatment of advanced non-small cell lung cancer (NSCLC) harboring epidermal growth factor receptor gene (EGFR) mutations, but most patients with EGFR-mutant NSCLC develop secondary resistance to osimertinib. Mesenchymal-epithelial transition gene (MET) alterations and oncogene fusions have been identified as the most common mechanisms of resistance to osimertinib. However, MET exon 14 skipping mutation (METex14del) as an acquired resistance to osimertinib has rarely been reported. A non-smoking 76-year-old woman was diagnosed with lung adenocarcinoma in the right lower lobe (cT2bN2M1c [pulmonary and bone metastases], cStage IVB). The primary tumor was submitted to cobas® EGFR Mutation Test v2 (Roche Diagnostics Ltd.), next generation sequencing (Oncomine Comprehensive Assay v3; Thermo Fisher Scientific), the AmoyDx® Essential NGS panel (Amoy Diagnostics, Xiamen, China), all of which were positive for EGFR L858R and de novo T790M. We administered daily osimertinib (80 mg/day), and achieved a partial response. However, after 14.0 months, computed tomography showed progression of the primary tumor and lung metastases. Re-biopsy of the primary tumor was conducted, and the specimen was submitted to Archer®MET companion diagnostic for detection of METex14del. Although the primary tumor was negative for METex14del, the re-biopsy specimen was positive for METex14del. We validated that the biopsy specimen of the primary tumor at diagnosis before osimertinib administration was negative for METex14del using local reverse transcription PCR. We administered daily tepotinib (500 mg/day) to the patient as a further-line treatment, and achieved a partial response (tumor shrinkage rate: 34.5%) after 2.0 months, who responded to tepotinib therapy for 8.0 months. We described a patient with lung adenocarcinoma harboring METex14del as a potential acquired resistance to osimertinib, who responded to subsequent tepotinib therapy. Re-biopsy and re-analysis of genetic profiles should be considered in NSCLC patients who develop osimertinib resistance.\n\nCase report\nA non-smoking 76-year-old woman was diagnosed with pulmonary nodules following a cancer screening. Several radiological examinations and bronchial biopsy led to a diagnosis of primary lung adenocarcinoma in the right lower lobe (cT2bN2M1c [pulmonary and bone metastases], cStage IVB according to the 8th Edition of TNM in Lung Cancer). The primary tumor was submitted to cobas® EGFR Mutation Test v2 (Roche Diagnostics Ltd.), next generation sequencing (Oncomine Comprehensive Assay v3; Thermo Fisher Scientific), and the AmoyDx® Essential NGS panel (Amoy Diagnostics, Xiamen, China), all of which were positive for EGFR L858R and de novo T790M. We administered daily osimertinib (80 mg/day), and achieved a partial response. However, after 14.0 months, chest computed tomography (CT) showed progression of the primary tumor and lung metastases.\nAs a second-line therapy, pemetrexed (500 mg/m2) had been administered for 6.7 months. The CT scan subsequently showed right femoral bone metastasis, and palliative radiation therapy (30 Gy/10 Fr) was administered because of the pain. Re-biopsy of the primary tumor was conducted, and the specimen was submitted to Archer®MET companion diagnostic for detection of METex14del, which is a companion diagnostic for tepotinib. This was positive for METex14del. The re-biopsy specimen was positive for EGFR L858R and de novo T790M, although the biopsy specimen of the primary tumor before osimertinib administration was negative for METex14del using local reverse transcription PCR. We administered daily tepotinib (500 mg/day) to the patient as a further-line therapy, and achieved a partial response (tumor shrinkage rate: 34.5% in diameter) after 2.0 months. Although the tumor had been responded to tepotinib therapy for 8.0 months, CT and positron emission tomography revealed left femoral bone metastasis as a new lesion. After subsequent therapies (nab-paclitaxel [100 mg/m2 on days 1, 8, 15] for 1.3 months and S-1 [100 mg/body on days 1-14] for 1.0 month), the patient died because of disease progression 32.3 months after administration of first-line osimertinib therapy.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "36313664_tr.json",
+    "source_pmid": "36313664",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/36313664_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:21:27",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case report: Success of tepotinib therapy in overcoming resistance to osimertinib in a patient with EGFR-mutant lung adenocarcinoma with a potential acquired MET exon 14 skipping mutation",
+    "author": "Shinkichi Takamori; Takashi Seto; Masafumi Yamaguchi; Fumihiko Kinoshita; Takatoshi Fujishita; Kensaku Ito; Ryo Toyozawa; Fumihiro Shoji; Tatsuro Okamoto",
+    "date": "2022-10-13"
+  },
+  "rejection_reason": null
+}

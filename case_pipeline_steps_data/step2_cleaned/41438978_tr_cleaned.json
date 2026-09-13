@@ -1,0 +1,28 @@
+{
+  "text": "Title: A rare case of lung adenocarcinoma with sarcomatoid differentiation and profound thrombocytosis\nPMID: \nAuthors: \n\nAbstract\nLung cancer is one of the leading causes of cancer incidence and mortality worldwide. At the molecular level, its development involves aberrations in multiple oncogenic pathways. Here, we report a rare case of lung adenocarcinoma with sarcomatoid differentiation and profound thrombocytosis (1,350 × 109/L), harboring concurrent TP53, JAK2 V617F, and MET exon 14 skipping mutations.\n\nCase presentation\nA 75-year-old female underwent VATS wedge resection for pathological stage IB lung adenocarcinoma. Platelet counts dropped from 1,350 to 572 × 109/L within 3 weeks postoperatively and remained stable during the 6-month follow-up period. No adjuvant therapy was administered. Molecular profiling of the resected tumor revealed concurrent TP53, JAK2, and MET mutations.\n\nA 75-year-old female patient presented with a one-week history of cough and productive sputum with intermittent hemoptysis. Chest computed tomography (CT) demonstrated a patchy soft tissue density mass in the apicoposterior segment of the left upper lobe, measuring approximately 30.1×22.9 mm (Figure 1). The lesion exhibited ill-defined margins, spiculation, and partial ground-glass opacity, without evidence of lymphadenopathy or distant metastasis. The patient had no history of smoking, chronic inflammatory disease, autoimmune disorders, or bleeding diathesis.\n\nOn admission, physical examination was unremarkable. Laboratory tests revealed marked thrombocytosis, with a platelet count of 1,350 × 109/L (reference range: 120–350 × 109/L) and plateletcrit of 1.044%. Leukocytosis was noted with a total white blood cell count of 15.96 ×109/L and neutrophil count of 12.53 × 109/L, while lymphocytes, red blood cells, and hemoglobin remained within normal ranges. Serum tumor markers were as follows: alpha-fetoprotein (AFP), 8.51 ng/mL; carcinoembryonic antigen (CEA), 5.79 ng/mL; neuron-specific enolase (NSE), 34.40 ng/mL; and pro-gastrin-releasing peptide (ProGRP), 76.50 ng/mL. Common causes of thrombocytosis, including iron deficiency and inflammatory disorders, were excluded based on clinical and laboratory findings. However, no bone marrow biopsy or peripheral smear was performed.\n\nThe patient underwent video-assisted thoracoscopic wedge resection of the left upper lobe with systematic lymph node dissection. Intraoperative frozen section analysis revealed invasive non-mucinous adenocarcinoma, predominantly lepidic with a mixed acinar growth pattern. Foci of pleomorphic/spindle cell carcinoma were also identified, consistent with sarcomatoid carcinoma. Focal invasion of the visceral pleura was present. The pathological stage was pT2aN0M0 (stage IB).No adjuvant therapy was administered postoperatively. Postoperative molecular profiling (NGS) identified TP53 c.673-1G>T, JAK2 p.V617F, and MET exon 14 skipping mutations.\n\nThree weeks after surgery, follow-up laboratory testing showed a reduction in platelet count to 572 × 109/L (Figure 2). Chest CT demonstrated interval shrinkage of the left upper lobe consolidation (Figure 1), and tumor markers normalized (CEA: 3.31 ng/mL; NSE: 12.40 ng/mL). The patient received hydroxyurea and enteric-coated aspirin for six months postoperatively, after which treatment was discontinued as the platelet count progressively declined and stabilized. No adjuvant chemotherapy or targeted therapy was administered. The patient has since remained under surveillance with no evidence of tumor recurrence.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41438978_tr.json",
+    "source_pmid": "41438978",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41438978_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:18:13",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Rapid postoperative platelet decline in a lung adenocarcinoma with sarcomatoid differentiation and concomitant JAK2 V617F mutation: a case report",
+    "author": "Luojie Deng; Xiaoping Li",
+    "date": "2025-12-08"
+  },
+  "rejection_reason": null
+}

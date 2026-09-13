@@ -1,0 +1,671 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://searchagent.local/schema/unified-case-schema.json",
+  "title": "SearchAgent Unified Case Schema",
+  "description": "Unified schema for Document, CaseProfile, TimelineEvent, and EvidenceChunk.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "document",
+    "case_profile",
+    "timeline_events",
+    "evidence_chunks"
+  ],
+  "properties": {
+    "document": {
+      "$ref": "#/$defs/Document"
+    },
+    "case_profile": {
+      "$ref": "#/$defs/CaseProfile"
+    },
+    "timeline_events": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/TimelineEvent"
+      }
+    },
+    "evidence_chunks": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/EvidenceChunk"
+      }
+    }
+  },
+  "$defs": {
+    "EntitySet": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "cancer_types": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "histologies": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "genes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "gene_alterations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "drugs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "lines_of_therapy": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "responses": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "toxicities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "metastatic_sites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "ddi_terms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        }
+      }
+    },
+    "Document": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "doc_id",
+        "source_layer"
+      ],
+      "properties": {
+        "doc_id": {
+          "type": "string",
+          "description": "Stable document id. Prefer PMID; fallback to filename stem."
+        },
+        "pmid": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "date": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "ISO date or partial date in source text."
+        },
+        "source_layer": {
+          "type": "string",
+          "enum": [
+            "step1_extracted",
+            "step2_cleaned",
+            "step3_structured",
+            "drug_label_or_ddi_rule",
+            "external_guideline",
+            "clinical_trial",
+            "model_prior_knowledge"
+          ]
+        },
+        "source_file": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "hostname": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "language": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "document_type": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "For example: case_report, review, guideline."
+        },
+        "metadata": {
+          "type": "object",
+          "additionalProperties": true,
+          "default": {}
+        }
+      }
+    },
+    "CaseProfile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "case_id",
+        "doc_id"
+      ],
+      "properties": {
+        "case_id": {
+          "type": "string",
+          "description": "Stable case id in one document, e.g. {doc_id}#case-1."
+        },
+        "doc_id": {
+          "type": "string"
+        },
+        "age": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sex": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "smoking_status": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pack_years": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "diagnosis_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "cancer_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "histology": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tnm_stage_system": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tnm_stage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "overall_stage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "primary_site": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "metastatic_sites_at_baseline": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "presenting_symptoms": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "baseline_molecular_alterations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "metadata": {
+          "type": "object",
+          "additionalProperties": true,
+          "default": {}
+        }
+      }
+    },
+    "MolecularProfile": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sample": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "alterations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        }
+      }
+    },
+    "TreatmentDetail": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "line_of_therapy": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "regimen": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "treatment_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dosage": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          },
+          "default": {}
+        }
+      }
+    },
+    "ResponseDetail": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "best_response": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "response_criteria": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "duration_months": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "ToxicityDetail": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "event": {
+          "type": "string"
+        },
+        "grade": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "attribution": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "management": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "event"
+      ]
+    },
+    "TimelineEvent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "event_id",
+        "doc_id",
+        "case_id",
+        "time",
+        "event_types"
+      ],
+      "properties": {
+        "event_id": {
+          "type": "string",
+          "description": "Stable event id, e.g. {case_id}#event-003."
+        },
+        "doc_id": {
+          "type": "string"
+        },
+        "case_id": {
+          "type": "string"
+        },
+        "time": {
+          "type": "string",
+          "description": "Original time expression from source, e.g. 2020-11."
+        },
+        "event_types": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "diagnosis",
+              "molecular",
+              "treatment",
+              "response",
+              "progression",
+              "toxicity",
+              "metastasis",
+              "ddi",
+              "outcome",
+              "other"
+            ]
+          },
+          "minItems": 1
+        },
+        "molecular": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/MolecularProfile"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "treatment": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/TreatmentDetail"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "response": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ResponseDetail"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "toxicities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ToxicityDetail"
+          },
+          "default": []
+        },
+        "metastatic_sites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "summary_text": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Natural-language event summary used for dense/BM25 indexing."
+        },
+        "entities": {
+          "$ref": "#/$defs/EntitySet"
+        },
+        "metadata": {
+          "type": "object",
+          "additionalProperties": true,
+          "default": {}
+        }
+      }
+    },
+    "CitationAnchor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_layer"
+      ],
+      "properties": {
+        "source_layer": {
+          "type": "string",
+          "enum": [
+            "step1_extracted",
+            "step2_cleaned",
+            "step3_structured",
+            "drug_label_or_ddi_rule",
+            "external_guideline",
+            "clinical_trial",
+            "model_prior_knowledge"
+          ]
+        },
+        "source_file": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "field_path": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "JSON pointer or logical path for structured evidence."
+        },
+        "start_char": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "end_char": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "chunk_order": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "EvidenceChunk": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "chunk_id",
+        "doc_id",
+        "case_id",
+        "chunk_type",
+        "text",
+        "evidence_level",
+        "citation"
+      ],
+      "properties": {
+        "chunk_id": {
+          "type": "string",
+          "description": "Stable chunk id, e.g. {doc_id}#chunk-000123."
+        },
+        "doc_id": {
+          "type": "string"
+        },
+        "case_id": {
+          "type": "string"
+        },
+        "event_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Linked timeline event id when chunk derives from one event."
+        },
+        "chunk_type": {
+          "type": "string",
+          "enum": [
+            "case_text_chunk",
+            "event_chunk",
+            "structured_field_chunk",
+            "ddi_rule_chunk",
+            "guideline_chunk",
+            "trial_chunk",
+            "model_knowledge_chunk"
+          ]
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text_for_embedding": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional normalized text for vector embedding."
+        },
+        "language": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidence_level": {
+          "type": "string",
+          "enum": [
+            "case_report_evidence",
+            "structured_extraction_evidence",
+            "drug_label_or_ddi_rule_evidence",
+            "guideline_evidence",
+            "clinical_trial_evidence",
+            "model_prior_knowledge"
+          ]
+        },
+        "relevance_signals": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "is_supporting": {
+              "type": "boolean",
+              "default": false
+            },
+            "is_contradicting": {
+              "type": "boolean",
+              "default": false
+            },
+            "is_safety_risk": {
+              "type": "boolean",
+              "default": false
+            }
+          }
+        },
+        "entities": {
+          "$ref": "#/$defs/EntitySet"
+        },
+        "citation": {
+          "$ref": "#/$defs/CitationAnchor"
+        },
+        "metadata": {
+          "type": "object",
+          "additionalProperties": true,
+          "default": {}
+        }
+      }
+    }
+  }
+}

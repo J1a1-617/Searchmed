@@ -1,0 +1,32 @@
+{
+  "part": 24,
+  "n_pmids": 12,
+  "pmids": [
+    "41907614",
+    "41907639",
+    "41916729",
+    "41918647",
+    "41919149",
+    "41948726",
+    "41959066",
+    "41959370",
+    "41959900",
+    "41964727",
+    "41971422",
+    "41971937"
+  ],
+  "source_files": [
+    "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/searchagentv2/case_pipeline_steps_data/step1_extracted/41907614_tr.json",
+    "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/searchagentv2/case_pipeline_steps_data/step1_extracted/41907639_tr.json",
+    "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/searchagentv2/case_pipeline_steps_data/step1_extracted/41916729_tr.json",
+    "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/searchagentv2/case_pipeline_steps_data/step1_extracted/41918647_tr.json",
+    "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/searchagentv2/case_pipeline_steps_data/step1_extracted/41919149_tr.json",
+    "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/searchagentv2/case_pipeline_steps_data/step1_extracted/41948726_tr.json",
+    "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/searchagentv2/case_pipeline_steps_data/step1_extracted/41959066_tr.json",
+    "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/searchagentv2/case_pipeline_steps_data/step1_extracted/41959370_tr.json",
+    "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/searchagentv2/case_pipeline_steps_data/step1_extracted/41959900_tr.json",
+    "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/searchagentv2/case_pipeline_steps_data/step1_extracted/41964727_tr.json",
+    "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/searchagentv2/case_pipeline_steps_data/step1_extracted/41971422_tr.json",
+    "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/searchagentv2/case_pipeline_steps_data/step1_extracted/41971937_tr.json"
+  ]
+}

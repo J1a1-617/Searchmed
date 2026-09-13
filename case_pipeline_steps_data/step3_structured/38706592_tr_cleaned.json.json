@@ -1,0 +1,108 @@
+{
+  "provenance": {
+    "source_filename": "38706592_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 74,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "coma"
+    ],
+    "diagnosis_date": "unknown",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT1cNxM0",
+    "overall_stage": "IV",
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes",
+      "hilum of the right lung"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "unknown",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "METex14 splice region mutation (c.3028G>T)"
+        ],
+        "sample": "formalin-fixed paraffin-embedded tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "tepotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "tepotinib": "0.5 g daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 5
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + rebiopsy + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "METex14 splice region mutation (c.3028G>T)"
+        ],
+        "sample": "fine-needle aspiration re-biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "vebreltinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "vebreltinib": "200 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 13
+      },
+      "safety": {
+        "adverse_events": [
+          "Grade 2 bilateral lower-extremity edema",
+          "Grade 2 anemia",
+          "Grade 1 hyponatremia",
+          "Grade 1 amylase increase",
+          "Grade 1 lipase increase",
+          "Grade 2 ankle pain"
+        ],
+        "dose_adjustments": [
+          "spironolactone for edema"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 20,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "unknown"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "74-year-old woman with lung adenocarcinoma harboring METex14 mutation",
+      "First-line treatment with tepotinib resulted in stable disease",
+      "Second-line treatment with vebreltinib showed durable partial response"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

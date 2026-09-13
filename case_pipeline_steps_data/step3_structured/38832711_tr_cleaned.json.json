@@ -1,0 +1,144 @@
+{
+  "provenance": {
+    "source_filename": "38832711_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 56,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2019-09",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "liver",
+      "abdominal lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2019-09",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "MET-CD47 fusion",
+          "FGF3 c.133C>A p.(Arg45Ser)",
+          "MAP2K2 c.814G>A p.(Ala272Thr)",
+          "PDGFRA c.1673G>A p.(Arg558His)",
+          "RET c.3217_3218dupAG p.(Ser1073ArgfsTer37)",
+          "ROS1 c.6985C>G p.(Pro2329Ala)"
+        ],
+        "sample": "FFPE tumor tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "pembrolizumab"
+        ],
+        "type": "chemotherapy/immunotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "pemetrexed": null,
+          "pembrolizumab": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 36
+      }
+    },
+    {
+      "time": "2022",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "docetaxel",
+          "ramucirumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "docetaxel": null,
+          "ramucirumab": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2022",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "carboplatin",
+          "gemcitabine"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "gemcitabine": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2022",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "CD47-MET fusion"
+        ],
+        "sample": "RNA sequencing"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "capmatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "capmatinib": "unknown"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 18
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 18,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with CD47-MET fusion responsive to capmatinib",
+      "Complete metabolic response after 18 months of treatment",
+      "Emphasis on comprehensive genomic profiling in NSCLC"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

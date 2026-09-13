@@ -1,0 +1,178 @@
+{
+  "provenance": {
+    "source_filename": "40661081_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 57,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "cough"
+    ],
+    "diagnosis_date": "2019-03",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT2bN0M1a",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2019-03",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 17
+      }
+    },
+    {
+      "time": "2020-10",
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR T790M"
+        ],
+        "sample": "blood"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 29
+      }
+    },
+    {
+      "time": "2023-02",
+      "event_type": "progression + monitoring",
+      "molecular": {
+        "findings": null,
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-03",
+      "event_type": "monitoring",
+      "molecular": {
+        "findings": null,
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [],
+        "dose_adjustments": []
+      }
+    },
+    {
+      "time": "2023-04",
+      "event_type": "monitoring",
+      "molecular": {
+        "findings": null,
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "traditional Chinese medicine"
+    ],
+    "mechanism": "affecting plasma concentration via P-gp and CYP3A enzymes",
+    "severity": "moderate",
+    "clinical_manifestation": "decreased osimertinib concentration",
+    "management": "adjustment of TCM prescription",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2023-08"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Drug-drug interaction between TCM and osimertinib",
+      "Importance of monitoring drug concentrations in patients using TCM",
+      "Optimal dosage adjustment of osimertinib based on TCM usage"
+    ],
+    "ddi_relevance": "high",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41711155_tr.json",
+    "source_pmid": "41711155",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41711155_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:31:41",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Synonymous Variants of Potential Significance Identified by a 52‐Gene Clinical Sequencing Panel in Non‐Small Cell Lung Cancer",
+    "author": "Kathleen Varty; Leah MacLean; Doha Itani; Monowar Hossain; Cenk Acar; James Michael; Trisha Daigle‐Maloney; Robert Thompson; Brian Johnston; Crispin Russell; Jeanette E Boudreau; Daniel Gaston; Tony Reiman",
+    "date": "2026-02-19"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

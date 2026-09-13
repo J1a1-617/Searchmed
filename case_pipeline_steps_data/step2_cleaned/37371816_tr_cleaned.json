@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "37371816_tr.json",
+    "source_pmid": "37371816",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/37371816_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:28:59",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Arsenic Inhibits Proliferation and Induces Autophagy of Tumor Cells in Pleural Effusion of Patients with Non-Small Cell Lung Cancer Expressing EGFR with or without Mutations via PI3K/AKT/mTOR Pathway",
+    "author": "Jianhua Mao; Xiaoqian Shi; Li Hua; Menghang Yang; Yan Shen; Zheng Ruan; Bing Li; Xiaodong Xi",
+    "date": "2023-06-15"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

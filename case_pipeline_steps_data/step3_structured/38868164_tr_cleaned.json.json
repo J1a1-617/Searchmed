@@ -1,0 +1,90 @@
+{
+  "provenance": {
+    "source_filename": "38868164_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 59,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": 30,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2021-07",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2018-11",
+      "event_type": "diagnosis",
+      "molecular": {
+        "alterations": [
+          "EGFR R776H"
+        ],
+        "sample": "blood"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2021-07",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR R776H"
+        ],
+        "sample": "tumor tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "almonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "almonertinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-04",
+      "event_type": "follow_up + imaging",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      },
+      "safety": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2023-04"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient has a rare germline mutation, EGFR R776H.",
+      "Family history of lung adenocarcinoma.",
+      "Partial remission achieved with almonertinib."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "provenance": {
+    "source_filename": "38962043_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 74,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "lung mass",
+      "pain around left eye"
+    ],
+    "diagnosis_date": "2018-XX",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT4N2M0",
+    "overall_stage": "IIIB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2018-XX",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "cisplatin",
+          "S-1",
+          "radiation"
+        ],
+        "type": "chemoradiation",
+        "dosage": {
+          "cisplatin": "not specified",
+          "S-1": "not specified",
+          "radiation": "40 Gy"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2019-01",
+      "event_type": "surgery + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "resected tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "right upper lobectomy",
+          "lymph node dissection"
+        ],
+        "type": "surgery",
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2019-01",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": "250 mg"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2020-06",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "plasma"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "stereotactic irradiation"
+        ],
+        "type": "radiation",
+        "dosage": {
+          "stereotactic irradiation": "30 Gy/10 fr"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 5
+      }
+    },
+    {
+      "time": "2020-11",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "plasma"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "ruthenium small-beam radiation"
+        ],
+        "type": "radiation",
+        "dosage": {
+          "ruthenium small-beam radiation": "80 Gy"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 5
+      }
+    },
+    {
+      "time": "2021-01",
+      "event_type": "surgery + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R",
+          "EGFR E709K"
+        ],
+        "sample": "resected choroidal tumor"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "left ophthalmectomy"
+        ],
+        "type": "surgery",
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2021-09",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "plasma"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "stereotactic radiation",
+          "afatinib"
+        ],
+        "type": "combination_targeted",
+        "ddi_pair": "afatinib + gefitinib",
+        "drug_to_target": {
+          "afatinib": [
+            "EGFR"
+          ],
+          "gefitinib": [
+            "EGFR"
+          ]
+        },
+        "dosage": {
+          "afatinib": "30 mg",
+          "gefitinib": "not specified"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "gefitinib",
+      "afatinib"
+    ],
+    "mechanism": "Not specified",
+    "severity": "moderate",
+    "clinical_manifestation": "Not specified",
+    "management": "Not specified",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 11,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2022-10",
+    "treatment_discontinuation_reason": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR L858R mutation detected",
+      "Choroidal metastasis developed 17 months after gefitinib treatment",
+      "Stereotactic irradiation and ruthenium small-beam radiation were initially effective",
+      "Patient underwent left ophthalmectomy due to treatment resistance"
+    ],
+    "ddi_relevance": "medium",
+    "generalizability": "medium"
+  }
+}

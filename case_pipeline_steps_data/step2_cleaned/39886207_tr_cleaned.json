@@ -1,0 +1,28 @@
+{
+  "text": "Title: Combined RET and MEK inhibition as a treatment for RET fusion-positive NSCLC with acquired BRAF fusion: a case report\nPMID: 100724\nAuthors: Hines JB, Bowar BC, Colleton M, et al.\n\nAbstract\nRET fusions are present in 1% to 2% of NSCLCs. Although RET inhibitors like selpercatinib are effective, resistance inevitably develops. We present the case of a 28-year-old female with recurrent NSCLC and a CCDC6::RET fusion treated with selpercatinib. Testing at the time of progression revealed a new SKAP2::BRAF fusion. She was then treated with a combination of selpercatinib and trametinib, which led to a likely partial response, despite the combination demonstrating side effects. This case report details the first known instance of NSCLC with a RET fusion developing resistance by means of a BRAF fusion, treated with combined RET and MEK inhibition.\n\nCase Presentation\nPatient Information\nA 28-year-old female with a past medical history of ulcerative colitis presented for management of recurrent poorly differentiated adenocarcinoma of the lung. She was initially treated with multiple rounds of platinum-based chemotherapy regimens containing taxanes, pemetrexed, and anti-VEGF therapies (Fig. 1). Four years after diagnosis, positron emission tomography (PET) scans revealed avidity in the left upper abdominal quadrant and associated lymphadenopathy. Next-generation sequencing with Foundation Medicine from a biopsy of an abdominal lymph node revealed a CCDC6::RET fusion. She was subsequently treated with a combination of vandetinib and everolimus on trial. After three years of treatment, PET scans revealed worsening peritoneal carcinomatosis without clinically relevant activity in other parts of the body. Repeat molecular testing was not performed at this time. The patient started on selpercatinib 160 mg twice daily with excellent response and without significant side effects.\nIn terms of her ulcerative colitis, the patient underwent multiple esophagogastroduodenoscopies demonstrating esophageal stricture that required dilations in September 2018 and March 2023. A colonoscopy in 2023 did not reveal active ulcerative colitis in the lower gastrointestinal (GI) tract.\nDiagnostic Assessment\nIn the interim, the patient presented to our institution. Three years after the initiation of selpercatinib, a PET scan revealed metabolic activity throughout the abdomen and pelvis including multiple lymph nodes, the peritoneum, and the cervix. No definitive activity was seen in the chest or the liver. Next-generation sequencing from a biopsy of a new subcutaneous abdominal nodule revealed a new SKAP2::BRAF fusion, with the persistence of the CCDC6::RET fusion. RNA-sequencing was performed with the University of Chicago’s RNA Fusion Assay for gene fusion analysis, which is a hybrid capture-based RNA-sequencing assay for detecting known and novel fusions involving any of the 1005 targeted cancer-associated genes, as previously described.\nTherapeutic Intervention and Clinical Findings\nThe patient began treatment with selpercatinib 160 mg twice daily and trametinib (a MEK inhibitor) 2 mg daily. Two weeks after initiation of therapy, trametinib was held owing to grade 1 diarrhea and grade 2 dermatologic toxicities (i.e., acneiform rash and paronychia). The patient self-initiated topical tretinoin for her facial rash which was discontinued when she noticed it was causing worsening xeroderma. Trametinib was restarted after a nine-day dose interruption at 1 mg every other day and was increased to 1 mg daily seven days later. She experienced recrudescence of her dermatologic toxicities after three weeks of therapy requiring topical steroids.\nFollow-Up and Outcomes\nFollow-up imaging roughly three months after treatment initiation revealed near complete resolution of her disease. The patient underwent esophagogastroduodenoscopy in August 2023 due to dysphagia which revealed recurrent esophageal stricture with ulceration, requiring dilation. This was complicated by a deep esophageal tear after dilation. The following month, the patient presented to the emergency room due to hemoptysis with evaluation revealing an esophageal bronchial fistula. Unfortunately, she soon suffered a cardiac arrest resulting in her death.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39886207_tr.json",
+    "source_pmid": "39886207",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39886207_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:04:49",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Combined RET and MEK Inhibition as a Treatment for RET Fusion-Positive NSCLC With Acquired BRAF Fusion: A Case Report",
+    "author": "Jacobi B Hines; Benjamin C Bowar; Margaret Colleton; Lydia Chelala; Peng Wang; Angad A Chadha; Jeremy Segal; Christine M Bestvina",
+    "date": "2024-08-28"
+  },
+  "rejection_reason": null
+}

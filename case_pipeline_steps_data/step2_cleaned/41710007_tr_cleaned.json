@@ -1,0 +1,28 @@
+{
+  "text": "Title: Tepotinib Therapy for Advanced MET Exon 14 Skipping NSCLC With Non‐Dialysis End‐Stage Renal Disease: A Case Report\nPMID: 10.1002/rcr2.70510\nAuthors: Susumu Yamazaki, Yoshiaki Nagai, Hitomi Watanabe, Yoshitaka Uchida, Takeshi Asato, Kyosuke Kasaoka, Konjo Cho, Makoto Nagata\n\nABSTRACT\nTepotinib is an oral mesenchymal–epithelial transition factor (MET) tyrosine kinase inhibitor approved for advanced or metastatic MET exon 14 skipping non‐small cell lung cancer (NSCLC). While no dose adjustment is required in patients with mild‐to‐moderate renal impairment, evidence in those with severe renal dysfunction remains limited. We report a case of advanced MET exon 14 skipping NSCLC in a patient with end‐stage renal disease (ESRD) without dialysis who was successfully treated with tepotinib. During therapy, serum creatinine increased, whereas serum cystatin C remained stable, suggesting pseudo‐acute kidney injury due to inhibition of renal tubular transporters. Tepotinib was resumed at a reduced dose without further renal deterioration, resulting in a partial tumour response. This case highlights the feasibility of tepotinib therapy in carefully selected patients with ESRD and underscores the clinical utility of incorporating complementary renal biomarkers, cystatin C, for guiding treatment decisions and avoiding unnecessary treatment discontinuation.\n\n1. Case Report\nA 75‐year‐old man with no respiratory symptoms exhibited a nodular opacity in the right lower lung field on routine chest radiography (Figure 1A). He had a history of diabetic nephropathy with progressive renal dysfunction since the age of 63. Initial laboratory tests were consistent with ESRD, with a serum creatinine level of 5.00 mg/dL and an estimated glomerular filtration rate (eGFR), calculated using the MDRD equation, of < 10 mL/min/1.73 m2. Despite meeting ESRD criteria, dialysis was not initiated due to preserved diuresis and a stable clinical condition. Chest computed tomography (CT) showed a 36 × 22 mm solitary nodule located in segments 8 and 9 of the right lower lobe (Figure 1B). Transbronchial biopsy confirmed adenocarcinoma. Molecular analysis using a next‐generation sequencing panel (AmoyDx) identified a MET exon 14 skipping mutation. The PD‐L1(22C3) tumour proportion score was 5%. The clinical stage was cT2aN1M1a (stage IVA), and the Eastern Cooperative Oncology Group performance status was 0. Tepotinib was started at 500 mg once daily. At baseline, serum creatinine was 4.96 mg/dL, and cystatin C was 3.81 mg/L. On day 6 of treatment, serum creatinine increased to 6.66 mg/dL, while cystatin C remained stable at 3.71 mg/L. Despite the absence of symptoms, tepotinib was temporarily withheld as a precaution. x‐ray on day 9 revealed tumour shrinkage. Pseudo‐AKI caused by inhibition of renal tubular transporters such as multidrug and toxin extrusion protein 1 (MATE‐1) was suspected. Tepotinib was resumed at a reduced dose of 250 mg daily on day 10. Renal function was stable (serum creatinine 7.32 mg/dL on day 13), and the patient was discharged in stable condition on day 17. Subsequently, tepotinib was continued at 250 mg daily. On day 49, serum creatinine was 6.36 mg/dL, and CT indicated a partial response, with tumour size reduced to 28 × 12 mm (Figure 2). According to the Response Evaluation Criteria in Solid Tumours (RECIST), the target lesion showed a partial response, non‐target lesions showed non‐progressive disease, and no new lesions were observed. The overall response was therefore judged as a partial response. The only treatment‐related adverse event was grade 1 (Common Terminology Criteria for Adverse Events) peripheral edema. The patient remained clinically stable and active and well throughout therapy.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41710007_tr.json",
+    "source_pmid": "41710007",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41710007_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:31:17",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Tepotinib Therapy for Advanced MET Exon 14 Skipping NSCLC With Non‐Dialysis End‐Stage Renal Disease: A Case Report",
+    "author": "Susumu Yamazaki; Yoshiaki Nagai; Hitomi Watanabe; Yoshitaka Uchida; Takeshi Asato; Kyosuke Kasaoka; Konjo Cho; Makoto Nagata",
+    "date": "2026-02-16"
+  },
+  "rejection_reason": null
+}

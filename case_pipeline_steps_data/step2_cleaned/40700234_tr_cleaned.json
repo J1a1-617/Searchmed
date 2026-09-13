@@ -1,0 +1,28 @@
+{
+  "text": "Title: Osimertinib-Induced Hepatitis Following Immunotherapy in a Patient with Non-Small Cell Lung Cancer Harboring Compound EGFR Mutations\nPMID: \nAuthors: \n\nAbstract\nBackground and Clinical Significance: Non-small-cell lung cancer (NSCLC) with EGFR mutations, particularly de novo compound mutations such as exon 19 deletions (Ex19del) with T790M substitutions, present a significant clinical challenge due to resistance to many treatments. While treating these patients, the administration of osimertinib, a third-generation EGFR inhibitor, after immunotherapy can lead to unique immune-related adverse events (irAEs), such as pneumonitis and, rarely, hepatitis. \n\nCase Presentation: A 36-year-old Filipino woman presented with metastatic NSCLC harboring de novo Ex19del and T790M mutations. Despite initial therapy with carboplatin and paclitaxel, followed by chemoimmunotherapy, the patient’s disease progressed. She subsequently developed severe hepatitis from osimertinib after her prior immunotherapy with pembrolizumab. After the hepatitis resolved with high-dose steroids, osimertinib was switched to afatinib, but her disease rapidly progressed with new metastases. A second attempt at osimertinib rechallenge, with concomitant prednisone, resulted in substantial disease control, including improved leptomeningeal disease (LMD) and no recurrence of hepatitis.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40700234_tr.json",
+    "source_pmid": "40700234",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40700234_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:55:36",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Osimertinib-Induced Hepatitis Following Immunotherapy in a Patient with Lung Adenocarcinoma Harboring De Novo EGFR Exon 19 Deletion and T790M Mutations: A Case Report",
+    "author": "Bradley Steiner; Amanda Edmond; Monica Camou; Taylor Praska; Jiaxin Niu",
+    "date": "2025-06-26"
+  },
+  "rejection_reason": null
+}

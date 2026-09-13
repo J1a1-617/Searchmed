@@ -1,0 +1,165 @@
+{
+  "provenance": {
+    "source_filename": "40567261_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 57,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IVB",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "right middle lung",
+      "right pleura"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "null",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 9
+      }
+    },
+    {
+      "time": "null",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion",
+          "TP53 C135F",
+          "CCNE1 amplification",
+          "MET overexpression"
+        ],
+        "sample": "right pleural fluid"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "bevacizumab",
+          "osimertinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "bevacizumab": null,
+          "osimertinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "null",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion",
+          "MET overexpression"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "tepotinib",
+          "osimertinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "tepotinib": null,
+          "osimertinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 12
+      }
+    },
+    {
+      "time": "null",
+      "event_type": "treatment + safety",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "amivantamab",
+          "osimertinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "amivantamab": null,
+          "osimertinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 2 infusion-related reaction"
+        ],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "amivantamab",
+      "osimertinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "acute hypoxic respiratory failure",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Amivantamab-induced pneumonitis in NSCLC patients",
+      "EGFR exon 19 deletion present in both cases",
+      "Prior treatment with osimertinib and disease progression"
+    ],
+    "ddi_relevance": "high",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "provenance": {
+    "source_filename": "37544307_tr_cleaned.json",
+    "source_pmid": "10.1111/1759-7714.15044",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 45,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "enlarged lymph nodes"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "c-Stage IVB",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "brain",
+      "lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "null",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ROS-1 rearrangement",
+          "TP53 mutation"
+        ],
+        "sample": "lymph node metastasis"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "entrectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "entrectinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4.7
+      }
+    },
+    {
+      "time": "null",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "findings": [
+          "CD74-ROS1 fusion",
+          "TP53 mutation"
+        ],
+        "sample": "next-generation sequencing"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "platinum-based pemetrexed",
+          "crizotinib"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": null,
+          "crizotinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 1.0
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 8.3,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with ROS-1 rearranged lung adenocarcinoma and concurrent TP53 mutation",
+      "Entrectinib showed a transient response to brain metastases",
+      "Rapid disease progression at 4.7 months",
+      "Limited efficacy of subsequent treatments"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

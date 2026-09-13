@@ -1,0 +1,183 @@
+{
+  "provenance": {
+    "source_filename": "39184039_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 50,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2019-06",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "UICC 6th",
+    "tnm_stage": "pT1cN2M0",
+    "overall_stage": "III A",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2019-06",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR (-)",
+          "ALK (-)",
+          "ROS1 (-)"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pemetrexed",
+          "cisplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": null,
+          "cisplatin": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2019-11",
+      "event_type": "radiation",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "IMRT"
+        ],
+        "type": "radiotherapy",
+        "dosage": {
+          "IMRT": "50 Gy"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2020-08",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "palliative radiotherapy"
+        ],
+        "type": "radiotherapy",
+        "dosage": {
+          "palliative radiotherapy": "30 Gy in 10 fractions"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2020-08",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "albumin-bound paclitaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "albumin-bound paclitaxel": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 12
+      }
+    },
+    {
+      "time": "2021-12",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "anlotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "anlotinib": null
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2022-12",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R",
+          "HER2 amplification"
+        ],
+        "sample": "peripheral blood"
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "almonertinib",
+          "pyrotinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "almonertinib": null,
+          "pyrotinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      },
+      "safety": {
+        "adverse_events": [
+          "grade II diarrhea"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "almonertinib",
+      "pyrotinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": "2023-11"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "HER2 amplification detected in an EGFR mutant patient",
+      "Combination therapy with almonertinib and pyrotinib resulted in partial response",
+      "Patient experienced significant adverse effects requiring treatment changes"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "provenance": {
+    "source_filename": "38813335_tr_cleaned.json",
+    "source_pmid": "null",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 63,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "fecal incontinence",
+      "debilitating headaches",
+      "right arm weakness",
+      "gait instability",
+      "recent ground-level fall"
+    ],
+    "diagnosis_date": "null",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "null",
+    "tnm_stage": "null",
+    "overall_stage": "null",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "cerebral edema",
+      "hilar lymphadenopathy"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "null",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR Glu 757-Ala 750 deletion"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 17
+      }
+    },
+    {
+      "time": "null",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR E746_A750del",
+          "EGFR G796C",
+          "EGFR 1744V",
+          "RB R552",
+          "TP53 C275F"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "carboplatin",
+          "pembrolizumab",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": "null",
+          "pembrolizumab": "null",
+          "pemetrexed": "null"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "transaminitis"
+        ],
+        "dose_adjustments": [
+          "pembrolizumab held during fourth cycle"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "carboplatin",
+      "pembrolizumab",
+      "pemetrexed"
+    ],
+    "mechanism": "null",
+    "severity": "null",
+    "clinical_manifestation": "null",
+    "management": "null",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": "null",
+    "last_follow_up": "null"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Histologic transformation from NSCLC to carcinosarcoma",
+      "Resistance to osimertinib associated with additional EGFR mutations and alterations in RB and TP53",
+      "Limited therapeutic options for carcinosarcoma"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

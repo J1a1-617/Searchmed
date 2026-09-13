@@ -1,0 +1,74 @@
+{
+  "provenance": {
+    "source_filename": "40610986_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 74,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "respiratory distress",
+      "hypoxia"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "left lower lobe",
+    "metastatic_sites_at_baseline": null
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR mutation"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": null
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "interstitial lung disease",
+          "pulmonary embolism",
+          "deep vein thrombosis",
+          "leg edema"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 9,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Interstitial lung disease and pulmonary embolism as adverse events during osimertinib treatment",
+      "Rapid improvement of clinical symptoms with steroid and anticoagulation treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

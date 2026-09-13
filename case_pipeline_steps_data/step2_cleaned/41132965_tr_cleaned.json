@@ -1,0 +1,28 @@
+{
+  "text": "Title: Osimertinib-induced syndrome of inappropriate secretion of antidiuretic hormone in a patient with lung adenocarcinoma with EGFR T790M mutation\nPMID: [PubMed ID]\nAuthors: [作者列表]\n\nAbstract\nOsimertinib is the standard third-generation epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI) of choice for EGFR mutation-positive non-small cell lung cancer. Its major adverse effects include diarrhea and skin symptoms, although syndrome of inappropriate secretion of antidiuretic hormone (SIADH) has been reported as a rare event. In previous reports, patients were switched to another drug after the onset of SIADH. We report the first case of osimertinib-induced SIADH in a patient with lung adenocarcinoma with an EGFR T790M mutation, with, therefore, no effective therapeutic alternative, where the patient was able to resume treatment at a reduced dose without recurrence of SIADH.\n\nCase presentation\nAn 80-year-old man with a history of hypertension, diabetes mellitus, and partial right nephrectomy for right renal cell carcinoma, but with preserved renal function, underwent thoracoscopic left upper lobectomy for left upper lobe lung adenocarcinoma (pT1bN1M0, stage IIA) in 2013, in which an EGFR exon 19 deletion was identified. In 2017, he developed multiple pulmonary metastatic nodules, and a biopsy at that time again revealed the same EGFR exon 19 deletion. Based on this finding, he was started on gefitinib (Figure 1A-1C). Although the nodules shrank in size with this treatment, one right lower lobe nodule gradually grew (Figure 1D-1F), although its fluorodeoxyglucose accumulation was low in positron emission tomography/computed tomography (PET/CT) (Figure 1G). Evaluation of a CT-guided lung biopsy specimen from the nodule identified EGFR T790M mutation, and osimertinib treatment (80 mg/day) was started in 2022.\nAfter starting osimertinib, the right lower lobe nodule decreased in size (Figure 2), although he developed anorexia and fatigue seven months after the start of osimertinib. Examination revealed hyponatremia with a serum sodium concentration of 117 mEq/L. Additional laboratory evaluation indicated a urine osmolality of 253 mOsm/kg, plasma osmolality of 241 mOsm/kg, and urine sodium concentration of 61 mEq/L. Thyroid and corticosteroid hormone levels were normal and arginine vasopressin (AVP) secretion was not suppressed despite hyponatremia. Since the patient met all the diagnostic criteria for SIADH, the cause of the hyponatremia was diagnosed as SIADH (Table 1) (6). At the same time, CT showed that the metastatic lesion in the lower right lung lobe remained in remission, with no evidence of worsening of the lung cancer. CT also showed no abnormalities of note in the abdomen, and cranial magnetic resonance imaging (MRI) showed no brain metastases, hemorrhage or infarction. Hence, we ruled out the possibility of SIADH due to worsening lung cancer and intra-abdominal or intracranial lesions, and made a diagnosis of drug-induced SIADH. We discontinued osimertinib due to the possibility that it was the cause of the hyponatremia. Further, since the patient was also taking indapamide, a thiazide-like diuretic drug for hypertension, which might have contributed to hyponatremia, it was also discontinued and not resumed. Treatment for hyponatremia was initiated with saline infusion, oral sodium chloride administration, and water restriction. On the 14th day of this treatment, his serum sodium concentration improved to the normal range.\nOne month later, because the patient’s serum sodium concentration remained stable, we resumed osimertinib at the dose of 80 mg/day. Two months later, however, we discontinued it because hyponatremia with a serum sodium concentration of 131 mEq/L was observed. Once again, with water restriction and oral sodium chloride administration, the serum sodium concentration improved to the normal range after five days. Based on the patient’s clinical course, osimertinib was considered the cause of SIADH.\nSubsequently, we resumed osimertinib at a reduced dose of 40 mg/day, without recurrence of hyponatremia or growth of lung cancer metastases (Figure 3). Currently, 18 months after the dose reduction, the patient’s serum sodium level is well controlled without oral sodium chloride administration or fluid restriction, and the patient has remained stable without any exacerbation of lung cancer (Figure 4).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41132965_tr.json",
+    "source_pmid": "41132965",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41132965_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:07:51",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Syndrome of inappropriate secretion of antidiuretic hormone (SIADH) by osimertinib and continued treatment with dose reduction for postoperative recurrence of lung adenocarcinoma: a case report",
+    "author": "Machiko Nishii; Masanori Shimomura; Satoru Okada; Tatsuo Furuya; Taiyo Kawamura; Takumi Nakagawa; Rintaro Kawanishi; Masayoshi Inoue",
+    "date": "2025-09-19"
+  },
+  "rejection_reason": null
+}

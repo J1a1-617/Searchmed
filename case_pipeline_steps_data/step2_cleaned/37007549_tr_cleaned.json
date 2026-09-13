@@ -1,0 +1,28 @@
+{
+  "text": "Title: Acquired EGFR L718V/TP53 V272M Co-Mutation Mediates Resistance to Osimertinib in a Patient with Leptomeningeal and Bone Metastatic Non-Small Cell Lung Cancer\nPMID: \nAuthors: \n\nAbstract\nOsimertinib is approved in first line metastatic epidermal growth factor receptor (EGFR) mutated non-small cell lung cancer (NSCLC). Acquired EGFR L718V mutation is a rare mechanism of resistance towards osimertinib in L858R+ NSCLC with potential sensibility to afatinib. This case reported an acquired EGFR L718V/TP53 V727M resistance co-mutation to osimertinib with discordant molecular pattern between plasmatic and cerebral fluid in a leptomeningeal and bone metastatic EGFR L858R mutant NSCLC.\n\nCase presentation\nA 52-year-old female, never smoker and without previous medical history, was diagnosed with bone metastatic EGFR L858R-mutated NSCLC in July 2019. According to guidelines, gefitinib (250 mg daily), a first-generation TKI, was administered without any adverse event (Figure 1A). Eleven months later, in June 2020, the patient developed intracranial hypertension symptoms (headache, diplopia, vomiting). CSF analysis showed hyperproteinorachia (0.49 g/L) and adenocarcinomatous cells (4%). Bone metastases and primary lung lesion did not progress. Molecular analysis identified EGFR L858R mutation without acquired T790M mutation in plasmatic and CSF analysis. Osimertinib (80 mg daily), as a second-line treatment, was started in combination with nineteen intrathecal methotrexate injections (15 mg biweekly) (Figure 1B). This treatment was well tolerated and led to neurological improvement with disappearance of tumor cells in CSF and normalization of proteinorachia.\nSeventeen months later, in October 2021, neurological symptoms (cerebellar ataxia, diplopia, headaches and dysarthria) reappeared and CSF analysis confirmed progression of carcinomatous meningitis and high proteinorachia (8.66 g/L) while bone and lung lesion did not progress. Circulating plasmatic tumor cells DNA next-generation sequencing (NGS) analysis identified EGFR L718V (2152C>G) mutation [allelic frequency variation (AFV): 9%] and TP53 V272M (814G>A) mutation (AFV: 2%) in conjunction with EGFR L858R mutation (AFV: 10%). In CSF, EGFR L718V mutation was not found while EGFR L858R mutation (AFV: 40%) and TP53 V272M mutation (AFV: 33%) were found (Figure 1C).\nAfatinib (40 mg daily), as a third-line treatment was started in December 2021 without any neurological clinical benefit. CSF analysis and thoracic CT-scan to evaluate afatinib effect could not be performed due to serious neurological degradation. The patient died in March 2022 of neurological progression.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "37007549_tr.json",
+    "source_pmid": "37007549",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/37007549_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:51:09",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Acquired L718V/TP53 co-mutation and discordant molecular pattern between plasmatic and cerebrospinal fluid in a bone and meningeal metastatic L858R+ non-small cell lung cancer: a case report",
+    "author": "Émilie Schultz; Erwan Pencreach; Valérie Rimelen; Amrita Palama; Émilie Holder; Justine Gantzer; Laura Bender",
+    "date": "2023-03-13"
+  },
+  "rejection_reason": null
+}

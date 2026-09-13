@@ -1,0 +1,142 @@
+{
+  "provenance": {
+    "source_filename": "41479892_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 55,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "malignant pleural effusion"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion",
+          "TP53",
+          "AKT2",
+          "RARA",
+          "SETD2",
+          "CHEK1",
+          "CUL3",
+          "DNMT1",
+          "HMCN1",
+          "TBX3",
+          "RB1 copy number loss"
+        ],
+        "sample": "pleural fluid"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "findings": [
+          "persistent alterations in 12 genes"
+        ],
+        "sample": "pleural fluid"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "almonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "almonertinib": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "ivonescimab"
+        ],
+        "type": "monotherapy",
+        "dosage": {
+          "ivonescimab": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 5
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "ivonescimab",
+          "pemetrexed"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "ivonescimab": null,
+          "pemetrexed": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR-mutant lung adenocarcinoma with malignant pleural effusion",
+      "Complex resistance to EGFR-TKIs",
+      "Successful treatment with ivonescimab"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

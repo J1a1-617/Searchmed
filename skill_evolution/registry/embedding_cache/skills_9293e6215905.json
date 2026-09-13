@@ -1,0 +1,13 @@
+{
+  "model": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/searchagentv2/models/bge-large-zh-v1.5",
+  "skill_ids": [
+    "clinical-evidence-lineage",
+    "structured-output-continuation"
+  ],
+  "skill_hashes": {
+    "clinical-evidence-lineage": "9d3318b7cb4c",
+    "structured-output-continuation": "da19698a504c"
+  },
+  "dimension": 1024,
+  "format_version": 1
+}

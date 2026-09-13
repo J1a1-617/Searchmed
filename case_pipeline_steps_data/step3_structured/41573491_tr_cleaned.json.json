@@ -1,0 +1,138 @@
+{
+  "provenance": {
+    "source_filename": "41573491_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 73,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 25,
+    "presenting_symptoms": [
+      "productive cough",
+      "hemoptysis"
+    ],
+    "diagnosis_date": "2021-10",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "oligometastatic",
+    "overall_stage": null,
+    "baseline_primary_site": "right upper lobe",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes",
+      "vertebral metastases",
+      "small brain lesion"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2021-10",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "MET exon 14 skipping mutation"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "capmatinib",
+          "denosumab"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "capmatinib": "800 mg daily",
+          "denosumab": "120 mg every three weeks"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [],
+        "dose_adjustments": [
+          "capmatinib held 5 days before and after SBRT"
+        ]
+      }
+    },
+    {
+      "time": "2022-01",
+      "event_type": "treatment + imaging",
+      "molecular": {},
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "SBRT to vertebral metastases"
+        ],
+        "type": "radiotherapy",
+        "dosage": {
+          "SBRT": "30 Gy in three fractions of 10 Gy"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2022-10",
+      "event_type": "progression + imaging + treatment",
+      "molecular": {},
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "SBRT to primary lung lesion"
+        ],
+        "type": "radiotherapy",
+        "dosage": {
+          "SBRT": "50 Gy in five fractions of 10 Gy"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 10
+      }
+    },
+    {
+      "time": "2023-04",
+      "event_type": "progression + imaging + treatment",
+      "molecular": {},
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "SBRT to right iliac crest"
+        ],
+        "type": "radiotherapy",
+        "dosage": {
+          "SBRT": "30 Gy in three fractions of 10 Gy"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 18
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 24,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2023-10"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with oligometastatic lung adenocarcinoma with MET exon 14 skipping mutation",
+      "Successful treatment with capmatinib and radiotherapy",
+      "Durable regression of primary and metastatic lesions"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

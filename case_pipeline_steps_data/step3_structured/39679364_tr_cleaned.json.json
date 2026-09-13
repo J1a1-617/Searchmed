@@ -1,0 +1,112 @@
+{
+  "provenance": {
+    "source_filename": "39679364_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 65,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "recurrent cough",
+      "sputum"
+    ],
+    "diagnosis_date": "2022-12",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT3N3Mx",
+    "overall_stage": "IIIC",
+    "baseline_primary_site": "right inferior lobe",
+    "metastatic_sites_at_baseline": [
+      "right supraclavicular",
+      "right hilus pulmonis",
+      "mediastinum"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-12",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR L858M",
+          "EGFR L861R",
+          "EGFR amplification",
+          "RB1 mutation",
+          "TP53 mutation",
+          "PD-L1 high expression"
+        ],
+        "sample": "tumor tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "afatinib",
+          "anlotinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "afatinib": "30 mg once daily",
+          "anlotinib": "10 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 12
+      }
+    },
+    {
+      "time": "2023-01",
+      "event_type": "follow_up + imaging",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2023-09",
+      "event_type": "follow_up + imaging",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "SD",
+        "duration_months": 8
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "afatinib",
+      "anlotinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 12,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2024-01",
+    "treatment_discontinuation_reason": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with rare EGFR L858M/L861R mutations",
+      "Combination therapy of afatinib and anlotinib shows significant efficacy",
+      "Mild adverse effects managed effectively",
+      "Continued positive response and quality of life improvements"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

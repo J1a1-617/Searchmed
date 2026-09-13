@@ -1,0 +1,28 @@
+{
+  "text": "Title: Chronic myeloid leukemia after osimertinib treatment in a patient with non-small cell lung cancer\nPMID: \nAuthors: Libo Zhang, Meijuan Huang\n\nAbstract\nCase summary\nA 45-year-old man presented with a 4.0cm × 4.0cm mass in right lower lobe and a right lower lobectomy was performed. The pathological diagnosis from the right lower lobe mass was adenocarcinoma with an EGFR mutation in exon 21 (L858R). He chose osimertinib as postoperative adjuvant treatment. Eight months after the administration of osimertinib, leukocytosis was detected and we diagnosed the patient with chronic myeloid leukemia (CML). After the diagnosis was made, the patient started the treatment of flumatinib immediately, and treatment of osimertinib continued. After one month treatment, leukocytosis was completely relived. The patient was receiving treatment of osimertinib and flumatinib simultaneously with both lung cancer and leukemia well-controlled, and the side effects were tolerable.\n\n1.1. Case presentation\nA 45-year-old man presented to the hospital with a chest computed tomography(CT) scan showing a 4.0cm × 4.0cm mass in right lower lobe, without any signs of hilar or mediastinal lymph nodes enlargement (Fig. 1A). The patient subsequently underwent a right lower lobectomy and formal ipsilateral mediastinal lymph node dissection (Fig. 1B). Postoperative pathological diagnosed as adenocarcinoma, with the lymph node dissection revealing metastatic involvement of the 7th group mediastinal lymph node. The patient was staged as pT2bN2M0 (IIIa) lung adenocarcinoma. A further gene examination confirmed epidermal growth factor receptor (EGFR) mutation in exon 21(L858R). He refused chemotherapy and in favor of receiving osimertinib as postoperative adjuvant treatment. Oral administration of Osimertinib commenced two months postoperatively, at a dosage of 80mg/day (Fig. 2A).\nEight months after the initiation of osimertinib treatment, a complete blood count revealed elevated levels of white blood cell (28310/μL), absolute neutrophil (18120/μL) and platelet count (733000/μL). Physical examination and abdominal sonography showed no evidence of lymphadenopathy, hepatomegaly or splenomegaly. Bone marrow aspirate smears revealed a granulocytic blast rate of 87.5 %. Eosinophil levels in the bone marrow were increased to 9.5 %. Karyotype analysis of bone marrow showed 46,XY,t(9; 22)(q34.1; q11) [3]. BCR-ABL(210) fusion gene was positive. Based on all the laboratory findings, a final diagnosis of CML was made. Given the patient's concurrent diagnosis of CML, a secondary malignancy following NSCLC, and the uncertain safety of osimertinib combining flumatinib, treatment with flumatinib was initiated at a reduced dose of 400mg/day, 200mg lower than the standard dose recommended in the prescribing information. In the meantime, treatment of osimertinib continued(80mg/d). After one month of treatment, leukocytosis was completely resolved and complete blood count reduced to normal (Fig. 2B). The patient experienced mild adverse effects, including grade 1 diarrhea, grade 1 oral ulcers, and grade 1 abnormal liver function, according to CTCAE criteria. Consequently, we adjusted the dose of flumatinib to 600mg/day. One year after the diagnosis of CML, the patient's clinical condition remained stable, and was still on the follow-up (Fig. 1, Fig. 2A).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39296080_tr.json",
+    "source_pmid": "39296080",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39296080_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:55:21",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Chronic myeloid leukemia during osimertinib treatment in a non-small cell lung cancer patient: A case report",
+    "author": "Libo Zhang; Meijuan Huang",
+    "date": "2024-08-29"
+  },
+  "rejection_reason": null
+}

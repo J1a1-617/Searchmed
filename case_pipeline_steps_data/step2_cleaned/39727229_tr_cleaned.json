@@ -1,0 +1,28 @@
+{
+  "text": "Title: Concurrent mutations in tumor protein p53 (TP53) or Kelch‐like ECH‐associated protein 1‐nuclear factor erythroid 2‐related factor 2‐pathway components are linked to poor outcomes in epidermal growth factor receptor (EGFR)‐mutant non‐small cell lung cancer (NSCLC), but the impact of triple mutations remains unclear.\nPMID: \nAuthors: \n\nABSTRACT\nConcurrent mutations in tumor protein p53 (TP53) or Kelch‐like ECH‐associated protein 1‐nuclear factor erythroid 2‐related factor 2‐pathway components are linked to poor outcomes in epidermal growth factor receptor (EGFR)‐mutant non‐small cell lung cancer (NSCLC), but the impact of triple mutations remains unclear. We report a case of EGFR‐, TP53‐, and Cullin 3 (CUL3)‐mutant NSCLC in a 43‐year‐old woman with widespread metastases at diagnosis, including those in the contralateral lung, distant lymph nodes, pericardium, liver, bones, left adrenal gland, and brain. She received osimertinib as first‐line therapy, but pericardial effusion and liver metastases progressed rapidly over 3 months, and she was switched to carboplatin and pemetrexed. By the eighth cycle of pemetrexed, the bone metastases had progressed, resulting in disseminated intravascular coagulation (DIC) due to bone marrow carcinomatosis. The patient received third‐line therapy with albumin‐bound paclitaxel and fourth‐line therapy with docetaxel, but further treatment was suspended owing to DIC progression. She passed away 23 months after the initiation of osimertinib. Public database analysis revealed that the EGFR/TP53/CUL3 triple mutation accounts for 0.4% of EGFR‐mutant NSCLC cases, yielding significantly shorter survival than EGFR mutations alone and likely shorter than EGFR/TP53 double mutations. Gaining a deeper understanding of the clinical significance of coexisting genetic mutations in patients with EGFR‐mutant NSCLC will be crucial to develop future therapies.\n\n2. Case Report\nA pulmonary nodule was discovered during a routine check‐up of a never‐smoking, 43‐year‐old woman with no history of medical conditions. Chest computed tomography (CT) revealed a nodule (Figure 1A) in the left lower lung lobe, multiple pulmonary metastases, enlargement of mediastinal lymph nodes, and pericardial effusion. Positron‐emission tomography‐CT revealed liver metastasis, large numbers of bone metastases, and left adrenal metastasis (Figure 1B), and brain magnetic resonance imaging revealed multiple brain metastases (Figure 1C). The patient was diagnosed with EGFR‐mutant lung adenocarcinoma. Comprehensive genome profiling revealed EGFR exon 19 deletion, TP53, and CUL3 mutations (FoundationOne Liquid CDx assay; Foundation Medicine Inc., Cambridge, MA).\nWe started the patient on osimertinib. Three months later, her pulmonary lesions, mediastinal lymph node metastases, and brain metastases had reduced in size, but the pericardial effusion and liver metastases had progressed rapidly. Thus, her treatment was switched to carboplatin (CBDCA) and pemetrexed (PEM). Four cycles of CBDCA + PEM reduced the pericardial effusion and liver metastases. However, by the eighth cycle of PEM, the bone metastases had progressed, resulting in disseminated intravascular coagulation (DIC) due to bone marrow carcinomatosis (platelet count: 6.0 × 103]/μL, D‐dimer: 29.3 μg/mL, and prothrombin time‐international normalized ratio: 1.29). Thus, the patient was initiated on third‐line therapy with albumin‐bound paclitaxel, and fourth‐line therapy with docetaxel, but further treatment was suspended owing to DIC progression. She passed away 23 months after the initiation of osimertinib (Figure 1D).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39727229_tr.json",
+    "source_pmid": "39727229",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39727229_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:01:56",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "EGFR , TP53 , and CUL3 Triple Mutation in Non‐Small Cell Lung Cancer and its Potentially Poor Prognosis: A Case Report and Database Analysis",
+    "author": "Hiroto Hatano; Tatsuya Yoshida; Ryoko Higashiyama; Masahiro Torasawa; Yuji Uehara; Yuichiro Ohe",
+    "date": "2024-12-27"
+  },
+  "rejection_reason": null
+}

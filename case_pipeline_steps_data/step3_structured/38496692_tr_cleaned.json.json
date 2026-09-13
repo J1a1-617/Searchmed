@@ -1,0 +1,124 @@
+{
+  "provenance": {
+    "source_filename": "38496692_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 72,
+    "sex": "male",
+    "smoking_status": "heavy_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "non-productive cough",
+      "chest tightness",
+      "dyspnoea"
+    ],
+    "diagnosis_date": "2022-07",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IV",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pleural effusion"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-07",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L861R",
+          "TP53 L194F"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 18
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 1 acneiform rash",
+          "grade 1 mucositis"
+        ]
+      }
+    },
+    {
+      "time": "2022-04",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 18 deletion-insertion"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 6.6
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "pemetrexed": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      },
+      "safety": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 7.6,
+    "survival_status": "dead",
+    "cause_of_death": "pneumonia",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient A had a partial response to osimertinib after 18 months.",
+      "Patient B had stable disease for 6.6 months before progression."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

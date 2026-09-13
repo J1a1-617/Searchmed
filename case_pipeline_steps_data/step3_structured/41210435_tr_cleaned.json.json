@@ -1,0 +1,118 @@
+{
+  "provenance": {
+    "source_filename": "41210435_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 47,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "cough",
+      "dyspnea"
+    ],
+    "diagnosis_date": "2017-05",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 7th",
+    "tnm_stage": "cT2N2M1a",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymphadenopathy",
+      "ipsilateral pleura"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2017-05",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "ALK rearrangement",
+          "ROS1 rearrangement"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2017-08",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pemetrexed",
+          "cisplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": "820 mg on day 1",
+          "cisplatin": "40 mg on days 1–3"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2017-11",
+      "event_type": "treatment + follow_up",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": "2021-09",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK fusion"
+        ],
+        "sample": "tissue"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "ensartinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "ensartinib": "225 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 16
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Co-occurrence of ALK and ROS1 rearrangements in lung adenocarcinoma is rare.",
+      "Initial chemotherapy resulted in a partial response followed by stable disease.",
+      "Second-line therapy with ensartinib led to significant tumor regression."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

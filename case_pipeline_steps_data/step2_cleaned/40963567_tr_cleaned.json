@@ -1,0 +1,28 @@
+{
+  "text": "Title: Two Cases of Advanced Lung Adenocarcinoma with EGFR p.L833V/p.H835L Compound Mutation Treated with Furmonertinib\nPMID: \nAuthors: \n\nAbstract\nLung cancer remains the leading cause of cancer-related mortality worldwide. With advancements in molecularly targeted therapies, Epidermal growth factor receptor (EGFR) mutations have emerged as critical therapeutic targets in advanced lung adenocarcinoma. However, the EGFR p.L833V/p.H835L compound mutations are relatively uncommon, and their clinical characteristics and therapeutic response to EGFR tyrosine kinase inhibitors (TKIs) remain poorly defined.\n\nCase presentation\nThis study reports two cases of advanced lung adenocarcinoma harboring the EGFR p.L833V/p.H835L compound mutation, both treated with furmonertinib. Case 1 was a 62-year-old male, and Case 2 was a 61-year-old female, both diagnosed through tissue biopsy and next-generation sequencing (NGS). Following treatment, both patients achieved partial response (PR), with progression-free survival (PFS) of 29 months and not available (NA, >12 months), respectively, demonstrating good tolerability.\n\nCase 1\nA 62-year-old male with a 20-year smoking history (quit 10 days prior to presentation) presented in December 2023 with cough and chest pain. Contrast-enhanced CT demonstrated a spiculated pulmonary mass measuring 3.9 × 3.1 cm in maximum cross-sectional diameter, exhibiting lobulated borders and pleural indentation in the left lower lobe, along with multiple bone metastases. The clinical stage was determined as cT2aN0M1c1, stage IVB. Pathology confirmed lung adenocarcinoma, and NGS testing detected an EGFR p.L833V/p.H835L compound mutation (Figure 1). The patient began oral furmonertinib (80 mg once daily) in January 2024. Follow-up CT scan at 1 month later showed the tumor size was 2.9 × 2.1 cm. Follow-up CT scans at 3, 6, and 12 months later revealed a progressive reduction in the lesion, with the size being 2.2 × 1.2 cm. According to the RECIST 1.1 criteria, the longest diameter of the tumor was reduced by ≥30%, and the efficacy was evaluated as PR (partial response) (Figure 2). The PFS exceeded 12 months, and no related adverse reactions occurred during the oral administration period. As of the time of writing, the patient remains on furmonertinib therapy.\n\nCase 2\nThe patient was a 61-year-old female, never-smoker, who presented with dyspnea in February 2022. Histopathological analysis of a biopsy confirmed adenocarcinoma (Figure 1), with no distant metastases detected at the time of diagnosis. The patient underwent surgical exploration in February 2022, during which widespread pleural metastases were observed. As a result, only an exploratory procedure was performed, without tumor resection. The tumor was staged as cT1cN0M1a, stage IVA. NGS testing identified an EGFR p.L833V/p.H835L compound mutation. The patient began oral furmonertinib (80 mg once daily) in March 2022. During the medication period, mild skin rash occurred (CTCAE grade 2), which improved after symptomatic treatment for 1 month. Follow-up CT scan at 1 month later showed tumor shrinkage, and subsequent CT re-examinations every 3 months documented continuous reduction of the tumor to 1.1 cm × 0.7 cm. Rib metastasis was detected in the re-examination in August 2024, with a PFS (progression-free survival, the time from the start of the study to the first occurrence of disease progression or death from any cause) of 29 months (Figure 3).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40963567_tr.json",
+    "source_pmid": "40963567",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40963567_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:01:57",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Treatment of advanced lung adenocarcinoma with EGFR L833V/H835L compound mutations using furmonertinib: two case reports and literature review",
+    "author": "Shize Wang; Guoliang Shi; Qingyi Liu; Guangjie Liu; Yanjie Liu; Yaqing Han; Maogang Gao; Kaihong Han; Shaonan Xie",
+    "date": "2025-09-02"
+  },
+  "rejection_reason": null
+}

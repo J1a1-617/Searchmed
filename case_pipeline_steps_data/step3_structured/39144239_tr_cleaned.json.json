@@ -1,0 +1,80 @@
+{
+  "provenance": {
+    "source_filename": "39144239_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 70,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 40,
+    "presenting_symptoms": [
+      "chest discomfort",
+      "cough",
+      "production of white sputum"
+    ],
+    "diagnosis_date": "2023-02",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2023-02",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET ex14 skipping",
+          "PIK3CA p.E545K",
+          "KRAS p.G12S/D"
+        ],
+        "sample": "tumor A and B"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "surgery"
+        ],
+        "type": "surgical",
+        "dosage": {}
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-10",
+      "event_type": "follow_up",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "CR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2023-10"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Synchronous multiple primary lung cancer with concurrent mutations in MET and PIK3CA",
+      "Both tumors were independently derived with distinct mutations",
+      "No signs of recurrence after surgery and promising recovery"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

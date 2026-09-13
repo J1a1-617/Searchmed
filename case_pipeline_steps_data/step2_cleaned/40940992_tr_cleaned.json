@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40940992_tr.json",
+    "source_pmid": "40940992",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40940992_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:00:52",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Prognostic Significance and Emerging Predictive Potential of Interleukin-1β Expression in Oncogene-Driven NSCLC",
+    "author": "Mengni Guo; Won Jin Jeon; Bowon Joung; Derek Tai; Alexander Gavralidis; Andrew Elliott; Yasmine Baca; David de Semir; Stephen V Liu; Mark Reeves; Saied Mirshahidi; Hamid Mirshahidi",
+    "date": "2025-09-03"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

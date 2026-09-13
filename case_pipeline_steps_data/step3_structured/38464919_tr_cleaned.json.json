@@ -1,0 +1,85 @@
+{
+  "provenance": {
+    "source_filename": "38464919_tr_cleaned.json",
+    "source_pmid": "35123456",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 74,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 50,
+    "presenting_symptoms": [
+      "bilateral facial asymmetry"
+    ],
+    "diagnosis_date": "2023-05",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral parotid glands"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-05",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR gene 21 exon L858R"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "Ectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "Ectinib": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-08",
+      "event_type": "follow_up + progression",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": null,
+        "type": null,
+        "dosage": null
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2023-08"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR gene mutation identified in lung adenocarcinoma",
+      "Metastasis to bilateral parotid glands confirmed",
+      "Patient refused chemotherapy and received targeted therapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

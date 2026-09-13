@@ -1,0 +1,88 @@
+{
+  "provenance": {
+    "source_filename": "37653509_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 47,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2020-10",
+    "cancer_type": "NSCLC",
+    "histology": "combined large cell neuroendocrine carcinoma with adenocarcinoma and squamous cell carcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "T2aN0M0",
+    "overall_stage": "IB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2020-10",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KIF5B/RET fusion"
+        ],
+        "sample": "tumor tissue"
+      },
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "docetaxel",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "docetaxel": "100 mg",
+          "carboplatin": "500 mg"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2021-10",
+      "event_type": "progression + imaging",
+      "molecular": {},
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "brain radiotherapy"
+        ],
+        "type": "radiotherapy",
+        "dosage": {
+          "brain radiotherapy": "40 Gy/10F"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2022-05-09"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient diagnosed with combined large cell neuroendocrine carcinoma, adenocarcinoma, and squamous cell carcinoma",
+      "KIF5B/RET fusion mutation detected",
+      "Adjuvant chemotherapy with docetaxel and carboplatin administered",
+      "Brain metastasis detected after treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

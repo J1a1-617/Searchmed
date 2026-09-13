@@ -1,0 +1,165 @@
+{
+  "provenance": {
+    "source_filename": "37759318_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 89,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "chronic cough",
+      "weight loss"
+    ],
+    "diagnosis_date": "2020-02",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph node",
+      "bilateral pleural effusions"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-02",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "tumor specimens"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2020-08",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET"
+        ],
+        "sample": "tumor specimens"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "tepotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "tepotinib": "500 mg daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2020-10",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ROS1"
+        ],
+        "sample": "tumor specimens"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "pembrolizumab",
+          "crizotinib"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": "AUC 6",
+          "pemetrexed": "500 mg/m2",
+          "pembrolizumab": "200 mg",
+          "crizotinib": "500 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2021-05",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "BRAFV600E"
+        ],
+        "sample": "tumor specimens"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "dabrafenib",
+          "trametinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "dabrafenib": "200 mg daily",
+          "trametinib": "1.5 mg daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 1
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "tepotinib",
+      "crizotinib",
+      "dabrafenib",
+      "trametinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 1,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "TKIs can be administered to patients with PS 4, but outcomes are poor.",
+      "Significant response observed in one patient with ROS1 fusion.",
+      "Most patients died despite receiving TKIs."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

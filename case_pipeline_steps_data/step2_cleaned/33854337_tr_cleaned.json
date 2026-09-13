@@ -1,0 +1,28 @@
+{
+  "text": "Title: First Case of a Germline MET Exon 14 Skipping Mutation in Non-Small-Cell Lung Cancer\nPMID: \nAuthors: \n\nAbstract\nMET exon 14 skipping variants have been identified as a novel type of oncogenic driver mutations in non-small-cell lung cancer (NSCLC), while the germline MET mutation, especially germline MET exon 14 skipping mutation rarely occurred in NSCLC. Herein, we present the first case of a 33-year-old NSCLC patient with a germline MET exon 14 skipping mutation, who also harbored a somatic EGFR exon 20 insertion. The patient was initially diagnosed with a stage IIB adenosquamous carcinoma. He underwent a thoracoscopic radical resection followed by four cycles of adjuvant chemotherapy but relapsed 2 months after completing the chemotherapy. Afatinib was then prescribed but disease progressed immediately. Subsequently, he received anlotinib but did not respond and died a month later with an overall survival of 9 months. Our case may provide an evidence for the pathogenicity of germline MET exon 14 skipping mutation in NSCLC and suggest it as an adverse prognostic factor.\n\nCase Presentation\nA 33-year-old male patient without a smoking history visited the hospital with cough for further treatment. The patient management is described in Figure 1. A chest computed tomography (CT) on August 28, 2019 showed a mass in the upper left lung and enlargement of mediastinal and hilar lymph nodes. No distance metastasis was observed by positron emission tomography/computed tomography (PET/CT). On September 17, 2019, thoracoscopic radical resection of tumor tissue in the left upper lung and mediastinal lymph node dissection of the pulmonary hilum were performed. A Stage IIB (T2N1M0) adenosquamous carcinoma was diagnosed histopathologically. A tumor tissue sample was sent for genetic testing and an EGFR p.S768_D770dup was identified. After surgery, the patient received an adjuvant treatment of albumin-bound paclitaxel and cisplatin for 4 cycles. The following CT scan prompted no sign of recurrence or metastasis. (Figure 1A).\nUnfortunately, the patient experienced back pain two months later in March 2020. PET/CT (Figure 1B) showed progressive disease (PD) with an extensive hypermetabolic mass in bilateral lung, extensive hypermetabolic mediastinal and hilar lymph nodes, and bone destruction in the T8, T12 vertebral bone metastasis. A Stage IVB (T4N2M1c) disease was indicated.\nThe patient was subsequently treated with afatinib (40 mg oral, qd) but quickly developed PD after one month (Figure 1C). Afatinib was then discontinued and a CT-guided lung biopsy was performed. Anlotinib was given as an antiangiogenic therapy while waiting for genetic and pathological results. The pathological result of lung biopsy remains as an adenosquamous carcinoma. Next-generation sequencing (NGS) of the biopsied sample using an 168-gene LungPlasm panel (Burning Rock Biotech, Guangzhou, China) revealed the retaining of EGFR p.S768_D770dup and identified loss of function (LOF) mutations in RB1 and TP53 and a MET exon 14 skipping mutation. The MET exon 14 skipping mutation was subsequently validated as a germline variant (AF=49.55%) by Ugene panel (Burning Rock Biotech, Guangzhou, China) using white blood cells (WBC) (Figure 2). The patient quickly developed PD on bilateral lung metastases revealed by a chest CT (Figure 1D) on May 12, 2020. He died on June 8 due to respiratory failure with an OS of 9 months. All procedures performed in studies involving human participant were in accordance with the ethical standards of the institutional and national research committees, and with the Helsinki Declaration (as revised in 2013). Written informed consent was obtained from the patient.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "33854337_tr.json",
+    "source_pmid": "33854337",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/33854337_tr.json",
+    "cleaning_timestamp": "2026-06-03T00:45:25",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Rapid Disease Progression in a Patient with Advanced NSCLC Harboring a Germline MET Exon 14 Skipping Mutation: A Case Report",
+    "author": "Yang Jiao; Chen Fang; Yuchen Yang; Lin Shao; Yi Huang; Qinying Sun; Yuchao Dong",
+    "date": "2021-04-07"
+  },
+  "rejection_reason": null
+}

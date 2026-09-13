@@ -1,0 +1,28 @@
+{
+  "text": "Title: Case of Advanced Non-Small Cell Lung Cancer with MET Exon 14 Skipping Mutation\nPMID: \nAuthors: \n\nAbstract\nMulti-gene panel testing and advancements in molecular targeted therapy have improved the overall survival of patients with driver mutation-positive non-small cell lung cancer (NSCLC). Mesenchymal-epithelial transition factor (MET) exon 14 skipping mutation-positive NSCLC, which remains untreated with MET inhibitors, shows a poorer prognosis than do cases of NSCLC without MET mutations. However, serious treatment-related adverse events (TRAEs) act as substantial treatment barriers.\n\nCase Description\nHerein, we report a case of advanced NSCLC in a male in his 40s with MET exon 14 skipping mutation. A MET-inhibitory investigational drug was administered as first-line treatment; the development of grade 3 maculopapular rash necessitated dose reduction, which resulted in disease progression. Tepotinib was then administered with dexamethasone as a third-line treatment but was discontinued owing to the re-development of the grade 3 maculopapular rash. Finally, capmatinib administration as the fifth-line treatment appeared partially effective, with no serious adverse events. The patient could successfully resume work.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38711889_tr.json",
+    "source_pmid": "38711889",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38711889_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:41:57",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Effective treatment of MET exon 14 skipping mutation-positive non-small cell lung cancer using capmatinib following serious maculopapular rash caused by two MET inhibitors: a case report",
+    "author": "Fumihiro Kashizaki; Shunsuke Okazaki; Nanami Tsuchiya; Hao Chen; Harumi Koizumi; Kenichi Takahashi",
+    "date": "2024-03-14"
+  },
+  "rejection_reason": null
+}

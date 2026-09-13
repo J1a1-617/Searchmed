@@ -1,0 +1,156 @@
+{
+  "provenance": {
+    "source_filename": "34987411_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 39,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "chest pain"
+    ],
+    "diagnosis_date": "2017-11",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "pTNM",
+    "tnm_stage": "pT4N3M1a",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "right pleural",
+      "bilateral supraclavicular lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2017-11",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK rearrangement",
+          "TP53 mutation"
+        ],
+        "sample": "tissue biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 11
+      }
+    },
+    {
+      "time": "2018",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "findings": [
+          "F1174L",
+          "G1269A"
+        ],
+        "sample": "ctDNA from pleural effusion"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "alectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "alectinib": "600 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 10
+      }
+    },
+    {
+      "time": "2019",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ALK L1196M",
+          "G1269A",
+          "EML4-ALK rearrangement",
+          "TP53 mutation"
+        ],
+        "sample": "metastatic tissues"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "ensartinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "ensartinib": "225 mg once daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "2020-04",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK rearrangement"
+        ],
+        "sample": "plasma ctDNA"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "brigatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "brigatinib": "90 mg once daily (then 180 mg once daily)"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "oliguria",
+          "fever",
+          "progressive dyspnoea"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "brigatinib-induced tumor lysis syndrome",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Brigatinib-induced tumor lysis syndrome after sequential ALK inhibitor therapy",
+      "First case of TLS induced by sequential targeted therapy in NSCLC",
+      "Significant decrease in ALK mutations in plasma indicates therapeutic response"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

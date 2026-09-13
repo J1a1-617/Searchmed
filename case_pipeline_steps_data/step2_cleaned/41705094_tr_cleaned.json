@@ -1,0 +1,28 @@
+{
+  "text": "Title: Detection of a rare intra-ALK inversion and ALK rearrangement in a lung adenocarcinoma patient by Foundationone liquid Cdx and successful treatment with alectinib: case report\nPMID: \nAuthors: Chiaki Kanno, Satoshi Takahashi, Masaru Hagiwara, Hideyuki Furumoto, Yujin Kudo, Yoshihisa Shimada, Masatoshi Kakihana, Tatsuo Ohira, Norihiko Ikeda\n\nAbstract\nA 50-year-old woman with stage IVB lung adenocarcinoma tested negative for driver mutations using the Oncomine Dx Target Test Multi-CDx system (Thermo Fisher Scientific, Waltham, MA). After undergoing chemotherapy and immunotherapy, FoundationOne Liquid CDx (Foundation Medicine, Inc., Cambridge, MA) identified a rare EML4-ALK gene rearrangement. Treatment with alectinib led to rapid clinical improvement and sustained disease control for more than 7 months. This case highlights the value of next-generation sequencing-based profiling in detecting rare actionable alterations missed by standard tests. We also include a discussion on why the EML4-AKL fusion was not detected in the usual test.\nKeywords: Non–small cell lung cancer, ALK-EML4 rearrangement, FoundationOne Liquid CDx, Comprehensive genome profiling, Case report\n\nCase Presentation\nA 50-year-old nonsmoking woman without notable symptoms was referred to our hospital after an abnormal shadow was noted during a medical check-up. Chest computed tomography (CT) revealed a solid 2.4-cm nodule in the right lower lobe, S6 area. Enlarged ipsilateral hilar, mediastinal, and supraclavicular lymph nodes were also observed (Fig. 1A–B). On 18F-fluorodeoxyglucose (FDG) positron emission tomography–CT, substantial FDG uptake was observed, with a maximum standardized uptake value of 11 in the primary lesion. Additional uptake was noted in the liver and in the T12 and L3 vertebrae (Fig. 1C–F). Her serum carcinoembryonic antigen level was elevated to 149 ng/mL. Histopathologic analysis confirmed adenocarcinoma, and she was diagnosed as having stage IVB lung adenocarcinoma (cT1cN3M1c, eighth Union for International Cancer Control). Molecular testing using the Oncomine Dx Target Test (Thermo Fisher Scientific) was unable to detect any actionable gene mutation, and programmed cell death ligand 1 expression (22C3 assay) was found to be less than 1% (tumor proportion score).\nFirst-line chemotherapy comprising cisplatin, pemetrexed, and pembrolizumab was initiated. After four cycles, CT revealed a partial response, and the patient continued with maintenance therapy (pemetrexed + pembrolizumab). However, 3 months after its initiation, CT revealed the progression of liver metastases. The patient subsequently received second-line docetaxel and ramucirumab, but with limited effect. At this time, she was enrolled in CGP using FoundationOne Liquid CDx and started third-line chemoimmunotherapy while awaiting results. However, the patient developed low-grade fever, abdominal pain, and liver dysfunction with rapid progression of liver metastases. She was emergently hospitalized (Fig. 2A–B).\nDuring the patient’s hospitalization, a rare ALK gene fusion was identified by CGP consisting of two atypical patterns, namely, an inversion of ALK exons 16 to 19, and the ALK-EML4 rearrangement, from ALK exons 1 to 19 to a truncated EML4 region, enabling ALK-targeted therapy. Although these gene patterns did not clearly indicate a functional EML4-ALK fusion, the findings suggested the possible presence of an EML4-ALK chimeric fusion protein in the patient’s tumor cells (Fig. 3A–B). ALK immunohistochemistry testing was also performed, confirming a positive result (Fig. 3C–D). She was a candidate for ALK-targeted therapy. Oral alectinib administration (600 mg/day) was initiated, resulting in rapid clinical improvement. She was discharged within 2 weeks without any notable adverse events.\nAfter 6 months of initiating alectinib treatment, CT imaging revealed marked regression of the liver metastases (Fig. 2C–F), with a decrease in her serum level. At the latest follow-up (about 7 months after starting alectinib treatment), the patient remains on alectinib without any disease progression or notable signs of toxicity (Fig. 4).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41705094_tr.json",
+    "source_pmid": "41705094",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41705094_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:31:03",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Detection of a Rare Intra-ALK Inversion and ALK Rearrangement in a Lung Adenocarcinoma Patient by FoundationOne Liquid CDx and Successful Treatment with Alectinib: Case Report",
+    "author": "Chiaki Kanno; Satoshi Takahashi; Masaru Hagiwara; Hideyuki Furumoto; Yujin Kudo; Yoshihisa Shimada; Masatoshi Kakihana; Tatsuo Ohira; Norihiko Ikeda",
+    "date": "2026-01-09"
+  },
+  "rejection_reason": null
+}

@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40593014_tr.json",
+    "source_pmid": "40593014",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40593014_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:28:11",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Osimertinib plus chemotherapy versus osimertinib for patients with advanced NSCLC with concomitant EGFR and TP53 mutations: a prospective cohort study",
+    "author": "Jixian Li; Xiang Zhan; Mengqing Shao; Renya Zeng; Jianan Li; Hui Zhu; Alei Feng; Zhe Yang; Wang Jing",
+    "date": "2025-07-01"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "37390764_tr.json",
+    "source_pmid": "37390764",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/37390764_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:29:35",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Ramucirumab plus erlotinib versus placebo plus erlotinib in previously untreated EGFR-mutated metastatic non-small-cell lung cancer (RELAY): exploratory analysis of next-generation sequencing results",
+    "author": "EB Garon; M Reck; K Nishio; JV Heymach; M Nishio; S Novello; L Paz-Ares; S Popat; S Ponce Aix; H Graham; BD Butts; C Visseren-Grul; K Nakagawa; RELAY study investigators",
+    "date": "2023-06-28"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

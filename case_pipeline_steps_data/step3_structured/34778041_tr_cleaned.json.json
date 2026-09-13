@@ -1,0 +1,116 @@
+{
+  "provenance": {
+    "source_filename": "34778041_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 72,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "dyspnea"
+    ],
+    "diagnosis_date": "2020-06",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "pT1N3M0",
+    "overall_stage": "IIIB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes",
+      "hilar lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-06",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "MET intergenic fusion"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2020-08",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2020-11",
+      "event_type": "progression",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 5
+      },
+      "safety": {
+        "adverse_events": [
+          "worsening interstitial lung disease"
+        ],
+        "dose_adjustments": [
+          "crizotinib discontinued due to ILD exacerbation"
+        ]
+      }
+    },
+    {
+      "time": "2021-04",
+      "event_type": "progression",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient had advanced lung adenocarcinoma with MET intergenic fusion",
+      "Crizotinib showed partial response initially but was discontinued due to ILD",
+      "Disease progressed despite initial response to treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

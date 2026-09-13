@@ -1,0 +1,28 @@
+{
+  "text": "Title: Coexistence of a primary ALK-positive and MET14 exon skipping mutation double-fusion in one patient with NSCLC and response to crizotinib: A case report and literature review\nPMID: 35000000\nAuthors: Xu K, Wang M, Zhao J, Xu X, Song M\n\nAbstract\nRationale:\nLung cancer exhibits one of the highest incidence and fatality rates globally. With the advancement of next-generation sequencing testing techniques, double or multiple gene driver mutations have been identified in certain patients.\nPatient concerns:\nA 78-year-old female presented with a chest shadow.\nDiagnoses:\nIn this case of lung adenocarcinoma, second-generation sequencing revealed a co-occurrence of echinoderm microtubule-associated protein-like 4-anaplastic lymphoma kinase and MET exon 14 skipping mutation.\nInterventions:\nCrizotinib was administered orally on August 31, 2022, resulting in a partial response and progression-free survival for a duration of 8 months. After 8 months of treatment, the patient’s disease progressed, after which the treatment dose of crizotinib was increased; the patient’s condition improved again.\nOutcomes:\nOver 4 months of increased-dose oral crizotinib treatment, the patient achieved durable partial response, with significant reduction in tumor burden and without new metastases.\nLessons:\nThis report supports crizotinib can provide potential benefit for anaplastic lymphoma kinase/MET14 co-mutated lung adenocarcinoma patients, but sufficient cases and further research are needed to confirm and explore the possible mechanisms involved.\n\n2. Case presentation\nThe patient, a 78-year-old female, was admitted to Zhejiang Provincial People’s Hospital in July 2020 due to the discovery of pulmonary nodules for 2 years. The patient had no history of smoking and no family history of cancer. Chest computed tomography (CT) revealed obstructive pneumonia in the right outer middle lobe of the lung, which indicated a predisposition to lung cancer. A ground hyalinoid tubercle was observed at the posterior end of the upper lobe of the right lung (Fig. 1A, B). Bone scans and enhanced magnetic resonance imaging showed no significant abnormalities in the head region. Tracheoscopy identified a new organism obstructing the trachea in the lateral middle lobe of the right lung. Biopsy and brush examination were performed, with pathological analysis indicating adenocarcinoma (Fig. 2). Immunohistochemistry results showed positive expression for A1-1 NapsinA(+), TTF-1(+), CK7(+), while P40(−) did not exhibit fluorescence in situ hybridization. Further next-generation sequencing results from biopsy tissue suggested an EML4-ALK fusion and MET14 exon jump mutation. After complete staging examination, it was diagnosed as stage IIIA right lung adenocarcinoma with ALK-positive and MET exon 14 skipping mutation (T2N2M0). The patient was advised to continue treatment at hospital but chose self-discharge against medical advice. In August 2022, due to coughing and hemoptysis persisting for 2 days, she returned for further evaluation. Chest CT revealed enlargement of lung cancer in the lateral middle lobe of her right lung accompanied by new dense shadow formation inside (Fig. 1C, D). The patient received the first-generation ALK-TKI crizotinib on August 31, 2022, at a dose of 62.5 mg, bid standard daily dose, and responded well at first evaluation. On October 26, 2022, CT scan showed that lung cancer in the lateral middle lobe of the right lung was significantly smaller than previously estimated, and the efficacy evaluation showed partial response (PR; Fig. 1E, F). Outpatient follow-up to March 2023, CT review showed that after targeted therapy, the right lung cancer was fuller and denser than before, so the comprehensive evaluation was progressive disease (PD; Fig. 3G, H). At this point, the patient began oral crizotinib 125 mg bid targeted therapy in March 2023. Follow-up chest CT scans at 2 months and 4 months of increased oral crizotinib dosage showed that the patient’s tumor had shrunk compared to before, with a PR treatment response evaluation (Fig. 3I–L).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41731828_tr.json",
+    "source_pmid": "41731828",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41731828_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:32:26",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Coexistence of a primary ALK-positive and MET14 exon skipping mutation double-fusion in one patient with NSCLC and response to crizotinib: A case report and literature review",
+    "author": "Ke Xu; Minghui Wang; Jijing Zhao; Xiaofeng Xu; Meijun Song",
+    "date": "2026-02-20"
+  },
+  "rejection_reason": null
+}

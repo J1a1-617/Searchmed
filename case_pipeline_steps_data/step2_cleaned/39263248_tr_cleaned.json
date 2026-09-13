@@ -1,0 +1,28 @@
+{
+  "text": "Title: Treatment of Lung Adenocarcinoma with Uncommon EGFR Mutations: A Case Report\nPMID: \nAuthors: Hisanori Hirokawa, Hirokuni Hirata, Hayase Azuma, Kei Sugitate, Sayo Soda, Jun Matsushima, Yasutsugu Fukushima\n\nAbstract\nThere is no established treatment for lung adenocarcinoma with uncommon/compound epidermal growth factor receptor (EGFR) mutations. We report a case of a 73-year-old man with stage IVB lung adenocarcinoma harboring E709G and L861Q EGFR mutations. After 2 months of afatinib treatment, significant tumor shrinkage was observed, and the patient's condition remained stable for 1 year. This case highlights the potential effectiveness of afatinib for treating rare stage IV lung adenocarcinoma with these specific EGFR mutations.\n\n2. Case report\nThe patient was a 73-year-old man. Chest computed tomography (CT) (Fig. 1a: lung window; Fig. 1b: mediastinal window) performed during a regular health checkup revealed a 3.3-cm tumor shadow and mediastinal lymphadenopathy. As a result, he was referred to our respiratory and allergy ward with suspected lung cancer. The patient's medical history included endocrine therapy for prostate cancer for the past 3 years. His prostate-specific antigen levels were stable and within the normal range at the time of hospitalization. He had a Brinkman index of 500. Tumor markers were as follows: carcinoembryonic antigen (CEA) 93.9 ng/mL, CYFRA 4.7 ng/mL, sialyl Lewis-x antigen (SLX) 110 U/mL, squamous cell carcinoma antigen 1.0 ng/mL, pro-gastrin-releasing peptide (ProGRP) 44.7 pg/mL, neuron-specific enolase 11.1 ng/mL, and soluble interleukin-2 receptor 585 U/mL.\nDuring bronchoscopy, a transbronchial tumor biopsy was taken from the bronchus 3 region of the right superior lobe, and adenocarcinoma was histologically diagnosed (Fig. 1c). Positron emission tomography-computed tomography (PET-CT) (Fig. 1d) revealed increased uptake in the tumor shadow in the superior lobe of the right lung, cervical vertebrae (C5 and C6), a lumbar vertebra (L3), the pelvis, the right hilum, the subcarinal space, and multiple lymph nodes on the right side of the trachea. This suggested lung adenocarcinoma with multiple bone and lymph node metastases, and it was staged as cT2aN2M1c OSS Stage ⅣB according to the World Health Organization classification [6]. His performance status according to Eastern Cooperative Oncology Group [7] was grade 3. Programmed cell death-ligand 1 expression in the lung cancer tissue was 55 %. Analysis of 46 cancer-driver gene variants performed using the Oncomine Dx Target Test Multi-CDx System (analysis performed by SRL, Inc., Tokyo, Japan) revealed the presence of the uncommon/compound mutations E709G and L861Q; the test was negative for all other mutations. Consequently, the patient was hospitalized and EGFR-TKI treatment was initiated.\nOn day 1 of hospitalization, palliative radiation of 8 Gy as a single fraction was performed for the C5–C6 vertebral metastases. Subsequently, administration of anti-RANKL (receptor activator for nuclear factor-kappaB ligand) antibody preparations was initiated. The clinical course is shown in Fig. 2. Afatinib has previously been reported to be effective in some double EGFR mutations including L861Q [8,9]. In our case, afatinib 40 mg/day was administered from day 2 but was temporarily halted at day 14 due to diarrhea and loss of appetite. Chest CT performed on day 15 showed shrinkage of the tumor shadow and mediastinal lymph node, and the gastrointestinal symptoms improved. Therefore, on day 21, administration of afatinib was resumed at 20 mg/day every other day with no apparent adverse effects, and the patient was discharged on day 37. Two months later, the afatinib regime was changed to 20 mg/day every day. CEA values fluctuated between 20 and 50 ng/mL. Although we could not perform chest CT because of the patient's poor general condition due to bone metastasis and other problems, radiography performed 1 year and 2 months after resuming afatinib showed no tumor enlargement (Fig. 3). However, 2 months later, the patient developed aspiration pneumonia and died. After resuming administration of afatinib, the patient continued taking the drug orally for a total duration of approximately 1 year and 4 months. Informed consent was obtained from the patient's wife for publication of this case report.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39263248_tr.json",
+    "source_pmid": "39263248",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39263248_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:54:15",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case report of a patient with stage IV lung adenocarcinoma and uncommon/compound EGFR mutations who responded to afatinib",
+    "author": "Hisanori Hirokawa; Hirokuni Hirata; Hayase Azuma; Kei Sugitate; Sayo Soda; Jun Matsushima; Yasutsugu Fukushima",
+    "date": "2024-08-22"
+  },
+  "rejection_reason": null
+}

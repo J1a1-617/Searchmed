@@ -1,0 +1,149 @@
+{
+  "provenance": {
+    "source_filename": "39676462_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 63,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "left‐sided chest pain"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT4N1M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pleura",
+      "lumbar vertebra",
+      "sacrum"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "MET Y1003N"
+        ],
+        "sample": "tumor"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": null,
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "cisplatin",
+          "pemetrexed",
+          "pembrolizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "cisplatin": null,
+          "pemetrexed": null,
+          "pembrolizumab": null
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": null,
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "capmatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "capmatinib": "400 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 3 ALT increase",
+          "grade 2 AST increase",
+          "total bilirubin increase",
+          "leukopenia",
+          "thrombocytopenia"
+        ],
+        "dose_adjustments": [
+          "capmatinib discontinued"
+        ]
+      }
+    },
+    {
+      "time": "2021-11",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "8L",
+        "regimen": [
+          "tepotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "tepotinib": "500 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 5
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 1 AST increase",
+          "grade 1 ALT increase"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "capmatinib",
+      "tepotinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 36,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with MET Y1003N mutation",
+      "Tepotinib as a treatment option for lung adenocarcinoma",
+      "Partial response observed after tepotinib treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

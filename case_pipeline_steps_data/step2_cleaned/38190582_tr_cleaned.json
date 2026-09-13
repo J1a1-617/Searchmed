@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "38190582_tr.json",
+    "source_pmid": "38190582",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38190582_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:34:23",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Comprehensive Genomic Analysis of Patients With Non–Small-Cell Lung Cancer Using Blood-Based Circulating Tumor DNA Assay: Findings From the BFAST Database of a Single Center in Taiwan",
+    "author": "Hsin-Yi Wang; Chao-Chi Ho; Yen-Ting Lin; Wei-Yu Liao; Chung-Yu Chen; Jin-Yuan Shih; Chong-Jen Yu",
+    "date": "2024-01-08"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

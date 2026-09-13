@@ -1,0 +1,228 @@
+{
+  "provenance": {
+    "source_filename": "38988445_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 50,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "persistent cough"
+    ],
+    "diagnosis_date": "2014-01",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 7th",
+    "tnm_stage": "cT1N3M1",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "lymph nodes",
+      "both lungs"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2014-01",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "lymph node"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "docetaxel",
+          "cisplatin",
+          "gefitinib"
+        ],
+        "type": "chemotherapy + targeted",
+        "dosage": {
+          "docetaxel": "120 mg on day 1",
+          "cisplatin": "40 mg on days 1, 2, 3",
+          "gefitinib": "250 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 17
+      }
+    },
+    {
+      "time": "2015-08",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "findings": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "right lung lesion"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "erlotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "erlotinib": "150 mg daily"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2016-01",
+      "event_type": "ablation + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": "new right lung lesion and primary left lung lesion"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "pemetrexed",
+          "nedaplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": "0.8 g on day 1",
+          "nedaplatin": "70 mg on days 1, 2"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2016-05",
+      "event_type": "treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": "unknown"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": 82
+      }
+    },
+    {
+      "time": "2020-01",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [],
+        "sample": "colon"
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "oxaliplatin",
+          "capecitabine"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "oxaliplatin": "200 mg on day 1",
+          "capecitabine": "2.0 g twice daily"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2020-02",
+      "event_type": "surgery + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": "liver"
+      },
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "bevacizumab"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "bevacizumab": "7.5 mg/kg on day 1"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2021-05",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [],
+        "sample": "lung"
+      },
+      "treatment": {
+        "line": "7L",
+        "regimen": [
+          "oxaliplatin",
+          "raltitrexed",
+          "bevacizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "oxaliplatin": "200 mg on day 1",
+          "raltitrexed": "5 mg on day 1",
+          "bevacizumab": "75 mg/kg on day 1"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "gefitinib",
+      "erlotinib",
+      "osimertinib"
+    ],
+    "mechanism": "unknown",
+    "severity": "unknown",
+    "clinical_manifestation": "unknown",
+    "management": "unknown",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 110,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2023-03"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR exon 19 deletion present",
+      "Combination of MWA with chemotherapy and TKI therapy shows promise",
+      "Long-term survival achieved with systemic therapy"
+    ],
+    "ddi_relevance": "low",
+    "generalizability": "medium"
+  }
+}

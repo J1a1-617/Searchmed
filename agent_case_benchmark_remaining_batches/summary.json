@@ -1,0 +1,137 @@
+{
+  "step1_total_pmids": 780,
+  "original_holdout_pmids": 32,
+  "original_benchmark_questions": 97,
+  "original_questions_per_pmid": 3.03125,
+  "remaining_pmids": 748,
+  "batch_target_pmids": 32,
+  "n_parts": 24,
+  "full_parts": 23,
+  "last_part_pmids": 12,
+  "estimated_remaining_questions_at_original_density": 2267,
+  "estimated_total_questions_including_original": 2364,
+  "estimate_warning": "Exact question count requires treatment-decision-node extraction; this is proportional only.",
+  "missing_holdout_pmids_in_step1": [],
+  "batches": [
+    {
+      "part": 1,
+      "file": "remaining_pmids_part_01.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 2,
+      "file": "remaining_pmids_part_02.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 3,
+      "file": "remaining_pmids_part_03.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 4,
+      "file": "remaining_pmids_part_04.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 5,
+      "file": "remaining_pmids_part_05.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 6,
+      "file": "remaining_pmids_part_06.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 7,
+      "file": "remaining_pmids_part_07.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 8,
+      "file": "remaining_pmids_part_08.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 9,
+      "file": "remaining_pmids_part_09.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 10,
+      "file": "remaining_pmids_part_10.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 11,
+      "file": "remaining_pmids_part_11.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 12,
+      "file": "remaining_pmids_part_12.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 13,
+      "file": "remaining_pmids_part_13.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 14,
+      "file": "remaining_pmids_part_14.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 15,
+      "file": "remaining_pmids_part_15.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 16,
+      "file": "remaining_pmids_part_16.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 17,
+      "file": "remaining_pmids_part_17.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 18,
+      "file": "remaining_pmids_part_18.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 19,
+      "file": "remaining_pmids_part_19.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 20,
+      "file": "remaining_pmids_part_20.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 21,
+      "file": "remaining_pmids_part_21.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 22,
+      "file": "remaining_pmids_part_22.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 23,
+      "file": "remaining_pmids_part_23.json",
+      "n_pmids": 32
+    },
+    {
+      "part": 24,
+      "file": "remaining_pmids_part_24.json",
+      "n_pmids": 12
+    }
+  ]
+}

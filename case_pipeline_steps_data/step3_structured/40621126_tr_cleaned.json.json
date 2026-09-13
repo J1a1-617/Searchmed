@@ -1,0 +1,86 @@
+{
+  "provenance": {
+    "source_filename": "40621126_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 67,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "recurrent dyspnea"
+    ],
+    "diagnosis_date": "2024-11",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymphadenopathy",
+      "bilateral pulmonary inflammatory changes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2024-11",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 18 missense mutation (Ser78Ile)",
+          "EGFR exon 20 missense mutation (Gly719Cys)",
+          "TP53 frameshift mutation (Gly105fs)"
+        ],
+        "sample": "pleural effusion"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2024-11",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "prednisone",
+          "albumin-bound paclitaxel",
+          "Endostar"
+        ],
+        "type": "multimodal",
+        "dosage": {
+          "prednisone": "60 mg daily",
+          "albumin-bound paclitaxel": "100 mg/m² on days 1, 8, and 15 of a 21-day cycle",
+          "Endostar": "45 mg on days 1 and 4"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient diagnosed with stage IV lung adenocarcinoma with rare EGFR mutations",
+      "Personalized multimodal treatment approach implemented",
+      "Significant tumor shrinkage and resolution of pleural effusion",
+      "Marked improvement in nephrotic syndrome parameters"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

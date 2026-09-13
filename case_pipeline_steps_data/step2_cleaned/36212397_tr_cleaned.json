@@ -1,0 +1,28 @@
+{
+  "text": "Title: A rare EGFR T263P mutation in a Chinese patient with advanced lung adenocarcinoma resistant to osimertinib\nPMID: \nAuthors: \n\nAbstract\nThe epidermal growth factor receptor (EGFR) typically contains an extracellular domain (ECD), a transmembrane (TM) domain, and an intracellular kinase (KD) domain. ECD mutations of EGFR in NSCLC may affect its normal function and intrinsic resistance to tyrosine kinase inhibitors (TKIs) and the effectiveness of drugs for these patients is unsatisfactory. Recently, we found an EGFR T263P mutation located at the ECD, which has never been reported in Chinese non-small cell lung cancer (NSCLC). Hence, we reported that a patient with advanced lung adenocarcinoma harboring the EGFR T263P mutation, L858R mutation and MET amplification was resistant to osimertinib but significantly benefited from erlotinib and capmatinib treatment. This patient achieved a partial response and had progression-free survival (PFS) for more than 19 months. In summary, we are the first researchers to report in detail on a Chinese patient carrying the T263P mutation and summarize all the ECD mutations in NSCLC. We believe this finding will enlighten us to treat patients with EGFR ECD mutations and more patients deserve further study.\n\nCase presentation\nA 61-year-old female was admitted to our hospital with a severe headache in July 2020. Brain magnetic resonance imaging (MRI) showed space-occupying lesions in the right parietal lobe (Figures 1A, B). Further evaluation with computed tomography (CT) of the chest and whole-body bone scans revealed a lesion in the left lung (Figures 2A, B) and iliac bone metastasis. Fine needle aspiration biopsy of the left supraclavicular lymph nodes showed adenocarcinoma of the lung origin. To identify potentially actionable mutations in the patient, EGFR L858R mutations (allelic fraction, AF=3.37%) in exon 21 were identified by next generation sequencing (NGS, Illumina, NextSeq CN500, Suzhou, China) of the plasma in August 2020. The patient was diagnosed with stage IVB (T1bN2M1) NSCLC, harboring the EGFR the L858R mutation had an Eastern Cooperative Oncology Group performance status (ECOG PS) of 3.\n\nTen sessions of brain radiotherapy (30 Gy) were performed due to significant headache. At the same time, the patient was administered first-line osimertinib at 80 mg/d. One month later, the patient’s headache was significantly relieved after brain radiotherapy (Figures 1C, D) and the ECOG PS of the patient decreased to 1. Nevertheless, a re-examination of chest computed tomography (CT) showed that the lesion in the left upper lobe was enlarged (Figures 2C, D). Disease progression (PD) was thus considered. Then, the patient discontinued osimertinib and switched to twice traditional chemotherapy (pemetrexed 700 mg and lobaplatin 40 mg). Meanwhile, lung tumor biopsy was performed for the second genetic testing (Illumina, NextSeq 550Dx, Shanghai, China). In addition to the preserved EGFR L858R mutation, the report revealed a new EGFR exon 7 T263P mutation and MET amplification.\n\nIn September 2020, the patient refused chemotherapy for severe adverse effects and started taking erlotinib plus capmatinib. One month later, the patient achieved partial response (PR) with significant tumor shrinkage after erlotinib plus capmatinb treatment. In September 2021, chest CT still showed a PR (Figures 2E, F) after 13 months of this treatment. No treatment-related adverse events led to discontinuation. The last follow-up was in February 2022, when the patient remained on the treatment, with a PFS of 19 months and counting (Figures 1E, F).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "36212397_tr.json",
+    "source_pmid": "36212397",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/36212397_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:20:35",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Efficacy of erlotinib in NSCLC harboring rare EGFR extracellular domain mutation (T263P) and common mutations: Case report and literature review",
+    "author": "Qian Wang; Yong Wang; Xinwei Zhang; Chen Fang; Xiaoying Qian; Yong Li",
+    "date": "2022-09-23"
+  },
+  "rejection_reason": null
+}

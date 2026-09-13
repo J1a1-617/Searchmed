@@ -1,0 +1,28 @@
+{
+  "text": "Title: Concurrent EGFR and KRAS Mutations in a Patient with Non-Small Cell Lung Cancer: A Case Report\nPMID: \nAuthors: \n\nAbstract\nBackground\nKRAS mutations are typically mutually exclusive in non-small cell lung cancer (NSCLC), with the G12C mutation being the most common subtype. The coexistence of KRAS and EGFR mutations is exceedingly rare and is typically emerges as a secondary event following acquired resistance to EGFR-targeted therapies. We presented a case of a newly diagnosed NSCLC patient harboring concurrent EGFR L858R and KRAS G12A mutations.\nCase Presentation\nA 64-year-old male with a 30-pack-year smoking history presented with a 3-month history of progressive shortness of breath and chest tightness. Contrast-enhanced chest CT revealed a 5 cm spiculated mass in the right upper lobe, abutting the mediastinum, along with bronchial obstruction, right middle lobe atelectasis, and pleural effusion. A CT-guided transthoracic needle biopsy confirmed lung adenocarcinoma. Next-generation sequencing (NGS) identified a c.2573T>G (p.L858R) mutation in exon 21 of the EGFR gene and a c.35G>C (p.G12A) mutation in exon 2 of the KRAS gene. The patient started first-line therapy with osimertinib combined with pemetrexed/nedaplatin, resulting in a transient partial response, significant resolution of pleural effusion, and partial regression of the primary tumor. However, disease progression occurred within 6 months, marked by the appearance of a new cerebellar metastasis, confirmed by MRI. The patient continued osimertinib maintenance therapy and underwent stereotactic radiotherapy for the brain lesion. Despite initial stabilization, pulmonary progression was observed 11 months after the start of treatment. Due to declining performance status and personal preferences, the patient declined further treatment and was lost to follow-up.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40873627_tr.json",
+    "source_pmid": "40873627",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40873627_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:59:48",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Dual EGFR L858R and KRAS G12A Mutations in Lung Adenocarcinoma: A Rare Case Report and Literature Review",
+    "author": "Gang Wei; Jun Tang; Huaiwen Wang; Dongdong Zhang",
+    "date": "2025-08-22"
+  },
+  "rejection_reason": null
+}

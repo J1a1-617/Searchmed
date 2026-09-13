@@ -1,0 +1,110 @@
+{
+  "provenance": {
+    "source_filename": "31045832_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 52,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "pneumonia-based chest pains"
+    ],
+    "diagnosis_date": "2017-03",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IV",
+    "overall_stage": "IV",
+    "baseline_primary_site": "right lung lower lobe",
+    "metastatic_sites_at_baseline": [
+      "lymph nodes",
+      "liver",
+      "pancreas",
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2017-03",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon18 G719X",
+          "EGFR exon20 S768I T790M",
+          "EGFR exon21 L816Q L858R"
+        ],
+        "sample": "biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "icotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "icotinib": "125 mg daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "2017-07",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R",
+          "A871G",
+          "T790M",
+          "TP53 R248W",
+          "RB1 K844S"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "erlotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "erlotinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 18
+      },
+      "safety": {
+        "adverse_events": [
+          "rash",
+          "inappetence"
+        ],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 18,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2018-11"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with EGFR mutations responded well to erlotinib after icotinib resistance",
+      "Significant reduction in lung tumor size and improvement in quality of life",
+      "Identification of multiple mutations indicating complex genetic profile"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

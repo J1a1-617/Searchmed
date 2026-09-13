@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41275227_tr.json",
+    "source_pmid": "41275227",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41275227_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:11:42",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Exploring a mutation-based signature to predict the benefits of immune checkpoint inhibitors in oncogene-addicted subsets of non-small cell lung cancer: a retrospective study",
+    "author": "Jing Huang; Jinsong Lei; Baoyou Xiao; Wenyan Kang; Zhilin Sui; Youjun Deng; Ran Jia; Chujian Huang; Songhua Cai",
+    "date": "2025-11-22"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

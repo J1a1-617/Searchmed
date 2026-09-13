@@ -1,0 +1,28 @@
+{
+  "text": "Title: Lorlatinib Resistance in ROS1-Rearranged Non-Small-Cell Lung Cancer: A Case Report\nPMID: \nAuthors: \n\nAbstract\nLorlatinib has been suggested as the therapeutic option for patients with ROS1-rearranged non-small-cell lung cancer (NSCLC) after ROS1 tyrosine kinase inhibitor (TKI) failure. However, the mechanism mediating lorlatinib resistance has not been well elucidated in ROS1-rearranged NSCLC. Post- lorlatinib therapeutic options remain scarce.\n\nCase Presentation\nHerein, we describe a 31-year-old female patient with stage IVB ROS1-rearranged NSCLC. She received 2nd line treatment with crizotinib after chemotherapy failure and achieved a partial response lasting for 15 months. An NF1 p.G127Ter mutation emerged as a potential crizotinib resistance mechanism. She subsequently received lorlatinib treatment and achieved a progression-free survival (PFS) of seven months. Based on the emergence of a resistant BRAF V600E, the patient was switched to a combinatorial targeted therapy with lorlatinib, dabrafenib, and trametinib and attained stable disease. She continued the treatment with a time-to-treatment failure of 5.5 months. The acquisition of NRAS p.Q61R and NTRK amplification may confer resistance to the combinatorial targeted therapy.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "36411743_tr.json",
+    "source_pmid": "36411743",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/36411743_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:22:00",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Combined Lorlatinib, Dabrafenib, and Trametinib Treatment for ROS1-Rearranged Advanced Non-Small-Cell Lung Cancer with a Lorlatinib-Induced BRAF V600E Mutation: A Case Report",
+    "author": "Dan Li; Jiayin Liu; Xue Zhang; Jing Han; Hui Jin; Long Wang; Li Feng; Zhisong Fan; Jing Zuo; Yudong Wang",
+    "date": "2022-11-15"
+  },
+  "rejection_reason": null
+}

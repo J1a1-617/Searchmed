@@ -1,0 +1,179 @@
+{
+  "provenance": {
+    "source_filename": "41458607_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 44,
+    "sex": "male",
+    "smoking_status": "current_smoker",
+    "pack_years": 20,
+    "presenting_symptoms": [
+      "cough",
+      "blood-streaked sputum"
+    ],
+    "diagnosis_date": "2021-02",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT3N3M0",
+    "overall_stage": "IIIC",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "right supraclavicular lymph nodes",
+      "mediastinum",
+      "left hilar region"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2021-02",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "ALK fusion",
+          "TP53 mutation (exon5, c.473G>A,p R158H)",
+          "PD-L1 TPS 85%"
+        ],
+        "sample": null
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2021-04",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2021-08",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "alectinib hydrochloride"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "alectinib": "600 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 5.5
+      }
+    },
+    {
+      "time": "2022-01",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "Pemetrexed",
+          "cisplatin",
+          "tislelizumab"
+        ],
+        "type": "combination",
+        "dosage": {
+          "pemetrexed": "500 mg/m2",
+          "cisplatin": "75 mg/m2",
+          "tislelizumab": "200 mg"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "Grade II hypothyroidism",
+          "Grade II rash"
+        ],
+        "dose_adjustments": [
+          "levothyroxine sodium tablets adjusted to 100ug daily",
+          "symptomatic management for rash"
+        ]
+      }
+    },
+    {
+      "time": "2022-08",
+      "event_type": "maintenance + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "maintenance",
+        "regimen": [
+          "pemetrexed",
+          "tislelizumab"
+        ],
+        "type": "combination",
+        "dosage": {
+          "pemetrexed": "500 mg/m2",
+          "tislelizumab": "200 mg"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-12",
+      "event_type": "follow_up",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "remission",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "crizotinib",
+      "alectinib",
+      "pemetrexed",
+      "cisplatin",
+      "tislelizumab"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2023-12"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "ALK fusion-positive NSCLC with concurrent TP53 mutation",
+      "PD-L1 expression approaching 85%",
+      "Response duration of more than 45 months following treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

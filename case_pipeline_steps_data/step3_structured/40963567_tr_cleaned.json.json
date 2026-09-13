@@ -1,0 +1,87 @@
+{
+  "provenance": {
+    "source_filename": "40963567_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 62,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 20,
+    "presenting_symptoms": [
+      "cough",
+      "chest pain"
+    ],
+    "diagnosis_date": "2023-12",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "cTNM",
+    "tnm_stage": "cT2aN0M1c1",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bone"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-12",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR p.L833V",
+          "EGFR p.H835L"
+        ],
+        "sample": "tissue biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "furmonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "furmonertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-01",
+      "event_type": "treatment + follow_up",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "PR",
+        "duration_months": 12
+      },
+      "safety": {
+        "adverse_events": [],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 12,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR p.L833V/p.H835L compound mutation identified in both cases",
+      "Both patients treated with furmonertinib",
+      "Case 1 achieved PR with PFS of >12 months",
+      "Case 2 achieved PR with PFS of 29 months and mild skin rash"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

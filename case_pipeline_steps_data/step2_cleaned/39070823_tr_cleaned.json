@@ -1,0 +1,28 @@
+{
+  "text": "Title: Hepatoid adenocarcinoma of the lung: A case report\nPMID: \nAuthors: Yi-Jun Mo, Li-Na Lin, Jing-Li Tao, Tao Zhang, Jian-Hua Zhang\n\nAbstract\nBACKGROUND\nHepatoid adenocarcinoma of the lung (HAL) is a rare type of non-small cell lung cancer (NSCLC), histologically similar to hepatocellular carcinoma. HAL has high malignancy and poor prognosis, and a better treatment plan needs further study.\nCASE SUMMARY\nIn order to deeply understand the occurrence and development of HAL, here we report a case of HAL with extensive metastasis of alpha fetoprotein negative KRAS A146T mutation. The patient refused chemotherapy and received one course of treatment (immune checkpoint inhibitors), and died three months later due to progressive disease.\nKeywords: Hepatoid adenocarcinoma, Histopathological characteristics, Non-small cell lung cancer, Hepatoid adenocarcinoma of the lung, Case report\nCore Tip: Hepatoid adenocarcinoma of the lung is a special type of non-small cell lung cancer, which is mainly seen in men who smoke heavily. It usually occurs in the upper lobes of both lungs, showing huge masses.\n\nCASE PRESENTATION\nChief complaints\nHe was admitted to the hospital for 5 days because of right chest pain, and the weight had dropped by 5 kg in the last month.\nHistory of present illness\nRight chest pain, and the weight had dropped by 5 kg in the last month.\nHistory of past illness\nThe patient was 76 years old, male, and had been smoking heavily for 50 years (360 pack years).\nPersonal and family history\nNo specific personal and family history.\nPhysical examination\nPercutaneous lung biopsy showed adenocarcinoma, the immunohistochemical results were shown in Table 1. Combined with positron emission tomography (PET)/CT imaging examination, hematoxylin-eosin staining morphology and immunohistochemical examination of tumor cells (Figures 1 and 2), the patient was diagnosed as primary HAL. According to the eighth edition of The American Joint Committee on Cancer cancer staging manual, the patient was staged as cT4N2M1c IV B.\nLaboratory examinations\nIn order to formulate a standardized treatment plan, we used Next Generation Sequencing (NGS) to detect 8 genes (EGFR, KRAS, ALK, ROS1, BRAF, NTRK1/2/3, MET, RET, ERBB2) recommended by Non-Small Cell Lung Cancer, Version 4.2022, National Comprehensive Cancer Network (NCCN) guidelines in tissues, and found KRAS A146T mutation, TPS = 2%, CPS = 2, and MSI is MSS type. Because there was no effective drug for KRAS A146T mutation, we suggested that patients receive chemotherapy combined with immune checkpoint inhibitors (ICIs). The patient refused chemotherapy and received one course of ICIs treatment, and the patient died 3 months later.\nImaging examinations\nPET/CT examination confirmed that: Right central lung tumor (51 mm × 36.7 mm), middle lobe tumor of right lung (71 mm × 47 mm) with mediastinal lymph node metastasis and occipital bone metastasis (31 mm × 20 mm). Osteolytic bone destruction area can be seen locally in C3 spinous process, right attachment of C4 vertebral body, thoracic 1, 3, 9 vertebral body, lumbar 2, 4 vertebral body, sacral 1 vertebral body, left iliac bone, right ribs 2, 8, left ribs 4, 6 and right femoral head, and obvious soft tissue mass formation can be seen in some lesions. The size of metastatic tumor in the right second rib was 56.0 mm × 46.0 mm. The left adrenal gland metastasized, and no malignant tumor was found in the liver (Figure 3).\nFINAL DIAGNOSIS\nThe patient was diagnosed as primary HAL.\nTREATMENT\nBecause there was no effective drug for KRAS A146T mutation, we suggested that patients receive chemotherapy combined with ICIs.\nOUTCOME AND FOLLOW-UP\nThe patient refused chemotherapy and received one course of ICIs treatment, and the patient died 3 months later.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39070823_tr.json",
+    "source_pmid": "39070823",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39070823_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:51:01",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Hepatoid adenocarcinoma of the lung: A case report",
+    "author": "Yi-Jun Mo; Li-Na Lin; Jing-Li Tao; Tao Zhang; Jian-Hua Zhang",
+    "date": "2024-07-26"
+  },
+  "rejection_reason": null
+}

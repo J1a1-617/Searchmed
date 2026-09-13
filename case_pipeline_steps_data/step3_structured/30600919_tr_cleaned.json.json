@@ -1,0 +1,94 @@
+{
+  "provenance": {
+    "source_filename": "30600919_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 71,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "dyspnea",
+      "hypoxia"
+    ],
+    "diagnosis_date": "2017-11",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "UICC 8th",
+    "tnm_stage": "cT3N2M1a",
+    "overall_stage": "IV",
+    "baseline_primary_site": "left lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral lung",
+      "hilar lymph nodes",
+      "peritracheal lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2017-11",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET exon 14 skipping"
+        ],
+        "sample": "transbronchial biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pembrolizumab"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "pembrolizumab": "200 mg abs. on day 1"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2018-01",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": "AUC 5",
+          "pemetrexed": "500 mg/m2 on day 1"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "71-year-old woman with NSCLC and MET exon 14 skipping mutation",
+      "High PD-L1 expression (TPS of 95%) but no clinical benefit from pembrolizumab",
+      "Significant tumor shrinkage with carboplatin and pemetrexed chemotherapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "provenance": {
+    "source_filename": "41416296_tr_cleaned.json",
+    "source_pmid": "41416296",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.95
+  },
+  "baseline_clinical_profile": {
+    "age": 74,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "headache",
+      "nausea",
+      "vomiting"
+    ],
+    "diagnosis_date": "2006-XX",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "pTNM",
+    "tnm_stage": "pT1N0M0",
+    "overall_stage": "IA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": null
+  },
+  "timeline_events": [
+    {
+      "time": "2006",
+      "event_type": "diagnosis + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "right upper lobectomy"
+        ],
+        "type": "surgical",
+        "dosage": null
+      },
+      "response": null
+    },
+    {
+      "time": "2020-XX",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "resected brain tumor and primary lung adenocarcinoma"
+      },
+      "treatment": {
+        "line": "postoperative",
+        "regimen": [
+          "radiation therapy",
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "radiation": "45 Gy in 15 fractions",
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 35
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 35,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Tumor-to-tumor metastasis of EGFR-mutated lung adenocarcinoma to meningioma",
+      "Patient remained disease-free for 14 years after initial surgery",
+      "Molecular testing confirmed shared clonal origin between intracranial lesion and primary lung adenocarcinoma"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

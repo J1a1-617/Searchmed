@@ -1,0 +1,28 @@
+{
+  "text": "Title: A rare case of lung adenocarcinoma in a patient with idiopathic pulmonary fibrosis\nPMID: \nAuthors: \n\nAbstract\nThe likelihood of lung cancer in patients with pulmonary fibrosis is significantly increased, particularly the incidence of lung adenocarcinoma in areas affected by fibrosis, which is usually accompanied with epidermal growth factor receptor (EGFR) mutations. However, EGFR-tyrosine kinase inhibitor (TKI) can paradoxically induce or exacerbate pulmonary fibrosis as a serious adverse effect. Consequently, the use of EGFR-TKIs is approached with extreme caution in patients with lung cancer and co-existing interstitial lung disease, leading to a scarcity of clinical evidence regarding their application in individuals with both EGFR-mutated non-small cell lung cancer (NSCLC) and idiopathic pulmonary fibrosis (IPF).\n\nCase Description\nThis article reports a rare and instructive case of a patient with a pre-existing diagnosis of IPF who subsequently developed lung adenocarcinoma harboring an EGFR mutation during clinical follow-up. The patient was managed with a combination therapy of icotinib (an EGFR-TKI) and Pirfenidone (an anti-fibrotic agent). This therapeutic strategy resulted in effective control of the lung adenocarcinoma while maintaining relative stability of the underlying pulmonary fibrosis. The patient’s eventual death was attributed to a severe coronavirus disease 2019 (COVID-19) infection, not to progression of cancer or pulmonary fibrosis.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41815163_tr.json",
+    "source_pmid": "41815163",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41815163_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:34:39",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 300,
+    "reduction_ratio": 0.9142857142857143,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "A case report of idiopathic pulmonary fibrosis concurrent with EGFR 19 deletion lung adenocarcinoma",
+    "author": "Zhiyi Li; Kai Xu; Ruxuan Chen; Yujie Shi; Mengqi Wang; Qi Chen; Ji Li; Chi Shao; Hui Huang",
+    "date": "2026-02-10"
+  },
+  "rejection_reason": null
+}

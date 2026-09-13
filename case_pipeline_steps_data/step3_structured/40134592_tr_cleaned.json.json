@@ -1,0 +1,163 @@
+{
+  "provenance": {
+    "source_filename": "40134592_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 33,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "chest tightness",
+      "shortness of breath"
+    ],
+    "diagnosis_date": "2020-09",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM",
+    "tnm_stage": "T3N3M1a",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "left lung",
+    "metastatic_sites_at_baseline": [
+      "pleura",
+      "pericardium",
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-09",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 mutation",
+          "TP53 mutation"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "icotinib",
+          "pemetrexed",
+          "nedaplatin"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "icotinib": null,
+          "pemetrexed": null,
+          "nedaplatin": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "2022-04",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": null
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2022-05",
+      "event_type": "radiotherapy",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "SBRT"
+        ],
+        "type": "radiotherapy",
+        "dosage": {
+          "SBRT": "32.5 Gy in 5 fractions"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2023-01",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "bevacizumab"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "bevacizumab": null
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2023-07",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR (+)"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "cisplatin",
+          "etoposide"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "cisplatin": null,
+          "etoposide": null
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2023-09",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "pericardial puncture"
+        ],
+        "type": null,
+        "dosage": null
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "multiple tumor metastases and severe complications",
+    "last_follow_up": "2023-09"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Partial transformation from lung adenocarcinoma to SCLC",
+      "Co-existence of adenocarcinoma and SCLC components",
+      "Multiple lines of treatment including targeted therapy and chemotherapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

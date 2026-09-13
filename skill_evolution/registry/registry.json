@@ -1,0 +1,162 @@
+{
+  "skills": [
+    {
+      "skill_id": "clinical-evidence-applicability",
+      "title": "弱类比证据门控",
+      "trigger": "low_relevance_analog_accepted",
+      "rules": [
+        "比较治疗方案、人群、终点和时间窗",
+        "无直接证据时最多保留两个类比证据",
+        "类比证据不能决定目标实体的具体结局",
+        "近期明确进展且缺少目标方案直接证据时，不能仅凭机制合理性判为获益；默认二分类为不获益"
+      ],
+      "skill_hash": "7094ffa86430",
+      "source_batches": [
+        "batch001_current"
+      ],
+      "status": "rejected_as_dynamic_skill",
+      "ab_status": "clean_component_no_gain",
+      "ab_result": "skill_evolution/analysis/pending_skill_ab_20260906.md",
+      "created_at": "2026-08-26T12:32:32.562509+00:00"
+    },
+    {
+      "skill_id": "claim-scope-preservation",
+      "title": "Claim 粒度保持",
+      "trigger": "answer_memory_merged_scopes",
+      "rules": [
+        "不同药物、人群、终点和时间点不得合并为一个 claim",
+        "疗效、CNS、症状、毒性分别保留"
+      ],
+      "skill_hash": "039d8990bb96",
+      "source_batches": [
+        "batch001_current"
+      ],
+      "status": "merged_candidate",
+      "superseded_by": "clinical-evidence-lineage",
+      "ab_status": "pending",
+      "created_at": "2026-08-26T12:32:32.562509+00:00"
+    },
+    {
+      "skill_id": "evidence-context-citation",
+      "title": "上下文证据绑定",
+      "trigger": "context_evidence_not_cited",
+      "rules": [
+        "进入 Generate 的证据必须有稳定 claim/evidence ID",
+        "无法绑定的证据从最终上下文移除"
+      ],
+      "skill_hash": "9ae872a1f24d",
+      "source_batches": [
+        "batch001_current"
+      ],
+      "status": "merged_candidate",
+      "superseded_by": "clinical-evidence-lineage",
+      "ab_status": "pending",
+      "created_at": "2026-08-26T12:32:32.562509+00:00"
+    },
+    {
+      "skill_id": "evidence-absence-calibration",
+      "title": "证据缺失校准",
+      "trigger": "missing_direct_evidence_or_context_drop",
+      "call_stages": [
+        "evidence_review",
+        "answer_context",
+        "generate"
+      ],
+      "rules": [
+        "缺少直接证据不等于存在不获益证据",
+        "既往药物进展不得在缺乏共同耐药依据时迁移为目标方案失败",
+        "Evidence Review接受的证据不得在AnswerContext中无说明地全部丢失",
+        "Generate必须区分未知、正向证据和负向证据"
+      ],
+      "source_batches": [
+        "batch002"
+      ],
+      "source_cases": [
+        "case_12_node_1"
+      ],
+      "status": "merged_candidate",
+      "superseded_by": "clinical-evidence-lineage",
+      "ab_status": "pending",
+      "analysis_artifact": "skill_evolution/analysis/batch_002/case_12_node_1.md",
+      "created_at": "2026-09-02T18:00:00+08:00"
+    },
+    {
+      "skill_id": "structured-output-continuation",
+      "title": "结构化输出分片续作",
+      "trigger": "oversized_repeated_structured_items",
+      "call_stages": [
+        "evidence_review",
+        "safety_reflection",
+        "answer_context"
+      ],
+      "rules": [
+        "先尝试单次完整结构化输出，仅在截断、非法JSON或结构语义校验失败后分片恢复",
+        "只分割重复的独立证据或claim单元，每次返回完整结构化对象",
+        "按稳定ID确定性合并并在合并后做全局校验",
+        "不得删除Schema、治疗时间线或因果边界",
+        "QueryUnderstanding不分片，失败时完整重试"
+      ],
+      "source_batches": [
+        "full_queue_batch004"
+      ],
+      "source_cases": [
+        "case_15_node_2",
+        "case_16_node_2"
+      ],
+      "regression_cases": [
+        "case_11_node_2",
+        "case_20_node_2"
+      ],
+      "status": "candidate",
+      "ab_status": "adaptive_end_to_end_pass_no_natural_recovery_trigger",
+      "ab_result": "skill_evolution/analysis/structured_output_continuation/ab_gpt55_20260906.md",
+      "analysis_artifact": "skill_evolution/analysis/structured_output_continuation/failure_cases.md",
+      "created_at": "2026-09-03T00:00:00+08:00"
+    },
+    {
+      "skill_id": "clinical-evidence-lineage",
+      "title": "临床证据谱系完整性",
+      "trigger": "evidence_lineage_anomaly",
+      "call_stages": [
+        "answer_memory",
+        "answer_context",
+        "generate"
+      ],
+      "trigger_signals": [
+        "claim_scope_collision",
+        "unexplained_evidence_drop",
+        "evidence_state_flip",
+        "cross_intervention_attribution",
+        "evidence_derived_conclusion_without_binding"
+      ],
+      "merged_candidates": [
+        "claim-scope-preservation",
+        "evidence-absence-calibration",
+        "evidence-context-citation"
+      ],
+      "source_batches": [
+        "batch001_current",
+        "batch002"
+      ],
+      "source_cases": [
+        "case_01_node_1",
+        "case_02_node_1",
+        "case_03_node_1",
+        "case_04_node_2",
+        "case_10_node_2",
+        "case_12_node_1",
+        "case_13_node_3",
+        "case_19_node_2",
+        "case_26_node_2"
+      ],
+      "status": "candidate",
+      "ab_status": "source_error_ab_pending",
+      "regression_ab_result": "skill_evolution/analysis/pending_skill_ab_20260906.md",
+      "analysis_artifact": "skill_evolution/analysis/clinical_evidence_lineage/source_cases.md",
+      "created_at": "2026-09-06T00:00:00+08:00"
+    }
+  ],
+  "cohorts": [],
+  "eval_runs": [],
+  "updated_at": "2026-09-03T00:00:00+08:00"
+}

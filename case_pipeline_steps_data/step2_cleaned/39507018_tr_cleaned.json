@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "39507018_tr.json",
+    "source_pmid": "39507018",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39507018_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:58:05",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "SWItch/Sucrose Nonfermentable complex-deficient pulmonary neoplasms: clinicopathologic characteristics and outcomes to radiotherapy and immunotherapy",
+    "author": "Yu Gu; Songtao Lai; Juan Yang; Junhua Zhang; Xingwen Fan; Qiang Zheng",
+    "date": "2024-10-28"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: Case of EGFR Exon 19 Insertion Detected by Lung Cancer Compact Panel and Response to Osimertinib\nPMID: \nAuthors: Mika Horie, Kazuhisa Nakashima, Kojiro Hata, Yoshihiro Amano, Mika Nakao, Tamio Okimoto, Yukari Tsubata, Takeshi Isobe\n\nAbstract\nAn 80-year-old man underwent a left lower lobectomy for lung adenocarcinoma. Next-generation sequencing in a clinical trial identified an epidermal growth factor receptor (EGFR) exon 19 insertion (exon19ins), which was not detected by the Oncomine™ Dx Target Test®, a companion diagnostic tool for EGFR mutations. However, the Lung Cancer Compact Panel® Dx (LCCP), another companion diagnostic tool, confirmed exon19ins. Osimertinib was administered, which led to a slight tumor response. This case suggests that LCCP may be useful in detecting rare EGFR mutations and that osimertinib may be effective against exon19ins.\n\nCase report\nAn 80-year-old man presented with chronic obstructive pulmonary disease secondary to smoking. The patient underwent left lower lobectomy with mediastinal lymph node dissection, which resulted in the pathological diagnosis of lung adenocarcinoma at stage T2aN0M0, stage IB (Union for International Cancer Control, 8th edition TNM). One year postoperatively, the patient underwent left pleurodesis with talc to treat malignant pleural effusion. Six months after pleurodesis, there was an increase in left pleural dissemination. The Oncomine Precision Assay, measured using NGS in clinical trials detected EGFR exon19ins in surgical specimens (Fig. 1). However, the ODxTT, a companion diagnostic test for EGFR mutations, did not report this mutation. Programmed cell death ligand 1 expression was 1–24 %. The patient was initially treated with carboplatin, pemetrexed, and pembrolizumab. After three courses of maintenance therapy, he developed malignant ascites and was hospitalized due to loss of appetite, with an Eastern Cooperative Oncology Group Performance Status (ECOG-PS) 3.\nNext, we tested LCCP, a companion diagnostic tool for EGFR mutations capable of detecting exon19ins. These results indicated the presence of an exon19ins. The patient was administered osimertinib, resumed adequate oral intake, and was discharged from the hospital.\nOne month after initiating osimertinib treatment, pleural dissemination and ascites were reduced (Fig. 2). However, the patient was hospitalized because of aspiration pneumonia. Despite successful antibiotic treatment, the patient remained hospitalized for palliative care. Osimertinib was discontinued and the patient received supportive care.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41438901_tr.json",
+    "source_pmid": "41438901",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41438901_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:17:55",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Lung adenocarcinoma with EGFR exon 19 insertion identified using a compact panel and its response to osimertinib: a case report",
+    "author": "Mika Horie; Kazuhisa Nakashima; Kojiro Hata; Yoshihiro Amano; Mika Nakao; Tamio Okimoto; Yukari Tsubata; Takeshi Isobe",
+    "date": "2025-11-30"
+  },
+  "rejection_reason": null
+}

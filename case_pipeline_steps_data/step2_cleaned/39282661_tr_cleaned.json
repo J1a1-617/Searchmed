@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "39282661_tr.json",
+    "source_pmid": "39282661",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39282661_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:54:26",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Combination of Cytologic Findings and Circulating Tumor DNA From Cerebrospinal Fluid Revealed SCLC Transformation in Patients With Leptomeningeal Metastases of Lung Adenocarcinoma",
+    "author": "Jia-Xin Lin; Kai Yin; Li-Xu Yan; Mei-Mei Zheng; Yang-Si Li; Shi-Ling Zhang; Kang-Hui Zeng; Hong-Hong Yan; Hai-Yan Tu; Zhi-Hong Chen; Xu-Chao Zhang; Qing Zhou; Jin-Ji Yang; Ben-Yuan Jiang; Qing-Ling Zhang; Yi-Long Wu",
+    "date": "2024-07-06"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

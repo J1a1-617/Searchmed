@@ -1,0 +1,213 @@
+{
+  "provenance": {
+    "source_filename": "33976623_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 61,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "dyspnea",
+      "thoracic pain"
+    ],
+    "diagnosis_date": "2010-05",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IV",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pleural carcinomatosis"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2010-05",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "biopsy specimen"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": "250 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 48
+      }
+    },
+    {
+      "time": "2014-08",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib",
+          "pemetrexed"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "pemetrexed": null,
+          "gefitinib": "250 mg daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2015-05",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "palliative",
+        "regimen": [
+          "radiotherapy"
+        ],
+        "type": "radiation",
+        "dosage": null
+      },
+      "response": null
+    },
+    {
+      "time": "2015-12",
+      "event_type": "progression + rebiopsy + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR T790M"
+        ],
+        "sample": "biopsy specimen"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 24
+      }
+    },
+    {
+      "time": "2018-11",
+      "event_type": "progression + rebiopsy + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion",
+          "T790M mutation",
+          "low-level MET amplification"
+        ],
+        "sample": "next-generation sequencing"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "osimertinib",
+          "crizotinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "osimertinib": "80/40 mg alternate days",
+          "crizotinib": "200 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 2 fatigue",
+          "grade 2 vomiting",
+          "decreased appetite"
+        ],
+        "dose_adjustments": [
+          "crizotinib reduced to alternate-day schedule"
+        ]
+      }
+    },
+    {
+      "time": "2020-03",
+      "event_type": "progression + rebiopsy + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR mutations",
+          "MET amplification"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "osimertinib",
+          "crizotinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "osimertinib": "80 mg",
+          "crizotinib": "200 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 2 anemia",
+          "grade 2 fatigue",
+          "grade 2 lower extremity edema"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "crizotinib"
+    ],
+    "mechanism": "Avoid unexpected drug interactions and adverse events",
+    "severity": "moderate",
+    "clinical_manifestation": "Potential increased toxicity requiring dose adjustment",
+    "management": "Dose reduction of crizotinib to alternate-day schedule",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 19,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Successful combination of osimertinib and crizotinib",
+      "Patient with EGFR-mutant NSCLC and MET amplification",
+      "Tolerable toxicity profile with dose adjustments"
+    ],
+    "ddi_relevance": "high",
+    "generalizability": "medium"
+  }
+}

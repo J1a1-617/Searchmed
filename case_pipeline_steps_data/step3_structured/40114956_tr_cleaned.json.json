@@ -1,0 +1,159 @@
+{
+  "provenance": {
+    "source_filename": "40114956_tr_cleaned.json",
+    "source_pmid": "40114956",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 67,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "supraclavicular lymphadenopathy",
+      "asthenia"
+    ],
+    "diagnosis_date": "2017-03",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 7th",
+    "tnm_stage": "cT4N3M1c",
+    "overall_stage": "IVb",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral pulmonary nodules",
+      "bilateral hilar lymph nodes",
+      "bilateral pleural effusion",
+      "right adrenal lesion",
+      "bone metastases",
+      "brain metastases"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2017-03",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR E746_750 deletion"
+        ],
+        "sample": "tumor tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "afatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "afatinib": "30 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2018-08",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR T790M mutation"
+        ],
+        "sample": "pleural effusion"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2019-12",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR E746_750 deletion"
+        ],
+        "sample": "tumor tissue"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2020-XX",
+      "event_type": "progression + biopsy + treatment",
+      "molecular": {
+        "alterations": [
+          "ALK rearrangement"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "alectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "alectinib": "600 mg daily"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "crizotinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": null,
+    "last_follow_up": null,
+    "treatment_discontinuation_reason": "progressive disease"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Transformation into large cell carcinoma after osimertinib exposure",
+      "Acquisition of ALK rearrangement in later stages",
+      "Resistance mechanisms include alternative pathway activation"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

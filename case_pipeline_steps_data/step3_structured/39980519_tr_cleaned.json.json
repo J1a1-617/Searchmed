@@ -1,0 +1,139 @@
+{
+  "provenance": {
+    "source_filename": "39980519_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 76,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT2aN2M0",
+    "overall_stage": "III",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": null
+  },
+  "timeline_events": [
+    {
+      "time": "2022-03",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "chemoradiotherapy",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": "30 mg/m2 per day, 5 days/week for 20 days"
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2022-05",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "durvalumab"
+        ],
+        "type": "immune checkpoint inhibitor",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2023-02",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "tepotinib"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "interstitial lung disease (grade 2)"
+        ]
+      }
+    },
+    {
+      "time": "2023-04",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "tepotinib"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "drug-induced lung disease"
+        ]
+      }
+    },
+    {
+      "time": "2023-05",
+      "event_type": "safety",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "improved",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": null,
+        "dose_adjustments": [
+          "steroid therapy initiated at 50 mg/day (prednisone 1 mg/kg)"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "tepotinib",
+      "durvalumab"
+    ],
+    "mechanism": "sequential treatment potentially increasing incidence of drug-induced lung injury",
+    "severity": "moderate",
+    "clinical_manifestation": "interstitial lung disease",
+    "management": "systemic steroid therapy",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with MET exon 14 skipping mutation-positive NSCLC",
+      "Development of interstitial lung disease after durvalumab",
+      "Improvement of ILD with steroid therapy"
+    ],
+    "ddi_relevance": "high",
+    "generalizability": "medium"
+  }
+}

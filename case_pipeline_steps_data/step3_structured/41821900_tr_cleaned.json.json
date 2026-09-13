@@ -1,0 +1,167 @@
+{
+  "provenance": {
+    "source_filename": "41821900_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 71,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "non-productive cough",
+      "bloody sputum"
+    ],
+    "diagnosis_date": "YYYY-MM",
+    "cancer_type": "lung adenocarcinoma",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 7th",
+    "tnm_stage": "T4N2M1a",
+    "overall_stage": "IV",
+    "baseline_primary_site": "bilateral lungs",
+    "metastatic_sites_at_baseline": [
+      "lymph nodes",
+      "pericardial effusion"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "YYYY-MM",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR 19del"
+        ],
+        "sample": "left lung apicoposterior segment mass"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "aumolertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "aumolertinib": "110 mg once daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "YYYY-MM",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "RET fusion"
+        ],
+        "sample": "archival biopsy specimen from right upper lobe"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": "not specified",
+          "carboplatin": "not specified"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 10
+      }
+    },
+    {
+      "time": "YYYY-MM",
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "RET fusion"
+        ],
+        "sample": "right lung lesion"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pralsetinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "pralsetinib": "400 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 36
+      },
+      "safety": {
+        "adverse_events": [
+          "myelosuppression",
+          "limb numbness",
+          "thrombocytopenia"
+        ],
+        "dose_adjustments": [
+          "reduced to 200 mg once daily due to toxicities"
+        ]
+      }
+    },
+    {
+      "time": "YYYY-MM",
+      "event_type": "treatment + combination",
+      "molecular": {
+        "alterations": [],
+        "sample": "not specified"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "pralsetinib",
+          "anlotinib"
+        ],
+        "type": "combination_targeted",
+        "ddi_pair": "pralsetinib + anlotinib",
+        "dosage": {
+          "pralsetinib": "200 mg once daily",
+          "anlotinib": "8 mg on days 1–14 of a 21-day cycle"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 12
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "pralsetinib",
+      "anlotinib"
+    ],
+    "mechanism": "",
+    "severity": "none",
+    "clinical_manifestation": "",
+    "management": "",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 52,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "YYYY-MM"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Synchronous dual-primary lung adenocarcinomas with distinct driver alterations",
+      "Long-term response on pralsetinib monotherapy",
+      "Combination therapy with pralsetinib and anlotinib after resistance"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

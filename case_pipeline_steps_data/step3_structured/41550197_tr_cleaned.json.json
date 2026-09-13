@@ -1,0 +1,101 @@
+{
+  "provenance": {
+    "source_filename": "41550197_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 53,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "persistent dull pain in the left chest"
+    ],
+    "diagnosis_date": "2022-07",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "not provided",
+    "tnm_stage": "cT4N3M1a",
+    "overall_stage": "IVa",
+    "baseline_primary_site": "left upper lung lobe",
+    "metastatic_sites_at_baseline": [
+      "left pleural effusion",
+      "enlarged lymph nodes in the left hilum",
+      "supraclavicular area",
+      "mediastinum"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-07",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET D1010H mutation",
+          "frameshift mutation in BRCA1",
+          "missense mutation in MSH6",
+          "non-frameshift mutation in CDK12"
+        ],
+        "sample": "lung biopsy tumor tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "sintilimab",
+          "anlotinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "sintilimab": "200 mg on day 1",
+          "anlotinib": "12 mg from day 1 to day 14"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 24
+      },
+      "safety": {
+        "adverse_events": [
+          "mild pruritus",
+          "rash",
+          "hypertension",
+          "unstable angina pectoris",
+          "subclinical hypothyroidism"
+        ],
+        "dose_adjustments": [
+          "irbesartan for hypertension",
+          "levothyroxine for hypothyroidism"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "sintilimab",
+      "anlotinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 24,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "SD-NSCLC characterized by MET14 skipping mutation",
+      "Effective management with sintilimab and anlotinib",
+      "Notable reduction in lesions and sustained control of primary lesion"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

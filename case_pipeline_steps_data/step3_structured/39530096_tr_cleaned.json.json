@@ -1,0 +1,130 @@
+{
+  "provenance": {
+    "source_filename": "39530096_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 68,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "dry cough",
+      "chest tightness"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "both lungs",
+      "mediastinal lymph nodes",
+      "left hilum",
+      "left pleural effusion"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MSI-H",
+          "EGFR EX21 p.L858R",
+          "EGFR EX7 p.A289V",
+          "EGFR amplification",
+          "TP53 EX5 p.A159D"
+        ],
+        "sample": "pleural fluid"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "Icotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "Icotinib": "125 mg Tid"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "new pleural effusion"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "Icotinib",
+          "Bevacizumab"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "Icotinib": "125 mg Tid",
+          "Bevacizumab": "400 mg (7.5 mg/kg)"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR EX21 p.L858R",
+          "EGFR EX20 p.T790M"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "Osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "Osimertinib": "80 mg Qd"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": 4
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 18,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with ground-glass metastases and MSI-H",
+      "EGFR-sensitive mutation identified",
+      "Initial response to Icotinib followed by disease progression",
+      "Osimertinib initiated but patient refused follow-up"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "provenance": {
+    "source_filename": "40556834_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 54,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 25,
+    "presenting_symptoms": [
+      "persistent cough"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IVA",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral lungs"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "METex14 skipping mutation"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "bevacizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "pemetrexed": null,
+          "bevacizumab": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "tepotinib",
+          "nintedanib"
+        ],
+        "type": "targeted + antifibrotic",
+        "dosage": {
+          "tepotinib": "250 mg daily",
+          "nintedanib": "150 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 9
+      },
+      "safety": {
+        "adverse_events": [
+          "mild diarrhoea"
+        ],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "tepotinib",
+      "nintedanib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with IPF and METex14 skipping-positive lung adenocarcinoma",
+      "Combination of nintedanib and tepotinib effectively controlled both lung cancer and IPF",
+      "No acute exacerbation of IPF observed during treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: Familial occurrence of EGFR mutations in non-small cell lung cancer\nPMID: \nAuthors: \n\nAbstract\nRecent advances in molecular oncology have increasingly illuminated the role of germline EGFR mutations in non-small cell lung cancer (NSCLC). This case report presents the presence of a unique familial occurrence of EGFR mutations in patients with NSCLC.\n\nCase presentation\nThis case report presents a unique familial occurrence of EGFR mutations in patients with NSCLC. A mother and son, both never-smokers of Caucasian ethnicity, were diagnosed with advanced metastatic lung adenocarcinoma at ages 57 and 43, respectively. The mother was diagnosed with a large mass in the right upper lung lobe, mediastinal lymph node enlargement, pleura involvement, and multiple metastatic lung lesions. Molecular analysis of the primary tumor site by next generation sequencing (NGS) identified two EGFR mutations: the activating mutation c.2573T > G; p.Leu858Arg (p.L858R) in exon 21 of the EGFR gene, which predicts sensitivity to EGFR TKIs, and the somatic non-pathogenic mutation c.2612 C > A; p.Ala871Glu (p.A871E) in exon 21 of the EGFR gene, of unclear significance (VUS). Classification of the EGFR A871E as a VUS was performed based on the American College of Medical Genetics and Genomics (ACMG) guidelines. Specifically, the following criteria were applied to reach this classification: PP3-MOD, PM1-SUP and PM2-SUP. The patient received several lines of therapy, including EGFR TKIs, chemotherapy, and immunotherapy, over almost 6 years. Specifically, she underwent two lines of chemotherapy followed by nivolumab monotherapy. Following this course of treatment, she experienced disease progression characterized by the emergence of brain metastases. Osimertinib was then introduced as the fourth line of treatment. With this regimen, she achieved stable disease for 6 months prior to her passing. No drug-related adverse events were reported, nor drug reduction or discontinuation.\n\nThe son also presented with a stage IV adenocarcinoma of the lung. Molecular analysis of the primary tumor site by NGS revealed the same two EGFR mutations as the mother. Given his young age and family history, the patient received genetic counseling and testing which revealed the germline nature of the A871E mutation, likely inherited from the mother. For germline status investigation, NGS testing was performed on whole blood (coverage depth > 500x), similarly to the aforementioned tumor samples. He initiated treatment with osimertinib, which was well tolerated, and demonstrated a notable partial response after 3 months, which persisted for 15 months, leading to an approximate treatment duration of 18 months. No dose reduction or dose interruption was reported. Subsequent to this, he experienced disease progression, with bone metastases. No re-biopsy or liquid molecular testing was conducted post-disease progression. He subsequently received chemotherapy combined with immunotherapy, without any therapeutic benefit. Rapid disease progression ensued, and he passed away 2 months later.\n\nFor all described samples, targeted NGS was performed after DNA isolation. Library preparation was performed with the Ion AmpliSeq Library kit 2.0, using Thermo Fisher Oncomine Dx derived amplicons. Sequencing was performed on an Ion Torrent PGM platform and data analysis was performed using Torrent Suite (5.12) and Ion Reporter (5.2 to 5.14, different versions for each sample described in the paper) software. For all tests described, including formalin-fixed paraffin-embedded (FFPE) tissue sample for the mother and plasma and whole blood for the son, the same NGS panel was used, which targeted hotspots in cancer-related genes, and in particular exon 21 of the EGFR gene were the two described variants were located.\n\nInitial tumor testing of the mother was performed on FFPE; neoplastic cells were > 50% and NGS coverage depth was > 1000x. Initial tumor testing of the son was performed on plasma; circulating tumor DNA (ctDNA) fraction was unknown while coverage depth was > 3500x. In both tumor testing (performed on FFPE for the mother and plasma for the son), allelic frequency was a bit higher for the A871E variant, in comparison to the L858R variant. However, these findings need to be addressed with caution since clear conclusions cannot by drawn from variant allelic frequency from a single test, especially when this testing is performed on FFPE tumor tissue, particularly in a single test.\n\nFor germline status investigation, NGS testing was performed on whole blood (coverage depth > 500x), similarly to the other samples.\n",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40087585_tr.json",
+    "source_pmid": "40087585",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40087585_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:14:26",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Inherited rare epidermal growth factor receptor mutation and somatic mutations in patients with non-small cell lung cancer: a case report",
+    "author": "Zacharenia Saridaki; Elena Fountzilas; Athanasios Alexopoulos; Niki Karachaliou",
+    "date": "2025-03-14"
+  },
+  "rejection_reason": null
+}

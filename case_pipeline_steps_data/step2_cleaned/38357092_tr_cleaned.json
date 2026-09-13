@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "38357092_tr.json",
+    "source_pmid": "38357092",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38357092_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:35:24",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Brief Report: Comprehensive Clinicogenomic Profiling of Small Cell Transformation From EGFR-Mutant NSCLC Informs Potential Therapeutic Targets",
+    "author": "Bingnan Zhang; Whitney Lewis; C Allison Stewart; Benjamin B Morris; Luisa M Solis; Alejandra Serrano; Yuanxin Xi; Qi Wang; Elyse R Lopez; Kyle Concannon; Simon Heeke; Ximing Tang; Gabriela Raso; Robert J Cardnell; Natalie Vokes; George Blumenschein; Yasir Elamin; Frank Fosella; Anne Tsao; Ferdinandos Skoulidis; Celyne Bueno Hume; Koji Sasak; Jeff Lewis; Waree Rinsurongkawong; Vadeerat Rinsurongkawong; Jack Lee; Hai Tran; Jianjun Zhang; Don Gibbons; Ara Vaporciyan; Jing Wang; Keunchil Park; John V Heymach; Lauren A Byers; Carl M Gay; Xiuning Le",
+    "date": "2023-12-17"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

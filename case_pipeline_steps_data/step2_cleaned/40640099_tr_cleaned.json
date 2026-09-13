@@ -1,0 +1,28 @@
+{
+  "text": "Title: 首例EGFR H773_V774delinsLM突变肺腺癌患者经伏美替尼治疗获得显著肿瘤消退的个案报道\nPMID: \nAuthors: \n\nAbstract\n表皮生长因子受体（epidermal growth factor receptor, EGFR）20号外显子突变是非小细胞肺癌中的罕见突变，其中H773_V774delinsLM复杂突变尤为罕见，仅占所有EGFR突变的0.2%-1%。EGFR罕见突变通常被认为对第一、二代EGFR-酪氨酸激酶抑制剂（EGFR-tyrosine kinase inhibitors, EGFR-TKIs）耐药，尽管第三代EGFR-TKIs在部分罕见突变中显示出一定疗效，但针对H773_V774delinsLM突变患者的治疗数据仍十分有限，其疗效和安全性尚未明确。本文报告了首例经伏美替尼治疗后获得显著肿瘤消退的EGFR H773_V774delinsLM突变肺腺癌，以期为临床中这类罕见突变患者可能的治疗方案提供新的见解。\nKeywords: 肺肿瘤, EGFR突变, 罕见突变, 伏美替尼\n\n1 病例资料\n患者男性，43岁，吸烟史10年。2023年12月患者因间断咳嗽就诊，查胸部计算机断层扫描（computed tomography, CT）：右肺上叶团块状软组织密度灶，大小约77 mm×50 mm；两肺门及纵隔多发肿大淋巴结；双肺多发结节。2024年1月5日行支气管镜下右上叶支气管开口处黏膜活检及右肺上叶肿物穿刺活检，病理：肺腺癌，免疫组化：间变性淋巴瘤激酶（anaplastic lymphoma kinase, ALK）（-），细胞角蛋白7（cytokeratin 7, CK7）（+），P40（-），甲状腺转录因子1（thyroid transcription factor 1, TTF-1）（+）。组织样本下一代测序（next-generation sequencing, NGS）基因检测：EGFR 20号外显子缺失插入突变c.2318_2320delinsTAA（p.H773_V774delinsLM）；程序性细胞死亡配体1（programmed cell death ligand 1, PD-L1）表达未测。2024年1月10日完善全身正电子发射计算机断层显像（positron emission tomography/CT, PET/CT）：右肺上叶团块，大小约84 mm×53 mm，放射性摄取不均匀异常增高，SUVmax为8.4，考虑恶性病变；两肺门及纵隔多发代谢增高淋巴结，转移可能；双肺多发代谢增高结节，考虑多发转移；余未见明显转移（图1A、1B）。考虑右肺腺癌诊断明确，临床分期cT4N3M1a，IVA期（国际抗癌联盟第八版）。\n\n由于EGFR 20号外显子缺失插入突变并非常见的敏感突变，靶向治疗效果不确定，遂于2024年2月3日起给予4个周期化疗联合免疫治疗，具体为培美曲塞950 mg d1+卡铂500 mg d1+帕博利珠单抗200 mg d1，每21天为1个周期。治疗后患者咳嗽好转，监测血清癌胚抗原（carcinoembryonic antigen, CEA）较治疗前降低（2024-02→2024-05：13.5 ng/mL→8.5 ng/mL），2及4个周期后复查CT评效部分缓解（partial response, PR）（图1C、1D）。后更换为培美曲塞950 mg d1，帕博利珠单抗200 mg d1，每21天为1个周期维持治疗，期间患者一般情况尚稳定，偶有干咳，无头晕、头痛等不适，但监测CEA逐渐升高（2024-05→2024-06→2024-08→2024-09：8.5 ng/mL→13.2 ng/mL→18.9 ng/mL→24.7 ng/mL），6及7个周期后复查CT提示肺部原发灶同前，但双肺结节增多增大（图1E、1F），头磁共振成像（magnetic resonance imaging, MRI）示多发颅内转移（图2A），评效疾病进展（progressive disease, PD），无进展生存期（progression-free survival, PFS）为7个月，重新分期为cT4N3M1c，IVB期。EGFR H773_V774delinsLM突变在氨基酸水平为错义突变，针对EGFR ex20ins的靶向药物在此类患者中的获益不明确，后患者于2024年10月16日改为多西他赛130 mg d1+帕博利珠单抗200 mg d1治疗，每21天为1个周期，但患者咳嗽逐渐加重，CEA持续升高（2024-09→2024-10→2024-11：24.7 ng/mL→31.1 ng/mL→38.9 ng/mL），2个周期后复查颅内病变继续增大（图2B），肺部病灶同前（图1G、1H），评效疾病稳定（stable disease, SD）。考虑患者携带EGFR罕见突变，在患者充分知情同意后，2024年11月29日起予甲磺酸伏美替尼160 mg qd口服靶向治疗。服药后咳嗽好转，1个月后复查CEA明显降低（10.8 ng/mL），胸部CT示右肺上叶肺门旁占位较前缩小（58 mm→32 mm），双肺多发结节较前减少、缩小（图1I、1J），头MRI示颅内多发转移瘤减少、减小（图2C），评效PR。截止目前，患者已口服伏美替尼4个月，CEA降至正常（1.5 ng/mL），肺部病灶大致同前，颅内病灶消失（图2D），评效维持PR，主要不良反应为轻度腹泻。",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40640099_tr.json",
+    "source_pmid": "40640099",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40640099_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:29:15",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Lung Adenocarcinoma with EGFR Exon 20 H773_V774delinsLM Mutation Sensitive to Furmonertinib: A Case Report",
+    "author": "Rongzhen LI; Yan XU; Xiaoxing GAO; Minjiang CHEN; Wei ZHONG; Mengzhao WANG",
+    "date": "2025-06-30"
+  },
+  "rejection_reason": null
+}

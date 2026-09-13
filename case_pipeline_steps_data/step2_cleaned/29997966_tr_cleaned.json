@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "29997966_tr.json",
+    "source_pmid": "29997966",
+    "original_file": "output/pre out/29997966_tr.json",
+    "cleaning_timestamp": "2026-05-08T19:56:25",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "TP53 mutations predict for poor survival in ALK rearrangement lung adenocarcinoma patients treated with crizotinib",
+    "author": "Wen-Xian Wang; Chun-Wei Xu; Yan-Ping Chen; Wei Liu; Li-Hua Zhong; Fang-Fang Chen; Wu Zhuang; Yun-Jian Huang; Zhang-Zhou Huang; Rong-Rong Chen; Yan-Fang Guan; Xin Yi; Tang-Feng Lv; Wei-Feng Zhu; Jian-Ping Lu; Xiao-Jiang Wang; Yi Shi; Xian-Dong Lin; Gang Chen; Yong Song",
+    "date": "2015-11-01"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

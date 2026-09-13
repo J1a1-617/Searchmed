@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40350470_tr.json",
+    "source_pmid": "40350470",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40350470_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:20:18",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Basal-shift transformation leads to EGFR therapy-resistance in human lung adenocarcinoma",
+    "author": "Taro Shinozaki; Kazuhiro Togasaki; Junko Hamamoto; Akifumi Mitsuishi; Takahiro Fukushima; Kai Sugihara; Toshiki Ebisudani; Masahiko Okada; Ayaka Saito; Lisa Shigematsu; Hatsuyo Takaoka; Fumimaro Ito; Keiko Ohgino; Kota Ishioka; Kageaki Watanabe; Tsunekazu Hishima; Yutaka Kurebayashi; Katsura Emoto; Hideki Terai; Shinnosuke Ikemura; Ichiro Kawada; Keisuke Asakura; Tomoyuki Hishida; Hisao Asamura; Yuki Ohta; Sirirat Takahashi; Mayumi Oda; Megumu Saito; Mami Matano; Kenzo Soejima; Masayuki Fujii; Koichi Fukunaga; Hiroyuki Yasuda; Toshiro Sato",
+    "date": "2025-05-11"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

@@ -1,0 +1,141 @@
+{
+  "provenance": {
+    "source_filename": "39070297_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 53,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "cough"
+    ],
+    "diagnosis_date": "2023-02",
+    "cancer_type": "lung adenocarcinoma",
+    "histology": "high-grade fetal adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": "late stage",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "lung"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-02",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "KRAS(p.G12D)"
+        ],
+        "abundance": "14.83%",
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "radioactive iodine 125 seed implantation"
+        ],
+        "type": "local",
+        "dosage": {
+          "radioactive iodine 125": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-04",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pemetrexed disodium",
+          "cisplatin",
+          "bevacizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed disodium": null,
+          "cisplatin": null,
+          "bevacizumab": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-05",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pemetrexed disodium",
+          "cisplatin",
+          "bevacizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed disodium": null,
+          "cisplatin": null,
+          "bevacizumab": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-06",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pemetrexed disodium",
+          "cisplatin",
+          "bevacizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed disodium": null,
+          "cisplatin": null,
+          "bevacizumab": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 5,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2023-07",
+    "treatment_discontinuation_reason": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient diagnosed with high-grade fetal adenocarcinoma with KRAS mutation",
+      "Initial treatment with radioactive iodine 125 seed implantation led to shrinkage of primary lesion",
+      "Chemotherapy with pemetrexed disodium, cisplatin, and bevacizumab resulted in further reduction of both primary and metastatic lesions"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

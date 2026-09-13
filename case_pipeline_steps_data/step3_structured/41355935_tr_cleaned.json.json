@@ -1,0 +1,163 @@
+{
+  "provenance": {
+    "source_filename": "41355935_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 77,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "endometrial carcinoma",
+    "histology": "clear cell carcinoma",
+    "tnm_stage_system": "FIGO",
+    "tnm_stage": "IIIC",
+    "overall_stage": "III",
+    "baseline_primary_site": "endometrium",
+    "metastatic_sites_at_baseline": [
+      "peritoneum",
+      "mediastinal lymph nodes",
+      "retroperitoneal lymph nodes",
+      "liver"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + treatment",
+      "molecular": {
+        "alterations": [
+          "PIK3CA mutation",
+          "KRAS G12C mutation"
+        ],
+        "sample": "surgical specimen"
+      },
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "carboplatin",
+          "paclitaxel",
+          "pelvic radiation"
+        ],
+        "type": "surgery + chemotherapy + radiation",
+        "dosage": {
+          "carboplatin": null,
+          "paclitaxel": null
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "multiple lines",
+        "regimen": [
+          "carboplatin",
+          "paclitaxel",
+          "bevacizumab",
+          "lenvatinib + pembrolizumab",
+          "pegylated doxorubicin",
+          "topotecan"
+        ],
+        "type": "chemotherapy + targeted + immunotherapy",
+        "dosage": {
+          "carboplatin": null,
+          "paclitaxel": null,
+          "bevacizumab": null,
+          "lenvatinib": null,
+          "pembrolizumab": null,
+          "pegylated doxorubicin": null,
+          "topotecan": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": null,
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "KRAS G12C mutation"
+        ],
+        "sample": "surgical specimen"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "adagrasib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "adagrasib": "200 mg twice daily (later increased to 400 mg twice daily)"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      },
+      "safety": {
+        "adverse_events": [
+          "Grade 2 nausea",
+          "vomiting"
+        ],
+        "dose_adjustments": [
+          "reduced to 200 mg twice daily"
+        ]
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "local radiotherapy"
+        ],
+        "type": "radiation",
+        "dosage": null
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      },
+      "safety": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "adagrasib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 11,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Durable response to adagrasib in KRAS G12C mutated endometrial clear cell carcinoma",
+      "Importance of molecular profiling to guide treatment decisions"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41704963_tr.json",
+    "source_pmid": "41704963",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41704963_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:30:50",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Evaluating the Relationship Between Programmed Death Ligand-1 (Clone: 22C3), Anaplastic Lymphoma Kinase (D5F3), and C-ros Oncogene 1 (OT11A1) Expression in Lung Adenocarcinoma",
+    "author": "Kartavya K Verma; Amit Bugalia; Ajoy K Behera; Nighat Hussain",
+    "date": "2026-01-17"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

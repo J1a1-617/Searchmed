@@ -1,0 +1,28 @@
+{
+  "text": "Title: Treatment of Unresectable Advanced Lung Cancer with Dendritic Cells Pulsed with Wilms’ Tumor 1 and Mucin 1 Vaccine in Combination with Erlotinib\nPMID: \nAuthors: \n\nAbstract\nSatisfactory treatment for patients with unresectable advanced lung cancer has not yet been established. We report a case of unresectable advanced lung cancer (stage IIIb: T2aN3M0) treated with a total of 15 doses of dendritic cells pulsed with a Wilms’ tumor 1 and mucin 1 vaccine in combination with erlotinib, a small molecule epidermal growth factor receptor tyrosine kinase inhibitor, for more than 699 days without recurrence or metastasis.\n\nCase presentation\nA 63-year-old Korean woman was diagnosed with lung adenocarcinoma by pathology and computed tomography. The adenocarcinoma showed an epidermal growth factor receptor (EGFR) mutation, no anaplastic lymphoma kinase expression, and less than 1% expression of programmed death ligand 1. She received erlotinib alone for approximately 1 month. She then received erlotinib and the dendritic cells pulsed with Wilms’ tumor 1 and mucin 1 vaccine. The diameter of the erythema at the vaccinated sites was 30 mm at 48 hours after the first vaccination. Moreover, it was maintained at more than 20 mm during the periods of vaccination. These results suggested the induction of antitumor immunity by the vaccine. Remarkably, the tumor size decreased significantly to 12 mm, a 65.7% reduction, after combined therapy with eight doses of the dendritic cells pulsed with Wilms’ tumor 1 and mucin 1 vaccine and erlotinib for 237 days based on fluorodeoxyglucose uptake by positron emission tomography/computed tomography and computed tomography. Interestingly, after 321 days of combination therapy, the clinical findings improved, and no tumor was detected based on computed tomography. Validation of the tumor’s disappearance persisted for at least 587 days after treatment initiation, without any indication of recurrence or metastasis.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38336778_tr.json",
+    "source_pmid": "38336778",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38336778_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:35:19",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Dendritic cell vaccination in combination with erlotinib in a patient with inoperable lung adenocarcinoma: a case report",
+    "author": "Takuya Kosumi; Masanori Kobayashi; Shigetaka Shimodaira; Haruo Sugiyama; Shigeo Koido",
+    "date": "2024-02-10"
+  },
+  "rejection_reason": null
+}

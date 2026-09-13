@@ -1,0 +1,28 @@
+{
+  "text": "Title: Case of HER2-Mutated Non-Small-Cell Lung Cancer with Brain Metastases Treated with Trastuzumab Deruxtecan\nPMID: \nAuthors: \n\nAbstract\nIn non-small-cell lung cancer (NSCLC), activating human epidermal growth factor receptor 2 (HER2) mutations are found in a small subset of patients and are associated with a higher incidence of brain metastases (BMETSs), conferring poor survival outcomes. Trastuzumab deruxtecan (T-DXd) was recently approved as a second-line agent for use in patients with previously treated, unresectable, or metastatic HER2-mutated NSCLC. We present a case of HER2-mutated NSCLC with BMETS, treated with T-DXd to defer whole-brain radiotherapy (WBRT) because of the concern of long-term neurotoxicity. He initially also received bevacizumab to address the cerebral edema, which allowed stopping corticosteroids. After the first two doses, the patient had remarkable clinical and imaging (brain and systemic) responses without progression after more than 1 year of treatment. T-DXd may be an effective and durable therapy for patients with HER2-mutated NSCLC with brain metastases in situations where intracranial disease would otherwise warrant WBRT. Clinical trials are needed to understand the efficacy and durability of T-DXd in NSCLC with BMETS and the optimal sequence of available therapies.\n\n2. Case Description\nA 67-year-old male with a 25-pack-year smoking history presented with left focal motor seizure and expressive aphasia. Brain magnetic resonance imaging (MRI) demonstrated innumerable supra- and infratentorial peripheral enhancing lesions with edema, suggesting intracranial metastases. A body positron emission tomography-CT revealed a hypermetabolic left lung mass and mediastinal and supraclavicular lymph nodes compatible with lung cancer.\nAn endobronchial biopsy of the lung mass revealed adenocarcinoma. PDL1 IHC (22C3) was 100%, and IHC testing for HER2 expression was 2+. Fluorescence in situ hybridization (FISH) testing demonstrated HER2 amplification with an average HER2 copy number of > 4.0 signals per cell (Figure 1a). Next-generation DNA-based sequencing testing later revealed a HER2 exon20 insertion, reported as “ERBB2 Y772_A775dup” (Figure 1b). This was not flagged as a variant of clinical significance.\nHe started pembrolizumab given high PDL1 expression. WBRT was recommended for the BMETS. He was referred to our center for a second opinion. A repeat brain MRI identified significantly increased size and number (> 60) of BMETS (Figure 2a). T-DXd was recommended, given the established efficacy in HER2-mutated NSCLC, to avoid potential long-term side effects associated with WBRT.\nPembrolizumab was discontinued after 1 cycle and T-DXd, 5.4 mg/kg, was started. Due to symptomatic corticosteroid-dependent cerebral edema, bevacizumab 7.5 mg/kg was also initiated. A repeat MRI brain obtained 6 weeks after T-DXd revealed remarkable improvement in cerebral edema and metastases (Figure 2b). Repeat CT chest revealed a decrease in size of the previously noted spiculated left lower lobe pulmonary nodule, from 3.5 to 2.1 cm, and complete resolution of previously enlarged mediastinal lymph nodes consistent with a partial response. The patient's neurologic symptoms resolved, allowing him to stop the corticosteroids and bevacizumab; he continued on single-agent T-DXd.\nAfter 16 months from baseline brain MRI (21 cycles of T-DXd), repeat brain MRI showed stable disease with no evidence of new lesions (Figure 2c). Repeat CT imaging also continued to show stable systemic disease; he continues to be treated with T-DXd (Figure 3).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40313527_tr.json",
+    "source_pmid": "40313527",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40313527_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:54:30",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Successful Treatment of Innumerable Untreated Brain Metastases With Trastuzumab Deruxtecan in Chemotherapy-Naïve HER2-Mutated Non-Small-Cell Lung Cancer",
+    "author": "Sara Young; Sean C Dougherty; Angela M DeRidder; Camilo E Fadul; Ryan D Gentzler",
+    "date": "2025-04-23"
+  },
+  "rejection_reason": null
+}

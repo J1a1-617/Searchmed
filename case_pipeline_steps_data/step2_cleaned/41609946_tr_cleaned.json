@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41609946_tr.json",
+    "source_pmid": "41609946",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41609946_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:27:15",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Unraveling heterogeneity in LUAD via multi-omics integration: molecular classification and therapeutic implications",
+    "author": "Shijian Zhen; Xiuying Zhang; Qunying Li; Zhihuan Liu; Dongdong Wang; Shuxue Xi; Shufang Shi; Geng Tian; Jialiang Yang; Haiwen Zhao; Jinyang Liu",
+    "date": "2026-01-29"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

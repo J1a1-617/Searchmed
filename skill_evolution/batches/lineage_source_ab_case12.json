@@ -1,0 +1,78 @@
+[
+  {
+    "instance_id": "case_12_node_1",
+    "case_id": "case_12",
+    "time_cutoff": "2023-05-19",
+    "node_description": "奥希替尼单药→奥希替尼+PC方案化疗",
+    "input": {
+      "disease_background": {
+        "diagnosis": "左肺腺癌，骨转移、肝转移，T1N3M1c IVB期",
+        "metastatic_sites": [
+          "骨",
+          "肝"
+        ],
+        "molecular_profile": {
+          "primary_mutation": "EGFR 19del",
+          "resistance_mutations": [],
+          "bypass_alterations": [],
+          "co_mutations": []
+        }
+      },
+      "prior_treatment_timeline": [
+        {
+          "regimen": "奥希替尼 80mg QD",
+          "start_date": "2023-04-04",
+          "end_date": "2023-05-19",
+          "best_response": "PR",
+          "reason_for_discontinuation": "为求更好疗效，尝试联合化疗"
+        }
+      ],
+      "current_status": {
+        "symptoms": [
+          "周身疼痛"
+        ],
+        "imaging": "肺、肝维持PR，骨转移病灶较前缩小",
+        "csf": "NA",
+        "performance_status": "ECOG 1"
+      },
+      "planned_treatment": {
+        "drugs": [
+          {
+            "name": "奥希替尼",
+            "dose": "80mg",
+            "route": "口服"
+          },
+          {
+            "name": "PC方案化疗",
+            "dose": "NA",
+            "route": "静脉注射"
+          }
+        ],
+        "combination_strategy": "奥希替尼联合化疗"
+      }
+    },
+    "ground_truth": {
+      "overall_benefit": "无明显获益",
+      "body_lesion_recist": "SD",
+      "cns_lm_recist": "NA",
+      "csf_trajectory": "未评估",
+      "symptom_trajectory": "加重",
+      "toxicity": {
+        "max_grade": 3,
+        "event": "严重口腔溃疡",
+        "has_toxicity_record": true
+      },
+      "key_evidence_items": [
+        "影像学提示肺、肝维持PR，骨转移病灶较前缩小",
+        "患者因严重口腔溃疡停用化疗"
+      ],
+      "pfs_months": null,
+      "na_flags": {
+        "csf_trajectory": true,
+        "cns_lm_recist": true,
+        "body_lesion_recist": false,
+        "symptom_trajectory": false
+      }
+    }
+  }
+]

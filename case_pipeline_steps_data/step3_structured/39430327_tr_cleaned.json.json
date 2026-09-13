@@ -1,0 +1,116 @@
+{
+  "provenance": {
+    "source_filename": "39430327_tr_cleaned.json",
+    "source_pmid": "null",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.8
+  },
+  "baseline_clinical_profile": {
+    "age": 43,
+    "sex": "female",
+    "smoking_status": "null",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "highly symptomatic progression"
+    ],
+    "diagnosis_date": "null",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "null",
+    "tnm_stage": "T4N3M1c",
+    "overall_stage": "IV",
+    "baseline_primary_site": "left lung",
+    "metastatic_sites_at_baseline": [
+      "liver"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "null",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK fusion variant 1",
+          "TP53 co-mutation"
+        ],
+        "sample": "diagnostic biopsy from primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "brigatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "brigatinib": "null"
+        }
+      },
+      "response": {
+        "best": "mixed response",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "null",
+      "event_type": "progression + rebiopsy + molecular + treatment",
+      "molecular": {
+        "findings": [
+          "overexpression of MET receptor",
+          "high-level MET-amplification"
+        ],
+        "sample": "new liver metastasis"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "alectinib",
+          "crizotinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "alectinib": "null",
+          "crizotinib": "null"
+        }
+      },
+      "response": {
+        "best": "pronounced objective response",
+        "duration_months": 6
+      },
+      "safety": {
+        "adverse_events": [
+          "none"
+        ],
+        "dose_adjustments": [
+          "none"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "alectinib",
+      "crizotinib"
+    ],
+    "mechanism": "null",
+    "severity": "null",
+    "clinical_manifestation": "null",
+    "management": "null",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 6,
+    "survival_status": "unknown",
+    "cause_of_death": "null",
+    "last_follow_up": "null"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "De novo MET-amplification as a mechanism of primary resistance to ALK-TKIs",
+      "Combination therapy with alectinib and crizotinib resulted in significant response",
+      "No adverse events reported during ongoing treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

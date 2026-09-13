@@ -1,0 +1,84 @@
+{
+  "provenance": {
+    "source_filename": "41132716_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 66,
+    "sex": "male",
+    "smoking_status": "heavy_smoker",
+    "pack_years": 40,
+    "presenting_symptoms": [
+      "cough with white sticky sputum"
+    ],
+    "diagnosis_date": "2024-11",
+    "cancer_type": "C-SCLC",
+    "histology": "composite small cell carcinoma + squamous cell carcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "T1bN0M0",
+    "overall_stage": "IA2",
+    "baseline_primary_site": "left upper lobe",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2024-11",
+      "event_type": "diagnosis + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "albumin-bound paclitaxel",
+          "carboplatin",
+          "serplulimab"
+        ],
+        "type": "chemotherapy + immunotherapy",
+        "dosage": {
+          "albumin-bound paclitaxel": "300 mg",
+          "carboplatin": "700 mg",
+          "serplulimab": "300 mg"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-07",
+      "event_type": "diagnosis + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": null,
+        "type": "surgery",
+        "dosage": null
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "C-SCLC diagnosis confirmed by postoperative pathology",
+      "Case 1: composite small cell carcinoma combined with squamous cell carcinoma",
+      "Case 2: composite small cell carcinoma combined with large cell carcinoma",
+      "Both patients had a history of heavy smoking",
+      "No recurrence observed during follow-up"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

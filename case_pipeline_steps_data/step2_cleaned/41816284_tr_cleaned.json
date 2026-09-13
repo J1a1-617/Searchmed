@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41816284_tr.json",
+    "source_pmid": "41816284",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41816284_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:34:49",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Predicting and interpreting protein and phosphoprotein abundance from pan-cancer and single-cell transcriptomes",
+    "author": "Hui-Mei Tsai; Tzu-Hung Hsiao; Yu-Chiao Chiu; Yufei Huang; Eric Y Chuang; Yidong Chen",
+    "date": "2026-01-27"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

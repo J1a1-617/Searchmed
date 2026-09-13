@@ -1,0 +1,210 @@
+{
+  "provenance": {
+    "source_filename": "37384219_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 42,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2009",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT1N3M0",
+    "overall_stage": "IIIB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2009",
+      "event_type": "diagnosis + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "cisplatin",
+          "docetaxel",
+          "radiation 60 Gy"
+        ],
+        "type": "chemoradiotherapy",
+        "dosage": {
+          "cisplatin": null,
+          "docetaxel": null
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2009",
+      "event_type": "maintenance + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "maintenance",
+        "regimen": [
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2012-12",
+      "event_type": "recurrence + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ALK expression detected"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2012-12",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "carboplatin",
+          "nanoparticle albumin-bound-paclitaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2014",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "alectinib"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 84
+      }
+    },
+    {
+      "time": "2021-08",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK fusion",
+          "TP53 mutation"
+        ],
+        "sample": "liver metastases"
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "brigatinib"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2021",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "lorlatinib"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2021",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "7L",
+        "regimen": [
+          "atezolizumab",
+          "bevacizumab",
+          "carboplatin",
+          "paclitaxel"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "atezolizumab": "1200 mg",
+          "bevacizumab": "7.5 mg/kg",
+          "carboplatin": "AUC 5",
+          "paclitaxel": "140 mg/m2"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 5
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 3 febrile neutropenia",
+          "grade 3 thrombocytopenia"
+        ],
+        "dose_adjustments": [
+          "reduced dose of carboplatin and paclitaxel due to liver injury"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "brigatinib",
+      "lorlatinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 92,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "ALK-positive lung adenocarcinoma with multiple liver metastases",
+      "Rapid progression to liver metastases while on ALK-TKIs",
+      "Successful clinical response to combination therapy (ABCP)"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

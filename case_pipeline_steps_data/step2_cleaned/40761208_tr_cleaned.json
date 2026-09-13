@@ -1,0 +1,28 @@
+{
+  "text": "Title: Transformation of Non-Small Cell Lung Cancer to Small Cell Lung Cancer: A Case Report\nPMID: \nAuthors: \n\nAbstract\nBackground\nTransformation into small-cell lung carcinoma (SCLC) is a common acquired resistance mechanism to epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors (TKIs). Re-tumor biopsy is crucial for identifying the definite tumor resistance mechanism. However, multiple mechanisms may occur simultaneously during TKI treatment. A single biopsy specimen is insufficient to accurately represent all resistance mechanisms at progressive sites.\n\nCase Description\nIn this case, we present a 58-year-old male with metastatic pulmonary adenocarcinoma (ADC) who had an EGFR exon 19 mutation and received first-line gefitinib and second-line osimertinib. Biopsy results from different progressive sites confirmed the presence of SCLC in pleural metastatic specimens, while the primary tumor had the EGFR exon 19 mutation and mutations of Phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha (PIK3CA) and v-Ki-ras2-Kirsten rat sarcoma viral oncogene homolog (KRAS). We utilized an effective combination therapy of permanent radioactive iodine-125 seed implantation (PRISI) as local consolidative therapy (LCT), along with the standard carboplatin-etoposide regimen for SCLC and continued osimertinib. Extracranial tumors were successfully controlled. The patient succumbed to intracranial disease progression without radiotherapy, with an overall survival (OS) of 15 months after SCLC transformation.\n\nKeywords: Case report, heterogeneous tyrosine kinase inhibitor-resistance (heterogeneous TKI-resistance), small cell lung cancer transformation, 125I radiotherapy, local consolidative therapy (LCT)\n\nCase presentation\nA 58-year-old male with a history of smoking presented with persistent chest distress for over 1 month and sought medical attention at an external facility. During the initial visit, a chest CT scan revealed a 4.2 cm × 4.3 cm lesion in the right upper lobe of the lung with metastases to the mediastinum and right hilum lymph nodes, as well as pleural effusion. A percutaneous lung biopsy confirmed the presence of EGFR 19del mutation, leading to a diagnosis of stage IVA right upper lobe lung ADC with EGFR 19del. The patient was initially treated with gefitinib as first-line therapy, resulting in a partial response (PR) and resolution of pleural effusion. The progression-free survival (PFS) of the first-line therapy was 23 months. Subsequently, the patient developed leptomeningeal metastasis (LM) and genetic testing of blood confirmed EGFR 19del. Therefore, the patient was switched to Osimertinib as second-line therapy, resulting in a PFS of 16 months. The patient presented to our clinic with pain in the right rib area. Imaging examination revealed new pleural metastases involving the ribs. An enlarged primary right upper lobe mass, as well as new brain metastases in the right occipital lobe and cerebellum. Laboratory findings showed an increase in serum carcinoembryonic antigen level to 50.59 ng/mL (normal range, 0–5 ng/mL) and an elevated serum neuron-specific enolase (NSE) level of 27.40 ng/mL (normal range, 0–16.2 ng/mL). The patient underwent biopsies and PRISI on both the pleural metastases and the primary right upper lobe mass. The pathology findings of the pleural metastases indicated SCLC. Immunohistochemical staining confirmed positive results for chromogranin A (CgA), synaptophysin (Syn) and CD56, and negative results for thyroid transcription factor-1 (TTF-1), CK5/6, and vimentin. On the other hand, the pathology findings of the right upper lobe mass were consistent with primitive ADC. The mass showed positive results for CK7 and TTF1, and negative results for CgA, CD56, and Syn. Next-generation sequencing of the right upper lobe mass tissue revealed EGFR 19del mutation, as well as mutations of PIK3CA and KRAS. Unfortunately, molecular analyses on pleural metastases could not be performed due to insufficient material. Following LPRISI, the patient received 6 cycles of platinum-etoposide in combination with continuous osimertinib and tolerated well. This treatment regimen resulted in a progression-free survival (PFS) of 10 months for the three-line therapy. Subsequently, the patient experienced difficulty in moving his right leg. Magnetic resonance imaging (MRI) revealed the progression of CNS metastasis. However, the CT scan indicated that there was a maintenance of complete response (CR) in both pleural metastases and the right upper lobe mass, and no extracranial metastases were detected. Receiving only palliative care, the patient unfortunately passed away 15 months after the transformation into SCLC.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40761208_tr.json",
+    "source_pmid": "40761208",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40761208_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:56:44",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Heterogeneity and co-occurrence of resistance mechanisms in EGFR-TKI-induced NSCLC to SCLC transformation: a case report",
+    "author": "Xiaoli Liu; Lijuan Zhang; Guohui Cao; Ke Xu; Juan Wang; Hongtao Zhang",
+    "date": "2025-06-18"
+  },
+  "rejection_reason": null
+}

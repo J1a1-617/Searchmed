@@ -1,0 +1,91 @@
+{
+  "provenance": {
+    "source_filename": "41476315_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.8
+  },
+  "baseline_clinical_profile": {
+    "age": 74,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "lung adenocarcinoma",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": null
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS G12C mutation",
+          "PD-L1 5%"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "platinum-based chemotherapy",
+          "immunotherapy"
+        ],
+        "type": "combination",
+        "dosage": null
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "enfortumab vedotin"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "enfortumab vedotin": null
+        }
+      },
+      "response": {
+        "best": "CR for urothelial lesions, PR for lung lesions",
+        "duration_months": 16
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 2 neuropathy"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Concomitant urothelial and lung adenocarcinoma",
+      "Both tumors responded to enfortumab vedotin",
+      "Complete response of urothelial lesions and partial response of lung lesions"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

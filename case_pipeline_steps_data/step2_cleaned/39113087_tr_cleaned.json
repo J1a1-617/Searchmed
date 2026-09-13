@@ -1,0 +1,28 @@
+{
+  "text": "Title: Treatment of a 70-Year-Old Patient with EGFR-Mutant Non-Small Cell Lung Cancer and Cerebral Oligo-Progression\nPMID: \nAuthors: \n\nAbstract\nFirst- and second-generation anti-epithelial growth factor receptor tyrosine kinase inhibitors have shown great efficacy in the treatment of advanced adenocarcinoma with epithelial growth factor receptor mutations, but this efficacy is limited by certain resistance mechanisms, in particular the T790M mutation, which must be screened before second-line treatment with osimertinib is indicated. The search for this mutation is sometimes difficult, especially in cases of intracranial relapse, through this case report we attempt to discuss the possibility of initiating treatment with osimertinib despite an unknown T790M mutation in such situation.\n\nCase report\nWe present the case of a 70-year-old Moroccan male patient diagnosed with non-small cell lung carcinoma initially metastatic to the pleura with an epithelial growth factor receptor mutation who received gefitinib in first line with a complete response, he subsequently presented with cerebral oligo-progression with extra cranial stability. The patient was started on osimertinib with unknown T790M status, as it was impossible to perform a cerebral biopsy, the evolution was characterized by a partial response followed by stereotactic radiotherapy then a complete response for 2 years.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39113087_tr.json",
+    "source_pmid": "39113087",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39113087_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:51:46",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Complete response in a lung adenocarcinoma with pleural metastases initially treated with gefitinib and switched to osimertinib after cerebral oligo-progression with unknown T790M mutation: a case report and review of literature",
+    "author": "Mariem Hachlaf; Sihame Lkhoyaali; Wydad Nadir; Hajar Lemsyeh; Brahim El Ghissassi; Hind Mrabti; Saber Boutayeb; Hassan Errihani",
+    "date": "2024-08-08"
+  },
+  "rejection_reason": null
+}

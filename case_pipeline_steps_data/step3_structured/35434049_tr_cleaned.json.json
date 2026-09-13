@@ -1,0 +1,118 @@
+{
+  "provenance": {
+    "source_filename": "35434049_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 46,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "persistent dry cough"
+    ],
+    "diagnosis_date": "2018-11",
+    "cancer_type": "NSCLC",
+    "histology": "poorly differentiated",
+    "tnm_stage_system": "TNM",
+    "tnm_stage": "T4N3M1",
+    "overall_stage": "IV",
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": [
+      "left pleura",
+      "liver",
+      "pericardium",
+      "bone"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2018-11",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "MET fusions (KIF5B-MET, MET-CDR2)",
+          "TP53 C277X"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gemcitabine",
+          "cisplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "gemcitabine": "1.0 g/m2 on days 1 and 8",
+          "cisplatin": "75 mg/m2 on day 1"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2019-02",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET fusions (KIF5B-MET, MET-CDR2)"
+        ],
+        "sample": "tumor biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2019-05",
+      "event_type": "progression",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "nivolumab"
+        ],
+        "type": "immunotherapy",
+        "dosage": null
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 7,
+    "survival_status": "dead",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with concurrent MET fusions (KIF5B-MET and MET-CDR2)",
+      "Initial treatment with gemcitabine and cisplatin was ineffective",
+      "Crizotinib led to a partial response within 4 weeks",
+      "Disease progressed after 3 months of crizotinib therapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

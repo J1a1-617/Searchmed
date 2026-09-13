@@ -1,0 +1,28 @@
+{
+  "text": "Title: Acquired ERBB2 amplification and overexpression as on-target resistance mechanisms to zongertinib with subsequent response to trastuzumab-deruxtecan: a case report\nPMID: 100960\nAuthors: McMahon DJ, John A, Kalofonou F, et al.\n\nAbstract\nA number of drugs are in development for the treatment of ERBB2(HER2)-mutated NSCLC, including antibody-drug conjugates such as trastuzumab-deruxtecan and tyrosine kinase inhibitors such as zongertinib and sevabertinib. Herein, we report a case of relapsed advanced ERBB2-mutant NSCLC with acquired resistance to zongertinib potentially mediated through ERBB2 amplification and HER2 3+ immunohistochemistry overexpression with subsequent durable response to fifth-line trastuzumab-deruxtecan. We propose this as a mechanism for zongertinib resistance, one that may underpin a biological rationale for future ERBB2 tyrosine kinase inhibitor–antibody-drug conjugate combination therapy.\n\nCase Presentation\nIn March 2021, a 62-year-old White man with no prior tobacco exposure was diagnosed with having ERBB2 (Y772_A775dup)-mutant NSCLC adenocarcinoma and underwent resection. The final histology was pT2aN0PL1R0. PD-L1 tumour proportion score was more than 50%. ERBB2 status was not tested using immunohistochemistry (IHC). Tissue DNA and RNA identified an ERBB2m (Y772_A775dup) but no ERBB2 amplification nor copy number gain.\nIn March 2023, the patient relapsed with bone and mediastinal disease. Endobronchial ultrasound of stations 7 and 11L confirmed TTF-1–positive adenocarcinoma. Next-generation sequencing (NGS) was unchanged, detecting the parent ERBB2 mutation with no ERBB2 copy number gain. ERBB2 IHC was 1+ (gastric scoring). In May 2023, the patient developed brain metastases and spinal cord compression (C6–T3) requiring both palliative spinal radiotherapy (20 Gy in five fractions) and stereotactic radiosurgery to seven brain metastases. He commenced first-line carboplatin-pemetrexed, remaining on maintenance pemetrexed until February 2024, when he began second-line weekly paclitaxel because of deteriorating performance status from liver, brain, pulmonary, and bony progressive disease. The patient also had multiple small cerebrovascular accidents during this time, because of progressive disease, and further palliative radiotherapy was delivered to the spine and pelvis (20 Gy in five fractions to lower spinal and pelvic disease).\nIn May 2024, the patient commenced compassionate-use third-line zongertinib with a brisk symptomatic improvement. Interval computed tomography (CT) after 5 weeks demonstrated partial response (reduction in size of pulmonary and hepatic metastases, approximately 50% shrinkage). This response was maintained for 8 months. CT in January 2025 demonstrated progression of disease in the liver. The patient elected to continue on zongertinib beyond progression because of ongoing clinical benefit. CT in February 2025 demonstrated further progression in the liver and bone. Repeat liver biopsy in February 2025 demonstrated TTF-1–positive adenocarcinoma without neuroendocrine differentiation and ERBB2 overexpression (IHC 3+, gastric scoring). In-house tissue DNA NGS demonstrated the parent ERBB2 mutation (Y772_A775dup) along with ERBB2 amplification (copy number gain >8) and CDK12 amplification. No fusions or other actionable findings were identified on RNA NGS. Confirmatory fluorescent in situ hybridization was not performed because of resource constraints. He received one cycle of carboplatin-gemcitabine bridging therapy. The patient developed a further cerebrovascular accident and developed further brain metastases.\nIn March 2025, the patient received the first cycle of T-DXd. In June 2025, after 4 cycles of T-DXd, CT and positron emission tomography/CT demonstrated response to therapy with reduction in size of liver lesions and reduction in SUVmax in bone, pleural, and liver metastases (Figs. 1 and 2), underpinned by a marked symptomatic improvement. This included reduction in fatigue, returning to work and hobbies, improved balance, and improved exercise tolerance. Treatment has been tolerated without evidence of significant toxicity to date, and response is ongoing while remaining on treatment in January 2026.\nRestaging CT in November 2025 revealed maintained response (Response Evaluation Criteria in Solid Tumors version 1.1 partial response), and positron emission tomography/CT now reveals evidence of complete metabolic response. The patient continues on T-DXd with ongoing clinical benefit, after 8 months of T-DXd.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41798167_tr.json",
+    "source_pmid": "41798167",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41798167_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:34:08",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Acquired ERBB2 Amplification and Overexpression as On-Target Resistance Mechanisms to Zongertinib With Subsequent Response to Trastuzumab-Deruxtecan: A Case Report",
+    "author": "David John McMahon; Alexius John; Foteini Kalofonou; Nawa Amin; Sarah Sarker; Joanna Vick; Nadia Yousaf; Nadza Tokaca; JanLukas Robertus; Suzanne MacMahon; Sanjay Popat",
+    "date": "2026-01-22"
+  },
+  "rejection_reason": null
+}

@@ -1,0 +1,182 @@
+{
+  "provenance": {
+    "source_filename": "38903714_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 61,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "cough"
+    ],
+    "diagnosis_date": "2018-12",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT4N2M1a",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2018-12",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR 19Del"
+        ],
+        "sample": "pleural effusion"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "icotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "icotinib": "125 mg tid"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2019-06",
+      "event_type": "progression + imaging + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "RAPID-Arc radiotherapy"
+        ],
+        "type": "radiotherapy",
+        "dosage": {
+          "GTV": "55 Gy in 22 fractions",
+          "CTV": "40 Gy in 22 fractions"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 21
+      }
+    },
+    {
+      "time": "2022-07",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR T790M",
+          "EGFR 19Del",
+          "EGFR cis-C797S"
+        ],
+        "sample": "blood"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "ametinib",
+          "bevacizumab"
+        ],
+        "type": "targeted_combination",
+        "dosage": {
+          "ametinib": "110 mg qd",
+          "bevacizumab": "400 mg q3w"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2022-07",
+      "event_type": "treatment + trial + combination",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "pemetrexed",
+          "cisplatin",
+          "bevacizumab",
+          "sintilimab"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "sintilimab": "200 mg q3w"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2022-11",
+      "event_type": "imaging + response assessment",
+      "molecular": {
+        "alterations": [
+          "no EGFR 19Del",
+          "no T790M",
+          "no cis-C797S mutations"
+        ],
+        "sample": "blood"
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "pemetrexed",
+          "recombinant human endostatin",
+          "sintilimab"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "recombinant human endostatin": "30 mg d1–7, q3w"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "ametinib",
+      "bevacizumab",
+      "pemetrexed",
+      "cisplatin",
+      "sintilimab",
+      "recombinant human endostatin"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 15,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2023-10"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Successful combination treatment with PD-1 inhibitor, anti-VEGF therapy, and chemotherapy",
+      "Acquired resistance due to EGFR 19Del/T790M/cis-C797S mutation",
+      "Patient remained progression-free for 15 months"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

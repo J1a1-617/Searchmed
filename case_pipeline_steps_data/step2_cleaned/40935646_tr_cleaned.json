@@ -1,0 +1,28 @@
+{
+  "text": "Title: 免疫检查点抑制剂治疗非小细胞肺癌患者发生小细胞转化的病例报告\nPMID: \nAuthors: \n\nAbstract\n非小细胞肺癌（non-small cell lung cancer, NSCLC）作为肺癌的主要组织学亚型，在所有肺癌病例中约占85%。近年来，以程序性死亡受体1/配体1（programmed death 1/programmed death ligand 1, PD-1/PD-L1）抑制剂为代表的免疫检查点抑制剂（immune checkpoint inhibitors, ICIs）在驱动基因阴性的NSCLC患者中取得了突破性进展，已被确立为一线治疗方案的重要组成部分并显著改善临床预后。然而，已有少量临床证据显示存在ICIs单药或联合治疗进展患者出现NSCLC向小细胞肺癌（small cell lung cancer, SCLC）组织学转化现象，而对于此类转化事件的临床特征、分子生物学基础及后续治疗策略目前仍缺乏系统性研究数据。本文报道了1例KRAS突变的肺腺癌患者经ICIs联合治疗16个月后发生SCLC转化的病例，并通过结合22例相似的文献病例进行了系统回顾。既往研究表明，小细胞转化是免疫治疗耐药的重要机制，转化后患者预后差。本文强调了治疗期间动态监测神经元特异性烯醇化酶（neuron-specific enolase, NSE）及规范二次活检的重要性，为临床实践提供了依据，有助于提高对这类少见的组织学转化的认知与应对能力，改善患者治疗效果。\n\nCase Presentation\n患者男，70岁，吸烟40余年，1包/d。于2023年10月因“食欲减退伴消瘦半年余”就诊，经影像学及病理学检查确诊为肺腺癌（IV期），伴脑、骨、肝、肾等多发转移，确诊后患者戒烟。免疫组化（图1）提示甲状腺转录因子1（thyroid transcription factor-1, TTF-1）（+），CD56（-），CgA（-），突触核蛋白（Synuclein, Syn）（-），Napsin A（部分+），CK5/6（-），CK7（+），P40（个别+），P53（-），P63（局灶+），EGFR（+），ALK（-），细胞增生核抗原（ki-67 antigen, Ki67）约为50%，程序性死亡配体1（programmed death ligand 1, PD-L1）肿瘤细胞阳性比例分数（tumor proportion score, TPS）=90%。基因检测显示：微卫星稳定（microsatellite-stable, MSS），KRAS p.G12C突变，CDKN2缺失，肿瘤突变负荷（tumor mutational burden, TMB）高达27.56 Muts/Mb。\n2023年10月18日，患者行枕部脑转移病灶伽马刀治疗，2023年10月20日至2024年2月26日，行7个周期“培美曲塞0.6 g+贝伐珠单抗300 mg+信迪利单抗200 mg，每3周1个疗程”联合治疗。治疗期间每2个周期依据实体瘤疗效评价标准1.1版（Response Evaluation Criteria in Solid Tumors version 1.1, RECIST 1.1）评估疗效，最佳疗效为部分缓解（partial response, PR）（图2）。2024年2月28日，因肌酐进行性升高（最高278 μmol/L），改为信迪利单抗免疫维持治疗，后肌酐水平部分恢复（145-157 μmol/L）。信迪利单抗免疫维持治疗至2025年1月15日，最佳疗效评估为疾病稳定（stable disease, SD）。2025年2月8日因肿瘤标志物神经元特异性烯醇化酶（neuron-specific enolase, NSE）显著升高（180.10 μg/L）（图3），进一步行影像学检查提示腹腔、腹膜后转移病灶进展增多增大，评价肿瘤进展（progressive disease, PD）（图2），再次活检病理证实为转移性小细胞癌，免疫组化（图1）提示：TTF-1（-），CD56（+），CgA（+），Syn（+），Napsin A（部分-），CK5/6（-），P63（-），Ki67（95%+），PD-L1 TPS=2%，再次基因检测：MSS，KRAS p.G12R突变，CCNE1扩增，出现TP53和RB1突变。考虑到患者肾功能不全，给予依托泊苷化疗1个疗程，化疗后患者症状未缓解。2025年3月11日出现肌红蛋白高、肾功能不全加重、高尿酸血症、肺部感染等不适，经治疗效果欠佳。2025年3月16日患者死亡。自确诊肺癌后OS约为17个月，自确诊小细胞转化OS仅1.5个月。",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40935646_tr.json",
+    "source_pmid": "40935646",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40935646_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:00:43",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Histological Transformation from Non-small Cell Lung Cancer to Small Cell Lung Cancer Induced by Immune Checkpoint Inhibitor Therapy: A Case Report and Literature Review",
+    "author": "Xiting CHEN; Wenyuan HE; Ning YANG; Lijuan XIONG; Haoqiang WANG; Peng LIU; Bo XIE; Juan ZHOU",
+    "date": "2025-07-20"
+  },
+  "rejection_reason": null
+}

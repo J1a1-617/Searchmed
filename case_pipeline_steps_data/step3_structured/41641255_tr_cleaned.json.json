@@ -1,0 +1,68 @@
+{
+  "provenance": {
+    "source_filename": "41641255_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 44,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "fever",
+      "pleuritic chest pain",
+      "dyspnea"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "lung adenocarcinoma",
+    "histology": "pulmonary colloid adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "right lower lobe",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "KRAS mutation",
+          "TP53 mutation",
+          "AXIN2 truncating variant"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": null,
+        "type": "chemotherapy",
+        "dosage": {}
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 36
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 36,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Pulmonary colloid adenocarcinoma mimicked a lung abscess",
+      "Histopathology confirmed colloid adenocarcinoma with visceral pleural invasion",
+      "Co-occurring KRAS and TP53 mutations identified"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

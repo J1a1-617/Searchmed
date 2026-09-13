@@ -1,0 +1,101 @@
+{
+  "provenance": {
+    "source_filename": "41068772_tr_cleaned.json",
+    "source_pmid": "unknown",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.8
+  },
+  "baseline_clinical_profile": {
+    "age": 79,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "constipation",
+      "dyspnoea",
+      "cough",
+      "expectoration",
+      "bilateral lower limb weakness",
+      "poor appetite"
+    ],
+    "diagnosis_date": "2025-01",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "rectum"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2024-10",
+      "event_type": "symptom_onset",
+      "molecular": null,
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2025-01",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "rectal metastatic tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "aumolertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "aumolertinib": "not specified"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2025-01",
+      "event_type": "palliative treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "palliative radiotherapy"
+        ],
+        "type": "radiotherapy",
+        "dosage": null
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": null,
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Rectal metastasis from lung adenocarcinoma is rare.",
+      "EGFR L858R mutation identified in metastatic tissue.",
+      "Patient underwent laparoscopic transverse colostomy."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

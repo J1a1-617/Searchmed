@@ -1,0 +1,111 @@
+{
+  "provenance": {
+    "source_filename": "41674938_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 41,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2019-12",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IVA",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes",
+      "right supraclavicular lymph nodes",
+      "T12 vertebra"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2019-12",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK fusion (variant 1)",
+          "RET p.R820H mutation"
+        ],
+        "sample": "cervical lymph node biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "alectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "alectinib": "1,200 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 62
+      }
+    },
+    {
+      "time": "2021-04",
+      "event_type": "treatment switch",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "denosumab"
+        ],
+        "type": "supportive",
+        "dosage": {
+          "denosumab": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2021-10",
+      "event_type": "follow_up + imaging",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "CR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "alectinib",
+      "zoledronic acid",
+      "denosumab"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 62,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient diagnosed with stage IV lung adenocarcinoma with EML4-ALK fusion and RET p.R820H mutation.",
+      "Partial response to alectinib treatment with sustained disease control.",
+      "No treatment-related adverse events observed over 62 months of follow-up."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

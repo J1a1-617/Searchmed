@@ -1,0 +1,28 @@
+{
+  "text": "Title: Long‐term survival of a patient with epidermal growth factor receptor (EGFR)‐mutant non‐small cell lung cancer (NSCLC) and untreated multiple brain metastases treated with zorifertinib: A case report\nPMID: 10.1111/1759-7714.15317\nAuthors: Li K, Chen B, Wang J, Wu L\n\nAbstract\nBrain metastases (BM) are common in patients with epidermal growth factor receptor (EGFR)‐mutant non‐small cell lung cancer (NSCLC) and confer poor prognoses. Zorifertinib (AZD3759), an EGFR‐tyrosine kinase inhibitor (TKI) with high blood‐brain barrier penetration, has previously demonstrated promising systemic and intracranial antitumor activity in phase 1–3 studies. This is the first report of a patient with EGFR‐mutant (exon 21 L858R) NSCLC and symptomatic untreated multiple BM who achieved a long overall survival (OS) of more than 65 months after sequential treatment with zorifertinib and a third‐generation EGFR‐TKI. This new treatment paradigm offers a new treatment option and deserves further clinical exploration to prolong OS of patients with EGFR‐mutant NSCLC and untreated multiple BM.\nKeywords: brain metastases, EGFR‐mutant NSCLC, third‐generation EGFR‐TKI, zorifertinib\n\nCASE REPORT\nA 65‐year‐old Asian, nonsmoking female was initially diagnosed with EGFR‐mutant (exon 21 L858R) NSCLC and multiple BM (adenocarcinoma; T2aN0M1c, stage IVb) in June 2018. She was enrolled in a phase 1–2 clinical trial which evaluated the safety, tolerability, pharmacokinetics, and antitumor activity of zorifertinib in Chinese patients with EGFR‐mutant NSCLC and BM (NCT03360929) on July 12, 2018. There were three target lesions (24.1–34.8 mm, Figure 1) with a total diameter of 93.5 mm, and multiple brain nontarget lesions at baseline. The ECOG performance status was 1. She had neurological symptoms at baseline including gait abnormalities (abnormal but walks without assistance) and decreased strength (movement present but decreased against resistance).\nThe patient received zorifertinib as first‐line treatment administered orally for 21‐day cycles starting on July 23, 2018. The starting dose of zorifertinib was 250 mg twice daily, and finally maintained at 150 mg twice daily after two dose reductions (Table 1). She continued on zorifertinib as she had shown clinical benefit (only single‐site metastasis without related symptoms, the intracranial lesions were still responding) when the first progressive disease (PD) in just the pleural nodules occurred on July 21, 2021. On October 26, 2022, the pleural nodules significantly progressed and the gene test using the pleural effusion showed EGFR T790M mutation. She was then prescribed the marketed third‐generation EGFR‐TKI aumolertinib as second‐line therapy. For a timeline of diagnosis to treatment, please refer to Figure 2.\nThe radiographic assessments per response evaluation criteria in solid tumors version 1.1 (RECIST1.1) following zorifertinib treatment were partial response (PR) for all the intra‐, extracranial, and overall tumor responses (Figure 1). The patient's neurological symptoms gradually improved and completely disappeared on October 18, 2018 after four‐cycle zorifertinib therapy (without any local treatments [requirement of the NCT03360929 study protocol]); and there were no relapses thereafter. Progression‐free survival (PFS) of first‐line zorifertinib treatment was 3 years, while the intracranial PFS was more than 4 years. By December 25, 2023, the duration of second‐line aumolertinib therapy was 13 months. The patient was still alive, and the OS was more than 65 months since the beginning of treatment with zorifertinib.\nMost treatment‐related adverse events (AEs) with zorifertinib were grade 1–2 (Table 2). Only dermatitis acneiform and aspartate aminotransferase increase were grade 3; both recovered after dose reduction (Table 1) and symptomatic treatment (S1 data, Appendix Table S1).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38666433_tr.json",
+    "source_pmid": "38666433",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38666433_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:41:14",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Long‐term survival of a patient with epidermal growth factor receptor (EGFR)‐mutant non‐small cell lung cancer (NSCLC) and untreated multiple brain metastases treated with zorifertinib: A case report",
+    "author": "Kang Li; Bolin Chen; Jingyi Wang; Lin Wu",
+    "date": "2024-04-26"
+  },
+  "rejection_reason": null
+}

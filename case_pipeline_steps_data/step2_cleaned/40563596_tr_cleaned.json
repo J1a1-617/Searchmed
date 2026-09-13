@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40563596_tr.json",
+    "source_pmid": "40563596",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40563596_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:27:35",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "The Genomic Landscape of Romanian Non-Small Cell Lung Cancer Patients: The Insights from Routine NGS Testing with the OncomineTM Dx Express Test at the PATHOS Molecular Pathology Laboratory",
+    "author": "Orsolya I Gaal; Andrei Ungureanu; Bogdan Pop; Andreea Tomescu; Andreea Cătană; Milena Man; Ruxandra Mioara Râjnoveanu; Emanuel Palade; Marioara Simon; Stefan Dan Luchian; Milan Paul Kubelac; Annamaria Fulop; Zsolt Fekete; Tudor Eliade Ciuleanu; Ion Jentimir; Calin Cainap; Alexandra Cristina Preda; Cosmina Magdau; Andrei Lesan; Bogdan Fetica",
+    "date": "2025-06-11"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

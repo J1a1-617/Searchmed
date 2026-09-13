@@ -1,0 +1,28 @@
+{
+  "text": "Title: Case of a 53-Year-Old Male with EGFR-Mutated Lung Adenocarcinoma and Resistance to Osimertinib\nPMID: \nAuthors: \n\nAbstract\nLung cancer stands as a leading cause of mortality in China, with EGFR mutations frequently identified as pivotal driver genes. Osimertinib, a tyrosine kinase inhibitor targeting EGFR mutations, is typically employed as a first-line treatment for EGFR-sensitive mutations; nevertheless, resistance can emerge. In this case report, we present the case of a 53-year-old non-smoking male diagnosed with stage IV lung adenocarcinoma bearing an EGFR exon 19 deletion. This patient eventually developed resistance to both Erlotinib and Osimertinib after 28 months of treatment. Subsequent genetic testing uncovered the emergence of new MET exon 14 skipping and MET fusion, coexisting with the initial EGFR exon 19 deletion. In light of this complex molecular profile, the patient was administered a combination therapy consisting of Osimertinib and Capmatinib. This novel approach yielded a partial response, and notably, the patient experienced a progression-free survival exceeding 7 months. Vigilant monitoring of the patient's progress revealed the disappearance of the MET exon 14 skipping and a notable improvement in the patient's symptoms. This case report underscores the potential efficacy of Osimertinib and Capmatinib combination therapy as a viable treatment strategy for patients harboring EGFR-mutated lung cancer who develop resistance to first-line EGFR inhibitors due to MET activation.\n\n1.1. Case presentation\nIn March 2018, a 53-year-old Chinese man, a lifelong non-smoker, presented with persistent chest tightness and pain. CT scans revealed multiple small lung nodules in the right lower lobe, and a subsequent biopsy confirmed the diagnosis of stage IV lung adenocarcinoma with EGFR exon 19 deletion (Fig. 1). The patient commenced first-line treatment with Erlotinib at a daily dose of 150 mg, resulting in a partial response (PR) as the tumors regressed. However, after 28 months, the patient's condition deteriorated, characterized by primary tumor enlargement and the emergence of new bone metastases. A biopsy confirmed the presence of both EGFR exon 19 deletion and the T790 M mutation.\nThe treatment approach was subsequently modified to oral Osimertinib at a daily dose of 80 mg, leading to a PR with a duration of 15.4 months (Fig. 1). However, further assessments indicated progressive disease (PD), characterized by new bone metastases and primary tumor enlargement. Next-generation sequencing identified the presence of new MET exon 14 skipping (c.3027_3028 + 21delAGGTATATTTCAGTTTATTGTTC) and MET fusion (EX13:EX15), in addition to the coexistence of EGFR exon 19 deletion (Fig. 2A–C, Table 1)\nTo address this complex molecular profile, the patient commenced a combination therapy regimen consisting of Osimertinib (80 mg, oral, daily) and Capmatinib (400 mg, oral, twice daily). This approach yielded a partial response with a manageable toxicity profile and a progression-free survival exceeding 7 months (Fig. 1A). Subsequent examinations revealed the disappearance of the MET exon 14 skipping, and the patient reported an improvement in symptoms such as coughing and expectoration. Additionally, the dual-target therapy effectively controlled the clinical condition of bone metastasis. The healthcare team maintained close monitoring of the patient's progress, ensuring that he received the appropriate treatment and support.\nThis case report highlights the potential efficacy of a combination therapy approach involving Osimertinib and Capmatinib in patients with EGFR-mutated lung cancer who develop resistance to initial EGFR inhibitors due to MET activation.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38074875_tr.json",
+    "source_pmid": "38074875",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38074875_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:33:25",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Presence of MET exon 14 skipping and fusion as mechanism of osimertinb resistance in a lung adenocarcinoma with an EGFR exon 19 deletion that responds to combination of capmatinib and osimertinb: A case report",
+    "author": "Siqi Xiang; Liang Zeng; Mingjun Xiang; Yongchang Zhang",
+    "date": "2023-11-18"
+  },
+  "rejection_reason": null
+}

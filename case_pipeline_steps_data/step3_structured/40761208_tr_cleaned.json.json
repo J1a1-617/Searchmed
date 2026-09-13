@@ -1,0 +1,135 @@
+{
+  "provenance": {
+    "source_filename": "40761208_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 58,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "persistent chest distress"
+    ],
+    "diagnosis_date": "YYYY-MM",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT2N3M1a",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "right upper lobe lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinum",
+      "right hilum lymph nodes",
+      "pleural effusion"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "YYYY-MM",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR 19del"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": "150 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 23
+      }
+    },
+    {
+      "time": "YYYY-MM",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR 19del"
+        ],
+        "sample": "blood"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": 16
+      }
+    },
+    {
+      "time": "YYYY-MM",
+      "event_type": "progression + biopsy + treatment",
+      "molecular": {
+        "findings": [
+          "SCLC"
+        ],
+        "sample": "pleural metastatic specimens"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "carboplatin",
+          "etoposide",
+          "osimertinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "carboplatin": "AUC 5",
+          "etoposide": "100 mg/m2",
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 10
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "carboplatin",
+      "etoposide"
+    ],
+    "mechanism": "unknown",
+    "severity": "none",
+    "clinical_manifestation": "none",
+    "management": "none",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 15,
+    "survival_status": "dead",
+    "cause_of_death": "intracranial disease progression",
+    "last_follow_up": "YYYY-MM"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR 19del mutation present in primary tumor",
+      "Transformation to SCLC from adenocarcinoma",
+      "Effective combination therapy incorporating PRISI and chemotherapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

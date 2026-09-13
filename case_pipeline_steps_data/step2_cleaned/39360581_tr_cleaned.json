@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "39360581_tr.json",
+    "source_pmid": "39360581",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39360581_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:56:02",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "USP13 facilitates a ferroptosis-to-autophagy switch by activation of the NFE2L2/NRF2-SQSTM1/p62-KEAP1 axis dependent on the KRAS signaling pathway",
+    "author": "Ling Chen; Jieling Ning; Li Linghu; Jun Tang; Na Liu; Yao Long; Jingyue Sun; Cairui Lv; Ying Shi; Tania Tao; Desheng Xiao; Ya Cao; Xiang Wang; Shuang Liu; Guangjian Li; Bin Zhang; Yongguang Tao",
+    "date": "2024-10-03"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

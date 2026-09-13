@@ -1,0 +1,94 @@
+{
+  "provenance": {
+    "source_filename": "40026143_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 75,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 30,
+    "presenting_symptoms": [
+      "lower back pain"
+    ],
+    "diagnosis_date": "2023-03",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM",
+    "tnm_stage": "TxN0M1b",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bone",
+      "prostate"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-03",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR 21L858R"
+        ],
+        "sample": "bone metastasis"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2023-07",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg qd"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 8
+      }
+    },
+    {
+      "time": "2024-09",
+      "event_type": "follow-up + evaluation",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "severe oral ulcer"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2024-09"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Occult EGFR-mutant lung adenocarcinoma with prostatic metastasis",
+      "Significant alleviation of pain symptoms with osimertinib",
+      "Importance of comprehensive diagnostic testing to avoid misdiagnosis"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "provenance": {
+    "source_filename": "35199052_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 67,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 18,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "combined large cell neuroendocrine carcinoma with mixed adenocarcinoma subtypes",
+    "tnm_stage_system": null,
+    "tnm_stage": "pT1bN2M0",
+    "overall_stage": "III A",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion",
+          "RB1 mutation",
+          "TP53 mutation",
+          "SMAD4 mutation",
+          "PTEN mutation",
+          "MST1R mutation",
+          "PIK3CA mutation"
+        ],
+        "sample": "primary tumor"
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [],
+        "type": null,
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Transitional analysis of NSCLC subtypes through gene mutations",
+      "Presence of multiple gene mutations during transdifferentiation",
+      "Combined histological components with significant mutation profiles"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

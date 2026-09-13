@@ -1,0 +1,134 @@
+{
+  "provenance": {
+    "source_filename": "41435715_tr_cleaned.json",
+    "source_pmid": "null",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 70,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "persistent weakness in both lower limbs"
+    ],
+    "diagnosis_date": "2020-09",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "T2aN2M0",
+    "overall_stage": "IIIa",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-09",
+      "event_type": "surgery + diagnosis",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion (c.2236_2250del)"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": "900 mg",
+          "carboplatin": "550 mg q3w"
+        }
+      },
+      "response": {
+        "best": "null",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2021-02",
+      "event_type": "treatment + adverse_event",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion (c.2236_2250del)"
+        ],
+        "sample": "null"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "null",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "multiple peripheral neuropathy"
+        ],
+        "dose_adjustments": [
+          "discontinued osimertinib"
+        ]
+      }
+    },
+    {
+      "time": "2021-08",
+      "event_type": "treatment + outcome",
+      "molecular": {
+        "alterations": [],
+        "sample": "null"
+      },
+      "treatment": {
+        "line": "TCM treatment",
+        "regimen": [
+          "traditional Chinese medicine decoction"
+        ],
+        "type": "alternative",
+        "dosage": {
+          "TCM": "180 mL bid"
+        }
+      },
+      "response": {
+        "best": "improved",
+        "duration_months": 7
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib"
+    ],
+    "mechanism": "null",
+    "severity": "null",
+    "clinical_manifestation": "null",
+    "management": "discontinued osimertinib",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "alive",
+    "cause_of_death": "null",
+    "last_follow_up": "2025-03"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Osimertinib-induced multiple peripheral neuropathy is a rare adverse effect.",
+      "Traditional Chinese medicine decoction was effective in alleviating MPN symptoms."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

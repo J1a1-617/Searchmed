@@ -1,0 +1,142 @@
+{
+  "provenance": {
+    "source_filename": "40330948_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 65,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2020-04",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT2aN0M1b IVa",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-04",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR G719X",
+          "EGFR L861Q"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "afatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "afatinib": "40 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2020-05",
+      "event_type": "treatment + radiation",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "SRT"
+        ],
+        "type": "radiation",
+        "dosage": {
+          "SRT": "30 Gy in 5 fractions, 6 Gy/fraction"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2020-12",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR G719X",
+          "EGFR L861Q"
+        ],
+        "sample": "resected brain metastasis"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "SRT"
+        ],
+        "type": "radiation",
+        "dosage": {
+          "SRT": "25 Gy in 5 fractions"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2021-07",
+      "event_type": "treatment + radiation",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "afatinib",
+          "SBRT"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "SBRT": "50 Gy in 5 fractions, 10 Gy/fraction"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 6
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 1 radiation pneumonitis"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "afatinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 32,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2023-01"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with uncommon EGFR mutations G719X and L861Q",
+      "Concurrent afatinib and SBRT showed prolonged PFS and OS",
+      "Grade 1 radiation pneumonitis occurred post-SBRT"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

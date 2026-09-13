@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40725828_tr.json",
+    "source_pmid": "40725828",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40725828_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:56:02",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Prognostic Impact of KRAS-TP53 Co-Mutations in Patients with Early-Stage Non-Small Cell Lung Cancer: A Single-Center Retrospective Study",
+    "author": "Lucia Motta; Francesca Molinari; Jana Pankovics; Benjamin Pedrazzini; Alexandra Valera; Samantha Epistolio; Luca Giudici; Stefania Freguia; Miriam Patella; Martina Imbimbo; Giovanna Schiavone; Milo Frattini; Patrizia Froesch",
+    "date": "2025-07-19"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

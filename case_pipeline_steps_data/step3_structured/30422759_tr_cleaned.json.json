@@ -1,0 +1,207 @@
+{
+  "provenance": {
+    "source_filename": "30422759_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.95
+  },
+  "baseline_clinical_profile": {
+    "age": 56,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 30,
+    "presenting_symptoms": [
+      "cough"
+    ],
+    "diagnosis_date": "2016-03",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT4N3M0",
+    "overall_stage": "IIIB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "right clavicular lymph node"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2016-03",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR Ex21 L858R",
+          "BIM heterozygous deletion polymorphism",
+          "RB1 mutation",
+          "TET2 mutation",
+          "DAXX mutation",
+          "ARID1A mutation"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2016-03",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "bevacizumab",
+          "gefitinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "bevacizumab": "500 mg d1 Q3W",
+          "gefitinib": "250 mg daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2
+      },
+      "safety": null
+    },
+    {
+      "time": "2016-05",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR Ex21 L858R"
+        ],
+        "findings": [
+          "no EGFR T790M"
+        ],
+        "sample": "blood (digital PCR)"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "bevacizumab",
+          "carboplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "bevacizumab": null,
+          "carboplatin": "AUC 5 Q3W",
+          "pemetrexed": "500 mg/m2 Q3W"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2
+      },
+      "safety": null
+    },
+    {
+      "time": "2016-07",
+      "event_type": "progression + treatment + surgery",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "palliative right lower lobectomy + partial middle lobectomy + subclavian lymph node sampling"
+        ],
+        "type": "surgery",
+        "dosage": null
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": "2016-08",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR Ex21 L858R",
+          "BIM heterozygous deletion polymorphism"
+        ],
+        "findings": [
+          "no MET amplification",
+          "no MET exon 14 skipping mutation"
+        ],
+        "sample": "post-surgery tissue sample"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2016-08",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "crizotinib",
+          "gefitinib"
+        ],
+        "type": "combination_targeted",
+        "ddi_pair": "crizotinib + gefitinib",
+        "drug_to_target": {
+          "crizotinib": [
+            "MET"
+          ],
+          "gefitinib": [
+            "EGFR"
+          ]
+        },
+        "dosage": {
+          "crizotinib": "250 mg twice daily",
+          "gefitinib": "250 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      },
+      "safety": null
+    },
+    {
+      "time": "2017-09-20",
+      "event_type": "evaluation + treatment",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "CR",
+        "duration_months": null
+      },
+      "safety": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "crizotinib",
+      "gefitinib"
+    ],
+    "mechanism": "Potential CYP3A4-mediated interaction; crizotinib is a moderate CYP3A4 inhibitor, gefitinib is a CYP3A4 substrate",
+    "severity": "moderate",
+    "clinical_manifestation": null,
+    "management": "No dose adjustment reported; regular monitoring recommended",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2017-09-20",
+    "treatment_discontinuation_reason": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "MET overexpression without amplification or exon 14 skipping mutation associated with EGFR-TKI resistance",
+      "Successful combination therapy with crizotinib and gefitinib",
+      "Complete response maintained with dual MET and EGFR inhibition"
+    ],
+    "ddi_relevance": "medium",
+    "generalizability": "low"
+  }
+}

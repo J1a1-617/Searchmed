@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41522142_tr.json",
+    "source_pmid": "41522142",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41522142_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:22:03",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Role of genetic alterations on outcomes for pulmonary resection in oligometastatic non-small cell lung cancer",
+    "author": "Zamaan Hooda; Raphael Werner; Shanique Ries; Michael Eisenberg; Wayne Hofstetter; Reza Mehran; Ravi Rajaram; David Rice; Stephen Swisher; Ara Vaporciyan; Garrett Walsh; Isabelle Opitz; Kyle G Mitchell; Mara B Antonoff",
+    "date": "2025-12-19"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

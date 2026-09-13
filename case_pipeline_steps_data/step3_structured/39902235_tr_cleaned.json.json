@@ -1,0 +1,107 @@
+{
+  "provenance": {
+    "source_filename": "39902235_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.95
+  },
+  "baseline_clinical_profile": {
+    "age": 40,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "painful swelling in the right knee"
+    ],
+    "diagnosis_date": "2022-02",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT1cN1M1b",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "right fibula"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-02",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "tissue biopsy from right lung mass"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "Osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "Osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2022-04",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "surgical",
+        "regimen": [
+          "thoracoscopic lobectomy",
+          "systematic lymph node dissection"
+        ],
+        "type": "surgery",
+        "dosage": null
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2022-07",
+      "event_type": "treatment + radiotherapy",
+      "molecular": null,
+      "treatment": {
+        "line": "radiotherapy",
+        "regimen": [
+          "local radiotherapy for fibular metastasis"
+        ],
+        "type": "radiotherapy",
+        "dosage": null
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 34,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2024-01",
+    "treatment_discontinuation_reason": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Rare case of solitary fibular metastasis from lung adenocarcinoma",
+      "Significant tumor reduction with Osimertinib",
+      "Successful surgical intervention and local radiotherapy",
+      "No recurrence or metastasis over 34 months of follow-up"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

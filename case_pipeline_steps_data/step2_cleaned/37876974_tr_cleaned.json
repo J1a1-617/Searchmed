@@ -1,0 +1,28 @@
+{
+  "text": "Title: RET Fusion in Lung Cancer: A Case Report of ISOC1-RET Fusion with Durable Response to Selpercatinib\nPMID: \nAuthors: \n\nAbstract\nRET fusions occur in 1–2% of non-small cell lung cancer. Selpercatinib and pralsetinib are selective RET inhibitors with significant improvement of outcome in patients with tumor harboring RET fusion; however, resistance mechanisms appear frequently, mainly driven by MAPK pathway bypass, secondary RET mutations, or in 5% via MET amplification. Co-inhibition of RET and MET is a compelling strategy for overcoming MET-dependent resistance to RET inhibitors and potentially other inhibitors. To our knowledge, this is the first report of a novel ISOC1-RET fusion lung cancer with a durable complete response to selpercatinib, with resistance via MET amplification, which was overcome by the successful combination of selpercatinib and capmatinib.\n\n2. Case report\nA 57-year-old female, non-smoker, diagnosed with stage IIIA NSCLC in 2012, was treated with lower left lobectomy and adjuvant cisplatin plus pemetrexed for four cycles.\nIn 2019, she presented with multiple small metastatic lung nodules. An attempt at a CT-guided biopsy in the lung failed to acquire significant amounts of tumor DNA for molecular analysis (FoundationOne CDx, Foundation Medicine, Cambridge, MA). The initial tumor from 2012 was sent for molecular analysis and did not show driver gene alterations, but the sample was classified as unqualified (FoundationOne CDx, Foundation Medicine, Cambridge, MA). Therefore, she was treated with pembrolizumab, carboplatin, and pemetrexed for 4 cycles, followed by pembrolizumab and pemetrexed q3 weeks for 6 months, with stable disease as the best response.\nAfter progression to first-line therapy in December 2019, a new biopsy (neck lymph node) was performed and sent for molecular analysis. Tumor NGS (FoundationOne CDx, Foundation Medicine, Cambridge, MA) identified an ISOC1-RET fusion (breakpoint in intron 1 of ISOC1 gene, chr5:128440428-128441063 and intron 11 of RET, chr10:43611181-43611710). She started treatment with selpercatinib 160 mg q12h on a compassionate use program ( Figure 1 ). She experienced a steep drop in her CEA levels within the first 3 months of treatment ( Figure 1 ) and a complete response on imaging ( Figures 1 and 2 ), accompanied by weight recovery and improved bone pain and fatigue. During treatment with selpercatinib, the patient developed grade 2 diarrhea and bilateral leg edema, which were managed with dietary changes, antidiarrheals and diuretics. 24 months after selpercatinib was started, the patient developed metabolic activity in the left adrenal gland, which was treated with stereotactic body radiotherapy.\nThe disease progressed in multiple lymph nodes, the left adrenal gland and the liver, and rising CEA levels after 30 months of selpercatinib use, when ISOC1-RET fusion remained and MET amplification of 29 copies was identified as a resistance mechanism by tissue NGS from a biopsy of the left adrenal gland ( Figure 1 ). She then initiated treatment with capmatinib 400 mg q12h and maintained selpercartinib, and within 1 week the CEA levels dropped. However, she developed grade 3 pneumonitis (dyspnea, hypoxemia, and ground-glass opacities on chest computed tomography, as depicted in Figure 3 ) with no infectious or autoimmune disease, and both drugs were held. After steroid use, the patient had a quick recovery. She remained off therapy for 2 months. During that time, she presented symptoms consistent with progressive disease in the liver, with abdominal pain, as well as rising CEA levels ( Figure 1 ). She was re-started on capmatinib and selpercatinib both at half-dose. After 3 months, the patient experienced a complete response by RECIST version 1.1, with normalization of CEA levels ( Figures 1 and 2 ) and no disease-related symptoms or medication-related adverse events. This response holds up to now, for at least 8 months.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "37876974_tr.json",
+    "source_pmid": "37876974",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/37876974_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:32:17",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Selpercatinib and capmatinib combination promotes sustained complete response in novel ISOC1-RET fusion lung cancer after resistance to RET inhibitor via MET amplification: Case Report",
+    "author": "Caio Abner Leite; Raíssa Pierri Carvalho; Felipe Marques da Costa; Augusto Kreling Medeiros; Fabio Augusto Schutz; William Nassib William; Jr",
+    "date": "2023-10-09"
+  },
+  "rejection_reason": null
+}

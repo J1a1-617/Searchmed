@@ -1,0 +1,110 @@
+{
+  "provenance": {
+    "source_filename": "32735723_tr_cleaned.json",
+    "source_pmid": "10.1111/cas.14593",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 55,
+    "sex": "male",
+    "smoking_status": "light_smoker",
+    "pack_years": 1,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 7th",
+    "tnm_stage": "T2aN2M0",
+    "overall_stage": "III A",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes",
+      "lung",
+      "bone",
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "primary tumor"
+      },
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "cisplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "cisplatin": null,
+          "pemetrexed": null
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "6 months after chemotherapy",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "erlotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "erlotinib": "150 mg/d"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "7 months after erlotinib",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR T790M"
+        ],
+        "sample": "plasma"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg/d"
+        }
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "progressive disease",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient initially treated with erlotinib for EGFR-L858R mutated NSCLC",
+      "Progression to EGFR-T790M mutation detected after erlotinib treatment",
+      "Intertumor heterogeneity observed with MET amplification and resistance to osimertinib"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "provenance": {
+    "source_filename": "39763602_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 67,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": 40,
+    "presenting_symptoms": [
+      "intermittent coughing",
+      "headache",
+      "nausea"
+    ],
+    "diagnosis_date": "2022-04",
+    "cancer_type": "NSCLC",
+    "histology": "pulmonary giant cell carcinoma",
+    "tnm_stage_system": "TNM",
+    "tnm_stage": "T4N2M1a",
+    "overall_stage": "IV",
+    "baseline_primary_site": "left upper lobe lung",
+    "metastatic_sites_at_baseline": [
+      "cerebral metastases"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-04",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "TP53 exon 4 c.313G"
+        ],
+        "sample": "lung tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "Penpulimab",
+          "Anlotinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "Penpulimab": "200 mg every 3 weeks",
+          "Anlotinib": "12 mg daily for 2 weeks, 1 week off"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2022-11",
+      "event_type": "follow_up + molecular",
+      "molecular": {
+        "CYFRA21-1": "2.61 ng/ml"
+      },
+      "treatment": {
+        "line": "continuation",
+        "regimen": [
+          "Anlotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "Anlotinib": "12 mg daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 7
+      }
+    },
+    {
+      "time": "2024-04",
+      "event_type": "follow_up",
+      "molecular": null,
+      "treatment": {
+        "line": "maintenance",
+        "regimen": [
+          "Anlotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "Anlotinib": "12 mg daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 2
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "Penpulimab",
+      "Anlotinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 26,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2024-04"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Combination of Penpulimab and Anlotinib shows significant reduction in lung and cerebral metastases.",
+      "Patient maintained on Anlotinib monotherapy after 2 years of Penpulimab treatment."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

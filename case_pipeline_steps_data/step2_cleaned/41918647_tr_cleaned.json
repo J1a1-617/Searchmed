@@ -1,0 +1,28 @@
+{
+  "text": "Title: Leptomeningeal metastases in EGFR L858R-mutated non-small cell lung cancer: A case report of long-term survival\nPMID: \nAuthors: \n\nAbstract\nLeptomeningeal metastases (LM) represent a severe and life-threatening manifestation of advanced non-small cell lung cancer (NSCLC). Despite advances in epidermal growth factor receptor (EGFR)-targeted therapies, central nervous system involvement continues to present major therapeutic challenges. We report a 73-year-old woman with EGFR L858R-mutated NSCLC who developed LM after multiple lines of therapy, including gefitinib, osimertinib, chemotherapy, anti-angiogenic therapy, and radiotherapy. Treatment with high-dose furmonertinib (240 mg daily) combined with bevacizumab resulted in symptom relief and additional survival. Remarkably, her overall survival exceeded six years from initial diagnosis. This case highlights the potential role of dose-escalated furmonertinib as salvage therapy in LM after osimertinib resistance and underscores the importance of sequential and multimodal management in advanced EGFR-mutant NSCLC.\n\nCase presentation\nA 73-year-old nonsmoking woman was admitted to the thoracic surgery department in October 2018 with complaints of chest and back pain. She underwent video-assisted thoracoscopic left upper lobectomy with mediastinal lymph node dissection. Intraoperatively, a 5 × 4 × 4 cm mass with ill-defined margins and visceral pleural indentation was observed in the left upper lobe. Postoperative pathology confirmed invasive adenocarcinoma with visceral pleural invasion, and one of seven lymph nodes was positive for metastasis. Molecular testing revealed an EGFR exon 21 L858R mutation, and the patient was diagnosed with left lung adenocarcinoma, staged as T2bN1M0 (stage IIB) according to the American Joint Committee on Cancer (AJCC) 8th edition TNM classification.\nFollowing surgery, the patient received adjuvant gefitinib starting in November 2018. She remained on gefitinib until January 2022, during which regular follow-up demonstrated no evidence of recurrence or metastasis.\nIn October 2023, she presented again with recurrent chest and back pain. PET-CT revealed mediastinal and hilar lymphadenopathy together with widespread skeletal metastases, indicating postoperative recurrence. She was started on osimertinib 80 mg daily, administered from October 2023 to March 2024, along with palliative radiotherapy to the T2-T3 vertebrae (30 Gy in 10 fractions). Follow-up CT scans showed partial regression of nodal disease, consistent with a partial response by RECIST (Response Evaluation Criteria in Solid Tumors) criteria, but progressive left pleural effusion developed. The patient experienced chest tightness and dyspnea and underwent thoracentesis, followed by intrapleural chemotherapy to control malignant effusion.\nFrom March to December 2024, she received a total of 12 cycles of pemetrexed- and cisplatin-based chemotherapy combined with bevacizumab, followed by maintenance therapy. Bevacizumab was administered every 21 days at a weight-based dose. Imaging demonstrated stable disease in the mediastinum and hilum and a reduction in pleural effusion compared with previous assessments.\nIn January 2025, the patient developed new neurological symptoms, including dizziness and headache. Cranial MRI was unremarkable. Lumbar puncture revealed an elevated opening pressure of 26 cmH2O, and cerebrospinal fluid cytology was positive for malignant adenocarcinoma cells, consistent with leptomeningeal metastasis. She was therefore started on high-dose furmonertinib (240 mg daily) in combination with bevacizumab, resulting in progressive relief of neurological symptoms within the first several weeks after treatment initiation. No long-term corticosteroids or opioid analgesics were required during the initial neurological response.\nDuring treatment with high-dose furmonertinib, the patient experienced decreased appetite and fatigue. No grade ≥3 treatment-related adverse events were observed, and the treatment was generally well tolerated.\nIn May 2025, she experienced recurrent severe headache and vomiting, and a cerebrospinal fluid diversion procedure was performed to relieve intracranial hypertension.\nDespite initial improvement, she developed persistent high fever and delirium in July 2025 and eventually died of presumed intracranial infection.\nA chronological overview of the disease trajectory, treatment interventions, and outcomes is summarized, highlighting the sequential application of surgery, targeted therapies, chemotherapy, radiotherapy, and neurosurgical procedures, as well as the dynamic adaptation of strategies in response to evolving disease progression.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41918647_tr.json",
+    "source_pmid": "41918647",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41918647_tr.json",
+    "cleaning_timestamp": "2026-06-07T13:51:31",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Triple-Dose Furmonertinib for Leptomeningeal Metastases in Advanced Epidermal Growth Factor Receptor (EGFR) L858R-Mutated Lung Adenocarcinoma: A Case Report",
+    "author": "Hong Wu; Lei Li; Jing Yang; Yuan Tian; Hui Wang",
+    "date": "2026-02-28"
+  },
+  "rejection_reason": null
+}

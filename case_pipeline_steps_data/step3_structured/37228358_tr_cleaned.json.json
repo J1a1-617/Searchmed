@@ -1,0 +1,79 @@
+{
+  "provenance": {
+    "source_filename": "37228358_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.8
+  },
+  "baseline_clinical_profile": {
+    "age": 60,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": 38,
+    "presenting_symptoms": [
+      "cough"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IIB",
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-06",
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "METex14 skipping"
+        ],
+        "sample": "Oncomine DxTT",
+        "read_count": 46
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "tepotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "tepotinib": "500 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 7
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 2 peripheral edema"
+        ],
+        "dose_adjustments": [
+          "reduced to 250 mg"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with lung adenocarcinoma harboring METex14 skipping responded to tepotinib",
+      "Initial negative METex14 skipping result on ArcherMET",
+      "Significant response observed after tepotinib treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

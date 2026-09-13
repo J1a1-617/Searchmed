@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41827789_tr.json",
+    "source_pmid": "41827789",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41827789_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:35:28",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Evaluating Tissue-Agnostic Approvals in Thoracic and Head and Neck Malignancies",
+    "author": "Daniel Thomas Jones; Rishi Kumar Nanda; Abbas Ali Hussain; Riccesha Hattin; Yin Mon Myat; Rajat Thawani; Jeremy Cetnar; Mohamed Shanshal; Kyaw Zin Thein; Shivaani Kummar",
+    "date": "2026-03-06"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

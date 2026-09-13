@@ -1,0 +1,104 @@
+{
+  "provenance": {
+    "source_filename": "39125693_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 82,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "lower back pain",
+      "left-sided weakness"
+    ],
+    "diagnosis_date": "2022-07",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "T4N3M1c",
+    "overall_stage": "IV",
+    "baseline_primary_site": "left upper lobe",
+    "metastatic_sites_at_baseline": [
+      "brain",
+      "bone",
+      "bilateral hilar lymph nodes",
+      "intrpulmonary nodes",
+      "subcarinal lymph nodes",
+      "bilateral mediastinal nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-07",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R",
+          "TP53 Splice Site SNV",
+          "ATM I2888T"
+        ],
+        "sample": "plasma"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "afatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "afatinib": "not specified"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2022-07-06",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "molnupiravir"
+        ],
+        "type": "antiviral",
+        "dosage": {
+          "molnupiravir": "not specified"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2022-07-26",
+      "event_type": "progression",
+      "molecular": null,
+      "treatment": null,
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "hypoxic respiratory failure",
+          "septic shock"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 0.87,
+    "survival_status": "dead",
+    "cause_of_death": "hypoxic respiratory failure",
+    "last_follow_up": "2022-07-26"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient diagnosed with advanced NSCLC with EGFR mutation",
+      "Rapid mutation detection using plasma-based NGS",
+      "Complicated by COVID-19 infection leading to respiratory failure"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

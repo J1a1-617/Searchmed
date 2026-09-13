@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "38617965_tr.json",
+    "source_pmid": "38617965",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38617965_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:40:46",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Revealing the active ingredients and mechanism of P. sibiricumm in non-small-cell lung cancer based on UPLC-Q-TOF-MS/MS, network pharmacology, and molecular docking",
+    "author": "Kaili Guo; Yu Jiang; Wei Qiao; Panpan Yuan; Miao Xue; Jiping Liu; Hao Wei; Bin Wang; Xingmei Zhu",
+    "date": "2024-04-03"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

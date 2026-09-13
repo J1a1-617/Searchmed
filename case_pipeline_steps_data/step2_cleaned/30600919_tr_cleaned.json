@@ -1,0 +1,28 @@
+{
+  "text": "Title: Pembrolizumab in a Patient with Non-Small Cell Lung Cancer and MET Exon 14 Skipping Mutation\nPMID: \nAuthors: \n\nAbstract\nPembrolizumab has become the standard first‐line treatment for non‐small cell lung cancer (NSCLC) patients with high PD‐L1expression. MET exon 14 skipping is a rare mutation typically found in older, female, and non‐smoking patients with NSCLC. Herein, we report the case of a 71‐year‐old non‐smoking woman who was diagnosed with NSCLC in the left lung. EGFR mutation and ALK fusion were not detected. Because the biopsy specimen showed high PD‐L1 expression with a tumor proportion score of 95%, pembrolizumab was introduced as first‐line therapy, but resulted in no clinical benefit. The patient was subsequently administered chemotherapy with carboplatin and pemetrexed, leading to remarkable tumor shrinkage. A next‐generation sequencing panel analysis revealed a MET exon 14 skipping mutation. Thus, pembrolizumab might not be effective for NSCLC patients with MET exon 14 skipping mutations, even if PD‐L1 expression is high.\n\nCase report\nA 71‐year‐old woman with no smoking history was referred to our hospital in November 2017 after an abnormal shadow was detected in the left lower lung on chest X‐ray (Fig 1a). A physical examination revealed no significant abnormalities. Computed tomography (CT) of the chest revealed a tumor with a diameter of 30 mm in the left S6 with enlargement of the hilar and peritracheal lymph nodes and small pulmonary metastasis on the bilateral lungs (Fig 1b–d), indicating c‐T3N2M1a (Union for International Cancer Control, 8th edition). Laboratory findings were within the normal ranges, except for a high cytokeratin 19 fragment serum level of 5.1 ng/mL. We conducted a transbronchial biopsy and the pathological diagnosis was non‐small cell lung cancer (NSCLC), which had neither EGFR mutation nor ALK fusion. Hematoxylin and eosin staining of the biopsy specimen revealed medium sized tumor cells of a polygonal shape, with medium cytoplasm and hyperchromatic nuclei (Fig 2). Immunohistochemistry revealed that tumor cells were negative for TTF‐1 and p40. These findings indicated a pathological diagnosis of poorly differentiated lung adenocarcinoma and the pathology indicated histological features of sarcomatoid carcinoma.\nBecause high PD‐L1 expression with a TPS of 95% was confirmed by immunohistochemistry with a 22C3 antibody (Dako North America, Carpinteria, CA, USA), we commenced first‐line treatment of pembrolizumab (200 mg abs. on day 1). After the first cycle of pembrolizumab, the tumor in the left lung increased in size and atelectasis appeared in the upper lobe as a result of hilar lymph node enlargement (Fig 3a–c). The patient complained of dyspnea and developed hypoxia. We considered obvious disease progression and introduced second‐line chemotherapy of carboplatin (CBDCA, area under the curve = 5) and pemetrexed (PEM, 500 mg/m2 on day 1). These cytotoxic agents were remarkably effective with apparent tumor shrinkage after two cycles of treatment (Fig 3d–f), representing a partial response. Because the patient was a non‐smoker we conducted next‐generation sequencing panel analysis, which revealed a MET exon 14 skipping mutation.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "30600919_tr.json",
+    "source_pmid": "30600919",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/30600919_tr.json",
+    "cleaning_timestamp": "2026-06-03T00:40:26",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Efficacy of pembrolizumab for patients with both high PD‐L1 expression and an MET exon 14 skipping mutation: A case report",
+    "author": "Keisuke Baba; Hisashi Tanaka; Hiroaki Sakamoto; Toshihiro Shiratori; Junichiro Tsuchiya; Yoshiko Ishioka; Masamichi Itoga; Kageaki Taima; Sadatomo Tasaka",
+    "date": "2019-01-02"
+  },
+  "rejection_reason": null
+}

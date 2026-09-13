@@ -1,0 +1,28 @@
+{
+  "text": "Title: Simultaneous occurrence of HER2 mutations in EGFR mutant NSCLC: case reports\nPMID: \nAuthors: Blerina Resuli, Diego Kauffmann-Guerrero, Jürgen Behr, Amanda Tufman\n\nAbstract\nHER2 mutation and amplification have been identified as distinct molecular targets in lung cancer with different therapeutic and prognostic values. The coexistence of HER2 and EGFR mutations is extremely rare, and therefore, no data exist on the best treatment in these cases.\n\nCase 1\nA 44-year-old patient who had never smoked was diagnosed in May 2018 as having metastatic lung adenocarcinoma with a mass in the right lower lobe and multiple lung and bone metastases.\nAt baseline, next-generation sequencing Oncomine Focus Assay was positive for EGFR mutation in exon 19 (EGFR L747P) and a comutation in ERBB2 gene (p.K762R). After a first surgical decompression laminectomy of lumbar vertebrae, followed by external beam radiotherapy, the patient received, in June 2018, first-line osimertinib 80 mg once daily. Because of persistent radiologic response, the patient continued osimertinib for 11 months. After progression, cisplatin, pemetrexed, and pembrolizumab were administered as second-line treatment for seven months. Pemetrexed and pembrolizumab as maintenance therapy were administered only for two cycles owing to nephrotoxicity. The maintenance treatment was continued only with pembolizumab.\nIn November 2019, owing to oligoprogressive disease in the brain, stereotactic radiosurgery was administered, and pembrolizumab was continued.\nIn February 2020, owing to the progression of the disease and the coexpression of the EGFR and the HER2 mutation, the patient received afatinib 40 mg once daily. During the therapy, she experienced grade 1 dermatitis and grade 2 transaminitis.\nAfter progression in February 2021, the liquid biopsy (LB) revealed an EGFR deletion in exon 19 L747P, in addition to the presence of the resistance mutation on exon 20 T790M with the loss of the ERBB2 gene mutation. At that time, we decided to add osimertinib 40 mg once daily and continue afatinib 30 mg once daily.\nIn November 2021, the disease progressed within the lung and bone. A new LB was performed, and it revealed the original EGFR mutation coupled with the new onset TP53 mutation in exon 7 (M246L) with the loss of the mutation in the ERBB2 gene. At that time, owing to grade 2 renal toxicity, the patient received only osimertinib.\nIn January 2022, owing to rapid clinical deterioration and the development of a leptomeningeal carcinomatosis, the patient was referred to a palliative care specialist.\n\nCase 2\nThe second patient was a 47-year-old man with stage IIIA poorly differentiated lung adenocarcinoma diagnosed in December 2021. At that time, he was considered resectable and underwent a video-assisted thoracoscopic surgery left upper lobectomy, lumpectomy, and wedge resection, followed by adjuvant cisplatin and pemetrexed chemotherapy for four cycles. After eight months, disease recurrence developed in both the patient’s lungs. A molecular test performed on the LB revealed the presence of EGFR L858R mutation in exon 21, TP53 duplication (V73RfsX76) in exon 4, and G776delins VC, a typical HER2 exon 20 deletion-insertion. In September 2023, the patient started treatment for metastatic disease with afatinib 40 mg once daily. After progression in December 2023 and a negative LB result, the patient was given pembrolizumab plus pemetrexed-carboplatin and subsequent pembrolizumab plus pemetrexed. The treatment is ongoing, and the patient tolerated the treatment well.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39534574_tr.json",
+    "source_pmid": "39534574",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39534574_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:59:10",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Simultaneous Occurrence of HER2 Mutations in EGFR Mutant NSCLC: Case Reports",
+    "author": "Blerina Resuli; Diego Kauffmann-Guerrero; Jürgen Behr; Amanda Tufman",
+    "date": "2024-09-07"
+  },
+  "rejection_reason": null
+}

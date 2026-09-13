@@ -1,0 +1,28 @@
+{
+  "text": "Title: [文献标题]\nPMID: [PubMed ID]\nAuthors: [作者列表]\n\nAbstract\nBackground\nAlthough it remained fully unclear about the optimal regimen for Epidermal growth factor receptor tyrosine kinase inhibitor (EGFR-TKI) resistant non-small cell lung cancer (NSCLC) patients with Mesenchymal-Epithelial Transition factor (MET) amplification, the dual inhibition of EGFR inhibitor with MET inhibitor were attempted in clinical practice. There is very limited literature on the subsequent treatment when patients develop the resistance to this combination regimen.\n\nCase presentation\nA 49-year-old female patient with no history of smoking, no family history of malignancies, and no underlying comorbidities presented with a right-sided cervical mass. A chest enhanced CT scan conducted on 20 August 2022, showed a mass in the upper lobe of left lung accompanied by obstructive pneumonia, with multiple lymph node metastases involving the bilateral supraclavicular regions, bilateral pulmonary hila as well as the mediastinum. Metastasis to the apical-posterior segment of the left upper lobe was also observed. Brain MRI, bone scintigraphy and other imaging examination showed no signs of metastases in the central nerve system, the skeletal system or other organs.\nOn 29 August 2022, the patient underwent a supraclavicular lymph node fine-needle aspiration biopsy. Poorly differentiated adenocarcinoma was confirmed by the pathological findings, and immunohistochemistry displayed CK7 (+), TTF-1 (+), NapsinA (+), Ki-67 (+, 30%), P40 (−), CK5/6 (−), Syn (−), CD56 (−), CgA (−), PD-L1 (−). Next-generation sequencing analysis was performed using capture-based targeted sequencing across a panel of 520 genes (Burning Rock Biotech, Guangzhou, China) on tumor tissues and plasma to identify genomic alterations, which identified EGFR exon 21 L858R mutation (mutation allele frequency in tissue: 44.7%), CDK12 amplification (copy number in tissue: 21.4), ERBB2 amplification (copy number in tissue: 24.6) as well as a TMB of 7.89 mutations/Mb, with microsatellite stability (MSS) (Table 1). The patient was administrated orally with afatinib 30 mg once daily on 14 September 2022. After afatinib treatment, the follow-up chest CT scan showed a reduction in the left upper lobe mass, decreased obstructive inflammation, with the shrinkage of lymph node in the bilateral supraclavicular, bilateral hilar, and mediastinal regions. The best efficacy evaluation indicated stable disease (SD) with tumor shrinkage after afatinib treatment (Figures 1, 2).\nIn May 2023, the patient developed chest tightness and shortness of breath, accompanied by orthopnea and a cough with white frothy sputum. Radiological examinations indicated significant progression in the primary pulmonary, while the chest CT revealed a large pericardial effusion and pleural effusion. Malignant cancer cells were also detected in both the pericardial effusion and pleural effusion. Progression disease was therefore considered, with a progression-free survival of 7.8 months on first-line afatinib treatment. Next-generation sequencing on the pericardial effusion using a 520-genes panel (Burning Rock Biotech, Guangzhou, China) revealed EGFR L858R mutation (mutation allele frequency in pericardial effusion: 30.2%) accompanied by MET amplification (copy number in pericardial effusion: 4.8), CDK12 amplification (copy number in pericardial effusion: 11), ERBB2 amplification (copy number in pericardial effusion: 11). On 17 May 2023, the patient received the regimen of afatinib (30 mg oral once daily) combined with crizotinib (250 mg oral once daily) as the second-line therapy. Follow-up radiological evaluations indicated stable disease. The pericardial effusion and pleural effusion were disappeared during the treatment of afatinib plus crizotinib.\nOn 2 July 2024, the radiological evaluation indicated the progression of brain lesions, with a progression-free survival of 13.5 months on second-line therapy (afatinib plus crizotinib). On 4 July 2024, the patient was treated with aumolertinib (110 mg oral once daily) and gumarontinib (300 mg oral once daily). On 27th September 2024, the contrast-enhanced brain MRI showed that the brain metastasis was disappeared. This patient is currently continuing follow-up and treatment on aumolertinib and gumarontinib, with a progression-free survival of 3.7 months on this third-line therapy. During targeted therapy with the combination of aumolertinib and gumarontinib, the patient only experienced grade-1 diarrhea, which was relieved after treatment with antidiarrheal medication.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40028158_tr.json",
+    "source_pmid": "40028158",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40028158_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:11:10",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case report: Aumolertinib plus gumarontinib in a patient with EGFR mutated non-small-cell lung cancer harboring acquired MET amplification following progression on afatinib plus crizotinib",
+    "author": "Jia-Jun Hui; Sheng-Jun Ding; Bao-Dong Qin; Ning Ding",
+    "date": "2025-02-14"
+  },
+  "rejection_reason": null
+}

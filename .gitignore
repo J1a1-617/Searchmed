@@ -1,0 +1,43 @@
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+ssh/
+
+# Python / editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.codex/
+.agents/
+
+# Downloaded dependencies and third-party source snapshots
+node_modules/
+external/
+
+# Rebuildable models and indexes
+models/
+indexes/
+indexes_*/
+test_indexes/
+
+# Runtime sessions, traces, checkpoints, and benchmark outputs
+sessions/
+benchmark_results/
+skill_evolution/runs/
+fullcap_tests/
+e2e_workflows/
+results/
+**/results/
+**/checkpoints/
+**/*_artifacts/
+*.log
+*_stderr.txt
+*_workflow.txt
+e2e_case_output.json
+
+# Local archives are distribution artifacts, not source
+*.zip

@@ -1,0 +1,118 @@
+{
+  "provenance": {
+    "source_filename": "41132965_tr_cleaned.json",
+    "source_pmid": "null",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 80,
+    "sex": "male",
+    "smoking_status": "null",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "hyponatremia",
+      "anorexia",
+      "fatigue"
+    ],
+    "diagnosis_date": "2013",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "null",
+    "tnm_stage": "pT1bN1M0",
+    "overall_stage": "IIA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "multiple pulmonary metastatic nodules"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2013",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": "null"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2022",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR T790M"
+        ],
+        "sample": "CT-guided lung biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "hyponatremia",
+          "anorexia",
+          "fatigue"
+        ],
+        "dose_adjustments": [
+          "osimertinib resumed at 80 mg/day",
+          "osimertinib reduced to 40 mg/day"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "indapamide"
+    ],
+    "mechanism": "null",
+    "severity": "null",
+    "clinical_manifestation": "hyponatremia",
+    "management": "discontinued indapamide and osimertinib",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 18,
+    "survival_status": "alive",
+    "cause_of_death": "null",
+    "last_follow_up": "2024-01",
+    "treatment_discontinuation_reason": "hyponatremia"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "First case of osimertinib-induced SIADH in a patient with EGFR T790M mutation",
+      "Patient resumed treatment at a reduced dose without recurrence of SIADH",
+      "Successful management of hyponatremia with saline infusion and sodium chloride"
+    ],
+    "ddi_relevance": "high",
+    "generalizability": "medium"
+  }
+}

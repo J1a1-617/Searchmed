@@ -1,0 +1,222 @@
+{
+  "provenance": {
+    "source_filename": "39906671_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 54,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "enlarged left cervical lymph nodes"
+    ],
+    "diagnosis_date": "2012-02",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "cervical lymph nodes",
+      "mediastinal lymph nodes",
+      "hilum lymph nodes",
+      "bilateral supraclavicular lymph nodes",
+      "right 5th rib",
+      "bilateral ilium"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2012-02",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS G13D",
+          "EGFR 19ins"
+        ],
+        "sample": "cervical lymph node biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pemetrexed",
+          "cisplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": "800 mg d1",
+          "cisplatin": "40 mg d1–d3"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2014",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": "740 mg d1",
+          "carboplatin": "380 mg d1"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 4.3
+      }
+    },
+    {
+      "time": "2017-10",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "AC regimen",
+          "single-agent A"
+        ],
+        "type": "chemotherapy",
+        "dosage": null
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 19.2
+      }
+    },
+    {
+      "time": "2019",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "pemetrexed",
+          "cisplatin",
+          "bevacizumab"
+        ],
+        "type": "combination chemotherapy",
+        "dosage": {
+          "pemetrexed": "750 mg d1",
+          "cisplatin": "40 mg d1–d3",
+          "bevacizumab": "400 mg d1"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 16
+      }
+    },
+    {
+      "time": "2021-11",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "pemetrexed",
+          "cisplatin",
+          "pembrolizumab"
+        ],
+        "type": "combination chemotherapy",
+        "dosage": {
+          "pembrolizumab": "200 mg d1"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2021-2024",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "albumin–paclitaxel",
+          "carboplatin"
+        ],
+        "type": "combination chemotherapy",
+        "dosage": {
+          "albumin–paclitaxel": "300 mg d1",
+          "carboplatin": "40 mg d2"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-03",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR19ins",
+          "MDM2",
+          "ATRX"
+        ],
+        "sample": "left upper lung nodule biopsy"
+      },
+      "treatment": {
+        "line": "7L",
+        "regimen": [
+          "afatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "afatinib": "30 mg daily"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "pemetrexed",
+      "cisplatin",
+      "bevacizumab",
+      "pembrolizumab",
+      "albumin–paclitaxel"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 120,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2024-03"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Long-term survival of over 10 years in metastatic lung adenocarcinoma",
+      "Presence of KRAS G13D mutation and EGFR 19ins",
+      "Effectiveness of pemetrexed-based treatment",
+      "Genetic polymorphisms impacts on treatment response"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

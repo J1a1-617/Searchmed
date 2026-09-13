@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "33629637_tr.json",
+    "source_pmid": "33629637",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/33629637_tr.json",
+    "cleaning_timestamp": "2026-06-03T00:44:39",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Targeted next-generation sequencing for cancer-associated gene mutation and copy number detection in 206 patients with non–small-cell lung cancer",
+    "author": "Songbai Zheng; Xiaodan Wang; Ying Fu; Beibei Li; Jianhua Xu; Haifang Wang; Zhen Huang; Hui Xu; Yurong Qiu; Yaozhou Shi; Kui Li",
+    "date": "2021-02-25"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

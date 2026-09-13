@@ -1,0 +1,204 @@
+{
+  "provenance": {
+    "source_filename": "37389354_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 57,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 40,
+    "presenting_symptoms": [
+      "persistent cough"
+    ],
+    "diagnosis_date": "2020-04",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT3N1M1b",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "lymph nodes",
+      "right adrenal gland"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-04",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "C-MET amplification"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2020-07",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "antirotinib"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 12
+      }
+    },
+    {
+      "time": "2021-11",
+      "event_type": "progression + rebiopsy + molecular",
+      "molecular": {
+        "findings": [
+          "70%-80% PD-L1 positivity"
+        ],
+        "sample": "re-biopsy"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "pembrolizumab",
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pembrolizumab": "200 mg",
+          "pemetrexed": "500 mg/m2",
+          "carboplatin": "AUC 6"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "2022-03",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "maintenance",
+        "regimen": [
+          "pembrolizumab",
+          "I-125 seeds brachytherapy"
+        ],
+        "type": "combination_targeted",
+        "dosage": null
+      },
+      "response": {
+        "best": "significant resolution",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2022-06",
+      "event_type": "adverse_event + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "supportive",
+        "regimen": [
+          "ceftazidime",
+          "methylprednisolone"
+        ],
+        "type": "supportive",
+        "dosage": {
+          "methylprednisolone": "40 mg once daily"
+        }
+      },
+      "response": {
+        "best": "improvement",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "pneumonia"
+        ],
+        "dose_adjustments": [
+          "methylprednisolone reduced"
+        ]
+      }
+    },
+    {
+      "time": "2022-08",
+      "event_type": "adverse_event + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "supportive",
+        "regimen": [
+          "methylprednisolone",
+          "human immunoglobulin",
+          "mycophenolate mofetil",
+          "infliximab"
+        ],
+        "type": "supportive",
+        "dosage": {
+          "methylprednisolone": "160 mg once daily",
+          "mycophenolate mofetil": "0.5 g twice daily",
+          "infliximab": "200 mg ivgtt"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "fever"
+        ],
+        "dose_adjustments": [
+          "methylprednisolone increased"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "pembrolizumab",
+      "I-125 seeds brachytherapy"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Advanced NSCLC with MET amplification",
+      "Effective treatment with ISB-ICI combination",
+      "Complex genetic aberrations in advanced NSCLC"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

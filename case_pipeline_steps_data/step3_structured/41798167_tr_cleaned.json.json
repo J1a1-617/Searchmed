@@ -1,0 +1,185 @@
+{
+  "provenance": {
+    "source_filename": "41798167_tr_cleaned.json",
+    "source_pmid": "100960",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 62,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2021-03",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "pTNM",
+    "tnm_stage": "pT2aN0PL1R0",
+    "overall_stage": "II",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2021-03",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ERBB2 (Y772_A775dup)"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "surgery"
+        ],
+        "type": "surgical",
+        "dosage": {}
+      },
+      "response": null
+    },
+    {
+      "time": "2023-03",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "findings": [
+          "no ERBB2 amplification",
+          "ERBB2 IHC 1+"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": "AUC 5",
+          "pemetrexed": "500 mg/m2"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 0
+      }
+    },
+    {
+      "time": "2024-02",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "weekly paclitaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "paclitaxel": "80 mg/m2 weekly"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2024-05",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "zongertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "zongertinib": "unknown"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 8
+      }
+    },
+    {
+      "time": "2025-01",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "alterations": [
+          "ERBB2 amplification",
+          "ERBB2 IHC 3+"
+        ],
+        "sample": "liver biopsy"
+      },
+      "treatment": {
+        "line": "unknown",
+        "regimen": [
+          "carboplatin",
+          "gemcitabine"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": "unknown",
+          "gemcitabine": "unknown"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2025-03",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "trastuzumab-deruxtecan"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "trastuzumab-deruxtecan": "unknown"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 8
+      }
+    },
+    {
+      "time": "2025-11",
+      "event_type": "restaging",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "CR",
+        "duration_months": 8
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "zongertinib",
+      "trastuzumab-deruxtecan"
+    ],
+    "mechanism": "unknown",
+    "severity": "unknown",
+    "clinical_manifestation": "unknown",
+    "management": "unknown",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 36,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2026-01"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Acquired ERBB2 amplification as a resistance mechanism to zongertinib",
+      "Durable response to trastuzumab-deruxtecan after zongertinib failure"
+    ],
+    "ddi_relevance": "low",
+    "generalizability": "medium"
+  }
+}

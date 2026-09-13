@@ -1,0 +1,28 @@
+{
+  "text": "Title: [文献标题]\nPMID: [PubMed ID]\nAuthors: [作者列表]\n\nAbstract\nBackground\nThe emergence of the epidermal growth factor receptor (EGFR) C797S mutation in the absence of T790M represents a common mechanism of acquired resistance to first-line osimertinib in non-small cell lung cancer (NSCLC), posing a significant clinical challenge.\nCase presentation\nWe present the case of a 72-year-old man diagnosed with metastatic NSCLC harboring an EGFR exon 19 deletion who developed an acquired C797S mutation (without T790M) following 25 months of first-line osimertinib therapy. Based on this molecular profile, the patient received a regimen of gefitinib combined with bevacizumab. This combination was well tolerated and resulted in a partial response, achieving a progression-free survival (PFS) of 15.5 months.\nKeywords: non-small-cell lung cancer, epidermal growth factor receptor, C797S mutation, tyrosine kinase inhibitor, bevacizumab\n\nCase presentation\nIn July 2021, a 72-year-old man with a significant history of smoking was diagnosed with metastatic lung adenocarcinoma (Stage T4N2M1, 8th Edition Union for International Cancer Control (UICC)), exhibiting metastases to the contralateral lung, mediastinal lymph nodes, and liver. Molecular profiling of the tumor tissue revealed an EGFR exon 19 deletion (19del) and T790M-negative NSCLC. The patient initiated first-line treatment with osimertinib, which resulted in a durable clinical benefit lasting 25 months. However, in August 2023, routine imaging confirmed disease progression. Subsequently, he underwent three cycles of chemotherapy with pemetrexed and cisplatin, which were complicated by Grade 3 myelosuppression; this condition was resolved with supportive care. In November 2023, he was admitted to our institution, presenting with respiratory symptoms. A contrast-enhanced CT scan demonstrated extensive disease, including a 2.8 cm × 1.7 cm primary mass in the left lower lobe, along with pulmonary, pleural, bone, liver, adrenal, and peritoneal metastases ( Figure 1 ).\nTo elucidate the mechanism of resistance, we performed a percutaneous liver biopsy. Next-generation sequencing (NGS) analysis confirmed the persistence of the original EGFR 19del mutation and identified a newly acquired EGFR C797S mutation. Notably, the T790M mutation was absent, and no other known resistance bypass pathways were detected. Based on this molecular profile, a combination regimen of gefitinib (250 mg daily) and bevacizumab (15 mg/kg every 3 weeks) was initiated on November 30, 2023. The patient experienced significant symptomatic improvement, and the initial radiological assessment confirmed a partial response (PR) according to Response Evaluation Criteria In Solid Tumors (RECIST) v1.1 ( Figure 1 ). The treatment was well tolerated, with the primary adverse event being Grade 2 diarrhea, which was managed symptomatically. He continued this combination therapy until disease progression was documented on March 17, 2025 ( Figure 1 ), achieving a PFS of 15.5 months with this regimen. Following the emergence of new metastatic lesions in the liver, the primary tumors and metastatic lesions in the lungs remained in PR. The patient was subsequently offered symptomatic supportive treatment but declined all systemic therapies and passed away from septic shock secondary to peritonitis on April 1, 2025, with an overall survival (OS) of 44 months from the initial diagnosis.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41158851_tr.json",
+    "source_pmid": "41158851",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41158851_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:08:41",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Durable clinical benefit from gefitinib plus bevacizumab in a non-small cell lung cancer patient with an acquired C797S mutation following osimertinib treatment: a case report and literature review",
+    "author": "Yuping Tan; Meng Dong; Xi Li; Wenbo Li; Fei Xiong; Weidong Bao; Yongzhou Dai; Linjun Yue; Yuan Liu",
+    "date": "2025-10-13"
+  },
+  "rejection_reason": null
+}

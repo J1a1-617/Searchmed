@@ -1,0 +1,124 @@
+{
+  "provenance": {
+    "source_filename": "40642602_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 37,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "acute left upper quadrant pain",
+      "chest tightness",
+      "myocardial discomfort"
+    ],
+    "diagnosis_date": "2024-10",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "T3N2M1a",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pleura",
+      "pericardium"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2024-10",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "pleural effusion"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "osimertinib"
+        ],
+        "type": "chemotherapy + targeted",
+        "dosage": {
+          "carboplatin": "0.7 g",
+          "pemetrexed": "1.0 g",
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2024-11",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "rivaroxaban"
+        ],
+        "type": "anticoagulation",
+        "dosage": {
+          "rivaroxaban": "10 mg twice daily"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2024-12",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [
+          "splenic artery embolism",
+          "splenic infarction"
+        ],
+        "sample": "contrast-enhanced CT"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "cefuroxime",
+          "enoxaparin"
+        ],
+        "type": "anticoagulation + anti-infective",
+        "dosage": {
+          "cefuroxime": "4.5 g/day",
+          "enoxaparin": "8,000 IU twice daily"
+        }
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "rivaroxaban",
+      "enoxaparin"
+    ],
+    "mechanism": null,
+    "severity": "moderate",
+    "clinical_manifestation": "increased thrombotic risk",
+    "management": "adjusted doses based on ultrasound review",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2025-05"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Paradoxical thrombotic risk in EGFR-mutated NSCLC",
+      "Limitations of VTE risk assessment in advanced malignancies",
+      "Necessity for dynamic anticoagulation strategies"
+    ],
+    "ddi_relevance": "medium",
+    "generalizability": "low"
+  }
+}

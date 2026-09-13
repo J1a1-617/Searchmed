@@ -1,0 +1,129 @@
+{
+  "provenance": {
+    "source_filename": "39343987_tr_cleaned.json",
+    "source_pmid": "10.1111/1759-7714.15459",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.95
+  },
+  "baseline_clinical_profile": {
+    "age": 60,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": 30,
+    "presenting_symptoms": [
+      "multiple ground glass pulmonary nodules"
+    ],
+    "diagnosis_date": "2023-05",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "UICC 8th",
+    "tnm_stage": "cT2N2M0",
+    "overall_stage": "IIIA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes",
+      "right hilar lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-05",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "METex14 skipping mutation",
+          "TP53 point mutation"
+        ],
+        "sample": "tumor tissue"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2023-06",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "savolitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "savolitinib": "600 mg daily"
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "grade 4 transaminitis"
+        ]
+      }
+    },
+    {
+      "time": "2023-08",
+      "event_type": "treatment + response",
+      "molecular": null,
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "tepotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "tepotinib": "450 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      },
+      "safety": {
+        "adverse_events": [
+          "diarrhea",
+          "fatigue",
+          "edema"
+        ]
+      }
+    },
+    {
+      "time": "2024-01",
+      "event_type": "surgery + outcome",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "CR",
+        "duration_months": null
+      },
+      "safety": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "savolitinib",
+      "tepotinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 6,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2024-07"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with METex14 skipping mutation showed significant response to tepotinib",
+      "No residual tumor in lymph nodes post-surgery",
+      "Potential for tepotinib as neoadjuvant therapy in resectable cases"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

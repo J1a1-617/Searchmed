@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41514577_tr.json",
+    "source_pmid": "41514577",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41514577_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:21:52",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "BRG1 (SMARCA4) Status Dictates the Response to EGFR Inhibitors in Wild-Type EGFR Non-Small Cell Lung Cancer",
+    "author": "Rebaz Ahmed; Ranganayaki Muralidharan; Narsireddy Amreddy; Akhil Srivastava; Meghna Mehta; Janani Panneerselvam; Rodrigo Orlandini de Castro; William L Berry; Susmita Ghosh; Murali Ragothaman; Pawan Acharya; Yan D Zhao; Roberto Jose Pezza; Anupama Munshi; Rajagopal Ramesh",
+    "date": "2025-12-24"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

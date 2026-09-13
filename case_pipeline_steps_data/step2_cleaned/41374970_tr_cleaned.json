@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41374970_tr.json",
+    "source_pmid": "41374970",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41374970_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:14:38",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "KRAS-Wild Pancreatic Cancer—More Targets than Treatment Possibilities?",
+    "author": "Kamila Krupa; Marta Fudalej; Hanna Miski; Emilia Włoszek; Marta Szymczak; Anna Badowska-Kozakiewicz; Aleksandra Czerw; Andrzej Deptała",
+    "date": "2025-11-26"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

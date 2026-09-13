@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40650126_tr.json",
+    "source_pmid": "40650126",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40650126_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:30:47",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "PD-L1 Expression and Comprehensive Genomic Profiling in Advanced NSCLC: A Single-Centre Experience",
+    "author": "Giedrė Gurevičienė; Lina Poškienė; Skaidrius Miliauskas; Marius Žemaitis",
+    "date": "2025-07-01"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

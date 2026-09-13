@@ -1,0 +1,119 @@
+{
+  "provenance": {
+    "source_filename": "40678071_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 70,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 30,
+    "presenting_symptoms": [
+      "dysphagia"
+    ],
+    "diagnosis_date": "2023-05",
+    "cancer_type": "NSCLC + gastric adenocarcinoma",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "gastric wall",
+      "lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-05",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR p.L858R",
+          "EGFR p.T790M"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "Sintilimab",
+          "nab-paclitaxel",
+          "cisplatin",
+          "Almonertinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "Sintilimab": "200 mg on day 1",
+          "nab-paclitaxel": "400 mg on day 1",
+          "cisplatin": "40 mg on days 1–3",
+          "Almonertinib": "110 mg daily"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "hypotension",
+          "dizziness",
+          "nausea"
+        ],
+        "dose_adjustments": null
+      }
+    },
+    {
+      "time": "2023-06",
+      "event_type": "progression + treatment adjustment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "Furmonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "Furmonertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": null,
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "Almonertinib",
+      "Furmonertinib"
+    ],
+    "mechanism": null,
+    "severity": "moderate",
+    "clinical_manifestation": "Hypotension requiring discontinuation of Almonertinib",
+    "management": "Discontinued Almonertinib, switched to Furmonertinib",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Coexistence of lung and gastric adenocarcinomas",
+      "Almonertinib induced hypotension",
+      "Switch to Furmonertinib after Almonertinib discontinuation"
+    ],
+    "ddi_relevance": "high",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "provenance": {
+    "source_filename": "41098283_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 77,
+    "sex": "female",
+    "smoking_status": "former_smoker",
+    "pack_years": 17,
+    "presenting_symptoms": [
+      "persistent dry cough",
+      "intermittent hemoptysis"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "T4N0M0",
+    "overall_stage": "IIIA",
+    "baseline_primary_site": "right lower lobe",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS mutation p.G12V"
+        ],
+        "sample": "transbronchial biopsy"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": null,
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "cisplatin",
+          "pemetrexed",
+          "nivolumab"
+        ],
+        "type": "chemoimmunotherapy",
+        "dosage": {
+          "cisplatin": null,
+          "pemetrexed": null,
+          "nivolumab": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "surgery",
+      "molecular": null,
+      "treatment": {
+        "line": "surgery",
+        "regimen": [
+          "robotic-assisted thoracoscopic lobectomy",
+          "mediastinal lymph node dissection"
+        ],
+        "type": "surgical",
+        "dosage": {}
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 12,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with stage IIIA lung adenocarcinoma and KRAS mutation",
+      "Induction chemoimmunotherapy with cisplatin, pemetrexed, and nivolumab",
+      "Complete pathological response after surgery"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

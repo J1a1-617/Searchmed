@@ -1,0 +1,126 @@
+{
+  "provenance": {
+    "source_filename": "41561768_tr_cleaned.json",
+    "source_pmid": "41561768",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 66,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 20,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2023-10",
+    "cancer_type": "lung adenocarcinoma",
+    "histology": "pulmonary enteric adenocarcinoma",
+    "tnm_stage_system": "cTNM",
+    "tnm_stage": "cT1bN0M0/cT1aN0M0",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2023-10",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "KRAS c.35G>T p.G12V",
+          "TP53 c.396G>T p.K132N",
+          "APC c.3859del p.I1287*",
+          "BRAF amplification"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "surgical resection"
+        ],
+        "type": "surgery",
+        "dosage": {}
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 14
+      }
+    },
+    {
+      "time": "2024-01",
+      "event_type": "recurrence + molecular + treatment",
+      "molecular": {
+        "findings": [
+          "recurrent pulmonary nodules"
+        ],
+        "sample": "lung recurrent tumor"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "thoracic radiotherapy",
+          "pemetrexed",
+          "cisplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": "500 mg/m²",
+          "cisplatin": "AUC 5–6",
+          "radiotherapy": "6000 cGy/15 fractions"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-02",
+      "event_type": "maintenance + treatment",
+      "molecular": {
+        "findings": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "maintenance",
+        "regimen": [
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": "500 mg/m² every 21 days"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": null
+  },
+  "outcome_summary": {
+    "survival_months": 16,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2024-01",
+    "treatment_discontinuation_reason": "treatment-related fatigue and anorexia"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Synchronous bilateral pulmonary enteric adenocarcinoma with intestinal differentiation",
+      "Presence of KRAS, TP53, and APC mutations",
+      "Recurrence noted 14 months post-surgery",
+      "Stable disease following radiotherapy and systemic chemotherapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

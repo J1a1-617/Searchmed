@@ -1,0 +1,92 @@
+{
+  "provenance": {
+    "source_filename": "36388799_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 75,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "lung mass"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "primary pulmonary sarcoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IIIB (c.T3N2M0)",
+    "overall_stage": "IIIB",
+    "baseline_primary_site": "right upper lobe",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2021-08",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS G12C",
+          "PTEN G165fs",
+          "TP53 R273S",
+          "FGFR1 copy number amplification",
+          "MYC copy number amplification"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "sotorasib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "sotorasib": "480 mg daily (increased to 720 mg daily after 1 week)"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "2021-11",
+      "event_type": "surgery",
+      "molecular": null,
+      "treatment": {
+        "line": "surgical resection",
+        "regimen": [
+          "right upper lobectomy",
+          "lymph node dissection"
+        ],
+        "type": "surgery",
+        "dosage": null
+      },
+      "response": {
+        "best": "pCR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 6,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2022-02"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient achieved complete response (CR) with sotorasib treatment",
+      "Pathological complete response (pCR) after surgical resection",
+      "Disease-free survival (DFS) of 3 months and overall survival (OS) of 6 months"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

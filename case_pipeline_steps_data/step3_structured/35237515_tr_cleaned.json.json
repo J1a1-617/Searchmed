@@ -1,0 +1,110 @@
+{
+  "provenance": {
+    "source_filename": "35237515_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 60,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "chest tightness",
+      "dizziness"
+    ],
+    "diagnosis_date": "2018-08",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "pT1bN0M0",
+    "overall_stage": "IA",
+    "baseline_primary_site": "upper left lobe",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2018-08",
+      "event_type": "diagnosis + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [],
+        "type": null,
+        "dosage": {}
+      },
+      "response": null
+    },
+    {
+      "time": "2018-12",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ARL1-MET fusion"
+        ],
+        "sample": "right lung tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "p.o., b.i.d."
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2019-08",
+      "event_type": "progression + biopsy + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ERBB2 insertion"
+        ],
+        "sample": "right lung tumor"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "paclitaxel",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "paclitaxel": null,
+          "carboplatin": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 6,
+    "survival_status": "dead",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Novel ARL1-MET fusion identified in NSCLC",
+      "Patient showed PR with crizotinib treatment",
+      "Disease progressed post treatment with new ERBB2 insertion"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

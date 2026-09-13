@@ -1,0 +1,201 @@
+{
+  "provenance": {
+    "source_filename": "39995840_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 48,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2020-06",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "cTNM",
+    "tnm_stage": "cT2N0M1a",
+    "overall_stage": "IV A",
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": [
+      "pleura"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-06",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR 19 exon deletion"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2021-09",
+      "event_type": "progression + biopsy + molecular + treatment",
+      "molecular": {
+        "findings": [
+          "small cell carcinoma"
+        ],
+        "sample": "right lung biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "etoposide",
+          "platinum",
+          "anlotinib"
+        ],
+        "type": "combination",
+        "dosage": {
+          "anlotinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2022-08",
+      "event_type": "progression + biopsy + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR 19 deletion",
+          "PIK3CA mutation",
+          "TP53 mutation",
+          "PTEN deletion",
+          "RB1 deletion"
+        ],
+        "sample": "right axillary lymph node biopsy"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "anlotinib",
+          "osimertinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "anlotinib": null,
+          "osimertinib": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2022-08",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "anlotinib",
+          "osimertinib",
+          "nab-paclitaxel"
+        ],
+        "type": "combination",
+        "dosage": {
+          "nab-paclitaxel": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2023-02",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [
+          "small cell carcinoma"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "anlotinib",
+          "cadonilimab"
+        ],
+        "type": "combination",
+        "dosage": {
+          "cadonilimab": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-06",
+      "event_type": "death",
+      "molecular": {
+        "findings": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": null,
+        "type": null,
+        "dosage": {}
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "anlotinib",
+      "osimertinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 36,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "2023-06"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Transformation of lung adenocarcinoma with EGFR mutation into small cell lung cancer after EGFR-TKIs treatment",
+      "Combination therapy with anlotinib and etoposide-platinum regimen",
+      "Multiple mutations identified at disease progression"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

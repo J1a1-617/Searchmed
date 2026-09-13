@@ -1,0 +1,209 @@
+{
+  "provenance": {
+    "source_filename": "41542718_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 72,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "fatigue",
+      "dyspnea"
+    ],
+    "diagnosis_date": "2022-03",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "pT2aN0M0",
+    "overall_stage": "IIA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2022-03",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET exon 14 skipping mutation"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "tegafur-uracil"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "tegafur-uracil": "N/A"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2024-01",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "tepotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "tepotinib": "500 mg/day"
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "Grade 3 ILD"
+        ],
+        "dose_adjustments": []
+      }
+    },
+    {
+      "time": "2024-03",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "capmatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "capmatinib": "N/A"
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "high-grade fever",
+          "oral ulcers",
+          "possible ILD"
+        ],
+        "dose_adjustments": []
+      }
+    },
+    {
+      "time": "2024-05",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": "N/A",
+          "pemetrexed": "N/A"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2024-10",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "capmatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "capmatinib": "N/A"
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "high-grade fever",
+          "oral ulcers",
+          "possible ILD"
+        ],
+        "dose_adjustments": []
+      }
+    },
+    {
+      "time": "2025-05",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "gumarontinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gumarontinib": "300 mg/day"
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "Grade 2 hepatotoxicity"
+        ],
+        "dose_adjustments": [
+          "reduced dose to 150 mg/day"
+        ]
+      }
+    },
+    {
+      "time": "2025-08",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "bevacizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": "N/A",
+          "pemetrexed": "N/A",
+          "bevacizumab": "N/A"
+        }
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "tepotinib",
+      "capmatinib",
+      "gumarontinib"
+    ],
+    "mechanism": null,
+    "severity": "moderate",
+    "clinical_manifestation": null,
+    "management": "dose reduction of gumarontinib",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "First reported case of sequential treatment with all three MET TKIs.",
+      "Patient experienced multiple adverse events requiring dose adjustments.",
+      "Efficacy and safety profile of sequential MET TKI treatment remains to be established."
+    ],
+    "ddi_relevance": "high",
+    "generalizability": "medium"
+  }
+}

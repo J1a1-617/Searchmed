@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41348985_tr.json",
+    "source_pmid": "41348985",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41348985_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:13:44",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Impact of RAS-MAPK Pathway Genetic Alterations on Radiotherapy Response in Metastatic Lung Adenocarcinoma",
+    "author": "Gustav Y Cederquist; Erik S Anderson; Eric Lis; Lily Boe; William C Newman; Ori Barzilai; Mark Bilsky; Yoshiya Yamada; Daniel S Higginson; Adam M Schmitt",
+    "date": "2025-12-05"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

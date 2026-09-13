@@ -1,0 +1,28 @@
+{
+  "text": "Title: Co-occurrence of EGFR Del19 and MET Exon 14 Skipping Mutation in a Patient with Lung Adenocarcinoma\nPMID: \nAuthors: \n\nAbstract\nThe evaluation of individuals with lung cancer for the presence of oncogenic mutations and the subsequent administration of personalized targeted therapies are of significance in clinical practice. Epidermal growth factor receptor (EGFR) mutation and mesenchymal-epithelial transition (MET) exon 14 skipping mutation were previously found to be mutually exclusive. The co-occurrence of these mutations in individuals diagnosed with adenocarcinomas signifies a distinctive and uncommon molecular subtype of non-small cell lung cancer. A 70-year-old man was admitted to Shandong Cancer Hospital and Institute (Jinan, Chian) with a 1-month history of chest pain. The CT scanning findings indicated the presence of a 5.8×5.6 cm mass in the left lower lobe, accompanied by enlarged mediastinal and hilar lymph nodes, as well as metastases in both lungs and bones. Analysis of a biopsy specimen showed lung adenocarcinoma. Gene examination revealed EGFR Del19 mutation and concomitant MET exon 14 skipping mutation. Osimertinib and Gumarontinib were administered for 8 months and the efficacy was determined to be a partial response. The present study marks the initial discovery of MET exon 14 skipping and EGFR Del19 in a single patient, who achieved partial response through a treatment plan involving Osimertinib and Gumarontinib. These findings provide valuable perspectives on treatment approaches for individuals sharing similar genetic profiles.\n\nCase report\nIn December 2023, a 70-year-old man was admitted to Shandong Cancer Hospital and Institute (Jinan, Chian) with a 1-month history of chest pain. The patient had no previous history of smoking or alcohol consumption and no family history of malignancy. A chest computed tomography (CT) scan revealed a left lower lobe mass measuring ~5.8×5.6 cm, along with multiple enlarged mediastinal and hilar lymph nodes, bilateral lung metastasis and bone metastasis (Fig. 1A). Magnetic resonance imaging of the brain showed no malignant metastases. A biopsy specimen taken by endoscopic ultrasound-guided transbronchial needle aspiration showed lung adenocarcinoma (Fig. 2A). The histology protocol is provided in the Supplemental methods. The patient was clinically diagnosed with lung adenocarcinoma, with a clinical stage of cT3N2M1c (pulmonary and bone metastases), cStage IVB according to the 8th Edition of TNM in Lung Cancer (10) and Eastern Cooperative Oncology Group Performance Status 1 (11). Amplification refractory mutation system-polymerase chain reaction technology (ADx-ARMS kit; Amoy Diagnostics, Co., Ltd.) examination performed according to the manufacturer's instructions revealed the known EGFR Del 19 mutation (Fig. 2B), but also a concomitant MET exon 14 skipping mutation (MET gene fusion between exon 13 and exon 15) (Fig. 2C). Immunohistochemical analysis of the tumor (protocol is provided in the Supplemental methods) showed that programmed cell death ligand 1 expression was negative (Fig. 2D). Therefore, the patient commenced a combination therapy regimen consisting of Osimertinib (80 mg, oral, daily) and gumarontinib (300 mg, oral, twice daily) (12). A significant reduction in the primary mass and all lymph nodes was observed after 1 month, and the efficacy was evaluated as a partial response based on the Response Evaluation Criteria In Solid Tumors (13) (Fig. 1B-D). Continuous monitoring of chest CT scans revealed a gradual reduction in tumor size. During subsequent treatment, the patient developed a first-degree rash, which was managed with topical corticosteroids and resolved within 7 days. Concurrently, the patient was diagnosed with Grade 2 pneumonia based on clinical symptoms and radiographic findings. This was managed with a course of oral corticosteroids (prednisone 0.5 mg/kg/day), temporary withholding of the anticancer therapy and supportive care. The pneumonia and associated symptoms subsided completely within 7 days and a follow-up chest X-ray confirmed resolution. The patient passed away due to cerebral infarction.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41292704_tr.json",
+    "source_pmid": "41292704",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41292704_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:12:42",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Remarkable response to Osimertinib plus Gumarontinib for EGFR mutation and concomitant MET exon 14 skipping in a patient with lung adenocarcinoma: A case report",
+    "author": "Xuquan Jing; Li Li; Shuangqing Lu; Xiaoyang Zhai; Hui Zhu",
+    "date": "2025-11-12"
+  },
+  "rejection_reason": null
+}

@@ -1,0 +1,108 @@
+{
+  "provenance": {
+    "source_filename": "41573731_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 51,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "T1cN2M0",
+    "overall_stage": null,
+    "baseline_primary_site": "right upper lobe",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "HER2 exon 20",
+          "TP53"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "trastuzumab deruxtecan"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "trastuzumab deruxtecan": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment + surgical",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "surgery",
+        "regimen": [],
+        "type": "surgical",
+        "dosage": {}
+      },
+      "response": {
+        "best": "partial tumor suppression",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "adjuvant treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "trastuzumab deruxtecan"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "trastuzumab deruxtecan": null
+        }
+      },
+      "response": {
+        "best": "sustained remission",
+        "duration_months": 28
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 28,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "First perioperative use of trastuzumab deruxtecan for HER2 exon 20-mutant lung adenocarcinoma",
+      "Initial chemoimmunotherapy failed to achieve significant tumor reduction",
+      "Two cycles of neoadjuvant T-DXd resulted in tumor size reduction",
+      "Molecular residual disease monitoring showed initial no detectable disease followed by ctDNA positivity"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

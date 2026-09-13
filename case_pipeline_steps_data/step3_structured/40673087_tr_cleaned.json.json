@@ -1,0 +1,99 @@
+{
+  "provenance": {
+    "source_filename": "40673087_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 50,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "cough",
+      "hoarseness",
+      "blood in sputum"
+    ],
+    "diagnosis_date": "2022-05",
+    "cancer_type": "NSCLC",
+    "histology": "lung squamous carcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "T4N0M0",
+    "overall_stage": "IIIA",
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2022-07",
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR p.G719S",
+          "EGFR p.S768I",
+          "TP53 p.S183*"
+        ],
+        "sample": "biopsy specimen before immunotherapy"
+      },
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "tislelizumab",
+          "albumin-paclitaxel",
+          "carboplatin"
+        ],
+        "type": "immunotherapy + chemotherapy",
+        "dosage": {
+          "tislelizumab": null,
+          "albumin-paclitaxel": null,
+          "carboplatin": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2022-07",
+      "event_type": "surgery",
+      "molecular": null,
+      "treatment": {
+        "line": "surgery",
+        "regimen": null,
+        "type": "surgery",
+        "dosage": null
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2025-03",
+      "event_type": "follow_up",
+      "molecular": null,
+      "treatment": null,
+      "response": null,
+      "safety": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 34,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2025-03"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Achieved CR in the primary site after neoadjuvant immunotherapy",
+      "Genetic testing revealed multiple EGFR mutations",
+      "Postoperative disease-free survival exceeding 30 months"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

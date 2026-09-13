@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41510380_tr.json",
+    "source_pmid": "41510380",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41510380_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:21:46",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Exon-level TP53 alterations and PD-L1 expression identified by pretreatment NGS stratify survival in EGFR-mutant non-small cell lung cancer treated with first-line osimertinib",
+    "author": "Seong-Eun Kim; Yongjae Kim; Do Kyung Yoon; Hwan Park; Kang-Seo Park; Deokhoon Kim; Hee Sang Hwang; Bokyung Ahn; Ji Eun Park; Sang-We Kim; Se Jin Jang; Shinkyo Yoon; Ho-Su Lee; Dae Ho Lee",
+    "date": "2025-12-29"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

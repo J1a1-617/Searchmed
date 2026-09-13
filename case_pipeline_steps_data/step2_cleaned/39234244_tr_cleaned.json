@@ -1,0 +1,28 @@
+{
+  "text": "Title: Transformation from non-small cell lung cancer (NSCLC) to small cell lung cancer (SCLC)\nPMID: null\nAuthors: null\n\nAbstract\nTransformation from non-small cell lung cancer (NSCLC) to small cell lung cancer (SCLC) is rare and is associated with poor prognosis. However, the standard treatment protocols for patients with SCLC transformation remain unknown. Here, we report the case of a patient with advanced EGFR exon 19 deletion (19del) NSCLC who underwent SCLC transformation during targeted therapy. Biopsies and genetic testing were performed to adjust treatment regimens accordingly. The patient responded favorably to a combined treatment regimen comprising etoposide plus cisplatin chemotherapy and adebrelimab plus osimertinib. This case highlights the critical importance of acknowledging tumor heterogeneity in clinical decision-making and identifying potentially effective treatment options for patients with SCLC transformation. Additionally, we reviewed cases of the transformation of NSCLC to SCLC from 2017 to 2023.\n\nCase presentation\nDiagnosis and initial treatment response\nA 68-year-old female was admitted to the hospital on July 12, 2021, because of cough and expectoration for 2 months. The patient had no history of smoking or cancer history. Contrast-enhanced chest computed tomography (CT) revealed a mass in the upper lobe of the left lung, along with multiple small nodules in both lower lobes and enlarged mediastinal and hilar lymph nodes. Moreover, pleural thickening and pleural effusion were observed. Biopsy of the enlarged lesion in the left upper lobe (LUL) revealed poorly differentiated adenocarcinoma of the lung. 14-gene panel testing identified an EGFR 19del mutation. The patient was diagnosed with stage IV lung adenocarcinoma with EGFR 19del. The patient achieved partial response (PR) after first-line treatment with osimertinib. Progression-free survival (PFS) after the first-line treatment was 24 months.\n\nDisease progression and SCLC transformation\nSubsequently, the patient experienced progressive disease (PD), with an increase in the size of the LUL lesion and emergence of cervical lymph node metastasis. In June 2023, a second LUL biopsy was performed. Unexpectedly, hematoxylin and eosin (HE) staining showed mixed histology of adenocarcinoma and SCLC. Immunohistochemical (IHC) staining confirmed the presence of thyroid transcription factor-1 (TTF-1) (weakly +), napsin A (+), synaptophysin (+), CD56 (+), and CgA (+). In addition to EGFR 19del, 1012-gene panel testing further demonstrated a TP53 missense mutation, RB1 truncating mutation, EGFR amplification, KIT amplification, and tumor mutational burden (TMB) of 11 mutations per megabase.\n\nSubsequent treatment regimen and treatment response\nThe patient declined the therapeutic option of chemotherapy and instead opted for second-line treatment with a combination of anlotinib and aumolertinib. However, 4 months later, follow-up enhanced CT and neck ultrasonography revealed PD of the LUL lesion and shrinkage of the cervical lymph nodes. Therefore, the regimen was changed to etoposide plus cisplatin (EP) chemotherapy plus adebrelimab. Following two cycles of EP chemotherapy combined with immunotherapy, the primary lesion located in the LUL exhibited a significant reduction in size, while enlargement of the right cervical lymph node was observed. Fine-needle aspiration biopsy of the right cervical lymph node was performed to determine the underlying reasons for the inconsistent response in distinct lesions. Pathological examination revealed poorly differentiated adenocarcinoma originating in the lung. IHC staining demonstrated TTF-1 (+), napsin A (+), CK7 (+), synaptophysin (-), CD56 (-), and CgA (-). 1012-gene panel testing revealed multiple gene mutations, including EGFR 19del, TP53 missense mutation, RB1 truncating mutation, NDM4 amplification, and a TMB of 11 mt/Mb. Considering the heterogeneity of lung cancer, we introduced osimertinib in addition to the existing chemotherapy and immunotherapy regimens from the third cycle onward. After two cycles of combined treatment, both the primary LUL lesion and metastatic lesion in the cervical lymph nodes showed a notable decrease. Until the last follow-up in February 2024, no deaths occurred and the follow-up time was 32 months. The flowchart of the treatment process is shown in Figure 4.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39234244_tr.json",
+    "source_pmid": "39234244",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39234244_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:53:35",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Potential therapeutic option for EGFR-mutant small cell lung cancer transformation: a case report and literature review",
+    "author": "Xiaoxuan Li; Xinchi Luan; Mengqi Zhang; Rui Wang; Jing Guo; Jing Lv; Wensheng Qiu; Shufen Zhao",
+    "date": "2024-08-21"
+  },
+  "rejection_reason": null
+}

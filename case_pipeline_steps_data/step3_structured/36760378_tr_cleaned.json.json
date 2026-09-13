@@ -1,0 +1,164 @@
+{
+  "provenance": {
+    "source_filename": "36760378_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 53,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "left-chest pain"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IIIc",
+    "overall_stage": "III",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "left frontal lobe"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "unknown",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "tumor biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "TP53 p.K132R",
+          "EGFR exon20 T790M negative"
+        ],
+        "sample": "plasma ctDNA"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "bevacizumab",
+          "carboplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "bevacizumab": null,
+          "carboplatin": null,
+          "pemetrexed": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "vomiting",
+          "allergy",
+          "urinary retention"
+        ],
+        "dose_adjustments": [
+          "glutathione for elevated γ-Glutamyl transpeptidase"
+        ]
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR amplification",
+          "MTOR mutation",
+          "BRCA mutation"
+        ],
+        "sample": "tumor biopsy"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "bevacizumab",
+          "sintilimab"
+        ],
+        "type": "combination",
+        "dosage": {
+          "bevacizumab": null,
+          "sintilimab": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "BTN2A1-BRAF fusion",
+          "low TMB",
+          "MSS"
+        ],
+        "sample": "tumor biopsy"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "duvalizumab"
+        ],
+        "type": "immunotherapy",
+        "dosage": {
+          "duvalizumab": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 3,
+    "survival_status": "dead",
+    "cause_of_death": "progressive disease",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Acquired resistance to osimertinib due to BTN2A1-BRAF fusion",
+      "Initial response to gefitinib followed by rapid progression",
+      "Combination treatment with bevacizumab and sintilimab resulted in stable disease",
+      "High PD-L1 expression identified"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

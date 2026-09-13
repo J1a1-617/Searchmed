@@ -1,0 +1,28 @@
+{
+  "text": "Title: Remarkable pathological response to neoadjuvant tepotinib in lung adenocarcinoma with MET exon 14 skipping mutation: A case report\nPMID: 10.1111/1759-7714.15459\nAuthors: Li R, Liu X, Xu Y, Zhao J, Zhong W, Gao X, et al.\n\nAbstract\nMesenchymal–epithelial transition (MET) exon 14 (METex14) skipping mutation is a rare (3%–4%) driver mutation in non‐small cell lung cancer (NSCLC). Tepotinib, a selective MET inhibitor, has shown promise in treating METex14 skipping‐mutated NSCLC. However, its feasibility for perioperative application remains unclear. This report describes a 60‐year‐old man with stage IIIA (cT2N2M0) lung adenocarcinoma harboring a METex14 skipping mutation. After initial treatment with savolitinib was discontinued due to grade 4 transaminitis, the patient was switched to tepotinib, resulting in significant tumor regression. Six months later, further shrinkage was observed, and surgery revealed remarkable pathological response with no residual tumor in lymph nodes (ypT2N0M0, IB). Postoperative tepotinib continued, with no relapse at 6‐month follow‐up. This case highlights the potential of tepotinib as neoadjuvant therapy for resectable METex14 skipping‐mutated NSCLC, warranting further clinical trials.\n\nCASE REPORT\nA 60‐year‐old man with a 30‐year smoking history was admitted to Peking Union Medical College Hospital (PUMCH) on May 29, 2023, due to multiple ground glass pulmonary nodules for 5 years and a new present right lower lobe solid nodule discovered by chest scan without obvious symptoms. Computed tomography (CT) scan and positron emission tomography/CT (PET/CT) revealed a 3.4 × 2.8‐cm soft tissue mass (SUVmax 9.2) in the basal segment of the lower lobe of the right lung, with enlarged mediastinal (seventh) and right hilar lymph nodes (SUVmax 10.3; Figure 1). Magnetic resonance imaging of the brain showed no evidence of central nervous system involvement. An endobronchial ultrasound‐guided transbronchial needle aspiration of mediastinal lymph nodes in station N7 established the diagnosis of a metastatic lung adenocarcinoma, with immunohistochemical manifestation as CK7(+), P40(−), TTF‐1(+), Ki‐67 (index 80%), and P53(+). Next‐generation sequencing (68‐gene panel, Lung Core, Burning Rock Biotech) using tumor tissue identified a METex14 skipping mutation (abundance: 23.55%), a point mutation in TP53 and no other driver mutations (Figure 2a,b).\nThe patient's disease was evaluated as cT2N2M0, stage IIIA (UICC eighth edition). A multidisciplinary team (MDT) considered it a resectable case with single‐station N2 involvement. Given the significant progress in MET inhibitors for patients with advanced NSCLC harboring METex14 skipping mutations, the team discussed the options of curative chemoradiotherapy and induction therapy with the patient. The patient declined chemoradiotherapy and preferred neoadjuvant therapy followed by surgery. After being adequately informed about the potential benefits and risks of the standard chemoimmunotherapy regimen and non‐standard target treatment option, the patient ultimately chose neoadjuvant targeted therapy.\nOn June 14, 2023, after obtaining informed consent from the patient and receiving off‐label use approval from Pharmacy and Therapeutics Committee of PUMCH, savolitinib 600 mg once daily was prescribed and was discontinued due to grade 4 transaminitis on July 21, 2023. Following the patient's recovery, tepotinib was administered orally at 450 mg once daily starting on August 21, 2023. The follow‐up CT scan and PET/CT revealed a significant reduction in the mass, now a 1.0 × 0.9‐cm nodule (SUVmax 0.9). An elevated uptake of 18F‐FDG (SUVmax 7.6) was observed in a small right hilar lymph node, without any suspected metastasis in the mediastinal lymph nodes (Figure 1). The main adverse effects during tepotinib therapy were diarrhea, fatigue, and edema. All of the adverse events were grade 1. Following MDT evaluation, the patient underwent video‐assisted thoracic surgery right lower lobectomy plus lymph node dissection on January 4, 2024. The only surgical complication was asymptomatic hypersensitive cardiac troponin I elevation. Postoperative pathological examination confirmed invasive adenocarcinoma involving the main bronchus, with all 25 dissected lymph nodes being free of tumor cells, resulting in a pathological stage of ypT2N0M0, IB. After surgery, the patient continued adjuvant targeted therapy with tepotinib. By 1 and 4 months after surgery, circulating tumor DNA analysis did not detect METex14 skipping mutation (Figure 2c). No disease relapse was observed at the 6‐month postoperative follow‐up.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39343987_tr.json",
+    "source_pmid": "39343987",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39343987_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:55:58",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Remarkable pathological response to neoadjuvant tepotinib in lung adenocarcinoma with MET exon 14 skipping mutation: A case report",
+    "author": "Rongzhen Li; Xiaoyan Liu; Yan Xu; Jing Zhao; Wei Zhong; Xiaoxing Gao; Minjiang Chen; Mengzhao Wang",
+    "date": "2024-09-29"
+  },
+  "rejection_reason": null
+}

@@ -1,0 +1,201 @@
+[
+  {
+    "drug_name": "KRAZATI",
+    "generic_name": "adagrasib",
+    "brand_name": "KRAZATI",
+    "alias": [
+      "MRTX849"
+    ]
+  },
+  {
+    "drug_name": "KADCYLA",
+    "generic_name": "ado-trastuzumab emtansine",
+    "brand_name": "KADCYLA",
+    "alias": [
+      "T-DM1",
+      "ADC"
+    ]
+  },
+  {
+    "drug_name": "GILOTRIF",
+    "generic_name": "afatinib",
+    "brand_name": "GILOTRIF",
+    "alias": [
+      "BIBW 2992",
+      "afatinib dimaleate"
+    ]
+  },
+  {
+    "drug_name": "ALECENSA",
+    "generic_name": "alectinib",
+    "brand_name": "ALECENSA",
+    "alias": [
+      "ALKNIB",
+      "CH5424802"
+    ]
+  },
+  {
+    "drug_name": "RYBREVANT",
+    "generic_name": "amivantamab-vmjw",
+    "brand_name": "RYBREVANT",
+    "alias": [
+      "amivantamab"
+    ]
+  },
+  {
+    "drug_name": "ALUNBRIG",
+    "generic_name": "brigatinib",
+    "brand_name": "ALUNBRIG",
+    "alias": [
+      "BRG",
+      "BGT"
+    ]
+  },
+  {
+    "drug_name": "TABRECTA",
+    "generic_name": "capmatinib",
+    "brand_name": "TABRECTA",
+    "alias": [
+      "CAP",
+      "CMN"
+    ]
+  },
+  {
+    "drug_name": "XALKORI",
+    "generic_name": "crizotinib",
+    "brand_name": "XALKORI",
+    "alias": [
+      "crizotinib"
+    ]
+  },
+  {
+    "drug_name": "TAFINLAR",
+    "generic_name": "dabrafenib",
+    "brand_name": "TAFINLAR",
+    "alias": [
+      "DAB",
+      "Dabrafenib"
+    ]
+  },
+  {
+    "drug_name": "VIZIMPRO",
+    "generic_name": "dacomitinib",
+    "brand_name": "VIZIMPRO",
+    "alias": [
+      "DACO"
+    ]
+  },
+  {
+    "drug_name": "ENSACOVE",
+    "generic_name": "ensartinib",
+    "brand_name": "ENSACOVE",
+    "alias": [
+      "X-396"
+    ]
+  },
+  {
+    "drug_name": "ROZLYTREK",
+    "generic_name": "entrectinib",
+    "brand_name": "ROZLYTREK",
+    "alias": [
+      "RXDX-101"
+    ]
+  },
+  {
+    "drug_name": "erlotinib",
+    "generic_name": "erlotinib",
+    "brand_name": "erlotinib",
+    "alias": [
+      "EGFR inhibitor",
+      "TKI"
+    ]
+  },
+  {
+    "drug_name": "Gefitinib",
+    "generic_name": "gefitinib",
+    "brand_name": "Gefitinib",
+    "alias": [
+      "Iressa"
+    ]
+  },
+  {
+    "drug_name": "LAZCLUZE",
+    "generic_name": "lazertinib",
+    "brand_name": "LAZCLUZE",
+    "alias": [
+      "LZT",
+      "lazertinib tablet"
+    ]
+  },
+  {
+    "drug_name": "LORBRENA",
+    "generic_name": "lorlatinib",
+    "brand_name": "LORBRENA",
+    "alias": [
+      "LLB",
+      "Lorlatinib"
+    ]
+  },
+  {
+    "drug_name": "TAGRISSO",
+    "generic_name": "osimertinib",
+    "brand_name": "TAGRISSO",
+    "alias": [
+      "AZD9291"
+    ]
+  },
+  {
+    "drug_name": "GAVRETO",
+    "generic_name": "pralsetinib",
+    "brand_name": "GAVRETO",
+    "alias": [
+      "PRL",
+      "RET inhibitor"
+    ]
+  },
+  {
+    "drug_name": "RETEVMO",
+    "generic_name": "selpercatinib",
+    "brand_name": "RETEVMO",
+    "alias": [
+      "LOXO-292"
+    ]
+  },
+  {
+    "drug_name": "LUMAKRAS",
+    "generic_name": "sotorasib",
+    "brand_name": "LUMAKRAS",
+    "alias": [
+      "AMG 510"
+    ]
+  },
+  {
+    "drug_name": "TEPMETKO",
+    "generic_name": "tepotinib",
+    "brand_name": "TEPMETKO",
+    "alias": [
+      "Tepotinib",
+      "TEP"
+    ]
+  },
+  {
+    "drug_name": "MEKINIST",
+    "generic_name": "trametinib",
+    "brand_name": "MEKINIST",
+    "alias": [
+      "GSK1120212",
+      "MEK inhibitor"
+    ]
+  },
+  {
+    "drug_name": "ENHERTU",
+    "generic_name": "fam-trastuzumab deruxtecan-nxki",
+    "brand_name": "ENHERTU",
+    "alias": [
+      "DXd",
+      "trastuzumab deruxtecan",
+      "F-TD",
+      "HER2 ADC"
+    ]
+  }
+]

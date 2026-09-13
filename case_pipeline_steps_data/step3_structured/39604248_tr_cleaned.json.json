@@ -1,0 +1,83 @@
+{
+  "provenance": {
+    "source_filename": "39604248_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 75,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "nonproductive cough"
+    ],
+    "diagnosis_date": "2023-07",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "T2bN1M1b",
+    "overall_stage": "IVc",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "contralateral lung",
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-07",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L833V",
+          "H835L",
+          "CDK4 amplification",
+          "MDM2 amplification"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "160 mg daily (reduced to 80 mg due to side effects)"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2024-05",
+      "event_type": "follow_up + imaging",
+      "molecular": null,
+      "treatment": null,
+      "response": null,
+      "safety": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2024-05"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with rare EGFR mutations L833V and H835L",
+      "Significant tumor reduction after osimertinib therapy",
+      "Brain metastasis remained stable during treatment",
+      "Osimertinib effective for rare EGFR mutations"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

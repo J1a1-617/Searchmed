@@ -1,0 +1,64 @@
+{
+  "provenance": {
+    "source_filename": "40270599_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.8
+  },
+  "baseline_clinical_profile": {
+    "age": 43,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": null,
+    "cancer_type": "BA",
+    "histology": "bronchiolar adenoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": "tumor tissue"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "wedge resection"
+        ],
+        "type": "surgical",
+        "dosage": {}
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 24
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 24,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Diagnosis of bronchiolar adenoma confirmed through immunohistochemistry and molecular analysis",
+      "EGFR exon 19 deletion mutation identified",
+      "Patient remains free of disease recurrence two years after surgery"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

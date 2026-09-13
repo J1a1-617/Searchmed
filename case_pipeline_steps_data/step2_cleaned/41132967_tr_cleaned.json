@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41132967_tr.json",
+    "source_pmid": "41132967",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41132967_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:07:54",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Molecular and clonal evolution of primary lesions vs. brain metastasis in EGFR-mutated NSCLC: a retrospective cohort study",
+    "author": "Alejandro Ruíz-Patiño; Jairo Zuluaga; Nicolle Wagner-Gutierrez; Oscar Arrieta; Leonardo Rojas; Claudio Martín; Luis Corrales; Lucia Viola; Stella Martínez; Carlos Carvajal; Alejandro Gonzalez; Hernán Carranza; Carlos Vargas; Jorge Otero; July Rodríguez; Javier Jacobo; Jorge Aristizábal; Diego Pineda; Christian Rolfo; Natalia Sánchez; Andrés F Cardona",
+    "date": "2025-09-28"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

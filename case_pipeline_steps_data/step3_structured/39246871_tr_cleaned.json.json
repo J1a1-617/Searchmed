@@ -1,0 +1,118 @@
+{
+  "provenance": {
+    "source_filename": "39246871_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 71,
+    "sex": "male",
+    "smoking_status": "current_smoker",
+    "pack_years": 50,
+    "presenting_symptoms": [
+      "blurry vision"
+    ],
+    "diagnosis_date": "YYYY",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT4N3M1b",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "choroid",
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "YYYY",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R"
+        ],
+        "sample": "primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "afatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "afatinib": "daily"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 61
+      }
+    },
+    {
+      "time": "YYYY",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR T790M"
+        ],
+        "sample": "primary tumor"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 18
+      }
+    },
+    {
+      "time": "YYYY",
+      "event_type": "progression + treatment",
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "bevacizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": "AUC 6",
+          "pemetrexed": "500 mg/m2",
+          "bevacizumab": "15 mg/kg"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 22
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 61,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "YYYY"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Long-term follow-up of a case with lung adenocarcinoma and choroidal metastasis",
+      "EGFR mutation identified as a target for therapy",
+      "Successful management of choroidal metastasis with afatinib",
+      "Sequential therapy with osimertinib and chemotherapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

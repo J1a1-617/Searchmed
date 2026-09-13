@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41808249_tr.json",
+    "source_pmid": "41808249",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41808249_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:34:23",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Constitutive EGFR Activation Induced by PTPRR Downregulation Confers Resistance to KRAS Inhibitors",
+    "author": "Hiroaki Kanemura; Toshiyuki Takehara; Osamu Maenishi; Shuta Tomida; Natsumi Iwawaki; Kei Kunimasa; Tomohiro Nakayama; Satomi Watanabe; Shinichiro Suzuki; Kazuko Sakai; Koichi Azuma; Keita Kudo; Kazuto Nishio; Kazuhiko Nakagawa; Hidetoshi Hayashi; Takeshi Teramura; Kimio Yonesaka",
+    "date": "2026-04-02"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

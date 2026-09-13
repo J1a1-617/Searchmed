@@ -1,0 +1,216 @@
+{
+  "provenance": {
+    "source_filename": "41584719_tr_cleaned.json",
+    "source_pmid": "100941",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 42,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "cough"
+    ],
+    "diagnosis_date": "unknown",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma with small cell features",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "left lung",
+    "metastatic_sites_at_baseline": [
+      "brain",
+      "bones",
+      "adrenal gland"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "unknown",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK (E13A20)",
+          "TP53 p.R248W",
+          "ATM mutations"
+        ],
+        "tumor_mutational_burden": 0.8,
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "alectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "alectinib": "600 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "trial + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "unknown",
+        "regimen": [
+          "alectinib",
+          "cobimetinib"
+        ],
+        "type": "clinical trial",
+        "dosage": {
+          "alectinib": "600 mg twice daily",
+          "cobimetinib": "20 mg daily on days 1 to 21 every 28 days"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "radiation",
+      "molecular": null,
+      "treatment": {
+        "line": "unknown",
+        "regimen": [
+          "radiation therapy"
+        ],
+        "type": "radiation",
+        "dosage": null
+      },
+      "response": null
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + biopsy + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK fusion",
+          "TP53 mutation"
+        ],
+        "lost": [
+          "ATM mutations"
+        ],
+        "tumor_mutational_burden": 7,
+        "sample": "biopsy"
+      },
+      "treatment": {
+        "line": "unknown",
+        "regimen": [
+          "platinum-based chemotherapy",
+          "immunotherapy",
+          "lorlatinib"
+        ],
+        "type": "chemotherapy + targeted",
+        "dosage": {
+          "lorlatinib": "unknown"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "unknown",
+        "regimen": [
+          "paclitaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "paclitaxel": "80 mg/m2 weekly"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "unknown",
+      "event_type": "treatment + trial",
+      "molecular": null,
+      "treatment": {
+        "line": "unknown",
+        "regimen": [
+          "DLL3 CAR T-cell therapy"
+        ],
+        "type": "clinical trial",
+        "dosage": null
+      },
+      "response": null
+    },
+    {
+      "time": "unknown",
+      "event_type": "radiation + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "unknown",
+        "regimen": [
+          "radiation to adrenal gland",
+          "pleura"
+        ],
+        "type": "radiation",
+        "dosage": null
+      },
+      "response": null
+    },
+    {
+      "time": "unknown",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "unknown",
+        "regimen": [
+          "tarlatamab"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 1 CRS"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "lorlatinib",
+      "tarlatamab"
+    ],
+    "mechanism": "none",
+    "severity": "none",
+    "clinical_manifestation": "no drug-drug interaction noted",
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 3,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "unknown"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "ALK-rearranged NSCLC transformed to SCLC",
+      "Successful treatment with tarlatamab",
+      "Partial response in brain metastases"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

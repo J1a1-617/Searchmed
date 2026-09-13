@@ -1,0 +1,148 @@
+{
+  "provenance": {
+    "source_filename": "37920159_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 65,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "chest pain",
+      "persistent coughing",
+      "right limb weakness",
+      "right paralysis"
+    ],
+    "diagnosis_date": "2020-04",
+    "cancer_type": "NSCLC",
+    "histology": "pulmonary sarcomatoid carcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT4N1M1",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "right lung",
+      "adrenal glands",
+      "left frontal lobe"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-04",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "PD-L1 (+, tumor proportion score = 80%)",
+          "TMB = 14.46 mutations/Mb"
+        ],
+        "sample": "tissue sample"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "anlotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "anlotinib": "12 mg daily for 14 days followed by a one-week break"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2020-05",
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "TMB = 14.46 mutations/Mb",
+          "stable microsatellite status"
+        ],
+        "sample": "tissue sample"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "anlotinib",
+          "pembrolizumab"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "anlotinib": "12 mg daily for 14 days (3 weeks)",
+          "pembrolizumab": "200 mg every 3 weeks"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 8
+      }
+    },
+    {
+      "time": "2020-10",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "TMB = 13.52 mutations/Mb",
+          "stable microsatellite status"
+        ],
+        "sample": "peripheral blood"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pembrolizumab"
+        ],
+        "type": "immunotherapy",
+        "dosage": {
+          "pembrolizumab": "200 mg every 3 weeks"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 8
+      }
+    },
+    {
+      "time": "2021-01",
+      "event_type": "progression + palliative treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "pembrolizumab"
+        ],
+        "type": "immunotherapy",
+        "dosage": {
+          "pembrolizumab": "200 mg every 3 weeks"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 5
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 14,
+    "survival_status": "dead",
+    "cause_of_death": "hyperprogression",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "High PD-L1 expression in PSC",
+      "Effective combination of anlotinib and pembrolizumab",
+      "Radiotherapy required due to local progression",
+      "Hyperprogression observed after 15 cycles of pembrolizumab"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

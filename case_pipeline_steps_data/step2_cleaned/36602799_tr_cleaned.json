@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "36602799_tr.json",
+    "source_pmid": "36602799",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/36602799_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:22:37",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Analysis of Tumor Mutational Burden, Progression-Free Survival, and Local-Regional Control in Patents with Locally Advanced Non–Small Cell Lung Cancer Treated With Chemoradiation and Durvalumab",
+    "author": "Emily S Lebow; Annemarie Shepherd; Jordan E Eichholz; Michael Offin; Daphna Y Gelblum; Abraham J Wu; Charles B Simone; II; Adam J Schoenfeld; David R Jones; Andreas Rimner; Jamie E Chaft; Nadeem Riaz; Daniel R Gomez; Narek Shaverdian",
+    "date": "2023-01-05"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

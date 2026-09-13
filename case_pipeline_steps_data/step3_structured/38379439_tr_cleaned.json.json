@@ -1,0 +1,122 @@
+{
+  "provenance": {
+    "source_filename": "38379439_tr_cleaned.json",
+    "source_pmid": "10.1111/1759-7714.15250",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 69,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "dyspnea"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "multiple bone metastases"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "YYYY",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg/day"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "YYYY-MM",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [
+          "adenovirus infection"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "prednisolone"
+        ],
+        "type": "corticosteroid",
+        "dosage": {
+          "prednisolone": "50 mg/day"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "YYYY-MM",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg/day"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": 24
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "prednisolone"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 24,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Severe adenoviral pneumonia mimicking drug-related pneumonitis",
+      "Successful resumption of osimertinib after recovery from pneumonia"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

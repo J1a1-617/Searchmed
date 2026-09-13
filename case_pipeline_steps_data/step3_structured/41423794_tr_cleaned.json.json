@@ -1,0 +1,130 @@
+{
+  "provenance": {
+    "source_filename": "41423794_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 69,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 8,
+    "presenting_symptoms": [
+      "dry cough",
+      "right hemithorax pain",
+      "weight loss"
+    ],
+    "diagnosis_date": "2024-03",
+    "cancer_type": "CRC",
+    "histology": "poorly differentiated carcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "adrenal glands",
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "mFOLFIRINOX"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "mFOLFIRINOX": "infusional 5-FU, leucovorin, irinotecan, and oxaliplatin"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "2024-03",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR c.2573T>G p.(L858R)"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": "oral"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-06",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "APC c.1495C>T p.(R499*)",
+          "TP53 c.438G>A p.(W146*)"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "radiotherapy"
+        ],
+        "type": "radiotherapy",
+        "dosage": {
+          "radiotherapy": "800 cGy, single fraction"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "gefitinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 10,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "2024-08",
+    "treatment_discontinuation_reason": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Co-occurrence of APC and EGFR L858R mutations in colorectal cancer",
+      "Initial misclassification led to delayed appropriate therapies",
+      "Importance of comprehensive molecular profiling for accurate diagnosis"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

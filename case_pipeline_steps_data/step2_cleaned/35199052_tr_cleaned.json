@@ -1,0 +1,28 @@
+{
+  "text": "Title: Composite clonal analysis reveals transition of NSCLC subtypes through accumulation of gene mutations: a case report\nPMID: \nAuthors: Takahiro Ando, Hidenori Kage, Aya Shinozaki-Ushiku, Kenji Tatsuno, Shuichi Tsutsumi, Kazuhiro Nagayama, Jun Nakajima, Shinji Kohsaka, Kiyoshi Miyagawa, Hiroyuki Mano, Takahide Nagase, Hiroyuki Aburatani\n\nAbstract\nWe analyzed an EGFR-mutated lung cancer with a pathologic diagnosis of combined large cell neuroendocrine carcinoma with mixed adenocarcinoma subtypes. Targeted next-generation sequencing of each component suggested that mutations in RB1, TP53, and SMAD4 and apparent loss of heterozygosity of TP53 and SMAD4 accompanied the transition of different adenocarcinoma subtypes. Additional gene mutations including PTEN, MST1R, and PIK3CA were noted during transdifferentiation from acinar adenocarcinoma to large cell neuroendocrine carcinoma. Combined DNA and RNA analysis using Todai OncoPanel revealed that transdifferentiation to different pathologic subtypes occurred in a single tumor through the accumulation of gene mutations.\n\nCase Presentation\nA 67-year-old man with an 18-pack-year smoking history was referred for a lung nodule of the left upper lobe. He had no history of malignant diseases. Adenocarcinoma was suspected by bronchoscopy, and the left upper lobe was resected. The primary tumor was combined LCNEC with mixed adenocarcinoma subtypes including papillary (35%), LCNEC (20%), acinar (20%), lepidic (20%), micropapillary (<5%), and solid adenocarcinoma (<5%) (Fig. 1A–E). The LCNEC component was diffusely positive for synaptophysin, CD56, TTF1, and p53, and negative for chromogranin A, RB1, and PTEN (Fig. 1F and Supplementary Fig. 1). The adenocarcinoma components were diffusely positive for TTF1, focally positive for p53, and negative for synaptophysin, CD56, and chromogranin A (Supplementary Fig. 1). The lepidic component was positive for RB1 and PTEN, and the acinar and papillary components were heterogeneously positive for PTEN and negative for RB1 (Fig. 1F). The lymph node metastasis was positive for the micropapillary component. The pathologic stage was determined as pT1bN2M0, stage IIIA. cobas EGFR Mutation Test v2 (Roche Diagnostics K.K., Tokyo, Japan), a commercial companion diagnostic, detected exon 19 deletion.\nWe performed targeted next-generation sequencing to compare molecular changes in each component of the adenocarcinoma and the LCNEC subtypes. The tissue of each histologic component was obtained by macrodissecting the formalin-fixed paraffin-embedded sections. After obtaining informed consent, genomic DNA was extracted from each pathologic component and peripheral blood lymphocytes as matched normal control and was subjected to targeted sequencing of 464 cancer-related genes with the use of Todai OncoPanel.3 The tumor content of micropapillary and solid adenocarcinoma components and lymph node metastasis was too low to be analyzed. We detected 3, 5, 6, and 9 nonsynonymous somatic mutations in the lepidic, acinar, papillary, and LCNEC components, respectively (Table 1). We also detected 1 and 3 synonymous somatic mutations in the adenocarcinoma and LCNEC components. Copy number graph revealed loss of chromosome 13 in papillary and LCNEC components, consistent with RB1 loss (Supplementary Fig. 2). In addition, loss of chromosome 10 in papillary and LCNEC components was consistent with PTEN loss. RNA expression analysis was performed using the Todai OncoPanel RNA panel for each component, and hierarchical clustering confirmed that the lepidic and acinar subtypes clustered, and the papillary and LCNEC subtypes (Fig. 2A). Gene Set Enrichment Analysis revealed down-regulation of EGFR signaling, and, RB1 targets, SOX4 targets, and cell cycle genes were enriched in the papillary and LCNEC subtypes. No pathogenic germline mutations were detected.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "35199052_tr.json",
+    "source_pmid": "35199052",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/35199052_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:14:48",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Composite Clonal Analysis Reveals Transition of NSCLC Subtypes Through Accumulation of Gene Mutations: A Case Report",
+    "author": "Takahiro Ando; Hidenori Kage; Aya Shinozaki-Ushiku; Kenji Tatsuno; Shuichi Tsutsumi; Kazuhiro Nagayama; Jun Nakajima; Shinji Kohsaka; Kiyoshi Miyagawa; Hiroyuki Aburatani; Hiroyuki Mano; Takahide Nagase",
+    "date": "2022-01-10"
+  },
+  "rejection_reason": null
+}

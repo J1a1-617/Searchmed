@@ -1,0 +1,70 @@
+{
+  "provenance": {
+    "source_filename": "41204513_tr_cleaned.json",
+    "source_pmid": "12345678",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 62,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "shoulder pain",
+      "upper extremity DVT"
+    ],
+    "diagnosis_date": "2022-12",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "T3N0M0",
+    "overall_stage": "IIB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2022-12",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion"
+        ],
+        "pd_l1_expression": "35%",
+        "sample": "bronchial mucosa"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "apixaban"
+        ],
+        "type": "anticoagulation",
+        "dosage": {
+          "apixaban": "5 mg BID"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Atypical presentation of lung adenocarcinoma with shoulder pain and UEDVT",
+      "EGFR exon 19 deletion identified as a targetable alteration",
+      "Patient managed with anticoagulation therapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40322729_tr.json",
+    "source_pmid": "40322729",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40322729_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:19:06",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Potential biomarkers of primary resistance to first- and second-generation EGFR-TKIs in non-small-cell lung cancer: a real-world study",
+    "author": "Jingyi Wang; Bolin Chen; Xingxiang Pu; Jia Li; Yan Xu; Li Xu; Fang Xu; Kang Li; Yi Kong; Liyu Liu; Qianzhi Wang; Lin Wu",
+    "date": "2025-04-30"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

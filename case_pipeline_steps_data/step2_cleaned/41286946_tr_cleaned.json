@@ -1,0 +1,28 @@
+{
+  "text": "Title: NSCLC with Co-expression of Thyroid Transcription Factor-1 and P40: A Case Report\nPMID: \nAuthors: \n\nAbstract\nNon-small cell lung carcinoma (NSCLC) with co-expression of thyroid transcription factor-1 and p40 is an extremely rare and diagnostically challenging subtype. These tumors exhibit both glandular and squamous features, which reflect a dual-lineage differentiation pattern.\n\nCase presentation\nA 78-year-old male with a history of smoking and alcohol consumption was found to have a solid nodule in the right peripheral lung on CT. Postoperative pathology confirmed that the solid nodule was poorly differentiated NSCLC with diffused and strong positivity for both thyroid transcription factor-1 and p40 by immunohistochemistry. Next-generation sequencing identified somatic mutations of LRP1B and TP53, along with copy number amplification of TP63 and SOX2 as well as copy number loss of CDKN2A/B. The patient was a 78-year-old male with a long-standing history of smoking, alcohol consumption, past tuberculosis, and chronic bronchitis. Three years prior, elevated serum tumor markers were noted: carcinoembryonic antigen (CEA): 10.08 ng/mL, neuron specific enolase (NSE): 20.0 µg/L, and squamous cell carcinoma antigen (SCC): 4.1 ng/mL. Chest CT showed a 0.7 cm×1.3 cm patchy high-density nodule in the lateral segment of the right middle lobe with internal cavitation and ill-defined margins. Two years later, chest CT showed nodule growth to 1.2 cm×1.4 cm, with persistent cavitation, spiculated margins, and pleural adhesion, strongly suggestive of malignancy. PET-CT showed a 1.4 cm×1.3 cm×1.2 cm solid nodule with lobulated contours, pleural traction, and increased fluorodeoxyglucose uptake (standard uptake value max 6.9), consistent with peripheral lung carcinoma. Contrast-enhanced CT showed moderate heterogeneous enhancement and persistent spiculation, further supporting malignancy. The patient subsequently underwent thoracoscopic radical resection of the right lung lesion, and the specimen was submitted for pathological evaluation. At seven months postoperatively, the patient had recovered well without radiotherapy or chemotherapy, and there was no radiological or clinical evidence of local recurrence or distant metastasis. The resected lung tissue measured approximately 13.0 cm×8.0 cm×2.5 cm, appearing red and soft in texture. A grey and solid nodule measuring approximately 1.2 cm in diameter was identified adjacent to the visceral pleura with an ill-defined border. Histologically, the tumor exhibited solid and nested architecture, with occasional pseudoglandular or slit-like spaces and areas of palisading or basal-like structures. No definitive features of LUAD (acinar, papillary, micropapillary) or LUSC (keratinization, intercellular bridges) were identified. Periodic acid-Schiff staining and Alcian blue staining revealed focal deposition of neutral and acidic mucin within luminal spaces and the cytoplasm. The tumor was composed of moderately sized cells characterized by eosinophilic cytoplasm, enlarged hyperchromatic nuclei, prominent nucleoli, and frequent mitotic figure, with scattered giant tumor cells also observed. Multifocal spread through air spaces was observed at the tumor periphery. No invasion of the visceral pleura, vessels, nerves, or 26 resected lymph nodes was detected. Immunohistochemistry and in situ hybridization results were as follows: TTF-1 (diffuse strong positivity), CK7 (diffuse strong positivity), Napsin A (-), p40 (diffuse strong positivity), p63 (diffuse strong positivity), CK5/6 (diffuse moderate positivity), EGFR (+), HER2 (1+), Ki-67 (35% +), p53 (70% +), RB (+), SMARCA4 (+), CD56 (-), Chromogranin A (-), Synaptophysin (-), ALK (-), Cyclin D1 (-), p16 (-), Epstein-Barr virus-encoded small RNAs (-, by in situ hybridization). NGS was performed using a targeted panel covered 638 common oncogenic genes, including full-exon sequencing of 553 genes, 38 gene rearrangements, 60 genes related to chemotherapeutic response, and approximately 9,200 single nucleotide polymorphisms. The assay detected single nucleotide variants, small insertions/deletion, gene fusions, and copy number variations. In addition, tumor mutation burden, microsatellite instability, homologous recombination deficiency, and human leucocyte antigen typing were also evaluated. NGS revealed multiple gene alterations associated with LUSC, including somatic mutations in LRP1B and TP53, as well as copy number gains in TP63, SOX2, and CDKN2A/B.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41286946_tr.json",
+    "source_pmid": "41286946",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41286946_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:12:28",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Non-small cell lung carcinoma with co-expression of thyroid transcription factor-1 and p40: a case report and literature review",
+    "author": "Chusheng Wei; Yishan Wang; Weijia Lu; Bi-yun Lin; Danhui Gan; Yuanzhi Lu",
+    "date": "2025-11-24"
+  },
+  "rejection_reason": null
+}

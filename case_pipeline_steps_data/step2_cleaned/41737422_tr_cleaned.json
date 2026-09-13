@@ -1,0 +1,28 @@
+{
+  "text": "Title: A Case Report of Acquired ALK Fusion in ALK Wild‐Type Lung Adenocarcinoma Following Chemotherapy and a Literature Review Is Presented\nPMID: 10.1002/rcr2.70501\nAuthors: Cheng W., Qiao G., Zhang W., Song Y., Zan X.\n\nABSTRACT\nALK fusion is a key driver mutation in non‐small cell lung cancer, typically present as a primary genetic alteration. This article reports a rare case of a patient who was initially ALK‐negative but subsequently developed an ALK fusion following chemotherapy. A 52‐year‐old female was diagnosed with advanced lung adenocarcinoma. Initial genetic testing showed wild‐type EGFR and ALK. She received first‐line platinum‐based doublet chemotherapy combined with a VEGF inhibitor and a PD‐L1 inhibitor, achieving a partial response. Upon disease progression, repeat genetic testing unexpectedly detected an ALK fusion. Treatment was then switched to the ALK inhibitor alectinib, and the patient again achieved a partial response. This case suggests that chemotherapy may enrich ALK fusion‐positive tumour cell clones through selective pressure. These findings highlight the clinical importance of repeated genetic testing after disease progression and provide new insights for post‐resistance treatment strategies.\nKeywords: acquired ALK fusion, lung adenocarcinoma, post‐chemotherapy\n\n2. Case Report\nA 52‐year‐old non‐smoking female presented in March 2022 with a six‐month history of cough, expectoration, and left‐sided chest and back pain. Imaging studies identified a 2.2 × 1.8 cm mass in the left lower lung lobe (Figure 1A) accompanied by enlarged hilar and mediastinal lymph nodes, bilateral adnexal masses and multiple systemic bone metastases. Bronchoscopic biopsy of a lesion in the left lower lobe (specimen diameter: 0.4 cm) confirmed the diagnosis of lung adenocarcinoma. Immunohistochemical staining showed positivity for CKpt+, TTF‐1+, and CK7+, weak positivity for NapsinA, and negativity for CK5/6−, p40−, Syn− and CgA−. CD56 showed focal positivity, and the Ki‐67 index was approximately 15%. Genetic testing revealed wild‐type EGFR and no ALK fusion. The patient was diagnosed with left lung adenocarcinoma (stage cT1bN3M1c IVB). The patient began treatment in April 2022 with eight cycles of pemetrexed, cisplatin and bevacizumab. In March 2023, the treatment regimen was changed to three cycles of liposomal paclitaxel, cisplatin, bevacizumab and pembrolizumab, resulting in a partial response (Figure 1B,C). This was followed by six cycles of maintenance therapy with bevacizumab and pembrolizumab. Three months after treatment discontinuation, a follow‐up examination showed an increase in lesion size to 2.3 × 2.6 cm (Figure 1D), indicating disease progression (PD). Repeat biopsy and genetic testing revealed an ALK fusion. The patient was started on alectinib (600 mg twice daily). After 2 months of targeted therapy, re‐evaluation showed a reduction in lesion size to 2.0 × 1.6 cm (Figure 1E), again assessed as PR. The patient has now been on alectinib for 14 months. Recent imaging demonstrates further shrinkage of the lesion to 1.5 × 1.2 cm (Figure 1F), as well as improvement in bone metastases and adnexal lesions.\nAll ALK testing (both at baseline and upon progression) in this study was performed in the Department of Pathology of Lanzhou University Second Hospital. The widely validated Ventana ALK (D5F3) CDx Assay immunohistochemistry (IHC) method was uniformly applied. Staining was interpreted by an experienced pathologist in strict accordance with CAP/AMP guidelines, with positivity defined as strong, complete membranous staining in ≥ 1% of tumour cells. Previous studies have confirmed that this detection system has a sensitivity of > 95% for ALK rearrangements in lung adenocarcinoma [4]. The use of the same IHC platform, reagents and interpretation criteria for both baseline and follow‐up testing ensured methodological consistency.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41737422_tr.json",
+    "source_pmid": "41737422",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41737422_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:32:58",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "A Case Report of Acquired ALK Fusion in ALK Wild‐Type Lung Adenocarcinoma Following Chemotherapy and a Literature Review Is Presented",
+    "author": "Wenqing Cheng; Ganling Qiao; Wenhua Zhang; Yifan Song; Xiangyi Zan",
+    "date": "2026-02-22"
+  },
+  "rejection_reason": null
+}

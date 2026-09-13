@@ -1,0 +1,28 @@
+{
+  "text": "Title: 原发性EGFR G719A突变合并LMNA-NTRK1融合变异的肺腺癌病例报告\nPMID: [无]\nAuthors: [无]\n\nAbstract\n神经营养受体酪氨酸激酶（neurotrophic receptor tyrosine kinase, NTRK）的融合变异是多种成人和儿科恶性实体瘤的致癌驱动因素，如乳腺癌、唾液腺癌以及婴儿纤维肉瘤等。NTRK1/2/3的基因重排导致原肌球蛋白受体激酶（tropomyosin receptor kinase, TRK）结构域的组成型激活，表达的融合蛋白驱动肿瘤生长和存活。在非小细胞肺癌（non-small cell lung cancer, NSCLC）中，NTRK融合发生的频率为0.1%-1%。表皮生长因子受体（epidermal growth factor receptor, EGFR）在NSCLC中为常见突变，但EGFR G719A突变发生频率较低（约2%），且EGFR突变通常和NTRK融合变异互斥。本文首次报道1例原发性肺腺癌组织中同时伴有EGFR G719A突变和LMNA-NTRK1融合变异的罕见病例，并通过文献复习探讨NTRK融合变异在NSCLC中的作用以及与EGFR突变之间的关系，以提高对NTRK融合变异NSCLC的认识。\nKeywords: 肺肿瘤, NSCLC, EGFR突变, NTRK融合\n\n1 病例资料\n患者女性，59岁。2023年6月患者因应用“氨基比林”出现过敏反应入院。胸部增强计算机断层扫描（computed tomography, CT）显示右肺下叶后基底段肿块状软组织密度影（51 mm×34 mm），考虑为肺癌，周围见肺动脉小分支包饶，邻近右下肺静脉包饶受压；双侧锁骨上窝、纵隔内（2R、4R、5区、7区）、双肺门见多发增大淋巴结影，较大者位于4R区，短径约10 mm，右肺上叶结节轻度强化（图1）。此外，头颅磁共振成像（magnetic resonance imaging, MRI）显示右侧额颞部异常信号，结合病史考虑转移性病变。患者在CT引导下经皮肺穿刺活检术进行组织病理检查，镜下显示典型的乳头状（红色框）和微乳头状结构（绿色框）的癌巢呈浸润性生长[苏木精-伊红（hematoxylin and eosin, HE）染色切片形态特点见图2]，为肺腺癌，临床分期为cT4N3M1b IVA期。\n2023年7月对肺腺癌组织切片进行DNA/RNA-based下一代测序（next generation sequencing, NGS）基因检测，结果显示：EGFR G719A变异（exon 18 c.2156G>C，突变丰度33.92%）；纤层蛋白A/C（lamin A/C, LMNA）（exon 2）与NTRK1（exon 11）发生融合变异（图3A），即LMNA-NTRK1融合变异[LMNA (chr1:156100564)-NTRK1 (chr1:156844698) L2N11]，融合方式见图3B。另外，补充了荧光原位杂交（fluorescence in situ hybridization, FISH）的验证，如图3C所示NTRK断裂探针显示分离信号，表示NTRK融合阳性。\n由于NGS检测结果发现EGFR G719A突变，患者于2023年7月开始口服阿法替尼（Afatinib）靶向治疗（30 mg qd）。1个月后复查CT显示右肺下叶病变缩小（34.9 mm×23.3 mm），治疗前后CT对照结果见图1。持续口服阿法替尼靶向治疗1年，期间患者出现轻度腹泻、黏膜炎、皮疹、口腔炎等不良反应。患者于2024年7月复查出现肿瘤进展（45.6 mm×32.0 mm），建议使用抗NTRK融合的靶向治疗方案。但沟通后患者和家属放弃了靶向治疗，选择了放疗和化疗，目前患者已接受1个周期放疗[大体肿瘤靶体积（gross tumor volume, GTV）原发灶，GTV为GTV外扩及周围受累淋巴结，处方剂量：95%PTV 60 Gy/2 Gy/30 F，95%FGTV 72 Gy/2.4 Gy/30 F]和2个周期化疗（培美曲塞二钠700 mg联合卡铂600 mg ivgtt q21d），治疗相对顺利。",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39988443_tr.json",
+    "source_pmid": "39988443",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39988443_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:08:26",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "A Case Report of Lung Adenocarcinoma with EGFR G719A Mutation and LMNA-NTRK1 Fusion",
+    "author": "Shiqi SONG; Yaxian YANG; Weiquan LUO; Yueya LIANG; Qi LI; Tongxu ZHUO; Weibin XIONG; Jian HUANG",
+    "date": "2025-01-20"
+  },
+  "rejection_reason": null
+}

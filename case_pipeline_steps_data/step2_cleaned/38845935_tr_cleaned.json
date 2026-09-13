@@ -1,0 +1,28 @@
+{
+  "text": "Title: Case report of a patient with metastatic NSCLC harboring a novel METex14 mutation\nPMID: \nAuthors: Margaux Geier, Jessica Nguyen, Estelle Dhamelincourt, Hélène Babey, Renaud Descourt, Gilles Quéré, Gilles Robinet, François Lucia\n\nAbstract\nMET exon 14 (METex14) skipping mutations are oncogenic drivers observed in approximately 3–4% of non-small cell lung cancers (NSCLC). Several distinct genetic alterations leading to METex14 have been reported but clinical significances of rare mutations are not well defined as well as outcomes of patients upon MET inhibitors (METi).\n\nCase presentation\nThis report presents the case of a patient with metastatic NSCLC harboring an uncommon MET mutational landscape including notably a novel METex14 mutation (R1022L). Dramatic but transient efficacy was observed under crizotinib, due to early occurrence of acquired both on- and off-target mechanisms of resistance such as MET D1246H mutation and wild-type KRAS amplification.\n\nA 79-year-old white man presented to Hospital Emergency Department in January 2022 with acute respiratory failure. He was a former smoker with a 25-pack-year smoking history and quit thirty years ago. He reported occupational asbestos exposure until age 50. The contrast CT scan showed a lung tumor mass located in the left upper lobe with contralateral pulmonary lesions, pleural and pericardial effusions, liver, adrenal, bone and muscular metastases (Fig. 1A–C). The patient underwent bronchial biopsy via flexible bronchoscopy and pleural aspiration. A diagnosis of stage IV PD-L1 ≥50 % lung adenocarcinoma was subsequently made. Critical immunohistochemistry (IHC) biomarkers (ALK, ROS1, NTRK, RET, NRG1) were negative. Molecular testing on the tumor detected a MET intron 13 mutation (c.2942-31_2942-1del) associated with a novel METex14 mutation (R1022L, c.3065G > T; p.(Arg1022Leu)) (Table 1, Fig. 2A). RNA-based assays confirmed METex14 skipping. No other co-mutation was noted.\n\nBecause of a poor performance status, patient was not eligible to first-line immunotherapy or cytotoxic chemotherapy. Palliative radiotherapy of painful bone metastases was initiated. Despite clinical deterioration, crizotinib was administered orally at a starting dose of 250 mg twice daily in continuous 28-day cycle. After 2 weeks of therapy, we observed clinical and radiographical evidences of tumor response. METi was well tolerated and patient only reported low-grade peripheral edema of uncertain etiology. Partial objective tumor response was observed after 8 weeks of crizotinib (Fig. 1D–F).\n\nAfter 12 weeks, patient experienced novel episode of acute respiratory failure due to bilateral pleural effusion. Therapeutic pleural aspiration was performed to relieve symptoms. METi-related pleural toxicity was ruled out by cytological testing that confirmed malignant effusion. Comprehensive genomic profiling highlighted heterogeneous mutational landscape with previous original MET intron 13 and METex14 mutations in addition to acquired MET exon 19 mutation (D1246H, c.3736G > C; p.(Asp1246His)) (Fig. 2B) found in the COSMIC database (COSM689) and wild-type KRAS amplification. To note, strong PD-L1 expression (90 %) was observed (Table 1). Unfortunately, CT scan showed thoracic progression. Crizotinib was therefore discontinued but patient was not eligible to type II METi nor chemo/immunotherapy and received best supportive care. Due to cancer progression, he died two weeks after, i.e. 5 months after cancer diagnosis.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38845935_tr.json",
+    "source_pmid": "38845935",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38845935_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:44:05",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Uncommon MET mutational landscape in a non-small cell lung cancer patient treated with crizotinib: Case report",
+    "author": "Margaux Geier; Jessica Nguyen; Estelle Dhamelincourt; Hélène Babey; Renaud Descourt; Gilles Quéré; Gilles Robinet; François Lucia; Mathilde Pacault",
+    "date": "2024-05-27"
+  },
+  "rejection_reason": null
+}

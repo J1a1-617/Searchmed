@@ -1,0 +1,28 @@
+{
+  "text": "Title: Successful Treatment of Non-Small Cell Lung Cancer with Multiple Acquired EGFR Mutations Using Afatinib After Resistance to Almonertinib: A Case Report\nPMID: \nAuthors: FY, JL, MX, BP\n\nAbstract\nFor patients with advanced non-small cell lung cancer (NSCLC) that have epidermal growth factor receptor (EGFR) mutations, EGFR tyrosine kinase inhibitors (TKIs) are the standard treatment and have significant clinical benefits. Third-generation TKIs, such as osimertinib, almonertinib and furmonertinib, are effective for the treatment of NSCLC that is EGFR-sensitizing mutation-positive and T790M-positive. Despite the efficacy of third-generation TKIs, patients inevitably develop resistance and the resistance mechanisms are heterogeneous. Second-generation inhibitors, such as afatinib, may be crucial in treating diseases that have developed resistance to first- or third-generation inhibitors. However, the clinical effect of afatinib in patients with acquired multiple EGFR mutations is not well defined. To the best of our knowledge, the present report describes the first case of a patient with lung adenocarcinoma who had multiple co-existing EGFR resistance mutations, including EGFR L718Q, EGFR C797S, EGFR C797G, EGFR L792H, EGFR V802F and EGFR V689L. These mutations conferred resistance to almonertinib, whilst maintaining sensitivity to afatinib.\n\nCase report\nPatient\nA 57-year-old Chinese female patient was referred to Shenzhen People's Hospital (Shenzhen, China) due to the identification of lung nodules in a routine physical examination in December 2018. Positron emission tomography and CT revealed a 2.7×2.5×2.8-cm density mass in the upper lobe of the right lung (Fig. 1A and B). The patient had no underlying medical conditions. Subsequently, thoracoscopic radical surgery was performed for right upper lung cancer, along with a cauterization procedure for right pleural adhesion. Postoperative pathology indicated invasive adenocarcinoma measuring 2.7×2.5×2.8 cm in diameter, which was mainly composed of papillary type (Fig. 2). The patient was diagnosed with stage IIB right upper lung infiltrating adenocarcinoma (T1cN1M0) according to the 8th edition of TNM Staging System (9). As the pathology of the patient was clear and no residual lesions were found, and there were no high-risk characteristics, no adjuvant treatment was administered.\nIn February 2021, chest CT revealed multiple metastases in both lungs with multiple lymph node metastases in the mediastinum and both lung roots (Fig. 1B). Whole-body emission CT revealed multiple bone metastases in the thoracic vertebrae, bilateral ribs, humerus and scapula. Subsequent targeted next-generation sequencing (NGS) analysis of 425 cancer-related genes (Geneseeq122 Technology Inc.) identified EGFR L858R, which had a mutation allelic frequency (MAF) of 17.3% in the plasma, 34.1% in the pleural fluid and 27.8% in the tumor tissue of the upper lobe of the right lung (Table I). Subsequently, the patient was treated with oral almonertinib (110 mg per day) in March 2021, which is a third-generation EGFR TKI. The patient initially achieved a partial response (PR) that was maintained for 20 months (Fig. 1B).\nIn November 2022, chest CT of the patient revealed that the size of the mass in the upper lobe of the right lung had increased, which indicated progressive disease (PD; Fig. 1B). The patient has several small, spread-out metastatic lesions in both lungs, making a puncture biopsy unsuitable. To identify a more effective therapeutic strategy, targeted NGS was performed using the plasma sample, revealing the presence of EGFR L858R (MAF, 27.62%), EGFR L718Q (MAF, 8.30%), EGFR C797S (MAF, 6.55%), EGFR C797G (MAF, 0.56%), EGFR L792H (MAF, 0.36%), EGFR V802F (MAF, 1.13%) and EGFR V689L (MAF, 26.41%; Table I). The patient was then switched to oral afatinib (40 mg per day), a second-generation EGFR TKI, and achieved an initial PR, as indicated by chest CT 2 months later, which revealed marked shrinkage of the lung lesions (Fig. 1B).\nIn January 2023, follow-up genomic testing revealed that all the genetic alterations of the tumor had disappeared. However, in July 2023, the size of the mass in the upper lobe of the right lung increased, which indicated PD (Fig. 1B). The patient reached a progression-free survival (PFS) of 9 months. During this period, the patient did not receive any other treatment. As the patient refused chemotherapy, immunotherapy was planned for the patient. However, due to economical difficulty, the follow-up treatment was terminated.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39655272_tr.json",
+    "source_pmid": "39655272",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39655272_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:00:47",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Acquired multiple EGFR mutations‑mediated resistance to a third‑generation tyrosine kinase inhibitor in a patient with lung adenocarcinoma who responded to afatinib: A case report and literature review",
+    "author": "Fang Yang; Jingjing Liu; Mingming Xu; Bin Peng",
+    "date": "2024-11-27"
+  },
+  "rejection_reason": null
+}

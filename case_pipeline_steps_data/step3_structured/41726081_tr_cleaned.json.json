@@ -1,0 +1,143 @@
+{
+  "provenance": {
+    "source_filename": "41726081_tr_cleaned.json",
+    "source_pmid": "7372418",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.92
+  },
+  "baseline_clinical_profile": {
+    "age": 26,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "cough",
+      "chest discomfort"
+    ],
+    "diagnosis_date": "2021-12",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "left lung",
+      "mediastinal lymph nodes",
+      "cerebral metastasis"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2021-12",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "negative for EGFR, ALK, ROS1"
+        ],
+        "sample": "plasma liquid biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "atezolizumab",
+          "bevacizumab",
+          "carboplatin",
+          "paclitaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "atezolizumab": null,
+          "bevacizumab": null,
+          "carboplatin": null,
+          "paclitaxel": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2022-03",
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "EML4–ALK fusion (Variant 3)"
+        ],
+        "sample": "tissue rebiopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "alectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "alectinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 22
+      }
+    },
+    {
+      "time": "2024-01",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "alterations": [
+          "ALK I1171N mutation (VAF 24%)"
+        ],
+        "sample": "repeat NGS"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "brigatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "brigatinib": "90 mg lead-in ×7 days → 180 mg daily"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-05",
+      "event_type": "treatment response",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "CR",
+        "duration_months": 12
+      },
+      "safety": {
+        "adverse_events": [
+          "Grade 1 CPK elevation"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 12,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2025-03"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Sustained complete response to brigatinib after alectinib resistance",
+      "Identification of ALK I1171N mutation as a mechanism of resistance",
+      "Importance of repeat molecular testing for guiding therapy decisions"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

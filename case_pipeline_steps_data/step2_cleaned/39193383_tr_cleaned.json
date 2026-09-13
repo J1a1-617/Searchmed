@@ -1,0 +1,28 @@
+{
+  "text": "Title: Breast Metastasis from Lung Adenocarcinoma: A Case Report\nPMID: \nAuthors: \n\nAbstract\nThe distant metastasis of lung cancer primarily occurs in the bones, liver, brain, and lungs, while the breast is an extremely rare site of metastasis. There is very limited literature on the occurrence of breast metastasis from lung cancer, and metastatic lesions in the breast are prone to being misdiagnosed as primary breast cancer, requiring careful attention and differentiation in the clinical diagnostic and treatment process.\n\nCase presentation\nThe patient, a 63-year-old elderly female, was identified with an occupying lesion in the left lung in January 2017, which was subsequently excised. The postoperative pathology revealed lung invasive adenocarcinoma. Genetic testing of the postoperative tissue showed an EGFR exon 21 L858R mutation. As the patient’s disease was staged at IA (according to AJCC 8th edition criteria), postoperative targeted therapy was not administered. From July 2017 to January 2020, regular follow-up examinations showed no recurrence of the disease. In January 2020, a new solid nodule was detected in the left lung during a follow-up, suggesting recurrence, and the patient began treatment with afatinib. From January 2020 to October 2022, during the treatment period, regular examinations showed no disease progression.\nHowever, in October 2022, multiple new lesions were found in both lungs during a check-up, leading to a determination of disease progression (PD) according to Response Evaluation Criteria in Solid Tumors (RECIST) criteria. Re-testing still showed the EGFR exon 21 L858R mutation without new resistance mutations. Considering the ineffectiveness of afatinib treatment, the patient was switched to Furmonertinib for targeted therapy. In January 2023, the patient experienced discomfort in the breasts, but visual examination of the skin showed no abnormalities. Breast ultrasound indicated ductal ectasia with Breast Imaging-Reporting and Data System (BI-RADS) category 4A, accompanied by multiple abnormal enlarged axillary lymph nodes. Further imaging studies in February 2023 revealed additional lymph node metastases in the cervical, axillary, mediastinal, and retroperitoneal regions, as well as breast and bone metastases. The therapeutic effect of Furmonertinib was poor, and the patient’s condition progressed comprehensively. In March 2023, the patient’s bilateral breast skin began to show radiating streaks with pigmentation, presenting a peau d’orange appearance. Biopsy of the left breast confirmed poorly differentiated adenocarcinoma consistent with pulmonary origin. Due to the ineffectiveness of Furmonertinib, from March 2023 to October 2023, the patient underwent chemotherapy based on pemetrexed combined with bevacizumab. The overall therapeutic effect during chemotherapy was stable disease (SD).\nYet again, in November 2023, enhanced imaging examinations revealed an increase in the size of the lesions in both lungs and the pleura, new liver metastases, and worsening of the peau d’orange appearance of the breast, indicating further disease progression. Subsequent tissue biopsy and next-generation sequencing revealed, besides the EGFR L858R mutation, an additional MET amplification mutation. Consequently, from December 2023, the patient commenced treatment with Savolitinib. One month later, imaging showed significant reduction in the lesions in the lungs, pleura, and liver, achieving partial remission (PR), and a marked improvement in the peau d’orange changes of the breast. Three months later, imaging indicated stabilization of lesions throughout the body including pleura, with further improvement in the breast’s peau d’orange appearance. The timeline of this patient’s treatment journey was shown in Figure 4. As of the last update, the patient’s PFS with Savolitinib treatment has been maintained for five months.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39193383_tr.json",
+    "source_pmid": "39193383",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39193383_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:53:09",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case report: A case of Savolitinib in the treatment of MET amplification mutation advanced lung adenocarcinoma with rare bilateral breast metastasis",
+    "author": "Rui Deng; Yan-ying Li; Liang-liang Bai; Li Zhou; Yong-Sheng Wang",
+    "date": "2024-08-13"
+  },
+  "rejection_reason": null
+}

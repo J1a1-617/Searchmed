@@ -1,0 +1,221 @@
+{
+  "provenance": {
+    "source_filename": "41395620_tr_cleaned.json",
+    "source_pmid": "DOI",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 71,
+    "sex": "male",
+    "smoking_status": "current_smoker",
+    "pack_years": 500,
+    "presenting_symptoms": [
+      "vision decline"
+    ],
+    "diagnosis_date": "2024-07",
+    "cancer_type": "NSCLC",
+    "histology": "SMARCA4-deficient carcinoma",
+    "tnm_stage_system": "not specified",
+    "tnm_stage": "T1cNxM1c IVB",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "brain",
+      "left lower lobe"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2024-07",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "SMARCA4: p.G256*",
+          "ATR: c.6078 + 1G>T",
+          "BARD1: p.M420Ifs8",
+          "TP53: p.M66Gfs75",
+          "NSD1: p.R1700*",
+          "CHD8: p.E928*"
+        ],
+        "sample": "lung and brain tumors"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2024-08",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "surgery",
+        "regimen": [
+          "microscopic resection"
+        ],
+        "type": "surgical",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2024-09",
+      "event_type": "treatment + safety",
+      "molecular": null,
+      "treatment": {
+        "line": "postoperative",
+        "regimen": [
+          "localized intensity-modulated radiotherapy",
+          "pemetrexed",
+          "carboplatin",
+          "bevacizumab"
+        ],
+        "type": "combined",
+        "dosage": {
+          "radiotherapy": "51 Gy in 17 fractions of 3 Gy each",
+          "pemetrexed": null,
+          "carboplatin": null,
+          "bevacizumab": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "Grade 2 radiation-induced oral mucositis"
+        ],
+        "dose_adjustments": null
+      }
+    },
+    {
+      "time": "2024-10",
+      "event_type": "treatment + response",
+      "molecular": null,
+      "treatment": {
+        "line": "continuation",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin",
+          "bevacizumab",
+          "toripalimab"
+        ],
+        "type": "combined",
+        "dosage": null
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": "2025-02",
+      "event_type": "treatment + response",
+      "molecular": null,
+      "treatment": {
+        "line": "maintenance",
+        "regimen": [
+          "bevacizumab",
+          "pemetrexed"
+        ],
+        "type": "maintenance",
+        "dosage": null
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": "2025-03",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "radiotherapy",
+        "regimen": [
+          "radiotherapy for lung lesion"
+        ],
+        "type": "radiation",
+        "dosage": {
+          "radiotherapy": "50 Gy in 20 fractions of 2.5 Gy each"
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2025-04",
+      "event_type": "treatment + response",
+      "molecular": null,
+      "treatment": {
+        "line": "maintenance",
+        "regimen": [
+          "bevacizumab",
+          "pemetrexed"
+        ],
+        "type": "maintenance",
+        "dosage": null
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": "2025-07",
+      "event_type": "follow_up",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": "2025-10",
+      "event_type": "follow_up",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      },
+      "safety": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "pemetrexed",
+      "carboplatin",
+      "bevacizumab",
+      "toripalimab"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2025-10"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "SMARCA4-deficient non-small cell lung cancer with synchronous brain metastasis",
+      "High tumor mutational burden (TMB-H)",
+      "Concurrent mutations in chromatin remodeling and DDR pathway genes"
+    ],
+    "ddi_relevance": "medium",
+    "generalizability": "low"
+  }
+}

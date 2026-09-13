@@ -1,0 +1,136 @@
+{
+  "provenance": {
+    "source_filename": "41234576_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 42,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "cough",
+      "dyspnea"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT4N3M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral carcinomatous lymphangitis",
+      "pleural effusions",
+      "pericardial effusions",
+      "subcutaneous metastasis",
+      "multiple bone metastases"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "ALK deletions of exons 6–20"
+        ],
+        "sample": "skin biopsy specimens"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": null,
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pembrolizumab",
+          "carboplatin",
+          "nanoparticle albumin-bound paclitaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pembrolizumab": null,
+          "carboplatin": null,
+          "nanoparticle albumin-bound paclitaxel": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": null,
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "mutS homolog 6 R1076C",
+          "fanconi anemia complementation group G A153G",
+          "inositol polyphosphate-4-phosphatase B E735K",
+          "signal transducer and activator of transcription 3 E616V",
+          "mitogen-activated protein kinase kinase kinase 1 T949 duplication"
+        ],
+        "sample": "skin biopsy specimens"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "alectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "alectinib": "300 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 9
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "lorlatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "lorlatinib": "100 mg once daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 3
+      },
+      "safety": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "ALK internal deletions in lung adenocarcinoma",
+      "Response to alectinib and lorlatinib",
+      "High PD-L1 tumor proportion score"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

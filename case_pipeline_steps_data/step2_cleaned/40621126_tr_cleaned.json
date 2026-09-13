@@ -1,0 +1,28 @@
+{
+  "text": "Title: Case Report of a 67-Year-Old Male with Stage IV Lung Adenocarcinoma and Nephrotic Syndrome\nPMID: \nAuthors: \n\nAbstract\nThis case report presents a 67-year-old male diagnosed with stage IV lung adenocarcinoma harboring rare EGFR exon 18/20 mutations (Gly719Cys/Ser768Ile) and a concurrent TP53 mutation, complicated by nephrotic syndrome. The scarcity of approved EGFR-TKIs targeting rare EGFR mutations in NSCLC, coupled with nephrotic syndrome-induced renal impairment, hypoalbuminemia, and massive pleural effusion refractory to conventional management, prompted the development of a personalized multimodal approach.A multimodal therapeutic regimen incorporating albumin-bound paclitaxel, intrathoracic perfusion of Endostar (recombinant human endostatin), and traditional Chinese medicine (TCM) was implemented, achieving effective disease control. Notably, the treatment resulted in significant tumor shrinkage (reduction rate: 48.1% by RECIST 1.1), complete resolution of malignant pleural effusion, and marked improvement in nephrotic syndrome parameters. The synergistic effects of targeted chemotherapy, anti-angiogenic therapy, and TCM-based symptom modulation highlight the potential of integrative approaches in managing advanced malignancies with complex molecular profiles and multisystem complications.\n\nCase Presentation\nA 67-year-old patient presented with recurrent dyspnea over 2 years, exacerbated in the past 2 months. Initial evaluation at the Department of Respiratory and Critical Care Medicine on November 4, 2024, revealed the following CT findings: a space-occupying lesion in the right hilar region suggestive of malignancy, accompanied by mediastinal lymphadenopathy; bilateral pulmonary inflammatory changes with suspected metastatic lesions; and massive right-sided pleural effusion with minimal left-sided effusion. Thoracentesis was performed to drain the substantial pleural fluid. Cytopathological analysis using cell block preparation techniques was conducted on the aspirated effusion. Hematoxylin-eosin (H&E) staining and immunohistochemical (IHC) analysis of the cell block specimens confirmed the presence of lung adenocarcinoma cells (Figures 1–3). Subsequent next-generation sequencing (NGS) of the pleural effusion on November 21, 2024, identified an EGFR exon 18 missense mutation (Ser78Ile), an EGFR exon 20 missense mutation (Gly719Cys), and a TP53 frameshift mutation (Gly105fs), with variant allele frequencies of 43.47%, 44.38%, and 22.35%, respectively (Table 1). The patient initially received antimicrobial therapy for pneumonia, achieving symptomatic relief before discharge. However, due to persistent dyspnea and recurrent pleural effusion, the patient was readmitted on November 28, 2024, for further management.\n\nTreatment\nA patient presenting with elevated serum creatinine, increased urinary protein, and progressive hypoalbuminemia initiated comprehensive treatment on November 30, 2024. Following nephrology consultation, immunosuppressive therapy with prednisone (60 mg/day, 1 mg/kg, orally once daily) was administered. Thoracentesis was performed for symptomatic management of pleural effusion. Systemic chemotherapy was subsequently initiated on December 17, 2024, utilizing an albumin-bound paclitaxel regimen (100 mg/m² administered intravenously on days 1, 8, and 15 of a 21-day cycle). Concurrently, intrapleural perfusion therapy with Endostar (recombinant human endostatin, 45 mg administered on days 1 and 4) was implemented for malignant pleural effusion control. Adjunctive traditional Chinese herbal medication was incorporated into the therapeutic regimen to mitigate chemotherapy-associated adverse effects and enhance systemic homeostasis.\n\nOutcomes\nFollowing two treatment cycles, follow-up CT imaging revealed significant reductions in tumor volume and pleural effusion. Concurrent decreases in serum tumor marker levels were observed alongside patient-reported subjective improvement in respiratory function. Notably, nephrotic syndrome-related manifestations, including peripheral edema and proteinuria, demonstrated marked alleviation, suggesting improved renal function. The multimodal therapeutic regimen exhibited favorable tolerability with no severe adverse events documented during treatment (Table 2).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40621126_tr.json",
+    "source_pmid": "40621126",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40621126_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:28:54",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Integrated Traditional Chinese and Western Medicine in Lung Adenocarcinoma with Rare EGFR Mutation and Nephrotic Syndrome: A Case Report",
+    "author": "Lirong Zhang; Liye Cai; Luwei Ruan; Jie Li",
+    "date": "2025-07-02"
+  },
+  "rejection_reason": null
+}

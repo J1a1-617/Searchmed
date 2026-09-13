@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40038684_tr.json",
+    "source_pmid": "40038684",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40038684_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:12:29",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Survival impact and risk factors of skeletal muscle loss during first-line EGFR-TKIs therapy in advanced lung adenocarcinoma patients",
+    "author": "Xin Nie; Mingzhu Zou; Chenhui Song; Ping Zhang; Di Ma; Di Cui; Gang Cheng; Lin Li",
+    "date": "2025-03-04"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

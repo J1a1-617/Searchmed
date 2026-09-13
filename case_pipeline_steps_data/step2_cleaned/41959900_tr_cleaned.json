@@ -1,0 +1,28 @@
+{
+  "text": "Title: SMARCA4-deficient non-small cell lung cancer: A case report of successful sequential integration of radiotherapy and EGFR-TKI therapy\nPMID: [未提供]\nAuthors: [未提供]\n\nAbstract\nSMARCA4-deficient non-small cell lung cancer (SMARCA4-dNSCLC) represents a distinct, highly aggressive molecular subtype associated with a poor prognosis. While immune checkpoint inhibitors offer potential benefits, therapeutic options remain limited. Notably, SMARCA4 alterations are typically mutually exclusive with classic driver mutations (e.g., EGFR, ALK), rendering targeted therapies generally inapplicable at diagnosis. Consequently, the emergence of actionable driver mutations following systemic therapy is an exceptionally rare but clinically significant phenomenon in this entity.\n\nCase presentation\nWe present the case of a 52-year-old male diagnosed with stage T4N3M1a (IVA) SMARCA4-dNSCLC in April 2023, initially presenting with superior vena cava syndrome (SVCS). The patient was managed with a multimodal treatment strategy. Initial thoracic radiotherapy (50 Gy in 25 fractions) successfully alleviated the SVCS, enabling subsequent systemic therapy with tislelizumab, nab-paclitaxel, and carboplatin. Upon first disease progression nine months later (April 2024), he received a second course of radiotherapy (30 Gy in 10 fractions) combined with chemoimmunotherapy, achieving stable disease for five months. Following a second progression in October 2024, which was complicated by recurrent SVCS and malignant effusions, an SVC stent was placed. Critically, dynamic genetic profiling of the pleural effusion in November 2024 identified an emergent EGFR L858R mutation—a finding contrary to the typical mutual exclusivity described in this subgroup and suggests therapy-induced clonal selection. Treatment with a third-generation EGFR-TKI (aumolertinib) was initiated, resulting in significant symptomatic improvement and a progression-free survival of four months. The patient ultimately succumbed to the disease in April 2025, achieving an overall survival (OS) of 24 months. To our knowledge, this is the first report demonstrating the successful sequential integration of radiotherapy and EGFR-TKI therapy in SMARCA4-dNSCLC.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41959900_tr.json",
+    "source_pmid": "41959900",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41959900_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:38:19",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case Report: SMARCA4-deficient non-small cell lung cancer — effective local control with radiotherapy and emergence of a targetable EGFR mutation",
+    "author": "Jingru Luo; Shu Lin; Mingfa Wang; Yuecan Zeng; Wenjun Tang",
+    "date": "2026-03-25"
+  },
+  "rejection_reason": null
+}

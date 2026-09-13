@@ -1,0 +1,28 @@
+{
+  "text": "Title: SMARCA4-deficient non-small cell lung cancer with a novel CTNND2-ALK/EML4-ALK double-fusion: A case report\nPMID: \nAuthors: \n\nAbstract\nSMARCA4-deficient non-small cell lung cancer (SMARCA4-dNSCLC) is an aggressive malignancy with poor prognosis, rarely harboring EGFR, ALK, or ROS1 alterations. We report an advanced SMARCA4-dNSCLC case with brain metastasis exhibiting a novel CTNND2-ALK/EML4-ALK double-fusion. Following platinum-based chemotherapy and brain radiotherapy, next-generation sequencing identified the dual fusions (abundances: 2.6% and 5.2%), confirmed by ALK protein expression. The patient subsequently received ceritinib (750 mg/day). After 3 months, targeted lesions regressed significantly, and progression-free survival exceeded 24 months with ongoing response. This demonstrates efficacy of the ALK inhibitor ceritinib in ALK-rearranged SMARCA4-dNSCLC and underscores the clinical value of genomic-guided therapy.\n\nCase presentation\nA 51-year-old male with a 30-pack-year smoking history presented with chest pain, productive cough, and hemoptysis persisting for one month. Family history included laryngeal cancer (mother) and colorectal cancer (elder sister). The patient’s initial ECOG performance status was 1, with no comorbidities or concomitant medications. Aside from long-term smoking, he reported no alcohol consumption or occupational exposures related to lung cancer. Contrast-enhanced chest computed tomography (CT) revealed a 4.8 × 3.5 cm mass in the right lower lobe with associated hilar/mediastinal lymphadenopathy, obstructive pneumonia, and emphysema (Figures 1A-C). Brain MRI demonstrated a 1.2 cm metastatic lesion in the right frontal lobe (Figure 1D). These baseline CT and MRI scans were obtained prior to any treatment, including chemotherapy or radiotherapy. Bronchoscopic biopsy of the lung mass showed poorly differentiated carcinoma arranged in solid sheets and nest-like structures, with tumor cells displaying round-to-oval nuclei, occasional nucleoli, abundant cytoplasm, focal discohesion, and areas of necrosis. Immunohistochemistry (IHC) exhibited: Weak positivity (1+, <10% of tumor cells) for P63, cytokeratin (CK), and focal weak TTF-1; Positive Ki67 (proliferation index 30%); Negative staining for P40, Napsin A, ERG, CD31, SOX-2, SMARCA4, and SMARCA2 (Figures 2A-H). Both SMARCA4 and SMARCA2 exhibited complete nuclear loss in all tumor cells, with preserved nuclear expression in internal non-neoplastic elements, confirming adequate staining quality and true loss of BRG1/BRM expression. Ventana ALK IHC (D5F3) confirmed strong ALK protein expression (Figure 2I). PD-L1 IHC showed a tumor proportion score <1%. The epithelial morphology together with the epithelial marker profile supported the diagnosis of SMARCA4-deficient NSCLC, and SMARCA4-deficient thoracic sarcoma was excluded due to retained epithelial differentiation and absence of sarcomatoid features. The patient was staged as IV (cT2bN2M1) with synchronous brain metastasis.\nFollowing diagnosis, the patient underwent one cycle of platinum-based chemotherapy (carboplatin AUC5 + pemetrexed 500mg/m²) and whole-brain radiotherapy (30 Gy/10 fractions). Capture-based next-generation sequencing (NGS) using a 1021-gene panel (Geneplus Technology) on FFPE tumor tissue revealed dual ALK fusions: CTNND2-ALK (exon 2:20) at 2.6% allele frequency, EML4-ALK (exon 13:20) at 5.2% allele frequency (Table 1; Figures 3A, B) and identified a coexisting TP53 p.R273L mutation. No other actionable alterations were detected. This was corroborated by strong ALK positivity on Ventana IHC (D5F3 clone, Figure 2I).\nGiven the presence of dual ALK rearrangements with synchronous brain metastasis and the proven systemic and intracranial efficacy of ceritinib demonstrated in the ASCEND-4 trial (8), first-line ceritinib (750 mg daily, as used in ASCEND-4) was initiated. At 3-month assessment, chest CT showed 75% reduction in the primary lesion (2.4×1.2 cm vs. baseline 4.8×3.5 cm), resolved obstructive pneumonia, and regressed lymphadenopathy (Figures 1A-C, lower panels). Brain Magnetic Resonance Imaging (MRI) confirmed complete remission of the metastatic lesion (Figure 1D). RECIST 1.1 criteria defined partial response (PR: target lesion sum diameter decrease >30%). Continued ceritinib treatment resulted in further regression of the primary mass to 1.1 cm at 9 months. During follow-up, the patient’s symptoms gradually improved, and his ECOG performance status returned to 0. At last follow-up (24+months), the patient maintains progression-free survival with ongoing treatment response and no grade ≥2 adverse events (CTCAE v5.0 criteria).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41684594_tr.json",
+    "source_pmid": "41684594",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41684594_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:30:29",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Ceritinib efficacy in SMARCA4-deficient NSCLC harboring novel CTNND2 ALK/EML4-ALK fusion: case report",
+    "author": "Zhigang Fu; Gengda Huang; Jian Xie; Li Luo; Qinqin Ren; Hong He; Yuan Wang; Jiexia Zhang",
+    "date": "2026-01-28"
+  },
+  "rejection_reason": null
+}

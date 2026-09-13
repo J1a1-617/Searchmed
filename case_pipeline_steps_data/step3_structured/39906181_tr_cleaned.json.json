@@ -1,0 +1,183 @@
+{
+  "provenance": {
+    "source_filename": "39906181_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 32,
+    "sex": "female",
+    "smoking_status": "smoker",
+    "pack_years": 10,
+    "presenting_symptoms": [
+      "dyspnea"
+    ],
+    "diagnosis_date": "unknown",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM",
+    "tnm_stage": "T4N3M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bone",
+      "right supraclavicular lymph node",
+      "right adrenal"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "unknown",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR p.L746_A750del"
+        ],
+        "sample": "lung tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "afatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "afatinib": "unknown"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": [
+          "no EGFR p.T790M"
+        ],
+        "sample": "right supraclavicular lymph node"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "cisplatin",
+          "pemetrexed",
+          "bevacizumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "cisplatin": "unknown",
+          "pemetrexed": "unknown",
+          "bevacizumab": "unknown"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 36
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "treatment",
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "tegafur",
+          "gimeracil",
+          "oteracil"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "tegafur": "unknown",
+          "gimeracil": "unknown",
+          "oteracil": "unknown"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": "unknown"
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "treatment",
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "docetaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "docetaxel": "unknown"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": "unknown"
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "treatment",
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "unknown"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "treatment",
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "atezolizumab",
+          "bevacizumab",
+          "carboplatin",
+          "paclitaxel"
+        ],
+        "type": "combination_chemotherapy",
+        "dosage": {
+          "atezolizumab": "unknown",
+          "bevacizumab": "unknown",
+          "carboplatin": "unknown",
+          "paclitaxel": "unknown"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": "unknown"
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "unknown"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR p.L746_A750del mutation identified",
+      "Li-Fraumeni syndrome diagnosed",
+      "Poor response to afatinib but good response to cytotoxic agents",
+      "Importance of germline testing highlighted"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

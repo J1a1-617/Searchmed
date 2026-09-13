@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "39545922_tr.json",
+    "source_pmid": "39545922",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39545922_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:59:15",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Divergent Clinical and Immunologic Outcomes Based on STK11 Co-mutation Status in Resectable KRAS-Mutant Lung Cancers Following Neoadjuvant Immune Checkpoint Blockade",
+    "author": "Samuel Rosner; Sydney Connor; Khaled Sanber; Marianna Zahurak; Tianbei Zhang; Isha Gurumurthy; Zhen Zeng; Brad Presson; Dipika Singh; Roni Rayes; Lavanya Sivapalan; Gavin Pereira; Zhicheng Ji; Rohit Thummalapalli; Joshua E Reuss; Stephen R Broderick; David R Jones; Julie S Deutsch; Tricia R Cottrell; Jamie E Chaft; Jonathan Spicer; Janis Taube; Valsamo Anagnostou; Julie R Brahmer; Drew M Pardoll; Hongkai Ji; Patrick M Forde; Kristen A Marrone; Kellie N Smith",
+    "date": "2024-11-15"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

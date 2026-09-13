@@ -1,0 +1,17 @@
+{
+  "pmid": "40788850",
+  "source_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case report/literature_pipeline/output/full_texts/40788850.html",
+  "extraction_method": "trafilatura",
+  "title": "Correction: Effects of KRAS, STK11, KEAP1, and TP53 mutations on the clinical outcomes of immune checkpoint inhibitors among patients with lung adenocarcinoma",
+  "author": "Yao Liang; Osamu Maeda; Chiaki Kondo; Kazuki Nishida; Yuichi Ando",
+  "date": "2025-08-11",
+  "url": "",
+  "hostname": "ncbi.nlm.nih.gov",
+  "description": "",
+  "categories": "",
+  "tags": "",
+  "text": "There are errors in the author affiliations. The correct affiliations are as follows:\nYao Liang1, Osamu Maeda2, Chiaki Kondo2, Kazuki Nishida3, Yuichi Ando2\n1 Division of Clinical Oncology and Chemotherapy, Department of Integrated Medicine, Nagoya University Graduate School of Medicine, Nagoya, Aichi, Japan, 2 Department of Clinical Oncology and Chemotherapy, Nagoya University Hospital, Nagoya, Aichi, Japan, 3 Department of Advanced Medicine, Nagoya University Hospital, Nagoya, Aichi, Japan\nReference\n- 1.Liang Y, Maeda O, Kondo C, Nishida K, Ando Y. Effects of KRAS, STK11, KEAP1, and TP53 mutations on the clinical outcomes of immune checkpoint inhibitors among patients with lung adenocarcinoma. PLoS One. 2024;19(7):e0307580. doi: 10.1371/journal.pone.0307580 [DOI] [PMC free article] [PubMed] [Google Scholar]",
+  "text_length": 820,
+  "fingerprint": "fb84d957272ba12d",
+  "license": null
+}

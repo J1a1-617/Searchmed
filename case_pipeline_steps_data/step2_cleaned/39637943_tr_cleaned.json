@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "39637943_tr.json",
+    "source_pmid": "39637943",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39637943_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:00:33",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Lung adenocarcinomas with mucinous histology: clinical, genomic, and immune microenvironment characterization and outcomes to immunotherapy-based treatments and KRASG12C inhibitors",
+    "author": "A Di Federico; L Hong; A Elkrief; R Thummalapalli; A J Cooper; B Ricciuti; S Digumarthy; J V Alessi; P Gogia; F Pecci; M Makarem; M M Gandhi; E Garbo; A Saini; A De Giglio; V Favorito; S Scalera; L Cipriani; D Marinelli; D Haradon; T Nguyen; J Haradon; E Voligny; V Vaz; F Gelsomino; F Sperandi; B Melotti; M Ladanyi; J Zhang; D L Gibbons; J V Heymach; M Nishino; J Lindsay; S J Rodig; K Pfaff; L M Sholl; X Wang; B E Johnson; P A Jänne; N Rekhtman; M Maugeri-Saccà; R S Heist; A Ardizzoni; M M Awad; K C Arbour; A J Schoenfeld; N I Vokes; J Luo",
+    "date": "2024-12-03"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

@@ -1,0 +1,94 @@
+{
+  "provenance": {
+    "source_filename": "40642076_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 63,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": 40,
+    "presenting_symptoms": [
+      "left-sided chest pain"
+    ],
+    "diagnosis_date": "2021-04",
+    "cancer_type": "NSCLC",
+    "histology": "adenosquamous carcinoma",
+    "tnm_stage_system": "TNM 9th",
+    "tnm_stage": "cT4N3M1b",
+    "overall_stage": "IVa",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "metastatic lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2021-04",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS G12C",
+          "BRAF (non-V600E)",
+          "PIK3CA",
+          "FLT1"
+        ],
+        "sample": "postoperative tissue sample"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "paclitaxel",
+          "nedaplatin",
+          "tislelizumab"
+        ],
+        "type": "combination",
+        "dosage": {
+          "paclitaxel": "220 mg IV over 3 hours on day 1",
+          "nedaplatin": "60 mg IV on days 1 and 2",
+          "tislelizumab": "200 mg IV on day 1"
+        }
+      },
+      "response": {
+        "best": "CR",
+        "duration_months": 46.5
+      }
+    },
+    {
+      "time": "2021-09",
+      "event_type": "treatment continuation",
+      "molecular": null,
+      "treatment": {
+        "line": "maintenance",
+        "regimen": [
+          "tislelizumab"
+        ],
+        "type": "immunotherapy",
+        "dosage": {
+          "tislelizumab": "200 mg IV q3w"
+        }
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 46.5,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2025-03"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with advanced pulmonary adenosquamous carcinoma",
+      "Co-occurring driver mutations identified",
+      "Significant response to PD-1 inhibitor therapy",
+      "Maintenance therapy led to sustained complete response"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

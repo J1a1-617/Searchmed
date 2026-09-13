@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41487925_tr.json",
+    "source_pmid": "41487925",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41487925_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:21:07",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "The NGS and PCR-based Detection of EGFR Mutations in Liquid Biopsy: A Systematic Review and Meta-analysis Compared With Tissue Biopsy in Treatment-naïve Patients With Non-small Cell Lung Cancer",
+    "author": "MARÍA DEL SOCORRO GALEANO MOLINA; GABRIELA GUERRON-GÓMEZ; MERIDEIDY PLAZAS VARGAS; RAFAEL PARRA-MEDINA",
+    "date": "2026-01-03"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

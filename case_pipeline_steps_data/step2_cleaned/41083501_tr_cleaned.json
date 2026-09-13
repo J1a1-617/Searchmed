@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41083501_tr.json",
+    "source_pmid": "41083501",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41083501_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:06:21",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Elevated co-expression of TIMM17A and NMT1 is associated with poor survival in non-small cell lung cancer",
+    "author": "Alfred A Chan; Kamya Sankar; Karen L Reckamp; Begoña Díaz; Delphine J Lee",
+    "date": "2025-10-13"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

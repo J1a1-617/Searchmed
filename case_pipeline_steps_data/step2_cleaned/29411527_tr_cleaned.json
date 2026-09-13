@@ -1,0 +1,28 @@
+{
+  "text": "Title: Osimertinib resistance mechanisms in a patient with EGFR-mutated lung adenocarcinoma\nPMID: \nAuthors: \n\nAbstract\nOsimertinib is a novel, irreversible, mutant‐selective epidermal growth factor receptor (EGFR) tyrosine kinase inhibitor targeting EGFR mutations and the EGFR T790 mutation. Here, we report a woman with EGFR‐mutated lung adenocarcinoma who, after 23‐month treatment with gefitinib, developed the EGFR T790M mutation, which converted the T790M status from positive to negative before osimertinib treatment and developed MET amplification, leading to rapid progression on osimertinib in two months. Subsequent treatment with crizotinib and c‐Met inhibitor plus gefitinib also failed to improve the clinical outcome, suggesting the potential existence of another resistance mechanism. Our findings revealed the underlying multiple and heterogeneous mechanisms in resistance to osimertinib, suggesting combination strategies should be considered post‐osimertinib progression.\n\nCase Report\nThe patient was a 63‐year‐old, never‐smoker, Asian woman with stage IV lung adenocarcinoma harboring EGFR Del19 mutation (by ARMS). She was treated with gefitinib for 23 months with partial response as the best response and progressed in October 2015. Re‐biopsy of the lung found an EGFR Del19 mutation and an exon 20 T790M mutation by the PCR method using cobas® EGFR Mutation Test v2 assay (Roche Molecular Diagnostics, Pleasanton, CA, USA). The patient was then enrolled in the phase 3 study of AZD9291 (AURA 3) and assigned to the chemotherapy group (pemetrexed/cisplatin), achieving partial response after two‐cycle treatment, and progressed after four‐cycle chemotherapy and two‐cycle pemetrexed maintenance. The EGFR Del19 mutation (ARMS) and c‐Met amplification (FISH+ and IHC 2+) was detected, but not the T790M mutation. This patient was then crossed over to receive osimertinib 80 mg once daily according to the AURA 3 protocol, and rapidly progressed in two months with progressed disease as the best tumor response, while shrinkage of the intracranial tumor was seen. Liquid molecular analysis by PCR showed an activating EGFR Del19 mutation, but no EGFR T790M or C797S mutation, while c‐Met amplification was found in a tumor biopsy of the supraclavicular lymph nodes. The patient was then enrolled in a clinical trial evaluating a new c‐Met inhibitor, BPI‐9016, in June 2016, and achieved stable disease; however, the duration of the clinical benefit only lasted for three months. Post‐progression next‐generation sequencing results revealed the EGFR Del19 mutation without any signal of other biomarkers (including KRAS, NRAS, BRAF, PIK3CA, HER‐2, RET, PDGFRA, and C‐KIT). Crizotinib plus gefitinib was suggested; however, concerned about the potential toxicity, she started single‐agent crizotinib, and continued to receive a c‐Met inhibitor plus gefitinib after progression on crizotinib. During these treatments, the tumor in the lung was well controlled, while significant progress was seen in the liver. The patient died in December 2016 (Fig 1).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "29411527_tr.json",
+    "source_pmid": "29411527",
+    "original_file": "output/pre out/29411527_tr.json",
+    "cleaning_timestamp": "2026-05-08T19:56:15",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Heterogeneity‐based, multiple mechanisms in the resistance to osimertinib (AZD9291): A case report",
+    "author": "Yutao Liu; Xuezhi Hao; Xingsheng Hu; Junling Li; Yan Wang; Hongyu Wang; Puyuan Xing; Weihua Li; Jianming Ying; Xiaohong Han; Yuankai Shi",
+    "date": "2018-02-07"
+  },
+  "rejection_reason": null
+}

@@ -1,0 +1,126 @@
+{
+  "provenance": {
+    "source_filename": "36313664_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 76,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": "unknown",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT2bN2M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pulmonary",
+      "bone"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "unknown",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R",
+          "de novo T790M"
+        ],
+        "sample": "primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 14
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + rebiopsy + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "METex14del",
+          "EGFR L858R",
+          "de novo T790M"
+        ],
+        "sample": "re-biopsy specimen"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "tepotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "tepotinib": "500 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 8
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "nab-paclitaxel",
+          "S-1"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "nab-paclitaxel": "100 mg/m2 on days 1, 8, 15",
+          "S-1": "100 mg/body on days 1-14"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": 2.3
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": null
+  },
+  "outcome_summary": {
+    "survival_months": 32.3,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Acquired resistance to osimertinib identified as METex14del",
+      "Response to tepotinib therapy after osimertinib failure"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

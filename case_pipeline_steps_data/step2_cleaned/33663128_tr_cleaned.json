@@ -1,0 +1,28 @@
+{
+  "text": "Title: BRAF V600E mutation as a novel mechanism of acquired resistance to ALK inhibition in ALK-rearranged lung adenocarcinoma: a case report\nPMID: \nAuthors: Sui A, Song H, Li Y, Guo L, Wang K, Yuan M, Chen R\n\nAbstract\nRationale:\nPatients with lung adenocarcinoma harboring EML4-ALK rearrangements respond well to multiple ALK tyrosine kinase inhibitors (TKIs). However, the tumor will invariably progress due to acquired resistance. Comprehensive genomic profiling appears to be a promising strategy to reveal the underlying molecular mechanisms of ALK-TKIs resistance.\nPatient concerns:\nA patient with right lung adenocarcinoma harboring an ALK rearrangement received targeted therapy with multiple ALK-TKIs. He sought for follow-up treatment after his disease progressed again.\nDiagnosis:\nThe patient had a tumor diagnosed with stage I (T1bN0M0) lung adenocarcinoma.\nInterventions:\nDue to the surgical contraindication, the patient did not undergo surgical resection. Instead, he received crizotinib as the first-line therapy with the progression-free survival of 20 months. Then he switched to alectinib treatment, however the disease rapidly progressed again.\nOutcomes:\nNext-generation sequencing was performed and revealed that 7 somatic mutations were identified. Among them, 2 mutations, ALK I1171T and BRAF V600E, may be responsible for the resistance of this patient to ALK-TKIs. BRAF V600E mutation may explain the patient's resistance to lorlatinib.\nLessons:\nWe present a case of ALK-rearranged lung adenocarcinoma with acquired resistance to ALK inhibition, in which the BRAF V600E mutation is a novel resistance mechanism. This provides evidence that BRAF V600E mutation is one mechanism of ALK-TKI resistance.\n\n2. Case presentation\nA 61-year-old Chinese male with T1bN0M0 (stage I) right lung adenocarcinoma harboring ALK and ROS proto-oncogene 1 (ROS1) double-rearrangements, due to the surgical contraindication, received crizotinib 250 mg twice daily as the first-line therapy with the progression-free survival of 20 months. Anti-bone metastasis therapy with zoledronic acid was added following progression on crizotinib treatment. Seven months later, the spoiled gradient recalled imaging of the skull revealed the presence of nodular hyperintensity in the sulci of the left occipital lobe, and the computed tomography pulmonary angiography indicated right pneumonia. At the same time, the patient has clinical symptoms such as the worsening of chest distress and asthma, showing disease progression. Two cycles of chemotherapy intrapleural infusion were added to control the worsening disease. The patient then switched to alectinib 600 mg twice daily treatment without genetic testing. Frustratingly, 3 months later, the patient had multiple bone metastases again. As a result, radiation and zoledronic acid were added. However, the disease has not been improved significantly, and progression has quickly occurred with emergence of multiple small nodules in both lungs, zoledronic acid and chemotherapy were rechallenged to control the progressive disease.\nTo identify potential molecular mechanisms of resistance and seek for other actionable mutations, NGS of 1021 cancer-related genes was performed using peripheral blood. Seven somatic mutations were identified, which were summarized in Table 1. The previous ALK rearrangement (EML4-ALK (E20:A20)) was detected with the mutant allele frequency of 8.8%, and the previous ROS1 rearrangement detected by fluorescence in situ hybridization was disappeared. Furthermore, 2 mutations, ALK I1171T and BRAF V600E, may be responsible for the resistance of this patient to crizotinib and alectinib. Based on these results and the patient's preference, the patient chose lorlatinib for treatment. Unfortunately, the patient's condition did not improve, and died 3 weeks thereafter.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "33663128_tr.json",
+    "source_pmid": "33663128",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/33663128_tr.json",
+    "cleaning_timestamp": "2026-06-03T00:45:05",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "BRAF V600E mutation as a novel mechanism of acquired resistance to ALK inhibition in ALK-rearranged lung adenocarcinoma: A case report",
+    "author": "Aixia Sui; Huiling Song; Yitong Li; Litao Guo; Kai Wang; Mingming Yuan; Rongrong Chen",
+    "date": "2021-02-26"
+  },
+  "rejection_reason": null
+}

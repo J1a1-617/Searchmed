@@ -1,0 +1,28 @@
+{
+  "text": "Title: Acquired MET Exon 14 Skipping Mutation Mediated Resistance to Alectinib in a Patient with ALK-Rearranged Lung Adenocarcinoma: A Case Report\nPMID: \nAuthors: \n\nAbstract\nAnaplastic lymphoma kinase (ALK) tyrosine kinase inhibitors (TKIs) are standard first line treatment for ALK-rearranged non-small cell lung cancer (NSCLC) and have demonstrated high and durable response rates. Despite these initial responses, patients eventually develop resistance through ALK dependent and ALK independent alterations. These resistance mechanisms have made treatment decisions increasingly more complex. Here we describe a case of an acquired mesenchymal epithelial transition factor (MET) exon 14 skipping (METex14) mutation mediated resistance to alectinib in a patient with ALK-rearranged lung adenocarcinoma.\n\nCase presentation\nWe present a 72-year-old male with a 2-pack year smoking history and end-stage renal disease on hemodialysis diagnosed with metastatic lung adenocarcinoma harboring an echinoderm microtubule-associated protein 4 (EML4)-ALK fusion gene mutation. The patient was initially treated with alectinib with good response. However, the patient eventually developed resistance. Next generation sequencing of a liquid biopsy at time of progression revealed a MET exon 14 skip mutation. The patient was started on dual alectinib and capmatinib therapy, which led to a rapid and durable response.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38205199_tr.json",
+    "source_pmid": "38205199",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38205199_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:34:28",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Combinatorial therapy is a safe and durable treatment option in ALK-rearranged non-small cell lung cancer with an acquired MET exon 14 skipping mutation mediated resistance to alectinib: a case report",
+    "author": "Charley Jang; Joshua Sabari",
+    "date": "2023-12-22"
+  },
+  "rejection_reason": null
+}

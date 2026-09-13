@@ -1,0 +1,115 @@
+{
+  "provenance": {
+    "source_filename": "36792084_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 73,
+    "sex": "female",
+    "smoking_status": "null",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "chest and back pain",
+      "dyspnea after activity"
+    ],
+    "diagnosis_date": "2020-11",
+    "cancer_type": "NSCLC",
+    "histology": "lung squamous cell carcinoma",
+    "tnm_stage_system": "null",
+    "tnm_stage": "cT4N3M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "liver",
+      "bones",
+      "lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-11-08",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK fusion (V1)",
+          "TP53 exon10 p.L348S"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2020-12-03",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "ensatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "ensatinib": "225 mg daily (initially 200 mg due to condition)"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 5.5
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 2 rash"
+        ],
+        "dose_adjustments": [
+          "ensatinib reduced to 200 mg initially"
+        ]
+      }
+    },
+    {
+      "time": "2022-07-10",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "lorlatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "lorlatinib": "100 mg daily (later reduced to 75 mg)"
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "delirium",
+          "cognitive dysfunction"
+        ],
+        "dose_adjustments": [
+          "lorlatinib reduced to 75 mg"
+        ]
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 19,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2022-11"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with advanced lung squamous cell carcinoma with EML4-ALK and TP53 co-mutation",
+      "Longest PFS reported for ALK mutated lung squamous cell carcinoma with ensatinib",
+      "Significant clinical improvement during ensatinib treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

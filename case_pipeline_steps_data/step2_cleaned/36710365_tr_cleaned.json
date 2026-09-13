@@ -1,0 +1,28 @@
+{
+  "text": "Title: Next‐generation sequencing clarified why first‐line treatment with osimertinib was ineffective in an autopsied case of EGFR‐mutated lung squamous cell carcinoma\nPMID: 10.1111/1759-7714.14807\nAuthors: Tadashi Nishimura, Takumi Fujiwara, Hajime Fujimoto, Hirotoshi Tarumi, Chikashi Tsuji, Soichi Iwanaka, Yasumasa Sakakura, Masahiro Naito, Hidenori Ibata, Yoshinaga Okugawa\n\nAbstract\nEpidermal growth factor receptor (EGFR)‐mutated squamous cell carcinoma (SCC) is less common than adenocarcinoma. The third‐generation EGFR‐tyrosine kinase inhibitor, osimertinib, is effective in EGFR‐mutated lung adenocarcinoma, but its efficacy in EGFR‐mutated lung SCC is unclear. The patient was an 83‐year‐old male. He was diagnosed with SCC of the lung, and molecular analysis revealed that the tumor was positive for EGFR exon19 deletion. He was treated with osimertinib 80 mg/day. No adverse events were observed, but after 18 days of therapy, he complained of dyspnea, and a computed tomography scan showed enlarged lung cancer. The case was categorized as a progressive disease. The patient died 3 weeks later. The autopsy findings confirmed the diagnosis of lung SCC, with morphology and immunohistochemical staining identical to the tumor obtained by bronchoscopy. Next‐generation sequencing showed the presence of TP53 R158L, CDK6, and KRAS amplifications. The current case report shows that next‐generation sequencing can explain why osimertinib is ineffective in EGFR‐mutated SCC.\n\nCASE REPORT\nThe patient was an 83‐year‐old male. He had a history of bronchial asthma, type 2 diabetes mellitus, and a smoking status of 30 pack‐years. The Eastern Cooperative Oncology Group Performance Status (ECOG PS) was 0. A chest computed tomography (CT) revealed pleural effusion and a mass in the lower lobe of the right lung. The serum levels of tumor markers were as follows: carcinoembryonic antigen (CEA) 10.0 ng/mL, cytokeratin 19 fragment (CYFRA) 54.2 ng/mL, and SCC 5.7 ng/mL. Bronchoscopy with tumor biopsy was performed. A tumor was visible in the tracheal lumen (Figure 1(a)). The immunohistochemical studies revealed thyroid transcription factor‐1 (−), napsin A (−), p40 (+), and cytokeratin 5/6 (+) (Figure 1(b)–(f)). The diagnosis was lung SCC. The clinical stage was cT4N2M1a (PLE) stage IVA. Molecular analysis revealed EGFR exon 19 deletion, T790M negative, and programmed death‐1 with a tumor proportion score of <1%. [Correction added on 3 February 2023, after first online publication: in Case Report section, the first paragraph has been inserted.]\nThe patient refused treatment with cytotoxic agents. Therefore, osimertinib (80 mg/day) was indicated as first‐line therapy. No adverse event was observed. However, 18 days after starting treatment with osimertinib, he consulted our emergency room for progressive dyspnea. A CT scan showed an enlarged lung cancer (Figure 1(g)–(j)). The diagnosis was disease progression. He, then, consented to receive only palliative treatment and died 3 weeks later. The patient's family agreed to perform an autopsy. The histopathological study of the autopsied samples confirmed the diagnosis of lung SCC without an adenocarcinoma component (Figure 1(k)–(p)). NGS (Illumina TruSight Oncology 500) of the autopsy specimens was performed. The results showed the following mutations (Table 1): cyclin‐dependent kinase inhibitor 2A with splice site 457 + 1G > A, insulin receptor substrate‐2 G1057D, phosphatase and tensin homolog deleted in chromosome 10 V317fs, smoothened K575M mutation, tumor protein 53 R158L, and the following gene amplifications (Table 2): fibroblast growth factor 10, cyclin‐dependent kinase 6, fibroblast growth factor receptor 1, MYC, ret proto‐oncogene, fibroblast growth factor 23, fibroblast growth factor 6, and KRAS.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "36710365_tr.json",
+    "source_pmid": "36710365",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/36710365_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:23:02",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Next‐generation sequencing clarified why first‐line treatment with osimertinib was ineffective in an autopsied case of EGFR‐mutated lung squamous cell carcinoma",
+    "author": "Tadashi Nishimura; Takumi Fujiwara; Hajime Fujimoto; Hirotoshi Tarumi; Chikashi Tsuji; Soichi Iwanaka; Yasumasa Sakakura; Masahiro Naito; Yoshinaga Okugawa; Taro Yasuma; Esteban Cesar Gabazza; Yasuhiro Oomoto; Tetsu Kobayashi; Hidenori Ibata",
+    "date": "2023-01-29"
+  },
+  "rejection_reason": null
+}

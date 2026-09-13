@@ -1,0 +1,223 @@
+{
+  "provenance": {
+    "source_filename": "39990136_tr_cleaned.json",
+    "source_pmid": "null",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 69,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2019",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT4N3M1c",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "lymph nodes",
+      "liver",
+      "lungs",
+      "bones"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2019",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion (p.Glu746_Thr751delinsIleAla)"
+        ],
+        "sample": "diagnostic biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 30
+      }
+    },
+    {
+      "time": "2021",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "findings": [
+          "persistent EGFR mutation"
+        ],
+        "sample": "liquid biopsy"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "carboplatin",
+          "pemetrexed",
+          "osimertinib"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "carboplatin": "AUC 6",
+          "pemetrexed": "500 mg/m2",
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2021",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "CCDC6-RET fusion",
+          "EGFR amplification"
+        ],
+        "sample": "biopsy of liver lesion"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "paclitaxel",
+          "bevacizumab",
+          "osimertinib"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "paclitaxel": "null",
+          "bevacizumab": "null",
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2021",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "CCDC6-RET fusion",
+          "EGFR amplification"
+        ],
+        "sample": "liquid biopsy"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "cabozantinib",
+          "osimertinib",
+          "gemcitabine"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "cabozantinib": "null",
+          "osimertinib": "80 mg daily",
+          "gemcitabine": "null"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 3 diarrhea"
+        ],
+        "dose_adjustments": []
+      }
+    },
+    {
+      "time": "2022",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "BRAF V600E mutation",
+          "CCDC6-RET fusion",
+          "EGFR alterations"
+        ],
+        "sample": "liquid biopsy"
+      },
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "osimertinib",
+          "selpercatinib",
+          "trametinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily",
+          "selpercatinib": "80 mg daily",
+          "trametinib": "0.5 mg daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 3 neutropenia",
+          "grade 2 edema",
+          "grade 2 hypertension"
+        ],
+        "dose_adjustments": []
+      }
+    },
+    {
+      "time": "2024",
+      "event_type": "palliative_care",
+      "molecular": {},
+      "treatment": {},
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "osimertinib",
+      "selpercatinib",
+      "trametinib"
+    ],
+    "mechanism": "Potential interactions due to combination therapy.",
+    "severity": "moderate",
+    "clinical_manifestation": "Toxicity leading to dose adjustments and treatment discontinuation.",
+    "management": "Close monitoring of adverse events; treatment discontinuation due to toxicity.",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 60,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "2024",
+    "treatment_discontinuation_reason": "toxicity"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Sequential acquired CCDC6-RET fusion and BRAF V600E mutation observed as resistance mechanisms in EGFR-mutated NSCLC.",
+      "Combination therapy with selpercatinib and osimertinib was initially effective but led to significant toxicity.",
+      "Transitioned to triple therapy with trametinib after detecting BRAF V600E mutation."
+    ],
+    "ddi_relevance": "high",
+    "generalizability": "medium"
+  }
+}

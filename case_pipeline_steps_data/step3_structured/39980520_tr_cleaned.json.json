@@ -1,0 +1,152 @@
+{
+  "provenance": {
+    "source_filename": "39980520_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": null,
+    "sex": null,
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "T4N3M1a",
+    "overall_stage": "IVa",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": null
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR S768I",
+          "EGFR V774M",
+          "TP53 Y220C"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin",
+          "sintilimab"
+        ],
+        "type": "chemotherapy + immunotherapy",
+        "dosage": {
+          "pemetrexed": "860 mg",
+          "carboplatin": "480 mg",
+          "sintilimab": "200 mg"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR S768I",
+          "EGFR V774M",
+          "TP53 Y220C"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "paclitaxel albumin",
+          "pembrolizumab"
+        ],
+        "type": "chemotherapy + immunotherapy",
+        "dosage": {
+          "paclitaxel albumin": "400 mg",
+          "pembrolizumab": "200 mg"
+        }
+      },
+      "response": {
+        "best": "significant response",
+        "duration_months": 12
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": {
+        "best": null,
+        "duration_months": 9
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "furmonertinib",
+          "sunvozertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "furmonertinib": null,
+          "sunvozertinib": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": 3
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "pembrolizumab",
+      "paclitaxel albumin",
+      "osimertinib",
+      "furmonertinib",
+      "sunvozertinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": "severe side effects leading to treatment discontinuation",
+    "management": "patient stopped taking medication",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient had EGFR S768I/V774M and TP53 mutations.",
+      "Initial response to neoadjuvant chemotherapy and immunotherapy.",
+      "Subsequent treatments included targeted therapies.",
+      "Patient experienced severe side effects leading to treatment discontinuation."
+    ],
+    "ddi_relevance": "medium",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "provenance": {
+    "source_filename": "27785052_tr_cleaned.json",
+    "source_pmid": "27785052",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.95
+  },
+  "baseline_clinical_profile": {
+    "age": 48,
+    "sex": "male",
+    "smoking_status": "light_smoker",
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": "2009",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "pT1N0M0",
+    "overall_stage": "IA",
+    "baseline_primary_site": "right lower lobe of the lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2009-06",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK fusion"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "cisplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "cisplatin": "75 mg/m2, day 1, every 3 weeks",
+          "pemetrexed": "500 mg/m2, day 1, every 3 weeks"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2012-08",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "erlotinib",
+          "tivantinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "erlotinib": "150 mg/day",
+          "tivantinib": "720 mg/day"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": 7
+      }
+    },
+    {
+      "time": "2013-03",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg twice daily (reduced to 200 mg/day)"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": 9
+      },
+      "safety": {
+        "adverse_events": [
+          "Grade 3 QTc prolongation",
+          "anorexia",
+          "vomiting"
+        ],
+        "dose_adjustments": [
+          "crizotinib reduced to 200 mg/day"
+        ]
+      }
+    },
+    {
+      "time": "2014-12",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "alectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "alectinib": "600 mg/day"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2015-08",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "findings": [
+          "multiple enhanced lesions",
+          "meningeal thickening"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg twice daily"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "nausea",
+          "poor performance status"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "respiratory failure stemming from aspiration",
+    "last_follow_up": "2015-08",
+    "treatment_discontinuation_reason": "progressive disease"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EML4-ALK fusion detected in NSCLC",
+      "Sequential treatments with multiple lines of chemotherapy and targeted therapies",
+      "Crizotinib retreatment showed intracranial response but progression in hepatic metastases"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "39045557_tr.json",
+    "source_pmid": "39045557",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39045557_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:50:22",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Tissue- and liquid-biopsy based NGS profiling in advanced non-small-cell lung cancer in a real-world setting: the IMMINENT study",
+    "author": "Marco Sposito; Lorenzo Belluomini; Riccardo Nocini; Jessica Insolda; Ilaria Mariangela Scaglione; Jessica Menis; Michele Simbolo; Antonio Lugini; Federica Buzzacchino; Francesco Verderame; Francesca Spinnato; Giuseppe Aprile; Lorenzo Calvetti; Mario Occhipinti; Daniele Marinelli; Antonello Veccia; Fiorella Lombardo; Hector José Soto Parra; Francesco Ferraù; Clementina Savastano; Camilla Porta; Lorenzo Pradelli; Emilia Sicari; Silvia Castellani; Umberto Malapelle; Silvia Novello; Emilio Bria; Sara Pilotto; Michele Milella",
+    "date": "2024-07-09"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

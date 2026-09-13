@@ -1,0 +1,28 @@
+{
+  "text": "Title: First Case of Extensive-Stage Small Cell Lung Cancer with ROS1 Fusion\nPMID: \nAuthors: \n\nAbstract\nSmall cell lung cancer (SCLC) is characterized by an exceedingly low mutation rate in oncogenic driver alterations, and there are currently no articles or case reports documenting SCLC patients carrying ROS1 fusions. Tyrosine kinase inhibitors (TKIs) have demonstrated significant efficacy and safety in patients with ROS1 fusion-positive non-small cell lung cancer (NSCLC). However, effective treatment modalities for ROS1 fusion-positive SCLC patients remain poorly defined.\n\nWe report the first case of an extensive-stage SCLC (ES-SCLC) patient harboring ROS1 fusion, along with TP53, RB1, PTEN, and TERT mutations. The patient exhibited primary resistance to a 3-week course of crizotinib as first-line treatment. Following this, the patient was administered second-line therapy, including chemotherapy coupled with immune checkpoint inhibitor (ICI) and ICI maintenance treatment, resulting in a partial response (PR). Notably, the clinical response to second-line therapy persisted for over 19 months, surpassing the previously reported efficacy of immuno-chemotherapy in ES-SCLC cases (5.7 months) while maintaining a satisfactory quality of life.\n\nCase report\nA 70-year-old female patient was admitted to the First Affiliated Hospital of Guangzhou University of Chinese Medicine due to a persistent dry cough and breathlessness lasting 1 month. She had a 20-year history of hypertension, well-controlled with regular administration of amlodipine besylate. She had no history of smoking or family history of cancer. A PET scan conducted in January 2023 showed enlarged lymph nodes (LN) in the right supraclavicular and infraclavicular fossa, mediastinal areas, and the left hilum of lung, with increased fluorodeoxyglucose uptake levels, indicating tumor metastasis. Biopsy and immunohistochemical examination of the right cervical LN confirmed the diagnosis of metastatic small-cell carcinoma. Serum biomarkers, including neuronal specific enolase (NSE) and pro-gastrin-releasing peptide (ProGRP), were elevated at 238.7 ng/mL and 420.3 pg/mL, respectively. A comprehensive review of the patient’s medical history, pathology, and imaging data led to a diagnosis of ES-SCLC per the Veterans Administration Lung Study Group criteria. Next-generation sequencing (NGS) of tumor tissue specimens from cervical LN identified ROS1 fusion, along with TP53, RB1, PTEN, and TERT mutations; microsatellite stability; tumor mutational burden (TMB) of 34.9 mutations/Mb; PD-L1 (Tumor proportion score: 0%).\n\nThe patient initiated first-line treatment with crizotinib on 14 February 2023, at the standard oral dosage of 250 mg twice daily. However, as treatment progressed, her cough exacerbated, and a subsequent CT scan performed 3 weeks later showed progressive disease (PD). According to the Response Evaluation Criteria in Solid Tumors 1.1 (RECIST 1.1), the CT image disclosed rapid enlargement of multiple lymph nodes throughout the body. Consequently, on 9 March 2023, the patient commenced a second-line treatment regimen consisting of the ICIs Serplulimab, in combination with etoposide and cisplatin, encompassing four sessions. After two treatment cycles, the CT scan demonstrated a PR, and the patient reported a partial alleviation of cough symptoms. On 2 June 2023, the patient transitioned to ICI maintenance therapy with Serplulimab. As of this writing, she has completed over 24 sessions of Serplulimab monotherapy. Her symptoms were relieved, and she displayed a strong willingness to continue treatment. The most recent evaluation in August 2024 showed complete resolution of lung tumor on CT with full remission of cough symptoms (NRS [Numerical Rating Scale] score reduced from eight to 0). Detailed assessments of the patient’s CT images, treatment timeline, and serum NSE and ProGRP levels are illustrated in the figures. All procedures performed in this study were in accordance with the ethical standards of the institutional and/or national research committee(s) and with the Declaration of Helsinki. Written informed consent was obtained from the patient for publication of this case report and accompanying images.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40365320_tr.json",
+    "source_pmid": "40365320",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40365320_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:21:09",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case report: Durable response of immuno-chemotherapy targeting a rare ROS1 fusion-positive extensive-stage SCLC patient after primary resistance to crizotinib",
+    "author": "Mengli Qiu; Peiwen Guo; Sisi Wang; Yong Zhu; Siqi Wu; Huiting Peng; Zehuai Guo; Yanmeng Guo; Jieheng Lin; Yang Cao",
+    "date": "2025-04-29"
+  },
+  "rejection_reason": null
+}

@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41892297_tr.json",
+    "source_pmid": "41892297",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41892297_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:38:00",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Loss of PIK3CA Allows In Vitro Growth but Not In Vivo Progression of KRAS Mutant Lung Adenocarcinoma in a Syngeneic Orthotopic Implantation Model",
+    "author": "Abigail L Booth; Giuseppe Caso; Barbara Rosati; Ya-Ping Jiang; Wei-Xing Zong; Richard Z Lin; Harold Bien",
+    "date": "2026-03-12"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: Mesenchymal‐epithelial transition factor exon 14 skipping mutation‐positive granulocyte colony‐stimulating factor‐producing lung adenocarcinoma mimicking lung abscess: A case report\nPMID: 10.1002/rcr2.1419\nAuthors: Izumiya Y, Odaka H, Kikuchi T, Takita Y, Tokairin T\n\nAbstract\nGranulocyte colony‐stimulating factor (G‐CSF)‐producing lung tumours are rare, with their imaging features and effective treatments remaining elusive. Similarly, mesenchymal‐epithelial transition (MET) exon 14 skipping mutations are also uncommon. Herein, we report a case of G‐CSF‐producing lung adenocarcinoma positive for a MET exon 14 skipping mutation, mimicking lung abscess. A 61‐year‐old man presented with cough and high fever. Contrast‐enhanced chest computed tomography revealed a mass with a cavity and internal fluid accumulation. The patient initially underwent diagnostic treatment for a lung abscess but was ultimately diagnosed with lung adenocarcinoma positive for a MET exon 14 skipping mutation. Following tepotinib therapy, the primary lesion shrank, and serum G‐CSF levels decreased, leading to a diagnosis of G‐CSF‐producing lung cancer. G‐CSF‐producing lung tumours can present imaging findings that mimic lung abscesses. Tepotinib therapy may be effective for patients with MET exon 14 skipping mutation, including those with G‐CSF‐producing lung cancer.\n\nCASE REPORT\nA 61‐year‐old man presented with cough and high fever (body temperature: 38°C) persisting for approximately 1 month. Blood tests revealed an elevated white blood cell count of 37,400/μL, with a neutrophil count of 35,500/μL, and a high C‐reactive protein level of 11.4 mg/dL. Contrast‐enhanced chest computed tomography (CT) revealed an 11 cm mass in the right upper lobe of the lungs, characterized by a cavity and internal fluid accumulation (Figure 1A–C).\nThe patient was tentatively diagnosed with a lung abscess based on imaging and inflammatory findings, and symptoms. He was treated with sulbactam/ampicillin (12 g/day) for 5 days, followed by meropenem (3 g/day) for 10 days. However, there was no improvement, leading to the suspicion of a lung tumour.\nA CT‐guided lung biopsy was performed on the tumour in the right lung. The tissue revealed atypical epithelial cells with giant cells and poorly differentiated NSCLC cells. Immunohistochemistry indicated that the tumour cells were positive for thyroid transcription factor‐1, leading to a diagnosis of adenocarcinoma (Figure 2A,B). Magnetic resonance imaging T2‐weighted images revealed a 3 mm tumour in the left frontal lobe, suggestive of brain metastasis (Figure 1D). Additionally, 18F‐fluorodeoxyglucose positron emission tomography/CT (FDG‐PET/CT) revealed elevated uptake in the mass in the right upper lobe, with a maximum standardized uptake value max of 18.0 (Figure 1E). Diffuse uptake in the bone marrow was also identified (Figure 1F). Bone scintigraphy revealed no significant uptake in the spine (Figure 1G). The disease was staged as cT4N0M1c, stage IVB. No bacteria were detected in sputum, blood, or biopsy tissue cultures.\nSince the tumour tissue was positive for MET exon 14 skipping mutation, we commenced treatment with tepotinib at 500 mg/day. A decrease in tumour size was observed following the initiation of therapy, and the patient remained progression‐free for 6 months. Although the patient's serum G‐CSF levels were initially elevated at approximately 165.0 pg/mL (normal range: <39.0 pg/mL), it decreased to 28.4 pg/mL 35 days after starting treatment. Based on these findings, the patient was diagnosed with G‐CSF‐producing lung cancer.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38919814_tr.json",
+    "source_pmid": "38919814",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38919814_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:46:16",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Mesenchymal‐epithelial transition factor exon 14 skipping mutation‐positive granulocyte colony‐stimulating factor‐producing lung adenocarcinoma mimicking lung abscess: A case report",
+    "author": "Yuka Izumiya; Hidesato Odaka; Toru Kikuchi; Yuri Takita; Takuo Tokairin",
+    "date": "2024-06-25"
+  },
+  "rejection_reason": null
+}

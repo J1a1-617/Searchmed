@@ -1,0 +1,128 @@
+{
+  "provenance": {
+    "source_filename": "34055614_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 62,
+    "sex": "male",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "right chest discomfort",
+      "back discomfort"
+    ],
+    "diagnosis_date": "2018-01",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM",
+    "tnm_stage": "T1cN2M1c",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "right hilar lymph nodes",
+      "mediastinal lymph nodes",
+      "left ilium",
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2018-01",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "ROS1 rearrangement"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "250 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 19
+      }
+    },
+    {
+      "time": "2019-03",
+      "event_type": "treatment + combination",
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "crizotinib",
+          "bevacizumab"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "crizotinib": "250 mg twice daily",
+          "bevacizumab": null
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2019-10",
+      "event_type": "progression + treatment",
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "lorlatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "lorlatinib": "75 mg once daily"
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "dizziness",
+          "muscular weakness",
+          "headache",
+          "convulsions",
+          "sluggishness",
+          "unresponsiveness"
+        ]
+      }
+    },
+    {
+      "time": "2019-10",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "alterations": [
+          "MET amplification (32 copies)"
+        ],
+        "sample": "brain tumor"
+      },
+      "treatment": null,
+      "response": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "intracranial hypertension and cerebral hernia",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient developed resistance to ROS1-TKIs due to MET amplification.",
+      "Primary lung tumor remained controlled while brain metastasis progressed.",
+      "Combination treatment with crizotinib and bevacizumab initiated."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

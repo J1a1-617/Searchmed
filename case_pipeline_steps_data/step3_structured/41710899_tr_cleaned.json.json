@@ -1,0 +1,90 @@
+{
+  "provenance": {
+    "source_filename": "41710899_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 75,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "MET exon 14 skipping mutation"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "crizotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "crizotinib": "not specified"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 7
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": {
+        "findings": null,
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "brain radiotherapy",
+          "camrelizumab"
+        ],
+        "type": "combination_immunotherapy",
+        "dosage": {
+          "camrelizumab": "not specified"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 20
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 41,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Prolonged progression-free survival in NSCLC with METex14 after brain radiotherapy and camrelizumab",
+      "Initial treatment with crizotinib followed by combination therapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

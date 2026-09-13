@@ -1,0 +1,96 @@
+{
+  "provenance": {
+    "source_filename": "37559636_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 51,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR 19del (p.Leu747_Thr751del)",
+          "TP53 (p.lys120fs)",
+          "EGFR amplified"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 10
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "aumolertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "aumolertinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 12
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 2 rash"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 22,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient had multi-mutations of EGFR and TP53",
+      "First-line gefitinib treatment led to 10 months PFS",
+      "Leptomeningeal metastases diagnosed after progression",
+      "Aumolertinib treatment resulted in partial response for 12 months"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

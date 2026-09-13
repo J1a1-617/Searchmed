@@ -1,0 +1,28 @@
+{
+  "text": "Title: RET Mutations in Lung Adenocarcinoma: A Case Series of Patients from Honduras\nPMID: \nAuthors: Lily Z. Chen, William J. Gibson, Brian C. Boulmay\n\nAbstract\nThe rearranged during transfection (RET) gene is on chromosome 10 (10q11.2) and normally encodes a receptor tyrosine kinase that plays a role in the development of the kidney, nervous, and respiratory systems. Aberrant RET gene activation can occur through gene mutations, gene fusions, or over expression leading to uncontrolled cell growth and the development of malignancy. The RET gene was first identified in 1985 as a protooncogene playing a role in the pathogenesis of lymphoma, and mutations are now associated with numerous cancers including lung, thyroid, breast, colon, prostate, and kidney. Activating RET mutations are estimated to occur in 1–2% of NSCLC cases. Our center (University Medical Center New Orleans) serves a diverse patient population, seeing approximately forty-five new diagnoses of advanced lung cancer per year. All patients with a new diagnosis of lung cancer have tumor material tested for mutations with use of high throughput next generation sequencing (NGS). The typical patient with a RET-mutated malignancy is a younger patient, nonsmoker, with adenocarcinoma histology. However, ethnicity has not been found to be associated with this driver mutation, unlike, for example, EGFR-mutated lung adenocarcinoma and its association with Asian women. In this case series we describe three patients identified as having a RET mutated lung adenocarcinoma, all of whom were originally from Honduras, presenting over the course of three years (3/2022, 5/2023, 6/2020).\n\nCase Presentation\n1. Cases\n1.1. Case 1\nA 47-year-old nonsmoking man originally from Honduras presented with a 10 × 9 cm left apical lung mass. Subsequent workup revealed T4N3M1 lung adenocarcinoma with a 1.3 × 1.2 cm occipital lobe metastasis. High throughput next generation sequencing (NGS) panel testing (6/2022) was sent on a specimen collected from the primary lung lesion. A KIF5B-RET gene fusion was detected by RNA sequencing. The patient received radiation therapy to his occipital lobe metastasis and started on selpercatinib. Twenty-one months after starting therapy his left lung lesion is now stable at 2.1 × 1.3 cm and without detectable disease in his brain.\n1.2. Case 2\n46-year-old nonsmoking woman from Honduras initially presented February 2020 for syncope. She was incidentally found to have a 2.6 cm lesion of the left lower lobe. Subsequent workup revealed a resectable lung adenocarcinoma with PDL1 expression of 30 % by immunohistochemical staining; assessment for BRAF, KRAS, ROS1, ALK and EGFR mutations were negative. The patient then underwent left lower lobe resection with negative margins with a final pathologic stage of T1N1 disease. NGS testing was sent on the resection specimen and showed RET pathogenic fusion of KIF5B-RET on exon 12 using RNA sequencing (11/2020). The patient was then treated with four cycles of adjuvant cisplatin-based chemotherapy and was followed by surveillance for one year and seven months until computed tomography (CT) June 2022 showed recurrence in the left lower lobe, with pulmonary lobules and interlobular septal thickening. Bronchoscopy with biopsy of the left lingula and left upper lobe was performed 7/2022, which confirmed adenocarcinoma. Repeat NGS was unsuccessful due to insufficient biopsy material. She was deemed not a surgical candidate and was started on carboplatin/pembrolizumab/pemetrexed for five cycles followed by continued pembrolizumab and pemetrexed. CT scan three months later showed disease progression and patient was started on selpercatinib given positive RET rearrangement (10q11RET) by FISH on third repeat biopsy. Her disease has remained stable for ten months.\n1.3. Case 3\n35-year-old nonsmoking male from Honduras who presented in May 2023 with shortness of breath and back pain. Imaging was significant for 4.9 cm × 3.9 cm mass in the right upper lobe of the lung, mediastinal lymphadenopathy, diffuse osseous lytic lesions, and innumerable lesions concerning for metastatic disease. Endoscopic bronchoscopy biopsy of the right upper lobe mass and mediastinal lymphadenopathy was significant for poorly differentiated non-small cell carcinoma. NGS was performed and showed a KIF5B-RET gene fusion detected by RNA sequencing (8/2023). Before the RET mutation was found, the patient had received two cycles of carboplatin and paclitaxel due to his high disease burden. He was later started on selpercatinib. The patient achieved a partial response but ultimately passed away due to thrombotic stroke believed to have been precipitated by his significant tumor burden.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39398876_tr.json",
+    "source_pmid": "39398876",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39398876_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:56:37",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "RET mutated non-small cell lung cancer (NSCLC) in association with patients from Central America",
+    "author": "Lily Z Chen; William J Gibson; Brian C Boulmay",
+    "date": "2024-09-19"
+  },
+  "rejection_reason": null
+}

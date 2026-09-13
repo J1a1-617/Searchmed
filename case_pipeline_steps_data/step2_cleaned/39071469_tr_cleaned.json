@@ -1,0 +1,28 @@
+{
+  "text": "Title: EGFR/ROS1 Co-Mutation in Non-Small Cell Lung Cancer: A Case Report\nPMID: \nAuthors: \n\nAbstract\nBACKGROUND\nEpidermal growth factor receptor (EGFR) mutation and c-ros oncogene 1 (ROS1) rearrangement are key genetic alterations and predictive tumor markers for non-small cell lung cancer (NSCLC) and are typically considered to be mutually exclusive. EGFR/ROS1 co-mutation is a rare event, and the standard treatment approach for such cases is still equivocal.\nCASE SUMMARY\nHerein, we report the case of a 64-year-old woman diagnosed with lung adenocarcinoma, with concomitant EGFR L858R mutation and ROS1 rearrangement. The patient received two cycles of chemotherapy after surgery, but the disease progressed. Following 1-month treatment with gefitinib, the disease progressed again. However, after switching to crizotinib, the lesion became stable. Currently, crizotinib has been administered for over 53 months with a remarkable treatment effect.\nKeywords: Non-small cell lung cancer, Epidermal growth factor receptor, C-ros oncogene 1, Co-mutation, Treatment strategies, Case report\n\nCASE PRESENTATION\nChief complaints\nA 64-year-old Chinese woman presented on November 1, 2018 with a complaint of cough and sputum production for 1 wk.\nHistory of present illness\nSymptoms started 1 wk before presentation, with cough and sputum production.\nHistory of past illness\nAn appendectomy due to appendicitis had been performed approximately 30 years prior to the presentation. Cholecystectomy due to cholelithiasis had been performed 10 years after the appendectomy.\nPersonal and family history\nThe patient denied any family history of malignant tumors. The patient also had no history of smoking.\nPhysical examination\nOn physical examination, the vital signs were as follows: Body temperature, 36.6 °C; blood pressure, 136/75 mmHg; heart rate, 74 beats per min; and respiratory rate, 20 breaths per min.\nLaboratory examinations\nLevels of serum tumor markers were normal. Carcinoembryonic antigen was < 0.5 ng/mL (normal range: 0-5 ng/mL), squamous cell carcinoma antigen was 0.6 ng/mL (normal range: 0-1.5 ng/mL), and cytokeratin 19 fragment was 1.57 ng/mL (normal range: 0-2.08 ng/mL). No abnormality was found in the routine blood and urine analyses.\nImaging examinations\nOn November 2, 2018, chest computed tomography (CT) showed a 2.8 cm × 1.8 cm patchy shadow in the inferior lobe of the right lung. The scan also showed multiple ground-glass nodules in bilateral lungs. The patient was prescribed oral anti-tuberculosis drugs. She discontinued the medication after 1 month due to intolerance. On March 25, 2019, the patient visited our hospital again. Chest CT showed a 4.0 cm × 2.7 cm shadow in the lower lobe of the right lung. Due to the significant growth, the possibility of a neoplastic lesion was considered.\nFINAL DIAGNOSIS\nCombined with the patient’s medical history, the final diagnosis was determined to be NSCLC.\nTREATMENT\nOn April 3, 2019, thoracoscopic radical resection of the lower right lung cancer and pleural adhesion cauterization was performed under general anesthesia. Postoperative pathological diagnosis was acinar adenocarcinoma grade Ⅲ, micropapillary adenocarcinoma (accounting for about 5% of tumor tissue) in the local area, and tumor thrombus in the alveolar cavity. ROS1 rearrangement and EGFR L858R mutation were detected by next-generation sequencing of 13 lung cancer driver genes. The frequency of the EGFR mutation found in this patient was only 1.3%.\nAfter thoracoscopic radical resection, the patient received two cycles of chemotherapy (pemetrexed 690 mg D1 + cisplatin 50 mg D1-2; on May 14, 2019 and June 5, 2019). Comparison of the CT film obtained on June 25, 2019 with the previous film (May 7, 2019) showed progression of the lesion. Multiple lymph nodes in the mediastinum and right hilum were also enlarged, suggesting metastasis.\nGefitinib was administered for 1 month starting on June 26, 2019. During this period, the patient developed drug-induced diarrhea, which improved after treatment with loperamide. Chest CT on July 30, 2019 revealed that multiple lymph nodes in the mediastinum, right cardiophrenic angle, and right hilum were enlarged, indicating progression of the disease.\nOn August 7, 2019, crizotinib was administered. The efficacy of crizotinib was evaluated after 1 month, which revealed stable disease. Since then, the patient has been treated with crizotinib for over 53 months and continues to have stable disease.\nOUTCOME AND FOLLOW-UP\nAfter 53 months of treatment with crizotinib, the patient is still alive.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39071469_tr.json",
+    "source_pmid": "39071469",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39071469_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:51:15",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Concomitant epidermal growth factor receptor mutation/c-ros oncogene 1 rearrangement in non-small cell lung cancer: A case report",
+    "author": "Gui-Qin Peng; Hai-Chi Song; Wan-Yi Chen",
+    "date": "2024-07-24"
+  },
+  "rejection_reason": null
+}

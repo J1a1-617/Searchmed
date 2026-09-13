@@ -1,0 +1,140 @@
+{
+  "provenance": {
+    "source_filename": "38711893_tr_cleaned.json",
+    "source_pmid": "null",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.8
+  },
+  "baseline_clinical_profile": {
+    "age": 49,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "CRC",
+    "histology": "ascending colon adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT3N+?M1",
+    "overall_stage": null,
+    "baseline_primary_site": "ascending colon",
+    "metastatic_sites_at_baseline": [
+      "liver"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "BRAF V600E"
+        ],
+        "sample": "tissue and circulating tumor DNA (ctDNA)"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "cetuximab",
+          "dabrafenib",
+          "trametinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "cetuximab": null,
+          "dabrafenib": null,
+          "trametinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "c-MET amplification",
+          "TPM4-ALK fusion"
+        ],
+        "sample": "NGS"
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "tislelizumab",
+          "dabrafenib",
+          "trametinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "tislelizumab": null,
+          "dabrafenib": null,
+          "trametinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "MET acquired resistant amplification mutation"
+        ],
+        "sample": "peripheral blood"
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "crizotinib",
+          "tislelizumab",
+          "regorafenib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "crizotinib": null,
+          "tislelizumab": null,
+          "regorafenib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "crizotinib",
+      "tislelizumab",
+      "regorafenib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 11,
+    "survival_status": "dead",
+    "cause_of_death": "symptomatic treatment fail for obstructive jaundice",
+    "last_follow_up": "2021-10"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Co-existence of BRAF V600E mutation, c-MET amplification and TPM4-ALK fusion in CRC",
+      "Initial treatment with combination therapy resulted in partial response",
+      "Acquired resistance mutation observed during treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

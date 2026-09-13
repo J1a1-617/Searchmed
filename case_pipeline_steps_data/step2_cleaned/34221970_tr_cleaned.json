@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "34221970_tr.json",
+    "source_pmid": "34221970",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/34221970_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:10:20",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Integrated Analysis of Genomic and Immunological Features in Lung Adenocarcinoma With Micropapillary Component",
+    "author": "Shirong Zhang; Yang Xu; Pan Zhao; Hua Bao; Xiyong Wang; Rui Liu; Rujun Xu; Jingjing Xiang; Hong Jiang; Junrong Yan; Xue Wu; Yang Shao; Jiafeng Liang; Qiong Wu; Zhihao Zhang; Shun Lu; Shenglin Ma",
+    "date": "2021-06-17"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

@@ -1,0 +1,136 @@
+{
+  "provenance": {
+    "source_filename": "34178624_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 62,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "fatigue"
+    ],
+    "diagnosis_date": "2018-03",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IV-T1bN3M1c",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral supraclavicular lymph nodes",
+      "mediastinal lymph nodes",
+      "multiple bony metastases"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2018-03",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "BRAF V600E",
+          "PD-L1 ≥50%"
+        ],
+        "sample": "subcarinal lymph node"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2018-04",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "atezolizumab",
+          "cisplatin",
+          "pemetrexed"
+        ],
+        "type": "combination",
+        "dosage": {
+          "atezolizumab": "1,200 mg",
+          "cisplatin": null,
+          "pemetrexed": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 20
+      },
+      "safety": {
+        "adverse_events": [
+          "pyrexia",
+          "grade III gastrointestinal toxicity"
+        ],
+        "dose_adjustments": [
+          "25% dose reduction of chemotherapy"
+        ]
+      }
+    },
+    {
+      "time": "2019-05",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L maintenance",
+        "regimen": [
+          "atezolizumab",
+          "pemetrexed"
+        ],
+        "type": "maintenance",
+        "dosage": {
+          "atezolizumab": null,
+          "pemetrexed": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 14
+      },
+      "safety": null
+    },
+    {
+      "time": "2019-12",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "Vemurafenib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "Vemurafenib": "960 mg bid po"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 5.5
+      },
+      "safety": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 20,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Prolonged tumor response to immunotherapy in BRAF V600E NSCLC",
+      "Combination of atezolizumab with chemotherapy showed clinical benefit",
+      "Notable decrease in blood-based tumor mutation burden after treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

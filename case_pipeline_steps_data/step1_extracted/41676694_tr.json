@@ -1,0 +1,17 @@
+{
+  "pmid": "41676694",
+  "source_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case report/literature_pipeline/output/full_texts/41676694.html",
+  "extraction_method": "trafilatura",
+  "title": "Recurrent Escape from Osimertinib-Induced Senescence Promotes Genomic Instability Associated with Therapeutic Resistance",
+  "author": "Hayley Mcdaid; Nazia Jamil; Qualia Hooker; Nadjet Cornejal; Dean Hosgood",
+  "date": "2026-02-08",
+  "url": "",
+  "hostname": "ncbi.nlm.nih.gov",
+  "description": "",
+  "categories": "",
+  "tags": "",
+  "text": "Abstract\nAcquired resistance to osimertinib remains a major challenge in treating EGFR-mutant (EGFR+) Non-Small-Cell Lung Cancer (NSCLC). Although most patients initially respond to treatment, relapses are universal, even after prolonged remission during which tumor dormancy occurs. Here, we show that osimertinib induces and maintains senescence in EGFR+ NSCLC. Importantly, osimertinib does not kill senescent cells; however, following drug withdrawal, cells escape and resume proliferation. To examine the consequences of recurrent senescence and escape on resistance, we generated four isogenic cell lines clonally expanded through sequential cycles of Osimertinib-Induced Senescence (OsIS). Phylogenetic reconstruction based on de novo somatic variants revealed that these lines form four distinct evolutionary clades with varying degrees of osimertinib resistance. All had elevated tumor mutational burden with distinct single-nucleotide and copy-number variants, and without acquisition of tertiary EGFR mutations or MET amplification. Resistance was predominately associated with chromosomal instability characterized by extensive loss of heterozygosity, high copy-number alteration burden, and mutational signatures consistent with replication-associated DNA damage and repair. A second resistance genotype exhibited extreme focal amplifications with breakage-fusion-bridge-like genome remodeling. Despite profound genomic instability, targeting DNA repair or replication stress pathways was ineffective, whereas sensitivity to platinum-based chemotherapy was retained across clades. Collectively, these findings indicate that recurrent senescence escape drives osimertinib resistance through widespread genomic instability and is most effectively treated by cytotoxic strategies rather than pathway-targeted approaches.\nFull Text Availability\nThe license terms selected by the author(s) for this preprint version do not permit archiving in PMC. The full text is available from the preprint server.",
+  "text_length": 2008,
+  "fingerprint": "374829ab0badd912",
+  "license": null
+}

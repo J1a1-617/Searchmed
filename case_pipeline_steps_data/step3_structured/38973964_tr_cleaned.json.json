@@ -1,0 +1,95 @@
+{
+  "provenance": {
+    "source_filename": "38973964_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 54,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT1cN2M0",
+    "overall_stage": "III",
+    "baseline_primary_site": "left upper lung",
+    "metastatic_sites_at_baseline": null
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR 19del"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1.5
+      }
+    },
+    {
+      "time": null,
+      "event_type": "surgery",
+      "molecular": null,
+      "treatment": {
+        "line": "surgery",
+        "regimen": [
+          "single-port thoracoscopic left upper lobectomy",
+          "mediastinal lymphadenectomy"
+        ],
+        "type": "surgical",
+        "dosage": null
+      },
+      "response": null
+    },
+    {
+      "time": null,
+      "event_type": "adjuvant treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Successful neoadjuvant targeted therapy with osimertinib in stage IIIA NSCLC",
+      "Postoperative pathology confirmed R0 resection",
+      "Patient cured of acute sick sinus syndrome via pacemaker implantation"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: ROS1 Amplification as a Mechanism of Resistance to ROS1-TKIs in Non-Small Cell Lung Cancer: A Case Report\nPMID: \nAuthors: \n\nAbstract\nBackground\nAlthough C-ros oncogene 1 (ROS1) targeted therapies have demonstrated remarkable efficacy in ROS1-rearranged non-small cell lung cancer (NSCLC), patients inevitably develop resistance to ROS1-tyrosine kinase inhibitors (TKIs). Commonly acquired resistance mechanisms include a second mutation of the ROS1 kinase domain and activation of bypass signaling pathways. However, MMNG HOS Transforming gene (MET) amplification has not been reported as a novel mechanism of ROS1-TKIs resistance.\nCase Presentation\nWe report a case of a 62-year-old man diagnosed with ROS1-rearranged metastatic lung adenocarcinoma, who received first-line treatment with crizotinib for 19 months. During the course of disease, the primary lung tumor was under control while the brain metastasis progressed despite the treatment with lorlatinib. The biopsy and genetic tests of the metastatic brain tumor showed a high level of MET amplification (32 copies). However, fluorescence in situ hybridization of the primary cancer showed no MET amplification, suggesting that MET amplification may be associated with an acquired resistance to ROS1-TKIs.\nSummary\nThis case suggested that MET amplification could be explored as a potential mechanism for developing ROS1-TKIs resistance. Combination treatment with highly potent and selective MET-TKIs warrants further investigations.\nKeywords: MET amplification, ROS1, crizotinib, resistance, non-small cell lung cancer\n\nCase Description\nA 62-year-old male nonsmoker presented at our hospital in January 2018. He complained of a one-month history of right chest and back discomfort with no noted triggers. Imaging examinations showed a 2.3 cm mass in his right middle lobe, with metastasis in the right hilar and mediastinal lymph nodes as well as left ilium. A solitary brain metastasis in the left frontal lobe was also noted in magnetic resonance imaging (MRI). Pulmonary biopsy revealed lung adenocarcinoma stage IV (T1cN2M1c). Immunohistochemistry (IHC) results of the tumor tissue were positive for ROS1 and PD-L1 (> 90%) but negative for anaplastic lymphoma kinase (ALK) ( Figure 1 ). ROS1 rearrangement was then confirmed by fluorescence in situ hybridization (FISH) ( Figure 1 ).\nThe patient was given first-line treatment with crizotinib 250mg twice daily from February 2018. This achieved a partial response with good tolerance. Six months later, he felt dizzy, right lower extremity weakness, and unsteadiness. Imaging showed a controlled primary lung lesion but a progressing brain lesion. Therefore, the patient continued to receive crizotinib and underwent concurrent gamma knife radiosurgery for the intracranial lesion. Six cycles of combination therapy with crizotinib and bevacizumab were initiated in March 2019. Approximately 19 months after crizotinib treatment was initiated, he reported dizziness and progressive weakness of his right lower limb. MRI confirmed disease progression and significant edema in the brain in October. A computed tomography (CT) scan of the chest showed the primary lesion still under control. The patient then received lorlatinib 75mg once daily, but his symptoms were not relieved. Instead, his dizziness and the muscular weakness in both lower extremities worsened. New symptoms, such as headache, convulsions, sluggishness, and unresponsiveness developed. A repeated brain-MRI showed rapid brain tumor progression, severe brain edema, and cerebral midline deviation ( Figure 2 ). Then, an emergency brain metastasis surgery was performed, and the pathological tests demonstrated the presence of adenocarcinoma from lung cancer. The specimen was further analyzed via next-generation sequencing (NGS; FoundationOne CDx). Unfortunately, the patient succumbed to the intracranial hypertension and cerebral hernia before the NGS report, which showed a high level of MET amplification (32 copies). FISH demonstrated a cluster of MET signals congruent with the NGS result ( Figure 3 ). To investigate whether MET amplification was acquired after TKI treatment, the primary lung lesion was reanalyzed by FISH, and the result was negative for MET amplification ( Figure 3 ).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "34055614_tr.json",
+    "source_pmid": "34055614",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/34055614_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:09:33",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case Report: High-Level MET Amplification as a Resistance Mechanism of ROS1-Tyrosine Kinase Inhibitors in ROS1-Rearranged Non-Small Cell Lung Cancer",
+    "author": "Jiangping Yang; Ping Zhou; Min Yu; Yan Zhang",
+    "date": "2021-05-13"
+  },
+  "rejection_reason": null
+}

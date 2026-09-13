@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "41818162_tr.json",
+    "source_pmid": "41818162",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41818162_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:34:56",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Aumolertinib with carboplatin–pemetrexed versus aumolertinib for nonsmall cell lung cancer with EGFR and concomitant tumor suppressor genes (ACROSS2): An open‐label, multicenter, randomized phase 3 study",
+    "author": "Jian‐Chun Duan; Jia Zhong; Bo‐Yang Sun; Wen‐Hua Zhao; Lin Wu; Kai‐Lun Fei; Qian Chu; Qi‐Sen Guo; Qi‐Bin Song; Yan Yu; Da‐Xing Zhu; Xin‐Yan Liu; Jun Zhao; Zhi‐Xiang Zhan; Shi Li; Lei Nie; Jie Lin; Xiao‐Dong Peng; Dian‐Sheng Zhong; Jin Zhou; Li‐Hua Li; Yun‐Fang Chen; Chen Hu; Tony Mok; Zhi‐Jie Wang; Jie Wang",
+    "date": "2026-03-12"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

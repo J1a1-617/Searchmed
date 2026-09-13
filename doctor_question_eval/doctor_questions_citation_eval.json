@@ -1,0 +1,197 @@
+[
+  {
+    "question_id": "dq-001",
+    "capability": "mutation_drug_matching",
+    "doctor_question": "EGFR exon 19 deletion 的 NSCLC 病例里，erlotinib 作为二线有没有出现过 PR？请给出可溯源证据。",
+    "gold_citations": [
+      {
+        "chunk_id": "24316558#chunk-000007",
+        "doc_id": "24316558",
+        "pmid": "24316558",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  },
+  {
+    "question_id": "dq-002",
+    "capability": "line_of_therapy_reasoning",
+    "doctor_question": "同一病例里 erlotinib 再挑战（后线）是否仍有 PR 证据？请返回对应引用。",
+    "gold_citations": [
+      {
+        "chunk_id": "24316558#chunk-000011",
+        "doc_id": "24316558",
+        "pmid": "24316558",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  },
+  {
+    "question_id": "dq-003",
+    "capability": "similar_case_retrieval",
+    "doctor_question": "ALK 融合肺腺癌使用 crizotinib 一线治疗，有没有 CR/PR 的相似病例证据？",
+    "gold_citations": [
+      {
+        "chunk_id": "24279718#chunk-000005",
+        "doc_id": "24279718",
+        "pmid": "24279718",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  },
+  {
+    "question_id": "dq-004",
+    "capability": "cns_response_evidence",
+    "doctor_question": "ALK 阳性且有中枢病灶进展的病例里，alectinib 有没有 PR 的证据？",
+    "gold_citations": [
+      {
+        "chunk_id": "27785052#chunk-000009",
+        "doc_id": "27785052",
+        "pmid": "27785052",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  },
+  {
+    "question_id": "dq-005",
+    "capability": "mutation_drug_matching",
+    "doctor_question": "EGFR L858R 的 NSCLC，gefitinib 一线有没有 PR 证据？",
+    "gold_citations": [
+      {
+        "chunk_id": "24707260#chunk-000008",
+        "doc_id": "24707260",
+        "pmid": "24707260",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  },
+  {
+    "question_id": "dq-006",
+    "capability": "longitudinal_outcome",
+    "doctor_question": "同一个 EGFR L858R 病例里，gefitinib 后线治疗是否也出现过 PR/CR？",
+    "gold_citations": [
+      {
+        "chunk_id": "24707260#chunk-000011",
+        "doc_id": "24707260",
+        "pmid": "24707260",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  },
+  {
+    "question_id": "dq-007",
+    "capability": "resistance_mechanism_drug_response",
+    "doctor_question": "EGFR Del19 合并 T790M 和 c-MET 扩增时，osimertinib 的疗效有没有 PD 的证据？",
+    "gold_citations": [
+      {
+        "chunk_id": "29411527#chunk-000007",
+        "doc_id": "29411527",
+        "pmid": "29411527",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  },
+  {
+    "question_id": "dq-008",
+    "capability": "combination_regimen_outcome",
+    "doctor_question": "在 EGFR Del19 背景下，c-MET inhibitor + gefitinib 的后线结局是否出现 PD？",
+    "gold_citations": [
+      {
+        "chunk_id": "29411527#chunk-000010",
+        "doc_id": "29411527",
+        "pmid": "29411527",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  },
+  {
+    "question_id": "dq-009",
+    "capability": "combination_strategy",
+    "doctor_question": "EGFR Ex21 L858R 且 BIM 缺失背景下，crizotinib + gefitinib 是否有 PR 的病例证据？",
+    "gold_citations": [
+      {
+        "chunk_id": "30422759#chunk-000012",
+        "doc_id": "30422759",
+        "pmid": "30422759",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  },
+  {
+    "question_id": "dq-010",
+    "capability": "negative_outcome_detection",
+    "doctor_question": "MET exon 14 skipping 的 NSCLC 用 pembrolizumab 时，有没有直接进展（PD）的证据？",
+    "gold_citations": [
+      {
+        "chunk_id": "30600919#chunk-000005",
+        "doc_id": "30600919",
+        "pmid": "30600919",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  },
+  {
+    "question_id": "dq-011",
+    "capability": "treatment_switch_outcome",
+    "doctor_question": "在 MET exon 14 skipping 病例中，改为 carboplatin + pemetrexed 后是否有 PR 的证据？",
+    "gold_citations": [
+      {
+        "chunk_id": "30600919#chunk-000006",
+        "doc_id": "30600919",
+        "pmid": "30600919",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  },
+  {
+    "question_id": "dq-012",
+    "capability": "mutation_specific_drug_effect",
+    "doctor_question": "MET exon 14 c.2942-17_2942-6del12 这个亚型里，crizotinib 是否观察到 PR？",
+    "gold_citations": [
+      {
+        "chunk_id": "30744539#chunk-000009",
+        "doc_id": "30744539",
+        "pmid": "30744539",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  },
+  {
+    "question_id": "dq-013",
+    "capability": "rare_mutation_regimen",
+    "doctor_question": "ERBB2 exon 20 insertion 病例里，vinorelbine + trastuzumab 是否仅达到 SD？请给引用。",
+    "gold_citations": [
+      {
+        "chunk_id": "28167203#chunk-000011",
+        "doc_id": "28167203",
+        "pmid": "28167203",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  },
+  {
+    "question_id": "dq-014",
+    "capability": "progression_evidence",
+    "doctor_question": "同一 ERBB2 相关病例里，docetaxel 是否出现过 PD？",
+    "gold_citations": [
+      {
+        "chunk_id": "28167203#chunk-000012",
+        "doc_id": "28167203",
+        "pmid": "28167203",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  },
+  {
+    "question_id": "dq-015",
+    "capability": "supportive_combination",
+    "doctor_question": "EGFR ex19del 背景下，zoledronic acid + gefitinib 的初始治疗是否有 PR 证据？",
+    "gold_citations": [
+      {
+        "chunk_id": "31039766#chunk-000010",
+        "doc_id": "31039766",
+        "pmid": "31039766",
+        "evidence_level": "structured_extraction_evidence"
+      }
+    ]
+  }
+]

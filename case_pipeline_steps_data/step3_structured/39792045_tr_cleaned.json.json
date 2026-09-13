@@ -1,0 +1,183 @@
+{
+  "provenance": {
+    "source_filename": "39792045_tr_cleaned.json",
+    "source_pmid": "null",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 44,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "chest tightness",
+      "shortness of breath"
+    ],
+    "diagnosis_date": "2019-01",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "pTNM",
+    "tnm_stage": "pT2 Visc PI N0M0",
+    "overall_stage": "IB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2019-01",
+      "event_type": "diagnosis + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19del"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "nedaplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "nedaplatin": "75 mg/m² on day 1",
+          "pemetrexed": "500 mg/m² on day 1"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "2020-05",
+      "event_type": "progression + treatment",
+      "molecular": {},
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {}
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": 20
+      }
+    },
+    {
+      "time": "2022-09",
+      "event_type": "progression + biopsy + molecular + treatment",
+      "molecular": {
+        "findings": [
+          "neuroendocrine carcinoma of the thyroid gland (small cell type)"
+        ],
+        "sample": "thyroid nodule"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "irinotecan"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "irinotecan": "100 mg/day"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 1
+      }
+    },
+    {
+      "time": "2022-09",
+      "event_type": "progression + treatment",
+      "molecular": {},
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "irinotecan",
+          "atezolizumab"
+        ],
+        "type": "combination chemotherapy",
+        "dosage": {
+          "irinotecan": "100 mg/day",
+          "atezolizumab": "1.2 g/day"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 5
+      }
+    },
+    {
+      "time": "2023-02",
+      "event_type": "treatment",
+      "molecular": {},
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "thyroid radiotherapy",
+          "adrenal radiotherapy"
+        ],
+        "type": "radiotherapy",
+        "dosage": {
+          "thyroid_radiotherapy": "50 Gy/25 fractions",
+          "adrenal_radiotherapy": "40 Gy/20 fractions"
+        }
+      },
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-05",
+      "event_type": "progression + treatment",
+      "molecular": {},
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "cranial radiotherapy"
+        ],
+        "type": "radiotherapy",
+        "dosage": {
+          "cranial_radiotherapy": "30 Gy/10 fractions (only completed 2 fractions)"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "irinotecan",
+      "atezolizumab"
+    ],
+    "mechanism": "null",
+    "severity": "null",
+    "clinical_manifestation": "null",
+    "management": "null",
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 52.7,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression and organ failure",
+    "last_follow_up": "2023-05"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Osimertinib treatment led to small cell transformation in lung adenocarcinoma",
+      "Sequential treatments included radiotherapy and chemotherapy for SCLC",
+      "Patient succumbed to disease progression despite multiple lines of treatment"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

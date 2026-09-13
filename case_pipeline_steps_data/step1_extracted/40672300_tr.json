@@ -1,0 +1,17 @@
+{
+  "pmid": "40672300",
+  "source_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case report/literature_pipeline/output/full_texts/40672300.html",
+  "extraction_method": "trafilatura",
+  "title": "EED Maintains the Small Cell Lung Cancer Neuroendocrine Phenotype and Drives Lung Cancer Histological Transformation",
+  "author": "Yixiang Li; Yasmin N Laimon; Hyeonseo Cho; Marina Vivero; Gabriel Roberti De Oliveira; Andrew Delcea; Varunika Savla; Yuting Chen; Yavuz T Durmaz; Xintao Qiu; Shweta Kukreja; Rong Li; Talal El Zarif; Wesley Lu; McKayla Van Orden; Jacob E Berchuck; Roderick T Bronson; Shuqiang Li; Hongbin Ji; Katerina Politi; Matthew L Freedman; Henry W Long; Sabina Signoretti; Matthew G Oser",
+  "date": "2025-07-10",
+  "url": "",
+  "hostname": "ncbi.nlm.nih.gov",
+  "description": "",
+  "categories": "",
+  "tags": "",
+  "text": "Abstract\nLung cancer histological subtypes include lung adenocarcinoma (LUAD) and small cell lung cancer (SCLC). While typically distinct, combined LUAD/SCLC histology tumors occur, and LUAD can transform into SCLC as a resistance mechanism to targeted therapies, especially in EGFR -Mutant LUADs with RB1 / TP53 -inactivation. Although PRC2 complex expression increases during this transformation, its functional role has remained unclear. Using CRISPR-based autochthonous immunocompetent GEMMs, we demonstrate that inactivation of EED, the core PRC2 scaffolding subunit, impairs SCLC tumorigenesis and drives histological transformation from ASCL1-positive SCLC to LUAD through a transient NEUROD1-positive intermediate state. Mechanistically, EED loss de-represses bivalent genes co-marked by H3K27me3 and H3K4me3, including LUAD oncogenic RAS, PI3K, and MAPK pathway genes, to promote transformation to LUAD. Consistently, these same signaling genes are bivalently repressed in human SCLC patient-derived xenograft (PDX) tumors, suggesting a conserved PRC2-dependent mechanism to repress LUAD lineage oncogenic signaling to maintain the SCLC neuroendocrine identity. In a complementary EGFR -mutant LUAD GEMM with RB1/TP53 inactivation, EED was required for LUAD-to-SCLC transformation and distant metastasis upon EGFR withdrawal. These findings identify the PRC2 complex as a key epigenetic enforcer of SCLC neuroendocrine identity and nominate EED inhibition as a potential strategy to block SCLC transformation in high-risk LUAD.\nFull Text Availability\nThe license terms selected by the author(s) for this preprint version do not permit archiving in PMC. The full text is available from the preprint server.",
+  "text_length": 1714,
+  "fingerprint": "77f831005209bf82",
+  "license": null
+}

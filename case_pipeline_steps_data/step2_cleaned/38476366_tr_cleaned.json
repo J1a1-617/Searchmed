@@ -1,0 +1,28 @@
+{
+  "text": "Title: Co-mutation of EGFR and ROS1 in a Patient with Non-Small Cell Lung Cancer: A Case Report\nPMID: \nAuthors: \n\nAbstract\nBackground\nDriver oncogene mutations, such as c-ros oncogene 1 (ROS1) and epidermal growth factor receptor (EGFR) were previously believed to be mutually exclusive in non-small cell lung cancer (NSCLC). Only sporadic cases of ROS1 and EGFR co-mutations have been reported. Hence, appropriate treatment options for these patients are still controversial.\nCase presentation\nA 48-year-old female patient presented at our hospital complaining of a persistent cough that had been ongoing for a month. A chest computed tomography showed a mass in the left lung along with hilar and mediastinal lymphadenopathy. Pathological analysis of bronchoscopic biopsy and lung mass puncture confirmed the presence of lung adenocarcinoma. The patient was diagnosed with stage IIIC left lung adenocarcinoma with a clinical stage of cT2N3M0. Next-generation sequencing analysis conducted at both puncture sites revealed an EFGR 19 deletion mutation combined with ROS1 rearrangement. The lung mass exhibited a higher mutation abundance. Treatment with a combination of third-generation EGFR tyrosine kinase inhibitors (TKIs) and crizotinib yielded satisfactory results. During the follow-up period, the mass significantly reduced and almost disappeared.\n\nCase presentation\nIn February 2023, a 48-year-old woman was admitted to our hospital with a 1-month history of cough. She had no previous history of smoking or alcohol consumption and no family history of malignancy. A chest computed (CT) scan tomography revealed a left lower lobe mass measuring approximately 3.6 × 3.5 cm2, along with multiple enlarged mediastinal and hilar lymph nodes.\nA pathological examination was conducted to further clarify the nature of the lesion. The biopsy, performed using endoscopic ultrasound-guided transbronchial needle aspiration, confirmed the presence of lung adenocarcinoma. The patient was clinically diagnosed with stage IIIB lung adenocarcinoma, with a clinical stage of cT2bN3M0(he 8th TNM staging system). Additionally, next-generation sequencing (NGS) examination revealed an ROS1 fusion (SLC34A2) ( Figures 1A, B ) with an abundance of 1.39% and an EGFR exon 19 mutation ( Figure 1C ) with a mutation abundance of 0.61%. The tumor showed a programmed cell death-ligand1(PD-L1) expression of 60%. We performed a CT-guided puncture biopsy of the lung mass with the patient’s consent to improve accuracy and develop an effective treatment plan. The biopsy confirmed the pathological diagnosis of lung adenocarcinoma. The results of the second NGS test were consistent with the previous test results ( Figure 1 ), except for a higher mutation abundance observed in the EGFR mutation (14.38%) and the ROS1 fusion mutation (5.93%).\nUpon confirming the diagnosis, the patient was administered almonertinib and crizotinib orally. A significant reduction in the primary mass and all lymph nodes was observed after 1 month, and the efficacy was evaluated as a partial response based on the Response Evaluation Criteria In Solid Tumors. However, the patient experienced significant elevations in the levels of creatine kinase (CK) (552.30 U/L; reference range: 40–200 U/L), CK isoenzyme (CK-MB) (58.4 U/L; reference range: 0–25 U/L), and lactate dehydrogenase (LDH) (350.4 U/L; reference range: 120–250 U/L). Fortunately, the patient did not have any symptoms such as muscle soreness. The increase in CK and CK-MB levels aligned with the common adverse reactions of almonertinib (35.5%), indicating that these abnormalities were likely the side effects of almonertinib rather than of crizotinib. Considering the effectiveness of this treatment, we replaced another EGFR-TKI, furmonertinib. As predicted, the levels of CK and CK-MB gradually returned to normal without using any drugs following the discontinuation of almonertinib. The replacement of targeted drugs did not impact the patient’s response to treatment. Continuous monitoring of chest CT scans revealed a gradual reduction in tumor size, almost leading to complete disappearance. The patient has been undergoing treatment for 7 months and currently has stable disease. During subsequent treatment, the patient experienced only a tolerable first-degree rash reaction. The detailed diagnosis and treatment process is shown in Figure 2 .",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38476366_tr.json",
+    "source_pmid": "38476366",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38476366_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:37:47",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Remarkable response to third-generation EGFR-TKI plus crizotinib in a patient with pulmonary adenocarcinoma harboring EGFR and ROS1 co-mutation: a case report",
+    "author": "Zhiming Wu; Zelin Zhang; Dongdong Zhang; Zengyan Li",
+    "date": "2024-02-27"
+  },
+  "rejection_reason": null
+}

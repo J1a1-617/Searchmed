@@ -1,0 +1,144 @@
+{
+  "provenance": {
+    "source_filename": "40640099_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 43,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": 10,
+    "presenting_symptoms": [
+      "cough"
+    ],
+    "diagnosis_date": "2024-01",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT4N3M1a",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "bilateral lung",
+      "lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2024-01",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR 20号外显子缺失插入突变c.2318_2320delinsTAA（p.H773_V774delinsLM）"
+        ],
+        "sample": "lung tumor"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2024-02",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "培美曲塞",
+          "卡铂",
+          "帕博利珠单抗"
+        ],
+        "type": "chemotherapy + immunotherapy",
+        "dosage": {
+          "培美曲塞": "950 mg d1",
+          "卡铂": "500 mg d1",
+          "帕博利珠单抗": "200 mg d1"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2024-05",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "maintain",
+        "regimen": [
+          "培美曲塞",
+          "帕博利珠单抗"
+        ],
+        "type": "immunotherapy",
+        "dosage": {
+          "培美曲塞": "950 mg d1",
+          "帕博利珠单抗": "200 mg d1"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "2024-10",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "多西他赛",
+          "帕博利珠单抗"
+        ],
+        "type": "chemotherapy + immunotherapy",
+        "dosage": {
+          "多西他赛": "130 mg d1",
+          "帕博利珠单抗": "200 mg d1"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2024-11",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "targeted",
+        "regimen": [
+          "甲磺酸伏美替尼"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "甲磺酸伏美替尼": "160 mg qd"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 4,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2024-12"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "首例EGFR H773_V774delinsLM突变肺腺癌患者",
+      "经伏美替尼治疗获得显著肿瘤消退",
+      "靶向治疗在EGFR罕见突变患者中的潜在应用"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

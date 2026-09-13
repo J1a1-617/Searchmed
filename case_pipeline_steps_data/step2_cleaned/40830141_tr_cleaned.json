@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40830141_tr.json",
+    "source_pmid": "40830141",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40830141_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:58:16",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Integrated molecular and clinical characterization of pulmonary large cell neuroendocrine carcinoma",
+    "author": "Amin H Nassar; Chul Kim; Tolulope Adeyelu; Elias Bou Farhat; Hassan Abushukair; Mehrdad Rakaee; Kelsey Matteson; Shun-Fat Lau; Yamato Takabe; Antonio Ocejo; Fatemeh Ardeshir-Larijani; Ticiana Leal; Suresh Ramalingam; Sumaiya Alam; Jhanelle E Gray; James Hicks; David Kaldas; Javier Baena; Maria Zurera Berjaga; Frank Aboubakar Nana; Christian Grohe; Heike Leuders; Fabrizio Citarella; Alessio Cortellini; Emanuele Claudio Mingo; Danny Pancirer; Millie Das; Timothy John Ellis-Caleo; Justin M Cheung; Jessica J Lin; Alexander S Watson; D Ross Camidge; Arthi Sridhar; Kaushal Parikh; Fionnuala Crowley; Thomas U Marron; Vanya Aggarwal; Murtaza Ahmed; Kamya Sankar; Hassan Kawtharany; Jun Zhang; Dwight H Owen; Mingjia Li; Misako Nagasaka; David J Pinato; Nichola Awosika; Khaled Alhamad; Sonam Puri; Unaiza Zaman; Divya M Gupta; Chelsea Lau; Hina Khan; Justin Liauw; Ana I Velazquez; Tyiesha Brown; Laura Moliner; Miguel Mosteiro; Pedro Rocha; Mark Evans; Ari Vanderwalde; Andrew Elliott; Jorge Nieva; Gilberto Lopes; Patrick C Ma; Hossein Borghaei; Matthew Lee; Lauren Young; Raid Aljumaily; Haris Mirza; David J Kwiatkowski; Roy S Herbst; Richard A Flavell; Abdul Rafeh Naqash; Anne C Chiang",
+    "date": "2025-08-19"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

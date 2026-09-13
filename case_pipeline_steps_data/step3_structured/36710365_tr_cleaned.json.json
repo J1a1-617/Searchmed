@@ -1,0 +1,95 @@
+{
+  "provenance": {
+    "source_filename": "36710365_tr_cleaned.json",
+    "source_pmid": "10.1111/1759-7714.14807",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 83,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 30,
+    "presenting_symptoms": [
+      "dyspnea"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "SCC",
+    "histology": "lung squamous cell carcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "cT4N2M1a",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pleura"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion",
+          "T790M negative",
+          "PD-1 <1%"
+        ],
+        "sample": "tumor biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg daily"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 0.6
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression",
+      "molecular": {
+        "findings": [
+          "TP53 R158L",
+          "CDK6 amplification",
+          "KRAS amplification"
+        ],
+        "sample": "autopsy specimens"
+      },
+      "treatment": {
+        "line": null,
+        "regimen": [
+          "palliative treatment"
+        ],
+        "type": null,
+        "dosage": null
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 1,
+    "survival_status": "dead",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR mutation does not guarantee efficacy of osimertinib in SCC",
+      "Next-generation sequencing revealed multiple mutations and amplifications"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

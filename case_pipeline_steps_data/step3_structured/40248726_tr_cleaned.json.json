@@ -1,0 +1,97 @@
+{
+  "provenance": {
+    "source_filename": "40248726_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 73,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2022-11",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "T2N2M1a",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "pleura",
+      "lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2022-11",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "ALK rearrangement",
+          "wild type EGFR",
+          "EML4-ALK fusion"
+        ],
+        "sample": "lymph node"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "alectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "alectinib": "not specified"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 18
+      }
+    },
+    {
+      "time": "2024-07",
+      "event_type": "progression + rebiopsy + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR L858R",
+          "EGFR T790M",
+          "TP53 L194R"
+        ],
+        "sample": "RUL lesion"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "SBRT"
+        ],
+        "type": "radiotherapy",
+        "dosage": {
+          "SBRT": "not specified"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Metachronous lung cancer with distinct driver mutations following targeted therapy",
+      "Initial tumor with ALK rearrangement, later tumor with EGFR mutations",
+      "Significant molecular evolution observed over time"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

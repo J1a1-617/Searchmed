@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clinical Evidence Applicability"
+  short_description: "Gate and rank clinical analog evidence by causal applicability"
+  default_prompt: "Apply the clinical evidence applicability ladder before accepting or forwarding retrieved analogs."

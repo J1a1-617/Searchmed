@@ -1,0 +1,107 @@
+{
+  "provenance": {
+    "source_filename": "36858519_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 53,
+    "sex": "male",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "left shoulder swelling",
+      "pain"
+    ],
+    "diagnosis_date": "2020-10",
+    "cancer_type": "NSCLC",
+    "histology": "anaplastic non-small-cell carcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT4N0M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "left scapula"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-10",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "STK11",
+          "KEAP1"
+        ],
+        "sample": "CT-guided needle biopsy"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2021-01",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "palliative",
+        "regimen": [
+          "radiotherapy"
+        ],
+        "type": "palliative",
+        "dosage": {
+          "radiotherapy": "25 Gy/10 fr"
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2021-02",
+      "event_type": "treatment + molecular",
+      "molecular": {
+        "alterations": [
+          "STK11",
+          "KEAP1"
+        ],
+        "sample": "CGP test"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "carboplatin",
+          "nab-paclitaxel",
+          "pembrolizumab"
+        ],
+        "type": "combination chemotherapy",
+        "dosage": {
+          "carboplatin": "AUC 4.5 on day 1",
+          "nab-paclitaxel": "100 mg/m2 on day 1, 8, and 15",
+          "pembrolizumab": "200 mg on day 1 and every 4 weeks"
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 6,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "2021-04"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Concurrent STK11 and KEAP1 mutations in KRAS wild-type NSCLC",
+      "Refractory to multiple therapies including radiotherapy, immunotherapy, and chemotherapy",
+      "Palliative treatment with limited response"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

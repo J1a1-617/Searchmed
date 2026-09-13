@@ -1,0 +1,28 @@
+{
+  "text": "Title: EGFR Exon 19 deletions and exon 21 point mutations of EGFR are the most prevalent alterations in lung adenocarcinoma, and patients with these mutations derive substantial clinical benefit from EGFR tyrosine kinase inhibitors (TKIs). Nevertheless, the therapeutic efficacy of TKIs in rare compound EGFR mutations remains unclear. Here, we describe a case of early-stage non-small cell lung cancer (NSCLC) harboring a G719C+S768I compound mutation that achieved complete remission following treatment with furmonertinib. These findings suggest that furmonertinib may represent a promising therapeutic option to improve cure rates in this subset of patients.\n\n65-year-old Chinese man was admitted on April 16, 2025, with a four-month history of cough with sputum and chest discomfort, which had worsened over the previous two weeks. He had a 30-year smoking history but quit 10 years earlier, and a 30-year history of alcohol use, also discontinued 10 years earlier. His medical history included cerebral infarction 10 years prior, leaving mild mobility limitations, and a 10-year history of hypertension managed with sustained-release nifedipine. He reported no family history of hereditary disease or infection. Over the past four months, he experienced unexplained chest tightness accompanied by cough and white sputum.\nThe patient presented to the Department of Thoracic Surgery at our hospital. A chest CT performed on April 15, 2025, revealed a 3-cm mass in the left lower lobe (Figure 1). Bronchoscopy on April 16, 2025, showed obstruction of the bronchial orifice of the dorsal segment of the left lower lobe by a neoplasm, while the remaining bronchi were patent and unremarkable (Figure 2). A biopsy specimen was obtained and submitted for pathological examination.\nPathology revealed non-small cell carcinoma with spindle and giant cell features. H&E–stained sections showed nested tumor growth with a high proportion of giant cells, abundant eosinophilic cytoplasm, variable nuclear size, irregular polygonal nuclear membranes, and increased nuclear-to-cytoplasmic ratio. Immunohistochemistry was positive for TTF-1, CK, CK5/6, GATA3, and Napsin A, and negative for P40, CgA, CD56, and Pax-8 (Figure 3).\nFormalin-fixed paraffin-embedded (FFPE) samples with an 80% tumor cell percentage were prepared from the patient’s left lung biopsy tissue under bronchoscopy for next-generation sequencing (NGS) based on targeted DNA. NGS identified an EGFR exon 18 G719C mutation with an allele frequency of 44.24% and an EGFR exon 20 S768I mutation with an allele frequency of 47.71%. No additional mutations were found in other key driver genes (Figure 4).\nCranial MRA revealed a suspected aneurysmal protrusion in the C5 segment of the right internal carotid artery. Electrocardiography showed atrial flutter with tachycardia. After multidisciplinary discussion, the patient was deemed unfit for surgery. Oral Furmonertinib 160 mg QD, and cardiology managed his cardiac condition.\nThe patient started oral furmonertinib mesylate (160 mg QD) on May 1, 2025. Follow-up on May 12 showed marked tumor shrinkage without adverse effects, and therapy was continued (Figure 1). By July 1, imaging demonstrated complete remission. After multidisciplinary discussion, the patient underwent thoracoscopic left lower lobectomy with systematic lymph node dissection. Pathology revealed no residual viable tumor cells, with 40% necrosis and 60% stroma (fibrogranulation, histiocytic infiltration, and calcification) (Figure 3F). All lymph nodes were negative for metastasis, confirming CPR.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41626155_tr.json",
+    "source_pmid": "41626155",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41626155_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:27:30",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Favorable response to third-generation TKI furmonertinib in a patient with early-stage non-small cell lung cancer harboring rare compound EGFR mutations: Exon 18 G719C and Exon 20 S768I — A Case Report",
+    "author": "Shihu Liu; Jinzi Zhang; Yanfeng Dong; Yongjie Wang",
+    "date": "2026-01-16"
+  },
+  "rejection_reason": null
+}

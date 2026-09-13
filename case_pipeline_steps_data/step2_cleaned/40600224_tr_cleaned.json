@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40600224_tr.json",
+    "source_pmid": "40600224",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40600224_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:28:27",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "The Role of Axl Inhibition and Immune Checkpoint Blockade in Non-small Cell Lung Cancer: Current Understanding and Treatment Strategies",
+    "author": "TAE WOO KIM; SUNG HWAN KIM; HYUN JU DO; YOUNG-AH SUH; DAEWON JEONG; CHUHEE LEE",
+    "date": "2025-06-30"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

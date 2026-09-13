@@ -1,0 +1,164 @@
+{
+  "provenance": {
+    "source_filename": "41635837_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 69,
+    "sex": "male",
+    "smoking_status": "former_smoker",
+    "pack_years": 50,
+    "presenting_symptoms": [
+      "cough"
+    ],
+    "diagnosis_date": "2021-02",
+    "cancer_type": "LUAD",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IV",
+    "overall_stage": "IV",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "liver",
+      "left adrenal",
+      "left 10th rib",
+      "right 9th rib",
+      "lymph nodes",
+      "bones"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2021-02",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "KRAS p.G12C",
+          "TP53 p.R273C"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pemetrexed",
+          "cisplatin",
+          "recombinant human endostatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": null,
+          "cisplatin": null,
+          "recombinant human endostatin": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2021-05",
+      "event_type": "progression + treatment",
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "liposomal paclitaxel",
+          "cisplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "liposomal paclitaxel": null,
+          "cisplatin": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2021-07",
+      "event_type": "treatment",
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "apatinib",
+          "sintilimab"
+        ],
+        "type": "targeted + immunotherapy",
+        "dosage": {
+          "apatinib": null,
+          "sintilimab": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 19
+      }
+    },
+    {
+      "time": "2022-02",
+      "event_type": "treatment escalation",
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "anlotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "anlotinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 7
+      }
+    },
+    {
+      "time": "2022-09",
+      "event_type": "progression + adverse_event",
+      "response": {
+        "best": "unknown",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "diabetic ketoacidosis",
+          "multi-organ failure",
+          "sepsis"
+        ],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "apatinib",
+      "sintilimab"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "multi-organ failure",
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Advanced lung adenocarcinoma with KRAS and TP53 mutations",
+      "ICIs provided clinical benefits but led to fatal DKA",
+      "Sequential therapy included chemotherapy and targeted therapy"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

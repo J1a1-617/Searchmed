@@ -1,0 +1,28 @@
+{
+  "text": "Title: Reversion of Erlotinib-Acquired Resistance Twice in a Patient with Non-Small Cell Lung Cancer\nPMID: \nAuthors: \n\nAbstract\nEpidermal growth factor receptor (EGFR) mutations in patients with non-small cell lung cancer (NSCLC) usually develop disease progression after a median of 10 to 14 mo on tyrosine kinase inhibitor (TKI). Several mechanisms of resistance to TKI have been described, threonine-methionine substitution at position 790 (T790M), mesenchymal–epithelial transition factor (MET) amplification, overexpression of hepatocyte growth factor (HGF), upregulation of insulin-like growth factor (IGF) receptor signaling, transformation to small cell lung cancer, and so on. A variety of different therapeutic approaches aimed at overcoming resistance are motivated, irreversible EGFR inhibitors, combination with EGFR targeted antibodies, mesenchymal–epithelial transition factor (MET) inhibitors, HGF inhibitors, and so forth. Nevertheless, the results were not optimistic. Here we report a case of reversion of erlotinib-acquired resistance twice, and had a good improvement of outcomes every time. There are some possible reasons for this phenomenon. Considering this report, the patients who acquired resistance after retreatment of EGFR-TKI, using EGFR-TKI repeatedly may be a choice selectively.\n\nCase Report\nA 64-y-old non-smoker female was diagnosed adenocarcinoma in the middle right lobe (T1N0M0) in November 2005.The patient underwent right middle lobectomy with lymphnode dissection. In November 2007, we found metastasis in the vertebrae and multiple metastases in the lung. At that time, the patient didn’t take EGFR gene mutation analysis. Because the patient refused to use pemetrexedfor some economic reasons, he was treated with chemotherapy including cisplatin (40 mg/days 1–3) and gemcitabine (1600 mg/days 1 and 8) every 3 weeks up to 6 cycles and concurrent radiotherapy (30 Gy/10 fr). The patient was classified as having a stable disease (SD) according to the Response Evaluation Criteria in Solid Tumors (RECIST1.0).\n\nIn July 2009, the patient felt right chest pain; right pleura metastasis was showed in CT. The EGFR exon 19 deletion mutation was identified through the analyses of exons 18 through 21 performed by the polymerase chain reaction (PCR) method in the primary tumor tissues obtained when the diagnosis was first made. Erlotinib was then administered at the standard dose of 150 mg once daily. A grade 1 skin rash was observed. Significant shrinkage was showed at 2 mo while progression of disease at 11 mo after initiation of erlotinib treatment. The erlotinib was discontinued. We had to give up using docetaxel due to insufferable allergic reactions, then the patient was given gemcitabine (1600 mg, days 1 and 8) every 3 weeks up to 2 cycles. A reduction in CT of tumor volume was evident after 2 cycles of chemotherapy. The tumor was shown to progress 6 mo later. Erlotinib was again administered as a standard dose. After 3 mo of treatment with erlotinib, a CT scan again showed response. However, the erlotinib was discontinued because of the disease progression 8 mo later. The patient was given gemcitabine (1600 mg, days 1 and 8, 1 cycle/3 weeks) again. Further chemotherapy was refused by the patient because of insufferable side effects. The disease progressed again one month later. Erlotinib was administered at the standard dose and surprisingly the tumor regressed after 2 mo. What’s more, the patient’s condition was stable until now. Unfortunately, we failed to gain the condition of EGFR gene mutation during the second and third erlotinib treatments because of the patient’s refusal.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "24316558_tr.json",
+    "source_pmid": "24316558",
+    "original_file": "output/pre out/24316558_tr.json",
+    "cleaning_timestamp": "2026-05-08T19:53:02",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Reversion of erlotinib-acquired resistance twice by chemotherapy: A case report",
+    "author": "Fei-fei Teng; Jian-dong Zhang; Xue Meng; Jin-ming Yu",
+    "date": "2013-12-06"
+  },
+  "rejection_reason": null
+}

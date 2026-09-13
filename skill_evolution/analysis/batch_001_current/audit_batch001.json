@@ -1,0 +1,590 @@
+{
+  "case_count": 10,
+  "cases": [
+    {
+      "instance_id": "case_01_node_1",
+      "session_path": "skill_evolution/runs/batch_001_current/sessions/smoke_case_01_node_1.json",
+      "run_status": null,
+      "final_prediction_source": null,
+      "failed_stages": [],
+      "plan_steps": 2,
+      "executed_rounds": 3,
+      "replans": 3,
+      "accepted_evidence": 16,
+      "evidence_roles": {
+        "partial_support": 1,
+        "analog_support": 15
+      },
+      "analog_different_ids": [
+        "24707260#chunk-000004",
+        "30600919#chunk-000002",
+        "32308434#chunk-000006",
+        "34532491#chunk-000002",
+        "32190395#chunk-000002",
+        "28167203#chunk-000006",
+        "32308434#chunk-000001",
+        "33889527#chunk-000010",
+        "35116617#chunk-000001",
+        "27785052#chunk-000001"
+      ],
+      "low_relevance_analog_ids": [
+        "27785052#chunk-000001",
+        "24707260#chunk-000004",
+        "30600919#chunk-000002",
+        "32308434#chunk-000006",
+        "34532491#chunk-000002",
+        "32190395#chunk-000002",
+        "28167203#chunk-000006",
+        "35116617#chunk-000001",
+        "32308434#chunk-000001",
+        "33889527#chunk-000010",
+        "35116617#chunk-000001",
+        "27785052#chunk-000001",
+        "29997966#chunk-000001",
+        "29997966#chunk-000024",
+        "29997966#chunk-000018"
+      ],
+      "claims": 1,
+      "merged_claim_ids": [
+        "claim_01"
+      ],
+      "context_direct_findings": 0,
+      "context_weak_findings": 1,
+      "context_evidence_ids": 11,
+      "final_citations": 0,
+      "stage_calls": {},
+      "stage_seconds": {}
+    },
+    {
+      "instance_id": "case_02_node_1",
+      "session_path": "skill_evolution/runs/batch_001_current/sessions/smoke_case_02_node_1.json",
+      "run_status": null,
+      "final_prediction_source": null,
+      "failed_stages": [],
+      "plan_steps": 2,
+      "executed_rounds": 3,
+      "replans": 3,
+      "accepted_evidence": 10,
+      "evidence_roles": {
+        "direct_support": 1,
+        "analog_support": 6,
+        "partial_support": 3
+      },
+      "analog_different_ids": [
+        "31297240#chunk-000027",
+        "32308434#chunk-000003",
+        "35116349#chunk-000001",
+        "35117735#chunk-000003"
+      ],
+      "low_relevance_analog_ids": [
+        "24316558#chunk-000004",
+        "31297240#chunk-000027",
+        "32308434#chunk-000003",
+        "35116349#chunk-000001",
+        "35117735#chunk-000003",
+        "31039766#chunk-000001"
+      ],
+      "claims": 1,
+      "merged_claim_ids": [
+        "claim_01"
+      ],
+      "context_direct_findings": 1,
+      "context_weak_findings": 0,
+      "context_evidence_ids": 9,
+      "final_citations": 1,
+      "stage_calls": {},
+      "stage_seconds": {}
+    },
+    {
+      "instance_id": "case_03_node_1",
+      "session_path": "skill_evolution/runs/batch_001_current/sessions/smoke_case_03_node_1.json",
+      "run_status": null,
+      "final_prediction_source": null,
+      "failed_stages": [],
+      "plan_steps": 2,
+      "executed_rounds": 3,
+      "replans": 3,
+      "accepted_evidence": 10,
+      "evidence_roles": {
+        "partial_support": 6,
+        "analog_support": 1,
+        "direct_support": 3
+      },
+      "analog_different_ids": [
+        "36093550#chunk-000002"
+      ],
+      "low_relevance_analog_ids": [
+        "36093550#chunk-000002"
+      ],
+      "claims": 1,
+      "merged_claim_ids": [
+        "claim_01"
+      ],
+      "context_direct_findings": 2,
+      "context_weak_findings": 0,
+      "context_evidence_ids": 7,
+      "final_citations": 2,
+      "stage_calls": {},
+      "stage_seconds": {}
+    },
+    {
+      "instance_id": "case_04_node_2",
+      "session_path": "skill_evolution/runs/batch_001_current/sessions/smoke_case_04_node_2.json",
+      "run_status": "complete",
+      "final_prediction_source": "llm",
+      "failed_stages": [],
+      "plan_steps": 2,
+      "executed_rounds": 2,
+      "replans": 2,
+      "accepted_evidence": 10,
+      "evidence_roles": {
+        "analog_support": 10
+      },
+      "analog_different_ids": [
+        "34590033#chunk-000003",
+        "39246871#chunk-000003",
+        "38974236#chunk-000005",
+        "33475256#chunk-000004"
+      ],
+      "low_relevance_analog_ids": [
+        "34590033#chunk-000003",
+        "39246871#chunk-000003",
+        "38974236#chunk-000005",
+        "33475256#chunk-000004",
+        "37384219#chunk-000007"
+      ],
+      "claims": 10,
+      "merged_claim_ids": [],
+      "context_direct_findings": 0,
+      "context_weak_findings": 6,
+      "context_evidence_ids": 6,
+      "final_citations": 0,
+      "stage_calls": {
+        "chat": 2,
+        "function:submit_multistep_plan": 1,
+        "tool_loop:submit_step_execution_report:initial": 2,
+        "function:submit_reranking": 6,
+        "tool_loop:submit_step_execution_report:turn_1": 2,
+        "function:submit_evidence_review": 4,
+        "function:submit_safety_reflection": 1,
+        "function:summarize_answer_context": 1,
+        "function:submit_predictive_benchmark_result": 1
+      },
+      "stage_seconds": {
+        "chat": 97.991,
+        "function:submit_multistep_plan": 43.854,
+        "tool_loop:submit_step_execution_report:initial": 57.482,
+        "function:submit_reranking": 380.425,
+        "tool_loop:submit_step_execution_report:turn_1": 97.208,
+        "function:submit_evidence_review": 293.569,
+        "function:submit_safety_reflection": 75.215,
+        "function:summarize_answer_context": 28.019,
+        "function:submit_predictive_benchmark_result": 32.472
+      }
+    },
+    {
+      "instance_id": "case_05_node_1",
+      "session_path": "skill_evolution/runs/batch_001_current/sessions/smoke_case_05_node_1.json",
+      "run_status": "complete",
+      "final_prediction_source": "llm",
+      "failed_stages": [],
+      "plan_steps": 2,
+      "executed_rounds": 2,
+      "replans": 2,
+      "accepted_evidence": 10,
+      "evidence_roles": {
+        "analog_support": 6,
+        "counter": 4
+      },
+      "analog_different_ids": [
+        "37544307#chunk-000006"
+      ],
+      "low_relevance_analog_ids": [
+        "38854944#chunk-000007",
+        "37544307#chunk-000006",
+        "34055614#chunk-000004",
+        "35462930#chunk-000006"
+      ],
+      "claims": 10,
+      "merged_claim_ids": [],
+      "context_direct_findings": 0,
+      "context_weak_findings": 6,
+      "context_evidence_ids": 6,
+      "final_citations": 6,
+      "stage_calls": {
+        "chat": 2,
+        "function:submit_multistep_plan": 1,
+        "tool_loop:submit_step_execution_report:initial": 2,
+        "function:submit_reranking": 10,
+        "tool_loop:submit_step_execution_report:turn_1": 2,
+        "function:submit_evidence_review": 2,
+        "function:submit_safety_reflection": 1,
+        "function:summarize_answer_context": 1,
+        "function:submit_predictive_benchmark_result": 1
+      },
+      "stage_seconds": {
+        "chat": 106.91,
+        "function:submit_multistep_plan": 29.737,
+        "tool_loop:submit_step_execution_report:initial": 56.183,
+        "function:submit_reranking": 620.128,
+        "tool_loop:submit_step_execution_report:turn_1": 49.825,
+        "function:submit_evidence_review": 123.51,
+        "function:submit_safety_reflection": 56.542,
+        "function:summarize_answer_context": 59.567,
+        "function:submit_predictive_benchmark_result": 45.851
+      }
+    },
+    {
+      "instance_id": "case_09_node_2",
+      "session_path": "skill_evolution/runs/batch_001_current/sessions/smoke_case_09_node_2_recovered.json",
+      "run_status": "error",
+      "final_prediction_source": null,
+      "failed_stages": [],
+      "plan_steps": 2,
+      "executed_rounds": 2,
+      "replans": 2,
+      "accepted_evidence": 15,
+      "evidence_roles": {
+        "partial_support": 12,
+        "counter": 3
+      },
+      "analog_different_ids": [],
+      "low_relevance_analog_ids": [],
+      "claims": 14,
+      "merged_claim_ids": [],
+      "context_direct_findings": 0,
+      "context_weak_findings": 0,
+      "context_evidence_ids": 11,
+      "final_citations": 2,
+      "stage_calls": {},
+      "stage_seconds": {}
+    },
+    {
+      "instance_id": "case_10_node_2",
+      "session_path": "skill_evolution/runs/batch_001_current/sessions/smoke_case_10_node_2.json",
+      "run_status": "complete",
+      "final_prediction_source": "llm",
+      "failed_stages": [],
+      "plan_steps": 2,
+      "executed_rounds": 2,
+      "replans": 2,
+      "accepted_evidence": 12,
+      "evidence_roles": {
+        "analog_support": 12
+      },
+      "analog_different_ids": [
+        "35462930#chunk-000006",
+        "32735723#chunk-000006",
+        "34590033#chunk-000003",
+        "35957915#chunk-000001",
+        "33976623#chunk-000001",
+        "33976623#chunk-000005",
+        "34590033#chunk-000005",
+        "34178624#chunk-000007",
+        "34532491#chunk-000004",
+        "24316558#chunk-000004",
+        "24316558#chunk-000005"
+      ],
+      "low_relevance_analog_ids": [
+        "35462930#chunk-000006",
+        "32735723#chunk-000006",
+        "34590033#chunk-000003",
+        "35957915#chunk-000001",
+        "33976623#chunk-000001",
+        "34987382#chunk-000001",
+        "33976623#chunk-000005",
+        "34590033#chunk-000005",
+        "34178624#chunk-000007",
+        "34532491#chunk-000004",
+        "24316558#chunk-000004",
+        "24316558#chunk-000005"
+      ],
+      "claims": 12,
+      "merged_claim_ids": [],
+      "context_direct_findings": 0,
+      "context_weak_findings": 10,
+      "context_evidence_ids": 12,
+      "final_citations": 0,
+      "stage_calls": {
+        "chat": 1,
+        "function:submit_multistep_plan": 1,
+        "tool_loop:submit_step_execution_report:initial": 2,
+        "function:submit_reranking": 10,
+        "tool_loop:submit_step_execution_report:turn_1": 2,
+        "function:submit_evidence_review": 2,
+        "function:submit_safety_reflection": 1,
+        "function:summarize_answer_context": 2,
+        "function:submit_predictive_benchmark_result": 1
+      },
+      "stage_seconds": {
+        "chat": 39.051,
+        "function:submit_multistep_plan": 23.903,
+        "tool_loop:submit_step_execution_report:initial": 148.467,
+        "function:submit_reranking": 683.791,
+        "tool_loop:submit_step_execution_report:turn_1": 41.572,
+        "function:submit_evidence_review": 124.841,
+        "function:submit_safety_reflection": 80.821,
+        "function:summarize_answer_context": 71.773,
+        "function:submit_predictive_benchmark_result": 31.93
+      }
+    },
+    {
+      "instance_id": "case_13_node_3",
+      "session_path": "skill_evolution/runs/batch_001_current/sessions/smoke_case_13_node_3.json",
+      "run_status": "complete",
+      "final_prediction_source": "llm",
+      "failed_stages": [],
+      "plan_steps": 2,
+      "executed_rounds": 2,
+      "replans": 2,
+      "accepted_evidence": 6,
+      "evidence_roles": {
+        "analog_support": 5,
+        "partial_support": 1
+      },
+      "analog_different_ids": [],
+      "low_relevance_analog_ids": [
+        "31297240#chunk-000027",
+        "32308434#chunk-000005",
+        "34164277#chunk-000001",
+        "35871685#chunk-000002",
+        "35871685#chunk-000001"
+      ],
+      "claims": 6,
+      "merged_claim_ids": [],
+      "context_direct_findings": 0,
+      "context_weak_findings": 6,
+      "context_evidence_ids": 6,
+      "final_citations": 0,
+      "stage_calls": {
+        "chat": 1,
+        "function:submit_multistep_plan": 1,
+        "tool_loop:submit_step_execution_report:initial": 2,
+        "function:submit_reranking": 9,
+        "tool_loop:submit_step_execution_report:turn_1": 2,
+        "function:submit_evidence_review": 3,
+        "function:submit_replan_decision": 1,
+        "function:submit_safety_reflection": 1,
+        "function:summarize_answer_context": 1,
+        "function:submit_predictive_benchmark_result": 1
+      },
+      "stage_seconds": {
+        "chat": 39.378,
+        "function:submit_multistep_plan": 28.634,
+        "tool_loop:submit_step_execution_report:initial": 67.991,
+        "function:submit_reranking": 489.694,
+        "tool_loop:submit_step_execution_report:turn_1": 43.33,
+        "function:submit_evidence_review": 181.661,
+        "function:submit_replan_decision": 36.941,
+        "function:submit_safety_reflection": 63.629,
+        "function:summarize_answer_context": 29.933,
+        "function:submit_predictive_benchmark_result": 40.73
+      }
+    },
+    {
+      "instance_id": "case_19_node_2",
+      "session_path": "skill_evolution/runs/batch_001_current/sessions/smoke_case_19_node_2.json",
+      "run_status": "complete",
+      "final_prediction_source": "llm",
+      "failed_stages": [],
+      "plan_steps": 2,
+      "executed_rounds": 2,
+      "replans": 2,
+      "accepted_evidence": 15,
+      "evidence_roles": {
+        "analog_support": 12,
+        "partial_support": 1,
+        "counter": 2
+      },
+      "analog_different_ids": [
+        "40322930#chunk-000005",
+        "37591896#chunk-000028"
+      ],
+      "low_relevance_analog_ids": [
+        "37544307#chunk-000006",
+        "38854944#chunk-000007",
+        "32735723#chunk-000006",
+        "35462930#chunk-000006",
+        "40322930#chunk-000005",
+        "34590033#chunk-000003",
+        "35462930#chunk-000006",
+        "40697793#chunk-000003",
+        "40330948#chunk-000001",
+        "37591896#chunk-000028"
+      ],
+      "claims": 15,
+      "merged_claim_ids": [],
+      "context_direct_findings": 0,
+      "context_weak_findings": 8,
+      "context_evidence_ids": 8,
+      "final_citations": 0,
+      "stage_calls": {
+        "chat": 1,
+        "function:submit_multistep_plan": 1,
+        "tool_loop:submit_step_execution_report:initial": 2,
+        "function:submit_reranking": 8,
+        "tool_loop:submit_step_execution_report:turn_1": 2,
+        "function:submit_evidence_review": 2,
+        "function:submit_safety_reflection": 3,
+        "function:summarize_answer_context": 1,
+        "function:submit_predictive_benchmark_result": 1
+      },
+      "stage_seconds": {
+        "chat": 32.678,
+        "function:submit_multistep_plan": 34.336,
+        "tool_loop:submit_step_execution_report:initial": 76.509,
+        "function:submit_reranking": 435.233,
+        "tool_loop:submit_step_execution_report:turn_1": 51.758,
+        "function:submit_evidence_review": 154.049,
+        "function:submit_safety_reflection": 199.963,
+        "function:summarize_answer_context": 35.973,
+        "function:submit_predictive_benchmark_result": 31.829
+      }
+    },
+    {
+      "instance_id": "case_26_node_2",
+      "session_path": "skill_evolution/runs/batch_001_current/sessions/smoke_case_26_node_2.json",
+      "run_status": "complete",
+      "final_prediction_source": "llm",
+      "failed_stages": [],
+      "plan_steps": 2,
+      "executed_rounds": 2,
+      "replans": 2,
+      "accepted_evidence": 9,
+      "evidence_roles": {
+        "analog_support": 8,
+        "partial_support": 1
+      },
+      "analog_different_ids": [
+        "34397683#chunk-000003"
+      ],
+      "low_relevance_analog_ids": [
+        "33976623#chunk-000001",
+        "34397683#chunk-000004",
+        "34397683#chunk-000003",
+        "34590033#chunk-000003",
+        "34532491#chunk-000002"
+      ],
+      "claims": 9,
+      "merged_claim_ids": [],
+      "context_direct_findings": 0,
+      "context_weak_findings": 3,
+      "context_evidence_ids": 3,
+      "final_citations": 0,
+      "stage_calls": {
+        "chat": 1,
+        "function:submit_multistep_plan": 1,
+        "tool_loop:submit_step_execution_report:initial": 2,
+        "function:submit_reranking": 10,
+        "tool_loop:submit_step_execution_report:turn_1": 2,
+        "function:submit_evidence_review": 4,
+        "function:submit_safety_reflection": 1,
+        "function:summarize_answer_context": 1,
+        "function:submit_predictive_benchmark_result": 1
+      },
+      "stage_seconds": {
+        "chat": 42.973,
+        "function:submit_multistep_plan": 36.353,
+        "tool_loop:submit_step_execution_report:initial": 61.301,
+        "function:submit_reranking": 580.082,
+        "tool_loop:submit_step_execution_report:turn_1": 70.202,
+        "function:submit_evidence_review": 266.322,
+        "function:submit_safety_reflection": 49.257,
+        "function:summarize_answer_context": 43.423,
+        "function:submit_predictive_benchmark_result": 33.251
+      }
+    }
+  ],
+  "cross_case_occurrences": {
+    "analog_different_accepted": [
+      "case_01_node_1",
+      "case_02_node_1",
+      "case_03_node_1",
+      "case_04_node_2",
+      "case_05_node_1",
+      "case_10_node_2",
+      "case_19_node_2",
+      "case_26_node_2"
+    ],
+    "low_relevance_analog_accepted": [
+      "case_01_node_1",
+      "case_02_node_1",
+      "case_03_node_1",
+      "case_04_node_2",
+      "case_05_node_1",
+      "case_10_node_2",
+      "case_13_node_3",
+      "case_19_node_2",
+      "case_26_node_2"
+    ],
+    "answer_memory_merged_scopes": [
+      "case_01_node_1",
+      "case_02_node_1",
+      "case_03_node_1"
+    ],
+    "accepted_but_no_direct_context": [
+      "case_01_node_1",
+      "case_04_node_2",
+      "case_05_node_1",
+      "case_09_node_2",
+      "case_10_node_2",
+      "case_13_node_3",
+      "case_19_node_2",
+      "case_26_node_2"
+    ],
+    "context_evidence_not_cited": [
+      "case_01_node_1",
+      "case_04_node_2",
+      "case_10_node_2",
+      "case_13_node_3",
+      "case_19_node_2",
+      "case_26_node_2"
+    ]
+  },
+  "skill_candidates": {
+    "analog_different_accepted": [
+      "case_01_node_1",
+      "case_02_node_1",
+      "case_03_node_1",
+      "case_04_node_2",
+      "case_05_node_1",
+      "case_10_node_2",
+      "case_19_node_2",
+      "case_26_node_2"
+    ],
+    "low_relevance_analog_accepted": [
+      "case_01_node_1",
+      "case_02_node_1",
+      "case_03_node_1",
+      "case_04_node_2",
+      "case_05_node_1",
+      "case_10_node_2",
+      "case_13_node_3",
+      "case_19_node_2",
+      "case_26_node_2"
+    ],
+    "answer_memory_merged_scopes": [
+      "case_01_node_1",
+      "case_02_node_1",
+      "case_03_node_1"
+    ],
+    "accepted_but_no_direct_context": [
+      "case_01_node_1",
+      "case_04_node_2",
+      "case_05_node_1",
+      "case_09_node_2",
+      "case_10_node_2",
+      "case_13_node_3",
+      "case_19_node_2",
+      "case_26_node_2"
+    ],
+    "context_evidence_not_cited": [
+      "case_01_node_1",
+      "case_04_node_2",
+      "case_10_node_2",
+      "case_13_node_3",
+      "case_19_node_2",
+      "case_26_node_2"
+    ]
+  }
+}

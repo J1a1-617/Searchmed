@@ -1,0 +1,147 @@
+{
+  "provenance": {
+    "source_filename": "40821607_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 71,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "chest tightness",
+      "shortness of breath",
+      "left-sided chest pain"
+    ],
+    "diagnosis_date": "2023-03",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT4N3M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes",
+      "left atrium",
+      "superior vena cava",
+      "bone",
+      "bilateral pleural effusion"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-03",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 18–25 duplication"
+        ],
+        "sample": "supraclavicular lymph node"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "afatinib",
+          "zoledronic acid"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "afatinib": "30 mg once daily",
+          "zoledronic acid": "4 mg every 4 weeks"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2023-11",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "findings": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "furmonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "furmonertinib": "80 mg once daily"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-02",
+      "event_type": "progression + rebiopsy + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR-KDD",
+          "TP53 exon c.688_764 deletion",
+          "MET exon15–20 duplication"
+        ],
+        "sample": "right axillary lymph node"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "furmonertinib",
+          "crizotinib"
+        ],
+        "type": "combination_targeted",
+        "ddi_pair": "furmonertinib + crizotinib",
+        "drug_to_target": {
+          "furmonertinib": [
+            "EGFR"
+          ],
+          "crizotinib": [
+            "MET"
+          ]
+        },
+        "dosage": {
+          "furmonertinib": "80 mg once daily",
+          "crizotinib": "250 mg twice daily"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "furmonertinib",
+      "crizotinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "2024-03"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient responded positively to afatinib initially but developed resistance",
+      "Identified resistance mechanisms include TP53 deletion and MET duplication",
+      "Switched to combination therapy with furmonertinib and crizotinib"
+    ],
+    "ddi_relevance": "medium",
+    "generalizability": "low"
+  }
+}

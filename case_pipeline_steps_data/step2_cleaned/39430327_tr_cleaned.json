@@ -1,0 +1,28 @@
+{
+  "text": "Title: Intrinsic Resistance to a 2G ALK-TKI Due to De Novo MET-Amplification in a Patient with ALK-Rearranged Non-Small Cell Lung Cancer\nPMID: [PubMed ID]\nAuthors: [作者列表]\n\nAbstract\nMost patients with advanced anaplastic lymphoma kinase (ALK)-rearranged (ALK+) non-small cell lung cancer (NSCLC) experience prolonged response to second-generation (2G) ALK-tyrosine kinase inhibitors (TKIs). Herein, we present a case of metastatic ALK+ NSCLC rapidly progressing on first-line treatment due to de novo amplification of the mesenchymal-epithelial transition factor (MET) gene, which is a still elusive and underrecognized mechanism of primary resistance to ALK-TKIs.\n\nCase presentation\nA 43-year-old female diagnosed with T4N3M1c NSCLC harboring the echinoderm microtubule-associated protein-like 4 (EML4)-ALK fusion variant 1 (EML4-ALK v.1) and TP53 co-mutation, displayed only mixed response after three months and highly symptomatic progression after 6 months of first-line brigatinib treatment. Immunohistochemistry (IHC) and fluorescence in situ hybridization (FISH) analysis on re-biopsies from a new liver metastasis revealed overexpression of MET receptor (3+ in 80% of tumor cells) and heterogeneously increased MET gene copy number (CN) in tumor cells, including 20% with MET clusters (corresponds to ≥15 gene copies, thus exact CN uncountable by FISH) and the other 80% with median MET CN of 8.3, both changes indicating high-level MET-amplification. DNA and RNA next-generation sequencing (NGS) displayed preserved ALK fusion and TP53 co-mutation, but no additional genomic alterations, nor MET-amplification. Therefore, we retrospectively investigated the diagnostic biopsy from the primary tumor in the left lung with IHC and FISH revealing the presence of increased MET receptor expression (2+ in 100% of tumor cells) and MET-amplification (median MET CN of 6.1), which otherwise was not detected by NGS. Thus, given the well-documented efficacy of alectinib towards EML4-ALK v.1, combined second-line treatment with alectinib and the MET-TKI, crizotinib, was implemented resulting in very pronounced objective response, significantly improved quality of life, and no adverse events so far during the ongoing treatment (6 months).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39430327_tr.json",
+    "source_pmid": "39430327",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39430327_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:56:48",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "ALK-tyrosine kinase inhibitor intrinsic resistance due to de novo MET-amplification in metastatic ALK-rearranged non-small cell lung cancer effectively treated by alectinib-crizotinib combination—case report",
+    "author": "Edyta M Urbanska; Morten Grauslund; Siv M S Berger; Junia C Costa; Peter R Koffeldt; Jens B Sørensen; Eric Santoni-Rugiu",
+    "date": "2024-09-26"
+  },
+  "rejection_reason": null
+}

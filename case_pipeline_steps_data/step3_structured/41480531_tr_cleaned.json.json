@@ -1,0 +1,137 @@
+{
+  "provenance": {
+    "source_filename": "41480531_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.95
+  },
+  "baseline_clinical_profile": {
+    "age": 68,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "persistent cough",
+      "expectoration",
+      "mild right chest discomfort"
+    ],
+    "diagnosis_date": "2021-12",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT2bN2M0",
+    "overall_stage": "IIIA",
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": [
+      "right hilar lymph nodes",
+      "mediastinal lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2021-12",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "BRAF V600E"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2022-01",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "neoadjuvant",
+        "regimen": [
+          "dabrafenib",
+          "trametinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "dabrafenib": "150 mg twice daily",
+          "trametinib": "2 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 1–2 fever",
+          "cutaneous panniculitis"
+        ]
+      }
+    },
+    {
+      "time": "2022-04",
+      "event_type": "surgery",
+      "molecular": null,
+      "treatment": {
+        "line": "surgery",
+        "regimen": [
+          "thoracoscopic-assisted radical resection"
+        ],
+        "type": "surgery",
+        "dosage": null
+      },
+      "response": {
+        "best": "pCR",
+        "duration_months": null
+      },
+      "safety": null
+    },
+    {
+      "time": "2022-07",
+      "event_type": "adjuvant treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "adjuvant",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": "710 mg on day 1",
+          "carboplatin": "0.4 g on day 1"
+        }
+      },
+      "response": null,
+      "safety": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "dabrafenib",
+      "trametinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 41,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2024-01",
+    "treatment_discontinuation_reason": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with stage IIIA lung adenocarcinoma harboring BRAF V600E mutation",
+      "Neoadjuvant treatment with BRAF and MEK inhibitors resulted in pCR",
+      "Significant reduction in tumor size and lymph node metastasis"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

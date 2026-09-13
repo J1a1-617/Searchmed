@@ -1,0 +1,119 @@
+{
+  "provenance": {
+    "source_filename": "40641492_tr_cleaned.json",
+    "source_pmid": "10.1002/rcr2.70272",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 69,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "persistent diarrhoea",
+      "anorexia",
+      "hypotension",
+      "anaemia",
+      "renal failure"
+    ],
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT2aN2M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "multiple bone",
+      "thyroid"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "unknown",
+      "event_type": "diagnosis + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 21 mutation"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "unknown"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "complication + treatment",
+      "molecular": {
+        "findings": null,
+        "sample": null
+      },
+      "treatment": {
+        "line": "unknown",
+        "regimen": [
+          "mesalazine"
+        ],
+        "type": "medication",
+        "dosage": {
+          "mesalazine": "4000 mg daily"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "unknown",
+      "event_type": "re-initiation + treatment",
+      "molecular": {
+        "findings": null,
+        "sample": null
+      },
+      "treatment": {
+        "line": "unknown",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "40 mg daily"
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Osimertinib can induce ulcerative colitis.",
+      "Successful treatment of ulcerative colitis with mesalazine.",
+      "Patient experienced complications including renal failure and anaemia."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

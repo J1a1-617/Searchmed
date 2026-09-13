@@ -1,0 +1,223 @@
+{
+  "provenance": {
+    "source_filename": "41180730_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 39,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "neurological symptoms"
+    ],
+    "diagnosis_date": "2019-04",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "IV",
+    "overall_stage": "IV",
+    "baseline_primary_site": "left lung",
+    "metastatic_sites_at_baseline": [
+      "brain",
+      "cerebral metastases"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2019-04",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "ERBB2 mutation"
+        ],
+        "sample": null
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2019-05",
+      "event_type": "surgery",
+      "molecular": null,
+      "treatment": {
+        "line": "surgical",
+        "regimen": [
+          "craniotomy"
+        ],
+        "type": "surgical",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2019-07",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "left upper lobe trisegmentectomy"
+        ],
+        "type": "surgical",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2019-08",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "whole-brain radiation"
+        ],
+        "type": "radiation",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2019-09",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "cisplatin",
+          "navelbine"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "cisplatin": null,
+          "navelbine": null
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2021-08",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "pembrolizumab",
+          "carboplatin",
+          "pemetrexed"
+        ],
+        "type": "chemotherapy",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2022-05",
+      "event_type": "maintenance treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "pembrolizumab",
+          "alimta"
+        ],
+        "type": "maintenance",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2023-03",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "6L",
+        "regimen": [
+          "ramucirumab",
+          "docetaxel"
+        ],
+        "type": "chemotherapy",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2023-04",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "7L",
+        "regimen": [
+          "gemcitabine",
+          "herceptin"
+        ],
+        "type": "targeted",
+        "dosage": null
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2024-02",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "8L",
+        "regimen": [
+          "Enhertu"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "Enhertu": null
+        }
+      },
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2024-06",
+      "event_type": "evaluation + response",
+      "molecular": null,
+      "treatment": null,
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      },
+      "safety": {
+        "adverse_events": [
+          "minimal adverse effects"
+        ],
+        "dose_adjustments": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": "2024-06"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with Stage IV adenocarcinoma of the left lung",
+      "ERBB2 mutation positive",
+      "Efficacy of Enhertu demonstrated with partial response",
+      "Significant reduction in size of cerebral and cerebellar metastases"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: [文献标题]\nPMID: [PubMed ID]\nAuthors: [作者列表]\n\nAbstract\nPulmonary sarcomatoid carcinoma (PSC) is a rare subtype of non-small-cell lung cancer (NSCLC), which is resistant to chemotherapy and radiotherapy with a poor prognosis. PSC is highly malignant and is prone to recurrence even after surgery. The programmed death-ligand 1 (PD-L1) tumor cell proportion score (TPS) 5%, TERT and TP53 gene mutations were detected in this patient accompanied by multiple metastatic sites. The anlotinib is a novel multitarget tyrosine kinase inhibitor (TKI) that could be effective for advanced NSCLC and some sarcoma patients. Limited clinical trials and case reports have shown that PSC patients with gene mutations and PD-L1 expression have good responses to multitarget antiangiogenic drug and immune checkpoint inhibitors (ICIs). In this article, we reported a case with metastatic PSC diagnosed by Computed Tomography (CT)-guided needle biopsy treated with immunotherapy combined with antiangiogenic drugs as a neoadjuvant chemotherapy (NACT). PSC is controlled and the patient achieves successfully limb salvage treatment by surgical resection. Therefore, targeted therapy and immunotherapy can provide sufficient surgical opportunities for limb salvage in the treatment of metastatic PSC patients.\n\nCase presentation\nA 69-year-old male diagnosed with malignant bone tumor in the proximal femur was admitted to our hospital in June 2022 with recurrent fever as well as swelling and pain in the left thigh for twenty days. The initial computed tomography (CT) scan of the chest showed a pulmonary cavity (20 mm × 30 mm) and scattered lung masses. Subsequently, he underwent a CT-guided needle biopsy to distinguish the essence of osteolytic bone destruction and soft tissue mass in the left proximal femur which showed metastatic sarcomatoid carcinoma histology. Genetic testing revealed TERT c.-124C mutation (abundance 8.81%), TP53 p.R342 mutation (abundance 11.35%), tumor mutational burden (TMB) 7.09 muts/Mb, microsatellite stability (MSS), and PD-L1 (SP263) TPS 5% were also detected. The patient was tentatively treated with a combination of antiangiogenic drug and PD-1 inhibitor. After one course, the tumor volume significantly reduced in magnetic resonance imaging (MRI) and pathological fracture occurred in the femur after combined treatment. The patient received proximal femoral tumor resection and prosthesis replacement after defervescence. Sequentially sintilimab with anlotinib were administered for over 1 year. Finally, the local tumor was well controlled, and no obvious drug-related adverse reactions were observed. The lesions in the lung remained in partial response (PR) for more than 16 months and complete response (CR) of metastatic tumor in the proximal femur was observed through imaging examinations.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "38756778_tr.json",
+    "source_pmid": "38756778",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/38756778_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:42:43",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case report: Sintilimab combined with anlotinib as neoadjuvant chemotherapy for metastatic bone tumor resection in patients with PSC",
+    "author": "Zheming Bao; Xiuchun Yu; Kai Zheng; Kai Zhai; Haocheng Cui; Ming Xu",
+    "date": "2024-05-02"
+  },
+  "rejection_reason": null
+}

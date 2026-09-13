@@ -1,0 +1,215 @@
+{
+  "provenance": {
+    "source_filename": "36910616_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.85
+  },
+  "baseline_clinical_profile": {
+    "age": 62,
+    "sex": "male",
+    "smoking_status": "smoker",
+    "pack_years": 40,
+    "presenting_symptoms": [
+      "right chest pain"
+    ],
+    "diagnosis_date": "2020-11",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT4N3M1a",
+    "overall_stage": "IVA",
+    "baseline_primary_site": "right lung",
+    "metastatic_sites_at_baseline": [
+      "right clavicle",
+      "right neck lymph nodes",
+      "multiple pulmonary metastases"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-11",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR G719C",
+          "EGFR S768I",
+          "TP53 K320*"
+        ],
+        "sample": "tumor biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "afatinib",
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "afatinib": "30 mg once daily",
+          "pemetrexed": null,
+          "carboplatin": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 15
+      }
+    },
+    {
+      "time": "2022-01",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR G719C",
+          "EGFR S768I",
+          "MET amplification",
+          "CDK4 amplification"
+        ],
+        "sample": "CT-guided lung puncture"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "afatinib",
+          "savolitinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "afatinib": "30 mg once daily",
+          "savolitinib": "400 mg once daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 10
+      }
+    },
+    {
+      "time": "2022-09",
+      "event_type": "radiotherapy",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": null,
+        "type": "radiotherapy",
+        "dosage": {
+          "radiotherapy": "48 Grey"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2021-02",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR L861Q",
+          "TP53 Y220C"
+        ],
+        "sample": "right lung biopsy"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "osimertinib",
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "osimertinib": "80 mg once daily",
+          "pemetrexed": null,
+          "carboplatin": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 9
+      }
+    },
+    {
+      "time": "2022-01",
+      "event_type": "progression + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR L861Q",
+          "TP53 Y220C",
+          "MET amplification"
+        ],
+        "sample": "biopsy specimen"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "afatinib",
+          "furmonertinib",
+          "crizotinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "afatinib": "30 mg once daily",
+          "furmonertinib": "80 mg once daily",
+          "crizotinib": "250 mg twice daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 6
+      }
+    },
+    {
+      "time": "2022-04",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR L861Q",
+          "TP53 Y220C",
+          "MET amplification"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "docetaxel",
+          "anlotinib"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "docetaxel": null,
+          "anlotinib": null
+        }
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "afatinib",
+      "savolitinib"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": 16,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2023-01"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "EGFR G719C/S768I mutations in lung adenocarcinoma",
+      "Combination of afatinib and savolitinib shows improved PFS",
+      "Uncommon EGFR mutations lead to diverse treatment responses"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

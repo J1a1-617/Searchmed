@@ -1,0 +1,131 @@
+{
+  "provenance": {
+    "source_filename": "39743996_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.8
+  },
+  "baseline_clinical_profile": {
+    "age": 63,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": null,
+    "diagnosis_date": null,
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": null,
+    "overall_stage": null,
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": null
+  },
+  "timeline_events": [
+    {
+      "time": null,
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 21 far-loop insertion"
+        ],
+        "sample": null
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "bevacizumab",
+          "pemetrexed-carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "bevacizumab": null,
+          "pemetrexed-carboplatin": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": 7
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "sintilimab",
+          "nedaplatin"
+        ],
+        "type": "immunotherapy + chemotherapy",
+        "dosage": {
+          "sintilimab": null,
+          "nedaplatin": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": 4.9
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "sintilimab",
+          "anlotinib"
+        ],
+        "type": "immunotherapy + targeted",
+        "dosage": {
+          "sintilimab": null,
+          "anlotinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "furmonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "furmonertinib": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 27
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Synchronous lung adenocarcinoma with EGFR mutation and clear cell renal cell carcinoma",
+      "First-line treatment with bevacizumab and pemetrexed-carboplatin resulted in PFS of 7 months",
+      "Second-line treatment with sintilimab and nedaplatin resulted in PFS of 4.9 months",
+      "Third-line therapy with sintilimab and anlotinib proved ineffective",
+      "Fourth-line treatment with furmonertinib achieved durable disease control with PFS of 27 months"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

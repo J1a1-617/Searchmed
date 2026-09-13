@@ -1,0 +1,170 @@
+{
+  "provenance": {
+    "source_filename": "40843372_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 73,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [
+      "left chest pain"
+    ],
+    "diagnosis_date": "2020-08",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "TNM 8th",
+    "tnm_stage": "T4N3M1c",
+    "overall_stage": "IV",
+    "baseline_primary_site": "left upper lobe of the lung",
+    "metastatic_sites_at_baseline": [
+      "mediastinal lymph nodes",
+      "pleural effusion"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2020-08",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR 19del",
+          "EGFR amplification",
+          "TPR-NTRK1 fusion"
+        ],
+        "sample": "lung biopsy"
+      },
+      "treatment": null,
+      "response": null,
+      "safety": null
+    },
+    {
+      "time": "2020-09",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "gefitinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "gefitinib": "250 mg/day"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 10
+      },
+      "safety": {
+        "adverse_events": [
+          "diarrhea",
+          "rash"
+        ]
+      }
+    },
+    {
+      "time": "2021-06",
+      "event_type": "progression + molecular",
+      "molecular": {
+        "findings": [
+          "EGFR 19del",
+          "T790M"
+        ],
+        "sample": "plasma"
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "osimertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "osimertinib": "80 mg/day"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 7
+      }
+    },
+    {
+      "time": "2022-01",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "almonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "almonertinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2022-03",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR 19del",
+          "TPR-NTRK1 fusion",
+          "EGFR amplification"
+        ],
+        "sample": "lung puncture biopsy"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "larotrectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "larotrectinib": "100 mg bid"
+        }
+      },
+      "response": null
+    },
+    {
+      "time": "2022-07",
+      "event_type": "progression + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "camrelizumab",
+          "pemetrexed",
+          "cisplatin"
+        ],
+        "type": "combination",
+        "dosage": null
+      },
+      "response": null
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 46,
+    "survival_status": "dead",
+    "cause_of_death": "disease progression",
+    "last_follow_up": "2024-06"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient had complex genetic alterations including EGFR 19del and TPR-NTRK1 fusion",
+      "Multiple lines of targeted therapy were attempted with variable responses",
+      "Clinical challenges in managing NSCLC with resistant mutations"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

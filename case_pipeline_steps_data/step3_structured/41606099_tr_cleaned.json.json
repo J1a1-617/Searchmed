@@ -1,0 +1,192 @@
+{
+  "provenance": {
+    "source_filename": "41606099_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": null,
+    "sex": null,
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "persistent cough",
+      "left-sided limb weakness"
+    ],
+    "diagnosis_date": "2023-08",
+    "cancer_type": "lung adenocarcinoma",
+    "histology": "large cell neuroendocrine carcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT4N2M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "left lower lobe",
+      "hilar lymph nodes",
+      "mediastinal lymph nodes",
+      "bone",
+      "brain"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2023-08",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EML4::ALK fusion",
+          "EPCAM gene point mutation"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "temozolomide",
+          "alectinib"
+        ],
+        "type": "combination_targeted",
+        "dosage": {
+          "temozolomide": null,
+          "alectinib": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2024-01",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": null,
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "cranial stereotactic radiotherapy",
+          "alectinib"
+        ],
+        "type": "radiotherapy + targeted",
+        "dosage": {
+          "alectinib": null
+        }
+      },
+      "response": {
+        "best": "PD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-03",
+      "event_type": "treatment",
+      "molecular": {
+        "alterations": null,
+        "sample": null
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "lorlatinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "lorlatinib": null
+        }
+      },
+      "response": {
+        "best": null,
+        "duration_months": null
+      }
+    },
+    {
+      "time": "2024-07",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [
+          "TP53 mutation",
+          "MYC amplification",
+          "CDKN2A deletion"
+        ],
+        "sample": "tumor"
+      },
+      "treatment": {
+        "line": "4L",
+        "regimen": [
+          "toripalimab",
+          "etoposide",
+          "carboplatin"
+        ],
+        "type": "combination",
+        "dosage": {
+          "toripalimab": null,
+          "etoposide": null,
+          "carboplatin": null
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    },
+    {
+      "time": null,
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "5L",
+        "regimen": [
+          "bevacizumab",
+          "toripalimab",
+          "nab-paclitaxel"
+        ],
+        "type": "combination",
+        "dosage": {
+          "bevacizumab": null,
+          "toripalimab": null,
+          "nab-paclitaxel": null
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": {
+    "involved_drugs": [
+      "alectinib",
+      "lorlatinib",
+      "toripalimab",
+      "etoposide",
+      "carboplatin",
+      "bevacizumab",
+      "nab-paclitaxel"
+    ],
+    "mechanism": null,
+    "severity": null,
+    "clinical_manifestation": null,
+    "management": null,
+    "evidence_level": "case_report"
+  },
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": null,
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Transformation of ALK-positive lung adenocarcinoma to large cell neuroendocrine carcinoma",
+      "Acquired resistance to ALK-TKI therapy",
+      "Significant tumor regression followed by progression",
+      "Genomic alterations associated with neuroendocrine differentiation"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

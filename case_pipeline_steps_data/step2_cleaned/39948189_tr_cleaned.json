@@ -1,0 +1,28 @@
+{
+  "text": "Title: Advanced Lung Adenocarcinoma with Primary MET Amplification: A Case Report\nPMID: \nAuthors: \n\nAbstract\nPrimary MET amplification is an infrequent tumorigenic driver gene alteration identified in pulmonary neoplasms. Data on the effectiveness of MET-tyrosine kinase inhibitor (TKI) therapy in de novo MET amplification are relatively scarce, and there remains a dearth of empirical evidence supporting the use of precision therapy as first-line treatment for advanced non-small cell lung cancer (NSCLC) with primary MET amplification. We present a case of advanced lung adenocarcinoma in an elderly patient with primary MET amplification. The patient had an initial ECOG Performance Status (PS) 2. DNA-NGS analysis of tissue samples revealed a MET gene copy number (GCN) of 8, indicating MET amplification, without other oncogenic mutations associated with available drugs being detected. This finding was validated by MET fluorescence in situ hybridization (FISH), which showed cluster amplification. Initial treatment with savolitinib resulted in a sustained partial response lasting more than sixteen months. Our results suggest that savolitinib is effective and safe for the treatment of elderly patients with de novo amplified MET metastatic NSCLC and may therefore be considered a potential treatment option worthy of prospective study confirmation.\n\nDetailed case description\nAn 86-year-old Chinese man with no smoking history was referred to our hospital in June 2022. He reported experiencing pain in his right shoulder for the past two months without any identifiable triggers. On the right shoulder, he showed limited range of motion and tenderness. Positron emission tomography (PET)/computed tomography (CT) scans revealed a mass in the right upper lung and metastases in the right hilar lymph node, lower right lung, and right scapula. The maximum diameter of the primary focus in the right upper lung was 4.9 cm and the SUV max was 16.33 (Fig. 1A). This suggested a clinical diagnosis of stage IVB lung cancer. Figure 1B shows that the pulmonary biopsy revealed well differentiated pulmonary adenocarcinoma. PD-L1 Tumor Proportion Score (TPS) was negative (TPS < 1%) by VENTANA PD-L1 (SP263) Assay (Fig. 1C). Subsequent targeted NGS with tumor DNA based on Illumina NextSeq 500 platform (Illumina, San Diego, USA) identified MET amplification, with GCN as 8 (Fig. 1D). Amplification test by FISH revealed a cluster MET amplification (MET/CEP7 ratio ≥ 2.0 and MET CN ≥ 5). METex14 mutations have been tested and excluded. Tumor mutation burden (TMB) was 3.46 mut/Mb, and concomitant genomic alterations and variant allelic frequency (VAF) identified by NGS were presented in Fig. 1E. However, targeted therapeutic agents have not yet been developed for these five co-mutated genes (FGF23, NKX2-1, TP53, LRP1B, and FAT1). Baseline serum tumor marker glycated antigen 125 (CA125) was significantly elevated to 710.8 U/mL (Range: 0–35 U/mL), accompanied by a mild Cytokeratin 19 fragment (Cyfra21-1) elevation to 4.31 µg/L (0–3.1 µg/L) and normal CEA levels.\nNevertheless, the patient’s PS and advanced age rendered him ineligible for palliative chemotherapy. No benefit from immunotherapy was anticipated as the patient’s tumor tissue exhibited negative PD-L1 TPS, along with low TMB. Following thorough communication, the patient commenced first-line treatment with savolitinib 400 mg daily starting July 12, 2022. Notably, there was a remarkable improvement in his clinical symptoms one week later, resulting in the postponement of the scheduled bone metastasis radiotherapy. The patient was given 120 mg of denosumab subcutaneous injection every 4 weeks to simultaneously manage bone metastases. One month later, the CT scan showed a significant reduction in disease compared to the previous evaluation, which was sustained for more than 16 months with good tolerance (Fig. 2A). Peripheral serum tumor markers CA125 and Cyfra21-1 gradually decrease to normal levels during treatment (Fig. 2B and C). Although there were repeated occurrences of grade 3 edema in the lower limbs according to the Common Terminology Criteria for Adverse Events (CTCAE v5.0), effective management was achieved through progressive dose modification and symptomatic therapy. Savolitinib has been decreased to 300 mg once daily since October 12th, 2022 and remains ongoing. Subsequently, the adverse event (AE) of lower limb edema persisted at grade 1 according to CTCAE. During the course of treatment until October 29, 2023, regular medical imaging tests indicated partial remission. However, the patient later developed respiratory failure as a secondary complication due to community-acquired pneumonia, and eventually died on January 25, 2024.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "39948189_tr.json",
+    "source_pmid": "39948189",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/39948189_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:06:43",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "De Novo MET-amplified NSCLC treated with savolitinib achieved remarkable tumor regression: a case report and review of literature",
+    "author": "Jin Sheng; Juan Jiao; Na Yan; Hongming Pan",
+    "date": "2025-02-14"
+  },
+  "rejection_reason": null
+}

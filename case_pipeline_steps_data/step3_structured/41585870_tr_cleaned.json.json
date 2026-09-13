@@ -1,0 +1,117 @@
+{
+  "provenance": {
+    "source_filename": "41585870_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 71,
+    "sex": "female",
+    "smoking_status": null,
+    "pack_years": null,
+    "presenting_symptoms": [
+      "left-sided chest pain",
+      "dyspnea"
+    ],
+    "diagnosis_date": "2025-02",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": null,
+    "tnm_stage": "cT3N3M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "left lung",
+    "metastatic_sites_at_baseline": [
+      "pleura",
+      "vertebral body"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2025-02",
+      "event_type": "diagnosis + molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "EGFR exon 19 deletion (19del)"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "furmonertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "furmonertinib": "80 mg orally once daily"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2025-06",
+      "event_type": "adverse_event + treatment",
+      "molecular": null,
+      "treatment": {
+        "line": null,
+        "regimen": null,
+        "type": null,
+        "dosage": {
+          "methylprednisolone": "80 mg every 8 h for 3 days, then 40 mg every 8 h for 3 days, then 40 mg every 12 h for 7 days, then 40 mg once daily for 7 days",
+          "intravenous_immunoglobulin": "10 g daily for 3 days"
+        }
+      },
+      "response": null,
+      "safety": {
+        "adverse_events": [
+          "interstitial lung disease",
+          "type I respiratory failure"
+        ],
+        "dose_adjustments": [
+          "furmonertinib discontinued"
+        ]
+      }
+    },
+    {
+      "time": "2025-08",
+      "event_type": "treatment",
+      "molecular": null,
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "pemetrexed",
+          "carboplatin"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "pemetrexed": "0.685 g",
+          "carboplatin": "450 mg"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": null
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Furmonertinib induced interstitial lung disease in an EGFR-mutated lung adenocarcinoma patient",
+      "Timely diagnosis and intervention led to favorable outcome",
+      "Successful management of drug-induced ILD"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "low"
+  }
+}

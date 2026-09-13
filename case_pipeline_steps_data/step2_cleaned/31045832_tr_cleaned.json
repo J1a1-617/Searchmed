@@ -1,0 +1,28 @@
+{
+  "text": "Title: Therapeutic benefits of erlotinib in an advanced lung cancer patient with somatic EGFR mutation\nPMID: \nAuthors: \n\nAbstract\nRationale:\nMounting evidences reveal that mutation of epidermal growth factor receptor (EGFR) may induce the resistance of tyrosine kinase inhibitors (TKIs). TKI-resistant lung cancer cells are sensitive to inhibition of the EGFR pathway. This case report aimed to characterize the therapeutic benefits of erlotinib, a targeted drug, on an advanced lung cancer patient with somatic EGFR mutation.\nPatient concerns:\nA 52-year-old non-smoking Chinese woman was suffered from pneumonia-based chest pains, and the patient was diagnosed as advanced lung cancer through medical imaging, thoracoscopy, and pathological examination.\nDiagnoses:\nBlood tests, pathological examination, thoracoscopy, computed tomography (CT)/positron emission computed tomography (PET) scans, next-generation sequencing (NGS) testing were subjected to the patient's samples before and after targeted drug treatments.\nInterventions:\nAfter icotinib-induced resistance, the chemoresistance mechanism was involved in EGFR mutations before being prescribed with erlotinib.\nOutcomes:\nThe therapeutic effectiveness of icotinib for 4-month showed undetected carcinomatous metastasis. The lung tumor sizes were reduced, and improved quality of life (QOL) was described by the patient. Followed by monotherapy with erlotinib for 1.5-year, the icotinib-resistant patient benefited from longer survival rate without tumor enlargement and neoplastic metastasis. In therapeutic duration of erlotinib, T790M mutation of EGFR, R248W mutation of tumor protein p53 (TP53), K844S mutation of retinoblastoma protein 1 (RB1) were identified through NGS test.\nLessons:\nIn conclusion, the anti-cancer benefits of icotinib and erlotinib against advanced lung cancer may contribute to suppress neoplastic growth and metastasis. Further, erlotinib exerts potent efficacy for extended survival rate of patient because detectable mutations may not or limitedly induce erlotinib-resistance. In addition, reduced circulating hormones by menopause may enhance the therapeutic effectiveness of erlotinib.\n\nCase report\nA 52-year-old non-smoking Chinese woman was suffered from pneumonia-derived chest pains before hospitalization. As revealed in Fig. 1, biochemical assays showed markedly increased plasma contents of cancer antigen 50 (CA50, 10.9IU/ml), NSCLC associated antigen (CYFRA21-1 (cytokeratin fragment 19), 5.2 ng/mL), carcinoembryonic antigen (CEA, 28.6 ng/mL), neuron-specific enolase (NSE, 18.1 ng/mL) when referenced to clinical criteria. Thoracoscopy inspection showed visible pleural lumps and nodular deterioration. And the patient was medically diagnosed as NSCLC in stage IV by using chest computed tomography (CT) scan and pathological biopsy in March 2017, detecting a tumor volume of 4 × 2.8 cm2 in the right lung lower lobe. In addition, positron emission computed tomography (PET) scan suggested undetected tumorous metastases in lymph nodes, liver, pancreas, and brain. In biopsy sample, somatic EGFR mutation report found the mutations of exon18 G719X, exon20 S768I T790M, exon21 L816Q L858R, followed by icotinib (125 mg/day; Roche, Switzerland; Lot No. B0104M2) treatment.\nAfter around 4-month icotinib monotherapy, assay to biopsy lung sample by using NGS was employed to reveal panoramic gene monitoring of this patient. The omics data showed L858R A871G mutations (mutation frequency, MF, 9.66%) and T790M mutation (MF, 5.82%) of EGFR, exon7 R248W mutation (MF, 5.82%) of TP53, exon25 K844S mutation (MF, 12.28%) of RB1. Due to icotinib-inducible chemoresistance, the patient was recommended to take erlotinib (80 mg/day; Betta Pharmaceuticals, Hangzhou, China; Lot No. A180805) from July 2017 when the tumor size was 3.2 × 1.5 cm2. As results, lung tumor size was reduced gradually although circulating CEA biomarker was altered. In addition, clinical symptoms and quality of life of the patient were reduced and improved progressively, lasting for approximate 1.5 years (November 2018). And the erlotinib therapy might cause some slight side-effects, such as rash, inappetence. However, the patient is still survival without neoplastic metastasis (November 2018).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "31045832_tr.json",
+    "source_pmid": "31045832",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/31045832_tr.json",
+    "cleaning_timestamp": "2026-06-03T00:41:18",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Clinical characterization of icotinib-induced chemoresistance in erlotinib-treated lung adenocarcinoma patient with EGFR mutations: A case report",
+    "author": "Ka Wu; Chao Guo; Rong Li",
+    "date": "2019-05-03"
+  },
+  "rejection_reason": null
+}

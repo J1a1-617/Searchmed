@@ -1,0 +1,80 @@
+{
+  "provenance": {
+    "source_filename": "33655632_tr_cleaned.json",
+    "source_pmid": "10.1111/1759-7714.13889",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 50,
+    "sex": "male",
+    "smoking_status": "non_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [
+      "irritable cough"
+    ],
+    "diagnosis_date": "2019-11",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "not specified",
+    "tnm_stage": "cT1cN3M1c",
+    "overall_stage": "IVb",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "right supraclavicular lymph node",
+      "mediastinal lymph nodes",
+      "right hilar lymph nodes",
+      "left adrenal nodules",
+      "soft tissue nodules under the anterior abdominal wall"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2019-11",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "ERBB2 S335C"
+        ],
+        "sample": "lung mass"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "pyrotinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "pyrotinib": "400 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 10
+      },
+      "safety": {
+        "adverse_events": [
+          "grade 1 diarrhea"
+        ],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": "2020-12-02"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient with advanced lung adenocarcinoma harboring non-TKD mutation of ERBB2, S335C",
+      "Successful treatment with pyrotinib monotherapy",
+      "Achieved durable partial response with good tolerance"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: Transformation to small cell lung cancer after EGFR-TKI treatment: a case report\nPMID: \nAuthors: \n\nAbstract\nTransformation to small cell lung cancer (SCLC) is a resistance mechanism in epidermal growth factor receptor (EGFR)-mutated non-small cell lung cancer (NSCLC) after EGFR-tyrosine kinase inhibitor (EGFR-TKI) treatment. The efficacy of immune checkpoint inhibitor (ICI) in transformed SCLC remains to be elucidated. The present case report highlights a patient whose tumor underwent transformation to SCLC after developing resistance to an EGFR-TKI treatment. The patient subsequently achieved long-term remission lasting more than 5 years through treatment with an anti-PD-1 antibody nivolumab. Generally, the efficacy of ICI is inferior in EGFR-mutated NSCLC compared to those with EGFR wild-type NSCLC. However, some cases that have transformed to SCLC may be sensitive to ICI treatment. Further investigation is necessary to determine the efficacy of ICI in cases that have undergone transformation to SCLC.\n\n2. Case presentation\nA 76-year-old woman presented to our clinic with the chief complaint of bloody sputum in November 2016. The patient had smoked 20 cigarettes per day for the past 25 years and had a medical history of left upper lobectomy for lung adenocarcinoma at another hospital in 2007. Chest and abdominal computed tomography (CT) images showed a metastatic lung tumor in the left pulmonary hilar region, multiple mediastinal lymph node metastases, and a rib metastasis. A bronchoscopic lung biopsy was performed for pathologic diagnosis. The final diagnosis was stage IVA (c-T3N2M1b) lung adenocarcinoma harboring an EGFR exon 19 deletion.\nIn December 2016, the patient was initiated on a third-generation EGFR-TKI, resulting in complete response to the treatment. However, in August 2018, EGFR-TKI was discontinued due to the recurrence of the tumor in the left lung. In order to obtain a pathological diagnosis of this exacerbated pulmonary tumor, a bronchoscopic re-biopsy was performed. The pathology results indicated a transformation to SCLC, with partly positive expression of CD56 and synaptophysin. Polymerase chain reaction testing showed that the EGFR exon 19 deletion remained positive, without secondary EGFR mutations detected. Additionally, programmed death-ligand 1 (PD-L1) tumor proportion score was negative (less than 1%).\nIn September 2018, the patient was enrolled in a clinical trial and was initiated on monotherapy with the anti-PD1 antibody nivolumab, 3 mg/kg, on day 1 every 2 weeks. Notably, 3 months later, in November 2018, CT imaging revealed left pulmonary tumor shrinkage. In May 2019, grade 3 adrenocorticotropic hormone deficiency was observed as an adverse event related to nivolumab treatment. However, nivolumab treatment was continued with corticosteroid replacement therapy. Subsequently, nivolumab treatment was continued until October 2022, when treatment was discontinued due to patient relocation. As of the end of 2023, there was no evidence of tumor progression.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "41001033_tr.json",
+    "source_pmid": "41001033",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/41001033_tr.json",
+    "cleaning_timestamp": "2026-06-03T21:03:13",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case Report: A small cell lung cancer transformed from an EGFR-mutated Adenocarcinoma demonstrated a long-term remission to anti PD-1 antibody",
+    "author": "Yusuke Kawanaka; Kimio Yonesaka; Junko Tanizaki; Osamu Maenishi; Kazuko Sakai; Kazuhiro Kakimi; Kazuto Nishio; Hidetoshi Hayashi",
+    "date": "2025-09-10"
+  },
+  "rejection_reason": null
+}

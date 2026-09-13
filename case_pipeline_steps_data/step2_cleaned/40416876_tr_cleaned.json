@@ -1,0 +1,28 @@
+{
+  "text": "Title: SMARCA4-deficient non-small cell lung cancer with EML4-ALK: a case report\nPMID: \nAuthors: \n\nAbstract\nSMARC4 is the catalytic subunit of the SWI/SNF chromatin remodeling complex and is one of the most common altered chromatin remodeling ATPases in cancer. Studies have indicated that SMARCA4 loss is associated with highly aggressive tumors, independently predicting shorter overall and disease-specific survival. SMARCA4-deficient non-small cell lung cancer (NSCLC) primarily affects male individuals, especially smokers, and is characterized by large, aggressive tumors. Cases of SMARCA4 deletion combined with actionable driver gene mutations (e.g., ALK) are rarely reported. In this report, we describe a male non-smoker diagnosed with SMARCA4-deficient, EML4-ALK non-small cell lung cancer who has been undergoing ensartinib targeted therapy for 3 months, resulting in a significant partial response. We also propose that, from a signaling perspective, the presence of SMARCA4 deficiency may influence the sensitivity of EML4-ALK NSCLC to targeted therapy, highlighting the need for further investigation into the underlying mechanisms and the exploration of novel therapeutic approaches.\n\nCase report\nA 54-year-old man with no history of smoking, other malignancies, or relevant family history presented with a persistent dry cough and underwent chest computed tomography (CT) in June. The CT revealed a lesion in the left lung. When he presented at our hospital in July, a follow-up chest CT revealed a large, well-defined soft tissue mass adjacent to the left upper lobe, measuring approximately 11.9 cm × 8.4 cm × 13.1 cm ( Figure 1 ), along with fluid in the left chest cavity; no enlarged lymph nodes were observed in the hilum or mediastinum. A whole-body bone scan showed no evidence of bone metastasis, and the brain CT was normal.\nA core biopsy of the lung mass was performed under ultrasound guidance. Microscopically, the normal tissue structure was obscured, with abundant cytoplasm and atypical cells showing diffuse infiltration. The nuclei were round or irregular, with occasional visible nuclear grooves, and mitotic figures were rare. Histopathological examination showed poorly differentiated cancer. Immunohistochemical staining showed CK (+), ALK (+), EMA (−), CK8/18 (+), TTF−1 (−), P40 (−), Calponin (−), CD20 (−), and Ki-67 (+, 10%) ( Figure 1 ). Next-generation sequencing of the tumor biopsy specimen detected an EML4-ALK gene fusion (abundance, 7.88%; average sequencing depth of target regions, 3,046.34) ( Table 1 ). Due to the unusual histopathological features and atypical immunophenotype, we sent the slides to Shanghai Ackerman Biotechnology for further consultation. The results of the immunostaining showed that ALK immunohistochemistry was positive, while BRGI immunohistochemistry was negative ( Figure 1 ). The final diagnosis was stage IV non-small lung cancer with SMARCA4-deficient and EML4-ALK, accompanied by pleural metastasis (staging was cT4N0M1a IVA).\nBased on guidelines, he began treatment with ensartinib (225 mg orally, once daily) in August after providing informed consent. After 3 weeks, the patient returned for a follow-up visit, and clinical evaluation showed that vital signs were stable. Blood tests indicated mildly increased liver enzyme levels, within the watchable range. Chest CT showed that the primary lung tumor lesion had reduced to 10.2 cm × 6.8 cm × 13.1 cm ( Figure 2 ). Three months later, the patient underwent a second chest CT scan in the outpatient clinic for efficacy evaluation. The main tumor in the left lung had further regressed to approximately 3.4 cm × 4.4 cm × 8.4 cm ( Figure 2 ). The pleural effusion was completely absorbed. No metastatic signs were observed in the contralateral lung. The sum of the target diameters decreased by 48% compared to the baseline, achieving Response Evaluation Criteria in Solid tumors (RECIST) 1.1 partial response (PR). No treatment-related adverse reactions were observed during the course of the medication. During home treatment, the patient was able to independently carry out daily tasks and activities, with no significant functional impairments or decline in quality of life. Based on the current clinical benefits, the patient and the clinician reached a consensus to continue the original treatment regimen. Subsequently, the patient will undergo regular follow-up as an outpatient.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40416876_tr.json",
+    "source_pmid": "40416876",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40416876_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:22:09",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case Report: Ensartinib as a first-line treatment for SMARCA4-deficient and EML4-ALK non-small cell lung cancer",
+    "author": "Yanqing Pan; Lingxin Yan; Shaoxi Wang; Huiling Li; Quanfang Chen",
+    "date": "2025-05-09"
+  },
+  "rejection_reason": null
+}

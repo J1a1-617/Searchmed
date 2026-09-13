@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "40446626_tr.json",
+    "source_pmid": "40446626",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40446626_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:22:52",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "Nivolumab plus ipilimumab with chemotherapy as first-line treatment of patients with metastatic non-small-cell lung cancer: final, 6-year outcomes from CheckMate 9LA",
+    "author": "DP Carbone; T-E Ciuleanu; M Cobo; M Schenker; B Zurawski; J Menezes; E Richardet; E Felip; Y Cheng; O Juan-Vidal; A Alexandru; H Mizutani; N Reinmuth; S Lu; M Reck; T John; A Scherpereel; P De Marchi; T Aoyama; P Sathyanarayana; DJ Grootendorst; N Hu; V Ip; Y-H Hung; LG Paz-Ares",
+    "date": "2025-05-29"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: Neoadjuvant targeted therapy with dacomitinib for a patient with stage IIIA lung adenocarcinoma harboring EGFR G719X mutation\nPMID: \nAuthors: \n\nAbstract\nThe effectiveness of epidermal growth factor receptor tyrosine kinase inhibitors (EGFR TKIs) has been established, leading the NCCN Guidelines to recommend it as a first-line treatment for patients with advanced EGFR mutation-positive non-small cell lung cancer (NSCLC). However, there is still controversy about the use of neoadjuvant TKI treatment for patients with stage III EGFR mutation-positive NSCLC. Here, we firstly report that a stage IIIA lung adenocarcinoma patient benefited from chemotherapy and dacomitinib as neoadjuvant targeted therapy based on EGFR G719X mutation, achieving a pathological downstaging and the chance of radical surgical resection. Our case describes dacomitinib use as neoadjuvant targeted therapy for EGFR positive advanced NSCLC and highlights the application of molecular testing for the better treatment decision making.\nKeywords: uncommon EGFR mutations, EGFR G719X, neoadjuvant targeted therapy, dacomitinib, NSCLC\n\nCase Presentation\nA 54-year-old Chinese male with 30 years of smoking history presented with a worsening cough for 3 months, with a performance status score of 1. In April 2023, an enhanced computed tomography (CT) revealed a 22 mm × 12 mm × 16 mm mass in the right upper lobe with invasion in the right hilum and mediastinal (Figure 1A and B), which were confirmed by positron emission tomography-CT (PET-CT) scan. Immunohistochemistry (IHC) analysis of the biopsy from the lesion in the upper right lobe of the lung was positive for TTF-1, NpA, CK7, CD5/6 and Ki67 (60%); and negative for p40, p63 and CD56. The patient was diagnosed with stage IIIA lung adenocarcinoma (cT1cN2M0). The follow-up targeted NGS analysis of his lung lesion biopsy identified an EGFR G719X with a mutant allele frequency (MAF) of 3.8%. After a multiple disciplinary team (MDT) discussion, the initial tumor was considered unresectable due to metastasis in the right hilum and mediastinum. In May 2023, two cycles of PC chemotherapy (pemetrexed with 0.9g d1 and carboplatin with 600mg d1) and dacomitinib (30mg) were given. The chest CT showed obvious shrinkage in the lesions in the right upper lung lobe and the lymph nodes of the mediastinum, contributing to partial response (PR) (Figure 1B). In July 2023, video-assisted thoracic surgery (VATS) with right upper lobectomy was performed. Intraoperative exploration revealed that the tumor was located in the right upper lobe, measuring approximately 1.5*1.5 cm with unclear boundaries. The postoperative pathology results indicated that 10% of the tumor cells remained alive, surrounded by significant fibrosis, necrosis, as well as inflammatory and immune cells (Figure 2A and B). After chemotherapy and dacomitinib induction, there were no lymph node metastases, and the pathological stage was ypT1bN0M0. After the surgery, two cycles of PC chemotherapy were administered, followed by targeted therapy with dacomitinib as adjuvant treatment for 2 more years in accordance with the diagnosis and treatment guidelines. At the final follow-up in September 2024, no adverse events or disease progression had occurred. A progression-free survival (PFS) of more than 14 months was achieved.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40206237_tr.json",
+    "source_pmid": "40206237",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40206237_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:52:45",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Neoadjuvant Targeted Therapy with Dacomitinib in a Stage IIIA Non-Small-Cell Lung Cancer Patient Harboring EGFR G719X: A Case Report",
+    "author": "Dan Li; Xin Liu; Yang Liu; Yue Zhu; Dafu Yang; Jincheng Song; Zhaoxia Dai",
+    "date": "2025-04-05"
+  },
+  "rejection_reason": null
+}

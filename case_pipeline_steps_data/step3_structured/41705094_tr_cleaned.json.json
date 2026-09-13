@@ -1,0 +1,124 @@
+{
+  "provenance": {
+    "source_filename": "41705094_tr_cleaned.json",
+    "source_pmid": null,
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.9
+  },
+  "baseline_clinical_profile": {
+    "age": 50,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": null,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2024-01",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "UICC 8th",
+    "tnm_stage": "cT1cN3M1c",
+    "overall_stage": "IVB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": [
+      "liver",
+      "T12 vertebra",
+      "L3 vertebra",
+      "lymph nodes"
+    ]
+  },
+  "timeline_events": [
+    {
+      "time": "2024-01",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EML4-ALK rearrangement"
+        ],
+        "sample": "lung primary tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "cisplatin",
+          "pemetrexed",
+          "pembrolizumab"
+        ],
+        "type": "chemoimmunotherapy",
+        "dosage": {
+          "cisplatin": "null",
+          "pemetrexed": "null",
+          "pembrolizumab": "null"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 4
+      }
+    },
+    {
+      "time": "2024-04",
+      "event_type": "progression + treatment",
+      "molecular": {
+        "alterations": [],
+        "sample": null
+      },
+      "treatment": {
+        "line": "2L",
+        "regimen": [
+          "docetaxel",
+          "ramucirumab"
+        ],
+        "type": "chemotherapy",
+        "dosage": {
+          "docetaxel": "null",
+          "ramucirumab": "null"
+        }
+      },
+      "response": {
+        "best": "SD",
+        "duration_months": 2
+      }
+    },
+    {
+      "time": "2024-06",
+      "event_type": "molecular + treatment",
+      "molecular": {
+        "alterations": [
+          "ALK inversion",
+          "ALK-EML4 rearrangement"
+        ],
+        "sample": "tumor cells"
+      },
+      "treatment": {
+        "line": "3L",
+        "regimen": [
+          "alectinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "alectinib": "600 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 7
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": 7,
+    "survival_status": "alive",
+    "cause_of_death": null,
+    "last_follow_up": "2024-08"
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Detection of a rare EML4-ALK gene rearrangement through next-generation sequencing.",
+      "Successful treatment with alectinib leading to rapid clinical improvement.",
+      "Sustained disease control for more than 7 months."
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

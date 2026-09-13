@@ -1,0 +1,92 @@
+{
+  "provenance": {
+    "source_filename": "38638860_tr_cleaned.json",
+    "source_pmid": "",
+    "extraction_timestamp": "2024-01-15T10:30:00Z",
+    "document_type": "case_report",
+    "confidence_score": 0.8
+  },
+  "baseline_clinical_profile": {
+    "age": 70,
+    "sex": "female",
+    "smoking_status": "never_smoker",
+    "pack_years": 0,
+    "presenting_symptoms": [],
+    "diagnosis_date": "2023-06",
+    "cancer_type": "NSCLC",
+    "histology": "lung adenocarcinoma",
+    "tnm_stage_system": "AJCC 8th",
+    "tnm_stage": "cT3N2M0",
+    "overall_stage": "IIIB",
+    "baseline_primary_site": "lung",
+    "metastatic_sites_at_baseline": []
+  },
+  "timeline_events": [
+    {
+      "time": "2023-06",
+      "event_type": "diagnosis + molecular",
+      "molecular": {
+        "alterations": [
+          "EGFR p.G719X (c.2155G>T, p.Gly719Cys)",
+          "EGFR p.S768I (c.2303G>T, p.Ser768Ile)"
+        ],
+        "sample": "lung tumor"
+      },
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "befotertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "befotertinib": "75 mg daily (increased to 100 mg daily after three weeks)"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 3
+      }
+    },
+    {
+      "time": "2023-09",
+      "event_type": "treatment + follow_up",
+      "molecular": {},
+      "treatment": {
+        "line": "1L",
+        "regimen": [
+          "befotertinib"
+        ],
+        "type": "targeted",
+        "dosage": {
+          "befotertinib": "100 mg daily"
+        }
+      },
+      "response": {
+        "best": "PR",
+        "duration_months": 1
+      },
+      "safety": {
+        "adverse_events": [
+          "local rash (Grade 1)"
+        ],
+        "dose_adjustments": []
+      }
+    }
+  ],
+  "drug_interaction": null,
+  "outcome_summary": {
+    "survival_months": null,
+    "survival_status": "unknown",
+    "cause_of_death": null,
+    "last_follow_up": null
+  },
+  "knowledge_annotation": {
+    "key_findings": [
+      "Patient exhibited rare complex EGFR mutations (p.G719X/p.S768I)",
+      "Achieved partial response with befotertinib treatment",
+      "No severe adverse events observed"
+    ],
+    "ddi_relevance": "none",
+    "generalizability": "medium"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "text": "Title: [文献标题]\nPMID: [PubMed ID]\nAuthors: [作者列表]\n\nAbstract\nEpidermal growth factor receptor (EGFR)-activating mutations are major oncogenic mechanisms in non-small cell lung cancer (NSCLC). Most patients with NSCLC with EGFR mutations benefit from targeted therapy with EGFR- tyrosine kinase inhibitors (TKIs). One of the main limitations of targeted therapy is that the tumor response is not durable, with the inevitable development of drug resistance. Previous studies demonstrated that the potential resistance mechanisms are diverse, including the presence of EGFR T790M, MET amplification, mesenchymal transformation, and anaplastic lymphoma kinase (ALK) rearrangement. The patient in our report was diagnosed with stage IA lung adenocarcinoma harboring the EGFR L858R mutation and underwent radical surgery. The patient received icotinib for 12 months after recurrence. Subsequent molecular analysis of the left pleural effusion indicated that LCLAT1-ALK fusion might be an underlying mechanism contributing to the acquired resistance to icotinib. Ensartinib was prescribed, but the lesion in the right lung continued to progress. Hence, a re-biopsy and molecular analysis of lesions in the right lung was performed to solve this problem. In contrast to the left pleural effusion, EGFR exon 20 T790M might have mediated the acquired resistance in lesions in the right lung of this patient. The combination of osimertinib and ensartinib has achieved a rapid partial response until now. The complexity and heterogeneity in our case may provide new insights into the resistance mechanisms of targeted therapy.\n\nCase Presentation\nA 64-year-old man with no smoking history and no history of cancer presented to our hospital in September 2016 with a primary tumor (1.5 × 1.5 cm) in his upper left lung (Figure 1). A positron emission tomography/computed tomography (PET/CT) scan revealed a mass in the upper left lung with intense uptake of (18F) fluorodeoxyglucose and no distance metastasis. Postoperatively, the patient was diagnosed with adenocarcinoma stage IA (pT1bN0M0). The immunohistochemical staining is shown in Figure 2. Amplification refractory mutation system polymerase chain reaction (EGFR/ALK/ROS1) of the resected tissue identified EGFR exon 21 L858R, and negativity for ALK fusion (Table 1). After 12 months, intrapulmonary metastases were detected by computed tomography (CT). Therefore, treatment with icotinib hydrochloride tablets (125 mg three times daily) was initiated in September 2017. The patient experienced a rapid partial response (PR) according to the Response Evaluation Criteria in Solid Tumors (RECIST). The timeline of the disease progression is shown in Figure 1. After 15 months of icotinib treatment, a CT scan of the patient revealed progressive disease (PD) (Figure 1). Due to the local progression of the lesions in the right lung, icotinib treatment was continued until April 2021. The patient experienced serious pleural effusion on the left side and significantly enlarged para-aortic lymph nodes (6, 30.3 mm) (Figure 1). Pleural drainage was performed to alleviate the clinical symptoms, and next-generation sequencing (48-gene panel) of the pleural effusion was conducted to explore the mechanism of icotinib resistance. The results revealed an LCLAT1-ALK fusion and TP53 C176G in addition to EGFR exon 21 L858R. Consequently, the patient started ensartinib (225 mg one time daily) as the next treatment in May 2021, as ensatinib has fewer adverse reactions than ceratinib. After 1 month, chest CT revealed local progression of the lesions in the right lung, as well as a decrease in pleural effusion and para-aortic lymph nodes (6, 28.4 mm). Given the possibility of different drug resistance mechanisms in different lesions, a biopsy specimen was obtained by CT-guided fine-needle aspiration (FNA). Next-generation sequencing (48-gene panel) of the tissue samples obtained from the lesions on the right lung in June 2021 revealed EGFR exon 20 T790M mutation, TP53 C176G, and EGFR exon 21 L858R, with no ALK fusion. Hence, combination therapy with osimertinib (80 mg one time daily) and ensartinib (225 mg one time daily) was administered. One month later, a CT scan revealed considerable reductions in the lesion sizes in the right lung, para-aortic lymph nodes, and pleural effusion. Regular follow-up chest CT indicated that the lesion was stable through March 2022 (Figure 1). During the treatment with combination therapy, the patient developed a local rash and transient elevation of his serum creatine kinase level, which required no special treatment. The patient provided written informed consent for the publication of this case.",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "35872785_tr.json",
+    "source_pmid": "35872785",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/35872785_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:18:23",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Case Report: Heterogeneity of Resistance Mechanisms in Different Lesions Co-Mediate Acquired Resistance to First-Line Icotinib in EGFR Mutant Non-Small Cell Lung Cancer",
+    "author": "Zhicong Liu; Hui Dong; Wenyan Chen; Bin Wang; Dongxiang Ji; Wei Zhang; Xuefei Shi; Xueren Feng",
+    "date": "2022-07-07"
+  },
+  "rejection_reason": null
+}

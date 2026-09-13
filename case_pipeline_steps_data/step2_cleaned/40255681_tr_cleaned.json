@@ -1,0 +1,28 @@
+{
+  "text": "Title: Osimertinib resistance in a patient with advanced lung adenocarcinoma harboring EGFR and BRAF mutations\nPMID: \nAuthors: \n\nAbstract\nOsimertinib has become the standard of care in the first-line treatment of advanced non-small cell lung cancer (NSCLC) harboring epidermal growth factor receptor (EGFR) mutations. Although previous studies reported that the BRAF V600E mutation is a unique resistance mechanism to osimertinib, the treatment of lung adenocarcinoma patients harboring both EGFR and acquired BRAF-V600E comutations remains unclear. Here, we report a case of a 36-year-old woman diagnosed with stage IV lung adenocarcinoma harboring the EGFR L858R mutation. She received osimertinib for 24 months and experienced progressive disease. Rebiopsy pathology revealed that the lung lesion was still adenocarcinoma, and NGS revealed gains of BRAF V600E and TP53 mutations in addition to the EGFR L858R mutation. This patient subsequently received aumolertinib in combination with dabrafenib and trametinib and achieved a complete response for 8 months. In conclusion, acquired BRAF-V600E mutations may contribute to osimertinib resistance. Aumolertinib plus BRAF inhibitors improves outcomes in patients with EGFR-L858R and acquired BRAF-V600E comutant lung adenocarcinoma in whom osimertinib treatment has failed.\nKeywords: lung adenocarcinoma, osimertinib, aumolertinib, dabrafenib and trametinib, BRAF V600E\n\nCase Presentation\nIn March 2022, a 36-year-old woman presented to Anhui Chest Hospital with cough and chest pain for 2 months. The patient had no history of smoking. On 21 March 2022, a thoracoscopic left pleural biopsy was performed after a chest computed tomography (CT) revealed left pleural thickening and pleural effusion (Figure 1A and B). She was diagnosed with stage IV lung adenocarcinoma. An EGFR exon L858R (p.Leu858Arg) mutation was identified in plasma DNA via next-generation sequencing (NGS) using an amplicon-based Illumina platform. The patient received osimertinib as the first-line treatment. After approximately 2 months, a chest CT (22 May 2022) revealed a partial response (PR) according to the Response Evaluation Criteria in Solid Tumors v1.1 (Figure 1C and D). However, after approximately 24 months, a chest CT (4 April 2024) revealed progressive disease (PD) (Figure 1E and F). We performed a rebiopsy of the lung lesion, and NGS revealed the originally identified EGFR L858R mutation and new BRAF V600E and TP53 mutations (Figure 2). After clinical discussion, the patient started treatment with dabrafenib and trametinib plus aumolertinib concurrently. After 2 months, comparison of a chest CT scan (3 June 2024) (Figure 3A and B) with a previous CT scan (4 April 2024) revealed a CR. During treatment with dabrafenib and trametinib plus aumolertinib, the patient experienced a transient fever with a maximum temperature of 38.5 °C. After a series of tests, fever was determined to be an adverse reaction to drug therapy. After 8 months, a chest CT (6 Dec 2024) revealed that patient still exhibited a CR (Figure 3C and D).",
+  "is_case_report": true,
+  "provenance": {
+    "source_filename": "40255681_tr.json",
+    "source_pmid": "40255681",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/40255681_tr.json",
+    "cleaning_timestamp": "2026-06-03T20:17:23",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 3500,
+    "cleaned_length": 1200,
+    "reduction_ratio": 0.66,
+    "sections_identified": {
+      "abstract_present": true,
+      "case_presentation_present": true,
+      "discussion_removed": true,
+      "references_removed": true
+    }
+  },
+  "metadata": {
+    "title": "Combination of Aumolertinib, Dabrafenib, and Trametinib for a Patient with Advanced Lung Adenocarcinoma with an Osimertinib-Induced BRAF V600E Mutation: A Case Report",
+    "author": "Diming Wang; Wei Ye; Zihuan Yin; Ning Xu; Jie Ma",
+    "date": "2025-04-13"
+  },
+  "rejection_reason": null
+}

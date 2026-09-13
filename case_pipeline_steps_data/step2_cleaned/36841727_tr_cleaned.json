@@ -1,0 +1,23 @@
+{
+  "text": "",
+  "is_case_report": false,
+  "provenance": {
+    "source_filename": "36841727_tr.json",
+    "source_pmid": "36841727",
+    "original_file": "/Users/jiayi/Documents/算法/THUNLP/肿瘤解决需求/demo 1/case pip/pipeline_10_batch/step1_extracted/36841727_tr.json",
+    "cleaning_timestamp": "2026-06-03T19:25:38",
+    "model": "gpt-4o-mini-2024-07-18"
+  },
+  "cleaning_stats": {
+    "original_length": 0,
+    "cleaned_length": 0,
+    "reduction_ratio": 0,
+    "sections_identified": {}
+  },
+  "metadata": {
+    "title": "A Multicenter Retrospective Chart Review of Clinical Outcomes Among Patients With KRAS G12C Mutant Non–Small Cell Lung Cancer",
+    "author": "Wade T Iams; Meridith L Balbach; Sharon Phillips; Adrian Sacher; Christine Bestvina; Vamsidhar Velcheti; Xiao Wang; Melina E Marmarelis; Nan Sethakorn; Ticiana Leal; Paul E Sackstein; Chul Kim; MD Andrew Robinson; Kathan Mehta; Robert Hsu; Jorge Nieva; Tejas Patil; D Ross Camidge",
+    "date": "2023-02-08"
+  },
+  "rejection_reason": "队列研究/统计分析，非个案报道"
+}
